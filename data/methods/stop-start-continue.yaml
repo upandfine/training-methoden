@@ -1,0 +1,211 @@
+slug: stop-start-continue
+canonical_name: Stop – Start – Continue
+synonyms:
+  - synonym: Start Stop Continue
+    language: en
+  - synonym: Drei-Spalten-Reflexion
+    language: de
+short_description: >
+  Einfache Reflexionsstruktur in drei Spalten: Was sollten wir AUFHÖREN zu tun?
+  Was sollten wir ANFANGEN? Was sollten wir BEIBEHALTEN? Klassisch für
+  Retrospektiven und Prozessverbesserung.
+originator: null
+origin_context: >
+  Verbreitete Retro-Methode; Ursprung nicht eindeutig einer Person zuzuordnen,
+  seit den 1990ern im agilen Umfeld etabliert und u.a. in Derby/Larsens
+  „Agile Retrospectives" (2006) beschrieben.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: feedback
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Drei-Spalten-Whiteboard auf Miro/Mural — eine der häufigsten Retros.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [reflective, feedback, diagnostic]
+duration_min_minutes: 20
+duration_typical_minutes: 45
+duration_max_minutes: 75
+materials:
+  - Flipchart mit drei Spalten oder Whiteboard-Template
+tags: [retro, drei-spalten, veraenderung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Agile Retrospectives — Making Good Teams Great"
+    author: Esther Derby, Diana Larsen
+    year: 2006
+    relation: reference
+    note: Retro-Standardwerk, beschreibt u.a. Start-Stop-Continue als Format.
+  - kind: book
+    title: "Retrospectives — The Scrum Guide Companion"
+    author: Luis Gonçalves, Ben Linders
+    year: 2014
+    relation: practice_guide
+  - kind: url
+    title: "Retromat — Retrospective Plans"
+    url: https://retromat.org/
+    relation: practice_guide
+    note: Umfangreiche Retro-Bibliothek, enthält Start-Stop-Continue-Varianten.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kontext & Scope setzen
+    duration_minutes: 5
+    trainer_action: >
+      Scope klar formulieren: Sprint, Projekt, Quartal, Meeting-Format?
+      Drei Spalten sichtbar machen (STOP, START, CONTINUE). Regel:
+      Fokus auf Handlungen/Verhalten, nicht Personen.
+    participant_action: >
+      Scope aufnehmen, Reflexionsraum öffnen, ggf. eigene Notizen.
+    note: >
+      Ohne klaren Scope driftet die Retro. „Unser letzter Sprint" ist
+      präziser als „unsere Zusammenarbeit generell".
+  - order: 2
+    label: Stille Sammel-Phase
+    duration_minutes: 10
+    trainer_action: >
+      Jede:r schreibt still Post-its — pro Spalte 2-3 Stichpunkte.
+      Keine Diskussion. Timer sichtbar. Bei großen Gruppen: Post-its
+      noch nicht ankleben, Hand hoch wenn fertig.
+    participant_action: >
+      Eigene Punkte in allen drei Spalten notieren, kurz und konkret
+      („Stop: tägliche Stand-ups >15 min").
+    note: >
+      Stille Phase ist entscheidend — ohne sie dominieren die
+      Schnell-Sprecher. Introvertierte bekommen Raum.
+  - order: 3
+    label: Clustern & Präsentieren
+    duration_minutes: 15
+    trainer_action: >
+      Post-its an Spalten kleben, jede:r erklärt kurz eigene Punkte
+      (30 sek pro Punkt). Moderation clustert ähnliche Punkte
+      visuell zusammen.
+    participant_action: >
+      Eigene Post-its vorstellen, bei Clustern aktiv mitziehen.
+    note: >
+      Cluster zeigen Konsens. Ein einzelner Punkt in STOP kann wichtig
+      sein, aber 5 ähnliche zeigen: „das beschäftigt alle".
+  - order: 4
+    label: Priorisierung
+    duration_minutes: 10
+    trainer_action: >
+      Dot-Voting: jede:r 3 Punkte auf die dringendsten Themen
+      (egal in welcher Spalte). Top 3-5 werden zu Aktionen.
+    participant_action: >
+      Priorisieren, mit Punkten markieren.
+    note: >
+      Weniger ist mehr. Fünf Aktionen werden umgesetzt, fünfzehn nicht.
+      Gruppen überschätzen hier regelmäßig ihre Umsetzungskapazität.
+  - order: 5
+    label: Aktionen & Commitment
+    duration_minutes: 5
+    trainer_action: >
+      Zu jeder Top-Priorität: konkrete Aktion („Was genau wer bis wann?").
+      Verantwortliche nennen, Dokumentation sichern (Foto, geteiltes
+      Dokument).
+    participant_action: >
+      Verantwortung übernehmen, Aktionen konkret formulieren.
+    note: >
+      „STOP mit X" ohne konkrete Ersatz-Handlung funktioniert selten.
+      Besser: „STOP X, START Y stattdessen."
+
+variations:
+  - name: Klassisch (drei Spalten)
+    description: >
+      Start-Stop-Continue in drei Spalten, linear abgearbeitet.
+      Sprint-Retro-Standard.
+    when_to_use: >
+      Agile Teams, regelmäßige Retros, operative Prozess-Verbesserung.
+  - name: Individuelle Selbst-Retro
+    description: >
+      Einzelperson füllt die drei Spalten für sich selbst aus
+      (eigenes Verhalten, eigene Arbeit). Als Journal-Eintrag oder
+      Quartals-Check.
+    when_to_use: >
+      Persönliche Entwicklung, Coaching, Selbstmanagement-Trainings.
+  - name: Erweiterung mit MORE/LESS
+    description: >
+      Fünf Spalten: MORE OF, LESS OF, START, STOP, CONTINUE.
+      Differenzierter, längere Diskussion.
+    when_to_use: >
+      Wenn Handlungen nicht binär sind — Lautstärke, Frequenz,
+      Intensität.
+  - name: Peer-Feedback-Variante
+    description: >
+      Feedback an einzelne Person: „Was soll X weitermachen / anfangen
+      / lassen?". Gruppen-Feedback, anonym oder offen.
+    when_to_use: >
+      Führungskräfte-Feedback, 360°-light, Teamrollen-Feedback.
+  - name: Remote (Miro/Mural)
+    description: >
+      Drei-Spalten-Template, digitale Post-its, Dot-Voting-Emoji.
+      Timer-Widget. Async-Variante: 24h Sammelphase vor Live-Retro.
+    when_to_use: >
+      Verteilte Teams, Standard für Remote-Retros.
+    setting_codes: [remote_sync]
+  - name: Asynchron komplett
+    description: >
+      Formular mit 3 Feldern, 48h Frist. Zusammenfassung im
+      Chat/Wiki, Entscheidungen im nächsten Sync.
+    when_to_use: >
+      Teams ohne gemeinsame Live-Zeit, internationale Verteilung.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Punkte werden zu abstrakt („mehr Kommunikation", „weniger Stress").
+    countermeasure: >
+      Nachfrage-Pflicht der Moderation: „Was genau meinst du? Wann
+      zuletzt passiert? Was wäre ein Beispiel?". Konkret > generisch.
+    severity: common
+  - issue: >
+      STOP-Spalte wird zum Kritik-Ablassventil, Personen werden benannt.
+    countermeasure: >
+      Regel: Verhalten, nicht Personen. Moderation reformuliert:
+      „Wir stoppen Verhalten X, unabhängig von wer".
+    severity: common
+  - issue: >
+      Aktionen werden formuliert, aber niemand fühlt sich verantwortlich.
+    countermeasure: >
+      Pro Aktion explizit Name und Datum. Ohne Owner wird sie
+      gestrichen oder umformuliert bis jemand übernimmt.
+    severity: common
+  - issue: >
+      Alle 3 Spalten werden gefüllt, auch wenn zu einer Spalte nichts
+      einfällt — Scheinbeiträge.
+    countermeasure: >
+      Spalten dürfen leer bleiben. Besser 2 konkrete STOPs als 2 STOPs
+      + 2 erfundene STARTs.
+    severity: rare
+  - issue: >
+      Team macht dieselben Retros, dieselben Punkte, nichts ändert
+      sich („Retro-Ritual ohne Wirkung").
+    countermeasure: >
+      Vorherige Aktionen am Anfang der Retro prüfen. Nicht umgesetzte
+      Aktionen benennen: Wollen wir die nochmal? Was blockiert? Sonst
+      Aktion streichen.
+    severity: common
+  - issue: >
+      Remote: wenige aktive, viele passive — Post-its nur von 2-3
+      Personen.
+    countermeasure: >
+      Stille Schreibphase mit Timer erzwingen, Moderation prüft
+      visuell. „Jede:r mindestens 3 Punkte" als explizite Regel.
+    severity: common
+    setting_codes: [remote_sync]

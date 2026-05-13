@@ -1,0 +1,208 @@
+slug: rhythmusspiel-flinke-haende
+canonical_name: Rhythmusspiel „Flinke Hände"
+synonyms:
+  - synonym: Clap Rhythm Game
+    language: en
+  - synonym: Klatschrhythmus
+    language: de
+short_description: >
+  Die Gruppe klatscht einen einfachen Rhythmus, nach und nach werden Variationen
+  (Schnipsen, Stampfen, Ausrufe) hinzugefügt. Fokus, Gleichzeitigkeit und
+  körperliche Präsenz werden aktiviert.
+originator: null
+origin_context: >
+  Aus der Rhythmik- und Theaterpädagogik übernommen; verwandt mit
+  Boomwhackers-Übungen und Body-Percussion-Routinen.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Latenz verhindert synchrones Klatschen; taugt nur als Einzel-Echo.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium, large, plenary]
+target_audiences: [school, youth, adult_education]
+method_types: [energizer, game]
+duration_min_minutes: 3
+duration_typical_minutes: 5
+duration_max_minutes: 10
+tags: [energizer, rhythmus, koerperlich, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Rhythmik und Musik in der Jugendarbeit"
+    author: Marianne Steffen-Wittek
+    year: 2015
+    relation: practice_guide
+    note: Body-Percussion-Übungen als Aktivierungs-Methoden.
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+  - kind: book
+    title: "Theaterpädagogik"
+    author: Gerd Koch
+    year: 2010
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kreis bilden & Grundrhythmus zeigen
+    duration_minutes: 1
+    trainer_action: >
+      Alle im Stuhl- oder Stehkreis. Moderation zeigt
+      einfachen Rhythmus: zwei Mal klatschen, ein Mal
+      schnipsen. Alle nachmachen. Bis es gemeinsam läuft.
+    participant_action: >
+      Aufmerksam zuschauen, mitmachen, synchronisieren.
+    note: >
+      Einfach anfangen. Zu komplexer Start verliert Gruppe
+      sofort. 3-Takt-Rhythmus reicht meist.
+  - order: 2
+    label: Variationen nacheinander hinzufügen
+    duration_minutes: 2
+    trainer_action: >
+      Rhythmus mehrfach wiederholen. Dann Variationen
+      hinzufügen: "Zwei klatschen, ein schnipsen,
+      Name sagen." Oder: "Klatschen, stampfen, 'hey!'".
+      Jede Variation 3-4× wiederholen.
+    participant_action: >
+      Synchronisieren, bei Variationen mitgehen,
+      aufmerksam bleiben.
+    note: >
+      Steigern, aber nicht überfordern. Wenn TN lachen:
+      gut. Wenn sie resigniert stillstehen: zu komplex,
+      vereinfachen.
+  - order: 3
+    label: Rollen-Wechsel (freiwillig)
+    duration_minutes: 1
+    trainer_action: >
+      "Wer möchte den Rhythmus anführen?" TN übernimmt
+      Führung. Kann eigenen Rhythmus machen. Gruppe folgt.
+      Mehrere Freiwillige nacheinander.
+    participant_action: >
+      Freiwillig vorführen oder folgen. Kreativ werden.
+    note: >
+      Rollen-Wechsel macht niederschwellig spielerisch.
+      Wer nicht will, folgt. Kein Zwang.
+  - order: 4
+    label: Abschluss
+    duration_minutes: 1
+    trainer_action: >
+      Kurz zusammen klatschen oder gemeinsamer Applaus.
+      "Jetzt wach und bereit — los geht's mit...".
+      Übergang.
+    participant_action: >
+      Ausklingen lassen, zurück in Programmfluss.
+    note: >
+      Klarer Abschluss. Nicht lang ausklingen lassen, das
+      wirkt zerrissen. Energizer-Wirkung in nächsten
+      Programmpunkt mitnehmen.
+
+variations:
+  - name: Klassisch (3-Takt-Rhythmus + Variationen)
+    description: >
+      Grundrhythmus, dann Variationen hinzufügen.
+      Standardvariante.
+    when_to_use: >
+      Schule, Jugend, Team-Events. Nach Mittagspause oder
+      bei Energie-Knick. 8-25 TN.
+  - name: Body-Percussion (nur Körper)
+    description: >
+      Rhythmus nur mit Körper: klatschen, stampfen,
+      auf Oberschenkel schlagen, schnipsen. Ohne Geräte.
+    when_to_use: >
+      Wenn musikalische Komponente gewünscht. Schule,
+      Rhythmik-Kontext.
+  - name: Boomwhackers / Rhythmus-Instrumente
+    description: >
+      Statt nur Hände: einfache Instrumente. Jede:r bekommt
+      eines, gemeinsam Rhythmus spielen.
+    when_to_use: >
+      Längere Sessions, wenn Material verfügbar. Mehr
+      Musik, weniger Körper.
+  - name: Name-Rhythmus
+    description: >
+      Reihum: jede:r Name rhythmisch einsetzen
+      ("Ma-ri-a!"). Gruppe klatscht mit. Kombiniert
+      Namen-Lernen + Rhythmus.
+    when_to_use: >
+      Als Kennenlern-Energizer. Neue Gruppe.
+  - name: Aufsteigender Rhythmus
+    description: >
+      Moderator:in klatscht erst langsam, dann schneller,
+      dann wieder langsam. Gruppe folgt.
+    when_to_use: >
+      Als kurze Aktivierungs-Intro. 1-2 min, sehr schnell.
+  - name: Echo-Rhythmus
+    description: >
+      Moderation klatscht Muster vor, Gruppe wiederholt.
+      Muster werden komplexer. Aufmerksamkeits-Training.
+    when_to_use: >
+      Kinder, Jugend. Konzentrationsübung mit Spaß.
+
+pitfalls:
+  - issue: >
+      TN sind nicht im Takt — Rhythmus bricht zusammen.
+    countermeasure: >
+      Einfacher Anfang. Bei Bruch nicht frustriert abbrechen,
+      sondern langsamer neu starten. "Gemeinsam finden"
+      ist Teil der Übung.
+    severity: common
+  - issue: >
+      Senior-Corporate findet das zu verspielt.
+    countermeasure: >
+      Zielgruppenprüfung. Bei senior-Corporate: andere
+      Energizer (Stretching, Walk-and-Talk). Dieses ist
+      jugend-nah.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN — Klatschen/Stampfen
+      nicht möglich.
+    countermeasure: >
+      Alternative Geste (Schnipsen, Fingern-klopfen).
+      Anpassen, niemanden ausschließen.
+    severity: rare
+  - issue: >
+      Gruppe bleibt passiv — kein Lachen, kein Energie-
+      Anstieg.
+    countermeasure: >
+      Moderation selbst voller Einsatz. Variation bringen
+      (lauter, schneller, neues Element). Falls nichts
+      zündet: abbrechen und andere Methode.
+    severity: common
+  - issue: >
+      Zu laut für Nachbarräume.
+    countermeasure: >
+      Raum-Check vor Einsatz. Bei Problem: stillere
+      Variante (Schnipsen statt Klatschen). Rücksicht
+      auf Umgebung.
+    severity: common
+  - issue: >
+      Nach 5 min wird's langweilig.
+    countermeasure: >
+      Nach 5 min aussteigen. Energizer ist Impuls, kein
+      Haupt-Programm. Auf Hochpunkt beenden.
+    severity: common
+  - issue: >
+      Remote-Variante funktioniert nicht wegen Latenz.
+    countermeasure: >
+      Online: Echo-Variante (Moderation klatscht, TN
+      einzeln echoen) funktioniert besser als synchron.
+      Oder andere Remote-Energizer.
+    severity: common
+    setting_codes: [remote_sync]

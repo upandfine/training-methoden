@@ -1,0 +1,216 @@
+slug: aufstehen-setzen
+canonical_name: Aufstehen & Setzen
+synonyms:
+  - synonym: Stand-Up Poll
+    language: en
+  - synonym: Positionsabfrage
+    language: de
+short_description: >
+  Moderation macht Aussagen — wer zustimmt, steht auf. Schnelle visuelle
+  Abfrage von Meinungen, Erfahrungen oder Wissensstand. Aktivierend durch
+  Körpereinsatz.
+originator: null
+origin_context: Gruppenmoderation, Erwachsenenbildung.
+phases:
+  - code: warmup
+  - code: activation
+    is_primary: true
+  - code: expectations
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Varianten — Daumen hoch, Reaktions-Emojis, Mentimeter-Poll.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [activating, diagnostic]
+duration_min_minutes: 3
+duration_typical_minutes: 7
+duration_max_minutes: 15
+tags: [kurz, abfrage, bewegung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+    note: Aufstehen-Setzen als Schnellaktivierung mit Diagnose-Funktion.
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einführung & Spielregel
+    duration_minutes: 1
+    trainer_action: >
+      "Ich stelle ein paar Aussagen. Wer zustimmt, steht
+      auf — wer nicht, bleibt sitzen. Wer unsicher ist,
+      steht halb auf. Alle gleichzeitig."
+    participant_action: >
+      Regeln verstehen, aufmerksam auf Aussagen warten.
+    note: >
+      Gleichzeitigkeit ist wichtig — verhindert Herdentrieb.
+      Bei erstem Einsatz eine harmlose Probe-Frage ("wer
+      hat heute Kaffee getrunken?") macht den Effekt
+      greifbar.
+  - order: 2
+    label: 5-8 Aussagen mit Aufstehen
+    duration_minutes: 5
+    trainer_action: >
+      Aussagen nacheinander: von harmlos zu spezifischer.
+      "Wer Projekterfahrung hat, steht auf." / "Wer sich
+      mit Change-Management schon beschäftigt hat, steht
+      auf." / "Wer das Thema für das eigene Team relevant
+      findet, steht auf." Kurz Bild wahrnehmen, dann
+      nächste.
+    participant_action: >
+      Aufstehen, wenn zutrifft. Sitzen bleiben, wenn nicht.
+      Halb aufstehen bei Unsicherheit erlaubt.
+    note: >
+      Abfolge gestaffelt: erst unverfänglich, dann tiefer.
+      So fasst die Gruppe Mut, ehrlich zu antworten. Zu
+      intime Fragen am Anfang killen Offenheit.
+  - order: 3
+    label: Kurze Beobachtung nach jedem Aufstehen
+    duration_minutes: 0
+    trainer_action: >
+      Nach jedem Aufstehen kurz ansprechen: "Ah, etwa die
+      Hälfte — dann ist das für uns relevant." Nicht jede
+      einzelne Person kommentieren. Moderation nutzt Bild
+      als Info für Trainings-Design.
+    participant_action: >
+      Bild mitbekommen, eigene Position einordnen,
+      setzen.
+    note: >
+      Keine Wertung. "Super!" wertet, "Interessant, das
+      nehme ich mit" ist neutral. Auch "kein Überraschen"
+      ist OK zu sagen.
+  - order: 4
+    label: Abschluss-Bild & Überleitung
+    duration_minutes: 1
+    trainer_action: >
+      Kurzer Abschluss: "Danke, das hilft mir heute. Ich
+      werde folgende Schwerpunkte anpassen..." Methode in
+      Trainings-Ablauf einordnen.
+    participant_action: >
+      Zurück in Sitzpositionen, mental auf nächsten
+      Programmpunkt einstellen.
+    note: >
+      Methode ohne Konsequenz bleibt Show. Kurze Ableitung
+      ("deshalb machen wir X") gibt der Abfrage Wert.
+
+variations:
+  - name: Klassisch (5-8 Aussagen, Aufstehen)
+    description: >
+      Standard-Variante: Aussagen, Aufstehen, Bild sehen.
+      Kurz und aktivierend.
+    when_to_use: >
+      Seminar-Einstieg, Zwischenaktivierung, nach Sitzphasen.
+      6-40 TN.
+  - name: Vier-Ecken-Kombination
+    description: >
+      Statt binär (auf/sitz): mehr-kategoriell — Ecken im
+      Raum zeigen verschiedene Antwort-Optionen. TN bewegen
+      sich zur passenden Ecke.
+    when_to_use: >
+      Wenn Antworten mehr als 2 Optionen brauchen. Verwandt
+      mit Vier-Ecken-Methode.
+  - name: Daumen-Variante (sitzend)
+    description: >
+      Bei feststehender Bestuhlung: Daumen statt Aufstehen.
+      Hoch/seitlich/runter. Weniger Bewegung, gleiche
+      Funktion.
+    when_to_use: >
+      Beengte Räume, formelle Kontexte, wenn Aufstehen
+      unpassend ist.
+  - name: Remote-Variante (Kamera / Emoji)
+    description: >
+      Im Video: "Wer zustimmt, winkt / zeigt Thumbs-Up /
+      klickt Emoji-Reaktion." Bleibt im Kamerabild.
+    when_to_use: >
+      Online-Trainings. Funktioniert, schwächer als
+      Aufstehen.
+    setting_codes: [remote_sync]
+  - name: Reflexions-Aussagen (tiefer)
+    description: >
+      Aussagen sind reflexiv: "Wer sich heute schon mal
+      überfordert gefühlt hat...", "Wer gerade durch eine
+      Veränderung geht..." Mehr persönliche Tiefe.
+    when_to_use: >
+      Vertraute Gruppen, Coaching-Kontexte. Nicht
+      automatisch bei jeder Gruppe.
+  - name: Paar-Reflexion nach jeder Aussage
+    description: >
+      Nach jedem Aufstehen kurzer 30-Sek-Paaraustausch
+      ("Warum bist du aufgestanden?"). Mehr Tiefe, länger.
+    when_to_use: >
+      Lernkontexte, wenn Reflexion neben Aktivierung
+      erwünscht.
+
+pitfalls:
+  - issue: >
+      Aussagen zu intim — TN bleiben sitzen aus Scham.
+    countermeasure: >
+      Staffelung: harmlos → spezifisch → persönlich.
+      Aufbau von Vertrauen. Bei Unwohlsein: nächste
+      Aussage weniger persönlich machen.
+    severity: common
+  - issue: >
+      Sequenzielles Aufstehen → Bandwagon-Effekt.
+    countermeasure: >
+      "Auf drei gleichzeitig alle aufstehen, die zustimmen."
+      Timing klar. Nicht: "Wer... Das sehe ich." (Reihenfolge
+      entsteht).
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN können nicht aufstehen.
+    countermeasure: >
+      Alternative: Hand heben, Daumen hoch, Winken. Vorab
+      Barrierefreiheit prüfen. Niemand ausgeschlossen.
+    severity: rare
+  - issue: >
+      Keine Konsequenz aus dem Bild — Abfrage ohne
+      Wirkung.
+    countermeasure: >
+      Kurze Einordnung nach jeder Aussage: "Das nehme ich
+      mit." Oder am Ende: "Wegen X passe ich Y an."
+    severity: common
+  - issue: >
+      Aussagen werden zu viele (>10) — ermüdet.
+    countermeasure: >
+      5-8 Aussagen reichen. Mehr wird monoton. Dichte
+      > Menge.
+    severity: common
+  - issue: >
+      In Corporate-senior-Kontext wirkt Methode zu
+      spielerisch.
+    countermeasure: >
+      Daumen-Variante (sitzend) nutzen. Oder Emoji im
+      Chat bei Remote. Anpassen, ohne Methodik-Kern zu
+      verlieren.
+    severity: common
+  - issue: >
+      Moderation wertet Bild ("so viele — super!") —
+      beeinflusst nächste Runde.
+    countermeasure: >
+      Neutral beschreiben: "Etwa die Hälfte." "Das
+      sehe ich." Ohne Lob/Wertung.
+    severity: common

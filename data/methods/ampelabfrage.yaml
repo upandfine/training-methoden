@@ -1,0 +1,216 @@
+slug: ampelabfrage
+canonical_name: Ampelabfrage
+synonyms:
+  - synonym: Traffic Light Check
+    language: en
+short_description: >
+  Teilnehmende heben farbige Karten (rot/gelb/grün) zur Selbsteinschätzung:
+  z.B. Verständnis, Zustimmung, Tempo. Schnelle, visuelle Stimmungs- und
+  Lernstanderhebung.
+originator: null
+origin_context: Gängige Praxis in Schule, Beratung, Agile Retrospektiven.
+phases:
+  - code: activation
+    is_primary: true
+  - code: evaluation
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Reaktions-Emojis, farbige Hintergründe, oder Mentimeter/Slido-Poll.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [diagnostic, feedback]
+duration_min_minutes: 2
+duration_typical_minutes: 5
+duration_max_minutes: 8
+materials:
+  - Rote/gelbe/grüne Karten (oder adaptiert digital)
+tags: [kurz, lernstandsabfrage, visuell]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Visible Learning"
+    author: John Hattie
+    year: 2009
+    relation: reference
+    note: >
+      Formative Assessment als Schlüsselfaktor — Ampelabfrage
+      ist typische Technik aus dem Classroom Assessment.
+  - kind: book
+    title: "Classroom Assessment Techniques"
+    author: Thomas A. Angelo, K. Patricia Cross
+    year: 1993
+    relation: practice_guide
+    note: Zu den Fist-of-Five-Varianten verwandte CAT-Methoden.
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Karten austeilen & Bedeutung klären
+    duration_minutes: 1
+    trainer_action: >
+      Jede:r bekommt drei Karten — rot, gelb, grün. Oder
+      fingerbasiert: Daumen hoch/seitlich/runter. Bedeutung
+      festlegen: "Grün = klar/einverstanden, gelb = teils-teils,
+      rot = unklar/dagegen". Mit der Frage koppeln.
+    participant_action: >
+      Karten entgegennehmen, Bedeutung verstehen, innerlich
+      antworten.
+    note: >
+      Bedeutung muss kontextabhängig klar sein. Bei Lernstands-
+      Abfrage: "Grün = hab ich verstanden, rot = gar nicht."
+      Nicht generisch "gut/schlecht".
+  - order: 2
+    label: Konkrete Frage stellen
+    duration_minutes: 1
+    trainer_action: >
+      Präzise Frage: "Haben Sie Punkt X verstanden?", "Stimmen
+      Sie mit der Regel überein?", "Ist das Tempo angemessen?".
+      Nur EINE Frage auf einmal.
+    participant_action: >
+      Frage hören, entscheiden, Karte bereit halten.
+    note: >
+      Breite Fragen ("Wie finden Sie's?") liefern weniger
+      Info. Konkrete Fragen erzwingen klare Antworten —
+      Sinn der Methode.
+  - order: 3
+    label: Gleichzeitig zeigen
+    duration_minutes: 1
+    trainer_action: >
+      "Auf drei alle gleichzeitig Karte hoch." Überblick kurz
+      einsammeln. Digital: Emoji-Reaktion gleichzeitig
+      absetzen.
+    participant_action: >
+      Gleichzeitig Karte zeigen, ehrlich, ohne andere
+      abzuchecken.
+    note: >
+      Gleichzeitigkeit ist Pflicht. Sonst Bandwagon-Effekt.
+      Bei Remote: Emojis nach Countdown gleichzeitig.
+  - order: 4
+    label: Konsequenz ableiten
+    duration_minutes: 2
+    trainer_action: >
+      Je nach Bild: weitermachen (viel grün), Nachbesserung
+      (viel gelb), explizite Klärung (viel rot). "Sehe einige
+      gelbe — lassen Sie uns kurz nachfragen. Was ist unklar?"
+    participant_action: >
+      Konsequenz akzeptieren, bei Nachfragen ehrlich
+      ansprechen.
+    note: >
+      Ohne Konsequenz ist Methode Show. "Nur sehen" reicht
+      nicht — entweder explizit weiter oder explizit
+      klären.
+
+variations:
+  - name: Klassisch (3-Karten-Set)
+    description: >
+      Rote, gelbe, grüne Karten. Jeder hat alle drei, zeigt
+      passende. Standard-Variante.
+    when_to_use: >
+      Seminar-Mitte, bei Wissensvermittlung. Gut bei 8-40 TN.
+  - name: Finger-Variante (Daumen)
+    description: >
+      Statt Karten: Daumen hoch/seitlich/runter. Kein
+      Material nötig, spontan einsetzbar.
+    when_to_use: >
+      Impulsive Abfragen während Input, kein Vorlauf nötig.
+      Achtung: nicht mit Fist-of-Five verwechseln, das ist
+      0-5-Skala.
+  - name: Fünf-Ampel-Skala
+    description: >
+      Differenzierter: 5 Abstufungen (dunkelrot bis
+      dunkelgrün, oder 5 Emoji-Stufen). Mehr Tiefe.
+    when_to_use: >
+      Wenn feinere Unterscheidung gewünscht (z.B. "Wie
+      gut haben Sie X verstanden — 5 Stufen?").
+  - name: Remote (Emoji-Reactions)
+    description: >
+      Im Video-Tool Emoji-Reactions klicken (❤️ = grün,
+      🤔 = gelb, ❌ = rot). Oder Mentimeter-Color-Poll.
+      Automatische Zusammenfassung.
+    when_to_use: >
+      Online-Trainings, große Gruppen. Schnell, auswertbar.
+    setting_codes: [remote_sync]
+  - name: Anonyme Ampel (Zettel)
+    description: >
+      Statt Karten-Heben: farbige Zettel in Box werfen.
+      Anonym, schützt vor Gruppendruck.
+    when_to_use: >
+      Bei sensiblen Themen, hierarchischen Gruppen,
+      erwartungsgeladenen Kontexten.
+  - name: Selbsterklärende Ampel (mit Erläuterung)
+    description: >
+      Nach dem Zeigen: 1-2 Freiwillige erläutern ihre Wahl
+      ("Ich bin gelb, weil..."). Verbindet Quantifizierung
+      mit Qualifizierung.
+    when_to_use: >
+      Wenn Hintergrund wichtig, nicht nur Summenverteilung.
+      Bei kleinen Gruppen (< 15).
+
+pitfalls:
+  - issue: >
+      Frage zu vage — TN wissen nicht, was sie bewerten.
+    countermeasure: >
+      Eine präzise Frage pro Runde. "Tempo?" ist besser als
+      "Wie läuft's?". Bei mehreren Dimensionen: mehrere
+      Abfragen nacheinander.
+    severity: common
+  - issue: >
+      Sequenzielles Zeigen — Konformitätsdruck.
+    countermeasure: >
+      Zeitgleich zeigen lassen. Bei Unsicherheit: "Augen zu,
+      Karten hoch, Augen auf" — macht Ehrlichkeit leichter.
+    severity: common
+  - issue: >
+      Keine Konsequenz aus dem Ampel-Bild — bleibt Ritual.
+    countermeasure: >
+      Immer benennen + reagieren: "Viele gelbe — lassen Sie
+      uns kurz nachfragen." Methode verliert Wert ohne
+      Konsequenz.
+    severity: common
+  - issue: >
+      Karten sind nicht griffbereit — Methoden-Timing wird
+      langsam.
+    countermeasure: >
+      Karten an festen Ort (z.B. Sitzplatz) bei Start
+      verteilen. Bei Karten-Mangel: Daumen-Variante
+      verwenden.
+    severity: common
+  - issue: >
+      Gelbe Karte wird "Default-Wahl" — neutral zeigen alle.
+    countermeasure: >
+      Nachfragen bei vielen Gelben: "Was wäre nötig, um auf
+      grün zu kommen?" Bei anhaltender Tendenz: Skala
+      differenzierter (5 Stufen).
+    severity: common
+  - issue: >
+      Verwechslung mit Fist-of-Five oder Daumen-Abstimmung
+      (ähnliche, aber andere Methoden).
+    countermeasure: >
+      Klar benennen: Ampel = 3 Farben zu Frage, Fist-of-Five
+      = 0-5 Zustimmungs-Skala, Daumen = 3 Positionen ohne
+      Karten. Begriffe trennen.
+    severity: common
+  - issue: >
+      Remote: Tool-Reaktionen kommen spät oder inkonsistent.
+    countermeasure: >
+      Reaktions-Feature vorher testen. Fallback: Chat mit
+      "Bitte rot/gelb/grün schreiben". Einfachster Weg ist
+      meist verlässlichster.
+    severity: common
+    setting_codes: [remote_sync]

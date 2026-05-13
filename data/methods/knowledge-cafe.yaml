@@ -1,0 +1,240 @@
+slug: knowledge-cafe
+canonical_name: Knowledge Café
+synonyms:
+  - synonym: Knowledge Cafe
+    language: en
+  - synonym: Wissens-Café
+    language: de
+short_description: >
+  Variante des World Café mit Fokus auf Erfahrungs- und Expertenwissen.
+  Einstiegsimpuls durch Expert:innen, dann rotierende Tischrunden. Unterschied
+  zu World Café: kein neues Problem lösen, sondern bestehendes Wissen teilen.
+originator: David Gurteen
+origin_context: >
+  Entwickelt ab 2002 von David Gurteen als Gegenmodell zu Präsentationskonferenzen;
+  in der Wissensmanagement-Community etabliert.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: group_work
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Rotierende Breakouts mit Tisch-Notizen auf Mural.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: excellent
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative]
+duration_min_minutes: 90
+duration_typical_minutes: 120
+duration_max_minutes: 180
+materials:
+  - Tisch-Flipcharts oder digitale Boards
+tags: [wissen, cafe, rotation, gurteen]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Conversational Leadership"
+    author: David Gurteen
+    year: 2023
+    relation: originator
+    note: >
+      Gurteens Standard-Werk zu Knowledge Cafés und
+      Conversational Leadership.
+  - kind: url
+    title: "Gurteen.com — Knowledge Cafe"
+    url: https://conversational-leadership.net/knowledge-cafe/
+    relation: practice_guide
+    note: Methodischer Leitfaden mit Varianten und Beispielen.
+  - kind: book
+    title: "Großgruppenmethoden: Lebendig lernen — Veränderung gestalten"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Setup & Einführung
+    duration_minutes: 15
+    trainer_action: >
+      Tische à 4-6 TN, jeder Tisch mit Flipchart/Sticky.
+      Knowledge-Cafe-Prinzip erklären: "Wir teilen Wissen
+      und Erfahrung. Kein Konsens nötig — viele Stimmen
+      stehen lassen."
+    participant_action: >
+      Tisch finden, Materialien sehen, Konzept verstehen.
+    note: >
+      Knowledge Cafe ≠ World Cafe. Beim Knowledge Cafe
+      geht es um BESTEHENDES Wissen, nicht um neue
+      Problemlösung. Klar abgrenzen.
+  - order: 2
+    label: Expert:innen-Impuls
+    duration_minutes: 15
+    trainer_action: >
+      Kurzer Input (10-15 min) durch 1-2 Expert:innen
+      zum Thema. NICHT Lehrvortrag, sondern persönliche
+      Erfahrung + Provokationen + offene Fragen.
+    participant_action: >
+      Aufmerksam zuhören, eigene Erfahrungen aktivieren,
+      Fragen mental formulieren.
+    note: >
+      Impuls macht Tonart. Wer langweilig referiert,
+      bekommt langweilige Diskussionen. Pointiert,
+      offen, einladend.
+  - order: 3
+    label: Erste Tischrunde — Erfahrung teilen
+    duration_minutes: 25
+    trainer_action: >
+      An den Tischen: 25 min Diskussion zu vorgegebener
+      Frage ("Welche Erfahrung haben Sie mit X?").
+      Tisch-Notizen auf Flipchart. Moderation wandert.
+    participant_action: >
+      Eigene Erfahrungen teilen, anderer zuhören,
+      Notizen sammeln.
+    note: >
+      Tische bleiben unmoderiert — selbstorganisiert.
+      Knowledge Cafe vertraut auf Gruppen-Intelligenz.
+      Moderation interveniert nur bei Stockungen.
+  - order: 4
+    label: Tischwechsel & zweite Runde
+    duration_minutes: 25
+    trainer_action: >
+      "Wechseln Sie Tische — bleiben Sie nicht in
+      gleicher Konstellation." Eine Person bleibt als
+      "Tisch-Gastgeber:in", andere wechseln. Neue
+      Frage oder Vertiefung.
+    participant_action: >
+      Tisch wechseln, neue Konstellation, frische
+      Perspektiven einbringen.
+    note: >
+      Wechsel ist wichtig — verhindert, dass Wissen
+      in Cliquen bleibt. Cross-Pollination.
+  - order: 5
+    label: Dritte Runde (optional)
+    duration_minutes: 25
+    trainer_action: >
+      Bei längerer Session: dritte Runde mit nochmals
+      neuer Konstellation. Vertiefung oder Anwendungs-
+      Fokus.
+    participant_action: >
+      Drittes Tisch-Setup, weiterführende Diskussion.
+    note: >
+      Dritte Runde nur bei Zeit. Bei 90-min-Format:
+      auf zwei Runden beschränken.
+  - order: 6
+    label: Plenum-Synthese
+    duration_minutes: 15
+    trainer_action: >
+      "Was haben wir gelernt? Welche Muster, welche
+      Erkenntnisse?" Tisch-Highlights teilen,
+      gemeinsame Synthese. Moderation visualisiert.
+    participant_action: >
+      Highlight aus eigenem Tisch teilen, andere
+      Tische hören. Synthese gemeinsam bilden.
+    note: >
+      Wichtig: keine "richtige" Lösung herstellen,
+      sondern Wissens-Vielfalt würdigen. Knowledge
+      Cafe lebt von Pluralität.
+
+variations:
+  - name: Klassisch (3 Tischrunden)
+    description: >
+      Standard nach Gurteen: Impuls + 3 Runden +
+      Synthese.
+    when_to_use: >
+      Wissensaustausch in Communities, Konferenzen,
+      Branchentreffen. 20-100 TN.
+  - name: Kurz-Cafe (2 Tischrunden, 90 min)
+    description: >
+      Verkürzt: 2 Runden statt 3. Kompakter.
+    when_to_use: >
+      Halb-Tages-Workshops, wenn Zeit knapp.
+  - name: Themen-fokussiertes Knowledge Cafe
+    description: >
+      Mehrere Tische zu verschiedenen Aspekten eines
+      Themas. Gäste wählen interessanten Tisch.
+    when_to_use: >
+      Themenkonferenz mit mehreren Schwerpunkten.
+  - name: Remote Knowledge Cafe (Breakouts)
+    description: >
+      Online: Breakouts mit Rotation. Mural-Board als
+      Tisch-Doku. Funktioniert sehr gut online.
+    when_to_use: >
+      Verteilte Communities, Online-Konferenzen.
+    setting_codes: [remote_sync]
+  - name: Mit Pre-Cafe-Lektüre
+    description: >
+      TN lesen vorab Material, Cafe vertieft. Mehr
+      Tiefe, aber Aufwand für Vorbereitung.
+    when_to_use: >
+      Akademische Kontexte, professionelle Communities.
+  - name: Mehrtägiges Knowledge Cafe
+    description: >
+      Über mehrere Tage verteilt mit verschiedenen
+      Themen. Community-Aufbau-Format.
+    when_to_use: >
+      Konferenz-Reihen, Berufsverbände.
+
+pitfalls:
+  - issue: >
+      Methode wird mit World Cafe verwechselt — Gruppe
+      versucht, Probleme zu lösen.
+    countermeasure: >
+      Klar im Briefing: "Wissen teilen, nicht Probleme
+      lösen. Vielfalt akzeptieren." Bei Lösungs-Modus
+      sanft zurücklenken.
+    severity: common
+  - issue: >
+      Tische werden inhaltlich nicht moderiert —
+      Gespräch versandet.
+    countermeasure: >
+      Tisch-Gastgeber:innen-Rolle bewusst etablieren.
+      Bei Stocken Impuls von außen ("Wer hat noch
+      Erfahrung dazu?").
+    severity: common
+  - issue: >
+      Wechsel funktioniert nicht — TN bleiben sitzen.
+    countermeasure: >
+      Klares Wechsel-Signal (Glocke, Ansage). "Alle
+      außer Gastgeber:in stehen jetzt auf."
+      Konsequent durchsetzen.
+    severity: common
+  - issue: >
+      Expert:innen-Impuls wird Lehrvortrag — TN passiv.
+    countermeasure: >
+      Vorab Expert:innen briefen: "Persönliche Erfahrung,
+      offene Fragen, keine Lösungen." 15 min Maximum.
+      Provokationen erlaubt.
+    severity: common
+  - issue: >
+      Synthese-Phase wird endlos — alle Tische
+      berichten ausführlich.
+    countermeasure: >
+      Pro Tisch 2-3 Highlight-Sätze. Moderation
+      visualisiert, nicht ausschwafeln.
+    severity: common
+  - issue: >
+      Wissens-Vielfalt wird verflacht zu "Gemeinsamkeit".
+    countermeasure: >
+      Differenzen würdigen: "Tisch A sah X, Tisch B
+      sah Y — beides legitim." Nicht künstlich
+      vereinen.
+    severity: common
+  - issue: >
+      Online: Breakout-Wechsel verlieren Zeit.
+    countermeasure: >
+      Tools mit Auto-Rotation nutzen (Zoom). Pausen
+      einplanen. Strikte Zeit-Steuerung.
+    severity: common
+    setting_codes: [remote_sync]

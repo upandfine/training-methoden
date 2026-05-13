@@ -1,0 +1,231 @@
+slug: speed-debate
+canonical_name: Speed-Debate
+synonyms:
+  - synonym: Speed Debating
+    language: en
+  - synonym: Blitz-Debatte
+    language: de
+short_description: >
+  Teilnehmende debattieren in Paaren zu einer These — 2 Minuten Pro, 2 Minuten
+  Contra, dann Rollenwechsel und neuer Partner. Schnelle, energiegeladene
+  Auseinandersetzung mit unterschiedlichen Perspektiven.
+originator: null
+origin_context: >
+  Abgewandelt von Speed-Dating-Formaten (ab ca. 1998, Rabbi Yaacov Deyo).
+  In Debattiertraining und politischer Bildung vielfach eingesetzt.
+phases:
+  - code: activation
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: In rotierenden Breakout-Paaren — braucht saubere Zeitsteuerung.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large]
+target_audiences: [school, youth, ihk, adult_education, higher_education]
+method_types: [activating, cooperative]
+duration_min_minutes: 20
+duration_typical_minutes: 30
+duration_max_minutes: 45
+tags: [debatte, paararbeit, rotation]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Jugend debattiert — Methodenhandbuch"
+    author: Ansgar Kemmann et al.
+    year: 2015
+    relation: practice_guide
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Methoden politischer Bildung"
+    author: Wolfgang Sander
+    year: 2014
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Thesen vorbereiten & Setting erklären
+    duration_minutes: 5
+    trainer_action: >
+      3-5 zugespitzte Thesen vorbereiten ("Homeoffice
+      sollte Pflicht sein bis 4 Tage", "KI ersetzt
+      Lehrkräfte"). Setting erklären: "Paare debattieren
+      2 min Pro, 2 min Contra, dann neue Paare."
+    participant_action: >
+      Thesen verstehen, mental vorbereiten.
+    note: >
+      Thesen müssen polarisieren. Konsens-Thesen liefern
+      langweilige Debatten. Mut zur Spitze.
+  - order: 2
+    label: Erste Paare bilden & erste These
+    duration_minutes: 5
+    trainer_action: >
+      "Suchen Sie Partner:in. A: Pro 2 min. B: hört zu,
+      darf nicht unterbrechen." Per Los Pro/Contra-Rolle.
+      Erste These wird gespielt.
+    participant_action: >
+      Pro-Person: argumentiert für These. Contra:
+      hört aufmerksam, notiert.
+    note: >
+      Strikte Zeit-Disziplin. Bei Überzug abrupt stoppen.
+      Hört zu = schweigt. Diskussion erst nach Wechsel.
+  - order: 3
+    label: Rollenwechsel — Contra-Argumente
+    duration_minutes: 3
+    trainer_action: >
+      Wechsel-Signal. "Jetzt B: 2 min Contra zur
+      gleichen These." A hört zu.
+    participant_action: >
+      Rollen wechseln. Contra-Argument vortragen,
+      auf Pro-Argumente reagieren.
+    note: >
+      In zweiter Runde wird Argumentation oft
+      schärfer — TN haben Zeit, sich vorzubereiten
+      während der Pro-Phase.
+  - order: 4
+    label: Partnerwechsel & nächste These
+    duration_minutes: 2
+    trainer_action: >
+      "Neuer Partner. Neue These." Klares Wechsel-
+      Signal. 30 Sek für Wechsel, dann nächste These
+      starten.
+    participant_action: >
+      Neue Partner finden, neue These mental
+      einnehmen.
+    note: >
+      Wechsel macht Methode dynamisch. Verschiedene
+      Perspektiven, verschiedene Personen.
+  - order: 5
+    label: Weitere Runden (3-5 Thesen gesamt)
+    duration_minutes: 12
+    trainer_action: >
+      3-5 Thesen rotierend. Pro Wechsel 4-5 min
+      (Pro + Contra). Insgesamt 15-20 min Debatten-
+      zeit.
+    participant_action: >
+      Verschiedene Thesen, verschiedene Partner,
+      verschiedene Argumentations-Pfade.
+    note: >
+      Energie hoch halten. Bei Ermüdung auf 3 Thesen
+      reduzieren. Qualität > Quantität.
+  - order: 6
+    label: Plenum-Debrief
+    duration_minutes: 3
+    trainer_action: >
+      "Welche These war besonders schwer? Wo haben
+      Sie am meisten gelernt?" Kurze Reflexion über
+      Argumentations-Lerneffekt, nicht über
+      Inhalt.
+    participant_action: >
+      Lerneffekt teilen, eigene Argumentations-
+      Stärken und -Schwächen reflektieren.
+    note: >
+      Debrief ist Methoden-Lernen. Inhaltliche
+      Diskussion bewusst klein halten — sonst kippt
+      es in Stunden-Debatte.
+
+variations:
+  - name: Klassisch (3-5 Thesen, Paar-Wechsel)
+    description: >
+      Standard: rotierende Paare zu mehreren Thesen.
+    when_to_use: >
+      Argumentations-Training, politische Bildung.
+      12-30 TN.
+  - name: Pro-Contra-Karussell (Innen-Außen-Kreis)
+    description: >
+      Innenkreis Pro, Außenkreis Contra. Rotation:
+      Außen rückt einen Platz weiter. Klassisches
+      Speed-Dating-Format.
+    when_to_use: >
+      Mit ausreichendem Raum, größeren Gruppen.
+  - name: Multi-Thesen-Marathon
+    description: >
+      Über längere Zeit (60-90 min), 8-10 Thesen.
+      Intensiv, ermüdend, lehrreich.
+    when_to_use: >
+      Argumentations-Workshops, Debattier-Training.
+  - name: Themen-Speed-Debate (Fachthemen)
+    description: >
+      Thesen aus Fachgebiet (z.B. "Agile ist immer
+      besser"). Fachliches Argumentieren trainieren.
+    when_to_use: >
+      Fortbildungen, MBA-Programme.
+  - name: Remote (rotierende Breakouts)
+    description: >
+      Zoom-Breakouts à 2, automatische Rotation.
+      Erfordert saubere Tool-Steuerung.
+    when_to_use: >
+      Verteilte Teams, Online-Workshops.
+    setting_codes: [remote_sync]
+  - name: Mit Beobachter (Triade)
+    description: >
+      3er-Gruppen: Pro + Contra + Beobachter:in.
+      Beobachter:in gibt Feedback nach Runde.
+    when_to_use: >
+      Coaching-Ausbildung, wenn Beobachtungs-Skill
+      mittrainiert werden soll.
+
+pitfalls:
+  - issue: >
+      Thesen zu mild — keine echten Debatten.
+    countermeasure: >
+      Thesen zugespitzt formulieren. Vorab testen:
+      "Würde jemand wirklich Contra argumentieren
+      können?"
+    severity: common
+  - issue: >
+      Zeitlimits werden überzogen — Tempo verloren.
+    countermeasure: >
+      Akustisches Wechsel-Signal. Hartes Stoppen,
+      auch mitten im Satz. Speed = Speed.
+    severity: common
+  - issue: >
+      Hör-Phase wird unterbrochen — beide reden.
+    countermeasure: >
+      Strikte Regel: "Wer nicht dran ist, schweigt."
+      Bei Verstoß sanft erinnern.
+    severity: common
+  - issue: >
+      Persönliche Identifikation mit zugeloster Position
+      — emotionaler Streit.
+    countermeasure: >
+      Vorab framen: "Sie vertreten Position, nicht
+      Meinung." Bei Eskalation Pause.
+    severity: common
+  - issue: >
+      Nach Methode keine Reflexion — bleibt Spiel.
+    countermeasure: >
+      Debrief-Phase fest einplanen. Auf Methodisches
+      fokussieren, nicht inhaltliche Tiefen-
+      Diskussion.
+    severity: common
+  - issue: >
+      Bei großen Gruppen: Wechsel chaotisch.
+    countermeasure: >
+      Innen-Außen-Kreis-Variante. Klare Rotations-
+      Richtung. Bei zu groß: kleinere parallele
+      Sessions.
+    severity: common
+  - issue: >
+      In Corporate-Senior empfunden zu kompetitiv.
+    countermeasure: >
+      Framing als "Argumentations-Training". Bei
+      Widerstand: andere Methode (Pro-Contra-
+      Debatte, Sokratisches Gespräch).
+    severity: common

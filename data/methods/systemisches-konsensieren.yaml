@@ -1,0 +1,77 @@
+slug: systemisches-konsensieren
+canonical_name: Systemisches Konsensieren
+synonyms:
+  - synonym: SK-Prinzip
+    language: de
+  - synonym: Konsensieren
+    language: de
+  - synonym: Widerstandsabfrage
+    language: de
+  - synonym: Systemic Consensing
+    language: en
+
+short_description: >
+  Entscheidungsverfahren, das nicht Zustimmung, sondern WIDERSTAND misst:
+  jede:r bewertet alle Vorschläge auf einer Skala 0 (kein Widerstand) bis 10
+  (maximaler Widerstand). Vorschlag mit dem geringsten Gesamt-Widerstand
+  gewinnt. Entdeckt oft Konsensvorschläge, die in einer klassischen
+  Mehrheitsabstimmung untergegangen wären.
+
+originator: Erich Visotschnig, Siegfried Schrotta
+origin_context: >
+  In den 1990er Jahren von Visotschnig und Schrotta in Österreich entwickelt
+  als Alternative zur Mehrheits-Demokratie. Heute verbreitet in Genossen-
+  schaften, Vereinen, Soziokratie-nahen Organisationen, agilen Teams.
+
+phases:
+  - code: practice
+    is_primary: true
+  - code: closing
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Sehr gut digital (Mentimeter, Mural, eigene SK-Tools wie konsensieren.eu).
+  - code: remote_async
+    suitability: good
+    note: Asynchrone Widerstandsabfrage per Survey funktioniert.
+  - code: hybrid
+    suitability: excellent
+
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [cooperative, diagnostic]
+
+duration_min_minutes: 20
+duration_typical_minutes: 45
+duration_max_minutes: 90
+
+materials:
+  - Flipchart mit Vorschlags-Matrix oder digitales Tool (z.B. konsensieren.eu)
+tags: [entscheidung, partizipativ, widerstand, konsens, demokratie, gruppe]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "Das SK-Prinzip: Mit Systemischem Konsensieren zu fairen Entscheidungen"
+    author: Siegfried Schrotta, Georg Paulus, Erich Visotschnig
+    year: 2015
+    relation: originator
+    note: Standardwerk; erklärt Theorie und konkrete Anwendung.
+  - kind: book
+    title: "Systemisches Konsensieren: Der Weg zum gemeinsamen Konsens"
+    author: Erich Visotschnig
+    year: 2012
+    relation: practice_guide
+  - kind: url
+    title: "konsensieren.eu — offizielle Website mit Online-Tool"
+    author: Siegfried Schrotta
+    year: 2024
+    url: https://konsensieren.eu
+    relation: practice_guide

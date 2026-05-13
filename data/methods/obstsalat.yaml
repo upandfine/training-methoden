@@ -1,0 +1,217 @@
+slug: obstsalat
+canonical_name: Obstsalat
+synonyms:
+  - synonym: Fruit Salad
+    language: en
+short_description: >
+  Stuhlkreis, eine Person in der Mitte. Jede:r bekommt eine Obstsorte zugewiesen.
+  Die Person in der Mitte ruft eine Sorte — alle mit dieser Sorte wechseln
+  die Plätze; wer keinen findet, ist als Nächste dran. „Obstsalat!" = alle wechseln.
+originator: null
+origin_context: Klassisches Gruppenspiel aus der Jugendarbeit, auch im Sportunterricht.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: unsuitable
+    note: Benötigt physische Bewegung im Raum.
+  - code: hybrid
+    suitability: unsuitable
+group_sizes: [medium, large]
+target_audiences: [school, youth, corporate]
+method_types: [energizer, game, activating]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - Ein Stuhl weniger als Teilnehmende
+tags: [bewegung, spielerisch, kreisspiel]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+    note: Obstsalat als Energizer-Klassiker im Seminarkontext.
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Stuhlkreis bilden & Obstsorten verteilen
+    duration_minutes: 2
+    trainer_action: >
+      Stühle in Kreis stellen — ein Stuhl weniger als TN.
+      Reihum durchzählen: "Apfel, Birne, Kirsche, Banane — Apfel,
+      Birne, Kirsche, Banane...". Jede:r merkt sich seine/ihre
+      Sorte. Bei 20 TN → 4 Sorten mit je 5 Personen.
+    participant_action: >
+      Sich einen Stuhl suchen, Obstsorte merken, Nachbar:innen
+      wahrnehmen.
+    note: >
+      4 Sorten für 16-24 TN ideal. Bei kleineren Gruppen: 3
+      Sorten. Bei größeren: 5-6 Sorten. Zu viele Sorten = zu
+      lange Standzeiten, zu wenige = unübersichtliches Wechsel-
+      Chaos.
+  - order: 2
+    label: Regeln & Probe
+    duration_minutes: 1
+    trainer_action: >
+      Regeln: "Ich stehe in der Mitte. Ich rufe eine Sorte —
+      alle dieser Sorte wechseln die Plätze, müssen mindestens
+      einen Stuhl weiter. Wer ohne Stuhl bleibt, ist in der
+      Mitte. Bei 'Obstsalat!' wechseln ALLE." Einmal langsam
+      vorführen: "Äpfel!"
+    participant_action: >
+      Regeln verstehen, bei Probe mitmachen, Orientierung
+      im Raum entwickeln.
+    note: >
+      Probe-Runde ist Pflicht. Ohne sie: Chaos in der ersten
+      echten Runde. "Mindestens einen Stuhl weiter" verhindert,
+      dass Leute zurück auf eigenen Stuhl fallen.
+  - order: 3
+    label: Aktive Runden
+    duration_minutes: 5
+    trainer_action: >
+      Moderation ruft zuerst, dann jeweils die Person in der
+      Mitte. Tempo hoch halten — schnelle Wechsel, Energizer-
+      Charakter. Alle 3-4 Runden "Obstsalat!" rufen für
+      Komplett-Durchmischung.
+    participant_action: >
+      Aufmerksam bleiben, bei eigener Sorte schnell aufstehen
+      und neuen Platz finden. Wer in der Mitte landet, ruft
+      nächste Sorte.
+    note: >
+      Tempo ist alles. Bei langsamer Reaktion: "Schneller,
+      schneller!" Bei mehrmaligem in-der-Mitte-Bleiben:
+      freundlich helfen, damit niemand bloßgestellt wird.
+  - order: 4
+    label: Sanftes Ausklingen
+    duration_minutes: 2
+    trainer_action: >
+      Nach 4-6 Runden Höhepunkt-Schluss: "Gut! Alle aktiviert,
+      alle in Bewegung. Zurück zur Arbeit." Kein Ausdehnen —
+      lieber auf Energie-Spitze beenden.
+    participant_action: >
+      Zurück zu Plätzen (oder anderer Sitzordnung für den
+      nächsten Teil), Energie mitnehmen.
+    note: >
+      Obstsalat wird mit mehr als 6-7 Runden schnell
+      ermüdend. Lieber kurz und intensiv. Danach gibt's
+      Energie für ruhigere Phase.
+
+variations:
+  - name: Klassisch (4 Obstsorten)
+    description: >
+      Standard-Variante: 4 Sorten (Apfel, Birne, Kirsche,
+      Banane). Für 12-25 TN im Stuhlkreis.
+    when_to_use: >
+      Jugendarbeit, Schule, Sportunterricht. Als Energizer
+      nach Mittagspause oder vor schwerem Stoff.
+  - name: Thematische Variante
+    description: >
+      Statt Obst: Themen-relevante Kategorien ("alle mit
+      grauen Socken", "alle die heute Kaffee getrunken haben",
+      "alle die schon mal in Japan waren"). Verbindet
+      Aktivierung mit Kennenlern-Element.
+    when_to_use: >
+      Seminar mit Kennenlern-Anspruch, wenn Energizer + Infos
+      gleichzeitig erwünscht.
+  - name: Fachliche Variante (Lerninhalts-Bezug)
+    description: >
+      Sorten sind Fachbegriffe ("alle, die schon Transfer-
+      Erfahrung haben", "alle mit Change-Projekten"). Spielerisch
+      Vorwissen diagnostizieren.
+    when_to_use: >
+      Fachliche Trainings, wenn Vorerfahrungen aktiviert werden
+      sollen. Kombiniert Energizer mit Diagnose.
+  - name: Super-Obstsalat (schwerere Wechsel)
+    description: >
+      Zusätzliche Regel: "Nur in Diagonale wechseln" oder
+      "Nicht zum direkten Nachbarn". Macht schwieriger,
+      erzeugt mehr Chaos und Lacher.
+    when_to_use: >
+      Erfahrene Gruppen, die Basis-Variante schon kennen.
+      Jugend mit hoher Energie.
+  - name: Themen-Schlagwort-Obstsalat
+    description: >
+      Statt Obst: thematische Wörter zum laufenden Training
+      ("Feedback", "Transfer", "Lernen"). Beim Wort-Ruf
+      wechseln die mit dem Wort verbundenen TN.
+    when_to_use: >
+      Ritualisiertes Energizer in laufendem Training, das
+      Inhalt mit Bewegung verbindet.
+
+pitfalls:
+  - issue: >
+      TN vergessen ihre Sorte während des Spiels.
+    countermeasure: >
+      Vor Start: jede:r ruft laut eigene Sorte. Bei Unsicherheit
+      wahrend Spiel: freundlich nachfragen. Kurze Wiederholung
+      nach der ersten Pause.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN können nicht mit.
+    countermeasure: >
+      Vorab Zugänglichkeit prüfen. Alternativen anbieten
+      (Sitzvariante mit Hand-Heben). Keine öffentliche
+      Ausgrenzung, lieber vorher eine andere Methode wählen.
+    severity: rare
+  - issue: >
+      In senior- oder formal-geprägten Corporate-Kontexten
+      (Board-Meetings, Konzern-Weiterbildung, Kund:innen-
+      Workshops) wirkt das Spiel zu albern.
+    countermeasure: >
+      Zielgruppen-Differenzierung: funktioniert gut in
+      Startup-Teams, Innovation-Workshops, Team-Events, Team-
+      Offsites. Nicht für alle Corporate-Kontexte gleich
+      passend. Bei Zweifel andere Energizer wählen (Walk-and-
+      Talk, Atmung, kurzes Stretching).
+    severity: common
+  - issue: >
+      Einer/eine bleibt ständig in der Mitte — Blamage.
+    countermeasure: >
+      Moderation greift sanft ein: "Jetzt mal ich!" selbst
+      in Mitte springen. Regel: Nach 2× in Mitte macht
+      Moderation selbst weiter.
+    severity: common
+  - issue: >
+      Stühle kippen / jemand stolpert.
+    countermeasure: >
+      Vor Start: Raum prüfen, Tische weg, Stühle fest
+      stellen. Bei Holz-/Glatt-Boden: Vorsicht ansagen.
+      Sicherheit vor Tempo.
+    severity: rare
+  - issue: >
+      Spiel wird zu lang — Energie sinkt nach 5+ Runden.
+    countermeasure: >
+      Max. 6 Runden dann aussteigen. Lieber zu kurz als
+      ermüdend. Höhepunkt-Ende ist pädagogisch besser.
+    severity: common
+  - issue: >
+      Zu viele TN (>30) — Stuhlkreis wird riesig, Wechsel
+      unübersichtlich.
+    countermeasure: >
+      Bei > 25 TN: zwei parallele Kreise oder andere
+      Energizer (Zipp-Zapp auch zu klein). Bei sehr großen
+      Gruppen: Formate wie "Bewegung im Raum" passen besser.
+    severity: common

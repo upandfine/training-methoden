@@ -1,0 +1,191 @@
+slug: netzwerk-diagramm
+canonical_name: Netzwerk-Diagramm
+synonyms:
+  - synonym: Network Diagram
+    language: en
+  - synonym: Beziehungsnetz
+    language: de
+short_description: >
+  Teilnehmende tragen sich auf einem großen Papier/Whiteboard ein und zeichnen
+  Verbindungen zu anderen, mit denen sie schon gearbeitet haben, ähnliche
+  Rollen haben o.ä. Macht informelle Netzwerke im Raum sichtbar.
+originator: null
+origin_context: >
+  Aus Organisationsentwicklung und sozialer Netzwerkanalyse (SNA) übernommen;
+  einfache Visualisierung ohne Tooling.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Auf Miro/Mural mit Namen-Nodes und Linien-Tool.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [visualization, diagnostic, cooperative]
+duration_min_minutes: 20
+duration_typical_minutes: 35
+duration_max_minutes: 60
+materials:
+  - Großformatiges Papier oder digitales Whiteboard, Stifte
+tags: [netzwerk, visualisierung, beziehungen]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Social Network Analysis"
+    author: Stanley Wasserman, Katherine Faust
+    year: 1994
+    relation: reference
+    note: Theoretische Grundlage sozialer Netzwerk-Visualisierung.
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+  - kind: book
+    title: "Großgruppenmethoden: Lebendig lernen — Veränderung gestalten"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Großes Papier vorbereiten
+    duration_minutes: 5
+    trainer_action: >
+      A0-Papier oder digitales Whiteboard. "Jede:r
+      schreibt Namen drauf. Verteilung im Raum."
+      Erklärt Verbindungs-Logik.
+    participant_action: >
+      Eigenen Namen aufs Papier setzen. Anderer
+      Namen wahrnehmen.
+    note: >
+      Bei großen Gruppen: mehrere Plakate. Visualisierung
+      muss sichtbar bleiben.
+  - order: 2
+    label: Verbindungen ziehen
+    duration_minutes: 15
+    trainer_action: >
+      "Zeichnen Sie Linien zu Personen, mit denen
+      Sie bereits zusammen gearbeitet haben."
+      Variante: "...die in ähnlicher Rolle sind",
+      "...die Sie um Rat fragen".
+    participant_action: >
+      Linien zu vertrauten/ähnlichen Personen
+      zeichnen. Verbindungen sichtbar machen.
+    note: >
+      Mehrere Verbindungs-Typen erlauben (mit
+      verschiedenen Farben). Macht Netzwerk
+      reicher.
+  - order: 3
+    label: Netzwerk lesen
+    duration_minutes: 10
+    trainer_action: >
+      Gemeinsam betrachten: "Wo Cluster? Wer
+      ist isoliert? Wer Brücken-Person?"
+      Strukturen sichtbar machen, ohne werten.
+    participant_action: >
+      Eigene Position im Netz erkennen.
+      Strukturen wahrnehmen.
+    note: >
+      Wertfrei lesen. "Brücken" und "Isolation"
+      sind Strukturmerkmale, keine Bewertungen.
+  - order: 4
+    label: Konsequenz & Follow-up
+    duration_minutes: 5
+    trainer_action: >
+      "Was bedeutet das für unsere Zusammenarbeit?
+      Wo wollen wir Verbindungen aufbauen?"
+      Aktions-Impulse.
+    participant_action: >
+      Eigene Network-Strategie überlegen,
+      Brücken-Aktionen planen.
+    note: >
+      Methode ohne Konsequenz bleibt Diagnose.
+      Mit: aktive Netzwerk-Pflege.
+
+variations:
+  - name: Klassisch (eine Verbindungs-Frage)
+    description: >
+      Standard: eine Frage, einfache Visualisierung.
+    when_to_use: >
+      Team-Workshops, Konferenzen. 12-40 TN.
+  - name: Multi-Verbindungs-Variante
+    description: >
+      Mehrere Fragen mit verschiedenen Farben
+      (Arbeit, Vertrauen, Wissen).
+    when_to_use: >
+      Längere Sessions, organisationsweit.
+      Reicheres Bild.
+  - name: Sozio-Matrix (digital)
+    description: >
+      Software-gestützt (Gephi, Kumu). Tiefe
+      Analyse.
+    when_to_use: >
+      Forschung, OE-Projekte mit
+      Tool-Kompetenz.
+    setting_codes: [remote_sync]
+  - name: Anonymes Netzwerk
+    description: >
+      Verbindungen anonym erfasst (Fragebogen),
+      visualisiert von Moderation. Schützt
+      Privatsphäre.
+    when_to_use: >
+      Sensible Themen, hierarchische Kontexte.
+  - name: Themen-Netzwerk
+    description: >
+      Verbindungen zu Themen statt Personen
+      ("Wer kann zu X?"). Wissen-Netzwerk.
+    when_to_use: >
+      Wissensmanagement, Communities of Practice.
+
+pitfalls:
+  - issue: >
+      Netzwerk wird unübersichtlich — zu viele
+      Linien.
+    countermeasure: >
+      Nur eine Frage / Verbindungstyp pro Diagramm.
+      Bei zu viel: Ebenen trennen.
+    severity: common
+  - issue: >
+      Isolierte TN fühlen sich bloßgestellt.
+    countermeasure: >
+      Wertfrei interpretieren. "Isolation kann
+      auch Frische bedeuten." Bei Bedarf:
+      Brücken-Aktionen betonen.
+    severity: common
+  - issue: >
+      Sensible Verbindungen (Konflikte, Macht-
+      verhältnisse).
+    countermeasure: >
+      Anonyme Variante bei sensiblen Themen.
+      Konflikte nicht auf Plakat sichtbar
+      machen.
+    severity: common
+  - issue: >
+      Bei kleinen Gruppen (< 10): Netzwerk
+      trivial.
+    countermeasure: >
+      Andere Methode. Netzwerk-Diagramm braucht
+      kritische Masse.
+    severity: common
+  - issue: >
+      Konsequenz fehlt — bleibt Diagnose ohne
+      Wirkung.
+    countermeasure: >
+      Aktion-Phase fest einplanen. Netzwerk-
+      Pflege als Follow-up.
+    severity: common

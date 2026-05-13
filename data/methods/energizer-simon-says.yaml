@@ -1,0 +1,182 @@
+slug: energizer-simon-says
+canonical_name: Simon Says
+synonyms:
+  - synonym: Simon Says
+    language: en
+  - synonym: Kommando Pimperle
+    language: de
+short_description: >
+  Leitung sagt „Simon says: Hände heben" — alle folgen. Ohne „Simon says"
+  darf keine:r die Bewegung ausführen; wer doch mitmacht, scheidet aus.
+  Klassiker, der schnell Energie und Aufmerksamkeit bringt.
+originator: null
+origin_context: >
+  Kinderspiel englischen Ursprungs, seit dem 19. Jh. belegt; in moderner
+  Workshop-Praxis und Sprachtraining weit verbreitet.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Funktioniert gut per Kamera; Ausscheiden = Kamera aus.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large, plenary]
+target_audiences: [school, youth, corporate, adult_education]
+method_types: [energizer, game]
+duration_min_minutes: 3
+duration_typical_minutes: 8
+duration_max_minutes: 15
+tags: [energizer, spiel, aufmerksamkeit]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Regeln klar machen
+    duration_minutes: 1
+    trainer_action: >
+      "Wenn ich 'Simon says: Arme hoch' sage, machen
+      alle mit. Wenn ich nur 'Arme hoch' sage, darf
+      niemand mitmachen. Wer mitmacht, scheidet aus."
+      Vorzeigen mit Beispielen.
+    participant_action: >
+      Aufstehen, Regel verstehen, Bereitschaft
+      einnehmen.
+    note: >
+      Klare Regel ist alles. Bei Unklarheit:
+      Beispiel-Runde. Methode lebt von Disziplin
+      des Hörens.
+  - order: 2
+    label: Spielen — langsam starten
+    duration_minutes: 4
+    trainer_action: >
+      Erste Runden langsam: "Simon says — Hände
+      heben" (alle machen). "Hände wieder runter"
+      (niemand machen). Wer fällt rein: kurz
+      lachen, ausscheiden.
+    participant_action: >
+      Hören, Befehle ausführen oder ignorieren je
+      nach "Simon says". Konzentriert.
+    note: >
+      Geschwindigkeit erhöhen, sobald Gruppe Regel
+      verstanden. Spaß-Faktor durch Tempo.
+  - order: 3
+    label: Steigerung & Trickery
+    duration_minutes: 2
+    trainer_action: >
+      Komplexere Bewegungen, schnelleres Tempo,
+      Tricks ("Simon says: Klatschen — und jetzt
+      hört auf!" ohne "Simon says").
+    participant_action: >
+      Aufmerksam bleiben, schnell entscheiden.
+    note: >
+      Tricks machen Spaß. Bei zu vielen ausgeschiedenen
+      TN: Neustart-Möglichkeit anbieten.
+  - order: 4
+    label: Abschluss
+    duration_minutes: 1
+    trainer_action: >
+      "Wer noch dabei ist — Applaus! Alle anderen:
+      Applaus für die Aufmerksamkeit am Anfang!"
+      Übergang.
+    participant_action: >
+      Klatschen, zur Sitzordnung.
+    note: >
+      Niemand "verliert". Alle werden gefeiert.
+
+variations:
+  - name: Klassisch (Simon Says, Ausscheiden)
+    description: >
+      Standardvariante: Befehle, Ausscheiden bei
+      Fehler.
+    when_to_use: >
+      Schule, Jugend, Sprachtraining (Englisch).
+      8-30 TN.
+  - name: Ohne Ausscheiden (alle bleiben)
+    description: >
+      Wer Fehler macht, bleibt drin. Mehr Spaß,
+      weniger Wettkampf.
+    when_to_use: >
+      Bei Wettbewerbs-Skepsis. Inklusiver.
+  - name: Sprachvariante (Englisch / DaZ)
+    description: >
+      In Sprache trainieren. Befehle in Zielsprache.
+    when_to_use: >
+      Sprachunterricht, DaZ-Kontexte. Aktivieren +
+      Wortschatz.
+  - name: Remote (Kamera)
+    description: >
+      Online: alle Kameras an, Befehle vor Kamera
+      ausführen. Ausscheiden = Kamera aus.
+    when_to_use: >
+      Online-Trainings, Schule online.
+    setting_codes: [remote_sync]
+  - name: Mit komplexen Bewegungen
+    description: >
+      "Auf einem Bein stehen", "Hand auf Knie".
+      Anspruchsvoller.
+    when_to_use: >
+      Erfahrene Gruppen, wenn Standard zu
+      einfach.
+
+pitfalls:
+  - issue: >
+      Senior-Corporate findet Befehlsspiel kindisch.
+    countermeasure: >
+      Andere Energizer (Stretching). Simon Says
+      ist klassischer Schul-/Jugend-Energizer.
+    severity: common
+  - issue: >
+      Ausscheiden-Modus demotiviert manche.
+    countermeasure: >
+      Ohne-Ausscheiden-Variante. Jede:r bleibt
+      drin. Mehr Inklusion.
+    severity: common
+  - issue: >
+      Bei zu schnellem Tempo: TN können nicht
+      folgen.
+    countermeasure: >
+      Tempo angemessen. Nicht zur Frustration.
+      Schwierigkeit graduell steigern.
+    severity: common
+  - issue: >
+      Körperlich Eingeschränkte können Bewegungen
+      nicht.
+    countermeasure: >
+      Befehle adaptiv (sitzend, kleine Bewegungen).
+      Niemand ausschließen.
+    severity: rare
+  - issue: >
+      Methode wirkt zu autoritär (Befehle).
+    countermeasure: >
+      Spielerisch framen, nicht ernst. Bei Unwohlsein:
+      andere Methode.
+    severity: common

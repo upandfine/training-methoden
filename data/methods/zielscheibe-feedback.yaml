@@ -1,0 +1,243 @@
+slug: zielscheibe-feedback
+canonical_name: Zielscheibe (Feedback)
+synonyms:
+  - synonym: Target Feedback
+    language: en
+short_description: >
+  Feedback-Zielscheibe mit 3–5 Sektoren (z.B. Inhalt, Methodik, Trainer:in,
+  Lernklima). Teilnehmende markieren per Klebepunkt, wie zufrieden sie in
+  jeder Dimension waren. Schnelle, visuelle Gesamtbewertung.
+originator: null
+origin_context: >
+  Klassische Feedback-Methode aus der Moderationstechnik, verwandt mit der
+  Erwartungs-Zielscheibe zu Beginn.
+phases:
+  - code: feedback
+    is_primary: true
+  - code: evaluation
+  - code: closing
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digitale Zielscheibe auf Mural/Miro, Klebepunkte als Dots.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [feedback, visualization, diagnostic]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - Flipchart mit Zielscheibe, Klebepunkte
+tags: [feedback, visualisierung, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+    note: Feedback-Zielscheibe als Standard-Schnellformat.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Zielscheibe vorbereiten
+    duration_minutes: 2
+    trainer_action: >
+      Flipchart mit Zielscheibe vorzeichnen: Kreis mit 3-5
+      Ringen (inner = volle Zufriedenheit, außen = unzufrieden).
+      In Sektoren teilen, jeden Sektor beschriften — z.B.
+      "Inhalt", "Methodik", "Trainer:in", "Lernklima", "Transfer".
+      Klebepunkte bereitstellen.
+    participant_action: >
+      Wahrnehmen, was gleich gefragt wird.
+    note: >
+      Sektoren sollten vorher nachgedacht sein. "Alles war gut"
+      ist nicht Ziel. Sinnvoll: was ist in DIESEM Training
+      wichtig? Evtl. sektoren vom Training-Zweck ableiten.
+  - order: 2
+    label: Regeln + Klebepunkte verteilen
+    duration_minutes: 1
+    trainer_action: >
+      Erklären: "Ein Punkt pro Sektor. Innen = sehr zufrieden,
+      außen = unzufrieden. Bitte ehrlich — je mittiger, desto
+      mehr hat's Ihnen gebracht." Pro Person Punkte = Sektoren-
+      Anzahl (also 5 Punkte bei 5 Sektoren).
+    participant_action: >
+      Punkte entgegennehmen, Fragestellung verstehen.
+    note: >
+      Manche Gruppen kleben alles in die Mitte aus Höflichkeit.
+      Klare Ansage hilft: "Realistisches Feedback hilft mehr als
+      höfliches."
+  - order: 3
+    label: Voting (alle gleichzeitig)
+    duration_minutes: 3
+    trainer_action: >
+      Alle gleichzeitig aufstehen und Punkte kleben. Nicht
+      sequenziell (sonst Bandwagon-Effekt). Moderation hält
+      sich im Hintergrund, schaut nicht zu bei der Auswahl
+      einzelner.
+    participant_action: >
+      Aufstehen, in jedem Sektor einen Punkt kleben — je
+      nach persönlicher Einschätzung innen oder außen.
+    note: >
+      Gleichzeitig ist Pflicht, sonst schauen TN wo andere
+      geklebt haben. Falls unmöglich: Zettel-Variante mit
+      zusammenlegen.
+  - order: 4
+    label: Ergebnis lesen & thematisieren
+    duration_minutes: 3
+    trainer_action: >
+      Punktewolken betrachten. Sektor für Sektor durch: "Hier
+      sehe ich viel innen — stimmt das?" / "Hier ist's breit
+      gestreut — was heißt das?" Nicht interpretieren, fragen.
+      Optional: 1-2 TN laden ein, zu kommentieren.
+    participant_action: >
+      Ergebnis mitbetrachten, ggf. einzelne Punkte erklären
+      (freiwillig, anonym möglich).
+    note: >
+      Zielscheibe liefert SCHNELLE Rückmeldung, keine Tiefe.
+      Bei breiter Streuung oder viel außen: kurze Nachfrage,
+      aber nicht zur Großdiskussion ausweiten.
+  - order: 5
+    label: Abschluss — Dank + Dokumentation
+    duration_minutes: 1
+    trainer_action: >
+      Danke für ehrliches Feedback. Abfoto für Dokumentation.
+      Ggf. Ankündigung, was damit passiert ("fließt in mein
+      nächstes Konzept ein"). Übergang zur Verabschiedung.
+    participant_action: >
+      Entspannen, verabschieden.
+    note: >
+      Zielscheibe ist Schnell-Werkzeug. Nicht jedes Feedback
+      nochmal vertiefen. Nach 10 min ist Schluss, sonst kippt
+      die Methode.
+
+variations:
+  - name: Klassisch (4-5 Sektoren)
+    description: >
+      Standard-Variante mit 4-5 festen Sektoren, Punkt pro
+      Person pro Sektor. Am Ende eines Trainings.
+    when_to_use: >
+      Trainings-Abschluss, schnelles Gesamtfeedback, Gruppen
+      von 6-30 TN.
+  - name: Kurz-Variante (3 Sektoren)
+    description: >
+      Nur 3 Sektoren (z.B. "Inhalt", "Methodik", "Atmosphäre").
+      Schneller, weniger differenziert.
+    when_to_use: >
+      Kurze Sessions (2-3h), wenn detailliertes Feedback nicht
+      nötig ist.
+  - name: Fragen-basierte Zielscheibe
+    description: >
+      Statt abstrakter Sektoren ("Inhalt"): konkrete Fragen
+      ("Konnte ich das Gelernte nachvollziehen?",
+      "Werde ich etwas in meinem Alltag anwenden?"). Nah an
+      Evaluationsbogen.
+    when_to_use: >
+      Wenn spezifisches Feedback zu Lernzielen gefragt ist,
+      nicht allgemeine Zufriedenheit. Für Evaluations-
+      Übergang.
+  - name: Remote (Miro/Mural-Template)
+    description: >
+      Digitale Zielscheibe, TN platzieren Dots per Drag&Drop.
+      Gleichzeitig per Zeitfenster.
+    when_to_use: >
+      Online-Trainings. Funktioniert technisch gut, Template
+      kann wiederverwendet werden.
+    setting_codes: [remote_sync]
+  - name: Mehrdimensionale Zielscheibe (mit Kategorien)
+    description: >
+      Zwei Zielscheiben nebeneinander: "Ich habe gelernt" /
+      "Ich werde umsetzen". Trennt Lernen und Transfer.
+    when_to_use: >
+      Trainings mit Anwendungs-Ambition, wenn auch Umsetzungs-
+      bereitschaft gemessen werden soll.
+  - name: Dialogische Zielscheibe
+    description: >
+      Nach dem Kleben: Paaraustausch "Warum haben Sie so
+      geklebt?". Keine Plenum-Diskussion, aber individuelle
+      Reflexion.
+    when_to_use: >
+      Kleinere Gruppen, wenn Feedback nicht nur erhoben, sondern
+      auch reflektiert werden soll. Mehr Zeit (20-25 min gesamt).
+
+pitfalls:
+  - issue: >
+      Alle kleben höflich in die Mitte — kein differenziertes
+      Feedback.
+    countermeasure: >
+      Framing schärfen: "Realistisches Feedback hilft mir mehr
+      als höfliches." Ringe klarer beschriften (innen =
+      "hat richtig geholfen", Mitte = "okay, solide", außen =
+      "wenig gebracht"). Bei sehr zurückhaltender Gruppe: Votum
+      schriftlich/anonym (Zettel einsammeln, Moderation
+      überträgt) — entschärft Gruppendruck, ändert Methodik
+      aber nicht.
+    severity: common
+  - issue: >
+      Sequenzielles Voting → Bandwagon (alle kleben, wo andere
+      geklebt haben).
+    countermeasure: >
+      Gleichzeitig aufstehen und kleben. Bei räumlicher
+      Enge: Zettel-Votings, dann zentral zusammentragen.
+    severity: common
+  - issue: >
+      Sektoren sind schlecht gewählt, TN wissen nicht, was sie
+      bewerten sollen.
+    countermeasure: >
+      Sektoren VOR dem Training festlegen, aus dem Trainings-
+      Zweck abgeleitet. Beispiele im Sektor-Label kurz ergänzen
+      ("Methodik — waren die Übungen hilfreich?").
+    severity: common
+  - issue: >
+      Ergebnis wird als statistische Wahrheit gelesen ("die
+      Gruppe war 80 % zufrieden").
+    countermeasure: >
+      Zielscheibe ist Stimmungsbild, keine Evaluation.
+      Sprachregel: "Hier sehe ich..." statt "X % fanden es gut."
+      Bei Bedarf zusätzlich richtigen Fragebogen nachschieben.
+    severity: common
+  - issue: >
+      Nachgespräch zu kurz — Zielscheibe bleibt wortlos hängen.
+    countermeasure: >
+      Mindestens 3 min für Besprechen einplanen. Nicht "wir
+      schauen kurz" — explizit durch jeden Sektor gehen, auch
+      bei einer sehr guten Zielscheibe.
+    severity: common
+  - issue: >
+      Große Gruppen (40+) → Klebe-Chaos, Punkte überlappen,
+      Bild wird unlesbar.
+    countermeasure: >
+      Zwei parallele Zielscheiben (Gruppe A / B). Oder digital.
+      Alternativ: Sticker statt Punkte, die nicht übereinander
+      liegen können.
+    severity: common
+  - issue: >
+      Einzelne wollen Punkt außerhalb der Zielscheibe platzieren
+      ("es war so schlecht").
+    countermeasure: >
+      Zulassen und im Plenum thematisieren — das IST wertvolles
+      Feedback. Nicht zwingen, in die Zielscheibe zu kleben.
+    severity: rare

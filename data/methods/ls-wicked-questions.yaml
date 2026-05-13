@@ -1,0 +1,243 @@
+slug: ls-wicked-questions
+canonical_name: Wicked Questions
+synonyms:
+  - synonym: Paradoxe Fragen
+    language: de
+short_description: >
+  Teilnehmende formulieren gemeinsam Fragen in der Form „Wie kann es sein,
+  dass wir gleichzeitig X UND Y müssen/sind?". Macht produktive Paradoxien und
+  echte Spannungen explizit, statt sie zu überspielen. Liberating Structure.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_year: 2013
+origin_context: >
+  Eine der 33 Liberating Structures — Werkzeug für strategische Klärung
+  in Situationen mit Zielkonflikten.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: expectations
+  - code: group_work
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [reflective, cooperative, creative]
+duration_min_minutes: 20
+duration_typical_minutes: 35
+duration_max_minutes: 60
+tags: [liberating-structures, paradoxien, strategieklaerung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2013
+    relation: originator
+    note: >
+      Wicked Questions als Struktur zur Offenlegung
+      produktiver Paradoxien in Organisationen.
+  - kind: url
+    title: "Liberating Structures — Wicked Questions"
+    url: https://www.liberatingstructures.com/4-wicked-questions/
+    relation: practice_guide
+    note: Methodik-Beschreibung mit Beispielen. CC-BY-NC 4.0.
+  - kind: book
+    title: "Systemische Organisationsberatung"
+    author: Fritz B. Simon
+    year: 2018
+    relation: reference
+    note: >
+      Systemischer Kontext zu produktiven Paradoxien und
+      Dilemma-Arbeit.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einleitung & Prinzip erklären
+    duration_minutes: 5
+    trainer_action: >
+      Konzept vorstellen: "Echte Paradoxien sind produktiv.
+      Wir suchen Fragen der Form: 'Wie kann es sein, dass
+      wir gleichzeitig X UND Y müssen?'." Beispiele geben:
+      "Wie agil UND planbar? Wie zentral UND dezentral?".
+      Ziel: Spannungen sichtbar, nicht lösen.
+    participant_action: >
+      Prinzip verstehen, eigene Kontext-Spannungen
+      aktivieren.
+    note: >
+      Wicked Questions ≠ Widerspruch, der aufgelöst
+      werden muss. Es sind Gleichzeitigkeiten, die
+      bestehen bleiben. Diese Unterscheidung mehrfach
+      betonen.
+  - order: 2
+    label: Einzelreflexion (Paradoxien identifizieren)
+    duration_minutes: 5
+    trainer_action: >
+      5 min still: "Notieren Sie 3 Paradoxien, die Sie in
+      Ihrem Kontext erleben. Gleichzeitig-Spannungen, die
+      nicht auflösbar sind."
+    participant_action: >
+      Still notieren. Spannungen in eigener Praxis
+      identifizieren.
+    note: >
+      Schwere Phase für viele. Corporate-Denken will
+      lösen. "Nicht lösen, nur benennen" wiederholen.
+      Beispiele helfen.
+  - order: 3
+    label: Paare bilden Wicked Questions
+    duration_minutes: 7
+    trainer_action: >
+      2er-Paare: "Teilen Sie Ihre Paradoxien. Formulieren
+      Sie daraus 2-3 'Wie kann es sein, dass...'-Fragen."
+      Beispiel-Formulierungen geben.
+    participant_action: >
+      Paradoxien austauschen, scharfe WQ-Formulierungen
+      finden.
+    note: >
+      Formulierungs-Schärfe wichtig. "Wie können wir X
+      und Y verbinden?" ist falsch — das ist Lösungs-
+      Frage. "Wie kann es sein, dass...?" akzeptiert das
+      Paradox.
+  - order: 4
+    label: Plenum — gemeinsame Auswahl der Top-WQ
+    duration_minutes: 10
+    trainer_action: >
+      Paare stellen je 1 stärkste Wicked Question vor.
+      Gruppe wählt 3-5 resonierendste durch Dot-Voting.
+      Diese werden zu "offiziellen" Team-Wicked-Questions.
+    participant_action: >
+      WQs teilen, zuhören, resonierende markieren per
+      Voting.
+    note: >
+      Auswahl ist Konsens-Erzeugung. Die gewählten WQs
+      werden zu Arbeits-Grundlage — nicht gelöst,
+      sondern bewusst getragen.
+  - order: 5
+    label: Dialog zu Top-Wicked-Questions
+    duration_minutes: 8
+    trainer_action: >
+      Zu 1-2 der Top-WQs: "Wie leben wir diese Spannung?
+      Wie erkennen wir, ob wir zu sehr in Extrem
+      rutschen?" Kurze Dialog-Runde pro WQ.
+    participant_action: >
+      Erfahrungen mit der Paradoxie teilen, Handhabungs-
+      Ideen entwickeln.
+    note: >
+      Methode wirkt durch Dauer. WQs sind nicht
+      "abhak-bar". Sie bleiben als Spannung in
+      Organisation. Dialog hilft, gut mit ihnen zu
+      leben.
+
+variations:
+  - name: Klassisch (LS-Standard, 35 min)
+    description: >
+      Standard-Variante nach Lipmanowicz/McCandless:
+      einzeln, Paare, Plenum, Top-WQs.
+    when_to_use: >
+      Strategie-Workshops, Change-Begleitung, Team-
+      Klausuren. Bei organisationalen Spannungen.
+  - name: Kurz-Variante (20 min)
+    description: >
+      Schneller: 3 min Einzel, 5 min Paar, direkt ins
+      Plenum. Weniger Tiefe.
+    when_to_use: >
+      Kurze Einstiege in Strategie-Diskussion, Team-
+      Meetings.
+  - name: Mit nachfolgendem Szenario-Denken
+    description: >
+      Nach Wicked Questions: Szenarien für Extrem-Varianten
+      ("Was wenn wir nur X machen? Nur Y?") — macht
+      Spannungen greifbar.
+    when_to_use: >
+      Strategie-Entwicklung, wenn Entscheidungs-Vorbereitung
+      nachfolgt. Längere Session (60+ min).
+  - name: Wicked Questions als Poster
+    description: >
+      Top-WQs groß auf Poster, sichtbar in Team-Raum
+      aufhängen. Wochenlang präsent. Kontinuierliche
+      Erinnerung.
+    when_to_use: >
+      Team-Arbeit, wenn WQs langfristig bewusst bleiben
+      sollen. Nicht nur Workshop-Übung.
+  - name: Remote (Miro-Board)
+    description: >
+      Online: Miro-Board mit drei Spalten (Einzel,
+      Paar, Plenum). Sticky Notes, Voting per Dots.
+    when_to_use: >
+      Verteilte Teams, Online-Strategie-Workshops.
+    setting_codes: [remote_sync]
+  - name: Abteilungs-übergreifende WQs
+    description: >
+      WQs aus verschiedenen Abteilungen gesammelt,
+      verglichen. Zeigt organisationsweite Spannungen.
+    when_to_use: >
+      Organisations-Entwicklung, wenn Silo-Paradoxien
+      sichtbar werden sollen.
+
+pitfalls:
+  - issue: >
+      TN formulieren Lösungs-Fragen ("Wie können wir X
+      und Y verbinden?") statt Wicked Questions.
+    countermeasure: >
+      Immer wieder Form einfordern: "Wie kann es sein,
+      dass wir gleichzeitig...?" Corpus-Beispiele
+      wiederholen. Fragen-Karten vorbereiten.
+    severity: common
+  - issue: >
+      Gruppe will Paradoxien auflösen — kippt in
+      Problemlösung.
+    countermeasure: >
+      Framing: "Wir lösen nicht. Wir benennen." Bei
+      Lösungs-Vorschlägen: "Das ist ein Lösungs-Ansatz —
+      den parken wir für später. Jetzt bleiben wir
+      bei der Spannung selbst." Disziplin, damit die
+      Paradoxie überhaupt Raum bekommt.
+    severity: common
+  - issue: >
+      Wicked Questions bleiben abstrakt, ohne Bezug zur
+      Organisation.
+    countermeasure: >
+      Konkrete Kontext-Bezug fordern. Nicht "Wachstum
+      vs. Sicherheit", sondern "Wie kann es sein, dass
+      WIR 20% wachsen MÜSSEN und gleichzeitig Qualität
+      sichern MÜSSEN?".
+    severity: common
+  - issue: >
+      Im Corporate-Kontext: Widerstand ("das ist
+      philosophisch").
+    countermeasure: >
+      Anschlussfähig rahmen: "Dilemma-Analyse",
+      "Zielkonflikt-Klärung". Methodik-Benennung
+      pragmatisch.
+    severity: common
+  - issue: >
+      Methode endet ohne Handhabung — "und jetzt?".
+    countermeasure: >
+      Dialog-Phase (Schritt 5) mit Handhabungs-Fragen
+      schließen: "Wie leben wir damit?" Nicht nur
+      diagnostisch.
+    severity: common
+  - issue: >
+      Top-WQs werden vergessen — einmalige Übung.
+    countermeasure: >
+      Poster-Variante: WQs sichtbar im Raum.
+      Regelmäßige Re-Visiting (quartalsweise).
+      Institutional Memory schaffen.
+    severity: common
+  - issue: >
+      Zu viele WQs → Verwässerung.
+    countermeasure: >
+      Top 3-5 harter Cut. Mehr überfordert.
+      Priorisierung fordert Entscheidung.
+    severity: common

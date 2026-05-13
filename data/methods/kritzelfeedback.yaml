@@ -1,0 +1,234 @@
+slug: kritzelfeedback
+canonical_name: Kritzelfeedback
+synonyms:
+  - synonym: Doodle Feedback
+    language: en
+  - synonym: Sketch Feedback
+    language: en
+short_description: >
+  TN zeichnen statt schreiben: Smiley, Wetter-Symbol, Comic-Strip oder
+  freies Kritzelbild zur Rückmeldung auf die Einheit. Bricht das sprachlich
+  geprägte Feedback-Muster auf und aktiviert andere Ausdrucksebenen.
+originator: null
+origin_context: >
+  Kreative Feedback-Variante aus der Erlebnispädagogik und
+  visuellen Moderationstradition (Dan Roam, David Sibbet).
+phases:
+  - code: feedback
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Über Miro, Mural oder Foto-Upload ins Chatfenster.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [feedback, creative, visualization]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 30
+materials:
+  - Papier, Stifte (analog); Whiteboard-Tool (digital)
+tags: [feedback, zeichnen, kreativ, visuell]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Visual Meetings"
+    author: David Sibbet
+    year: 2010
+    relation: reference
+    note: Visuelle Moderationstraditionen — Zeichnen als Methode.
+  - kind: book
+    title: "The Back of the Napkin"
+    author: Dan Roam
+    year: 2008
+    relation: reference
+    note: >
+      Popularisiert visuelles Denken im Business-Kontext —
+      Ausgangspunkt für Sketch-basierte Feedback-Formate.
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorbereitung & Framing
+    duration_minutes: 3
+    trainer_action: >
+      Papier austeilen, Stifte bereit (dicke Stifte,
+      nicht Bleistift). Einladung: "Zeichnen Sie Feedback
+      zur Einheit — kein Kunst-Anspruch, Strichmännchen
+      reichen." Niedrigschwellig framen.
+    participant_action: >
+      Material entgegennehmen, innerlich einstimmen
+      (auch wer "nicht zeichnen kann").
+    note: >
+      Framing entscheidend. Kunst-Angst verhindert
+      Teilnahme. "Kein Anspruch" wiederholen.
+      Strichmännchen-Modelling durch Moderation hilft.
+  - order: 2
+    label: Leitfrage stellen
+    duration_minutes: 1
+    trainer_action: >
+      Konkrete Frage: "Wie war das Training für Sie?"
+      oder spezifischer: "Wie haben Sie sich in der
+      Übung gefühlt? Was war Ihr Aha?". Frage sichtbar
+      aufhängen.
+    participant_action: >
+      Frage hören, mental einstimmen.
+    note: >
+      Konkrete Frage bringt konkrete Zeichnungen.
+      "Wie fanden Sie's?" zu vage. "Wie fühlten Sie
+      sich bei der Rollenübung?" besser.
+  - order: 3
+    label: Zeichnen (stille Einzelarbeit)
+    duration_minutes: 10
+    trainer_action: >
+      10 min still zeichnen. Moderation beobachtet,
+      greift nicht ein. Hintergrundmusik optional.
+      Smileys, Symbole, Comic-Strips, abstrakte Formen
+      — alles OK.
+    participant_action: >
+      Zeichnen, was zur Frage passt. Nicht zu lang
+      überlegen — intuitiv. Auch Stichworte ergänzt.
+    note: >
+      Still-Phase wichtig. Bei Unruhe: Musik.
+      Zeichnen ist Reflexions-Akt, nicht Performance.
+  - order: 4
+    label: Teilen im Paar oder Plenum
+    duration_minutes: 5
+    trainer_action: >
+      "Zeigen Sie Ihr Bild einer anderen Person und
+      erklären Sie kurz, was Sie gezeichnet haben."
+      Paar-Austausch (3 min) oder Plenum-Runde
+      (je 30 Sek).
+    participant_action: >
+      Bild zeigen, erklären. Andere hören aufmerksam,
+      fragen bei Bedarf nach.
+    note: >
+      Erklären ist wichtiger als Bild. Die Worte
+      dazu machen Bedeutung. Ohne Erklärung bleibt
+      Bild privat.
+  - order: 5
+    label: Abschluss-Sammlung (Wand oder digital)
+    duration_minutes: 1
+    trainer_action: >
+      Bilder an Wand hängen oder digital sammeln
+      (Fotos). Kurzer Überblick: "Was fällt auf?"
+      Moderation dankt.
+    participant_action: >
+      Bild abgeben, Überblick mitnehmen.
+    note: >
+      Bilder-Wand ist visuelles Gedächtnis der Session.
+      Manchmal nachher noch wirksam: Blick drauf löst
+      Gedanken aus.
+
+variations:
+  - name: Klassisch (freies Kritzeln)
+    description: >
+      Freies Zeichnen, keine Vorgaben. Standard.
+    when_to_use: >
+      Seminar-Abschluss, kreative Gruppen. 6-25 TN.
+  - name: Strukturiertes Kritzel-Feedback (4 Quadranten)
+    description: >
+      Papier in 4 Felder geteilt: "Was war gut",
+      "Was war schwierig", "Was nehme ich mit",
+      "Was frage ich mich noch". In jedem Feld Zeichnung.
+    when_to_use: >
+      Wenn Struktur hilft (für Kritzel-Skeptiker:innen
+      oder Corporate-Kontext).
+  - name: Comic-Strip-Feedback (3 Panels)
+    description: >
+      Drei Panels: Anfang, Mitte, Ende des Trainings.
+      Story-Bogen als Feedback.
+    when_to_use: >
+      Längere Trainings, wenn Verlauf reflektiert
+      werden soll.
+  - name: Kollektives Kritzel (gemeinsames Bild)
+    description: >
+      Ein großes Plakat, alle zeichnen gleichzeitig.
+      Gemeinsames Gruppenbild entsteht.
+    when_to_use: >
+      Team-Events, wenn Gemeinsamkeits-Element
+      wichtig ist.
+  - name: Digital (Miro mit Stift-Tool)
+    description: >
+      Online: Miro/Mural mit Zeichen-Tool. TN zeichnen
+      mit Maus oder Stift (Tablet).
+    when_to_use: >
+      Online-Trainings. Weniger haptisch, aber
+      funktional.
+    setting_codes: [remote_sync]
+  - name: Metaphern-Kritzel (Tier/Pflanze/Wetter)
+    description: >
+      Vorgegebene Metapher: "Zeichnen Sie sich als
+      Tier nach heute." Metapher lenkt Richtung.
+    when_to_use: >
+      Wenn kreative Richtung gewünscht ist. Coaching-
+      Kontexte.
+
+pitfalls:
+  - issue: >
+      "Ich kann nicht zeichnen"-Blockade — TN
+      verweigern.
+    countermeasure: >
+      Framing wiederholen: "Strichmännchen reichen."
+      Modelling durch Moderation (selbst unlustig
+      zeichnen). Humor hilft.
+    severity: common
+  - issue: >
+      Bilder bleiben unverstanden — keine Erklärung.
+    countermeasure: >
+      Erklär-Phase (Schritt 4) nicht weglassen. Bilder
+      ohne Worte sind privat. Kombination macht
+      Bedeutung.
+    severity: common
+  - issue: >
+      Corporate-Senior findet Methode kindisch.
+    countermeasure: >
+      Zielgruppenprüfung. Bei Zweifel: andere
+      Feedback-Methode (Zielscheibe, Ein-Minute-
+      Paper). Kritzel passt nicht überall.
+    severity: common
+  - issue: >
+      Stifte sind schlecht (Bleistift, zu dünn) —
+      Bilder unleserlich.
+    countermeasure: >
+      Dicke Marker bereitstellen. Verschiedene Farben.
+      Materialqualität macht Unterschied.
+    severity: rare
+  - issue: >
+      Zeichnen wird zur Ablenkung — TN bleiben
+      oberflächlich.
+    countermeasure: >
+      Klarheit über Zweck: "Das ist Reflexion, nicht
+      Ablenkung." Bei Bedarf kurze Fokus-Frage
+      zwischendurch.
+    severity: common
+  - issue: >
+      Große Gruppen → Teilen dauert ewig.
+    countermeasure: >
+      Paar-Austausch statt Plenum. Bilder-Wand als
+      visuelle Sammlung ohne Einzel-Vorstellung.
+    severity: common
+  - issue: >
+      In interkulturellen Gruppen: Symbole werden
+      unterschiedlich interpretiert.
+    countermeasure: >
+      Erklär-Phase ist essentiell — Bild plus Wort.
+      Bei Missverständnis: respektvoll nachfragen.
+    severity: rare

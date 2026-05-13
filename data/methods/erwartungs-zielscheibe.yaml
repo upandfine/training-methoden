@@ -1,0 +1,237 @@
+slug: erwartungs-zielscheibe
+canonical_name: Erwartungs-Zielscheibe
+synonyms:
+  - synonym: Zielscheiben-Abfrage
+    language: de
+short_description: >
+  Zielscheibe mit 3–4 Sektoren (z.B. „Fachinhalt", „Methoden", „Atmosphäre",
+  „Transfer"). Teilnehmende markieren mit Punkten, wie wichtig ihnen jeder
+  Aspekt ist. Visuell, schnell, anschlussfähig für Ziele.
+originator: null
+origin_context: Variation der klassischen Zielscheiben-Abfrage in Moderation.
+phases:
+  - code: expectations
+    is_primary: true
+  - code: evaluation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digitale Zielscheibe auf Whiteboard, Klebepunkte als Dots.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [diagnostic, visualization]
+duration_min_minutes: 5
+duration_typical_minutes: 12
+duration_max_minutes: 20
+materials:
+  - Flipchart mit Zielscheibe, Klebepunkte
+tags: [visualisierung, abfrage, punktevergabe]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+    note: Zielscheiben-Abfrage als Standard-Erwartungs-Klärung.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Zielscheibe vorbereiten
+    duration_minutes: 3
+    trainer_action: >
+      Flipchart mit Zielscheibe: 3-4 Sektoren, jeweils mit
+      Beschriftung — typisch "Fachinhalt", "Methoden",
+      "Atmosphäre", "Transfer/Umsetzung". Ringe kennzeichnen:
+      innen = "sehr wichtig für mich", außen = "weniger
+      wichtig". Klebepunkte bereitstellen.
+    participant_action: >
+      Zielscheibe anschauen, Sektoren lesen, eigene
+      Schwerpunkte innerlich anfangen zu klären.
+    note: >
+      Sektoren passen zum Trainings-Typ. Bei Soft-Skill-
+      Training: "Reflexion", "Austausch", "Selbstbild" sinnvoll.
+      Nicht generisch, sondern zu den zu klärenden Erwartungen
+      angepasst.
+  - order: 2
+    label: Regeln & Punkte verteilen
+    duration_minutes: 2
+    trainer_action: >
+      Erklären: "Pro Person 3 Punkte, auf Sektoren verteilen
+      — kumulierbar (alle auf einen) oder gleichmäßig. Innen
+      kleben = sehr wichtig, außen = weniger. Ehrlich, bitte
+      keine Höflichkeits-Punkte."
+    participant_action: >
+      Punkte entgegennehmen, Regeln verstehen, Auswahl
+      treffen.
+    note: >
+      3 Punkte sind Faustregel — genug Differenzierung, nicht
+      zu viel Kognition. Kumulierbar ermöglicht starke
+      Schwerpunkte. Bei 5 Sektoren ggf. 5 Punkte.
+  - order: 3
+    label: Punkt-Vergabe (gleichzeitig)
+    duration_minutes: 2
+    trainer_action: >
+      "Auf drei alle gleichzeitig kleben." Gleichzeitiges
+      Votieren verhindert Nachahmungseffekt. Bei Platz-
+      Enge: Kleingruppen parallel, dann zusammenführen.
+    participant_action: >
+      Gleichzeitig aufstehen, Punkte setzen, ohne andere
+      abzuchecken.
+    note: >
+      Gleichzeitigkeit ist wichtig — bei sequenziellem
+      Kleben prägen die Ersten das Bild.
+  - order: 4
+    label: Bild lesen & thematisieren
+    duration_minutes: 3
+    trainer_action: >
+      Zielscheibe gemeinsam betrachten: "Hier sehe ich viel
+      im Sektor X innen — das ist wichtig. Hier weniger
+      Punkte im Sektor Y — was heißt das?" Einzelne TN
+      freiwillig nachfragen, kein Zwang.
+    participant_action: >
+      Ergebnis mitlesen, eigene Punkte einordnen, ggf.
+      kurz erläutern (freiwillig).
+    note: >
+      Moderation wertet nicht, sondern thematisiert. "Warum
+      ist Transfer weniger wichtig?" öffnet Diskussion,
+      kein Werturteil.
+  - order: 5
+    label: Konsequenz für Trainings-Design
+    duration_minutes: 2
+    trainer_action: >
+      Bild in Programm einordnen: "Da viele Transfer oben
+      haben, werde ich Block 3 verlängern. Atmosphäre ist
+      Ihnen weniger wichtig — ich halte es informell."
+      Transparent, nicht kompromittierend.
+    participant_action: >
+      Konsequenz wahrnehmen, Vertrauen in Anpassungs-
+      fähigkeit entwickeln.
+    note: >
+      Ohne Konsequenz wird Zielscheibe zu Show-Element. Mit
+      Konsequenz wird sie zum kollaborativen Trainings-Design.
+      Mut zur sichtbaren Anpassung haben.
+
+variations:
+  - name: Klassische Zielscheibe (3-4 Sektoren)
+    description: >
+      Standardvariante: 3-4 Sektoren, 3 Punkte pro Person,
+      gleichzeitige Vergabe.
+    when_to_use: >
+      Seminar-Start, Workshop-Eröffnung. 6-25 TN. Wenn
+      differenzierte Erwartungsklärung gewünscht ist.
+  - name: "Zweistufig: vorher + nachher"
+    description: >
+      Zielscheibe am Anfang und am Ende einsetzen. Vergleich:
+      Wo haben sich Erwartungen erfüllt? Wo nicht?
+    when_to_use: >
+      Längere Trainings mit Evaluations-Fokus. Zeigt Delta
+      zwischen Erwartung und erlebter Realität.
+  - name: Digitale Zielscheibe (Miro/Mural)
+    description: >
+      Zielscheibe im Online-Whiteboard. TN platzieren
+      Avatare in Sektoren/Ringen. Automatisch speicherbar.
+    when_to_use: >
+      Online-Trainings. Nachhaltig dokumentierbar, auch
+      wiederverwendbar.
+    setting_codes: [remote_sync]
+  - name: Mit Worten statt Sektoren
+    description: >
+      Statt vorgegebener Sektoren: TN kleben Wort-Karten
+      ("Konkretes", "Austausch", "Neues lernen") in
+      Zielscheibe-Ringe.
+    when_to_use: >
+      Wenn offene Erwartungs-Begriffe gewünscht sind. Mehr
+      Tiefe, mehr Zeit.
+  - name: Drei-Zielscheiben (Teams)
+    description: >
+      Drei separate Zielscheiben für drei Teilgruppen — z.B.
+      "Neueinsteiger", "Erfahrene", "Externe". Differenzierte
+      Bilder.
+    when_to_use: >
+      Heterogene Gruppen, wenn Subgruppen unterschiedliche
+      Erwartungen haben könnten.
+  - name: Inhalts-fokussierte Zielscheibe
+    description: >
+      Sektoren sind inhaltliche Module des Trainings
+      ("Modul 1: X", "Modul 2: Y"). TN markieren, was sie am
+      meisten interessiert.
+    when_to_use: >
+      Modulares Training mit flexibler Reihenfolge. Priorisiert
+      Inhalte nach Gruppeninteresse.
+
+pitfalls:
+  - issue: >
+      Sektoren sind schlecht gewählt — TN wissen nicht, was
+      sie bewerten sollen.
+    countermeasure: >
+      Sektoren vor Training festlegen, präzise beschriften.
+      Beispiele im Sektor-Label: "Methoden — wie wir hier
+      arbeiten". Klar machen, was gemeint ist.
+    severity: common
+  - issue: >
+      Alle Punkte landen in einem Sektor — keine
+      Differenzierung.
+    countermeasure: >
+      Vorab sagen: "Verteilen Sie auf mindestens 2 Sektoren."
+      Oder Erklärung: "Das heißt nicht, dass die anderen
+      unwichtig sind — aber wo ist Ihr Top-Fokus?"
+    severity: common
+  - issue: >
+      Sequenzielles Kleben führt zu Bandwagon.
+    countermeasure: >
+      Gleichzeitig kleben lassen. Bei Platz-Problem:
+      Zettel-Abgabe, Moderation trägt ein.
+    severity: common
+  - issue: >
+      Keine Konsequenz aus dem Bild — Zielscheibe hängt nur.
+    countermeasure: >
+      Bild explizit in Agenda einordnen. "Wegen Ihrer
+      Schwerpunkte mache ich..." — sichtbare Anpassung,
+      nicht nur Schulterzucken.
+    severity: common
+  - issue: >
+      Moderation interpretiert Bild einseitig oder defensiv.
+    countermeasure: >
+      Ehrlich lesen: "Ich hatte nicht erwartet, dass Transfer
+      so weit oben ist." Neutrale Sprache. Bei Unsicherheit:
+      Rückfrage an Gruppe.
+    severity: common
+  - issue: >
+      Bei großen Gruppen wird Zielscheibe unübersichtlich
+      (Punkte übereinander).
+    countermeasure: >
+      Bei > 25 TN: Digital-Variante, oder zwei parallele
+      Zielscheiben. Oder Gruppenpunkte als Aggregations-
+      Einheit.
+    severity: common
+  - issue: >
+      TN haben kein echtes Mandat — Erwartungen sind "vorher
+      festgelegt".
+    countermeasure: >
+      Mit Auftraggeber vorab klären: Ist Trainings-Design
+      wirklich anpassbar? Sonst: Methode ist Placebo. Ehrlich
+      kommunizieren, was anpassbar ist.
+    severity: rare

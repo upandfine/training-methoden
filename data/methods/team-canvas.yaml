@@ -1,0 +1,272 @@
+slug: team-canvas
+canonical_name: Team Canvas
+synonyms:
+  - synonym: Team Canvas
+    language: en
+short_description: >
+  Strukturierter Canvas (ähnlich Business Model Canvas) mit 9 Feldern:
+  People & Roles, Common Goals, Personal Goals, Purpose, Values, Strengths
+  & Weaknesses, Rules, Needs, Activities. Für Team-Kickoff oder Neuaufstellung.
+originator: Alex Ivanov
+origin_context: >
+  2015 von Alex Ivanov entwickelt und als Creative-Commons-Vorlage
+  veröffentlicht (theteamcanvas.com). In agilen und Startup-Umfeldern
+  breit adaptiert.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digitale Canvas-Vorlagen auf Miro/Mural sehr gängig.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective, visualization]
+duration_min_minutes: 90
+duration_typical_minutes: 180
+duration_max_minutes: 240
+materials:
+  - Team-Canvas-Poster (A1 ausgedruckt) oder digitales Board
+tags: [team, canvas, kickoff, rollen]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Team Canvas — Original"
+    url: https://theteamcanvas.com/
+    relation: originator
+    note: >
+      Ivanovs Originalseite — Canvas-Vorlage als Creative
+      Commons zum Download.
+  - kind: book
+    title: "Business Model Generation"
+    author: Alexander Osterwalder, Yves Pigneur
+    year: 2010
+    relation: reference
+    note: >
+      Business Model Canvas als strukturelles Vorbild —
+      Team Canvas adaptiert das Prinzip für Team-Setup.
+  - kind: book
+    title: "Agile Team Startups"
+    author: Jurgen Appelo
+    year: 2016
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Canvas ausbreiten & 9 Felder erklären
+    duration_minutes: 15
+    trainer_action: >
+      A1-Canvas oder Miro-Template zeigen. 9 Felder
+      erklären: People & Roles, Common Goals, Personal
+      Goals, Purpose, Values, Strengths & Weaknesses,
+      Rules, Needs, Activities. Reihenfolge festlegen.
+    participant_action: >
+      Canvas betrachten, Felder verstehen, eigene
+      Perspektive aktivieren.
+    note: >
+      9 Felder sind viel. Einführung sorgfältig —
+      wer nicht versteht, verliert Anschluss. Kurze
+      Beispiele pro Feld helfen.
+  - order: 2
+    label: People & Roles (30 min)
+    duration_minutes: 30
+    trainer_action: >
+      "Wer ist im Team? Welche Rolle, welche
+      Verantwortung?" Jede:r stellt sich vor, beschreibt
+      Rolle. Notation auf Canvas (Name + Rolle +
+      Kern-Verantwortung).
+    participant_action: >
+      Sich vorstellen, Rolle konkretisieren, Verantwortung
+      klären.
+    note: >
+      Startpunkt: Klarheit über Personen. Oft entdecken
+      Teams hier schon Rollen-Lücken oder Überlappungen.
+  - order: 3
+    label: Purpose + Common Goals + Personal Goals (40 min)
+    duration_minutes: 40
+    trainer_action: >
+      "Warum existiert dieses Team? Was sind unsere
+      Team-Ziele? Welche persönlichen Ziele bringt
+      jede:r?" Drei verbundene Felder. Gemeinsame
+      Arbeit.
+    participant_action: >
+      Purpose mitformulieren. Gemeinsame Ziele
+      herausarbeiten. Persönliche Ziele teilen.
+    note: >
+      Purpose oft schwierig. Team-Geschichte und
+      breiteren Kontext heranziehen. Verbindung zu
+      persönlichen Zielen ist wichtig.
+  - order: 4
+    label: Values + Rules (30 min)
+    duration_minutes: 30
+    trainer_action: >
+      "Was sind unsere Werte? Welche Regeln leiten
+      uns?" Werte konkret, Regeln umsetzbar. Nicht
+      Floskeln wie "Respekt" — konkret: "Wir
+      antworten auf Nachrichten innerhalb 24h."
+    participant_action: >
+      Werte identifizieren, Regeln operationalisieren.
+    note: >
+      Werte-Floskeln sind Versuchung. Immer fragen:
+      "Wie merken wir, dass wir den Wert leben?"
+      Konkretheit ist alles.
+  - order: 5
+    label: Strengths & Weaknesses + Needs (25 min)
+    duration_minutes: 25
+    trainer_action: >
+      "Was können wir als Team? Wo sind unsere Lücken?
+      Was brauchen wir vom Umfeld?" Ehrliche Selbst-
+      Analyse.
+    participant_action: >
+      Stärken kollektiv benennen. Schwächen offen
+      teilen. Bedürfnisse gegenüber Umfeld formulieren.
+    note: >
+      Schwächen-Phase ist heikel. Vertrauen vorausgesetzt.
+      Bei frischem Team: eher vorsichtig, bei etabliertem
+      ernster.
+  - order: 6
+    label: Activities (20 min)
+    duration_minutes: 20
+    trainer_action: >
+      "Welche konkreten Aktivitäten führen wir durch?
+      Was machen wir WIRKLICH?" Operative Ebene, sollte
+      Purpose + Goals stützen.
+    participant_action: >
+      Aktivitäten listen, mit Purpose abgleichen,
+      Inkonsistenzen aufdecken.
+    note: >
+      Hier wird Widerspruch sichtbar: Purpose sagt
+      "Innovation", Activities sind 80% Routine-Work.
+      Das ist Lerneffekt des Canvas.
+  - order: 7
+    label: Integration & Commitment
+    duration_minutes: 20
+    trainer_action: >
+      Gesamt-Canvas durchgehen: "Passt alles
+      zusammen? Wo sind Lücken? Was committen wir?"
+      Dokumentation sichern (Foto, digital).
+    participant_action: >
+      Gesamt-Stimmigkeit prüfen, letzte Anpassungen,
+      Commitment zum Canvas als Team-Grundlage.
+    note: >
+      Canvas ist lebendes Dokument. Regelmäßige
+      Review-Termine (quartalsweise) vereinbaren.
+      Ohne: bleibt Poster.
+
+variations:
+  - name: Klassisch (kompletter Canvas, 3h)
+    description: >
+      Alle 9 Felder, strukturierte Reihenfolge.
+      Standard-Variante.
+    when_to_use: >
+      Team-Kickoff, neue Teams, nach größerer
+      Veränderung. 3-10 Personen.
+  - name: Team Canvas Basic (nur 4 Felder)
+    description: >
+      Kurzvariante: nur People, Purpose, Goals,
+      Values. 60 min. Weniger Tiefe.
+    when_to_use: >
+      Zeitknappe Settings, erste Einführung ins
+      Canvas-Denken.
+  - name: Remote Team Canvas (Miro)
+    description: >
+      Digitale Canvas-Vorlage, TN arbeiten parallel,
+      gemeinsam digital entwickelt.
+    when_to_use: >
+      Verteilte Teams. Sehr gut etabliert.
+    setting_codes: [remote_sync]
+  - name: Team Canvas als Retrospektive
+    description: >
+      Bestehendes Team füllt Canvas erneut —
+      Vergleich mit Vorversion. Zeigt Veränderung.
+    when_to_use: >
+      Team nach 6-12 Monaten, nach Projekt-Phasen.
+      Entwicklungs-Tracking.
+  - name: Canvas-Hybrid mit anderen Methoden
+    description: >
+      Team Canvas kombiniert mit Appreciative Inquiry
+      oder Purpose-to-Practice. Mehr Tiefe, längere
+      Session.
+    when_to_use: >
+      Strategische Team-Entwicklung, Transformations-
+      Kontexte.
+  - name: Projekt-Team-Canvas
+    description: >
+      Für Projekt-Teams (temporär), mit Fokus auf
+      Deliverables und Projektziele.
+    when_to_use: >
+      Projekt-Kickoffs, cross-funktionale Teams.
+
+pitfalls:
+  - issue: >
+      9 Felder überfordern — Canvas wird oberflächlich
+      gefüllt.
+    countermeasure: >
+      Reihenfolge strikt einhalten. Bei Zeitmangel:
+      Basic-Variante (4 Felder). Lieber weniger Felder
+      tief als alle oberflächlich.
+    severity: common
+  - issue: >
+      Purpose bleibt floskelhaft oder kippt in Ziel/Regel.
+    countermeasure: >
+      Purpose ist das WOZU — der breitere Sinn, dem das
+      Team dient. Nicht Service-Level, nicht messbares
+      Quartalsziel. Test: "Bei welcher schwierigen
+      Entscheidung würde dieser Purpose Orientierung
+      geben?" Beispiel statt "Kunden-Excellence":
+      "Wir helfen kleinen Unternehmen, digital souverän
+      zu arbeiten — auch wenn das kurzfristig weniger
+      Umsatz bedeutet." Konkrete SLAs ("Antwort in 24h")
+      gehören in Rules / Common Goals, nicht in Purpose.
+    severity: common
+  - issue: >
+      Persönliche Ziele werden nicht geteilt —
+      Vertrauens-Mangel.
+    countermeasure: >
+      Vertrauens-Boden prüfen. Bei frischem Team:
+      vielleicht nur beruflich-relevante Ziele. Bei
+      etabliertem: auch private.
+    severity: common
+  - issue: >
+      Canvas wird einmalig gefüllt, dann vergessen.
+    countermeasure: >
+      Poster im Team-Raum aushängen. Quartalsweise
+      Review. Bei Neuzugängen: Canvas gemeinsam
+      updaten.
+    severity: common
+  - issue: >
+      Inkonsistenzen zwischen Feldern werden nicht
+      aufgedeckt.
+    countermeasure: >
+      Integrations-Phase (Schritt 7) ernst nehmen.
+      Explizite Inkonsistenz-Suche: "Passt Activities
+      zu Purpose?"
+    severity: common
+  - issue: >
+      Für große Teams (> 10): Canvas wird chaotisch.
+    countermeasure: >
+      Team Canvas ist für 3-10 Personen gedacht.
+      Bei > 10: aufteilen oder andere Methode
+      (Team-Charta, Organisations-Ebene).
+    severity: common
+  - issue: >
+      Neue Teammitglieder werden nicht eingebunden.
+    countermeasure: >
+      Bei Personalwechsel Canvas-Refresh. Neues
+      Mitglied bringt eigene People + Personal Goals.
+      Lebendiges Dokument, nicht statisch.
+    severity: common

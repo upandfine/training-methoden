@@ -1,0 +1,270 @@
+slug: open-space
+canonical_name: Open Space
+synonyms:
+  - synonym: Open Space Technology
+    language: en
+short_description: >
+  Großgruppenformat mit selbstorganisierter Agenda. Teilnehmende schlagen Themen
+  vor, bilden Sessions, wechseln nach „Gesetz der zwei Füße". Erzeugt hohe
+  Beteiligung und Eigenverantwortung.
+originator: Harrison Owen
+origin_year: 1985
+origin_context: >
+  Entstanden, als Owen feststellte, dass Kaffeepausen produktiver waren als
+  geplante Konferenzprogramme. Heute weltweit verbreitet.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: expectations
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Zoom mit mehreren offenen Breakouts; „zwei Füße" = freies Room-Hopping.
+  - code: hybrid
+    suitability: limited
+group_sizes: [large, plenary]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [cooperative, creative, activating]
+duration_min_minutes: 180
+duration_typical_minutes: 480
+duration_max_minutes: 1440
+materials:
+  - Marktplatz-Wand, Session-Templates, mehrere Räume
+tags: [grossgruppe, selbstorganisation, konferenzformat]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: "Open Space Technology: A User's Guide"
+    author: Harrison Owen
+    year: 1997
+    relation: originator
+    note: >
+      Owens Standardwerk — Grundlagen, die 4 Prinzipien, das
+      Gesetz der zwei Füße, Moderations-Anweisungen.
+  - kind: book
+    title: "Erweiterte Moderation: Großgruppen-Methoden für Veränderung"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: practice_guide
+    note: Einordnung und deutsche Anwendungsbeispiele.
+  - kind: url
+    title: "OpenSpaceWorld.org"
+    url: https://openspaceworld.org/
+    relation: reference
+    note: Globale Community, Fallstudien, Ressourcen.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Raum & Rahmen vorbereiten
+    duration_minutes: 60
+    trainer_action: >
+      Großer Kreis (ohne Tische) — alle TN sehen sich. Mehrere
+      Nebenräume oder Raumzonen (je 10-15 Personen). Marktplatz-
+      Wand sichtbar. Material: Moderationskarten, Stifte,
+      Dokumentations-Vorlagen. Thema der Veranstaltung groß
+      aufhängen.
+    participant_action: >
+      Ankommen im Kreis, Raum-Übersicht gewinnen, innerlich
+      auf Selbstorganisation einstellen.
+    note: >
+      Kreis ohne Tische ist nicht verhandelbar — symbolisiert
+      Gleichrangigkeit. Tische schaffen Fronten. Ggf. Stühle
+      aus Seminar-Bestuhlung in Kreis umstellen.
+  - order: 2
+    label: Eröffnung & Prinzipien
+    duration_minutes: 30
+    trainer_action: >
+      Thema präsentieren, Zeitrahmen, Ablauf. Die 4 Prinzipien
+      laut aussprechen: (1) "Wer auch immer kommt, ist die
+      richtige Person." (2) "Was auch immer geschieht, ist das
+      einzige, was geschehen konnte." (3) "Es beginnt, wann es
+      beginnt." (4) "Wenn's vorbei ist, ist's vorbei." Plus
+      das "Gesetz der zwei Füße" (wenn du nichts lernst/
+      beiträgst, geh).
+    participant_action: >
+      Prinzipien hören, Selbstverständnis für Selbstorganisation
+      annehmen.
+    note: >
+      Prinzipien klingen esoterisch, funktionieren aber. Sie
+      signalisieren: Selbstverantwortung, Loslassen von
+      Kontrolle, Vertrauen in Emergenz. Owen's Formulierungen
+      beibehalten, nicht umschreiben.
+  - order: 3
+    label: Agenda-Markt
+    duration_minutes: 45
+    trainer_action: >
+      Einladung: "Wer hat ein Thema, das Sie heute bewegen
+      würde?" TN kommen einzeln in die Mitte, schreiben Thema
+      auf eine Karte, nennen es laut, heften ans Marktplatz-
+      Brett (mit Raum + Zeitslot). Nicht zu viel moderieren —
+      Stille aushalten, bis Themen kommen.
+    participant_action: >
+      Eigene Themen einbringen, Raum/Zeit wählen. Keine
+      Verpflichtung, Thema anzubieten — wer nicht will, muss
+      nicht.
+    note: >
+      Oft entstehen erstmal nur wenige Themen, dann wird es
+      Lawine. Ruhe bewahren. Bei weniger als 1 Thema pro 5 TN:
+      Moderation kann ermutigen ("Was würde Sie heute noch
+      interessieren?").
+  - order: 4
+    label: Session-Runden (3-6 parallel)
+    duration_minutes: 240
+    trainer_action: >
+      Teilnehmer wählen Sessions. "Zwei Füße" praktizieren
+      erlaubt — TN wechseln, wenn sie nichts mitnehmen.
+      Moderation ist Hüter:in des Prozesses, nicht der Inhalte.
+      Rotieren durch Räume, unterstützen wo nötig, aber nicht
+      inhaltlich eingreifen.
+    participant_action: >
+      Zu gewähltem Thema gehen, mitdiskutieren, ggf. Raum
+      wechseln. Themen-Pate dokumentiert auf Vorlage.
+    note: >
+      "Zwei Füße" ist zentrales Element. Moderation schützt
+      dieses Recht aktiv: "Wenn Sie nicht profitieren — gehen
+      Sie. Das ist OK."
+  - order: 5
+    label: Ergebnis-Zusammenführung
+    duration_minutes: 60
+    trainer_action: >
+      Alle Session-Dokumentationen werden sichtbar (Pinnwand,
+      Buchdruck, PDF). Im Plenum kurzer Rundgang: Jede Session
+      bekommt 2-3 min zur Vorstellung der Ergebnisse. Dann
+      optional Dot-Voting auf wichtigste Aktionen.
+    participant_action: >
+      Session-Ergebnisse präsentieren (Themen-Paten) oder
+      zuhören, voten.
+    note: >
+      Ergebnis-Zusammenführung ist Transfer-Brücke. Ohne sie
+      zerfällt Open Space in Einzelerlebnisse. Zeit investieren.
+  - order: 6
+    label: Abschluss-Reflexion
+    duration_minutes: 45
+    trainer_action: >
+      Gemeinsames Closing im Kreis. Jede:r sagt ein Wort oder
+      einen Satz: "Was nehmen Sie mit?" Plus organisatorisches:
+      Wer macht was bis wann? Follow-up-Strukturen
+      (Arbeitsgruppen, nächste Treffen).
+    participant_action: >
+      Kurzen Abschluss beitragen, Commitment für Follow-up
+      machen, Ritual miterleben.
+    note: >
+      Kreis zu Beginn, Kreis am Ende — Rahmung. Abschluss-
+      Ritual wichtig für emotionalen und organisatorischen
+      Abschluss.
+
+variations:
+  - name: Klassisches Open Space (1-3 Tage)
+    description: >
+      Vollversion mit 50-2000 TN über 1-3 Tage. Standardvariante
+      nach Owen.
+    when_to_use: >
+      Organisations-Konferenzen, Communitys, Kongresse, Change-
+      Veranstaltungen. Wenn selbstorganisierte Emergenz
+      gewünscht ist.
+  - name: Half-Day Open Space (4 Stunden)
+    description: >
+      Gekürzte Variante: 30 min Eröffnung, 2,5h Sessions, 1h
+      Abschluss. Für Team-Offsites und kleinere Formate.
+    when_to_use: >
+      Team-Klausuren (15-40 TN), Bereichs-Treffen, wenn
+      Selbstorganisation in kurzer Zeit genug Wirkung hat.
+  - name: Themen-fokussiertes Open Space
+    description: >
+      Klarer Themen-Fokus ("Unsere Digitalisierung 2026"),
+      aber Sessions selbstorganisiert. Etwas stärker gerichtet
+      als klassische Version.
+    when_to_use: >
+      Wenn Auftraggeber strategischen Fokus setzen, aber
+      Inhalte emergent entstehen sollen.
+  - name: Remote Open Space
+    description: >
+      Zoom/Teams mit mehreren Breakouts, Marktplatz auf
+      Miro/Mural. "Zwei Füße" = freies Breakout-Hopping.
+    when_to_use: >
+      Verteilte Organisationen, wenn physische Zusammenkunft
+      nicht möglich. Erfordert sehr erfahrene Remote-Moderation.
+    setting_codes: [remote_sync]
+  - name: Mini-Open-Space (2 Stunden)
+    description: >
+      Kleinstformat: 10 min Eröffnung, 3×30 min Sessions,
+      20 min Abschluss. Nur 2-3 parallele Räume.
+    when_to_use: >
+      Tagesseminar-Block, wenn Open-Space-Prinzipien erfahren
+      werden sollen. Methodik-Training.
+  - name: Hybrid Open Space mit Arbeits-Zielen
+    description: >
+      Kombination mit Zukunftswerkstatt oder World Café
+      Elementen. Klare Ergebnis-Zielgrößen (z.B. "am Ende
+      3 Projekte mit Ownern").
+    when_to_use: >
+      Organisationen, die Selbstorganisation UND konkrete
+      Outputs brauchen. Erfordert erfahrene Moderation.
+
+pitfalls:
+  - issue: >
+      Auftraggeber fürchtet Kontrollverlust — Programm wird
+      vorab zu stark festgelegt.
+    countermeasure: >
+      Vorab intensive Stakeholder-Arbeit: Vertrauen in
+      Emergenz aufbauen. Fallstudien zeigen. Nicht-verhandelbar:
+      Selbstorganisation ist Kern, ohne sie ist's kein
+      Open Space.
+    severity: common
+  - issue: >
+      TN warten auf "Unterweisung" — Selbstorganisation wirkt
+      irritierend.
+    countermeasure: >
+      Prinzipien klar erklären, am Anfang Beispiele zeigen.
+      Erst zögerliche Stille aushalten — nach 10-15 min
+      kommen Themen von allein.
+    severity: common
+  - issue: >
+      Moderation mischt sich in Session-Inhalte ein —
+      untergräbt Selbstorganisation.
+    countermeasure: >
+      Strikte Rollentrennung: Moderation hütet Prozess, nicht
+      Inhalt. In Sessions nur einspringen, wenn Prozess
+      gefährdet ist.
+    severity: common
+  - issue: >
+      Dokumentation fehlt — Open Space wird zum "schön gewesen,
+      und jetzt?".
+    countermeasure: >
+      Themen-Paten verpflichtet zur Dokumentation auf
+      standardisierter Vorlage. Vor dem Ende: alle Doks sichtbar
+      an einer Wand. Buchdruck am Ende (Zusammenfassung
+      aller Sessions).
+    severity: common
+  - issue: >
+      Zu wenige TN (< 20) — "Zwei Füße"-Dynamik kommt nicht
+      zustande.
+    countermeasure: >
+      Open Space braucht kritische Masse. Bei < 20 TN:
+      lieber World Café oder andere Methode wählen. Zwingen
+      schadet.
+    severity: common
+  - issue: >
+      "Zwei Füße" wird als Respektlosigkeit erlebt — jemand
+      geht, Session-Pate fühlt sich abgewertet.
+    countermeasure: >
+      Prinzip vorab erklären: "Gehen ist Service für das
+      System — wer mehr lernt, bringt mehr zurück." Kultur
+      des Loslassens etablieren.
+    severity: common
+  - issue: >
+      Große Themen-Vielfalt verwässert — keine inhaltliche
+      Tiefe.
+    countermeasure: >
+      Pre-Open-Space: Thema eingrenzen (nicht alles ist
+      möglich). Post-Open-Space: Priorisierung durch
+      Dot-Voting. Ergebnisse aus Vielfalt extrahieren.
+    severity: common

@@ -1,0 +1,247 @@
+slug: scamper
+canonical_name: SCAMPER
+synonyms:
+  - synonym: SCAMPER
+    language: en
+  - synonym: SCAMPER-Methode
+    language: de
+short_description: >
+  Kreativitätstechnik mit 7 Leitfragen-Kategorien zur Ideengenerierung:
+  Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse.
+  Strukturierter Weg, um vorhandene Lösungen neu zu denken.
+originator: Bob Eberle (auf Grundlage von Alex Osborn)
+origin_context: >
+  1971 von Bob Eberle aus den Kreativ-Fragen von Alex Osborn (Erfinder des
+  Brainstormings, 1953) zu einem Akronym verdichtet. Heute Standardtool
+  in Kreativitäts- und Innovations-Workshops.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digitale Templates für 7 Kategorien auf Miro/Mural.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [creative, cooperative]
+duration_min_minutes: 30
+duration_typical_minutes: 85
+duration_max_minutes: 120
+tags: [kreativitaet, akronym, ideengenerierung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "SCAMPER: Games for Imagination Development"
+    author: Bob Eberle
+    year: 1971
+    relation: originator
+    note: Ursprungswerk, in dem Eberle das Akronym aus Osborns Checkliste herleitet.
+  - kind: book
+    title: "Applied Imagination"
+    author: Alex F. Osborn
+    year: 1953
+    relation: reference
+    note: >
+      Osborns Checkliste, auf der SCAMPER basiert — über 70 kreative
+      Prüffragen für bestehende Produkte/Ideen.
+  - kind: book
+    title: "Thinkertoys"
+    author: Michael Michalko
+    year: 2006
+    relation: practice_guide
+    note: Prominent beschriebene SCAMPER-Variante mit vielen Beispielen.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ausgangsobjekt bestimmen & Akronym einführen
+    duration_minutes: 5
+    trainer_action: >
+      Ein konkretes Produkt, Prozess oder eine Lösung als Ausgangs-
+      punkt. Je konkreter, desto besser — "unser Onboarding-Prozess"
+      statt "Onboarding". Die 7 SCAMPER-Fragen sichtbar groß
+      auflisten: Substitute (ersetzen), Combine (kombinieren),
+      Adapt (anpassen), Modify/Magnify (verändern/vergrößern),
+      Put to other use (andere Verwendung), Eliminate (weglassen),
+      Reverse (umkehren).
+    participant_action: >
+      Ausgangsobjekt verstehen, Fragen-Liste zur Kenntnis nehmen.
+    note: >
+      Wenn TN SCAMPER nicht kennen, ein Beispiel vorführen — z.B.
+      an einem Alltagsgegenstand. "Wenn wir einen Bleistift
+      nehmen: Substitute = Filzstift, Combine = Bleistift+Radierer,
+      etc." Macht das Akronym greifbar.
+  - order: 2
+    label: Durchlauf der 7 Fragen (je 5-7 min)
+    duration_minutes: 45
+    trainer_action: >
+      Jede Frage einzeln bearbeiten, Ergebnisse auf eigenem Plakat/
+      Frame sammeln. Timer pro Frage. Bei jeder Frage kurz
+      erklären, was gemeint ist, mit 1-2 Beispielfragen. Ideen
+      notieren, nicht bewerten.
+    participant_action: >
+      Pro Frage still 2 min nachdenken, dann 3-5 min im Dialog
+      sammeln. Wilde Ideen willkommen, keine Vorzensur.
+    note: >
+      Das Akronym verführt, zu gleichmäßig zu sein. In der Praxis
+      produzieren manche Fragen für manche Probleme viele Ideen,
+      andere wenige — das ist OK. Nicht erzwingen.
+  - order: 3
+    label: Clustern & Priorisieren
+    duration_minutes: 10
+    trainer_action: >
+      Alle Ideen sichtbar nebeneinander. Clustern nach Themen
+      oder Lösungsrichtungen. Dann Dot-Voting (3-5 Punkte pro
+      Person). Top 3-5 Kandidaten als weiterverfolgenswert
+      markieren.
+    participant_action: >
+      Gruppieren, voten, in Diskussion Top-Ideen diskutieren.
+    note: >
+      Nicht alle SCAMPER-Ideen sind gleichwertig. Manche sind
+      absurd (und absichtlich), manche konkret umsetzbar.
+      Priorisierung trennt das.
+  - order: 4
+    label: Top-Ideen weiterentwickeln (wahlweise)
+    duration_minutes: 20
+    trainer_action: >
+      Für die 2-3 Top-Ideen: konkrete Umsetzungsplanung. Was
+      bräuchte es? Wer? Wann? Welche Risiken? Ggf. kombiniert
+      mit Impact/Effort-Matrix oder Prototyping-Skizze.
+    participant_action: >
+      In Kleingruppen je eine Top-Idee konkretisieren,
+      Ergebnisse im Plenum vorstellen.
+    note: >
+      Kreativitäts-Methoden verpuffen ohne Umsetzungsphase.
+      Planen Sie diese Zeit fest ein, auch wenn sie über die
+      Standard-60 min hinausgeht.
+  - order: 5
+    label: Abschluss & Dokumentation
+    duration_minutes: 5
+    trainer_action: >
+      Ergebnisse nochmal durchlaufen. Abfoto, Digitalisierung.
+      Nächste Schritte mit Owner und Termin. Kurzes Debrief:
+      "Welche SCAMPER-Frage war für uns am produktivsten?"
+    participant_action: >
+      Commitment geben, Owner-Rollen übernehmen, eigene
+      Erkenntnis nennen.
+    note: >
+      Die Meta-Reflexion („Welche Frage war stark?") ist
+      Bonus — beim nächsten Workshop wissen Sie, wo diese
+      Gruppe kreativ einhakt.
+
+variations:
+  - name: Klassisch (alle 7 Fragen, 60-90 min)
+    description: >
+      Vollständiger Durchlauf aller 7 SCAMPER-Kategorien, mit
+      Zeitfenster pro Kategorie. Standard-Variante.
+    when_to_use: >
+      Produktverbesserungs-Workshops, Prozess-Redesign,
+      wenn systematische Kreativität gewünscht ist.
+  - name: Fokus-SCAMPER (3-4 Fragen)
+    description: >
+      Auswahl der 3-4 relevantesten Fragen, statt alle 7.
+      Z.B. nur Substitute, Combine, Eliminate. Schneller,
+      tiefer pro Kategorie.
+    when_to_use: >
+      Bei Zeitknappheit (30-45 min), oder wenn die Problem-
+      stellung bestimmte Kategorien nahelegt.
+  - name: SCAMPER an parallelen Stationen
+    description: >
+      7 Kategorien = 7 Stationen im Raum. Kleingruppen
+      rotieren, jede Station je 5-7 min. Vorheriger Output
+      wird von nachfolgender Gruppe weiterentwickelt.
+    when_to_use: >
+      Größere Gruppen (15+), wenn parallelisiert werden
+      soll. Dynamisch, hoher Output.
+  - name: Solo-SCAMPER (Einzel-Brainstorming)
+    description: >
+      Einzelperson arbeitet mit Vorlage durch alle 7
+      Fragen. Ideen auf Karteikarten. Später mit
+      anderen kombinierbar.
+    when_to_use: >
+      Selbststudium, Vorbereitung auf Workshops,
+      Strategie-Arbeit von Einzelpersonen.
+  - name: Remote-SCAMPER (Miro/Mural-Template)
+    description: >
+      Digitales Board mit 7 Spalten oder Kacheln. Parallel
+      füllen, clustern, voten. Oft effizienter als analog.
+    when_to_use: >
+      Online-Workshops, verteilte Innovationsteams.
+      Template kann wiederverwendet werden.
+    setting_codes: [remote_sync, remote_async]
+  - name: SCAMPER als Turbo-Check (15 min)
+    description: >
+      Sehr kurz: 1-2 min pro Frage im Team-Meeting.
+      Nur als Denk-Anstoß, ohne tiefe Ausarbeitung.
+    when_to_use: >
+      In laufenden Projekten, wenn in einem Meeting ein
+      Impuls zur Neubetrachtung gebraucht wird.
+
+pitfalls:
+  - issue: >
+      Einzelne SCAMPER-Fragen werden übersprungen, weil
+      "dafür gibt's hier nichts".
+    countermeasure: >
+      Jede Frage mindestens 2 min Zeit geben. Auch absurde
+      Ideen notieren. Oft produzieren "schwächere" Fragen
+      im Rückblick überraschende Kombinationen.
+    severity: common
+  - issue: >
+      Gruppe versteht Akronym nicht, bleibt in Oberflächen-
+      fragen stecken.
+    countermeasure: >
+      Beispiele pro Frage vorbereiten (mit Alltags-Objekt).
+      Handout mit Beispielfragen pro Kategorie verteilen:
+      "Substitute: Wer/Was könnte ersetzt werden? Welches
+      Material? Welche Rolle?"
+    severity: common
+  - issue: >
+      Ideen bleiben inkrementell — nichts wirklich Neues,
+      nur Variationen.
+    countermeasure: >
+      Provokations-Impuls einstreuen: "Jetzt die radikalste
+      Substitution: komplett andere Branche." Reverse-Frage
+      betont ("Wie würde das Gegenteil aussehen?").
+    severity: common
+  - issue: >
+      60-90 min vergehen ohne Umsetzungsfokus, Gruppe
+      frustriert ("viele Ideen, nichts passiert").
+    countermeasure: >
+      Umsetzungsphase (Schritt 4) fest einplanen. Auch wenn
+      nur 2 Ideen priorisiert werden — sie müssen konkreten
+      nächsten Schritt bekommen.
+    severity: common
+  - issue: >
+      Gruppe dominiert von einer Person mit vielen Ideen —
+      andere kommen nicht zum Zug.
+    countermeasure: >
+      Still-Phase pro Frage (2 min) vor Diskussion. Alle
+      notieren individuell, dann Runde. Verhindert
+      Dominanz.
+    severity: common
+  - issue: >
+      TN finden SCAMPER "künstlich" oder "zu verkopft".
+    countermeasure: >
+      Framing: "Das ist eine Denk-Checkliste, kein Ritual.
+      Nehmen Sie was hilft, lassen Sie was nicht passt."
+      Ergebnis-Orientierung betonen, nicht Methode.
+    severity: rare
+  - issue: >
+      Dokumentation fällt unter den Tisch, Ergebnisse
+      verschwinden.
+    countermeasure: >
+      Abfoto-Pflicht nach jedem Schritt, nicht erst am
+      Ende. 1 TN als Protokoll-Owner benannt.
+    severity: common

@@ -1,0 +1,257 @@
+slug: mad-sad-glad-retro
+canonical_name: Mad – Sad – Glad Retro
+synonyms:
+  - synonym: Mad Sad Glad
+    language: en
+  - synonym: Emotions-Retro
+    language: de
+short_description: >
+  Teilnehmende sammeln Karten zu drei Kategorien: Was hat mich geärgert (Mad),
+  was hat mich traurig/unzufrieden gemacht (Sad), worüber bin ich froh (Glad).
+  Macht emotionalen Anteil an Arbeitsprozessen sichtbar.
+originator: Arlo Belshee u.a. (Agile-Community)
+origin_context: >
+  Populär gemacht durch die Agile-/Scrum-Retrospektiven-Community
+  (Belshee, Derby/Larsen „Agile Retrospectives", 2006).
+phases:
+  - code: feedback
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Drei-Spalten-Whiteboard; eine der häufigsten Retros online.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [feedback, reflective]
+duration_min_minutes: 30
+duration_typical_minutes: 45
+duration_max_minutes: 60
+materials:
+  - Karten in drei Farben oder digitales Template
+tags: [retro, emotion, drei-kategorien, agile]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Agile Retrospectives: Making Good Teams Great"
+    author: Esther Derby, Diana Larsen
+    year: 2006
+    relation: practice_guide
+    note: >
+      Grundlagenwerk für Retrospektiven-Formate — Mad-Sad-Glad
+      als emotionale Variante ist hier mitbeschrieben.
+  - kind: url
+    title: "Fun Retrospectives — Mad Sad Glad"
+    url: https://www.funretrospectives.com/mad-sad-glad/
+    relation: reference
+    note: Kurze Methodenbeschreibung mit Variationen.
+  - kind: book
+    title: "Retrospektiven in der Praxis: Frische Ideen für Teams"
+    author: Judith Andresen
+    year: 2017
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einstieg & emotionaler Rahmen setzen
+    duration_minutes: 5
+    trainer_action: >
+      Kurz erklären: "In dieser Retro geht es nicht um Fakten,
+      sondern um Ihr emotionales Erleben. Drei Kategorien:
+      Mad (wütend/genervt), Sad (frustriert/enttäuscht), Glad
+      (erfreut/stolz)." Vertraulichkeit betonen: "Was hier gesagt
+      wird, bleibt hier — oder nur anonymisiert weitergetragen."
+    participant_action: >
+      Zuhören, emotional einsteigen, Zeitraum klären (welche
+      Iteration/Phase ist Gegenstand?).
+    note: >
+      Viele Teams sind nicht an emotionale Retros gewöhnt.
+      Das Framing macht den Unterschied — ohne Vertraulichkeits-
+      Versprechen bekommen Sie nur brav-technisches Feedback.
+  - order: 2
+    label: Still schreiben (Einzelarbeit)
+    duration_minutes: 10
+    trainer_action: >
+      10 min Still-Phase. Jede:r pro Kategorie mind. 1 Karte,
+      gern mehr. Drei Farben Kartenordnung sichtbar. Regel:
+      ein Gefühl + ein konkreter Anlass pro Karte. Kein
+      Vorlesen im Stillen — keiner stört.
+    participant_action: >
+      Schreiben, so ehrlich wie es geht. Konkrete Ereignisse,
+      nicht Pauschales.
+    note: >
+      "Konkret" heißt: "Sprint-Demo am Mittwoch war enttäuschend,
+      weil..." statt "Demos laufen schlecht". Je konkreter, desto
+      besser die nachfolgende Diskussion.
+  - order: 3
+    label: Karten ankleben & lesen
+    duration_minutes: 5
+    trainer_action: >
+      Karten in drei Spalten (Mad / Sad / Glad) ankleben.
+      Moderation liest jede laut vor. Keine Kommentare,
+      keine Bewertung während des Vorlesens. Kurze Pause
+      zum Setzenlassen.
+    participant_action: >
+      Zuhören, Karten wahrnehmen, eigene Emotionen
+      regulieren.
+    note: >
+      Vorlesen macht das Team zu Zeugen der Karten. Einfach
+      "Wand anschauen" hat weniger Wirkung als das akustische
+      Miterleben jeder Aussage.
+  - order: 4
+    label: Diskussion nach Spalten
+    duration_minutes: 15
+    trainer_action: >
+      Spalten-weise: erst Mad, dann Sad, dann Glad (oder umgekehrt
+      — Glad zuerst als positiven Einstieg). Cluster-weise
+      besprechen: Was steckt dahinter? Was brauchen wir? Keine
+      sofortigen Lösungen, erst verstehen.
+    participant_action: >
+      Diskutieren, nachfragen, eigene Karten präzisieren, auf
+      Karten anderer reagieren.
+    note: >
+      Die Reihenfolge matters: Mad zuerst entlädt, Glad zuletzt
+      stabilisiert. Oder Glad zuerst als Ressourcen-Anker, dann
+      Mad/Sad. Beides legitim, bewusst wählen.
+  - order: 5
+    label: Aktionen ableiten
+    duration_minutes: 8
+    trainer_action: >
+      Aus den Mad-/Sad-Clustern: 2-3 konkrete Actions für den
+      nächsten Sprint/Zyklus. Owner + Zeithorizont. Aus Glad:
+      was wollen wir bewahren/verstärken? Actions klein und
+      machbar halten.
+    participant_action: >
+      Actions vorschlagen, Owner übernehmen, Commitment geben.
+    note: >
+      Die Versuchung ist groß, "alles" in einer Retro lösen zu
+      wollen. Maximal 2-3 Actions, sonst verpufft der nächste
+      Sprint. Große Themen werden zu Folge-Retros.
+  - order: 6
+    label: Abschluss & Check-out
+    duration_minutes: 2
+    trainer_action: >
+      Kurze Abschluss-Runde: "Eine Erkenntnis, ein Satz." Danke
+      für Offenheit, Erinnerung an Vertraulichkeit. Dokumentation
+      (Abfoto) und Actions-Liste teilen.
+    participant_action: >
+      Kurzen Check-out geben, Commitments festhalten.
+    note: >
+      Abschluss-Runde rundet emotional ab. Ohne sie bleibt die
+      Retro "offen" — Team geht noch mit Mad-Stimmung aus der
+      Session.
+
+variations:
+  - name: Klassisch (3 Spalten, 45 min)
+    description: >
+      Mad / Sad / Glad in drei Spalten, Still-Phase, Cluster,
+      Actions. Standard-Agile-Format.
+    when_to_use: >
+      Scrum-Teams, Projekt-Abschnitte, Quartals-Retros. 4-10
+      Personen ideal.
+  - name: Kurzformat (15 min Mini-Retro)
+    description: >
+      Je 2 min pro Kategorie, kurze Diskussion, 1 Action.
+      Für tägliche oder wöchentliche Check-ins.
+    when_to_use: >
+      Stand-up-Erweiterung, Team das regelmäßig
+      emotionalen Puls nehmen will. Nicht als Haupt-Retro.
+  - name: Glad-Mad-Sad-Learn (4 Kategorien)
+    description: >
+      Vierte Spalte "Learned": Was haben wir gelernt? Bringt
+      Meta-Reflexion zusätzlich zu Emotionen.
+    when_to_use: >
+      Lernorientierte Teams, wenn Lernen explizit Ziel ist
+      (Learning Organizations, Onboarding-Phasen).
+  - name: Individuell anonym + Plenum
+    description: >
+      Erst anonyme Einzelabgabe (digital oder Karten einsammeln),
+      dann Plenum. Moderation liest vor, Gruppe diskutiert
+      ohne Namensbezug.
+    when_to_use: >
+      Teams mit Vertrauensproblemen, Konflikten, oder wo
+      Machtgefälle (Chef in der Runde) offene Aussprache
+      erschwert.
+  - name: Remote (Miro/Mural/Retrium)
+    description: >
+      Digital: drei Spalten, Sticky Notes, Voting für
+      Diskussions-Priorisierung. Timer im Shared Chat.
+    when_to_use: >
+      Verteilte Teams. Online funktioniert besser als gedacht,
+      weil Anonymität einfacher zu gewährleisten.
+    setting_codes: [remote_sync]
+  - name: Mad-Sad-Glad mit Body-Voting
+    description: >
+      TN positionieren sich physisch in drei Raumzonen je nach
+      dominanter Emotion. Kurzer Austausch in Zonen. Bewegte
+      Variante.
+    when_to_use: >
+      Präsenz-Workshops mit aktivierenden TN; wenn nicht nur
+      Denken, sondern auch Körpergefühl zum Thema gemacht
+      werden soll.
+
+pitfalls:
+  - issue: >
+      TN bleiben im Sachlichen ("Mein Sprint war nicht optimal")
+      und gehen nicht auf Emotionen ein.
+    countermeasure: >
+      Konkret nachfragen: "Und wie ging es Ihnen damit?" — "Was
+      ist das Gefühl dazu?" Ggf. Beispielkarten mitbringen, die
+      emotional sind.
+    severity: common
+  - issue: >
+      Glad-Spalte bleibt leer — "es gibt nichts Gutes".
+    countermeasure: >
+      Vorab Hinweis: "Jede:r eine Glad-Karte, auch wenn klein."
+      Kleine Glads zählen: "Der Kaffee heute." Verhindert
+      kollektiven Negativismus.
+    severity: common
+  - issue: >
+      Mad-Karten werden persönlich ("Frank hat mich genervt").
+    countermeasure: >
+      Regel: "Verhalten, nicht Person." Moderation wandelt um:
+      "Was war das konkrete Verhalten? Der Kontext?" Statt
+      Person Fokus auf Situation.
+    severity: common
+  - issue: >
+      Diskussion wird zu 40 min, Actions bleiben auf der Strecke.
+    countermeasure: >
+      Timer-Disziplin. Actions-Phase fest einplanen (8-10 min),
+      nicht als Puffer. Bei Überlauf: Diskussion abkürzen,
+      nicht Actions.
+    severity: common
+  - issue: >
+      Zu viele Actions beschlossen, nichts davon umgesetzt.
+    countermeasure: >
+      Harte Regel: max. 2-3 Actions. SMART formuliert. Owner
+      und Check-in-Datum fest. Beim Kick-off des nächsten
+      Zyklus: Actions vom letzten Mal reviewen.
+    severity: common
+  - issue: >
+      Emotionale Öffnung ohne Nach-Betreuung — TN gehen
+      aufgewühlt nach Hause.
+    countermeasure: >
+      Check-out-Runde NIE weglassen. Bei schwereren Themen:
+      1:1-Gespräch im Nachgang anbieten. Moderation hat
+      Verantwortung auch nach der Session.
+    severity: rare
+  - issue: >
+      Hierarchie in der Gruppe (Chef dabei) → nur harmlose
+      Mads.
+    countermeasure: >
+      Anonyme Variante wählen (siehe Variation). Oder Chef
+      führt Retro nicht, sondern externe:r Moderator:in.
+      Chef kann später dazu kommen.
+    severity: common

@@ -1,0 +1,218 @@
+slug: gordischer-knoten
+canonical_name: Gordischer Knoten
+synonyms:
+  - synonym: Human Knot
+    language: en
+  - synonym: Verknoten
+    language: de
+short_description: >
+  Gruppe steht im Kreis, greift blind zwei Hände anderer Personen und muss
+  sich gemeinsam entwirren, ohne loszulassen. Kooperations- und Teamspiel.
+originator: null
+origin_context: Erlebnispädagogik, Outdoor-Training.
+phases:
+  - code: warmup
+  - code: group_work
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: unsuitable
+  - code: hybrid
+    suitability: unsuitable
+group_sizes: [small, medium]
+target_audiences: [school, youth, corporate, ihk]
+method_types: [cooperative, game, activating]
+duration_min_minutes: 5
+duration_typical_minutes: 12
+duration_max_minutes: 20
+tags: [teambuilding, bewegung, kooperation]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+    note: >
+      Gordischer Knoten als klassische Kooperations-Übung
+      im erlebnispädagogischen Setting.
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: url
+    title: "Outdoor-Training.de — Human Knot"
+    url: https://outdoor-training.de/methoden/human-knot/
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kreis bilden & Regeln erklären
+    duration_minutes: 2
+    trainer_action: >
+      Alle stehen eng im Kreis — Schulter an Schulter. Regeln:
+      "Schließen Sie die Augen. Strecken Sie beide Hände in
+      die Mitte. Greifen Sie je eine Hand einer Person, die
+      NICHT neben Ihnen steht — nicht zweimal dieselbe Person."
+      Halten — jetzt Augen öffnen.
+    participant_action: >
+      Im Kreis stehen, Augen schließen, Hände in Mitte
+      strecken, greifen.
+    note: >
+      Augen-Zu-Phase ist wichtig für Zufalls-Griff. Mit
+      offenen Augen greifen Menschen strategisch. Wer nicht
+      greifen will: outside coach-Rolle anbieten (fotografiert,
+      gibt Tipps von außen).
+  - order: 2
+    label: Ausgangslage akzeptieren
+    duration_minutes: 1
+    trainer_action: >
+      "Das ist Ihr Knoten. Aufgabe: ohne Hände loszulassen
+      einen (offenen oder geschlossenen) Kreis bilden.
+      Umdrehen, Durchsteigen, Bewegen ist erlaubt. Hände
+      bleiben verbunden."
+    participant_action: >
+      Überblick gewinnen, Situation verstehen, erste
+      Ideen entwickeln.
+    note: >
+      Aufgabe klar: offener Kreis (Anfangs-Kette) zählt
+      genauso wie geschlossener. Manchmal entsteht auch zwei
+      separate Kreise — auch legitimer Ergebnis-Typ.
+  - order: 3
+    label: Entwirrungs-Phase
+    duration_minutes: 7
+    trainer_action: >
+      Gruppe arbeitet eigenständig. Moderation bleibt außerhalb,
+      dokumentiert (ggf. Foto), greift nur bei Sackgasse
+      ein ("Schauen Sie mal, wo Person X hinschaut"). Bei
+      Frust: "Atemen, weiterversuchen" - aber nicht aufgeben.
+    participant_action: >
+      Kommunizieren, probieren, umsteigen, unter Arme gehen,
+      koordinieren. Scheitern akzeptieren und neu versuchen.
+    note: >
+      Hohe Energie, Lachen, Körperkontakt. Manchmal
+      unlösbar — je nach Ausgangs-Verknotung. Ist OK. Nach
+      5-7 min: Frust-Punkt — dann Pause oder Reflexion
+      starten, nicht zwingen.
+  - order: 4
+    label: Reflexion & Bezug
+    duration_minutes: 2
+    trainer_action: >
+      Nach Erfolg oder Aufgabe: Kurz reflektieren. "Was ging
+      gut? Wer hat geführt? Wie habt ihr kommuniziert?"
+      Parallelen zur Arbeitswelt ziehen — Team, Koordination,
+      Frustrationstoleranz.
+    participant_action: >
+      Eigenes Erleben reflektieren, Beobachtungen teilen,
+      Verbindung zum Alltag ziehen.
+    note: >
+      Metapher-Brücke ist pädagogischer Ertrag. Ohne Reflexion
+      bleibt es Spiel. Mit Reflexion wird Team-Dynamik
+      sichtbar.
+
+variations:
+  - name: Klassisch (alle im Kreis)
+    description: >
+      Standard-Variante: 10-15 Personen im Kreis, blind
+      greifen, entwirren.
+    when_to_use: >
+      Teambuilding, Kennenlernen, Zwischenenergizer.
+      8-16 TN ideal.
+  - name: Stumm-Variante (ohne Worte)
+    description: >
+      Entwirren ohne Reden erlaubt — nur non-verbal. Herausfordert
+      Körper-Kommunikation.
+    when_to_use: >
+      Wenn Team-Kommunikation Thema ist. Zeigt, wie schnell
+      Worte fehlen. Schwerer, aber lehrreich.
+  - name: Blind-Variante (Augen zu)
+    description: >
+      Entwirren mit geschlossenen Augen, nur eine/zwei
+      Personen haben Augen auf und geben Anweisungen.
+      Vertrauens-Übung.
+    when_to_use: >
+      Teams, die Vertrauen stärken wollen. Braucht psych.
+      Sicherheit. Nicht für jeden Kontext.
+  - name: Parallel-Knoten (zwei Teams)
+    description: >
+      Zwei Kreise parallel, schnellster Kreis gewinnt. Oder
+      die Kreise müssen Informationen austauschen.
+    when_to_use: >
+      Größere Gruppen (16+), Wettbewerbs-Rahmen. Wenn
+      Teamspirit-Element wichtig.
+  - name: Stuhlkreis-Variante (sitzend)
+    description: >
+      Stuhlkreis. Arme verkreuzen über die Sitznachbarn
+      hinweg. Schwerer zu lösen, statische Variante.
+    when_to_use: >
+      Wenn Gehen nicht möglich ist (enger Raum), oder als
+      aktivierender Break in langen Sitzphasen.
+  - name: Partnerwahl-Variante
+    description: >
+      Statt blind greifen: gezielt Partner wählen. Strategischer,
+      lösbarer. Weniger Chaos, weniger Spaß.
+    when_to_use: >
+      Für junge Gruppen, die von Zufalls-Methoden
+      überfordert wären. Als sanfterer Einstieg.
+
+pitfalls:
+  - issue: >
+      Körperliche Einschränkungen (Arthrose, Rollstuhl) —
+      nicht alle können mitgehen.
+    countermeasure: >
+      Vor Spiel fragen, ob alle teilnehmen können. Coach-
+      Rollen (Beobachten, Tipps geben) für die, die nicht
+      mitmachen wollen. Keine Ausgrenzung.
+    severity: common
+  - issue: >
+      Zu viele TN (>15) macht Knoten unlösbar.
+    countermeasure: >
+      Bei > 15 in zwei Gruppen splitten. Parallel-Variante
+      nutzen. Oder kleinere Runden.
+    severity: common
+  - issue: >
+      Gruppe gibt nach 2 min auf — Frust-Toleranz niedrig.
+    countermeasure: >
+      Moderation ermuntert: "Nochmal probieren, aus anderem
+      Winkel." Kleine Impulse, ohne Lösung zu verraten.
+      Manchmal hilft auch: kurze Pause, dann neuer Anlauf.
+    severity: common
+  - issue: >
+      Körperkontakt unangenehm für manche TN (kulturell,
+      persönlich).
+    countermeasure: >
+      Vorab framen: "Wer sich nicht wohl fühlt, kann aus
+      Gruppe treten, beobachten." Freiwilligkeit sichtbar
+      machen. Nicht unter Druck setzen.
+    severity: common
+  - issue: >
+      Reflexion wird oberflächlich ("war lustig").
+    countermeasure: >
+      Konkrete Fragen: "Wie hat Führung geklappt? Wer hat
+      Initiative ergriffen? Wo saß die Blockade?" Bezug zum
+      Arbeitsalltag explizit machen.
+    severity: common
+  - issue: >
+      Unlösbarer Knoten (Topologie-bedingt) — Gruppe
+      demoralisiert.
+    countermeasure: >
+      Moderation erklärt: "Manche Knoten sind mathematisch
+      unlösbar — Sie haben gut gearbeitet." Aufgeben ist
+      legitim, nicht Versagen.
+    severity: rare
+  - issue: >
+      Corporate-senior-Gruppen empfinden Spiel als unseriös.
+    countermeasure: >
+      Zielgruppenprüfung. Bei senior-Corporate: andere
+      Kooperations-Übung (Floß-Bauen, Tischdecken-Challenge).
+      Gordischer Knoten ist körper-nah.
+    severity: common

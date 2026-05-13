@@ -1,0 +1,68 @@
+slug: time-out-intervention
+canonical_name: Time-Out (Moderations-Intervention)
+synonyms:
+  - synonym: Pause-Signal
+    language: de
+  - synonym: Stop-Karte
+    language: de
+  - synonym: Reset
+    language: de
+  - synonym: Time-Out
+    language: en
+
+short_description: >
+  Bewusste Unterbrechung in einer hitzigen oder festgefahrenen Diskussion:
+  Trainer:in oder beliebige Teilnehmende rufen "Time-Out", die Gruppe hält
+  an, atmet durch, beobachtet kurz den Zustand. Danach Neustart unter
+  bewusster Vereinbarung (anderer Stil, anderer Inhalt, andere Reihenfolge).
+  Deeskaliert Konflikte, ohne sie zuzudecken.
+
+originator: null
+origin_context: >
+  Allgemeingut der Moderations-Literatur und systemischen Beratung.
+  Verwandt mit Friedrich Glasls Eskalations-Stop, mit Schulz von Thuns
+  Meta-Kommunikation und mit der "Stinger"-Methode der Theatermethoden.
+
+phases:
+  - code: practice
+    is_primary: true
+  - code: reflection
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Mit "Hand heben"-Funktion oder Chat-Stop-Signal moderierbar.
+  - code: hybrid
+    suitability: good
+
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [cooperative, reflective]
+
+duration_min_minutes: 3
+duration_typical_minutes: 10
+duration_max_minutes: 20
+
+materials:
+  - "Optional: Stop-Karte oder Klangschale als visuelles/akustisches Signal"
+tags: [moderation, intervention, deeskalation, eskalation, kurz, stress, konflikt]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+  - kind: book
+    title: "Konfliktmanagement"
+    author: Friedrich Glasl
+    year: 2020
+    relation: reference
+    note: Eskalations-Stop als Grundlage von Time-Out-Interventionen.

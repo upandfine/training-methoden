@@ -1,0 +1,257 @@
+slug: feedback-sandwich
+canonical_name: Feedback-Sandwich
+synonyms:
+  - synonym: Sandwich Feedback
+    language: en
+  - synonym: Positive-Kritik-Positiv-Muster
+    language: de
+short_description: >
+  Strukturiertes 1:1-Feedback nach dem Muster: positive Beobachtung —
+  konstruktive Kritik — positiver Abschluss. Niedrige Einstiegshürde,
+  aber Vorsicht: wirkt bei inflationärem Einsatz durchschaubar und schwächt
+  die Kritik.
+originator: null
+origin_context: >
+  Populäres Schema aus der Management- und Feedback-Literatur der 1980er;
+  heute in der modernen Feedback-Didaktik (z.B. Radical Candor, Kim Scott 2017)
+  kritisch reflektiert, da es oft die eigentliche Botschaft verwässert.
+phases:
+  - code: feedback
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [feedback]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 20
+tags: [feedback, sandwich, klassiker, umstritten]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "The One Minute Manager"
+    author: Kenneth Blanchard, Spencer Johnson
+    year: 1982
+    relation: reference
+    note: >
+      Popularisierte das 3-Schritt-Muster in Management-Literatur
+      — Grundlage des Sandwich-Ansatzes.
+  - kind: book
+    title: "Radical Candor"
+    author: Kim Scott
+    year: 2017
+    relation: reference
+    note: >
+      Kritische Reflexion des Sandwich-Musters — Scott warnt
+      vor Verwässerung ("caring personally AND challenging directly").
+  - kind: article
+    title: "The ineffectiveness of the feedback sandwich"
+    author: Christopher Parrish
+    year: 2014
+    relation: reference
+    note: Empirische Hinweise zur eingeschränkten Wirksamkeit.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Feedback-Gesprächs-Rahmen setzen
+    duration_minutes: 1
+    trainer_action: >
+      Zweier-Setting: ruhiger Ort, Augenhöhe, keine
+      Zeitpanik. Knapp einleiten, OHNE die Drei-Schritt-
+      Struktur methodisch zu benennen (sonst wirkt das
+      Positive später wie Verpackung). Einfach: "Ich möchte
+      dir kurz Rückmeldung zu X geben — ein paar
+      Beobachtungen und ein Punkt, an dem ich hängen
+      geblieben bin."
+    participant_action: >
+      Gespräch akzeptieren, offene Haltung einnehmen, nicht
+      sofort rechtfertigen.
+    note: >
+      Sandwich ist ein Werkzeug für die/den Feedback-Gebende:n,
+      nicht ein deklariertes Format für den/die Empfänger:in.
+      Beim Ankündigen verliert die Struktur ihren Sinn — die
+      positiven Aussagen werden ab Satz 1 als Puffer
+      eingeordnet und die Kernbotschaft entwertet. Also:
+      Struktur nutzen, aber nicht ausrufen.
+  - order: 2
+    label: Erstes Brot (positive Beobachtung)
+    duration_minutes: 2
+    trainer_action: >
+      Konkrete positive Beobachtung: "Du hast die Präsentation
+      strukturell sehr klar aufgebaut. Die Einleitung mit
+      dem Kundenzitat hat mich sofort gefangen." Kein
+      floskelhaftes Lob, konkret und wahrheitsgemäß.
+    participant_action: >
+      Lob annehmen, nicht abwehren ("ach, nicht der Rede
+      wert"). Hören und mitnehmen.
+    note: >
+      Brot Nr. 1 muss ECHT sein. Kein "netter Hut"-Lob.
+      Wenn nichts Positives da: Sandwich nicht erzwingen,
+      andere Feedback-Form wählen.
+  - order: 3
+    label: Belag (konstruktive Kritik)
+    duration_minutes: 3
+    trainer_action: >
+      Kritikpunkt konkret und verhaltensbezogen: "Was ich
+      schwer mitkam, waren die Zahlen auf Folie 7 — die
+      waren für mich zu dicht, ich konnte sie in der Zeit
+      nicht lesen. Ich frage mich, ob eine Grafik das
+      verständlicher machen würde." Lösungsorientiert.
+    participant_action: >
+      Kritik hören, nicht sofort rechtfertigen, rückfragen
+      ("Bei welcher Folie genau?"), mögliche Alternativen
+      überlegen.
+    note: >
+      Hier liegt die Kernaussage. Wenn sie verwässert wird,
+      ist die ganze Methode sinnlos. Konkret bleiben: Was?
+      Wann? Warum störend?
+  - order: 4
+    label: Zweites Brot (positiver Abschluss)
+    duration_minutes: 2
+    trainer_action: >
+      Positiver Rahmen zum Schluss — aber nicht nur schmeicheln:
+      "Insgesamt fand ich das sehr gelungen — die Klarheit
+      überwiegt. Wenn du die Datenfolie noch anpasst, ist
+      die Präsentation top." Weichmacher vermeiden.
+    participant_action: >
+      Abschluss hören, eigene Rolle / Fortsetzung klären.
+      Commitment zu Änderung geben oder dialogisch
+      anpassen.
+    note: >
+      Brot Nr. 2 darf nicht die Kritik zurücknehmen.
+      "Aber trotzdem warst du toll" würde das Feedback
+      auflösen. Lieber ehrlich gemeinte Gesamtanerkennung.
+  - order: 5
+    label: Nachklang & Commitment
+    duration_minutes: 2
+    trainer_action: >
+      Raum für Reaktion: "Wie ist das bei dir angekommen?
+      Verstehst du, was ich meine?" Konkrete Absprache
+      treffen — falls wiederholte Situation: "Bis wann
+      schaust du dir die Folien nochmal an?"
+    participant_action: >
+      Reaktion geben, eigene Wahrnehmung teilen, konkrete
+      nächste Schritte vereinbaren.
+    note: >
+      Ohne Nachklang verpufft Feedback. Dialogische Runde
+      macht es kollaborativ, nicht einseitig. Auch Kritik
+      als Dialog, nicht als Urteil.
+
+variations:
+  - name: Klassisches Sandwich
+    description: >
+      Positiv — Kritik — Positiv. Standard-Variante aus
+      Management-Literatur.
+    when_to_use: >
+      Informelle Feedback-Situationen, Einsteiger:innen in
+      Feedback-Kultur. Gute Ausgangsstruktur für Ungeübte.
+  - name: SBI-Modell (Situation-Behavior-Impact)
+    description: >
+      Statt Sandwich: Situation → Verhalten → Auswirkung.
+      Konkreter, weniger schmeichelnd. Aus Center for
+      Creative Leadership.
+    when_to_use: >
+      Corporate-Kontexte, Management-Feedback, wenn
+      klare direkte Kommunikation gewünscht. Empfohlen
+      statt Sandwich bei professionellen Ansprüchen.
+  - name: WWW-Feedback (Wahrnehmung-Wirkung-Wunsch)
+    description: >
+      Drei-Schritt ohne Verpackung: "Ich nehme wahr...
+      bei mir bewirkt das... ich wünsche mir..." Direkter,
+      ehrlicher.
+    when_to_use: >
+      Team-Retrospektiven, Coaching-Feedback,
+      Konfliktgespräche. Gewaltfreie Kommunikation verwandt.
+  - name: Radical Candor Feedback
+    description: >
+      "Care personally AND challenge directly". Direktes
+      Feedback OHNE Weichmacher, aber mit Beziehungs-
+      Aufmerksamkeit.
+    when_to_use: >
+      Vertraute Beziehungen, etablierte Feedback-Kultur,
+      hohe psychologische Sicherheit. Erfordert Vertrauens-
+      Vorbau.
+  - name: Peer-Sandwich (Gruppe)
+    description: >
+      Reihum gibt jede:r eine:r anderen ein Sandwich-
+      Feedback. In Kleingruppe à 3-4.
+    when_to_use: >
+      Training in Feedback-Skills, Ausbildungskontexte.
+      Übungs-Format, nicht für echte Rückmeldung.
+  - name: Remote-Sandwich (schriftlich)
+    description: >
+      Schriftliches Feedback per Mail oder Dokument. Sandwich-
+      Struktur beibehalten. Asynchron.
+    when_to_use: >
+      Verteilte Teams, Zeitverschiebung, formale
+      Beurteilungen. Achtung: schriftlich wirkt oft härter —
+      Sorgfalt beim Schreiben.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Kritik wird durch Verpackung verwässert — Empfänger:in
+      hört nur das Positive.
+    countermeasure: >
+      Kritik klar und unverblümt formulieren. "Und" statt
+      "aber" bei Übergang. Bei sensiblen Themen: WWW oder
+      SBI-Modell statt Sandwich.
+    severity: common
+  - issue: >
+      Empfänger:in erkennt Sandwich-Muster — Positives wirkt
+      wie Vorspiel, nicht mehr glaubwürdig.
+    countermeasure: >
+      Sandwich nicht inflationär einsetzen. Varianten
+      wechseln. Bei häufigem Feedback: andere Formate
+      (direkte Rückmeldung, SBI).
+    severity: common
+  - issue: >
+      Positives wird erfunden — wirkt unecht.
+    countermeasure: >
+      Nur ECHTES Positives. Wenn nichts Positives sichtbar:
+      Sandwich weglassen. Lieber: "Ich habe eine kritische
+      Rückmeldung — direkt, konkret:..."
+    severity: common
+  - issue: >
+      Sandwich wird als strategisches Instrument genutzt —
+      Kritik in "Freundlichkeit" versteckt.
+    countermeasure: >
+      Selbstreflexion: "Warum nutze ich Sandwich? Um Mut zu
+      sparen?" Ehrlichkeit gehört zur Feedback-Kultur.
+      Sandwich ist Stütze, nicht Schutzschild.
+    severity: common
+  - issue: >
+      Empfänger:in wehrt Kritik ab ("Das habe ich schon
+      lange gemacht!").
+    countermeasure: >
+      Kritik an Verhalten, nicht an Person koppeln. Konkret
+      (Zeit, Ort, Situation). Vermeidet Defensive.
+    severity: common
+  - issue: >
+      Kein Follow-up — Feedback bleibt folgenlos.
+    countermeasure: >
+      Nachklang-Phase (Schritt 5) fest einplanen. Commitment
+      zu nächsten Schritten vereinbaren. Bei wiederholter
+      Situation: nächstes Feedback-Gespräch absprechen.
+    severity: common
+  - issue: >
+      In hierarchischen Kontexten wirkt Sandwich patronisierend.
+    countermeasure: >
+      Bei Hierarchie von oben: direkte Rückmeldung ohne
+      Sandwich. Bei Feedback von unten: Methode sensibel
+      wählen, ggf. 1:1 statt Gruppe.
+    severity: common

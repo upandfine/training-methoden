@@ -1,0 +1,216 @@
+slug: zwei-wahrheiten-eine-luege
+canonical_name: Zwei Wahrheiten, eine Lüge
+synonyms:
+  - synonym: Two Truths and a Lie
+    language: en
+short_description: >
+  Jede:r erzählt drei Aussagen über sich — zwei wahr, eine erfunden. Die Gruppe
+  rät, welche die Lüge ist. Schnelles, humorvolles Kennenlernen.
+originator: null
+origin_context: Party-/Icebreaker-Klassiker, pädagogisch adaptiert.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Funktioniert online sehr gut — Reaktions-Emojis als Abstimmungssignal.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [icebreaker, game]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 30
+tags: [kennenlernen, humorvoll, niedrigschwellig]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+    note: >
+      Zwei-Wahrheiten-eine-Lüge als einer der robustesten
+      Kennenlern-Klassiker.
+  - kind: book
+    title: "Tips für Kennenlernspiele"
+    author: Christel van Dieken
+    year: 2014
+    relation: practice_guide
+  - kind: url
+    title: "SessionLab — Two Truths and a Lie"
+    url: https://www.sessionlab.com/methods/two-truths-and-a-lie
+    relation: reference
+    note: Englischsprachige Beschreibung mit Varianten.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Methode erklären & Beispiel geben
+    duration_minutes: 3
+    trainer_action: >
+      Erklären: "Jede:r überlegt sich drei Aussagen über
+      sich — zwei stimmen, eine ist erfunden. Die Gruppe
+      rät." Moderation macht vor: "Ich war schon in Japan,
+      ich spiele Klavier, ich habe drei Kinder." Gruppe rät
+      kurz, Moderation löst auf.
+    participant_action: >
+      Prinzip verstehen, eigene drei Aussagen überlegen,
+      Kreativität aktivieren.
+    note: >
+      Beispiel macht niederschwellig. Ohne Beispiel sagen
+      TN nur harmlose Dinge. Moderation sollte eine
+      überraschende Aussage einbauen — zeigt das Niveau.
+  - order: 2
+    label: Einzelarbeit — Aussagen überlegen
+    duration_minutes: 5
+    trainer_action: >
+      5 min Zeit zum Überlegen. Moderation bleibt ruhig,
+      stellt keine Fragen. TN dürfen aufschreiben.
+      Ermutigend: "Die Lüge darf wirklich plausibel sein —
+      nicht zu offensichtlich."
+    participant_action: >
+      Drei Aussagen formulieren: 2 echte + 1 erfundene.
+      Die Lüge plausibel genug machen, dass sie nicht
+      sofort entlarvt wird.
+    note: >
+      Qualität der Aussagen entscheidet über den Spaß.
+      Wahre Aussagen überraschend wählen ("gute Wahrheiten
+      werden für Lügen gehalten"), Lüge realistisch.
+  - order: 3
+    label: "Reihum: Aussagen vorstellen"
+    duration_minutes: 10
+    trainer_action: >
+      Reihum (oder Popcorn-Style): jede:r nennt 3 Aussagen,
+      Gruppe rät. Per Handzeichen oder Zuruf. Person löst
+      auf: "Die Lüge war...". Kurze Reaktion, dann nächste:r.
+    participant_action: >
+      Eigene Aussagen präsentieren, bei anderen raten,
+      überrascht sein, lachen.
+    note: >
+      Bei großen Gruppen (>12): Kleingruppen à 5-6 Personen.
+      Plenum-Runde wird sonst zu lang. Nach Kleingruppen
+      ggf. "Highlight-Fakten" im Plenum teilen.
+  - order: 4
+    label: Kurzer Übergang
+    duration_minutes: 2
+    trainer_action: >
+      Abschluss: "Schön, jetzt wissen wir ein paar überraschende
+      Fakten übereinander. Übergang zu..." Keine
+      Meta-Reflexion nötig — Methode wirkt durch Spaß.
+    participant_action: >
+      Zu Plätzen, mental auf Hauptprogramm einstellen.
+    note: >
+      Nicht alles ausdiskutieren. Die Methode funktioniert
+      im Kern durch Überraschung und Lachen — das kann
+      stehenbleiben.
+
+variations:
+  - name: Klassisch (3 Aussagen, Plenum)
+    description: >
+      Standardvariante: jede:r 3 Aussagen, Gruppe rät.
+      Reihum oder Popcorn.
+    when_to_use: >
+      Kleingruppen (5-15), Seminar-Einstieg. Wenn Humor und
+      Auflockerung erwünscht.
+  - name: Paar-Variante (2er-Austausch)
+    description: >
+      In 2er-Paaren: je 3 Aussagen, Partner:in rät. Schneller,
+      weniger Öffentlichkeit.
+    when_to_use: >
+      Größere Gruppen (> 15), wenn reihum zu lang. Auch als
+      Icebreaker bei Workshops mit knapper Zeit.
+  - name: Themen-bezogen ("Zwei Wahrheiten über mein Projekt")
+    description: >
+      Statt persönlich: fachlich. "Zwei wahre und eine
+      erfundene Aussage über mein Projekt / meine Firma /
+      meine Rolle."
+    when_to_use: >
+      Fachliche Trainings, Industrie-Meetings. Kennenlernen
+      mit Fach-Bezug.
+  - name: Remote (Chat + Emoji-Voting)
+    description: >
+      Online: Aussagen im Chat oder per Video. Gruppe stimmt
+      per Emoji (1️⃣ / 2️⃣ / 3️⃣) ab. Person löst auf.
+    when_to_use: >
+      Online-Trainings, Webinare, verteilte Teams.
+      Funktioniert sehr gut online.
+    setting_codes: [remote_sync]
+  - name: Bingo-Hybrid
+    description: >
+      Jede:r hat Karte mit Feldern "sucht jemand mit X",
+      wo X mögliche Wahrheiten sind ("spielt Instrument",
+      "war schon in Japan"). Kombiniert mit Bingo-Prinzip.
+    when_to_use: >
+      Größere Gruppen (20+), wenn auch Bewegung gewünscht.
+      Kreatives Crossover.
+  - name: Kurzform (1 Wahrheit, 1 Lüge)
+    description: >
+      Nur 2 Aussagen statt 3. Eine stimmt, eine nicht.
+      Schneller, einfacher.
+    when_to_use: >
+      Sehr kurze Einstiege (10 min), oder mit jungen
+      Kindern als Vereinfachung.
+
+pitfalls:
+  - issue: >
+      Aussagen sind zu offensichtlich — Lüge wird sofort
+      erraten.
+    countermeasure: >
+      Einführungs-Beispiel mit plausibler Lüge zeigen.
+      Ermutigen: "Die Lüge darf nah an der Wahrheit sein."
+      Qualität des Spiels steigt dann.
+    severity: common
+  - issue: >
+      TN geben nur harmlose Wahrheiten — bleibt langweilig.
+    countermeasure: >
+      Beispiel des Moderator:in mit überraschender
+      Wahrheit. Einladung: "Das Unerwartete ist interessant."
+      Aber nicht zu persönlich zwingen.
+    severity: common
+  - issue: >
+      Introvertierte TN überfordert mit öffentlicher
+      Selbstdarstellung.
+    countermeasure: >
+      Paar-Variante anbieten. Pass-Option ("heute nicht")
+      zulassen. Freiwilligkeit wahren.
+    severity: common
+  - issue: >
+      Persönliche Enthüllungen, die zu tief gehen.
+    countermeasure: >
+      Framing: "Alltags-Fakten reichen — nicht intime
+      Details." Bei Überschreiten: Gruppe würdigen,
+      weitergehen, nicht ausschlachten.
+    severity: rare
+  - issue: >
+      Großgruppen-Runden werden endlos.
+    countermeasure: >
+      Ab 12 TN: Kleingruppen-Variante (5-6 pro Gruppe),
+      parallel. Nach 10 min: Plenum-Highlight-Runde.
+    severity: common
+  - issue: >
+      Wettkampfs-Charakter kippt — wer errät mehr Lügen
+      wird Show.
+    countermeasure: >
+      Kein Punkte-System. Framing: "Es geht nicht ums
+      Gewinnen, sondern ums Kennen." Moderation kann
+      sanft zurücklenken.
+    severity: common
+  - issue: >
+      Kulturelle Sensibilitäten — Lügen werden moralisch
+      bewertet.
+    countermeasure: >
+      Framing: "Das ist ein Spiel, keine moralische Übung."
+      In sensiblen Kontexten andere Kennenlern-Methode
+      (Steckbrief, Partnerinterview).
+    severity: rare

@@ -1,0 +1,228 @@
+slug: atomspiel
+canonical_name: Atomspiel
+synonyms:
+  - synonym: Molecule Game
+    language: en
+  - synonym: Moleküle bilden
+    language: de
+short_description: >
+  Teilnehmende bewegen sich frei im Raum; die Leitung ruft „Atome zu X!" (z.B.
+  „Atome zu 4!"). Teilnehmende bilden blitzschnell Gruppen der genannten Größe.
+  Energiegeladen, auch zur Gruppenbildung nutzbar.
+originator: null
+origin_context: >
+  Verbreitetes Spiel aus der Theater- und Gruppenpädagogik, u.a. in der
+  Erlebnispädagogik sowie in Jugendarbeit (VCP, DPSG).
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: unsuitable
+    note: Benötigt gemeinsamen physischen Raum.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large, plenary]
+target_audiences: [school, youth, adult_education]
+method_types: [energizer, game, activating]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - Freier Raum
+tags: [energizer, bewegung, gruppenbildung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+    note: Atomspiel als klassisches Gruppen-Energizer-Format.
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Theaterpädagogik"
+    author: Gerd Koch
+    year: 2010
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Raum bereiten & Regeln erklären
+    duration_minutes: 2
+    trainer_action: >
+      Raum frei (Stühle an Wände). "Sie gehen alle durch
+      den Raum, mischen sich. Wenn ich 'Atome zu X!' rufe,
+      bilden Sie SOFORT Gruppen der Größe X. Wer übrig
+      bleibt, steht kurz in der Mitte — dann neu."
+    participant_action: >
+      Aufstehen, Raum verstehen, sich locker bewegen.
+    note: >
+      Gruppen-Zahl passt in Teilnehmerzahl — am Ende nicht
+      künstlich entsteht. Bei 20 TN: nicht "7", sondern
+      "4" oder "5". Zahlen wählen die aufgehen.
+  - order: 2
+    label: Aufwärmen durch Laufen
+    duration_minutes: 1
+    trainer_action: >
+      "Los — bewegen Sie sich locker im Raum. Treffen Sie
+      Blicke, lächeln Sie." Ca. 30-60 Sek. Moderation
+      gibt Tempo-Impulse.
+    participant_action: >
+      Durch Raum gehen, nicht gehetzt. Sozialer
+      Augenkontakt.
+    note: >
+      Dieser Wärm-Moment macht Schwung. Ohne ihn starten
+      Atome kalt. Lockerung ist didaktisch.
+  - order: 3
+    label: Erste Runden — Atome!
+    duration_minutes: 5
+    trainer_action: >
+      "Atome zu 3!" — alle bilden 3er-Gruppen. Moderation
+      zählt laut mit, lobt schnelle Gruppen. Nach 10 Sek:
+      "Weiter laufen!" Rhythmisch wechselnd. 5-8 Runden
+      mit verschiedenen Zahlen.
+    participant_action: >
+      Schnell Gruppen bilden, bei Übrigbleiben in die
+      Mitte, dann neu. Tempo mitgehen.
+    note: >
+      Tempo ist der Hauptreiz. Moderation ruft mit Energie.
+      Bei Ermüdung nach 5 min aussteigen.
+  - order: 4
+    label: Inhaltliche Nutzung (optional)
+    duration_minutes: 1
+    trainer_action: >
+      Optional: bei letzter Runde Gruppen-Größe passend
+      für nächste Aufgabe rufen ("Atome zu 4!" — wenn
+      4er-Teams für Gruppenarbeit nötig). Direkte
+      Überleitung.
+    participant_action: >
+      Letzte gebildete Gruppe wird Arbeitsgruppe für
+      nächsten Schritt.
+    note: >
+      Clever: Energizer + Gruppenbildung in einem.
+      Sparsam mit Zeit, effizient didaktisch.
+  - order: 5
+    label: Abschluss
+    duration_minutes: 1
+    trainer_action: >
+      "Gut — Energie ist da. Los geht's mit..." Übergang
+      zum nächsten Programmpunkt.
+    participant_action: >
+      Gruppe einnehmen oder zu Plätzen, nächsten Schritt
+      starten.
+    note: >
+      Nicht auswringen. Atomspiel ist kurz + intensiv.
+      Bei letzter guter Runde aussteigen.
+
+variations:
+  - name: Klassisch (beliebige Gruppengrößen)
+    description: >
+      Standardvariante: "Atome zu X" ruft beliebige
+      Gruppen-Größen.
+    when_to_use: >
+      Jugend, Schule, Team-Events. 15-40 TN, ausreichend
+      Platz.
+  - name: Mit inhaltlicher Aufgabe
+    description: >
+      Nach Gruppenbildung kurze Aufgabe: "Einigt euch in
+      30 Sek auf ein Lieblings-Obst!" Macht Atome zu
+      Mini-Kennenlernen.
+    when_to_use: >
+      Kombiniert Energizer mit Kennenlern-Element.
+      Längerer Einsatz (10-15 min).
+  - name: Gruppenbildung für nächste Übung
+    description: >
+      Letzte Atom-Runde mit gewünschter Gruppengröße.
+      Gebildete Gruppen = Arbeitsgruppen.
+    when_to_use: >
+      Wenn Energizer + Gruppenbildung gleichzeitig
+      gewünscht. Effizient.
+  - name: Atome mit Themen-Zahl
+    description: >
+      Moderation ruft nicht Zahlen, sondern Themen ("alle
+      mit Geburtstag in Sommer!"). Kennenlern-Element
+      stark.
+    when_to_use: >
+      Kennenlern-Fokus. Kombiniert Aktivierung mit
+      Infos-Austausch.
+  - name: Outdoor-Variante
+    description: >
+      Draußen, mit mehr Raum. Größere Zahlen möglich
+      (Atome zu 8, 10). Mehr Bewegung.
+    when_to_use: >
+      Sommer-Trainings, Team-Retreats, wenn Outdoor-
+      Bereich zur Verfügung.
+  - name: Verzögertes Atom-Finden
+    description: >
+      Nach Ruf "Atome zu X" müssen erst 10 Sek ENZIGE
+      Muster laufen, dann zusammenfinden. Erschwert.
+    when_to_use: >
+      Erfahrene Gruppen, die Standard-Variante schon
+      kennen. Erhöht Spaß und Schwierigkeit.
+
+pitfalls:
+  - issue: >
+      Gruppen-Zahl passt nicht zu TN-Zahl — immer viele
+      übrig.
+    countermeasure: >
+      Vorab rechnen: Welche Zahlen gehen auf? Teiler der
+      TN-Zahl bevorzugen. Bei Unpassendem: andere
+      Energizer.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN können nicht mitgehen.
+    countermeasure: >
+      Moderations-Rolle anbieten (selbst Zahlen rufen).
+      Oder Sitz-Variante (Hand heben statt gruppenbilden).
+      Niemand ausgeschlossen.
+    severity: rare
+  - issue: >
+      In Corporate-senior-Kontexten kindisch.
+    countermeasure: >
+      Zielgruppenprüfung. Andere Energizer (Walk-and-
+      Talk, Stretching). Atomspiel ist jugendnah.
+    severity: common
+  - issue: >
+      Zu viele Runden → Ermüdung.
+    countermeasure: >
+      Max. 8 Runden, dann aussteigen. Energizer ist
+      Impuls, nicht Hauptprogramm.
+    severity: common
+  - issue: >
+      Gruppen bilden sich immer gleich — Clique-
+      Strukturen.
+    countermeasure: >
+      "Mit Leuten bilden, mit denen Sie noch nicht
+      waren." Oder: vor jeder Runde zwischen Runden
+      etwas Zeit zum Mischen.
+    severity: common
+  - issue: >
+      Raum zu eng — Gedränge, Stolpern.
+    countermeasure: >
+      Raum-Check: Stühle an Wände, Tische raus.
+      Bei Enge: kleinere Gruppengrößen rufen. Sicherheit
+      vor Tempo.
+    severity: common
+  - issue: >
+      Einzelne bleiben ständig übrig — werden bloßgestellt.
+    countermeasure: >
+      Moderation achtet, nicht immer gleiche in Mitte
+      stehen. Kurzschluss: "Sie sind immer übrig?"
+      Dann nächste Gruppe nimmt einen zusätzlich.
+    severity: common

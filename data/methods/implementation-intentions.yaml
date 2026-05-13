@@ -1,0 +1,226 @@
+slug: implementation-intentions
+canonical_name: Implementation Intentions (Wenn-Dann-Pläne)
+synonyms:
+  - synonym: If-Then Plans
+    language: en
+  - synonym: Wenn-Dann-Pläne
+    language: de
+short_description: >
+  TN formulieren ihre Transfer-Vorsätze in „Wenn-Dann"-Form: „Wenn Situation
+  X eintritt, dann tue ich Y." Nachweislich deutlich höhere Umsetzungsrate
+  als bei vagen Vorsätzen.
+originator: Peter M. Gollwitzer
+origin_context: >
+  Peter Gollwitzer entwickelte das Konzept Mitte der 1990er
+  („Implementation Intentions: Strong Effects of Simple Plans", 1999);
+  heute breit evidenzbasiert in Psychologie, Gesundheitsverhalten und
+  Trainingsdidaktik verankert.
+phases:
+  - code: transfer
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [reflective]
+duration_min_minutes: 10
+duration_typical_minutes: 25
+duration_max_minutes: 35
+tags: [transfer, wenn-dann, evidenzbasiert, gollwitzer]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: article
+    title: "Implementation Intentions — Strong Effects of Simple Plans"
+    author: Peter M. Gollwitzer
+    year: 1999
+    relation: originator
+    note: American Psychologist 54(7). Ursprungs-Artikel, Grundlage vieler Folgestudien.
+  - kind: article
+    title: "Implementation intentions and goal achievement — A meta-analysis"
+    author: Peter M. Gollwitzer, Paschal Sheeran
+    year: 2006
+    relation: reference
+    note: Meta-Analyse über 94 Studien, mittlere Effektstärke d=0.65.
+  - kind: book
+    title: "Rubikon-Modell der Handlungsphasen"
+    author: Heinz Heckhausen, Peter M. Gollwitzer
+    year: 1987
+    relation: reference
+    note: Theoretischer Rahmen zu Intentions-Bildung und Umsetzung.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorsatz identifizieren
+    duration_minutes: 5
+    trainer_action: >
+      TN denken nach: „Was aus dem Training möchte ich umsetzen?".
+      Ein konkretes Ziel (nicht 5), am besten aus dem eigenen Alltag.
+      Zettel oder digitales Feld.
+    participant_action: >
+      Ein Vorhaben/Ziel auswählen, so konkret wie möglich notieren.
+    note: >
+      Häufiger Fehler: zu viele Vorsätze. Ein einziger, spezifischer
+      Vorsatz hat mehr Umsetzungswahrscheinlichkeit als eine Liste.
+  - order: 2
+    label: Kritische Situation identifizieren
+    duration_minutes: 5
+    trainer_action: >
+      Anleitung: „Wann wird dieser Vorsatz wichtig? In welcher konkreten
+      Situation werden Sie aktiv?". Möglichst sensorisch: Ort, Zeit,
+      anwesende Personen, inneres Signal.
+    participant_action: >
+      Situation präzise beschreiben, visualisieren („Nächsten Montag
+      morgen, wenn ich zum ersten Mal wieder E-Mails öffne…").
+    note: >
+      Die Wenn-Bedingung ist der kritische Teil. Vage Bedingung =
+      vage Umsetzung. „Morgens" ist schwach, „sobald mein Laptop
+      hochfährt" ist stark.
+  - order: 3
+    label: Wenn-Dann-Formulierung
+    duration_minutes: 5
+    trainer_action: >
+      Formel: „WENN [Situation], DANN [Handlung]." Handlung konkret,
+      sichtbar. Kein „werde ich versuchen" — sondern „tue ich".
+      Beispiele vorgeben: „Wenn ich Mittwoch um 10 ein Meeting mit X
+      habe, dann beginne ich mit der Ich-Botschaft die ich heute geübt
+      habe."
+    participant_action: >
+      Eigene Wenn-Dann-Sätze schriftlich formulieren, 1-3 pro
+      Vorsatz.
+    note: >
+      Mehrere Wenn-Dann-Sätze zu einem Ziel sind sinnvoll, weil
+      kritische Situationen unterschiedlich aussehen können.
+      Verankerung über mehrere Trigger.
+  - order: 4
+    label: Mentales Durchspielen
+    duration_minutes: 5
+    trainer_action: >
+      Anleitung: Augen schließen, Situation lebhaft vorstellen (Geräusche,
+      Körperempfinden, anwesende Personen). Dann Handlung mental
+      durchspielen. Neurologisch stärkt das die Verknüpfung.
+    participant_action: >
+      Sich die Wenn-Situation vorstellen, innerlich die Dann-Handlung
+      durchgehen.
+    note: >
+      „Mental Contrasting" verstärkt den Effekt (Oettingen). Erst
+      die Situation positiv vorstellen, dann die Hindernisse, dann
+      die Wenn-Dann-Handlung.
+  - order: 5
+    label: Verankerung & Follow-up
+    duration_minutes: 5
+    trainer_action: >
+      Plan sichtbar machen: Karte am Arbeitsplatz, Slack-Reminder,
+      Kalender-Eintrag. Mit Peer-Partner teilen (Accountability).
+      Follow-up nach 2-4 Wochen durch Trainer:in oder Peer.
+    participant_action: >
+      Plan verankern, Peer-Partner benennen, Termin für Check-in
+      setzen.
+    note: >
+      Ohne Verankerung wird der Wenn-Dann-Zettel in der Tasche
+      vergessen. Sichtbarkeit + Peer macht den Unterschied zwischen
+      Theorie und Wirkung.
+
+variations:
+  - name: Klassisches Wenn-Dann
+    description: >
+      Formel: „Wenn X, dann Y." Eine Situation, eine Handlung.
+      Grundform, evidenzbasiert.
+    when_to_use: >
+      Alle Transfer-Situationen, breit einsetzbar in Trainings jeder
+      Art.
+  - name: Mental Contrasting + Implementation Intention (MCII/WOOP)
+    description: >
+      Oettingens Erweiterung: Wish → Outcome → Obstacle → Plan.
+      Wunsch vorstellen, Erfolg visualisieren, Hindernis benennen,
+      Wenn-Dann für das Hindernis formulieren.
+    when_to_use: >
+      Komplexe Ziele, wenn Hindernisse bekannt sind
+      (Gewohnheitsänderung, Verhalten unter Stress).
+  - name: Stop-Wenn-Dann (Entwöhnung)
+    description: >
+      Für das Ablegen von Verhalten: „Wenn ich den Impuls X verspüre,
+      dann tue ich stattdessen Y". Verknüpft Cue mit Alternativhandlung.
+    when_to_use: >
+      Vermeidungs-Ziele (weniger schreien, weniger unterbrechen,
+      weniger greifen zum Handy).
+  - name: Peer-Wenn-Dann
+    description: >
+      Zwei TN formulieren ihre Pläne füreinander, werden gegenseitig
+      Beobachter:in. Wöchentlicher Check-in per Chat.
+    when_to_use: >
+      Längere Programme, Führungskräfte-Development, Verhaltens-
+      änderung.
+  - name: Asynchron-Wenn-Dann
+    description: >
+      Template per E-Mail oder LMS-Formular. TN tragen Wenn-Dann
+      einzeln ein, Erinnerung nach 1 Woche, 1 Monat.
+    when_to_use: >
+      Nach asynchronen Trainings, bei verteilten Lerngruppen.
+    setting_codes: [remote_async]
+  - name: Team-Wenn-Dann (kollektive Verhaltensänderung)
+    description: >
+      Ganzes Team formuliert gemeinsam Wenn-Dann-Pläne für Team-
+      Verhalten (Meeting-Regeln, Feedback-Kultur). Visualisiert
+      an zentralem Ort.
+    when_to_use: >
+      Team-Entwicklungs-Workshops, Kultur-Change.
+
+pitfalls:
+  - issue: >
+      Wenn-Bedingung ist vage („wenn ich Zeit habe", „bei Gelegenheit").
+    countermeasure: >
+      Nachfrage: „Was genau sehen/hören/fühlen Sie in dem Moment?".
+      Konkretisieren bis es sensorisch greifbar ist (Uhrzeit, Ort,
+      Person, inneres Signal).
+    severity: common
+  - issue: >
+      Dann-Handlung zu groß (kein einzelner Handlungs-Schritt).
+    countermeasure: >
+      Auf Mikro-Handlung reduzieren: nicht „führe schwieriges Gespräch",
+      sondern „eröffne mit der Ich-Botschaft die ich geübt habe".
+      Kleinere Handlung, höhere Umsetzung.
+    severity: common
+  - issue: >
+      TN schreiben Wenn-Dann, legen Zettel weg, vergessen bis zum
+      nächsten Training.
+    countermeasure: >
+      Sichtbarkeit: am Arbeitsplatz, im Handy-Hintergrund,
+      Kalender-Reminder. Peer-Accountability. Follow-up-Termin
+      bereits beim Formulieren setzen.
+    severity: common
+  - issue: >
+      Zu viele Wenn-Dann-Pläne (für 5 verschiedene Vorsätze).
+    countermeasure: >
+      Maximal 1-2 Ziele pro Session. „Was ist das WICHTIGSTE?" als
+      Priorisierungsfrage. Wenn Zeit bleibt, weitere im nächsten
+      Check-in.
+    severity: common
+  - issue: >
+      Methode wirkt simpel/trivial — TN nehmen sie nicht ernst.
+    countermeasure: >
+      Empirie erwähnen (Meta-Analyse Gollwitzer/Sheeran: d=0.65,
+      fast verdoppelt die Umsetzungsrate). Die Einfachheit IST die
+      Stärke.
+    severity: rare
+  - issue: >
+      Hindernisse werden nicht antizipiert — Plan bricht bei erstem
+      Problem.
+    countermeasure: >
+      MCII/WOOP-Variante nutzen: Hindernis explizit benennen und
+      dafür zusätzlichen Wenn-Dann-Plan schreiben („Wenn Z mich
+      stoppt, dann W als Workaround").
+    severity: common

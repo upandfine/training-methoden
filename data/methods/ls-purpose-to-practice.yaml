@@ -1,0 +1,259 @@
+slug: ls-purpose-to-practice
+canonical_name: Purpose-To-Practice (P2P)
+synonyms:
+  - synonym: P2P
+    language: en
+short_description: >
+  Liberating Structure: Initiativen-Design entlang fünf Elementen — Purpose,
+  Principles, Participants, Structure, Practices. Klärt Grundlagen bevor
+  an Aktivitäten gearbeitet wird. Für Kickoffs und Restarts.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_context: >
+  Liberating Structure, CC-BY-NC 4.0. Häufig als Workshop-Serie für
+  neue Teams, Programme oder Initiativen eingesetzt.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective]
+duration_min_minutes: 180
+duration_typical_minutes: 360
+duration_max_minutes: 600
+tags: [liberating-structures, purpose, design, kickoff]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — Purpose to Practice (P2P)"
+    url: https://www.liberatingstructures.com/33-purpose-to-practice-p2p/
+    relation: originator
+    note: Vollständige Methodenbeschreibung. CC-BY-NC 4.0.
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+  - kind: book
+    title: "Liberating Structures — Das Praxisbuch"
+    author: Mark Schenk, Daniel Steinhöfer
+    year: 2022
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorhaben & fünf Elemente einführen
+    duration_minutes: 30
+    trainer_action: >
+      Vorhaben / Initiative ansagen. Fünf P2P-Elemente
+      erklären: (1) Purpose — wozu? (2) Principles — woran
+      halten? (3) Participants — wer? (4) Structure —
+      wie organisiert? (5) Practices — was tun wir
+      konkret? Reihenfolge einhalten.
+    participant_action: >
+      Elemente verstehen, eigene Fragen zum Vorhaben
+      aktivieren.
+    note: >
+      Reihenfolge ist Kern. Nicht mit Practices starten
+      (typischer Fehler). Purpose first zwingt zur
+      Klärung des "Warum".
+  - order: 2
+    label: Purpose — Warum existiert das?
+    duration_minutes: 60
+    trainer_action: >
+      1-2-4-All-Skalierung: "Warum machen wir das?
+      Welchen Unterschied macht es für die Welt?"
+      Einzel, Paar, 4er, Plenum. Am Ende: EIN Purpose-
+      Satz, dem alle zustimmen können.
+    participant_action: >
+      Still formulieren, schärfen im Paar, konsolidieren
+      in 4er, konsensbilden im Plenum.
+    note: >
+      Purpose-Satz muss resonieren — nicht "Kundenzufriedenheit
+      erhöhen". Eher "Menschen helfen, selbstbestimmt zu
+      arbeiten". Je herzlicher, desto tragfähiger.
+  - order: 3
+    label: Principles — Was sind unsere Leitlinien?
+    duration_minutes: 60
+    trainer_action: >
+      "Welche Prinzipien leiten uns? Was ist wichtig,
+      was nicht verhandelbar?" 1-2-4-All. Ziel: 5-10
+      Kern-Prinzipien, die Entscheidungen leiten.
+    participant_action: >
+      Prinzipien formulieren, schärfen, priorisieren.
+    note: >
+      Principles ≠ Werte-Floskeln. Sollten Entscheidungen
+      leiten: "Wenn wir vor Wahl X vs. Y stehen, gehen
+      wir immer Y, weil..."
+  - order: 4
+    label: Participants — Wer gehört dazu?
+    duration_minutes: 45
+    trainer_action: >
+      "Wer muss beteiligt sein, damit Purpose erreichbar
+      ist? Welche Rollen, welche externen Stakeholder?"
+      Stakeholder-Map erstellen.
+    participant_action: >
+      Stakeholder benennen, Rollen zuordnen, Grenzen
+      definieren.
+    note: >
+      Oft werden Stakeholder vergessen. Kund:innen,
+      Lieferant:innen, externe Expert:innen, Gegner:innen.
+      Vollständigkeit prüfen.
+  - order: 5
+    label: Structure — Wie organisieren wir uns?
+    duration_minutes: 75
+    trainer_action: >
+      "Wie arbeiten wir zusammen? Welche Entscheidungs-
+      Strukturen, Kommunikations-Rhythmen,
+      Accountability?" Konkrete Strukturen entwerfen.
+    participant_action: >
+      Strukturen ausarbeiten: Meetings, Rollen,
+      Entscheidungs-Prozesse, Eskalationswege.
+    note: >
+      Structure ist oft schwerster Teil — hier werden
+      Machtverhältnisse sichtbar. Mut zur Konkretion.
+  - order: 6
+    label: Practices — Was tun wir ganz konkret?
+    duration_minutes: 60
+    trainer_action: >
+      "Welche konkreten Praktiken setzen wir um? Welche
+      Routinen, Arbeitsweisen, Rituale?" Konkret und
+      aktionsnah.
+    participant_action: >
+      Praktiken formulieren: Was machen wir wirklich?
+      Wie oft? Wer?
+    note: >
+      Practices machen alles andere real. Vage Practices
+      = vage Umsetzung. Konkret: "Montags 15 min Stand-up
+      mit diesen drei Fragen."
+  - order: 7
+    label: Abschluss & Integration
+    duration_minutes: 30
+    trainer_action: >
+      Alle fünf Ebenen nochmal durchgehen: "Passen sie
+      zusammen? Stützen Practices den Purpose?" Bei
+      Inkonsistenz: nachjustieren. Dokumentation
+      als P2P-Dokument sichern.
+    participant_action: >
+      Gesamt-Stimmigkeit prüfen, letzte Anpassungen,
+      Commitment zum Ergebnis.
+    note: >
+      Integration ist Qualitätssicherung. Inkonsistenzen
+      früh aufdecken: wenn Purpose "Nachhaltigkeit" ist,
+      aber Practices wöchentlich Flüge — Bruch.
+
+variations:
+  - name: Klassisch (voller P2P-Workshop, 6-10h)
+    description: >
+      Vollständige P2P-Runde mit allen 5 Elementen.
+      Für neue Initiativen.
+    when_to_use: >
+      Initiativen-Kickoffs, neue Abteilungen, Change-
+      Programme. Wenn Grundlage gelegt wird.
+  - name: Verkürztes P2P (3-4h)
+    description: >
+      Kompakt: je Element 30 min statt 45-60. Weniger
+      Tiefe, schnellerer Durchlauf.
+    when_to_use: >
+      Zeitknappe Kickoffs. Wenn Team schon einige
+      Orientierung hat.
+  - name: P2P als Workshop-Serie
+    description: >
+      Über mehrere Wochen verteilt, ein Element pro
+      Treffen. Mehr Zeit zwischen Sessions für Reifung.
+    when_to_use: >
+      Lange Projekt-Horizonte, Change-Programme.
+  - name: Remote P2P (mehrteilig)
+    description: >
+      Digital in 3-4 Halbtagen verteilt. Miro-Board als
+      zentrale Dokumentation.
+    when_to_use: >
+      Verteilte Teams, internationale Programme.
+      Erfordert sehr erfahrene Moderation.
+    setting_codes: [remote_sync]
+  - name: P2P für bestehende Teams (Restart)
+    description: >
+      Nicht für Neues — für bestehende Teams als
+      Standortbestimmung. "Was ist unser Purpose
+      (wieder)?"
+    when_to_use: >
+      Teams nach Krise, in Change, mit neuer
+      Führungsebene.
+  - name: Kurz-P2P (nur Purpose + Principles)
+    description: >
+      Nur die ersten 2 Elemente. Reicht oft als
+      Orientierung.
+    when_to_use: >
+      Wenn Structure und Practices schon existieren
+      und nur Grund-Klärung gebraucht wird.
+
+pitfalls:
+  - issue: >
+      Reihenfolge wird gebrochen — direkt Practices
+      diskutieren.
+    countermeasure: >
+      Reihenfolge strikt halten. Purpose first ist
+      nicht Ritual, sondern Methodik. Ohne Purpose
+      keine Principles, ohne beide keine Practices.
+    severity: common
+  - issue: >
+      Purpose bleibt floskelhaft ("Wir machen Welt
+      besser").
+    countermeasure: >
+      Konkretheits-Challenge: "Bei welcher konkreten
+      Entscheidung würde dieser Purpose helfen?" Wenn
+      nicht: nochmal schärfen.
+    severity: common
+  - issue: >
+      Principles werden zu Werte-Floskeln.
+    countermeasure: >
+      Regel: "Principle muss Entscheidungen leiten.
+      'Wir sind ehrlich' ist Floskel, 'Wir sagen
+      schlechte Nachrichten innerhalb von 24h' ist
+      Principle."
+    severity: common
+  - issue: >
+      Structure wird technokratisch — zu detailliert
+      oder zu schwammig.
+    countermeasure: >
+      Mittelweg: genug Struktur für Klarheit, nicht
+      zu viel. Selbstorganisation neben Regeln
+      zulassen.
+    severity: common
+  - issue: >
+      Workshop zieht sich — TN ermüden nach 4h.
+    countermeasure: >
+      Pausen fest einplanen (alle 90 min). Bei langer
+      Session: mehrteilig. Energie-Level beobachten.
+    severity: common
+  - issue: >
+      Kein Follow-up — P2P-Dokument bleibt liegen.
+    countermeasure: >
+      Integration in Team-Arbeit: Purpose in Meetings
+      regelmäßig aufrufen. Practices ritualisieren.
+      Ohne Umsetzung: sinnlos.
+    severity: common
+  - issue: >
+      Inkonsistenzen zwischen Ebenen werden nicht
+      aufgedeckt.
+    countermeasure: >
+      Integrations-Schritt (7) ernst nehmen. Bei
+      Widersprüchen: nachjustieren. Inkonsistenz =
+      Schwachpunkt.
+    severity: common

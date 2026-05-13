@@ -1,0 +1,250 @@
+slug: perspektivwechsel-hot-seat
+canonical_name: Hot Seat (Perspektivwechsel)
+synonyms:
+  - synonym: Hot Seat
+    language: en
+  - synonym: Heißer Stuhl
+    language: de
+short_description: >
+  Eine Person setzt sich symbolisch auf den „Hot Seat" und vertritt eine
+  Rolle, Haltung oder Person (Kund:in, Gegner:in, zukünftiges Selbst). Die
+  Gruppe stellt Fragen. Fördert Empathie und Perspektivübernahme.
+originator: null
+origin_context: >
+  Aus Psychodrama (Jacob Moreno) und Theaterpädagogik; heute in
+  Führungskräftetraining, Kundenempathie-Trainings und systemischer
+  Beratung eingesetzt.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [activating, cooperative, creative]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 90
+tags: [hot-seat, perspektive, psychodrama, moreno]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Psychodrama: Grundlagen"
+    author: Jacob L. Moreno
+    year: 1973
+    relation: originator
+    note: >
+      Morenos Psychodrama als Ursprung körperlicher
+      Rollen-Übernahme in Therapie und Training.
+  - kind: book
+    title: "Theaterpädagogik"
+    author: Gerd Koch
+    year: 2010
+    relation: reference
+    note: Hot-Seat als Standard-Übung der Theaterpädagogik.
+  - kind: book
+    title: "Rollenspiele in Training und Beratung"
+    author: Hermann Lutz
+    year: 2015
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Rolle / Perspektive auswählen
+    duration_minutes: 5
+    trainer_action: >
+      Rollen klären: "Welche Perspektive wollen wir
+      einnehmen? Kund:in, Wettbewerbsgegner:in, zukünftiges
+      Selbst, Vorgesetzte:r, Mitarbeiter:in?" Rolle so
+      konkret wie möglich definieren — mit Namen, Rolle,
+      Hintergrund.
+    participant_action: >
+      Mitentscheiden. Rolle verstehen. Freiwillige:n für
+      Hot Seat identifizieren.
+    note: >
+      Rolle muss greifbar sein. "Die Kundin" ist zu
+      abstrakt. "Frau Schmidt, 45, Marketing-Leiterin
+      bei großem E-Commerce" ist greifbar.
+  - order: 2
+    label: Einstimmung der Hot-Seat-Person
+    duration_minutes: 10
+    trainer_action: >
+      Freiwillige:r setzt sich symbolisch auf Hot Seat
+      (Stuhl getrennt aufstellen, eventuell Accessoire
+      als Symbol). 5 min Einstimmung — in Rolle
+      einfühlen. Moderation hilft mit Fragen:
+      "Wie sitzen Sie? Wie sprechen Sie?".
+    participant_action: >
+      Hot-Seat-Person: in Rolle einfühlen, körperlich
+      einnehmen. Rest: Fragen vorbereiten.
+    note: >
+      Einstimmung ist entscheidend. Wer nicht gut in
+      Rolle kommt, liefert oberflächliche Antworten.
+      Gern 5-7 min investieren.
+  - order: 3
+    label: Fragen-Runde durch Gruppe
+    duration_minutes: 25
+    trainer_action: >
+      Gruppe stellt Fragen, Hot-Seat-Person antwortet in
+      Rolle. Moderation moderiert — achtet auf echte
+      Fragen, keine Suggestivfragen. Bei Bedarf Pausen,
+      damit Antworten Tiefe entwickeln.
+    participant_action: >
+      Fragen stellen (verständnis-orientiert, nicht
+      prüfend). Antworten aufnehmen, notieren,
+      weiterdenken.
+    note: >
+      Qualität der Fragen entscheidet. "Warum machen
+      Sie X?" ist besser als "Warum machen Sie nicht
+      Y?" (suggestiv). Echtes Interesse statt Agenda.
+  - order: 4
+    label: Abschluss Rolle & Entrollung
+    duration_minutes: 5
+    trainer_action: >
+      Klares Ende: "Danke, jetzt verlassen Sie die Rolle."
+      Körperliche Entrollung wichtig — aufstehen, durch
+      Raum gehen, eigenen Namen sagen. "Ich bin wieder
+      [eigener Name]."
+    participant_action: >
+      Hot-Seat-Person: bewusst aus Rolle treten. Andere:
+      Dank aussprechen, Rolle in Gedanken "ablegen".
+    note: >
+      Entrollung NIE weglassen. Besonders bei emotional
+      belastenden Rollen. Psychodrama-Lehre: Person
+      muss klar "raus" sein, bevor Debrief beginnt.
+  - order: 5
+    label: Debrief (außerhalb der Rolle)
+    duration_minutes: 15
+    trainer_action: >
+      Alle im Kreis, Hot-Seat-Person berichtet:
+      "Wie war das?" Gruppe teilt: "Was haben wir über
+      die Rolle gelernt?" Meta-Reflexion trennt Rollen-
+      Erlebnis von persönlichem Erleben.
+    participant_action: >
+      Reflektieren. Erkenntnisse teilen. Persönliche
+      Erfahrung benennen.
+    note: >
+      Debrief ist Lern-Raum. Hier entsteht Perspektiven-
+      Gewinn. Ohne Debrief bleibt es Rollenspiel ohne
+      Transfer.
+
+variations:
+  - name: Klassisch (einzelne Person auf Hot Seat)
+    description: >
+      Standard-Variante: eine Person nimmt Rolle ein,
+      Gruppe fragt.
+    when_to_use: >
+      Führungskräftetraining, Kundenempathie, strategische
+      Entscheidungen. Wenn Perspektiven-Vielfalt
+      gebraucht.
+  - name: Rotierender Hot Seat (mehrere Rollen)
+    description: >
+      Mehrere TN übernehmen nacheinander Hot Seat, jede:r
+      eine andere Rolle. Kontraste werden sichtbar.
+    when_to_use: >
+      Konfliktthemen mit mehreren Parteien, Verhandlungs-
+      Training. Längere Sessions.
+  - name: Future Self (zukünftiges Selbst)
+    description: >
+      Hot Seat = ich selbst in 5 Jahren. Selbst-
+      Reflexion über Zukunfts-Ich. Coaching-nah.
+    when_to_use: >
+      Karriere-Coaching, Visions-Workshops, Lebens-
+      Planung. 1:1 oder Kleingruppen.
+  - name: Antagonisten-Hot-Seat
+    description: >
+      Rolle = Gegner:in / Skeptiker:in der eigenen
+      Position. Zwingt zum Perspektivwechsel ins
+      Gegenüber.
+    when_to_use: >
+      Vor Verhandlungen, bei Konflikt-Vorbereitung.
+      Stärkt Empathie für Gegen-Position.
+  - name: Expertenbefragung
+    description: >
+      Hot Seat = Fachexpert:in (real oder imaginär).
+      Gruppe fragt zu Fach-Entscheidungen. Wissens-
+      Aktivierung + Perspektive.
+    when_to_use: >
+      Fachliche Trainings, wenn Expert:innen-Wissen
+      spielerisch abgerufen werden soll.
+  - name: Remote Hot Seat (Video)
+    description: >
+      Video-Konferenz: Hot-Seat-Person sitzt zentral,
+      Gruppe fragt per Video oder Chat. Weniger
+      körperlich, aber machbar.
+    when_to_use: >
+      Verteilte Teams. Weniger Wirkung als Präsenz,
+      aber Rolle bleibt greifbar.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Hot-Seat-Person bleibt außerhalb der Rolle — liefert
+      nur Meinung als eigenes Selbst.
+    countermeasure: >
+      Einstimmung ernst nehmen. Bei "raus aus der Rolle":
+      Moderation sanft zurück: "Wie würde [Rolle]
+      darauf antworten?"
+    severity: common
+  - issue: >
+      Fragen der Gruppe sind suggestiv ("Sie würden doch
+      bestimmt X machen, oder?").
+    countermeasure: >
+      Vorab Fragenqualität erklären. Offene W-Fragen,
+      nicht Ja/Nein. Moderation reformuliert
+      Suggestivfragen.
+    severity: common
+  - issue: >
+      Rolle bleibt abstrakt — Antworten bleiben flach.
+    countermeasure: >
+      Rolle vor Session konkret ausformulieren. Name,
+      Alter, Hintergrund, Motivation. Je mehr
+      Biografie, desto greifbarer.
+    severity: common
+  - issue: >
+      Entrollung wird übersprungen — TN kommt nicht
+      sauber raus.
+    countermeasure: >
+      Entrollung fest einplanen. Körperliche Bewegung
+      (aufstehen, Raum wechseln). Eigenen Namen laut
+      sagen. Psychologisch wichtig.
+    severity: common
+  - issue: >
+      Debrief vermischt sich mit Rolle — TN sprechen
+      noch aus Rolle.
+    countermeasure: >
+      Klar trennen: "Wir sind jetzt außerhalb der
+      Rolle. Wir sprechen als wir selbst." Bei
+      Vermischung sanft zurückführen.
+    severity: common
+  - issue: >
+      Hot-Seat-Person fühlt sich bloßgestellt.
+    countermeasure: >
+      Freiwilligkeit sichern. Rolle-Trennung betonen
+      ("Sie vertreten eine Rolle, nicht sich selbst").
+      Bei Unwohlsein: Methode abbrechen.
+    severity: common
+  - issue: >
+      Emotionale Rollen ohne Nach-Betreuung — TN geht
+      belastet raus.
+    countermeasure: >
+      Bei sensiblen Rollen: Check-out nach Debrief.
+      Bei Bedarf 1:1-Gespräch anbieten. Psychodrama-
+      Grundsatz: Person geht gestärkt, nicht
+      belastet.
+    severity: rare

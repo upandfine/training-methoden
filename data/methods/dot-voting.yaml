@@ -1,0 +1,228 @@
+slug: dot-voting
+canonical_name: Dot-Voting
+synonyms:
+  - synonym: Punktabfrage
+    language: de
+  - synonym: Klebepunkt-Abstimmung
+    language: de
+short_description: >
+  Teilnehmende erhalten eine feste Anzahl Klebepunkte und verteilen sie auf
+  Optionen an Pinnwand oder Whiteboard. Schnelles, visuelles Priorisieren
+  im Plenum.
+originator: null
+origin_context: >
+  Standardtechnik aus der Moderation (Metaplan-Tradition, seit den 1970ern);
+  in Design-Thinking und UX-Workshops sehr verbreitet.
+phases:
+  - code: activation
+    is_primary: true
+  - code: evaluation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Miro/Mural bieten Voting-Funktionen nativ; auch per Emoji-Reactions möglich.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [diagnostic, activating, visualization]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - Klebepunkte (physisch) oder digitales Voting-Feature
+tags: [abstimmung, priorisierung, schnell]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+    note: >
+      Standardwerk der deutschsprachigen Moderation — beschreibt die
+      Punktabfrage als Metaplan-Klassiker.
+  - kind: url
+    title: "Gamestorming — Dot Voting"
+    url: https://gamestorming.com/dot-voting/
+    relation: reference
+    note: Kurze Beschreibung im Gamestorming-Repertoire.
+  - kind: book
+    title: "Design Thinking Playbook"
+    author: Michael Lewrick et al.
+    year: 2018
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Optionen sichtbar machen
+    duration_minutes: 2
+    trainer_action: >
+      Alle abzustimmenden Optionen als Liste/Karten an die Wand
+      oder aufs Whiteboard. Jede Option klar lesbar, keine
+      Dopplungen, keine impliziten Favoriten durch Reihenfolge.
+    participant_action: >
+      Optionen lesen, bei Unklarheiten nachfragen.
+    note: >
+      Optionen müssen auf ungefähr gleicher Abstraktionsebene liegen.
+      Eine „große" neben mehreren „kleinen" zieht unverdient viele
+      Punkte. Ggf. vorher clustern.
+  - order: 2
+    label: Punkte ausgeben & Regeln erklären
+    duration_minutes: 2
+    trainer_action: >
+      Pro Person 3-5 Punkte (physisch oder digital). Regeln:
+      "Mehrere Punkte auf eine Option erlaubt / verboten" —
+      beides legitim, aber vorher festlegen. Ggf. farbliche
+      Differenzierung (z.B. rot = dagegen, grün = dafür).
+    participant_action: >
+      Punkte entgegennehmen, Regeln mitbekommen.
+    note: >
+      Faustregel: ~30 % der Optionsanzahl als Punkte pro Person
+      (10 Optionen → 3 Punkte). Mehr → alles wird angekreuzt.
+      Weniger → erzwungene Härte.
+  - order: 3
+    label: Eigenreflexion vor Abstimmung
+    duration_minutes: 1
+    trainer_action: >
+      1 min Stille: "Bevor Sie aufstehen, überlegen Sie: was sind
+      Ihre persönlichen Top 3?" Notizen erlaubt, aber optional.
+    participant_action: >
+      Still überlegen, ggf. notieren.
+    note: >
+      Ohne Reflexionsschritt werden Punkte oft dahin geklebt, wo
+      schon Punkte hängen (Bandwagon-Effekt). Kurze Stille reicht,
+      um eigene Präferenz zu rekapitulieren.
+  - order: 4
+    label: Punkte kleben
+    duration_minutes: 3
+    trainer_action: >
+      Alle gleichzeitig aufstehen (Präsenz) oder gleichzeitig voten
+      (Remote), nicht sequenziell. Kurze Fenster-Zeit, damit nicht
+      während des Voting-Prozesses Lobbyarbeit stattfindet.
+    participant_action: >
+      Punkte verteilen nach eigener Präferenz, ohne zu diskutieren
+      währenddessen.
+    note: >
+      Sequenzielles Voting ist der Tod der Methode — Erste:r prägt
+      das Ergebnis. Wenn räumlich nicht gleichzeitig möglich: Zettel-
+      Voting, dann gemeinsam auswerten.
+  - order: 5
+    label: Auswertung & Diskussion
+    duration_minutes: 2
+    trainer_action: >
+      Ergebnis sichtbar machen: Top-3 oder Top-5 benennen. Kurze
+      Diskussion: Was überrascht? Was liegt gleichauf? Was heißt
+      das für nächste Schritte?
+    participant_action: >
+      Ergebnis sehen, Überraschung/Zustimmung teilen, Konsequenzen
+      überlegen.
+    note: >
+      Ergebnis ist Impuls, nicht Verdikt. Besonders wichtig: wenn
+      die "nicht-gewählten" Optionen fachlich wichtig waren, darf
+      das Votum nicht automatisch das Ende der Diskussion sein.
+
+variations:
+  - name: Klassisches Dot-Voting (3-5 Punkte pro Person)
+    description: >
+      3-5 gleichwertige Punkte pro Person, beliebig verteilbar.
+      Standard-Variante.
+    when_to_use: >
+      Standard-Priorisierung in Workshops, Retros, Design-Thinking.
+      Wenn Gruppe keine harte Rangfolge braucht, sondern Tendenz.
+  - name: Sticker-Voting mit Kriterien (2 Farben)
+    description: >
+      Jede:r hat z.B. 3 grüne Punkte (Dafür / Machbar) und 1 roten
+      (Bedenken). Erzeugt 2D-Bild statt reiner Präferenz.
+    when_to_use: >
+      Wenn Bedenken sichtbar bleiben sollen, ohne dass sie zur
+      Kern-Frage werden. Gut für strategische Entscheidungen.
+  - name: Geldvoting (Budget-Priorisierung)
+    description: >
+      Statt Punkten bekommen TN fiktives Budget (z.B. 100 €).
+      Verteilung auf Optionen symbolisiert Investitionsbereitschaft.
+    when_to_use: >
+      Wenn Abwägung Kosten/Nutzen im Fokus steht. Macht Trade-offs
+      spürbarer als reine Punkte.
+  - name: Hundred-Dollar-Test / Cumulative Voting
+    description: >
+      Feste Summe (100 Punkte) kumulativ auf Optionen verteilbar.
+      Kann auch 50 auf eine Option setzen. Zeigt Intensität der
+      Präferenz.
+    when_to_use: >
+      Product-Management, Feature-Priorisierung; wenn Unterschied
+      zwischen "nice-to-have" und "must-have" wichtig ist.
+  - name: Remote-Voting (Miro/Mural/Mentimeter)
+    description: >
+      Digitale Voting-Features. Oft anonym, schnell ausgewertet.
+      Viele Tools erlauben Zeitfenster.
+    when_to_use: >
+      Verteilte Teams, große Gruppen. Anonymität kann Ergebnis
+      ehrlicher machen.
+    setting_codes: [remote_sync, remote_async]
+  - name: Dot-Voting mit Namen (Accountable Voting)
+    description: >
+      Punkte werden mit Namen gekennzeichnet (Initialen oder
+      unterschiedliche Farben pro Person). Keine Anonymität.
+    when_to_use: >
+      Nur, wenn Gruppenkultur tragend ist und nachvollziehbare
+      Präferenzen helfen. Bei Machtasymmetrie zu vermeiden.
+
+pitfalls:
+  - issue: >
+      Bandwagon-Effekt: TN kleben dort, wo schon viele Punkte
+      hängen.
+    countermeasure: >
+      Gleichzeitiges Voting erzwingen (alle aufstehen / Fenster
+      setzen). Zettel-Variante, wenn räumlich nicht möglich.
+      Ergebnis erst nach Schluss sichtbar machen.
+    severity: common
+  - issue: >
+      Meinungsstarke TN beeinflussen andere während des Votings
+      durch Kommentare.
+    countermeasure: >
+      "Erst kleben, dann diskutieren" als Regel ansagen und
+      moderativ durchsetzen. Bei Wiederholung: Zettel-Voting
+      oder digitales anonymes Voting.
+    severity: common
+  - issue: >
+      Optionen sind ungleich formuliert — "Alles verbessern" neben
+      "E-Mail-Signatur anpassen".
+    countermeasure: >
+      Vor dem Voting Optionen auf ähnliche Granularität bringen.
+      Ggf. clustern oder in Abstimmungen auf zwei Ebenen trennen
+      (erst grob, dann fein).
+    severity: common
+  - issue: >
+      Zu viele Punkte pro Person — alles wird angekreuzt, keine
+      Priorisierung.
+    countermeasure: >
+      Punktzahl ≈ 30 % der Options-Anzahl. Bei 10 Optionen max.
+      3 Punkte. Weniger ist mehr.
+    severity: common
+  - issue: >
+      Ergebnis wird als Entscheidung gewertet, obwohl es nur Tendenz
+      war.
+    countermeasure: >
+      Vor dem Voting Framing klar machen: "Das ist Priorisierung,
+      nicht Beschluss. Entscheidung trifft [wer] im Anschluss."
+      Ergebnis als Input, nicht Output kommunizieren.
+    severity: common
+  - issue: >
+      Remote: Voting-Tool bleibt hängen oder zeigt inkonsistente
+      Ergebnisse.
+    countermeasure: >
+      Tool vor Session testen, Backup bereithalten (z.B. Chat-Voting
+      mit Emojis). Screen-Share des Ergebnisses nach Voting-Ende.
+    severity: rare
+    setting_codes: [remote_sync]

@@ -1,0 +1,243 @@
+slug: fishbowl-multistage
+canonical_name: Fishbowl (mehrstufig)
+synonyms:
+  - synonym: Multi-Stage Fishbowl
+    language: en
+short_description: >
+  Erweiterung des klassischen Fishbowls: Mehrere Innenkreis-Runden mit
+  wechselnden Rollen (z.B. Expert:innen, Skeptiker:innen, Anwender:innen).
+  Ermöglicht tiefe Perspektivwechsel in Großgruppen.
+originator: null
+origin_context: >
+  Variante der klassischen Fishbowl-Methode aus Großgruppenmoderation und
+  partizipativen Konferenzdesigns; die mehrstufige Form ist eher eine
+  methodische Ausdifferenzierung als einer Einzelperson zuzuordnen.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Mit Video-Layouts, die „Innenkreis" fokussiert anzeigen.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [cooperative, activating]
+duration_min_minutes: 60
+duration_typical_minutes: 90
+duration_max_minutes: 150
+tags: [fishbowl, perspektivwechsel, mehrstufig]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Großgruppenmethoden: Lebendig lernen — Veränderung gestalten"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: practice_guide
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+  - kind: url
+    title: "National School Reform Faculty — Fishbowl Protocol"
+    url: https://www.nsrfharmony.org/protocols/
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Setup & Rollen-Konzept einführen
+    duration_minutes: 10
+    trainer_action: >
+      Innenkreis 5-7 Stühle, Außenkreis-Beobachter:innen.
+      Mehrere Rollen-Konstellationen erklären:
+      "Phase 1: Expert:innen im Innenkreis. Phase 2:
+      Skeptiker:innen. Phase 3: Anwender:innen.
+      Jede Phase 20 min."
+    participant_action: >
+      Setting verstehen, eigene Rolle in den Phasen
+      antizipieren.
+    note: >
+      Multistage = mehrere Innenkreis-Konstellationen
+      nacheinander. Nicht zu verwechseln mit klassischem
+      Fishbowl (eine Konstellation).
+  - order: 2
+    label: Phase 1 — Erste Konstellation (z.B. Expert:innen)
+    duration_minutes: 20
+    trainer_action: >
+      Erste Rollen-Gruppe in Innenkreis. Diskutiert
+      zum Thema. Außenkreis hört, beobachtet, notiert.
+      Moderation strukturiert nur bei Bedarf.
+    participant_action: >
+      Innenkreis: aus Rollen-Sicht diskutieren.
+      Außenkreis: aktiv zuhören, notieren.
+    note: >
+      Klare Rollen-Übernahme. Wer Expert:in spielen
+      soll: aus dieser Sicht argumentieren, auch wenn
+      eigene Meinung anders.
+  - order: 3
+    label: Wechsel — Phase 2 (z.B. Skeptiker:innen)
+    duration_minutes: 20
+    trainer_action: >
+      Erste Innenkreis-Gruppe verlässt, neue Rollen-
+      Gruppe (Skeptiker:innen) nimmt Platz. Diskutiert
+      zum gleichen Thema, jetzt aus anderer Sicht.
+    participant_action: >
+      Neue Innenkreis: andere Rolle einnehmen.
+      Außenkreis: Beobachten weiterer Perspektive.
+    note: >
+      Wechsel macht Mehrstufigkeit aus. Verschiedene
+      Konstellationen zeigen verschiedene Aspekte.
+      Klar trennen, wer wann drin ist.
+  - order: 4
+    label: Phase 3 — Anwender:innen (oder andere Rolle)
+    duration_minutes: 20
+    trainer_action: >
+      Dritte Rollen-Gruppe (z.B. Anwender:innen,
+      Betroffene). Wieder gleiches Thema, neue
+      Perspektive.
+    participant_action: >
+      Drittes Innenkreis-Setup, dritte Sicht
+      einbringen.
+    note: >
+      Drei Phasen sind Klassik. Mehr (4-5) verzettelt
+      sich, weniger (1-2) ist klassisches Fishbowl.
+  - order: 5
+    label: Plenum-Synthese
+    duration_minutes: 15
+    trainer_action: >
+      Alle im Plenum. "Was haben wir aus den drei
+      Perspektiven gelernt? Wo Übereinstimmung, wo
+      Spannungen?" Synthese der Perspektiven.
+    participant_action: >
+      Beobachtungen aller Rollen einbringen.
+      Synthese mitgestalten.
+    note: >
+      Synthese ist Methoden-Wert. Ohne sie bleiben
+      drei isolierte Diskussionen. Mit ihr: integriertes
+      Bild.
+  - order: 6
+    label: Konsequenz & Aktionen
+    duration_minutes: 5
+    trainer_action: >
+      "Was bedeutet das für unser Vorgehen? Welche
+      Aktionen ergeben sich aus den Perspektiven?"
+      Concrete Outputs.
+    participant_action: >
+      Aktions-Vorschläge formulieren, Owner-
+      Commitment.
+    note: >
+      Ohne Aktion bleibt Methode reflexiv ohne
+      Wirkung. Kurzes Aktion-Setzen am Ende
+      verankert.
+
+variations:
+  - name: Klassisch (3 Rollen-Phasen, 90 min)
+    description: >
+      Standard: drei Innenkreis-Konstellationen
+      nacheinander, dann Synthese.
+    when_to_use: >
+      Komplexe Themen mit mehreren Stakeholder-
+      Perspektiven. 20-50 TN.
+  - name: Stakeholder-Fishbowl
+    description: >
+      Reale Stakeholder-Gruppen im Wechsel
+      (Kund:innen, Mitarbeitende, Management).
+    when_to_use: >
+      Organisations-Entwicklung, Change-Prozesse.
+  - name: Pro-Contra-Fishbowl
+    description: >
+      Zwei Phasen: Pro-Position, Contra-Position.
+      Strukturierter als reine Debatte.
+    when_to_use: >
+      Polarisierende Themen, Wert-Diskussionen.
+  - name: Iteratives Fishbowl
+    description: >
+      Mehrere Runden, Innenkreis-Mitglieder können
+      wechseln (Leer-Stuhl-Prinzip wie klassisch).
+    when_to_use: >
+      Längere Sessions mit fließendem Übergang.
+  - name: Remote (Spotlight im Video)
+    description: >
+      Innenkreis bekommt Video-Spotlight, Außenkreis
+      schaut zu. Wechsel per Host-Steuerung.
+    when_to_use: >
+      Verteilte Teams. Funktioniert, weniger
+      lebendig als Präsenz.
+    setting_codes: [remote_sync]
+  - name: Mit Außenkreis-Aufträgen
+    description: >
+      Außenkreis bekommt Beobachtungs-Auftrag pro
+      Phase. Strukturiertere Beobachtung.
+    when_to_use: >
+      Lern-Kontexte, wenn Außenkreis aktiv eingebunden
+      werden soll.
+
+pitfalls:
+  - issue: >
+      Phasen werden vermischt — Rollen unklar.
+    countermeasure: >
+      Klare Phasen-Trennung. Rollen-Karten
+      austeilen. Vor jeder Phase: "Jetzt sind X
+      im Innenkreis."
+    severity: common
+  - issue: >
+      Außenkreis bleibt passiv — keine Beobachtungs-
+      Aufträge.
+    countermeasure: >
+      Beobachtungs-Aufträge geben. Notizen einfordern.
+      In Synthese-Phase Außenkreis-Beobachtungen
+      explizit einholen.
+    severity: common
+  - issue: >
+      Innenkreis-Diskussionen werden flach — keine
+      echte Rollen-Übernahme.
+    countermeasure: >
+      Vor jeder Phase Rollen-Briefing (Hintergrund,
+      Motivation, Sprachstil). Bei Flachheit:
+      kurzes Time-Out, Rollen-Verstärkung.
+    severity: common
+  - issue: >
+      Synthese fehlt — drei isolierte Diskussionen.
+    countermeasure: >
+      Synthese-Phase fest einplanen (15+ min).
+      Strukturierte Synthese-Fragen vorbereiten.
+    severity: common
+  - issue: >
+      Zeit-Überzug pro Phase — Methode zerfällt.
+    countermeasure: >
+      Strikte Zeit-Disziplin. Phase-Ende ist
+      Phase-Ende. Auch wenn mitten in Diskussion.
+    severity: common
+  - issue: >
+      Bei zu wenigen TN: nicht genug für 3 Rollen-
+      Gruppen.
+    countermeasure: >
+      Faustregel: ab ca. 12 TN funktioniert Multistage
+      (4er-Innenkreise mit 3-4 zusätzlichen
+      Beobachter:innen pro Phase). Ideal ab 20 TN, weil
+      dann größere Innenkreise und reicherer
+      Außenkreis. Unter 12: klassisches Fishbowl mit
+      Leer-Stuhl statt Multistage.
+    severity: common
+  - issue: >
+      Remote: Spotlight-Wechsel verwirrt — TN nicht
+      klar wer dran ist.
+    countermeasure: >
+      Klare Ansagen bei Wechsel. Visuelle Marker
+      (Hintergrund-Farbe, Namens-Tag). Tool-
+      Disziplin.
+    severity: common
+    setting_codes: [remote_sync]

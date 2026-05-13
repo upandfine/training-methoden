@@ -1,0 +1,246 @@
+slug: mind-map
+canonical_name: Mind-Map
+synonyms:
+  - synonym: Gedankenlandkarte
+    language: de
+  - synonym: Mindmap
+    language: de
+short_description: >
+  Zentrales Thema wird in Äste und Unteräste visuell verzweigt. Fördert
+  assoziatives Denken, Strukturierung und gemeinsames Wissens-Sichtbarmachen.
+originator: Tony Buzan
+origin_year: 1974
+origin_context: >
+  Tony Buzans Mind-Mapping-Technik, popularisiert mit „Use Both Sides of Your Brain" (1974).
+phases:
+  - code: input
+  - code: deepening
+    is_primary: true
+  - code: group_work
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Miro/XMind/Mural, kollaborativ editierbar.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: good
+group_sizes: [one_on_one, small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [visualization, creative]
+duration_min_minutes: 10
+duration_typical_minutes: 30
+duration_max_minutes: 90
+materials:
+  - Flipchart, bunte Stifte — oder digitales Mindmap-Tool
+tags: [visualisierung, strukturierung, kreativ]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: Use Both Sides of Your Brain
+    author: Tony Buzan
+    year: 1974
+    relation: originator
+    note: Ursprungswerk, in dem Buzan das Mapping-Prinzip formuliert.
+  - kind: book
+    title: "The Mind Map Book: How to Use Radiant Thinking to Maximize Your Brain's Untapped Potential"
+    author: Tony Buzan, Barry Buzan
+    year: 1996
+    relation: practice_guide
+    note: Umfassendes Praxishandbuch der Buzan-Methode.
+  - kind: article
+    title: "The efficacy of the 'mind map' study technique"
+    author: Farrand, P., Hussain, F., Hennessy, E.
+    year: 2002
+    relation: reference
+    note: >
+      Empirische Studie zum Lerneffekt — Mind-Mapping gegen lineare
+      Notizen. Bessere Erinnerungsleistung, aber nur bei motivierten
+      Lernenden.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Zentrum setzen — Kernbegriff klären
+    duration_minutes: 3
+    trainer_action: >
+      Thema als Bild / Schlagwort in die Mitte des Boards. Lesbar,
+      fett, idealerweise mit Farbe oder Skizze. Nicht zu abstrakt
+      ("Kommunikation"), lieber konkret ("Gespräch mit schwierigen
+      Kund:innen"). Kurz erklären, was Mind-Mapping ist für TN,
+      die es nicht kennen.
+    participant_action: >
+      Thema verstehen, eigenes Blatt oder digitales Board vorbereiten
+      (bei individueller Variante).
+    note: >
+      Das Zentrum prägt den gesamten Verlauf. Ein unscharfes Zentrum
+      produziert eine unscharfe Map. Zeit hier gut investiert.
+  - order: 2
+    label: Hauptäste anlegen
+    duration_minutes: 5
+    trainer_action: >
+      5-7 Hauptäste (nie mehr — Map wird unübersichtlich). Jeder Ast
+      eine Farbe, ein Schlagwort (ein Substantiv, max. 2 Wörter).
+      Bei Gruppenarbeit: Äste gemeinsam festlegen, Moderation
+      schreibt groß.
+    participant_action: >
+      Vorschläge für Hauptäste machen, zuhören bei anderen, Konsens
+      suchen.
+    note: >
+      Klassischer Fehler: Äste sind ganze Sätze ("Probleme in der
+      Kommunikation") statt Schlagworte ("Missverständnisse"). Kurz
+      = mental griffiger. Später immer möglich, längere Formulierung
+      in Unterast zu verschieben.
+  - order: 3
+    label: Unteräste und Verzweigungen
+    duration_minutes: 10
+    trainer_action: >
+      Pro Hauptast Unteräste generieren. Gleiches Prinzip: ein Wort
+      pro Ast, Farbe beibehalten. Bei Gruppenarbeit: jede:r trägt
+      zu mind. einem Ast bei. Assoziationen über Äste hinweg zeigen
+      — Querverbindungen später als gestrichelte Linien.
+    participant_action: >
+      Ideen zu Unterästen beitragen, anschaulich machen, zusehen
+      wie andere weitere Äste füllen.
+    note: >
+      Hierarchie nicht zu starr ansetzen. Wenn ein Unterast zu
+      einem anderen Hauptast besser passt, verschieben erlaubt.
+      Mind-Map ist iterativ, nicht statisch.
+  - order: 4
+    label: Bilder, Symbole, Akzente
+    duration_minutes: 5
+    trainer_action: >
+      Ermutigen, zu Schlüsselknoten kleine Bilder oder Symbole zu
+      zeichnen. Unterstreichungen, Kästchen, Ausrufezeichen für
+      wichtige Punkte. Mehr Farben statt weniger — Buzans Credo:
+      das Gehirn mag visuelle Vielfalt.
+    participant_action: >
+      Eigene Akzente setzen, 1-2 Schlüsselbegriffe mit Mini-Skizze
+      versehen, wichtige Knoten hervorheben.
+    note: >
+      Viele TN denken "ich kann nicht zeichnen". Strichmännchen oder
+      einfache Symbole reichen — Mind-Mapping ist kein Kunstkurs.
+      Aber die Bildhaftigkeit ist der Unterschied zwischen Mind-Map
+      und schnöder Liste.
+  - order: 5
+    label: Reflexion & Nutzung planen
+    duration_minutes: 5
+    trainer_action: >
+      Kurze Pause, Map aus Distanz betrachten. Fragen: "Was
+      überrascht? Welcher Ast ist dick, welcher dünn? Was fehlt?"
+      Mit Map weitergehen — Diskussion, Priorisierung, Transfer.
+      Bei Bedarf: Abfoto / Export für Nachbereitung.
+    participant_action: >
+      Map betrachten, Muster erkennen, Folge-Nutzung klären
+      (wird sie Grundlage für Protokoll, Aufgabenplanung, etc.?).
+    note: >
+      Ohne Nachnutzung bleibt Mind-Map ein hübsches Bild. Der Wert
+      entsteht durch Weiterverwendung — etwa als Gliederung für
+      Texte, Basis für Entscheidungen, Erinnerungshilfe.
+
+variations:
+  - name: Klassische Einzel-Mind-Map (Papier)
+    description: >
+      Eine Person, ein Blatt. Brainstorming- oder Lern-Notizen nach
+      Buzan. Bleistift, Buntstifte, A3-Blatt.
+    when_to_use: >
+      Selbststudium, Prüfungsvorbereitung, individuelle
+      Strukturierung von Projekten. Buzans Ursprungsanwendung.
+  - name: Kollaborative Gruppen-Mind-Map
+    description: >
+      Großes Flipchart oder Whiteboard, Gruppe baut zusammen.
+      Jede:r darf Äste hinzufügen, gemeinsames Ergebnis.
+    when_to_use: >
+      Wissen-Sammeln im Team, Brainstorming mit Struktur, Analyse
+      einer komplexen Situation. 3-8 TN ideal.
+  - name: Digitale Mind-Map (XMind, Miro, Mural)
+    description: >
+      Kollaboratives Tool, jede:r kann parallel editieren.
+      Automatisches Layout, Export als Bild / Outline.
+    when_to_use: >
+      Verteilte Teams, asynchrones Arbeiten, wenn die Map später
+      als Arbeitsdokument weiterlebt. Auch für größere Gruppen
+      skalierbar.
+    setting_codes: [remote_sync, remote_async]
+  - name: Mind-Map als Lerntechnik (Cornell-Hybrid)
+    description: >
+      Mind-Map rechts vom linearen Notizraster (Cornell). Äste
+      dienen als visuelle Anker, Notizen als Detailtiefe.
+    when_to_use: >
+      Schule, Studium, Weiterbildung — für Lernende, die beide
+      Systeme kombinieren wollen (linear + nicht-linear).
+  - name: Problem-Mind-Map (Ishikawa-Verwandte)
+    description: >
+      Statt freier Struktur: feste Haupt-Äste pro Problem-Dimension
+      (z.B. Mensch / Methode / Maschine / Material / Milieu / Messung).
+      Näher am Fischgräten-Diagramm.
+    when_to_use: >
+      Ursachenanalyse in Prozessen. Wenn die Mind-Map systematisch
+      sein muss und Freiheit der Äste nicht gewünscht ist.
+  - name: Storytelling-Mind-Map
+    description: >
+      Kern-Thema = Story / Figur / Situation. Äste = Handlungsstränge,
+      Figuren, Orte. Wird als Erzähl- oder Schreibhilfe genutzt.
+    when_to_use: >
+      Kreatives Schreiben, Präsentations-Vorbereitung, Case-Building
+      in Workshops.
+
+pitfalls:
+  - issue: >
+      Mind-Map wird zur hierarchischen Liste mit Kästchen — visuell
+      nahe am Org-Chart, semantisch nicht Mind-Map.
+    countermeasure: >
+      Strikt auf geschwungene Äste und Einzelwörter bestehen. Hilfe:
+      Vorbilder zeigen (z.B. Buzans Beispiele). Lineare Muster
+      konsequent moderativ unterbrechen.
+    severity: common
+  - issue: >
+      Zu viele Hauptäste (12+) → Map zerfällt in Fragmente.
+    countermeasure: >
+      Harte Regel: max. 7 Hauptäste. Wenn Gruppe mehr vorschlägt:
+      clustern ("Gehört das nicht zu X?"). Lieber weniger breit
+      und tiefer.
+    severity: common
+  - issue: >
+      Gruppe schreibt ganze Sätze oder Stichwortlisten auf Äste —
+      Map wird unleserlich.
+    countermeasure: >
+      "Ein Wort pro Ast" als harte Regel. Bei mehr: in Unteräste
+      aufteilen. Vorher durch Beispiel zeigen.
+    severity: common
+  - issue: >
+      Einzelne dominieren das Zeichnen — andere TN werden passiv.
+    countermeasure: >
+      Rotationsprinzip: jede:r bekommt 2-3 min am Flipchart, dann
+      Wechsel. Oder digital: alle gleichzeitig via Whiteboard-Tool.
+    severity: common
+  - issue: >
+      TN sagen "ich bin nicht visuell" und verweigern Bilder /
+      Farben.
+    countermeasure: >
+      Vorab Framing: "Mind-Map ist keine Kunst, sondern Gehirn-
+      Werkzeug. Strichmännchen reichen." Beispiele zeigen, die
+      bewusst laienhaft gezeichnet sind.
+    severity: rare
+  - issue: >
+      Digital: Tool-Kurven-Effekt — TN verbringen Zeit mit Software
+      statt Denken.
+    countermeasure: >
+      Einfachstes Tool nutzen (Miro-Sticky + Verbindungslinien, nicht
+      XMind für Einsteiger:innen). 5 min Tool-Einführung vorab,
+      nicht während des Denkens.
+    severity: common
+    setting_codes: [remote_sync, remote_async]
+  - issue: >
+      Map wird nach Workshop weggelegt, kein Transfer.
+    countermeasure: >
+      Nachnutzung vorher planen (Abfoto, PDF-Export, als Grundlage
+      für Protokoll). 1 Person als "Map-Owner" benennen, der/die
+      im Nachgang Digitalisierung/Verteilung übernimmt.
+    severity: common

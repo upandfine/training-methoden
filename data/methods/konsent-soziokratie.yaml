@@ -1,0 +1,74 @@
+slug: konsent-soziokratie
+canonical_name: Konsent (Soziokratie)
+synonyms:
+  - synonym: Sociocratic Consent
+    language: en
+  - synonym: Holacratic Consent
+    language: en
+  - synonym: Einwand-basiertes Entscheiden
+    language: de
+  - synonym: Good enough for now, safe enough to try
+    language: en
+
+short_description: >
+  Entscheidungsverfahren aus Soziokratie und Holacracy: ein Vorschlag gilt
+  als angenommen, wenn niemand einen schwerwiegenden Einwand hat ("kein
+  Veto"). Anders als Konsens braucht es keine aktive Zustimmung, anders als
+  Mehrheit blockiert auch eine Minderheit nicht durch Stimmverhalten — nur
+  durch substanzielle, begründete Einwände. Schnell und tragfähig zugleich.
+
+originator: Gerard Endenburg / Brian Robertson
+origin_context: >
+  Endenburg entwickelte in den 1970er Jahren in den Niederlanden die
+  Soziokratische Kreis-Organisations-Methode (SKM). Robertson übernahm das
+  Konsent-Prinzip 2007 für seine Holacracy. Heute Standard in selbstorgani-
+  sierten Teams, NGOs, agilen Organisationen.
+
+phases:
+  - code: practice
+    is_primary: true
+  - code: closing
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Reaktions-Runden gut moderierbar in Zoom/Teams.
+  - code: hybrid
+    suitability: excellent
+
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [cooperative, reflective]
+
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 60
+
+materials:
+  - Flipchart oder digitales Board für Vorschlag + Einwände
+tags: [entscheidung, soziokratie, holacracy, partizipativ, einwand, agil]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "Many Voices One Song: Shared Power with Sociocracy"
+    author: Ted Rau, Jerry Koch-Gonzalez
+    year: 2018
+    relation: practice_guide
+    note: Praktisches Standardwerk für Soziokratie 3.0.
+  - kind: book
+    title: "Holacracy: The New Management System for a Rapidly Changing World"
+    author: Brian J. Robertson
+    year: 2015
+    relation: reference
+  - kind: book
+    title: "Sociocracy: The Creative Forces of Self-Organization"
+    author: John Buck, Sharon Villines
+    year: 2017
+    relation: reference

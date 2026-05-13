@@ -1,0 +1,255 @@
+slug: future-search
+canonical_name: Future Search
+synonyms:
+  - synonym: Zukunftskonferenz
+    language: de
+short_description: >
+  Großgruppenkonferenz (40–80 Personen) über 2,5 Tage, die aktuelle Situation,
+  Trends, gemeinsame Werte und Zukunftsbilder einer Organisation oder
+  Community bearbeitet. Alle Stakeholder im Raum.
+originator: Marvin Weisbord, Sandra Janoff
+origin_context: >
+  Entwickelt in den 1980ern/1990ern von Marvin Weisbord und Sandra Janoff;
+  beschrieben in „Future Search" (1995). Verwandt mit Zukunftswerkstatt,
+  aber stärker strukturiert und größenorientiert.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: group_work
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Online-Adaptation existiert (Future Search Network), deutlich reduzierte Wirkung.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [large, plenary]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [cooperative, creative]
+duration_min_minutes: 720
+duration_typical_minutes: 1080
+duration_max_minutes: 1920
+materials:
+  - Sehr großer Raum, Flipcharts für alle Gruppentische
+tags: [grossgruppe, zukunft, stakeholder, weisbord]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Future Search"
+    author: Marvin Weisbord, Sandra Janoff
+    year: 1995
+    relation: originator
+    note: >
+      Weisbord und Janoff begründen das Format — systematische
+      Anleitung für Großgruppen-Zukunftskonferenz.
+  - kind: url
+    title: "Future Search Network"
+    url: https://futuresearch.net/
+    relation: practice_guide
+    note: Internationale Community mit Facilitator-Ausbildung.
+  - kind: book
+    title: "Großgruppenmethoden: Lebendig lernen — Veränderung gestalten"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Tag 1 Vormittag — Vergangenheit rekonstruieren
+    duration_minutes: 180
+    trainer_action: >
+      Eröffnung mit Purpose. Dann: Zeitreisen —
+      persönlich / organisational / gesellschaftlich.
+      Gruppen markieren auf Zeitlinien wichtige
+      Ereignisse. Gemeinsame Vergangenheit wird
+      sichtbar.
+    participant_action: >
+      Eigene Erfahrungen beitragen, auf Zeitlinien
+      markieren, Muster erkennen.
+    note: >
+      "Alle Stakeholder im Raum" ist Prinzip —
+      Kund:innen, Lieferant:innen, Mitarbeiter:innen,
+      Management, externe Partner:innen.
+  - order: 2
+    label: Tag 1 Nachmittag — Gegenwart kartieren
+    duration_minutes: 180
+    trainer_action: >
+      Trends-Landkarte. "Was prägt unsere Gegenwart?
+      Welche Kräfte wirken?" Gemeinsam Mind-Map
+      erstellen, Prioritäten setzen. Prouds & Sorries:
+      worauf stolz, was bereuen wir?
+    participant_action: >
+      Trends identifizieren, Wertungen teilen,
+      kollektive Sicht aufbauen.
+    note: >
+      Prouds & Sorries sind emotional anspruchsvoll.
+      Offenheit ernst nehmen. Moderation schützt
+      Sicherheit.
+  - order: 3
+    label: Tag 2 Vormittag — Ideale Zukunft entwerfen
+    duration_minutes: 180
+    trainer_action: >
+      In Stakeholder-Gruppen: "Wie sieht unsere ideale
+      Zukunft in 5-10 Jahren aus?" Kreative
+      Darstellungen (Rollenspiel, Collage, Storyboard).
+      Präsentation im Plenum.
+    participant_action: >
+      Zukunftsbilder kreativ entwerfen, Szenarien
+      spielen, präsentieren.
+    note: >
+      Kreative Darstellung ist wichtig. Reine Listen
+      werden langweilig. Bilder, Szenen, Geschichten
+      haben mehr Kraft.
+  - order: 4
+    label: Tag 2 Nachmittag — Gemeinsame Basis finden
+    duration_minutes: 180
+    trainer_action: >
+      Gruppenübergreifend: "Was ist uns gemeinsam
+      wichtig? Wo sind wir uns einig?" Common Ground
+      identifizieren. Differenzen nicht auflösen, aber
+      sichtbar machen.
+    participant_action: >
+      Gemeinsamkeiten herausarbeiten, gemeinsame
+      Werte formulieren.
+    note: >
+      Common Ground ist Fundament für Handlung. Auch
+      wenn er schmal ist: darauf kann gebaut werden.
+      Differenzen respektieren, nicht verwischen.
+  - order: 5
+    label: Tag 3 Vormittag — Aktionen planen
+    duration_minutes: 180
+    trainer_action: >
+      Selbstorganisierende Aktionsgruppen bilden.
+      Jede plant konkrete Umsetzungs-Schritte zum
+      gemeinsamen Ziel. Owner, Termine, Ressourcen.
+    participant_action: >
+      Themen wählen, Gruppen bilden, konkret planen.
+    note: >
+      Selbstorganisation entscheidend — keine
+      Aufgabenverteilung von oben. Wer mitmachen
+      will, meldet sich. Freiwilligkeit schafft
+      Energie.
+  - order: 6
+    label: Abschluss & Follow-up-Struktur
+    duration_minutes: 180
+    trainer_action: >
+      Gruppen präsentieren Pläne. Commitments im
+      Plenum. Follow-up-Struktur etablieren: nächste
+      Meetings, Kommunikations-Wege, Fortschritts-
+      Reviews.
+    participant_action: >
+      Pläne präsentieren, Commitment geben, Follow-up
+      mitgestalten.
+    note: >
+      Future Search ohne Follow-up verpufft.
+      Netzwerk-Strukturen müssen nach Konferenz leben.
+
+variations:
+  - name: Klassisch (2,5 Tage, Weisbord/Janoff)
+    description: >
+      Standard-Variante: 6 Phasen à ca. 3 Stunden, verteilt
+      über 2,5 Tage (Tag 1 Nachmittag, Tag 2 ganztägig,
+      Tag 3 Vormittag). Insgesamt ca. 18 Stunden
+      Konferenzzeit. 40-80 TN.
+    when_to_use: >
+      Strategische Transformation, Community-Entwicklung,
+      Organisations-Weiterentwicklung. Wenn Mandat und
+      Zeit da.
+  - name: Kompakt-Future-Search (1,5 Tage)
+    description: >
+      Komprimiert: weniger Zeit pro Phase, ähnliche
+      Abfolge. Weniger Tiefe.
+    when_to_use: >
+      Zeitknappere Settings, vertraute Communities.
+  - name: Future Search mit externer Moderation
+    description: >
+      Professionelle:r Future-Search-Facilitator:in
+      (oft zertifiziert) moderiert. Komplexität macht
+      Erfahrung wichtig.
+    when_to_use: >
+      Hochpolitische Kontexte, komplexe Stakeholder-
+      Dynamiken. Bei Unsicherheit.
+  - name: Online Future Search
+    description: >
+      Digital über 3-4 Halbtage verteilt. Miro, Zoom,
+      strukturierte Breakouts. Reduzierte Kraft.
+    when_to_use: >
+      Wenn Präsenz nicht möglich. International.
+      Letztes Mittel, nicht erste Wahl.
+    setting_codes: [remote_sync]
+  - name: Community-Future-Search
+    description: >
+      Für geografische Community (Stadt, Region).
+      Öffentlich, vielfältige Bürger:innen.
+    when_to_use: >
+      Stadt-Entwicklung, Regional-Projekte,
+      Bürgerbeteiligung.
+  - name: Organisations-Future-Search
+    description: >
+      Nur intern, alle Organisations-Ebenen. Für
+      Strategie und Kulturwandel.
+    when_to_use: >
+      Unternehmens-Transformation, Reorganisation.
+
+pitfalls:
+  - issue: >
+      Stakeholder-Vollständigkeit fehlt — einseitiges
+      Bild.
+    countermeasure: >
+      Vorab Stakeholder-Analyse. Kund:innen, Lieferanten,
+      kritische Stimmen aktiv einladen. Ohne vollständige
+      Gruppe: keine Future Search.
+    severity: common
+  - issue: >
+      Auftraggeber:in fürchtet Kontrollverlust.
+    countermeasure: >
+      Vorab intensive Vorbereitung. Erwartungs-Setting:
+      "Ergebnisse nicht steuerbar, aber tragen
+      kollektiv." Ohne Mut: andere Methode.
+    severity: common
+  - issue: >
+      Common Ground wird erzwungen — falsche Harmonie.
+    countermeasure: >
+      Auch schmaler Common Ground ist OK. Differenzen
+      sichtbar lassen, nicht glätten. Ehrlichkeit vor
+      Konsens.
+    severity: common
+  - issue: >
+      Aktionsgruppen bleiben leer — Selbstorganisation
+      funktioniert nicht.
+    countermeasure: >
+      Vorab Energie-Check. Bei geringer Bereitschaft:
+      Pause, Energie aktivieren. Nicht erzwingen.
+    severity: common
+  - issue: >
+      Nach Konferenz: Aktionen verpuffen.
+    countermeasure: >
+      Follow-up-Struktur ist Pflicht. Monatliche
+      Check-ins, klare Verantwortlichkeiten. Without:
+      Konferenz war teuer.
+    severity: common
+  - issue: >
+      Hohe Ressourcen-Investition — Budget-Frage.
+    countermeasure: >
+      Vorab ROI klären. Future Search ist teuer aber
+      wirksam. Bei kleinem Budget: kleinere Formate
+      (Zukunftswerkstatt, Appreciative Inquiry).
+    severity: common
+  - issue: >
+      Moderation überfordert — Großgruppen-Erfahrung
+      fehlt.
+    countermeasure: >
+      Co-Moderation oder externe Profi-Moderation.
+      Future-Search-Training vorab. Nicht "das machen
+      wir selbst mal eben" — Erfahrung zählt.
+    severity: common

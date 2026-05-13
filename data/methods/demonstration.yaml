@@ -1,0 +1,259 @@
+slug: demonstration
+canonical_name: Demonstration (Vormachen)
+synonyms:
+  - synonym: Demonstration
+    language: en
+  - synonym: Vormachen
+    language: de
+short_description: >
+  Trainer:in oder Expert:in führt einen Handlungsablauf, eine Technik oder ein
+  Verfahren explizit vor. Teilnehmende beobachten, hören Kommentare, stellen
+  Fragen. Brücke zwischen abstraktem Wissen und praktischer Anwendung.
+originator: null
+origin_context: >
+  Grundform des Lehrens (vgl. Aebli „Grundformen des Lehrens", 1983).
+  Besonders wichtig im beruflichen und handwerklichen Training — AEVO-Prüfung
+  nutzt die Vier-Stufen-Methode.
+phases:
+  - code: input
+    is_primary: true
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Sehr gut per Screenshare oder Dokumentenkamera; Perspektive beachten.
+  - code: remote_async
+    suitability: excellent
+    note: Als Tutorial-Video besonders effektiv (pausierbar, wiederholbar).
+  - code: hybrid
+    suitability: good
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [didactic, visualization]
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 45
+tags: [vormachen, praxis, aevo, vier-stufen]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Grundformen des Lehrens"
+    author: Hans Aebli
+    year: 1983
+    relation: reference
+    note: >
+      Klassisches didaktisches Standardwerk — Demonstration als
+      eine der Grundformen.
+  - kind: book
+    title: "AEVO-Handbuch: Ausbildung der Ausbilder"
+    author: Detlef Rothe
+    year: 2021
+    relation: practice_guide
+    note: >
+      Vier-Stufen-Methode (Vorbereiten, Vormachen, Nachmachen,
+      Üben) als Standard der beruflichen Ausbildung.
+  - kind: article
+    title: "Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics"
+    author: Collins, A., Brown, J. S., Newman, S. E.
+    year: 1989
+    relation: reference
+    note: >
+      Modelling als Kern der kognitiven Apprenticeship —
+      Demonstration + begleitendes Kommentieren.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorbereitung & Lernziel klarmachen
+    duration_minutes: 3
+    trainer_action: >
+      Aufbau/Material bereitstellen, Sichtbarkeit prüfen (alle
+      können sehen?). Lernziel nennen: "Nach der Demo wissen
+      Sie, wie man X richtig/effizient/sicher macht." Zuschauer-
+      Position vereinbaren (Stuhlkreis, Halbkreis, nahe bei
+      Dokumentenkamera).
+    participant_action: >
+      Position einnehmen, Lernziel verstehen, eigene
+      Vorerfahrung aktivieren ("Was weiß ich schon?").
+    note: >
+      Sichtbarkeit wird oft unterschätzt. Bei feinen Hand-
+      bewegungen: Dokumentenkamera oder Projektion. Bei
+      größeren Bewegungen: Halbkreis, Trainer:in dreht sich
+      im Vorgang.
+  - order: 2
+    label: Demo mit lauten Gedanken (Think-Aloud)
+    duration_minutes: 7
+    trainer_action: >
+      Langsam vormachen — etwa 1.5× langsamer als in der Praxis.
+      WÄHREND der Demo laut denken: "Jetzt greife ich hier an,
+      weil... — ich prüfe zuerst, ob... — das ist wichtig, weil...".
+      Entscheidungen und Warum offenlegen, nicht nur Handlungen.
+    participant_action: >
+      Beobachten, Kommentare hören, mental mitgehen. Bei Bedarf
+      Stichworte notieren. Noch keine Fragen.
+    note: >
+      Think-Aloud ist die Kernkunst. Wer nur stumm vormacht,
+      vermittelt nicht das Entscheidungs-Wissen — das ist
+      aber das eigentlich Wertvolle. Expert:innen tendieren
+      zur "Black Box"; bewusst öffnen.
+  - order: 3
+    label: Zweiter Durchgang schnell, Fokus auf Besonderheiten
+    duration_minutes: 2
+    trainer_action: >
+      Demo in Normaltempo wiederholen. Fokus nur auf die 2-3
+      kritischen Punkte ("Hier die Hand anders halten, hier
+      nicht drücken, hier prüfen"). Zeigt das Endergebnis im
+      realistischen Rhythmus.
+    participant_action: >
+      Auf genau die kritischen Punkte achten, die im ersten
+      Durchgang erklärt wurden. Fluss erleben.
+    note: >
+      Der zweite Durchgang zeigt, wie es real aussieht. Nur
+      ein erster Durchgang wäre zu zerlegt, nur ein zweiter
+      zu dicht. Die Kombi ist didaktisch wirksam.
+  - order: 4
+    label: Fragen & Klärung
+    duration_minutes: 3
+    trainer_action: >
+      "Welche Punkte sind noch unklar? Wo würden Sie
+      ansetzen?" Fragen beantworten, ggf. einzelne Schritte
+      nochmal zeigen. Nicht defensiv, auch "das hätte ich
+      besser erklären können" ist ok.
+    participant_action: >
+      Unklarheiten benennen, Rückfragen stellen, Feinheiten
+      erfragen, eigene Hypothesen äußern ("wäre das nicht
+      besser so?").
+    note: >
+      Fragen-Phase ist Qualitäts-Check. Wer keine Fragen hat,
+      hat meist nicht wirklich verstanden. Moderation fragt
+      nach: "Wo würden Sie ansetzen? Machen Sie einen
+      mentalen Gang durch."
+  - order: 5
+    label: Erste Nachmach-Probe (eine Person)
+    duration_minutes: 0
+    trainer_action: >
+      Optional: eine TN bittet, es auch zu versuchen.
+      Moderation begleitet, gibt sofortiges Feedback. Andere
+      beobachten. Als Übergang zur eigentlichen Übungsphase.
+    participant_action: >
+      Freiwillig oder zugewiesen: es versuchen, Feedback
+      annehmen. Zuschauer:innen beobachten.
+    note: >
+      Übergang zur Übungsphase, nicht Teil der Demo selbst.
+      Die Übungsphase ist separat (siehe rollenspiel,
+      kurzsimulation etc.). Demo allein bewirkt wenig
+      Lerntransfer.
+
+variations:
+  - name: Klassische Demo (1 Durchgang mit Think-Aloud)
+    description: >
+      Standard: Vorbereitung, Vormachen mit Kommentaren,
+      Fragen. Einfachste Variante.
+    when_to_use: >
+      Alle technisch-handwerklichen Skills, Software-
+      Anwendung, praktische Verfahren. Als Input vor
+      Übungsphase.
+  - name: Vier-Stufen-Methode (AEVO-Standard)
+    description: >
+      Vorbereiten → Vormachen und Erklären → Nachmachen
+      durch TN → Üben. Formaler Rahmen aus der beruflichen
+      Ausbildung.
+    when_to_use: >
+      IHK-Ausbildung, Handwerks-Lehre. AEVO-Prüfung verlangt
+      diesen Rahmen.
+  - name: Mehrperspektivische Demo
+    description: >
+      Gleiche Aufgabe von 2-3 Expert:innen vorgemacht, oft
+      mit leicht unterschiedlichen Ansätzen. Sensibilisiert
+      für Variationen.
+    when_to_use: >
+      Fortgeschrittene Lerner:innen, kreative/interpretationsoffene
+      Tätigkeiten (Moderation, Führung, Konfliktgespräche).
+  - name: Video-Demo (Tutorial)
+    description: >
+      Vorab aufgezeichnete Demo, TN schauen vor dem Training.
+      Im Training dann direkt Übung + Klärung. Flipped-
+      Classroom-Variante.
+    when_to_use: >
+      Software-Training, wiederholbare Inhalte, verteilte
+      Gruppen. Asynchron möglich.
+    setting_codes: [remote_async]
+  - name: Schritt-für-Schritt-Demo (mit Pausen)
+    description: >
+      Demo bewusst in kleine Schritte zerlegen, nach jedem
+      Schritt Zwischenfrage und Kurz-Übung der TN.
+      Sehr strukturiert.
+    when_to_use: >
+      Neue/ungeübte Gruppen, komplexe Abläufe. Didaktisch
+      engmaschig, mehr Zeit nötig.
+  - name: Negativ-Demo (Fehler zeigen)
+    description: >
+      Zuerst falsch vormachen, dann richtig. TN erkennen
+      Fehler zuerst. Starker Kontrast-Effekt.
+    when_to_use: >
+      Fortgeschrittene Lerner:innen. Wenn häufige Fehler
+      typisch sind und bewusst gemacht werden sollen.
+      Vorsicht bei Anfänger:innen — Fehlerbild merkt sich.
+
+pitfalls:
+  - issue: >
+      Demo wird stumm durchgeführt — keine Think-Aloud-
+      Kommentierung.
+    countermeasure: >
+      Bewusst sprechen beim Vormachen. Wenn schwer fällt:
+      vorher üben, Script schreiben. "Was entscheide ich
+      gerade? Warum?" als Leitfragen.
+    severity: common
+  - issue: >
+      Zu schnell vorgemacht — TN kommen nicht mit.
+    countermeasure: >
+      Bewusst 1.5× langsamer als Normaltempo. Zwischenpausen
+      für Fragen. Bei komplexen Bewegungen: in kleine
+      Abschnitte zerlegen.
+    severity: common
+  - issue: >
+      Sichtbarkeit nicht gegeben — TN sehen Details nicht.
+    countermeasure: >
+      Raum-Setup prüfen vor der Session. Dokumentenkamera
+      für Feinarbeit, Halbkreis mit Trainer:in in der Mitte.
+      Für Hände-Arbeit: Video-Aufzeichnung, falls live
+      schwierig.
+    severity: common
+  - issue: >
+      TN sitzen passiv, keine Fragen.
+    countermeasure: >
+      Aktive Aufforderung: "Was würden Sie hier anders machen?
+      Wo hätten Sie Zweifel?". Nicht "Gibt es Fragen?" —
+      sondern spezifische Einladungen.
+    severity: common
+  - issue: >
+      Trainer:in zeigt Meisterschaft, die unerreichbar wirkt
+      — entmutigend.
+    countermeasure: >
+      Eigene Lernreise ansprechen: "Ich habe auch viel geübt.
+      Hier typische Anfängerfehler, die ich gemacht habe."
+      Demystifizierung der Expertise.
+    severity: common
+  - issue: >
+      Keine Übungsphase danach — Demo allein bleibt ohne
+      Transfer.
+    countermeasure: >
+      Demo als Teil eines Lernzyklus planen: Demo → Nachmachen
+      → Üben → Feedback. Wer nur demonstriert, hat Vorlesung,
+      nicht Training.
+    severity: common
+  - issue: >
+      Video-Demo: TN schauen nebenbei, ohne aktive Verarbeitung.
+    countermeasure: >
+      Beobachtungsaufträge vorab geben: "Achten Sie auf drei
+      Punkte: X, Y, Z." Nach dem Video: Quiz oder Partner-
+      Gespräch. Aktive statt passive Rezeption erzwingen.
+    severity: common
+    setting_codes: [remote_async]

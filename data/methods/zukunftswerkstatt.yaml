@@ -1,0 +1,261 @@
+slug: zukunftswerkstatt
+canonical_name: Zukunftswerkstatt
+synonyms:
+  - synonym: Future Workshop
+    language: en
+short_description: >
+  Dreiphasiger Großgruppenprozess: Kritikphase (was läuft schlecht?),
+  Fantasiephase (Utopie ohne Sachzwänge), Verwirklichungsphase (konkrete
+  Schritte). Partizipative Problemlösung mit Fokus auf kollektive Vision.
+originator: Robert Jungk, Norbert Müllert
+origin_context: >
+  Entwickelt in den 1970ern von dem Zukunftsforscher Robert Jungk; 1989
+  systematisch publiziert („Zukunftswerkstätten"). Basis für viele
+  Großgruppenmethoden.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Braucht klare Moderation und Whiteboard — weniger Dynamik als präsent.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, school, youth, adult_education]
+method_types: [cooperative, creative]
+duration_min_minutes: 240
+duration_typical_minutes: 480
+duration_max_minutes: 1440
+materials:
+  - Flipcharts, Moderationskarten, Pinnwände
+tags: [zukunft, grossgruppe, partizipativ, jungk]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Zukunftswerkstätten: Mit Phantasie gegen Routine und Resignation"
+    author: Robert Jungk, Norbert R. Müllert
+    year: 1989
+    relation: originator
+    note: >
+      Ursprungswerk, systematische Darstellung des Drei-Phasen-
+      Modells durch den Zukunftsforscher Jungk.
+  - kind: book
+    title: "Zukunftswerkstatt: Ein Handbuch"
+    author: Beate Kuhnt, Norbert R. Müllert
+    year: 2004
+    relation: practice_guide
+    note: Aktualisiertes Handbuch mit Fallbeispielen.
+  - kind: book
+    title: "Großgruppenmethoden: Lebendig lernen — Veränderung gestalten"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: reference
+    note: Einordnung in die Landschaft der Großgruppen-Methoden.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorbereitung & Themeneröffnung
+    duration_minutes: 30
+    trainer_action: >
+      Einladung, Thema und Ziel klären. "Heute beschäftigen wir
+      uns mit X. Die Zukunftswerkstatt hat drei Phasen:
+      Kritik, Fantasie, Verwirklichung." Regeln für alle drei
+      Phasen: Zuhören ohne Werten, jede Stimme zählt, Visualisieren.
+      Raum-Setup prüfen (Flipcharts, Moderationskarten, Platz
+      für Bewegung).
+    participant_action: >
+      Ankommen, Thema verstehen, Rolle klären, erste
+      Assoziationen aktivieren.
+    note: >
+      Zukunftswerkstatt braucht klare Erwartungshaltung. Bei
+      Skepsis ("Ist das nicht alles Kuschelkram?") sanft
+      führen: "Wir probieren die drei Phasen; am Ende haben
+      Sie konkrete Schritte."
+  - order: 2
+    label: Kritikphase (Was läuft schlecht?)
+    duration_minutes: 120
+    trainer_action: >
+      Zentrale Frage: "Was behindert uns, was frustriert,
+      was stört?" Zuerst still auf Karten (10 min), dann
+      Clustern an Pinnwand, dann Diskussion der wichtigsten
+      Themen. Regel: keine Lösungen, nur Probleme
+      formulieren. Ggf. Punkte-Voting für Priorisierung.
+    participant_action: >
+      Kritik offen äußern, Mut zur ungeschönten Aussage,
+      Kritik der anderen annehmen, ohne zu rechtfertigen.
+    note: >
+      Kritikphase ist oft intensiv — Frust kommt raus.
+      Moderation muss die Gefühle aushalten, keine Beschönigung.
+      "Das ist zu negativ" ist Gift für die Methode.
+  - order: 3
+    label: Fantasiephase (Utopie ohne Grenzen)
+    duration_minutes: 120
+    trainer_action: >
+      "Wenn alles möglich wäre — keine Geld-, Zeit-, Macht-
+      Grenzen — wie sähe dann unsere Zukunft aus?" Gleiche
+      Struktur: still, sammeln, clustern. Wichtig: keine
+      Kritik, kein "aber das geht doch nicht". Moderation
+      schützt die Utopie-Phase.
+    participant_action: >
+      Fantasievoll denken, wilde Ideen zulassen, auf die
+      Ideen anderer aufbauen, nicht relativieren.
+    note: >
+      Oft schwerste Phase für Erwachsene mit Corporate-
+      Prägung. Kreative Warm-ups helfen (z.B. "Wenn wir ein
+      Tier wären, welches?"). Nicht in Realismus rutschen.
+  - order: 4
+    label: Verwirklichungsphase (Konkret werden)
+    duration_minutes: 150
+    trainer_action: >
+      Utopische Ideen werden geerdet: "Was davon können wir
+      umsetzen? Was sind erste Schritte?" Matrix
+      Aufwand/Wirkung oder ähnliches Tool. Projekte
+      herausarbeiten, Verantwortliche bestimmen, erste
+      Termine setzen. Committment im Plenum.
+    participant_action: >
+      Realistische Schritte definieren, Verantwortung
+      übernehmen, konkrete Projekte planen.
+    note: >
+      Herz der Transferwirkung. Ohne diese Phase bleibt die
+      Zukunftswerkstatt "nette Übung". Konkrete Projekte mit
+      Owner + Termin sind Pflicht.
+  - order: 5
+    label: Nachphase & Dokumentation
+    duration_minutes: 60
+    trainer_action: >
+      Ergebnisse visualisieren: Plakate, Fotoprotokoll,
+      ggf. Abschluss-Ritual. Follow-up-Termin vereinbaren
+      (2-4 Wochen später). Danke und Wertschätzung für
+      Engagement.
+    participant_action: >
+      Dokumentation mitverantworten, eigene Rolle für
+      Folgephase klären, Abschluss-Ritual mitgestalten.
+    note: >
+      Ohne Follow-up versandet die Energie. Jungk hat stark
+      betont: "Das ist erst der Anfang." Organisation des
+      Nachprozesses ist Teil der Methodik.
+
+variations:
+  - name: Klassische Zukunftswerkstatt (1-2 Tage)
+    description: >
+      Volle Methode: Vorphase, drei Hauptphasen, Nachphase.
+      Über 1-2 Tage. Standardvariante nach Jungk/Müllert.
+    when_to_use: >
+      Organisationsentwicklung, Community-Prozesse, Schul-
+      entwicklung. Wenn genügend Zeit + Mandat für echten
+      Wandel.
+  - name: Mini-Zukunftswerkstatt (4-6 Stunden)
+    description: >
+      Stark gekürzt, je Phase 60-90 min. Weniger Tiefe, aber
+      Methodik erfahrbar.
+    when_to_use: >
+      Trainings-Kontext, wenn Methodik eingeübt werden soll,
+      oder in kleineren Teams (8-15) mit knappem Zeitbudget.
+  - name: Dreigeteilte Zukunftswerkstatt (3× 1 Tag)
+    description: >
+      Drei separate Tage, jeweils eine Hauptphase. Zwischen
+      den Tagen Verdichtung, Vorbereitung. Mehr Tiefe pro
+      Phase.
+    when_to_use: >
+      Große Organisationen, komplexe Transformationsprozesse.
+      Wenn Methode als Format für mehrere Monate dient.
+  - name: Schule-Zukunftswerkstatt
+    description: >
+      Spezifische Anpassung: bildhaftere Sprache, mehr
+      Bewegung, altersangemessene Fragen. Kritik-Phase
+      moderater gestalten.
+    when_to_use: >
+      Schüler:innen-Beteiligung, Jugend-Partizipation,
+      Schulentwicklung mit Schüler:innen-Gremien.
+  - name: Remote-Zukunftswerkstatt
+    description: >
+      Digitale Version über 2-3 Halbtage, Miro-Boards pro
+      Phase, Video-Konferenz. Breakouts für Kleingruppen-
+      Arbeit.
+    when_to_use: >
+      Verteilte Teams, pandemische Kontexte, wenn physische
+      Versammlung nicht möglich. Erfordert sehr erfahrene
+      Moderation.
+    setting_codes: [remote_sync]
+  - name: Thematisch fokussierte Zukunftswerkstatt
+    description: >
+      Fokus auf ein Thema (z.B. "Unsere Kultur 2030",
+      "Die ideale Schulversammlung"). Engere Frage,
+      schärfere Ergebnisse.
+    when_to_use: >
+      Wenn Kontext und Rahmung stark gesetzt sind.
+      Strategieentwicklung, Kulturwandel in Teams.
+
+pitfalls:
+  - issue: >
+      Kritikphase kippt ins Destruktive, Teilnehmende werden
+      demotiviert.
+    countermeasure: >
+      Zeitlich begrenzen (max. 2h), klares Format
+      (Problem- nicht Schuldfokus). Wichtig: Fantasiephase
+      direkt anschließen, nicht als Pause dazwischen — die
+      Energie braucht Kanalisierung.
+    severity: common
+  - issue: >
+      Fantasiephase wird nicht utopisch — Gruppe bleibt im
+      Machbaren.
+    countermeasure: >
+      Warm-ups mit bildlichen Analogien ("Wenn wir ein
+      Märchen wären..."). Verbote aussprechen: "In dieser
+      Phase ist 'geht nicht' verboten." Beispiele aus
+      anderen Zukunftswerkstätten zeigen.
+    severity: common
+  - issue: >
+      Verwirklichungsphase wird überladen mit 20 Projekten,
+      keins wird umgesetzt.
+    countermeasure: >
+      Fokus erzwingen: "Welche drei Projekte haben den
+      größten Hebel?". Owner-Zwang: ohne Namen kein
+      Projekt. Folgetermin zur Überprüfung.
+    severity: common
+  - issue: >
+      Ohne Mandat für Umsetzung — Ergebnisse versanden,
+      TN frustriert.
+    countermeasure: >
+      Vorab klären: Wer hat Entscheidungsmacht? Wenn
+      Ergebnisse nur "beraten" werden, offen kommunizieren.
+      Methode nur anwenden mit realistischer Umsetzungs-
+      perspektive.
+    severity: common
+  - issue: >
+      Moderation überfordert — Großgruppen-Dynamik
+      unterschätzt.
+    countermeasure: >
+      Co-Moderation ab 20 TN Pflicht. Vorerfahrung mit
+      Großgruppen nötig. Bei Unsicherheit: Mentoring durch
+      erfahrene Zukunftswerkstatt-Leitung.
+    severity: common
+  - issue: >
+      Hierarchien werden nicht neutralisiert — Chef-Stimme
+      dominiert.
+    countermeasure: >
+      Anonymitäts-Elemente (Karten ohne Namen). Klare Regel:
+      In dieser Werkstatt gelten alle Stimmen gleich.
+      Bei sensiblen Kontexten: externe Moderation.
+    severity: common
+  - issue: >
+      Zeitpläne werden nicht eingehalten — eine Phase zieht
+      sich, die andere wird gekürzt.
+    countermeasure: >
+      Strenge Zeitdisziplin. Notfalls Phasen gleichmäßig
+      kürzen, nicht einzelne weglassen. Struktur schützt
+      die Methode.
+    severity: common

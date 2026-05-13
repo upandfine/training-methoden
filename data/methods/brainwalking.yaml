@@ -1,0 +1,227 @@
+slug: brainwalking
+canonical_name: Brainwalking
+synonyms:
+  - synonym: Walking Brainstorm
+    language: en
+short_description: >
+  Mehrere Flipcharts mit Fragen/Themen hängen im Raum. Teilnehmende wandern,
+  ergänzen Ideen auf den Charts, reagieren auf bereits vorhandene Einträge.
+  Verbindet Bewegung mit Ideensammlung.
+originator: null
+origin_context: Weiterentwicklung des Brainwriting — Körper in Bewegung.
+phases:
+  - code: activation
+    is_primary: true
+  - code: group_work
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Miro mit mehreren „Stationen" (Bereichen), TN klicken sich durch — weniger körperlich aber funktional.
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large]
+target_audiences: [corporate, school, ihk, adult_education]
+method_types: [activating, creative, cooperative]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 45
+materials:
+  - 3–6 Flipcharts an verschiedenen Stellen, Stifte
+tags: [bewegung, ideensammlung, stationen]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Kreativitätstechniken — ein Handbuch"
+    author: Horst Geschka
+    year: 2019
+    relation: practice_guide
+    note: Brainwalking als Weiterentwicklung des Brainwriting mit Bewegung.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: article
+    title: "Give your ideas some legs: The positive effect of walking on creative thinking"
+    author: Oppezzo, M., Schwartz, D. L.
+    year: 2014
+    relation: reference
+    note: Empirische Evidenz — Gehen steigert divergent-kreatives Denken.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Stationen vorbereiten & Fragen setzen
+    duration_minutes: 3
+    trainer_action: >
+      3-6 Flipcharts im Raum verteilen — genug Abstand, damit
+      kleine Gruppen (2-4) gleichzeitig an einer Station
+      arbeiten. Je Flipchart eine klare Frage oben: "Wie
+      könnten wir X erreichen?", "Was hindert uns an Y?",
+      "Welche Ideen zu Z?". Markerstifte je Station.
+    participant_action: >
+      Räumlich orientieren, Stationen anschauen,
+      Marker-Verfügbarkeit prüfen.
+    note: >
+      Fragenqualität entscheidet. 3-6 konkrete, offene
+      Fragen. Bei mehr: Überforderung. Räumliche Verteilung
+      lebhaft gestalten (nicht alle nebeneinander).
+  - order: 2
+    label: Einführung & Regeln
+    duration_minutes: 2
+    trainer_action: >
+      "Wandert durch den Raum, hält an jeder Station 2-3
+      min, schreibt Ideen, reagiert auf Beiträge anderer
+      (Pfeile, Kommentare). Kein Sprechen an der Station —
+      nur Schreiben." Zeitrahmen ansagen (20 min Wandern +
+      Nachbereitung).
+    participant_action: >
+      Regeln mitbekommen, mental aufs Wandern einstellen.
+    note: >
+      Wandert-Regel wichtig: in Bewegung bleiben. Auch
+      Stille-Regel — Schreibgespräch-verwandt. Tempo
+      durch TN selbst bestimmt.
+  - order: 3
+    label: Brainwalking-Phase
+    duration_minutes: 20
+    trainer_action: >
+      TN wandern frei, schreiben an Stationen, reagieren auf
+      Vorherige. Moderation geht mit, beobachtet, gibt
+      Impulse bei Stocken. Hintergrund-Musik kann helfen.
+      Nach ca. 15 min: "Noch 5 min."
+    participant_action: >
+      Aktiv wandern. An jeder Station schreiben — eigene
+      Idee + auf andere reagieren. Nicht zu lang an einer
+      Station.
+    note: >
+      Wichtig: alle an allen Stationen vorbei. Nicht wer
+      zweimal an Lieblingsstation steht, dreimal woanders
+      ignoriert. Moderation wirkt auf Durchwanderung hin.
+  - order: 4
+    label: Gemeinsames Auswerten
+    duration_minutes: 5
+    trainer_action: >
+      Alle zurück zum Plenum. Station für Station
+      zusammenfassen: "An Station 1 sehe ich vor allem
+      Cluster um X." Oder Kleingruppen (je Station 1 Gruppe)
+      übernehmen je eine Station für Auswertung.
+    participant_action: >
+      Bild wahrnehmen, Muster erkennen, eigene Beiträge
+      im Kontext sehen.
+    note: >
+      Auswertung macht Brainwalking zu produktiver
+      Methode. Ohne sie: nur Sammeln ohne Verdichtung.
+      Stationen-weise Cluster benennen.
+
+variations:
+  - name: Klassisch (3-6 Stationen, 20 min)
+    description: >
+      Standard-Variante: Flipcharts mit Fragen, Wandern,
+      Reagieren, Auswerten.
+    when_to_use: >
+      Mittelgroße Gruppen (12-30 TN), wenn Ideen gesammelt
+      UND Bewegung gewünscht.
+  - name: Rotierende Moderation (Station-Guides)
+    description: >
+      Je Station eine:r TN bleibt als Guide, erklärt
+      Neuankommenden die bisherigen Beiträge. Rotation
+      nach Halbzeit.
+    when_to_use: >
+      Wenn Beitragslage kompliziert wird. Macht Station
+      "sprechbar", bricht Schreibgespräch-Prinzip.
+  - name: Themen-Cluster-Walking
+    description: >
+      Statt Fragen: fertige Themen-Cluster. TN setzen
+      Punkte / kommentieren / bewerten. Priorisierungs-
+      Variante.
+    when_to_use: >
+      Bestehendes Themen-Set priorisieren. Nach Vorarbeit
+      in anderen Sessions.
+  - name: Rotierende Rollen pro Station
+    description: >
+      Jede Station hat andere Rolle: "Sammeln", "Kritisieren",
+      "Erweitern", "Umsetzen". TN wechseln Rolle mit Station.
+      De-Bono-verwandt.
+    when_to_use: >
+      Komplexe Entscheidungen, wenn Multi-Perspektive
+      wichtig. Verwandt mit Six-Thinking-Hats.
+  - name: Digitales Brainwalking (Miro)
+    description: >
+      Online: mehrere Frames auf Whiteboard, TN klicken
+      durch. Kein echtes Gehen, aber Stationen-Prinzip
+      erhalten.
+    when_to_use: >
+      Online-Trainings. Funktioniert, weniger aktivierend
+      als Präsenz.
+    setting_codes: [remote_sync]
+  - name: Outdoor-Brainwalking
+    description: >
+      Stationen im Park oder auf Gelände verteilt.
+      Flipcharts auf Staffelei oder wasserfeste Plakate.
+      Mehr Bewegung, andere Umgebung.
+    when_to_use: >
+      Sommertrainings, Retreats. Wenn Umgebung zur
+      Kreativität beitragen soll.
+
+pitfalls:
+  - issue: >
+      Zu wenige oder zu viele Stationen.
+    countermeasure: >
+      3-6 Stationen ideal. Bei 15 TN: 3-4 Stationen
+      reichen, je Station 4-5 TN parallel. Mehr erzeugt
+      Unübersichtlichkeit.
+    severity: common
+  - issue: >
+      TN bleiben zu lang an einer Station — andere werden
+      nicht besucht.
+    countermeasure: >
+      Moderation gibt Signale ("Station wechseln alle 3
+      min"). Bei Bedarf Timer. Beobachten und sanft
+      mitmoderieren.
+    severity: common
+  - issue: >
+      Stille-Regel wird durchbrochen, Plauder-Gruppen
+      entstehen.
+    countermeasure: >
+      Regel vorab klar. Bei Verstoß sanft: "Nur schreiben,
+      später besprechen." Musik als Hintergrund dämpft
+      Gesprächs-Anreiz.
+    severity: common
+  - issue: >
+      Ideen bleiben flach — nur Aufzählungen statt
+      Vertiefung.
+    countermeasure: >
+      Leitfragen offen formulieren. Ermutigen zum
+      Reagieren auf andere ("Pfeile, Kommentare, Fragen").
+      Nicht nur Stichpunkt-Sammlung.
+    severity: common
+  - issue: >
+      Stationen werden unübersichtlich — zu volle Charts.
+    countermeasure: >
+      Bei Überladung neue Flipchart-Seite starten. Große
+      Charts (A0) vorab bereitstellen. Klare Strukturierung
+      (Cluster visuell trennen).
+    severity: common
+  - issue: >
+      Auswertung wird zum Plenum-Marathon — 30 min Cluster
+      vorstellen.
+    countermeasure: >
+      Kleingruppen-Variante: je Station 1 Gruppe
+      präsentiert. 2-3 min pro Station reichen. Fotos
+      als Nachdoku.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN — Wandern nicht
+      möglich.
+    countermeasure: >
+      Sitz-Plätze nahe der Stationen anbieten.
+      Barrierefreies Raum-Setup vorher prüfen. Ggf.
+      andere Methode.
+    severity: rare

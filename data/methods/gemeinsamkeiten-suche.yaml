@@ -1,0 +1,177 @@
+slug: gemeinsamkeiten-suche
+canonical_name: Gemeinsamkeiten-Suche
+synonyms:
+  - synonym: Common Ground
+    language: en
+  - synonym: Drei-Gemeinsamkeiten
+    language: de
+short_description: >
+  Kleingruppen suchen in 5–10 Minuten 5 ungewöhnliche Gemeinsamkeiten aller
+  Mitglieder — über offensichtliche Merkmale hinaus („alle waren schon in
+  Italien" zählt nicht). Erzeugt schnell Verbindung.
+originator: null
+origin_context: >
+  Klassischer Icebreaker aus Teamentwicklung und Moderationstraining.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: In Breakouts; Ergebnisse auf Whiteboard als „Found Commons".
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [icebreaker, cooperative]
+duration_min_minutes: 10
+duration_typical_minutes: 15
+duration_max_minutes: 20
+tags: [gemeinsamkeiten, kleingruppe, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kleingruppen & Aufgabe
+    duration_minutes: 2
+    trainer_action: >
+      Kleingruppen à 4-5 Personen. Aufgabe: "Finden
+      Sie 5 ungewöhnliche Gemeinsamkeiten — über
+      Triviales hinaus. Nicht 'alle haben Augen'."
+    participant_action: >
+      Gruppe finden, Aufgabe verstehen, ankommen.
+    note: >
+      "Ungewöhnlich" ist Kern. Sonst werden trivial
+      Gemeinsamkeiten gesammelt.
+  - order: 2
+    label: Suchphase
+    duration_minutes: 8
+    trainer_action: >
+      8 min Zeit zum Finden. Moderation wandert,
+      ermutigt bei Stocken: "Hobbys? Reisen? Lieblings-
+      Filme? Erfahrungen?"
+    participant_action: >
+      Fragen stellen, Antworten sammeln, Gemeinsam-
+      keiten finden, dokumentieren.
+    note: >
+      Aktive Befragung. "Wer war schon mal in...?"
+      "Wer mag...?" Tempo halten.
+  - order: 3
+    label: Plenum-Sharing
+    duration_minutes: 4
+    trainer_action: >
+      Jede Gruppe nennt 1-2 ungewöhnlichste
+      Gemeinsamkeiten. Plenum lacht, staunt.
+    participant_action: >
+      Gemeinsamkeiten teilen, andere hören mit Spaß.
+    note: >
+      Lustige / überraschende Findings sind Spaß-
+      Element. Nicht alle 5 vortragen — Highlights.
+  - order: 4
+    label: Übergang
+    duration_minutes: 1
+    trainer_action: >
+      "Schön, jetzt kennen wir uns ein bisschen
+      besser." Übergang zum Programm.
+    participant_action: >
+      Zur Sitzordnung, Verbindung mitnehmen.
+    note: >
+      Gemeinsamkeiten wirken nach. Methode kann auch
+      später nochmal zitiert werden.
+
+variations:
+  - name: Klassisch (5 Gemeinsamkeiten)
+    description: >
+      Standardvariante: 4-5er Gruppen, 5 Gemeinsamkeiten,
+      Plenum-Highlights.
+    when_to_use: >
+      Seminar-Einstieg, Team-Building. 8-30 TN.
+  - name: Bingo-Hybrid
+    description: >
+      Karte mit 16 Feldern, in jedes Feld eine
+      Gemeinsamkeit eintragen. Mehr Struktur.
+    when_to_use: >
+      Wenn strukturierter und länger (15+ min).
+  - name: Themen-fokussiert
+    description: >
+      Fokus auf bestimmte Kategorie ("ungewöhnliche
+      Berufs-Erfahrungen"). Themenbezogen.
+    when_to_use: >
+      Themenbezogene Workshops.
+  - name: Remote (Breakouts)
+    description: >
+      Online: Breakouts à 4-5, Whiteboard pro Gruppe
+      mit Findings.
+    when_to_use: >
+      Verteilte Teams, Online-Trainings.
+    setting_codes: [remote_sync]
+  - name: Mit Punktevergabe
+    description: >
+      "Je ungewöhnlicher, desto mehr Punkte."
+      Wettbewerbs-Element.
+    when_to_use: >
+      Wenn Spaß-Faktor steigern. Vorsicht: nicht
+      zu kompetitiv.
+
+pitfalls:
+  - issue: >
+      Gemeinsamkeiten zu trivial — keine Verbindung.
+    countermeasure: >
+      "Ungewöhnlich" wiederholt betonen. Bei trivialen
+      Findings: "Was findet ihr ungewöhnlicher?"
+    severity: common
+  - issue: >
+      Bei homogener Gruppe (gleicher Beruf, gleiche
+      Stadt): viele triviale Findings.
+    countermeasure: >
+      Kategorie-Vorgaben ("eine ungewöhnliche
+      Erfahrung", "ein seltsames Hobby"). Mehr
+      Spezifität.
+    severity: common
+  - issue: >
+      In sehr großen Gruppen (>40): Plenum-Sharing
+      zieht sich.
+    countermeasure: >
+      Pro Gruppe nur 1 Highlight. Oder Galerie-
+      Variante mit Aushang.
+    severity: common
+  - issue: >
+      Stille TN beteiligen sich nicht — Dominante
+      reden.
+    countermeasure: >
+      Regel: "Jede:r bringt eine Frage." Aktivierung
+      durch Moderation.
+    severity: common
+  - issue: >
+      Aufgabe wird zur Selbstdarstellungs-Show.
+    countermeasure: >
+      Fokus auf Gemeinsamkeit, nicht auf Einzigartig-
+      keit. "Wir suchen Verbindung."
+    severity: common

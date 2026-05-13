@@ -1,0 +1,213 @@
+slug: partnerinterview
+canonical_name: Partnerinterview
+synonyms:
+  - synonym: Paar-Interview
+    language: de
+  - synonym: Partner Interview
+    language: en
+short_description: >
+  Zwei Teilnehmende interviewen sich gegenseitig entlang vorgegebener Leitfragen.
+  Anschließend stellt jede:r die Partner:in im Plenum vor — Perspektivwechsel
+  plus bessere Erinnerung an Namen.
+originator: null
+origin_context: Klassiker der Erwachsenenbildung.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: expectations
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Breakout-Rooms zu zweit, danach Präsentation im Plenum.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [icebreaker, cooperative, diagnostic]
+duration_min_minutes: 20
+duration_typical_minutes: 35
+duration_max_minutes: 45
+tags: [kennenlernen, perspektivwechsel]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: practice_guide
+    note: Standardwerk der Erwachsenenbildungs-Didaktik mit Partnerinterview.
+  - kind: book
+    title: "Unterrichtsmethoden I — Theorieband"
+    author: Hilbert Meyer
+    year: 2002
+    relation: reference
+    note: Darstellung von Partnerarbeit als didaktisches Grundformat.
+  - kind: book
+    title: "Moderationsmethoden in der Erwachsenenbildung"
+    author: Josef W. Seifert
+    year: 2014
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Paarung & Leitfragen
+    duration_minutes: 3
+    trainer_action: >
+      Paare bilden (bewusst: fremde Personen, nicht Sitznachbarn).
+      Leitfragen ausgeben, z.B. 3-5 Fragen: Name, Beruf, Erwartung
+      ans Training, eine persönliche Frage („Was machen Sie gern
+      außerhalb der Arbeit?").
+    participant_action: >
+      Partner:in finden, Leitfragen lesen.
+    note: >
+      Fremde Paarung ist der Punkt. Wenn Leute nur mit Bekannten
+      zusammen kommen, geht Kennenlern-Effekt verloren. Los-Methode
+      (Kärtchen ziehen) hilft.
+  - order: 2
+    label: Interview A (Teil 1)
+    duration_minutes: 7
+    trainer_action: >
+      Person A interviewt Person B. Regeln: nur Fragen stellen,
+      aktiv zuhören, Notizen machen. Keine Bewertung, keine eigenen
+      Geschichten. Nachfragen erlaubt.
+    participant_action: >
+      A: Fragen stellen, hören, notieren. B: erzählen, ausführlich
+      antworten dürfen.
+    note: >
+      Typischer Fehler: A beginnt selbst zu erzählen („Oh, das kenne
+      ich, ich war auch mal…"). Strikt nur A fragt, B antwortet.
+  - order: 3
+    label: Rollenwechsel — Interview B
+    duration_minutes: 7
+    trainer_action: >
+      Signal zum Wechsel. Jetzt B interviewt A. Gleiche Regeln.
+      Zeit im Blick behalten, damit beide gleich viel Zeit bekommen.
+    participant_action: >
+      Rollen tauschen, selbe Qualität einbringen.
+    note: >
+      Oft wird in Runde 1 zu ausführlich erzählt, Runde 2 wird
+      hektisch. Strikte Zeitkontrolle.
+  - order: 4
+    label: Vorbereitung auf Präsentation
+    duration_minutes: 3
+    trainer_action: >
+      Kurze Zeit zum Strukturieren: „Was möchten Sie über die
+      Partner:in im Plenum sagen? 1-2 Minuten reichen." Mit der
+      Partner:in kurz abstimmen, was OK zu teilen ist.
+    participant_action: >
+      Notizen sortieren, Highlights auswählen, bei Partner:in
+      Freigabe holen.
+    note: >
+      Freigabe-Schritt wichtig. Ohne ihn werden heikle Details
+      versehentlich geteilt — emotional belastend.
+  - order: 5
+    label: Vorstellung im Plenum
+    duration_minutes: 15
+    trainer_action: >
+      Reihum stellt jede:r die Partner:in vor (ca. 1-2 min).
+      Vorgestellte Person steht idealerweise auf oder winkt kurz.
+      Nachfragen von Gruppe erlaubt.
+    participant_action: >
+      Partner:in vorstellen (dritte Person-Form „Das ist X, sie…").
+      Vorgestellte Person hört zu, ergänzt nichts.
+    note: >
+      Gegenseitige Vorstellung (nicht Selbstvorstellung) ist der
+      pädagogische Kick — man fühlt sich gesehen durch die andere
+      Person.
+
+variations:
+  - name: Klassisches Partnerinterview
+    description: >
+      2 × 7 min Interview, dann Vorstellung im Plenum.
+      Standardformat für Seminar-Einstieg.
+    when_to_use: >
+      Gruppen bis 20 TN, wenn Zeit da ist (~30-40 min gesamt).
+      Vertrauensbildung erwünscht.
+  - name: Kurz-Interview (je 3 min)
+    description: >
+      Nur 3 min pro Seite, danach Blitz-Vorstellung im Plenum
+      (30 sek pro Person). Kompakt, weniger tief.
+    when_to_use: >
+      Knappe Zeit, größere Gruppen, wenn nur Namen/Fakten-
+      Kennenlernen reicht.
+  - name: Themenspezifisches Interview
+    description: >
+      Statt allgemeiner Leitfragen: fokussierte Fragen zum
+      Trainings-Thema („Was war Ihre bislang beste/schwierigste
+      Feedback-Erfahrung?").
+    when_to_use: >
+      Wenn Kennenlernen mit inhaltlicher Aktivierung kombiniert
+      werden soll.
+  - name: Speed-Interview (mehrere Partner)
+    description: >
+      Kurzphasen à 3 min mit wechselnden Partnern, Vorstellungs-
+      Phase entfällt oder pauschal.
+    when_to_use: >
+      Verbindung mit Speed-Dating-Format; breitere Vernetzung,
+      geringere Tiefe.
+  - name: Remote-Partnerinterview
+    description: >
+      Breakout-Rooms zu zweit, Zurückkehren, Vorstellung im
+      Plenum. Kamera an, Notizen im Chat oder Shared Doc.
+    when_to_use: >
+      Online-Trainings, funktioniert sehr gut aufgrund der
+      Intimität der 2er-Breakouts.
+    setting_codes: [remote_sync]
+  - name: Triade-Interview (3er-Variante)
+    description: >
+      3 Personen: A interviewt B, C beobachtet und ergänzt bei
+      Vorstellung. Rotieren der Rollen.
+    when_to_use: >
+      Wenn Beobachtungskompetenz trainiert werden soll
+      (Interviewer-Trainings, Coaching-Ausbildung).
+
+pitfalls:
+  - issue: >
+      TN erzählen statt zu fragen — Gespräch wird zu zwei parallelen
+      Monologen.
+    countermeasure: >
+      Regel hart einführen: „Während A interviewt, erzählt A nicht
+      über sich selbst." Moderation unterbricht freundlich bei
+      Regelverstoß.
+    severity: common
+  - issue: >
+      Eine Seite überzieht, andere kommt nicht zu Wort.
+    countermeasure: >
+      Timer sichtbar, akustisches Signal beim Wechsel. Ermahnung:
+      „Halbzeit, bitte wechseln."
+    severity: common
+  - issue: >
+      Vorstellung wird zur Selbstdarstellung der vorstellenden Person
+      („Und ich fand das super interessant, weil ich auch…").
+    countermeasure: >
+      Anweisung: „Sie stellen X vor, nicht sich selbst." Dritte-
+      Person-Form („Sie ist…", „Er macht…").
+    severity: common
+  - issue: >
+      Notizen werden zu detailliert, Präsentation wird zum Protokoll.
+    countermeasure: >
+      Tipp geben: „3 Highlights reichen — nicht alles erzählen."
+      Ggf. Struktur vorgeben: Name + Beruf + 1 überraschende Info.
+    severity: rare
+  - issue: >
+      Sensible Details werden versehentlich öffentlich erzählt.
+    countermeasure: >
+      Freigabe-Schritt fest einplanen (Schritt 4). Vor Plenum
+      explizit fragen: „Was darf ich teilen?"
+    severity: common
+  - issue: >
+      Plenum-Präsentation zieht sich bei großen Gruppen endlos (20 TN
+      × 2 min = 40 min).
+    countermeasure: >
+      Max. 60 sek pro Vorstellung bei großen Gruppen, oder
+      Speed-Variante nutzen. Alternativ: Vorstellung in Kleingruppen
+      à 4-6 Personen.
+    severity: common

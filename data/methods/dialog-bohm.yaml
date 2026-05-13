@@ -1,0 +1,281 @@
+slug: dialog-bohm
+canonical_name: Dialog nach Bohm
+synonyms:
+  - synonym: Bohmian Dialogue
+    language: en
+  - synonym: Bohm-Dialog
+    language: de
+short_description: >
+  Formale Dialogform im Kreis, ohne Moderation, mit bewusster Zurücknahme
+  eigener Urteile. Kernpraktiken: Zuhören, eigene Annahmen suspendieren,
+  generativ denken. Ziel ist kollektive Reflexion, nicht Entscheidung.
+originator: David Bohm
+origin_context: >
+  Entwickelt vom Physiker David Bohm (1980er); in Deutschland verbreitet
+  durch W. Hartkemeyer („Dialog als Kunst gemeinsam zu denken"). Grundlage
+  auch für Presencing / Theory U (Scharmer).
+phases:
+  - code: deepening
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Galerie-Ansicht, alle sichtbar; braucht klare Rahmen (Talking Stick, Stille).
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [reflective, cooperative]
+duration_min_minutes: 60
+duration_typical_minutes: 120
+duration_max_minutes: 180
+tags: [dialog, tief, kollektiv, bohm]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "On Dialogue"
+    author: David Bohm
+    year: 1996
+    relation: originator
+    note: >
+      Bohms Grundlagenwerk — philosophische und praktische
+      Einführung in den dialogischen Ansatz.
+  - kind: book
+    title: "Dialog als Kunst gemeinsam zu denken"
+    author: Martina Hartkemeyer, Johannes F. Hartkemeyer
+    year: 2005
+    relation: practice_guide
+    note: >
+      Deutschsprachiges Praxis-Standardwerk, das Bohms
+      Ansatz für Seminare und Organisationsentwicklung
+      operationalisiert.
+  - kind: book
+    title: "Theorie U: Von der Zukunft her führen"
+    author: C. Otto Scharmer
+    year: 2009
+    relation: reference
+    note: >
+      Scharmers Theory U baut auf Bohmschem Dialog auf —
+      "Presencing" als tiefe Form kollektiven Zuhörens.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Dialog-Kreis & Prinzipien einführen
+    duration_minutes: 10
+    trainer_action: >
+      Stuhlkreis, keine Tische. Moderation erklärt die vier
+      Kernpraktiken: (1) Zuhören, (2) Respektieren, (3)
+      Suspendieren (eigene Annahmen innehalten), (4)
+      Artikulieren (eigene Stimme finden). Keine Diskussion,
+      kein Überzeugen. Ziel: gemeinsam denken.
+    participant_action: >
+      Prinzipien hören, innerlich einstimmen, Haltung der
+      Offenheit annehmen.
+    note: >
+      Dialog ist keine Diskussion. Muss klar gemacht werden,
+      sonst kippt die Gruppe in Debatten-Modus. Prinzipien
+      wiederholen — sie wirken erst durch Praxis, nicht
+      durch Erklärung.
+  - order: 2
+    label: Impuls geben (Frage oder Thema)
+    duration_minutes: 5
+    trainer_action: >
+      Eine offene, generative Frage in die Mitte stellen:
+      "Was bewegt uns gerade? Was ist essentiell für
+      unsere Arbeit? Was ist unsichtbar, aber wichtig?"
+      Nicht zu eng, nicht zu breit.
+    participant_action: >
+      Frage auf sich wirken lassen. Noch nicht antworten
+      — erst innehalten.
+    note: >
+      Gute Dialog-Fragen öffnen, sie beantworten nicht.
+      "Was ist der Sinn unseres Teams?" öffnet,
+      "Wie verbessern wir X?" schließt.
+  - order: 3
+    label: Stille vor erstem Sprechen
+    duration_minutes: 3
+    trainer_action: >
+      3 min Stille. Keiner spricht. TN lassen Frage
+      wirken. Moderation hält Stille aus, auch wenn sie
+      unbequem wird.
+    participant_action: >
+      In Stille verweilen, eigene Impulse wahrnehmen,
+      nicht sofort sprechen wollen.
+    note: >
+      Stille ist essentiell. Wer sie abkürzt, killt
+      Dialog. Erwachsene sind oft unerfahren mit
+      gemeinsamer Stille — Übung hilft.
+  - order: 4
+    label: Dialog-Runde — Erstes Sprechen
+    duration_minutes: 30
+    trainer_action: >
+      Wer sprechen will, spricht. Kein Reihum, keine
+      Moderation. Talking-Stick optional. Nach jedem
+      Beitrag wieder Stille — dann nächste:r Impuls.
+      Moderation: nur bei Regelverstoß einschreiten
+      (Diskussion, Überzeugen).
+    participant_action: >
+      Sprechen, wenn etwas in sich aufsteigt. Zuhören,
+      wenn andere sprechen. Nicht antworten, sondern
+      weiterspinnen. Eigene Annahmen suspendieren.
+    note: >
+      Talking-Stick hilft bei neuen Gruppen. Erfahrene
+      brauchen ihn nicht. Wichtig: Pausen zwischen
+      Beiträgen, kein schneller Schlagabtausch.
+  - order: 5
+    label: Meta-Phase (Reflexion über Dialog)
+    duration_minutes: 15
+    trainer_action: >
+      Pause, dann Meta-Reflexion: "Was ist uns passiert?
+      Wann sind wir in Dialog gewesen, wann in Diskussion?
+      Was haben wir kollektiv gedacht?" Inhaltlich NICHT
+      weitergehen — Prozess reflektieren.
+    participant_action: >
+      Prozess reflektieren, nicht Inhalt weiterentwickeln.
+      Eigene Beobachtungen teilen.
+    note: >
+      Meta-Phase ist Lern-Kern. Dialog ist eine Kompetenz,
+      die durch Reflexion wächst. Ohne sie bleibt es
+      einmalige Erfahrung.
+  - order: 6
+    label: Zweite Dialog-Runde
+    duration_minutes: 45
+    trainer_action: >
+      Fortsetzung des Dialogs, nun mit bewusster Reflexion
+      der Prinzipien. Längere Phase — Tiefe braucht Zeit.
+      Moderation bleibt im Hintergrund.
+    participant_action: >
+      Praktik der Prinzipien bewusster. Tieferes Zuhören,
+      mehr Stille. Eigene Annahmen klarer suspendiert.
+    note: >
+      Zweite Runde ist meist qualitativ besser. TN sind
+      wärmer, Praktik greifbarer. Manchmal erst in
+      Runde 2 entsteht echter Dialog.
+  - order: 7
+    label: Abschluss & Würdigung
+    duration_minutes: 12
+    trainer_action: >
+      Kreis schließen. Jede:r sagt ein Wort oder einen Satz
+      zum Dialog-Erleben. Dank für Teilnahme. Ritueller
+      Abschluss (z.B. gemeinsames Stille-Moment).
+    participant_action: >
+      Abschluss-Wort teilen. Dialog-Erleben mitnehmen,
+      nachklingen lassen.
+    note: >
+      Dialog-Praxis verändert. Abschluss ernst nehmen,
+      nicht nebenbei wegorganisieren. Nachhall wichtig.
+
+variations:
+  - name: Klassischer Bohm-Dialog
+    description: >
+      Nach Bohm: Kreis, offene Frage, ungeordneter Dialog,
+      Meta-Reflexion. Standard-Variante. 90-180 min.
+    when_to_use: >
+      Fortgeschrittene Gruppen, Organisations-Entwicklung,
+      tiefe Team-Reflexion. Wenn Zeit für Tiefe vorhanden.
+  - name: Hartkemeyer-Variante (Fishbowl + Dialog)
+    description: >
+      Kleinere Innen-Gruppe im Dialog, Außen-Gruppe
+      beobachtet. Wechsel-Möglichkeit durch Leer-Stuhl
+      (Empty-Chair-Prinzip).
+    when_to_use: >
+      Größere Gruppen (15-30), Ausbildungskontexte.
+      Beobachten + Mitmachen kombiniert.
+  - name: Kurz-Dialog (60 min)
+    description: >
+      Reduzierte Zeit: 5 min Einführung, 40 min Dialog,
+      15 min Meta. Weniger Tiefe, aber Format erlebbar.
+    when_to_use: >
+      Einsteig in Dialog-Kompetenz, Team-Meetings, wenn
+      Dialog-Kultur angeregt werden soll.
+  - name: Thematisch fokussierter Dialog
+    description: >
+      Offene, aber fokussierte Frage (z.B. "Was heißt
+      Führung für uns?"). Etwas stärker gerichtet als
+      reiner Bohm-Dialog.
+    when_to_use: >
+      Organisations-Entwicklung, Wert-Klärung,
+      strategische Selbstreflexion.
+  - name: Remote-Dialog (Video)
+    description: >
+      Videokonferenz mit Galerieansicht, alle Kameras an.
+      Klare Rahmen-Rituale (Stille, Talking-Stick
+      digital).
+    when_to_use: >
+      Verteilte Teams. Funktioniert, aber weniger
+      intensiv als Präsenz. Erfordert disziplinierte
+      Gruppe.
+    setting_codes: [remote_sync]
+  - name: Reihum-Dialog (strukturierter)
+    description: >
+      Strukturierte Runde: jede:r spricht reihum, dann
+      freier Dialog. Einstiegsformat für Dialog-Neulinge.
+    when_to_use: >
+      Erste Dialog-Erfahrungen, wenn Gruppen-Kultur
+      noch zu unsicher für offene Runden.
+
+pitfalls:
+  - issue: >
+      Gruppe rutscht in Diskussion — Antworten, Argumente,
+      Überzeugen.
+    countermeasure: >
+      Moderation interveniert: "Lassen wir das in der Mitte
+      stehen." Prinzipien erinnern. Bei Wiederholung:
+      kurze Meta-Pause: "Was passiert gerade?"
+    severity: common
+  - issue: >
+      Stille wird unerträglich — jemand spricht nur um
+      Stille zu beenden.
+    countermeasure: >
+      Stille als Teil des Dialogs normalisieren. Vorab
+      explizit: "Stille ist kein Versagen." Moderation
+      selbst aushalten zeigen.
+    severity: common
+  - issue: >
+      Dominante Stimmen bestimmen Dialog — andere
+      schweigen.
+    countermeasure: >
+      Talking-Stick einsetzen. Oder explizite Einladung:
+      "Wer hat noch nicht gesprochen?" Aber nicht
+      zwingen — Dialog lebt von Freiwilligkeit.
+    severity: common
+  - issue: >
+      Moderation greift zu stark ein — wird zu Gesprächs-
+      Leitung.
+    countermeasure: >
+      Selbstdisziplin: nur bei echten Regelverstößen. Ziel
+      ist Zurücknahme. Je erfahrener die Gruppe, desto
+      weniger Moderation.
+    severity: common
+  - issue: >
+      Dialog bleibt Smalltalk — keine Tiefe entsteht.
+    countermeasure: >
+      Geduld. Oft entsteht Tiefe erst in Runde 2 oder 3.
+      Wenn nach 2h nichts: Frage prüfen. Vielleicht zu
+      eng oder zu vage.
+    severity: common
+  - issue: >
+      Dialog als Methode wird esoterisch empfunden.
+    countermeasure: >
+      Anschlussfähig rahmen: "Kollektive Reflexion",
+      "gemeinsames Nachdenken". Bohmsche Terminologie
+      nur mit Gruppe, die sie will.
+    severity: common
+  - issue: >
+      Zeitrahmen zu kurz — Tiefe wird abgewürgt.
+    countermeasure: >
+      Mindestens 90 min einplanen. Kürzer ist nicht
+      Dialog, sondern nur Gesprächsrunde. Zeit ist
+      Bedingung.
+    severity: common

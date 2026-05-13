@@ -1,0 +1,267 @@
+slug: appreciative-inquiry
+canonical_name: Appreciative Inquiry
+synonyms:
+  - synonym: AI
+    language: en
+  - synonym: Wertschätzende Erkundung
+    language: de
+short_description: >
+  Organisationsentwicklungsansatz in 4 Phasen (Discover, Dream, Design,
+  Destiny) mit Fokus auf Stärken und positive Erfahrungen statt Probleme.
+  Als Workshop-Format auch für Teams und Trainings einsetzbar.
+originator: David Cooperrider
+origin_context: >
+  1986 von David Cooperrider (Case Western Reserve University) in seiner
+  Dissertation entwickelt; heute weltweit in Change- und OE-Kontexten genutzt.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: group_work
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [cooperative, reflective, creative]
+duration_min_minutes: 240
+duration_typical_minutes: 480
+duration_max_minutes: 2880
+tags: [appreciative-inquiry, staerken, cooperrider, 4-d-cycle]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Appreciative Inquiry: A Positive Revolution in Change"
+    author: David Cooperrider, Diana Whitney
+    year: 2005
+    relation: originator
+    note: >
+      Kompakte Einführung durch die Begründer der Methode — 4-D-
+      Zyklus als Kern.
+  - kind: book
+    title: "The Appreciative Inquiry Handbook"
+    author: David Cooperrider, Diana Whitney, Jacqueline Stavros
+    year: 2008
+    relation: practice_guide
+    note: Praxishandbuch mit Fallstudien und Workshop-Designs.
+  - kind: book
+    title: "Appreciative Inquiry — Der Weg zu Spitzenleistungen"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2012
+    relation: practice_guide
+    note: Deutschsprachiges Anwendungs-Handbuch.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Setting & Leitfrage (Topic Choice)
+    duration_minutes: 30
+    trainer_action: >
+      Thema und Leitfrage schärfen: "Worauf wollen wir unsere
+      Aufmerksamkeit richten?" Beispielleitfragen: "Was macht
+      uns als Team stark?", "Wann haben wir hervorragend
+      zusammengearbeitet?" Die Leitfrage ist appreciativ —
+      nach Stärken, nicht Problemen. Gruppen und Partner für
+      Interview-Phase bilden.
+    participant_action: >
+      Leitfrage mitformulieren, Partner:in für Interview
+      finden.
+    note: >
+      Die Formulierung der Leitfrage entscheidet alles.
+      "Wie werden wir besser?" ist defizitorientiert. "Wann
+      sind wir am besten?" appreciativ. Cooperrider: "We
+      grow toward what we study."
+  - order: 2
+    label: Phase 1 — Discover (Paar-Interviews)
+    duration_minutes: 90
+    trainer_action: >
+      2er-Paare führen strukturiertes Interview (je 20-25 min pro
+      Seite). Interview-Leitfaden mit 3-5 Fragen: "Erzählen Sie
+      von einem Moment, in dem das Team wirklich gut war. Was
+      war da anders? Was ist der Kern davon?". Notizen
+      mitnehmen, eigene Bilder und Zitate festhalten.
+    participant_action: >
+      Interview führen — neugierig fragen, aktiv zuhören,
+      Geschichten hören und einfangen. Eigene Rolle wechseln.
+    note: >
+      Discover ist das emotionale Herzstück. Qualität der
+      Geschichten prägt die gesamte Werkstatt. Einmal gut
+      zugehört, wird man nicht mehr so einfach defizit-
+      orientiert.
+  - order: 3
+    label: Phase 2 — Dream (Zukunftsvisionen)
+    duration_minutes: 90
+    trainer_action: >
+      Kleingruppen (4-6 Personen) tauschen Interview-Highlights
+      aus. Fragen: "Was zeigen uns diese Geschichten? Wenn wir
+      diese Stärken voll leben — wie sieht dann unsere Zukunft
+      aus?" Visualisierung als Bild, Storyboard oder Theaterszene.
+    participant_action: >
+      Geschichten teilen, Muster erkennen, gemeinsam
+      visualisieren. Kreativ werden.
+    note: >
+      Dream-Phase oft durch Corporate-Kultur gebremst.
+      Kreative Gestaltungsmittel wichtig (Zeichnen, Rollenspiel).
+      Ungewöhnliche Ausdrucksformen zulassen.
+  - order: 4
+    label: Phase 3 — Design (Provocative Propositions)
+    duration_minutes: 120
+    trainer_action: >
+      Aus Dream-Visionen "Provocative Propositions" formulieren
+      — starke, gegenwärtige Aussagen, wie die Organisation in
+      ihrer besten Form wäre. "Wir sind ein Team, das...",
+      "Unsere Kultur zeichnet sich aus durch...". Nicht im
+      Konjunktiv, sondern präsent und mutig.
+    participant_action: >
+      Provocative Propositions formulieren, überarbeiten,
+      im Plenum abstimmen. Konkret werden, aber kühn bleiben.
+    note: >
+      Zentraler Wendepunkt: Dream wird operativ. Propositions
+      müssen "provokativ" sein — herausfordern, über den
+      Status quo hinausweisen. Nicht zu bescheiden.
+  - order: 5
+    label: Phase 4 — Destiny / Delivery (Umsetzung)
+    duration_minutes: 120
+    trainer_action: >
+      "Wie machen wir das Wirklichkeit?" Kleingruppen arbeiten
+      an konkreten Aktionen pro Proposition. Was, wer, wann?
+      Self-Organizing — TN melden sich freiwillig für
+      Aktionsgruppen, nicht zugeteilt.
+    participant_action: >
+      Für Aktionen mit eigener Energie committen, Projekte
+      selbst gestalten, erste Schritte definieren.
+    note: >
+      Destiny lebt von Eigeninitiative. Keine Rollenverteilung
+      "von oben". Moderation schafft Raum, nicht Struktur.
+      Freiwilligkeit ist Teil des Ansatzes.
+  - order: 6
+    label: Abschluss & Vernetzung
+    duration_minutes: 30
+    trainer_action: >
+      Plenum-Abschluss: Alle Aktionsgruppen stellen sich kurz
+      vor. Cross-Connections identifizieren. Follow-up-Rhythmus
+      vereinbaren (z.B. monatliche Check-ins). Abschluss-Ritual
+      mit Wertschätzung.
+    participant_action: >
+      Eigene Gruppe präsentieren, Querverbindungen suchen,
+      persönliches Committment teilen.
+    note: >
+      AI-Workshops werden oft mit stark positivem Gefühl beendet.
+      Das ist gewollt — trägt die Umsetzung. Aber: Follow-up
+      muss real sein, nicht rhetorisch.
+
+variations:
+  - name: Klassischer AI-Summit (1-3 Tage)
+    description: >
+      Vollständiger 4-D-Zyklus mit 50-300+ TN. Discovery,
+      Dream, Design, Destiny jeweils in Halbtagen.
+    when_to_use: >
+      Organisationsweite Veränderungsprozesse, Kulturwandel,
+      Strategie-Entwicklung. Wenn echtes Mandat + Zeit da ist.
+  - name: Team-AI (1 Tag)
+    description: >
+      Komprimierte 8h-Variante für Teams (8-20 Personen).
+      Alle vier Phasen am selben Tag, schneller Rhythmus.
+    when_to_use: >
+      Team-Offsites, Abteilungs-Klausuren, Kick-offs für
+      neue Projekte.
+  - name: Mini-AI (4 Stunden)
+    description: >
+      Stark gekürzt: 30 min pro Phase, schlanke Propositions,
+      exemplarische Actions. Eher Einführung in den Ansatz.
+    when_to_use: >
+      Trainings zur Methode selbst. Schnupper-Formate, bei
+      denen AI-Denkweise vermittelt werden soll.
+  - name: AI-Interviews als Eigenständige Methode
+    description: >
+      Nur Phase 1 (Discovery): Paar-Interviews als Einstieg in
+      Retrospektive oder Workshop. Ohne Dream/Design/Destiny.
+    when_to_use: >
+      Als Opener für Change-Workshops, Retros, Team-Events
+      — wenn volle 4-D nicht zeitlich machbar.
+  - name: Remote-AI
+    description: >
+      Digitaler AI-Summit über mehrere Halbtage. Interviews in
+      Zoom-Breakouts, Dream-Visualisierung auf Miro, Design
+      in strukturierten Online-Räumen.
+    when_to_use: >
+      Verteilte Teams, internationale Organisationen.
+      Erfordert sehr erfahrene Remote-Moderation.
+    setting_codes: [remote_sync]
+  - name: Whole-Scale-AI (ganze Organisation)
+    description: >
+      Alle Stakeholder gleichzeitig im Raum (inkl. Kunden,
+      Lieferanten, Partner). Größte Variante, 100-2000 TN.
+    when_to_use: >
+      Systemische Change-Prozesse, wenn alle Perspektiven
+      gleichzeitig gebraucht werden. Seltene, aber sehr
+      wirkungsvolle Variante.
+
+pitfalls:
+  - issue: >
+      TN misstrauen dem "positiven Fokus" — halten es für
+      Schönfärberei.
+    countermeasure: >
+      Framing klar: "Es geht nicht darum, Probleme zu leugnen,
+      sondern Stärken zu finden, von denen aus wir Probleme
+      lösen können." Cooperriders Forschung kurz skizzieren
+      — empirisch fundiert, nicht esoterisch.
+    severity: common
+  - issue: >
+      Interviews bleiben oberflächlich — Small-Talk-Level.
+    countermeasure: >
+      Gute Interview-Leitfaden mit vertiefenden Fragen
+      ("Erzählen Sie mehr davon...", "Was war das Kleinste,
+      was den Unterschied gemacht hat?"). Vorab kurz zeigen,
+      wie man sokratisch-wertschätzend fragt.
+    severity: common
+  - issue: >
+      Dream-Phase bleibt corporate-verhalten, keine echten
+      Visionen.
+    countermeasure: >
+      Kreative Ausdrucksmittel vorgeben (Zeichnung, Storyboard,
+      Theaterszene). Referenzen: "Wie wäre das, wenn ein
+      Kind diese Organisation zeichnen würde?"
+    severity: common
+  - issue: >
+      Provocative Propositions werden zahm ("Wir sind ein gutes
+      Team"), verlieren ihre Wirkung.
+    countermeasure: >
+      Iterativ überarbeiten: "Ist das mutig genug? Zu brav?"
+      Vorher Beispiele für mutige Propositions zeigen. Lieber
+      streiten als glätten.
+    severity: common
+  - issue: >
+      Destiny-Phase ohne echte Eigeninitiative — TN warten auf
+      Aufgabenverteilung.
+    countermeasure: >
+      Self-Organizing explizit ansagen: "Gehen Sie in die
+      Aktionsgruppe, wo IHRE Energie ist — nicht, wo Sie hin
+      müssen." Moderation zieht sich zurück.
+    severity: common
+  - issue: >
+      Große Zeitinvestition, aber kein Mandat — Ergebnisse
+      versanden.
+    countermeasure: >
+      Vorab mit Auftraggebenden klären: Umsetzungs-Bereitschaft?
+      Budget? Ressourcen? Ohne klares Mandat: Methodik nicht
+      einsetzen — AI ist kein Kaminabend.
+    severity: common
+  - issue: >
+      Wichtige Stakeholder fehlen — fehlt die volle Perspektive.
+    countermeasure: >
+      AI lebt von Systemvollständigkeit. Stakeholder-Analyse
+      vor Workshop. Bei fehlenden: symbolisch einbinden
+      ("Empty Chair" für Kund:innen).
+    severity: common

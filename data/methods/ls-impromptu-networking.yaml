@@ -1,0 +1,237 @@
+slug: ls-impromptu-networking
+canonical_name: Impromptu Networking
+synonyms:
+  - synonym: Impromptu Networking
+    language: en
+  - synonym: Spontan-Vernetzung
+    language: de
+short_description: >
+  Liberating Structure: Drei Runden à 5 Minuten in wechselnden Paaren zu
+  derselben Einstiegsfrage. Schneller Start ins Thema, fast alle sind
+  nach 15 Minuten im Kontakt und aktiviert.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_context: >
+  Liberating Structure; als Einstieg in Workshops und Konferenzen sehr
+  verbreitet. CC-BY-NC 4.0.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: getting_acquainted
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Drei Runden à 5 Minuten in rotierenden Breakout-Paaren.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [activating, cooperative, icebreaker]
+duration_min_minutes: 15
+duration_typical_minutes: 20
+duration_max_minutes: 30
+tags: [liberating-structures, einstieg, vernetzung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — Impromptu Networking"
+    url: https://www.liberatingstructures.com/2-impromptu-networking/
+    relation: originator
+    note: >
+      Vollständige Beschreibung inkl. der 5 Struktur-Elemente
+      und Zeitvorgaben. CC-BY-NC 4.0.
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+    note: Einordnung und Fallstudien.
+  - kind: book
+    title: "Liberating Structures — Das Praxisbuch"
+    author: Mark Schenk, Daniel Steinhöfer
+    year: 2022
+    relation: practice_guide
+    note: Deutschsprachige Anwendungsbeschreibungen.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einladung & Frage stellen
+    duration_minutes: 2
+    trainer_action: >
+      Einstiegs-Frage sichtbar und klar formulieren. Gute
+      Fragen: "Was zieht Sie zu diesem Thema?", "Was ist
+      Ihre große Herausforderung damit?", "Was erhoffen Sie
+      sich von dieser Veranstaltung?". Regel ansagen: "Drei
+      Runden à 5 Min, wechselnde Paare, jede Person je 2 Min.
+      sprechen, 1 Min. Wechsel."
+    participant_action: >
+      Frage verstehen, sich mental öffnen, Regeln
+      mitnehmen.
+    note: >
+      Frage ist das Herzstück. Zu breit ("Was denken Sie?")
+      = flach. Zu eng ("Was sind die drei größten Hindernisse?")
+      = zu kognitiv. Einladend und offen — in der Mitte.
+  - order: 2
+    label: Runde 1 (5 Min)
+    duration_minutes: 5
+    trainer_action: >
+      "Finden Sie schnell jemanden, den Sie noch nicht kennen.
+      2 Min Sie, 2 Min der/die andere. Timer läuft." Start-
+      Signal. Während der Runde: im Raum bewegen, sanft
+      erinnern bei Timer-Wechsel.
+    participant_action: >
+      Partner:in finden, eigene Sicht teilen, dann zuhören.
+      Nicht analysieren, nur teilen.
+    note: >
+      Die meisten halten nicht ein. Strikt 2+2 Min erzwingen
+      akustisch (Glocke, Horn). Nach-Wechsel-Zeit kurz (30-60
+      sek) — sofort nächste Paarung.
+  - order: 3
+    label: Runde 2 (5 Min) — neues Paar
+    duration_minutes: 5
+    trainer_action: >
+      "Wechseln Sie zu einer neuen Person. Gleiche Frage,
+      neue Perspektive. 2 Min + 2 Min." Timer neu starten.
+      Raum aktiv beobachten — niemand allein lassen.
+    participant_action: >
+      Neue:n Partner:in suchen, Gedanken erneut formulieren
+      (wird durch Wiederholung schärfer).
+    note: >
+      Die Wiederholung ist Feature, nicht Bug. Beim zweiten
+      Mal Formulieren wird klarer, was einem wirklich wichtig
+      ist. Nicht "schon gesagt"-Müdigkeit aufkommen lassen.
+  - order: 4
+    label: Runde 3 (5 Min) — dritte:r Partner:in
+    duration_minutes: 5
+    trainer_action: >
+      Dritte Runde mit neuer Person. Gleiche Struktur.
+      Nach Runde 3: klares Abschluss-Signal.
+    participant_action: >
+      Nochmal neuer Kontext, nochmal klarer werden. Zum
+      dritten Mal antworten — meist knackigste Formulierung.
+    note: >
+      Nach 3 Runden sind alle aktiviert, eigene Gedanken
+      geschärft. Klassisch nach Liberating Structure 3 Runden,
+      nicht mehr — Energie verliert sich danach.
+  - order: 5
+    label: Kurzer Plenum-Abschluss
+    duration_minutes: 3
+    trainer_action: >
+      Alle zurück ins Plenum. "Was ist Ihnen aus dem Austausch
+      geblieben?" 2-3 freiwillige Stimmen. Kein Zwang.
+      Übergang in Haupt-Programm.
+    participant_action: >
+      Freiwillig eine Erkenntnis teilen oder zuhören. Auf
+      Hauptprogramm einstellen.
+    note: >
+      Nicht alles muss geteilt werden — Methode wirkt im
+      Individuum. Kurze Plenum-Runde schließt das Ritual
+      und überleitet.
+
+variations:
+  - name: Klassisch (3 × 5 Min)
+    description: >
+      Standard: 3 Runden à 5 Min, wechselnde Paare, gleiche
+      Frage. Nach Liberating Structure.
+    when_to_use: >
+      Konferenz-Einstieg, Workshop-Opener, Kick-offs. Ab 12
+      TN sinnvoll.
+  - name: Kurz-Variante (2 Runden, 10 Min)
+    description: >
+      Nur 2 Runden. Kompakter, weniger Tiefe, aber passt in
+      engere Zeitfenster.
+    when_to_use: >
+      Meetings mit 30-60 min Rahmen. Einstieg mit geringerer
+      Zeit.
+  - name: Wechselnde Fragen je Runde
+    description: >
+      Pro Runde andere Frage: "Was erhoffen Sie?", "Was
+      befürchten Sie?", "Was könnten Sie beitragen?". Mehr
+      Tiefe, weniger Wiederholungs-Effekt.
+    when_to_use: >
+      Team-Klausuren, Strategie-Workshops. Wenn mehrere
+      Dimensionen sichtbar werden sollen.
+  - name: Remote-Variante (Zoom-Breakouts)
+    description: >
+      3 Runden automatische Breakouts mit Zufalls-Zuordnung
+      je Runde. Hauptraum für Fragen und Abschluss.
+    when_to_use: >
+      Online-Konferenzen, Webinare, verteilte Teams.
+      Erfordert Tool, das schnelle Re-Randomisierung erlaubt.
+    setting_codes: [remote_sync]
+  - name: Walking Impromptu Networking
+    description: >
+      Paare gehen während der 5 Minuten im Raum/Flur. Bewegung
+      + Gespräch. Körperlich aktivierend.
+    when_to_use: >
+      Nachmittags-Slots, längere Trainings, wenn Stehen/
+      Bewegen gewünscht. Raum muss Platz haben.
+  - name: Fishbowl-Impromptu
+    description: >
+      Erst ein öffentliches Paar im Fishbowl, dann alle
+      anderen in 3er-Gruppen. Modellhafte Einführung.
+    when_to_use: >
+      Erste Session mit ungewohnter Gruppe, wenn Format
+      erklärt werden muss. Lernendes Publikum.
+
+pitfalls:
+  - issue: >
+      Timing wird nicht eingehalten — eine Seite dominiert.
+    countermeasure: >
+      Akustisches Signal alle 2 Min (Glocke, Horn). Moderation
+      läuft durch Raum und erinnert bei Zeit-Überschreitung.
+      "Halbzeit, bitte wechseln!".
+    severity: common
+  - issue: >
+      Paare bleiben zusammen, weil bequem — Rotation stockt.
+    countermeasure: >
+      Klare Ansage: "Sie müssen zu neuer Person wechseln."
+      Moderation unterstützt aktiv bei Paar-Findung. Ggf.
+      Musik als Wechsel-Signal.
+    severity: common
+  - issue: >
+      Einige TN finden keinen Partner — bleiben allein.
+    countermeasure: >
+      Moderation schnell dabei, selbst einspringen oder
+      vermitteln ("Frau X hier sucht noch jemand"). Bei
+      ungerader Anzahl: 3er-Gruppe bilden.
+    severity: common
+  - issue: >
+      Frage ist unklar oder zu abstrakt — Gespräche bleiben
+      zäh.
+    countermeasure: >
+      Frage vorab mit 2-3 Leuten testen. Einfach und einladend:
+      "Was zieht Sie her heute?" statt "Reflektieren Sie
+      Ihre Motivation".
+    severity: common
+  - issue: >
+      Introvertierte TN überfordert durch Tempo und Nähe.
+    countermeasure: >
+      Vorab framen: "Kein Druck zu tiefer Selbstoffenbarung.
+      Teilen was stimmig ist." Bei Unwohlsein: Pass-Option
+      anbieten.
+    severity: rare
+  - issue: >
+      Remote-Breakouts funktionieren technisch nicht — zu
+      viel Wartezeit.
+    countermeasure: >
+      Tool vorher testen (Zoom Automatic Breakouts). Fallback:
+      manuell vom Host rotiert oder Mini-Pause als Puffer.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Plenum-Abschluss wird zur langen Diskussion.
+    countermeasure: >
+      Strikt 2-3 min. "Wir können später tiefer — jetzt kurz
+      Highlight einsammeln." Übergang bewusst.
+    severity: common

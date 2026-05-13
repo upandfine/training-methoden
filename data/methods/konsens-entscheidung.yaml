@@ -1,0 +1,67 @@
+slug: konsens-entscheidung
+canonical_name: Konsens-Entscheidung
+synonyms:
+  - synonym: Consensus Decision Making
+    language: en
+  - synonym: Einstimmiger Beschluss
+    language: de
+  - synonym: Konsensprinzip
+    language: de
+
+short_description: >
+  Klassische Form der Gruppen-Entscheidung: alle Beteiligten müssen aktiv
+  zustimmen, sonst gilt der Vorschlag nicht. Hohe Tragfähigkeit der
+  Entscheidung, hohe Zeitkosten. Geeignet bei kleinen Gruppen mit großer
+  Tragweite oder hohem Vertrauensbedarf — nicht für tagesgeschäftliche
+  Entscheidungen unter Zeitdruck.
+
+originator: null
+origin_context: >
+  Konsens als Entscheidungsform hat lange Tradition (Quaker-Versammlungen
+  seit dem 17. Jh., zahlreiche indigene Ratsversammlungen). Im
+  Gruppenarbeits-Kontext der westlichen Trainings-Tradition seit den 1960ern
+  in basisdemokratischen und kooperativen Bewegungen verbreitet.
+
+phases:
+  - code: practice
+    is_primary: true
+  - code: closing
+  - code: deepening
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Mit Daumen-Signalen oder Voting-Tools (Dot-Voting) gut umsetzbar.
+  - code: hybrid
+    suitability: good
+
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [cooperative, reflective]
+
+duration_min_minutes: 20
+duration_typical_minutes: 60
+duration_max_minutes: 180
+
+materials:
+  - Flipchart oder digitales Board für Vorschlags-Liste
+tags: [entscheidung, partizipativ, gruppe, konsens, basisdemokratie]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "Consensus Through Conversation"
+    author: Larry Dressler
+    year: 2006
+    relation: practice_guide
+  - kind: book
+    title: "On Conflict and Consensus: A Handbook on Formal Consensus Decisionmaking"
+    author: C.T. Lawrence Butler, Amy Rothstein
+    year: 1991
+    relation: reference

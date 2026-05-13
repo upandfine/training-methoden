@@ -1,0 +1,220 @@
+slug: lerntagebuch
+canonical_name: Lerntagebuch
+synonyms:
+  - synonym: Learning Journal
+    language: en
+  - synonym: Reflexionsjournal
+    language: de
+short_description: >
+  Teilnehmende führen über die Trainingsdauer ein persönliches Journal — was
+  habe ich gelernt, was beschäftigt mich, wie wende ich es an? Längerfristige
+  Verarbeitung über einzelne Sitzungen hinaus.
+originator: null
+origin_context: >
+  Pädagogische Tradition seit dem 20. Jahrhundert; heute Standardelement
+  selbstgesteuerten Lernens und Blended-Learning.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+  - code: remote_async
+    suitability: excellent
+    note: Ideal asynchron — LMS, geteiltes Dokument oder Notion-Template.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [reflective]
+duration_min_minutes: 10
+duration_typical_minutes: 50
+duration_max_minutes: 75
+materials:
+  - Notizheft oder digitales Template
+tags: [selbstreflexion, kontinuierlich, schriftlich]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Das Lerntagebuch — Pädagogisches Werkzeug der Selbstreflexion"
+    author: Michaela Gläser-Zikuda
+    year: 2010
+    relation: practice_guide
+  - kind: article
+    title: "Learning Journals and Logs — Reflective Journals and Learning Journals"
+    author: Jennifer A. Moon
+    year: 2006
+    relation: reference
+    note: Grundlagenwerk zu Reflexionsjournalen in der Erwachsenenbildung.
+  - kind: book
+    title: "Selbstreguliertes Lernen — Grundlagen, Modelle, Anwendung"
+    author: Silke Landmann, Franziska Perels, Manfred Schmitz
+    year: 2015
+    relation: reference
+    note: Lerntagebuch im Kontext selbstregulierten Lernens.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einführung & Template
+    duration_minutes: 10
+    trainer_action: >
+      Zweck erklären: nicht Protokoll, sondern Denkraum. Template
+      ausgeben (3-5 Leitfragen pro Eintrag, z.B. „Was war heute wichtig?",
+      „Was habe ich verstanden, was nicht?", „Wo wende ich das an?").
+      Regel: Kein Lehrer-Blick, Journale privat oder nur mit Zustimmung
+      geteilt.
+    participant_action: >
+      Template überfliegen, eigenes Medium wählen (Papier, digital,
+      Sprachmemo).
+    note: >
+      Vertrauenskontrakt wichtig. Wenn TN glauben, Journal wird gelesen,
+      schreiben sie für den Trainer statt für sich selbst — und der
+      Reflexions-Effekt verpufft.
+  - order: 2
+    label: Erster Eintrag (begleitet)
+    duration_minutes: 10
+    trainer_action: >
+      Nach erstem Trainings-Abschnitt 10 min Schreibzeit einplanen,
+      ruhig begleiten, nicht beobachten. Leitfragen sichtbar halten.
+      Ergebnis: jede:r hat einen ersten Eintrag, Hemmschwelle überwunden.
+    participant_action: >
+      Schreiben, ohne Zensur. Stichworte sind OK, Fließtext ist OK.
+    note: >
+      Erster Eintrag ist der schwerste. Lieber 10 min mit gemeinsamem
+      Start als TN auf „machen Sie das zuhause" alleine lassen.
+  - order: 3
+    label: Regelmäßiges Einträgen zwischen Sessions (asynchron, außerhalb Session)
+    duration_minutes: 0
+    trainer_action: >
+      Rhythmus festlegen: nach jeder Session, wöchentlich, oder nach
+      bestimmten Triggern (Anwendung im Alltag). Reminder einplanen
+      (E-Mail, Slack). Bei Bedarf neue Leitfragen pro Phase.
+    participant_action: >
+      Regelmäßig schreiben, auch wenn wenig passiert („Heute nichts
+      Neues, aber X beschäftigt mich noch").
+    note: >
+      Realität: ohne externe Struktur sinkt die Schreibhäufigkeit
+      drastisch ab Woche 2. Reminders und kleine Check-ins sind
+      kritisch.
+  - order: 4
+    label: Journal-Gespräche (optional, periodisch)
+    duration_minutes: 10
+    trainer_action: >
+      Periodische Gespräche (1:1 oder Peer-Paar): TN wählt selbst,
+      welche Einträge sie teilt. Nicht das Journal inspizieren,
+      sondern über die Erkenntnisse sprechen.
+    participant_action: >
+      Eintrag mitbringen, Entwicklung beschreiben, Fragen an Partner
+      stellen.
+    note: >
+      Selbst-Auswahl der TN ist zentral. „Zeig mir dein Journal" ist
+      ein Übergriff. Das Ziel ist Meta-Reflexion, nicht Kontrolle.
+  - order: 5
+    label: Abschluss-Reflexion
+    duration_minutes: 20
+    trainer_action: >
+      Am Trainingsende: TN lesen ihre eigenen Einträge von Anfang bis
+      Ende. „Was hat sich verändert? Was zieht sich durch? Was hätte
+      ich in Woche 1 nicht gedacht?" Kurzer Abschluss-Eintrag.
+    participant_action: >
+      Eigenes Journal zurücklesen, rote Fäden identifizieren,
+      Entwicklung sichtbar machen.
+    note: >
+      Der wertvollste Moment. Viele TN sehen erst hier, wie weit sie
+      gekommen sind. Unbedingt Zeit dafür einplanen.
+
+variations:
+  - name: Klassisches Papier-Journal
+    description: >
+      Notizheft, TN schreibt handschriftlich. Haptik, keine Ablenkung
+      durch Notifications. Mehr Tiefe, weniger Durchsuchbarkeit.
+    when_to_use: >
+      Wenn TN Zugang zu Papier haben; Intensiv-Trainings, längere
+      Formate.
+  - name: Digitales Journal (Notion/OneNote)
+    description: >
+      Template im Firmen-Tool, Suche und Verlinkung möglich, ggf.
+      mit Tags. Privat-Workspace, nicht freigegeben.
+    when_to_use: >
+      Remote-Lerngruppen, wenn spätere Durchsuchbarkeit wichtig ist
+      (z.B. Nachschlagen im Job).
+    setting_codes: [remote_async]
+  - name: Audio-Journal
+    description: >
+      TN sprechen Einträge als Sprachnotiz ein (3-5 min pro Eintrag).
+      Niedrigere Hemmschwelle für Menschen die ungern schreiben.
+    when_to_use: >
+      Wenn Schreibhemmung hoch ist (viele Führungskräfte); bei
+      längeren Kommuten/Pendelwegen.
+  - name: Geteiltes Lerntagebuch (Peer-Journal)
+    description: >
+      Zwei TN schreiben für einander, sichtbar im geteilten Dokument.
+      Wöchentlich Kommentare. Doppelter Effekt: schreiben + lesen
+      einer anderen Perspektive.
+    when_to_use: >
+      Lange Programme (3+ Monate), Führungskräfte-Development,
+      wenn Vertrauen vorhanden.
+  - name: Strukturiertes Reflexions-Modell (ERA / Gibbs)
+    description: >
+      Einträge folgen festen Modellen wie Experience-Reflection-Action
+      oder Gibbs' Reflective Cycle (6 Phasen). Mehr Tiefe, weniger
+      Spontaneität.
+    when_to_use: >
+      Akademische Kontexte, Supervisions-Ausbildungen,
+      Zertifizierungs-Lehrgänge.
+
+pitfalls:
+  - issue: >
+      TN schreiben nur Zusammenfassungen („Heute haben wir X gelernt")
+      statt echte Reflexion.
+    countermeasure: >
+      Leitfragen schärfen auf „Was hat mich irritiert?", „Was kann ich
+      noch nicht?", „Was überrascht mich?". Protokoll-Fragen bewusst
+      weglassen.
+    severity: common
+  - issue: >
+      Schreibhäufigkeit sinkt nach 1-2 Wochen auf null.
+    countermeasure: >
+      Reminders, kurze Check-ins im Training („Hat jemand ein Highlight
+      aus dem Journal?"), Rhythmus bewusst kurz halten (3-5 min reicht).
+      Micro-Journal mit 1-2 Fragen statt langer Einträge.
+    severity: common
+  - issue: >
+      Trainer:in will Journale lesen, untergräbt Privatheit.
+    countermeasure: >
+      Klares Vertrauensprinzip: Journal ist privat. Wenn Bewertung
+      Teil des Kurses sein muss, lieber getrennten „Abgabe-Eintrag"
+      einführen, Journal bleibt privat.
+    severity: common
+  - issue: >
+      TN empfinden Journal als Pflicht, nicht als Werkzeug — schreiben
+      kurz vor Abgabe mechanisch.
+    countermeasure: >
+      Sinn früh zeigen („Am Ende werden Sie Ihr eigenes Tagebuch
+      rückwärts lesen und sehen, was passiert ist."). Keine Mindest-
+      Wortanzahl vorschreiben.
+    severity: common
+  - issue: >
+      Digitales Journal: Benachrichtigungen, Ablenkung, Copy-Paste
+      aus Präsentationen.
+    countermeasure: >
+      Template ohne Platz für Präsentations-Inhalte, Fokus auf eigene
+      Reaktion. Schreibzeit ohne Device-Multitasking.
+    severity: rare
+    setting_codes: [remote_async]
+  - issue: >
+      Einträge werden zu emotional, TN öffnen Themen die überfordern.
+    countermeasure: >
+      Framing klar: „Lern-Tagebuch, nicht Therapie-Tagebuch." Bei
+      Belastungen Hinweis auf externe Unterstützung. Leitfragen
+      fachlich halten, nicht psychologisch ausforschen.
+    severity: rare

@@ -1,0 +1,85 @@
+# Trainingsphasen — orientiert an gängiger Seminardidaktik (Siebert, Prohaska, Klein).
+# Jede Methode wird mindestens einer Phase zugeordnet.
+- code: arrival
+  label_de: Ankommen
+  label_en: Arrival
+  sort_order: 10
+  description: Erste Minuten — Raum öffnen, Stimmung aufnehmen, Ankommen ermöglichen.
+
+- code: warmup
+  label_de: Warm-up
+  label_en: Warm-up
+  sort_order: 20
+  description: Aktivierung, Energie aufbauen, Gruppendynamik lockern.
+
+- code: getting_acquainted
+  label_de: Kennenlernen
+  label_en: Getting acquainted
+  sort_order: 30
+  description: Teilnehmende lernen einander und die Trainer:in kennen.
+
+- code: expectations
+  label_de: Erwartungsklärung
+  label_en: Expectations
+  sort_order: 40
+  description: Ziele, Hoffnungen, Befürchtungen und Arbeitsregeln klären.
+
+- code: input
+  label_de: Wissensvermittlung
+  label_en: Input / content delivery
+  sort_order: 50
+  description: Inhalte einführen, erklären, strukturiert präsentieren.
+
+- code: activation
+  label_de: Aktivierung
+  label_en: Activation / energizer
+  sort_order: 60
+  description: Energie zurückbringen, Aufmerksamkeit schärfen, Durchhänger überbrücken.
+
+- code: deepening
+  label_de: Vertiefung
+  label_en: Deepening
+  sort_order: 70
+  description: Inhalte verarbeiten, eigene Perspektiven entwickeln.
+
+- code: group_work
+  label_de: Gruppenarbeit
+  label_en: Group work
+  sort_order: 80
+  description: Kooperation in Klein- oder Großgruppen, Perspektivenintegration.
+
+- code: practice
+  label_de: Anwendung & Übung
+  label_en: Practice / application
+  sort_order: 90
+  description: Gelerntes auf Fälle anwenden, üben, ausprobieren.
+
+- code: reflection
+  label_de: Reflexion
+  label_en: Reflection
+  sort_order: 100
+  description: Rückschau auf das Erlebte, Lernwirksamkeit bewusst machen.
+
+- code: feedback
+  label_de: Feedback
+  label_en: Feedback
+  sort_order: 110
+  description: Rückmeldung geben und nehmen — zur Trainer:in, Gruppe, sich selbst.
+
+- code: transfer
+  label_de: Transfer
+  label_en: Transfer
+  sort_order: 120
+  description: Brücke in den Arbeits-/Lernalltag bauen, Umsetzung planen.
+
+- code: evaluation
+  label_de: Evaluation
+  label_en: Evaluation
+  sort_order: 130
+  description: Systematische Bewertung des Lernerfolgs und der Veranstaltung.
+
+- code: closing
+  label_de: Abschluss
+  label_en: Closing
+  sort_order: 140
+  description: Bewusster Abschluss, Verabschiedung, Ausblick.

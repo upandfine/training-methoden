@@ -1,0 +1,242 @@
+slug: quiz-digital
+canonical_name: Digitales Live-Quiz
+synonyms:
+  - synonym: Live Quiz
+    language: en
+  - synonym: Online-Quiz
+    language: de
+  - synonym: Audience-Response-Quiz
+    language: de
+short_description: >
+  Kurze Wissens- oder Meinungsquiz per Audience-Response-Tool, bei dem alle TN
+  gleichzeitig per Smartphone/Laptop antworten. Punkte, Rangliste und
+  Echtzeit-Auswertung. Schnelle Aktivierung und Lernkontrolle in einem.
+originator: null
+origin_context: >
+  Didaktische Tradition: Audience Response Systems aus der Hochschullehre
+  (Clicker Questions, E. Mazur). Heute breit in Unternehmens- und
+  Bildungskontexten verbreitet durch Tools wie Kahoot!, Mentimeter oder Slido.
+phases:
+  - code: activation
+    is_primary: true
+  - code: input
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+    note: Teilnehmende brauchen ein eigenes Endgerät.
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: limited
+    note: Ohne gleichzeitige Teilnahme verliert das Format den Energizer-Charakter.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [activating, game, diagnostic, feedback]
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 25
+materials:
+  - Audience-Response-Tool (z.B. Kahoot!, Mentimeter, Slido — kostenlose Basistarife meist vorhanden)
+  - Beamer oder geteilter Bildschirm
+tags: [quiz, digital, gamification, live]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Peer Instruction: A User's Manual"
+    author: Eric Mazur
+    year: 1997
+    relation: originator
+    note: >
+      Mazurs Clicker-Questions an Harvard — pionierhaft für
+      Audience Response Systems in der Lehre.
+  - kind: article
+    title: "The use of audience response systems: Review of the literature"
+    author: Kay, R. H., LeSage, A.
+    year: 2009
+    relation: reference
+    note: >
+      Empirische Metastudie zu ARS in Hochschulen — zeigt
+      positive Effekte auf Aufmerksamkeit und Lernerfolg.
+  - kind: url
+    title: "Kahoot!"
+    url: https://kahoot.com/
+    relation: tool
+    note: Einer der verbreitetsten Audience-Response-Tools für Quizze.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Quiz vorbereiten (Prep, außerhalb der Session)
+    duration_minutes: 0
+    trainer_action: >
+      VOR dem Training: 5-10 Fragen im gewählten Tool
+      anlegen. Mix aus Wissens-, Meinungs-, Schätz-Fragen.
+      Antworten mit Schwierigkeits-Staffelung. Quiz in
+      Test-Durchlauf einmal durchspielen, um UI und Timing
+      zu prüfen.
+    participant_action: >
+      — (Vorbereitung, nur Trainer:in)
+    note: >
+      Fragen-Qualität ist Methodik-Wert. Triviale Fragen
+      ("ist der Himmel blau?") ermüden. Herausfordernde,
+      aber machbare Fragen ziehen TN rein. 5-10 Fragen
+      reichen für 15 min.
+  - order: 2
+    label: Einstieg & Tool-Einweisung
+    duration_minutes: 3
+    trainer_action: >
+      Quiz-Tool zeigen (Beamer). Access-Code oder QR-Code
+      teilen. 2-3 min für TN zum Einklinken. Kurz Spielregeln:
+      "Schnell + richtig = mehr Punkte." Ranking-Fokus
+      klären: spielerisch, kein echter Wettbewerb.
+    participant_action: >
+      Smartphone/Laptop nehmen, Quiz beitreten,
+      Nick-Name setzen.
+    note: >
+      Tool-Einweisung nicht überspringen. Wer sich nicht
+      einklinken kann, ist raus. Backup: Papier-Voting für
+      technisch Ausgeschlossene.
+  - order: 3
+    label: Quiz-Durchlauf (5-10 Fragen)
+    duration_minutes: 8
+    trainer_action: >
+      Fragen nacheinander präsentieren, 20-30 Sek pro Frage.
+      Nach jeder Frage: Auflösung + kurze Erklärung (30 Sek).
+      Zwischen-Ranking zeigen, aber nicht überbetonen.
+      Energie hochhalten durch Tempo.
+    participant_action: >
+      Fragen lesen, schnell antworten. Auflösung mitverfolgen,
+      Lerneffekt mitnehmen. Wettbewerb nicht zu ernst
+      nehmen.
+    note: >
+      Tempo macht Energizer-Charakter aus. 30 Sek pro Frage
+      ist schnell — Gefühl "auf Draht" sein. Bei komplexen
+      Fragen: 60 Sek, aber selten.
+  - order: 4
+    label: Debrief & Lerntransfer
+    duration_minutes: 4
+    trainer_action: >
+      Nach Quiz kurzer Debrief: "Welche Frage war
+      überraschend? Was hat Sie zum Nachdenken gebracht?"
+      Ranking würdigen, aber nicht verherrlichen.
+      Lerntransfer in Trainings-Kontext ziehen.
+    participant_action: >
+      Eigene Fehler/Erkenntnisse reflektieren. Gewinner:innen
+      applaudieren, auch anderen würdigen.
+    note: >
+      Debrief macht Quiz zu Lern-Tool statt Spiel. Konkrete
+      Erkenntnisse aus Fragen herausziehen. Ohne Debrief:
+      nur Spielspass, kein Lernen.
+
+variations:
+  - name: Klassisch (Kahoot!/Mentimeter-Quiz)
+    description: >
+      Live-Quiz mit 5-10 Multiple-Choice-Fragen, Ranking.
+      Standard-Variante.
+    when_to_use: >
+      Wissens-Reviews, Lernkontrollen, aktivierende
+      Pausen-Brücken. Funktioniert in allen Gruppengrößen
+      bis 200+.
+  - name: Meinungs-Quiz (ohne richtig/falsch)
+    description: >
+      Antworten sind Meinungen, kein Ranking. "Was halten
+      Sie für wichtiger — A oder B?" Zeigt Gruppen-
+      Verteilung.
+    when_to_use: >
+      Workshops, wenn Stimmungsbild oder Diagnose gefragt.
+      Kein Wettbewerb, mehr Reflexion.
+  - name: Team-Quiz
+    description: >
+      TN spielen in Teams (2-4 pro Team). Gemeinsame
+      Antworten. Mehr Kooperation, weniger Individual-
+      Wettbewerb.
+    when_to_use: >
+      Team-Building-Kontexte, wenn Zusammenarbeit trainiert
+      werden soll. Oft als Closing-Format.
+  - name: Quiz mit Reflexionspausen
+    description: >
+      Nach jeder 2-3 Fragen eine Reflexionsminute. TN
+      schreiben, was sie gelernt haben. Weniger Tempo,
+      mehr Tiefe.
+    when_to_use: >
+      Lern-Kontexte mit Stoff-Fokus. Wenn Verankerung
+      wichtiger als Aktivierung.
+  - name: Retro-Quiz (am Tagesende)
+    description: >
+      Fragen beziehen sich auf Inhalte des Tages. Erinnerungs-
+      Check mit Gamification. "Was haben wir gelernt?"
+    when_to_use: >
+      Abschluss-Quiz im Training, zur Wiederholung und
+      Wertschätzung des Gelernten.
+  - name: Hybrid Asynchron + Live
+    description: >
+      Quiz wird asynchron bereitgestellt (z.B. Kahoot-
+      Challenge über 24 h). Ergebnisse werden in nächster
+      Live-Session besprochen.
+    when_to_use: >
+      Berufsbegleitende Programme, wenn zeitliche Flexibilität
+      gewünscht. Verbindet selbst-gesteuerte Wiederholung
+      mit sozialem Element.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Technische Probleme (Tool startet nicht, Beitritts-
+      Code nicht sichtbar).
+    countermeasure: >
+      Tool vor Session durchtesten. Backup-Plan: Papier-
+      Quiz vorhalten. Bei Problemen: nicht frustriert
+      aufgeben, Alternative anbieten.
+    severity: common
+  - issue: >
+      Fragen zu trivial — Quiz wird langweilig.
+    countermeasure: >
+      Fragen-Niveau abstimmen zu Gruppe. Mix aus
+      Schwierigkeitsgraden. Selbst vorher testen:
+      "Ist das herausfordernd oder offensichtlich?"
+    severity: common
+  - issue: >
+      Ranking wird zu wichtig — kooperatives Lernen
+      leidet.
+    countermeasure: >
+      Framing: "Das ist ein Spiel, kein Assessment."
+      Ranking nicht groß in Szene setzen. Debrief auf
+      Lerninhalt fokussieren.
+    severity: common
+  - issue: >
+      Einige TN haben kein Endgerät oder Tech-Probleme.
+    countermeasure: >
+      Vorab Bedarf abfragen ("Bringen Sie Smartphone
+      mit"). Ersatzgeräte bereitstellen oder Team-
+      Variante (1 Gerät / 2-3 TN).
+    severity: common
+  - issue: >
+      Datenschutz-Bedenken (Tool sammelt TN-Daten).
+    countermeasure: >
+      DSGVO-konformes Tool wählen (z.B. Mentimeter EU-
+      Server, selbstgehostete Alternativen). TN können
+      pseudonyme Nicknames wählen. Vorab aufklären.
+    severity: common
+  - issue: >
+      In Corporate-Senior-Kontexten wirkt Gamification
+      unpassend.
+    countermeasure: >
+      Ranking abschalten, als "Umfrage" framen.
+      Mentimeter-Word-Cloud oder Skalen-Fragen statt
+      Punkte-Wettbewerb.
+    severity: common
+  - issue: >
+      Nach Quiz fehlt Debrief — nur "war lustig".
+    countermeasure: >
+      Debrief fest einplanen. Mindestens 2-3 konkrete
+      Lerninhalte aus dem Quiz extrahieren. Sonst bleibt
+      Spielcharakter dominant.
+    severity: common

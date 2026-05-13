@@ -1,0 +1,220 @@
+slug: flipped-classroom
+canonical_name: Flipped Classroom
+synonyms:
+  - synonym: Umgedrehter Unterricht
+    language: de
+  - synonym: Inverted Classroom
+    language: en
+short_description: >
+  Lerninhalte werden vorab (Video, Text, Podcast) asynchron konsumiert.
+  Die gemeinsame Zeit wird für Anwendung, Diskussion und Vertiefung genutzt.
+  Setzt voraus, dass TN die Vorbereitung wirklich machen.
+originator: Jonathan Bergmann, Aaron Sams
+origin_context: >
+  Geprägt um 2007 von Bergmann/Sams (High-School-Chemielehrer, Colorado);
+  wissenschaftlich unterfüttert durch Arbeiten von E. Mazur (Peer Instruction,
+  Harvard).
+phases:
+  - code: input
+    is_primary: true
+  - code: practice
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: good
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+    note: Kerngedanke ist genau dieser asynchron-synchron-Wechsel.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [didactic, cooperative]
+duration_min_minutes: 120
+duration_typical_minutes: 180
+duration_max_minutes: 480
+materials:
+  - Vorab-Lernmaterial (Video/Text), LMS oder Plattform
+tags: [blended-learning, asynchron, invertiert]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorab-Material erstellen/kuratieren
+    duration_minutes: 60
+    trainer_action: >
+      Lernmaterial auswählen oder produzieren: Video (8-15 min
+      ist Optimum), Text, Podcast, interaktives Modul. Kern-Lernziel
+      klar adressieren. Begleit-Fragen formulieren, die beim Konsum
+      mitdenken lassen („Woran erinnert dich X in deinem Alltag?").
+      Auf LMS/Plattform hochladen.
+    participant_action: >
+      Noch keine Aktion.
+    note: >
+      Videos über 20 min sinken in der Abschlussrate drastisch. Mehrere
+      kurze Clips schlagen eine lange Aufnahme. Untertitel Pflicht.
+  - order: 2
+    label: Vorab-Self-Check aktivieren
+    duration_minutes: 15
+    trainer_action: >
+      Kurzes Self-Quiz nach dem Material (3-5 Fragen) einrichten,
+      das TN vor der Präsenz-Einheit machen sollen. Ergebnisse
+      sichtbar für Trainer:in (nicht bewertend, diagnostisch).
+    participant_action: >
+      Material konsumieren, Self-Quiz bearbeiten, Ausgangsfragen notieren.
+    note: >
+      Self-Quiz ist hebelstark: gibt TN Feedback über eigenes Verständnis
+      und erlaubt der Leitung, die Präsenz-Einheit zu justieren.
+  - order: 3
+    label: Eröffnung der Präsenz-Einheit (Just-in-Time Teaching)
+    duration_minutes: 20
+    trainer_action: >
+      Self-Quiz-Ergebnisse kurz reviewen. Typische Missverständnisse
+      ansprechen, Kernkonzept in 5 min wiederholen. KEIN Wiederholungs-
+      vortrag des Materials — Fokus auf was nicht verstanden wurde.
+    participant_action: >
+      Fragen stellen, eigene Stolperstellen benennen.
+    note: >
+      Wenn TN nicht vorbereitet sind: Methode bricht zusammen.
+      Plan B haben (Lesezeit einbauen) oder Fehlvorbereitung klar
+      benennen.
+  - order: 4
+    label: Anwendung (Kern der Präsenz-Zeit)
+    duration_minutes: 70
+    trainer_action: >
+      Aufgaben, die über reine Reproduktion hinausgehen: Fallanalyse,
+      Peer-Instruction-Fragen, Simulation, Gruppendiskussion, Problem-
+      lösung. Leitung wandert, coacht statt vorzutragen.
+    participant_action: >
+      In Kleingruppen anwenden, vergleichen, diskutieren. Stellen
+      Verbindungen zwischen Vorab-Material und konkreten Fällen her.
+    note: >
+      Hier liegt der eigentliche Wertgewinn gegenüber klassischem
+      Unterricht. Min. 60% der Präsenz-Zeit auf Anwendung verwenden.
+  - order: 5
+    label: Synthese & Transfer
+    duration_minutes: 15
+    trainer_action: >
+      Kernthesen clustern, Brücke zum nächsten Thema/Anwendungsfeld
+      schlagen. Transfer-Aufgabe mitgeben („Bis nächste Woche: probiere
+      X in deinem Arbeitskontext aus").
+    participant_action: >
+      Zusammenfassen, eigenen Transfer formulieren.
+    note: >
+      Ohne Transfer-Impuls verpufft auch das beste Flipped Classroom.
+
+variations:
+  - name: Klassisches Flipped Classroom
+    description: >
+      Vorab-Video (10-15 min) + Präsenz-Anwendung. Schule und Hochschule
+      Standardformat.
+    when_to_use: >
+      Stoff, der stabil und oft wiederholt wird (z.B. Grundlagen einer
+      Programmiersprache, Mathe-Konzepte).
+  - name: Flipped Mastery
+    description: >
+      TN arbeiten Kapitel im eigenen Tempo durch, müssen Mastery-Check
+      bestehen bevor nächstes Kapitel freigeschaltet wird. Präsenz-Zeit
+      ist individuelles Coaching.
+    when_to_use: >
+      Heterogene Gruppen, selbstgesteuertes Lernen, Erwachsenenbildung
+      mit unterschiedlichem Vorwissen.
+  - name: Peer-Instruction-Flip (Mazur)
+    description: >
+      Vorab-Material + in Präsenz: Concept-Test-Fragen, TN stimmen
+      individuell ab, dann Peer-Diskussion, dann erneute Abstimmung.
+    when_to_use: >
+      MINT-Fächer, Hochschule; wenn Kernkonzepte Fehlvorstellungen
+      haben, die im Peer-Austausch überwunden werden sollen.
+    setting_codes: [onsite, remote_sync, hybrid]
+  - name: Corporate Flipped Training
+    description: >
+      Vorab: E-Learning-Modul + Pre-Work-Aufgabe aus eigenem Arbeitskontext.
+      Präsenz (oft Remote-Sync): Fallbesprechung eigener Cases,
+      Rollenspiele.
+    when_to_use: >
+      L&D in Unternehmen, insbesondere bei verteilten Teams und
+      knappen Präsenz-Zeiten.
+  - name: Mini-Flip (1 Termin)
+    description: >
+      Vorab nur 3-5 min Material (Reading, Kurzvideo). Präsenz direkt
+      zur Anwendung. Eintrittshürde niedrig.
+    when_to_use: >
+      Wenn TN Flipped Classroom nicht gewohnt sind; als sanfter Einstieg
+      in das Format.
+
+pitfalls:
+  - issue: >
+      TN bereiten sich nicht vor — Plan zur Anwendung bricht zusammen,
+      Leitung muss spontan zum Frontal-Vortrag wechseln.
+    countermeasure: >
+      Erste Sitzungen: Self-Quiz ist Pflicht-Input. Ergebnisse sichtbar
+      für TN (nicht bewertend, aber sichtbar). Kurz aber explizit
+      thematisieren, warum Vorbereitung wertvoll ist.
+    severity: common
+  - issue: >
+      Vorab-Video ist zu lang (>20 min) oder zu langweilig — Abschlussrate
+      sinkt drastisch.
+    countermeasure: >
+      Mehrere 5-10-Minuten-Clips statt ein langer. Kleine Zwischenquizze
+      im Video. Produktionswert nicht überschätzen — Inhalt > Hochglanz.
+    severity: common
+  - issue: >
+      Präsenz-Einheit wird zur Wiederholung des Vorab-Materials —
+      Mehrwert gegenüber klassischem Unterricht geht verloren.
+    countermeasure: >
+      Regel: max 5 min Wiederholung, Rest Anwendung. Aufgaben-Qualität
+      ist der Hebel — Bloom-Taxonomie: Verstehen → Anwenden → Analysieren.
+    severity: common
+  - issue: >
+      Kein Kanal für Fragen zum Vorab-Material — TN bleiben in
+      Missverständnissen, tauchen aber damit in der Präsenz nicht auf.
+    countermeasure: >
+      Chat/Forum zum Vorab-Material, eine Frage als Pflicht abgeben.
+      Diese Fragen leiten die Präsenz-Einheit.
+    severity: common
+  - issue: >
+      Digitale Kluft — TN ohne stabiles Internet/Geräte können
+      nicht am Vorab-Material teilhaben.
+    countermeasure: >
+      Alternativen anbieten (Download, USB, Print). Vorab klären
+      wer Zugang hat. Ggf. Vorbereitungszeit vor Ort einplanen.
+    severity: rare
+  - issue: >
+      Methode wird einmalig ausprobiert, dann verworfen — TN-Gewohnheiten
+      brauchen 2-3 Zyklen.
+    countermeasure: >
+      Mindestens 3 Sitzungen Flipped durchziehen, TN-Feedback
+      einsammeln. Evaluation zeigt oft Nutzen erst ab Sitzung 2-3.
+    severity: common
+
+sources:
+  - kind: book
+    title: "Flip Your Classroom: Reach Every Student in Every Class Every Day"
+    author: Jonathan Bergmann, Aaron Sams
+    year: 2012
+    relation: originator
+  - kind: article
+    title: "Peer Instruction: Ten Years of Experience and Results"
+    author: Catherine H. Crouch, Eric Mazur
+    year: 2001
+    relation: reference
+    doi: 10.1119/1.1374249
+    note: Evidenzbasis für Peer-Instruction-Variante; Mazur/Harvard.
+  - kind: url
+    title: "Flipped Learning Network"
+    url: https://flippedlearning.org/
+    relation: practice_guide
+  - kind: article
+    title: "Is the flipped classroom effective? A meta-analysis"
+    author: Jacob Lowell Bishop, Matthew A. Verleger
+    year: 2013
+    relation: reference
+    note: Forschungsüberblick — Effekt moderat positiv, stark kontextabhängig.

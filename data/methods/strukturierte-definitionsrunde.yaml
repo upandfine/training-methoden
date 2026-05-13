@@ -1,0 +1,230 @@
+slug: strukturierte-definitionsrunde
+canonical_name: Strukturierte Definitionsrunde
+synonyms:
+  - synonym: Structured Definition Round
+    language: en
+short_description: >
+  Zu einem Kernbegriff notieren TN zunächst einzeln ihre Definition, dann
+  tauschen sie in Paaren, konsolidieren in Vierergruppen und präsentieren
+  eine gemeinsame Definition dem Plenum. Klärt Begrifflichkeit vor
+  tiefergehender Arbeit.
+originator: null
+origin_context: >
+  Praxisform aus der Hochschul- und Erwachsenenbildung; verwandt mit
+  Think-Pair-Share und 1-2-4-All (Liberating Structures).
+phases:
+  - code: input
+    is_primary: true
+  - code: deepening
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: In Breakouts 2er → 4er; Konsolidierung auf Whiteboard.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [ihk, adult_education, higher_education]
+method_types: [cooperative, didactic]
+duration_min_minutes: 20
+duration_typical_minutes: 35
+duration_max_minutes: 60
+tags: [definition, begriffsklaerung, progression]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: practice_guide
+  - kind: url
+    title: "Liberating Structures — 1-2-4-All"
+    url: https://www.liberatingstructures.com/1-1-2-4-all/
+    relation: reference
+    note: >
+      Strukturelle Verwandschaft mit der LS-Skalierung
+      Einzel → Paar → 4er → Plenum.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Begriff und Frage einführen
+    duration_minutes: 3
+    trainer_action: >
+      Kernbegriff sichtbar (Flipchart, Slide). Frage:
+      "Was verstehen Sie unter X?" Klar machen, dass
+      keine "richtige" Definition gesucht wird, sondern
+      Vielfalt der Verständnisse.
+    participant_action: >
+      Begriff lesen, Frage verstehen, eigene Assoziationen
+      aktivieren.
+    note: >
+      Begriffswahl entscheidet. Triviale Begriffe geben
+      wenig her ("Was ist ein Tisch?"). Streitige
+      Begriffe ("Erfolg", "Führung", "Qualität") sind
+      wertvoll.
+  - order: 2
+    label: Einzeldefinition (still)
+    duration_minutes: 5
+    trainer_action: >
+      5 min still: jede:r notiert eigene Definition.
+      Stichworte oder ein Satz reichen. Moderation
+      schweigt, hält Stille aus.
+    participant_action: >
+      Eigene Definition formulieren, ohne andere zu
+      fragen.
+    note: >
+      Stille zwingt zur eigenen Klärung. Wer dauernd
+      nachfragt, formuliert nicht ehrlich.
+  - order: 3
+    label: 2er-Paaraustausch
+    duration_minutes: 7
+    trainer_action: >
+      Paare bilden, je 3 min eigene Definition teilen,
+      dann 1 min gemeinsame Synthese. Definitions-
+      Unterschiede werden sichtbar.
+    participant_action: >
+      Eigene Definition vortragen, andere anhören.
+      Gemeinsame Synthese entwickeln.
+    note: >
+      Im Paar werden Wort-Wahl-Unterschiede greifbar.
+      "Wir meinen ähnliches, aber anders gewichtet."
+  - order: 4
+    label: 4er-Konsolidierung
+    duration_minutes: 10
+    trainer_action: >
+      Zwei Paare zu 4er. Beide Synthesen vergleichen,
+      EINE gemeinsame 4er-Definition entwickeln.
+      Visualisieren auf Karte/Sticky.
+    participant_action: >
+      Synthesen verschmelzen, gemeinsame Formulierung
+      finden, im Konsens festhalten.
+    note: >
+      4er-Konsens ist anspruchsvoll. Gerade hier wird
+      sichtbar: was ist Kern, was ist verzichtbar.
+  - order: 5
+    label: Plenum-Präsentation
+    duration_minutes: 7
+    trainer_action: >
+      Jede 4er-Gruppe präsentiert ihre Definition.
+      Moderation sammelt auf Flipchart, ohne zu
+      bewerten.
+    participant_action: >
+      Gruppen-Definition kurz präsentieren.
+    note: >
+      Nicht zu viel Diskussion zwischen Präsentationen
+      — erst alle hören, dann gemeinsam vergleichen.
+  - order: 6
+    label: Synthese & Brücke zum Thema
+    duration_minutes: 3
+    trainer_action: >
+      "Was sind Gemeinsamkeiten? Wo Unterschiede?
+      Was nehmen wir mit für die weitere Arbeit?"
+      Brücke zum Hauptthema schlagen.
+    participant_action: >
+      Synthese mitvollziehen, eigene Position im
+      Spektrum sehen.
+    note: >
+      Definitions-Vielfalt akzeptieren. Bei Bedarf
+      "Arbeits-Definition" für den Tag wählen, ohne
+      Wahrheits-Anspruch.
+
+variations:
+  - name: Klassisch (Einzel → Paar → 4er → Plenum)
+    description: >
+      Standard-1-2-4-All-Skalierung für Definitions-
+      Klärung.
+    when_to_use: >
+      Vor inhaltlich tieferer Arbeit, wenn Begriffs-
+      Klärung erforderlich. 8-30 TN.
+  - name: Kurz-Variante (Einzel + Paar + Plenum)
+    description: >
+      Ohne 4er-Phase. Schneller, weniger Konsens-
+      Arbeit.
+    when_to_use: >
+      Zeitknappe Settings, wenn Vielfalt wichtiger
+      als Konsens.
+  - name: Mit Visualisierung (Mind-Map)
+    description: >
+      Definitionen werden als Mind-Map gesammelt.
+      Begriffs-Cluster entstehen visuell.
+    when_to_use: >
+      Wenn graphische Übersicht erwünscht, längere
+      Sessions.
+  - name: Definitions-Galerie
+    description: >
+      4er-Gruppen schreiben Definitionen auf Plakate,
+      Gallery Walk im Plenum statt Präsentation.
+    when_to_use: >
+      Bei vielen Gruppen (4+), um Plenum-Phase zu
+      kürzen.
+  - name: Remote (Mural/Miro)
+    description: >
+      Sticky Notes für Definitionen, Konsolidierung
+      digital. Sehr gut online.
+    when_to_use: >
+      Online-Trainings.
+    setting_codes: [remote_sync]
+  - name: Etymologische Variante
+    description: >
+      Vor 1-2-4-All: Etymologie / Wortgeschichte des
+      Begriffs einführen. Mehr Tiefe, akademischer.
+    when_to_use: >
+      Hochschul-Kontext, philosophische Themen.
+
+pitfalls:
+  - issue: >
+      Begriff zu trivial — Definitionen banal.
+    countermeasure: >
+      Streitige, gehaltvolle Begriffe wählen ("Erfolg",
+      "Führung", "Qualität"). Bei Trivialem: andere
+      Methode.
+    severity: common
+  - issue: >
+      Konsens wird erzwungen — alle stimmen oberflächlich.
+    countermeasure: >
+      "Konsens ist nicht zwingend." Mehrere Definitionen
+      stehenlassen ist OK. Vielfalt > falscher
+      Konsens.
+    severity: common
+  - issue: >
+      Plenum-Phase wird Definitions-Streit.
+    countermeasure: >
+      Erst sammeln, dann gemeinsam Muster suchen. Keine
+      Bewertung von "richtig/falsch". Für Arbeit
+      pragmatische Definition wählen.
+    severity: common
+  - issue: >
+      Lange Definitionen — Diskussions-zerrend.
+    countermeasure: >
+      Limit: max. 1 Satz pro Definition. Zwingt zur
+      Pointierung. Ausgefeilte Definitionen ist andere
+      Methode.
+    severity: common
+  - issue: >
+      Bei großen Gruppen: zu viele 4er-Gruppen.
+    countermeasure: >
+      Galerie-Variante nutzen. Oder 6er statt 4er für
+      größere Konsolidierung.
+    severity: common
+  - issue: >
+      Stille-Phase wird unterbrochen — Gruppen-
+      Kontamination.
+    countermeasure: >
+      Klare Regel: Einzelphase ist still. Bei
+      Verstoß sanft erinnern.
+    severity: common

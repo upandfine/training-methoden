@@ -1,0 +1,256 @@
+slug: ls-25-10-crowd-sourcing
+canonical_name: 25-10 Crowd Sourcing
+synonyms:
+  - synonym: 25/10 Crowd Sourcing
+    language: en
+short_description: >
+  Liberating Structure: Jede:r schreibt eine mutige, ehrliche Idee auf eine
+  Karte. Karten werden rotiert und reihum in 5 Runden anonym bewertet
+  (1–5 Punkte). Die 10 besten werden sichtbar.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_context: >
+  Teil der Liberating Structures (liberatingstructures.com); CC-BY-NC 4.0 —
+  freie Verwendung mit Nennung erlaubt. Gut, um in Großgruppen schnell die
+  stärksten Ideen zu priorisieren.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital per vorbereiteter Ideen-Template und anonymen Voting-Feldern.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, creative, diagnostic]
+duration_min_minutes: 30
+duration_typical_minutes: 45
+duration_max_minutes: 60
+materials:
+  - Indexkarten oder digitale Template-Version
+tags: [liberating-structures, ideen, voting, grossgruppe]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — 25/10 Crowd Sourcing"
+    url: https://www.liberatingstructures.com/12-25-10-crowd-sourcing/
+    relation: originator
+    note: Vollständige Beschreibung. CC-BY-NC 4.0.
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+    note: Methodik-Einordnung und Fallstudien.
+  - kind: book
+    title: "Liberating Structures — Das Praxisbuch"
+    author: Mark Schenk, Daniel Steinhöfer
+    year: 2022
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ausgangsfrage scharfschneiden & Regeln erklären
+    duration_minutes: 5
+    trainer_action: >
+      Präzise Herausforderung formulieren: "Wenn Sie 10×
+      mutiger wären — was würden Sie tun, um X zu
+      erreichen?" Regeln: "Eine Idee pro Karte. Mutig,
+      konkret, umsetzbar. Keine Namen." Indexkarten
+      austeilen.
+    participant_action: >
+      Herausforderung aufnehmen, Regeln verstehen,
+      eigene Karte bereithalten.
+    note: >
+      Frage-Qualität entscheidet. Harmlose Fragen
+      produzieren harmlose Ideen. Je riskanter/
+      ehrlicher, desto wertvoller das Ergebnis.
+  - order: 2
+    label: Idee schreiben (still)
+    duration_minutes: 5
+    trainer_action: >
+      5 min still: jede:r schreibt EINE ehrliche, mutige
+      Idee auf Karte. Name NICHT drauf. Stichwort + max.
+      2 Sätze Erklärung.
+    participant_action: >
+      Still schreiben, so mutig wie ehrlich möglich.
+    note: >
+      Anonymität ist Kern. Ohne sie kommen brave Ideen.
+      Mit ihr: echte, vielleicht unbequeme Vorschläge.
+  - order: 3
+    label: Erste Rotation — Karten tauschen
+    duration_minutes: 2
+    trainer_action: >
+      "Stehen Sie auf, gehen Sie durch Raum. Wenn ich
+      Stopp sage: Karte mit Nachbar:in tauschen. Niemand
+      hat eigene Karte mehr." 2-3 Tausche.
+    participant_action: >
+      Aufstehen, mischen, Karten tauschen. Karte lesen,
+      um zu wissen, was zu bewerten ist.
+    note: >
+      Bewegung hilft — entzieht Karten der Identifikation.
+      Wer nach Tausch eigene Karte hat: weiter tauschen
+      bis fremde Karte.
+  - order: 4
+    label: Fünf Bewertungs-Runden (je 1 min)
+    duration_minutes: 10
+    trainer_action: >
+      5 Runden à 1-2 min: "Karte lesen, Punkte vergeben
+      (1-5, 5 = mutigste Umsetzung). Notieren auf Karten-
+      Rückseite. Dann wieder tauschen." Insgesamt 5
+      Wertungen pro Karte.
+    participant_action: >
+      Karte lesen, bewerten (1-5), Zahl notieren, Karte
+      tauschen. Wiederholen.
+    note: >
+      Moderation hält Tempo. Bei 2+ min pro Runde wird
+      Methode zäh. Gezielt Zeit-Druck erzeugen.
+  - order: 5
+    label: Top 10 identifizieren & sichtbar machen
+    duration_minutes: 5
+    trainer_action: >
+      "Karten durchlesen, Punkte addieren. Karten mit
+      ≥ 20 Punkten (theoretisch Maximum 25) in Mitte
+      legen." Moderation sammelt, heftet Top-10 an
+      Pinnwand.
+    participant_action: >
+      Eigene (gerade haltene) Karte auswerten. Top-
+      Karten abgeben.
+    note: >
+      Schwelle flexibel — 10 stärkste bestimmen. Nicht
+      strikt 20+. Ziel: Auslese der wertvollsten.
+  - order: 6
+    label: Top-Karten lesen & Diskussion
+    duration_minutes: 15
+    trainer_action: >
+      Top-10 laut vorlesen. Kurze Reaktion der Gruppe:
+      "Welche davon nehmen wir weiter? Welche wollen
+      Sie sich ansehen?" Diskussion über nächste
+      Schritte.
+    participant_action: >
+      Top-Karten hören, Reaktionen teilen, nächste
+      Schritte mittragen.
+    note: >
+      Die Diskussion ist wichtig — ohne sie bleiben Top-
+      Ideen "schön aufgelistet", aber nicht handlungs-
+      relevant.
+  - order: 7
+    label: Abschluss & Commitment
+    duration_minutes: 3
+    trainer_action: >
+      "Welche 2-3 werden Sie konkret weiterverfolgen?"
+      Owner-Commitment, Termin. Top-Karten fotografieren,
+      dokumentieren.
+    participant_action: >
+      Commitment geben, Owner-Rollen übernehmen.
+    note: >
+      Dokumentation Pflicht. Karten werden weggeworfen
+      ohne Foto — Ideen verlorengehend.
+
+variations:
+  - name: Klassisch (25/10 nach LS-Original)
+    description: >
+      Standard-Variante: 5 Bewertungs-Runden, Top 10
+      als Ergebnis.
+    when_to_use: >
+      Innovations-Workshops, Ideen-Priorisierung,
+      Strategie-Entwicklung. 15-100+ TN.
+  - name: Reduzierte Runden-Zahl
+    description: >
+      Nur 3 statt 5 Bewertungs-Runden. Schneller,
+      weniger Datenpunkte pro Karte.
+    when_to_use: >
+      Zeitknappe Settings. Weniger statistische
+      Verlässlichkeit.
+  - name: Themen-fokussiertes 25/10
+    description: >
+      Themen vorab festlegen, Karten dazu. Enger, aber
+      gezielter als offene Version.
+    when_to_use: >
+      Wenn Ideen-Pool auf spezifisches Problem bezogen
+      sein soll.
+  - name: Digital (Miro-Template)
+    description: >
+      Online: Karten als Sticky Notes, Voting-Funktion
+      (anonym), Rotationen per Drag-Drop.
+    when_to_use: >
+      Verteilte Teams, Online-Innovation-Workshops.
+    setting_codes: [remote_sync]
+  - name: Kleingruppen-Aggregation
+    description: >
+      In Kleingruppen à 5-8 jeweils 25/10 machen. Top-
+      Karten aller Gruppen zusammengeführt.
+    when_to_use: >
+      Sehr große Gruppen (50+). Macht Prozess
+      skalierbar.
+  - name: 10/10-Variante (kleinere Gruppen)
+    description: >
+      Mit 10 TN: nur 2 Runden, Top 5 statt Top 10.
+      Angepasste Skalierung.
+    when_to_use: >
+      Bei kleineren Gruppen, wenn 25/10 zu aufwendig.
+
+pitfalls:
+  - issue: >
+      Frage zu harmlos — Ideen bleiben brav.
+    countermeasure: >
+      Frage mit "mutiger"-Komponente: "Wenn Sie 10×
+      mutiger wären — was würden Sie tun?" Bei brav:
+      nachschärfen.
+    severity: common
+  - issue: >
+      Anonymität gebrochen — Karten identifizierbar.
+    countermeasure: >
+      Regel: "Keine Namen." Druckbuchstaben. Bei
+      Verdacht: Karte zurücknehmen, neu schreiben
+      lassen.
+    severity: common
+  - issue: >
+      Rotation funktioniert nicht — Karten bleiben
+      bei Eigentümer:in.
+    countermeasure: >
+      Bewegung erzwingen: "Alle aufstehen." Mehrere
+      Tausch-Runden. Bei Stocken: Moderation selbst
+      mittauschen.
+    severity: common
+  - issue: >
+      Bewertung wird taktisch — Eigene Karte wird
+      wiedererkannt, extra Punkte gegeben.
+    countermeasure: >
+      Nach 2-3 Rotationen ist Identifikation schwer.
+      Bei Verdacht: Moderation mischt selbst Karten.
+    severity: rare
+  - issue: >
+      Top-Karten werden nicht weiterverfolgt — Methode
+      bleibt ergebnislos.
+    countermeasure: >
+      Schritt 6 + 7 fest einplanen. Owner und Termine
+      vereinbaren. Ohne: Crowd-Sourcing ist
+      Methoden-Theater.
+    severity: common
+  - issue: >
+      Zu kleine Gruppe (< 15) — Bewertung statistisch
+      unaussagekräftig.
+    countermeasure: >
+      Bei < 15 TN: 10/10-Variante oder andere Methode
+      (Dot-Voting). 25/10 braucht kritische Masse.
+    severity: common
+  - issue: >
+      Lange Bewertungs-Texte auf Karten — Lesen dauert.
+    countermeasure: >
+      Regel: "Max. 2 Sätze." Bei Überlänge: Karten
+      zurückgeben, kürzen lassen. Lesezeit bestimmt
+      Tempo.
+    severity: common

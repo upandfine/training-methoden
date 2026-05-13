@@ -1,0 +1,203 @@
+slug: luftballon-jonglage
+canonical_name: Luftballon-Jonglage
+synonyms:
+  - synonym: Balloon Keep-Up
+    language: en
+short_description: >
+  Gruppe hält gemeinsam möglichst viele Luftballons gleichzeitig in der Luft.
+  Ergänzungen: nur mit Kopf/Schulter, Ballons nicht zweimal hintereinander von
+  derselben Person. Energizer mit Kooperationseffekt.
+originator: null
+origin_context: Erlebnispädagogik, Jugendarbeit.
+phases:
+  - code: warmup
+  - code: activation
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: unsuitable
+  - code: hybrid
+    suitability: unsuitable
+group_sizes: [small, medium]
+target_audiences: [school, youth, corporate]
+method_types: [energizer, game, cooperative]
+duration_min_minutes: 3
+duration_typical_minutes: 8
+duration_max_minutes: 12
+materials:
+  - 5–15 Luftballons
+tags: [bewegung, spielerisch, durchhaenger-brecher]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+    note: Luftballon-Spiele als niederschwellige Kooperationsübung.
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ballons aufblasen & Regeln erklären
+    duration_minutes: 2
+    trainer_action: >
+      5-15 Luftballons (je nach Gruppengröße, Faustregel:
+      Ballons = TN/2). Regel Grundstufe: "Gemeinsam alle
+      Ballons in der Luft halten." Startmoment ansagen.
+    participant_action: >
+      Raum bilden, bereit sein. Luftballons beobachten.
+    note: >
+      Genug Ballons, sodass es herausfordernd ist — nicht
+      so viele, dass Kontrolle unmöglich. Am besten vorab
+      testen.
+  - order: 2
+    label: Grundstufe — alle Ballons oben
+    duration_minutes: 3
+    trainer_action: >
+      Moderation wirft erste Ballons hoch. "Los geht's —
+      kein Ballon darf den Boden berühren." Zählt mit,
+      wie lange es klappt.
+    participant_action: >
+      Ballons schlagen, koordinieren, schnell bewegen,
+      aufmerksam auf alle Ballons, nicht nur den
+      nächsten.
+    note: >
+      Tempo hoch halten. Lachen gehört dazu. Bei Boden-
+      Kontakt neu starten. Motivierende Zwischen-Rufe
+      ("20 Sekunden bereits!") helfen.
+  - order: 3
+    label: Steigerung — Regel-Varianten
+    duration_minutes: 2
+    trainer_action: >
+      Schwieriger machen: "Nur mit Kopf und Schulter,
+      keine Hände" oder "Jede:r darf Ballon nur einmal
+      berühren, bevor andere dran waren". Oder "in 30 Sek
+      eine ganze Minute ohne Boden-Kontakt".
+    participant_action: >
+      Neue Regel integrieren, Kommunikation verstärken.
+    note: >
+      Variation hält Spiel frisch. Bei 2-3 Steigerungen:
+      richtiges Dosieren. Nicht zu schwer, sonst Frust.
+  - order: 4
+    label: Abschluss & optional kurze Reflexion
+    duration_minutes: 1
+    trainer_action: >
+      Nach 5-8 min guter Stimmung aussteigen. Kurze
+      Reflexion optional: "Was habt ihr über
+      Zusammenarbeit gelernt?" — kurz, nicht ausufernd.
+    participant_action: >
+      Ballons einsammeln, zur Sitzordnung zurück.
+      Energie mitnehmen.
+    note: >
+      Reflexion im Einsatz als Teambuilder nützlich. Bei
+      reinem Energizer: weglassen. Nicht zu ernst
+      analysieren — Spaß reicht.
+
+variations:
+  - name: Grundstufe (alle Ballons, alle Hände)
+    description: >
+      Standard: alle TN halten alle Ballons in der Luft,
+      keine Regel-Beschränkung.
+    when_to_use: >
+      Schnelle Energie-Aktivierung, Pausen-Brücke. 8-20
+      TN, ausreichend Platz.
+  - name: Steigerung mit Einschränkungen
+    description: >
+      Nur Kopf/Schulter, oder je Ballon nur eine
+      Berührung pro Person. Kombinierbar.
+    when_to_use: >
+      Nach 2-3 Runden Grundstufe, als Intensivierung.
+      Team-Building-Kontext.
+  - name: Kooperations-Zählen (gemeinsam X erreichen)
+    description: >
+      Ziel: gemeinsam 50 Berührungen hintereinander
+      schaffen, ohne Boden. Laut zählen. Wettbewerb mit
+      eigenem Rekord.
+    when_to_use: >
+      Wenn Teamspirit-Element gefragt. Auch als
+      Wettbewerb zwischen Teams möglich.
+  - name: Farbcode-Variante
+    description: >
+      Verschiedenfarbige Ballons haben verschiedene Regeln
+      (rot nur Kopf, grün nur Schulter). Hohe Komplexität.
+    when_to_use: >
+      Fortgeschrittene Gruppen, wenn Variations-
+      Herausforderung gewünscht.
+  - name: Team-Challenge (zwei Teams parallel)
+    description: >
+      Zwei Teams, jeweils eigene Ballons, wer hält länger?
+      Wettbewerbs-Charakter.
+    when_to_use: >
+      Wenn Wettbewerbs-Dynamik gewünscht. Bei
+      kompetitiven Gruppen.
+  - name: Indoor-Kurzform (kleiner Raum)
+    description: >
+      Weniger Ballons (3-5), kleinerer Raum, einfachere
+      Regel.
+    when_to_use: >
+      Enger Seminarraum. Als kurzer Energizer-Unterbruch.
+
+pitfalls:
+  - issue: >
+      Zu viele Ballons → Chaos, Regel-Auflösung.
+    countermeasure: >
+      Faustregel Ballons = TN/2. Bei Chaos reduzieren. Bei
+      Unterforderung ergänzen.
+    severity: common
+  - issue: >
+      Zu wenig Platz — Ballons reißen, kollidieren.
+    countermeasure: >
+      Raum prüfen: keine scharfen Kanten, genug Höhe.
+      Im engen Raum: Grundstufe kürzer, kein Toben.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN — Jonglieren nicht
+      möglich.
+    countermeasure: >
+      Sitz-Variante ermöglichen (sitzend Ballon halten,
+      von Nachbar bekommen). Niemand ausgeschlossen.
+    severity: rare
+  - issue: >
+      Allergien (Latex) — Luftballons ungeeignet.
+    countermeasure: >
+      Vorab fragen. Latexfreie Ballons verwenden, oder
+      andere Energizer (Obstsalat, Zipp-Zapp).
+    severity: rare
+  - issue: >
+      In Senior-Corporate-Kontext wirkt Spiel kindisch.
+    countermeasure: >
+      Zielgruppenprüfung. Senior-Corporate braucht andere
+      Energizer (Walk-and-Talk, Stretching). Luftballon
+      ist jugendnah.
+    severity: common
+  - issue: >
+      Nach 10 min wird's langweilig — Energie sinkt.
+    countermeasure: >
+      Max. 5-8 min. Bei erstem Hochpunkt aussteigen.
+      Lieber zu kurz als ermüdend.
+    severity: common
+  - issue: >
+      Wettkampf kippt zu hart — Team-Spirit wird
+      aggressiv.
+    countermeasure: >
+      Bei Wettbewerbs-Variante: Framing "Spaß, nicht
+      Krieg." Moderation moderiert Tonfall.
+    severity: common

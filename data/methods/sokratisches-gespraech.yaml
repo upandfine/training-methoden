@@ -1,0 +1,273 @@
+slug: sokratisches-gespraech
+canonical_name: Sokratisches Gespräch
+synonyms:
+  - synonym: Socratic Dialogue
+    language: en
+  - synonym: Sokratische Methode
+    language: de
+short_description: >
+  Moderierte Gesprächsform, bei der durch gezielte Fragen (statt Antworten)
+  Annahmen und Schlussfolgerungen der TN sichtbar und prüfbar gemacht werden.
+  Ziel: eigenständiges Denken, nicht Wissensvermittlung.
+originator: Leonard Nelson (moderne Form)
+origin_context: >
+  Rückgriff auf Sokrates (5. Jh. v.Chr., Platon); als didaktisches Format
+  durch Leonard Nelson (1922) und Gustav Heckmann (1981) systematisiert
+  („Neo-Sokratisches Gespräch").
+phases:
+  - code: deepening
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Funktioniert gut in kleinen Breakout-Runden; Gesprächsführung fordernder.
+  - code: remote_async
+    suitability: limited
+    note: >
+      Nur in der schriftlichen Variante (siehe Variation "Schriftliches
+      Sokratisches Gespräch"); synchron-dialogische Dichte geht dabei
+      verloren, strukturierte Fragekaskaden funktionieren aber.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [adult_education, higher_education]
+method_types: [reflective, cooperative]
+duration_min_minutes: 60
+duration_typical_minutes: 120
+duration_max_minutes: 240
+tags: [dialog, philosophisch, frageorientiert]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Die sokratische Methode"
+    author: Leonard Nelson
+    year: 1922
+    relation: originator
+    note: >
+      Nelsons moderne Wiederbelebung des sokratischen Ansatzes als
+      didaktisches Format für Erwachsenenbildung.
+  - kind: book
+    title: "Das sokratische Gespräch — Handbuch"
+    author: Detlef Horster
+    year: 2003
+    relation: practice_guide
+    note: Deutschsprachiges Standardwerk zur praktischen Durchführung.
+  - kind: book
+    title: "Philosophische Gespräche im Unterricht"
+    author: Gustav Heckmann
+    year: 1981
+    relation: reference
+    note: Heckmanns Weiterentwicklung in der didaktischen Praxis.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ausgangsfrage festlegen
+    duration_minutes: 10
+    trainer_action: >
+      Eine sokratische Frage wählen oder mit Gruppe finden.
+      Merkmale: offen, nicht mit Fakten beantwortbar, verlangt
+      Begriffsklärung ("Was ist Mut?", "Wann ist Kritik berechtigt?",
+      "Was macht eine gute Führungskraft aus?"). Kurze Erklärung
+      der Methode: "Ich frage, Sie antworten und hinterfragen.
+      Keine Lösung vorab."
+    participant_action: >
+      Frage verstehen, eigenen Vorab-Gedanken notieren (wird
+      später relevant).
+    note: >
+      Fragen müssen echt offen sein. "Was ist die Lösung für X?"
+      ist nicht sokratisch. "Was bedeutet es, wenn wir sagen X
+      sei gerecht?" schon. Mehr Zeit in Fragewahl investieren
+      lohnt.
+  - order: 2
+    label: Konkreter Ausgangsfall
+    duration_minutes: 15
+    trainer_action: >
+      TN berichten konkreten Fall aus eigener Erfahrung, der
+      zur Frage passt ("Erzählen Sie eine Situation, in der
+      Sie Mut zeigten"). Ein Fall wird gemeinsam gewählt —
+      möglichst prägnant, nachvollziehbar, diskutierbar.
+    participant_action: >
+      Eigene Situationen schildern, kollektiv entscheiden,
+      welcher Fall Ausgangspunkt wird.
+    note: >
+      Ohne konkreten Fall wird's abstrakte Philosophie-
+      Diskussion. Der Fall erdet die Methode, erlaubt
+      Realitätsbezug. Er darf später auch verlassen werden,
+      muss aber am Start stehen.
+  - order: 3
+    label: Analyse & prüfende Fragen
+    duration_minutes: 50
+    trainer_action: >
+      Moderation stellt Fragen: "Was genau heißt X hier?",
+      "Worauf schließen Sie das?", "Gilt das auch wenn...?",
+      "Woran würden wir merken, dass...?" Keine eigene
+      Meinung, kein Ausdeuten. Geduldig bleiben bei
+      Widersprüchen — die sind gewollt.
+    participant_action: >
+      Begriffe klären, eigene Annahmen prüfen, Gegenbeispiele
+      überlegen, anderen zuhören, Widerspruch äußern. Keine
+      Rechthaberei, aber Klarheit einfordern.
+    note: >
+      Herz der Methode. Moderation muss "fragende Haltung"
+      durchhalten — 50 min lang nichts behaupten. Das ist
+      anstrengend, aber gerade deshalb wirksam. Ein:e
+      dozierende:r Moderator:in ruiniert die Methode.
+  - order: 4
+    label: Konsens suchen (oder Dissens benennen)
+    duration_minutes: 20
+    trainer_action: >
+      "Können wir sagen, dass...?" / "Worin sind wir uns einig?
+      Worin nicht?". Ergebnisse formulieren. Konsens ist nicht
+      erzwingbar — auch ein klarer Dissens ist ein Ergebnis.
+      Formulierung gemeinsam scharf machen.
+    participant_action: >
+      Einigung / Dissens benennen, Formulierungen
+      mitverhandeln, eigene Position klären.
+    note: >
+      Konsens muss nicht kommen. Viele gute sokratische
+      Gespräche enden mit "Wir sehen, dass wir drei
+      verschiedene Positionen haben" — das ist lehrreich.
+      Künstlicher Konsens schadet mehr als offener Dissens.
+  - order: 5
+    label: Meta-Reflexion
+    duration_minutes: 15
+    trainer_action: >
+      Rückblick auf das Gespräch: "Was haben Sie im Denken
+      bemerkt? Wo haben Sie Ihre Position verändert? Wo
+      blockiert?" Fokus auf Prozess, nicht nur Inhalt.
+    participant_action: >
+      Eigenes Denken reflektieren, Denk-Bewegungen benennen,
+      Gruppe als Spiegel wahrnehmen.
+    note: >
+      Meta-Reflexion ist didaktisch besonders wertvoll — hier
+      wird "Denken lernen" sichtbar. In Bildungskontexten
+      nicht weglassen.
+  - order: 6
+    label: Transfer & Abschluss
+    duration_minutes: 10
+    trainer_action: >
+      "Was nehmen Sie für Ihren Alltag mit? Wo greift die
+      Einsicht?" Kurzer Bogen zurück zum Vorab-Gedanken:
+      "Wie hat sich Ihr Bild verändert?" Danksagung,
+      Gespräch förmlich schließen.
+    participant_action: >
+      Transfer formulieren, eigene Lern-Erkenntnis
+      benennen, Gespräch würdigen.
+    note: >
+      Sokratische Gespräche sind intensiv. Ritueller
+      Abschluss hilft, aus der Denk-Tiefe sauber ins
+      Alltagsbewusstsein zurückzukommen.
+
+variations:
+  - name: Neo-sokratisches Gespräch (Nelson/Heckmann)
+    description: >
+      Klassische Form: Ausgangsfall, strenger Regelkatalog,
+      Moderation rein fragend. Oft mehrstündig (2-4 h).
+    when_to_use: >
+      Akademisch-philosophische Kontexte, Erwachsenenbildung
+      mit Tiefen-Anspruch, Philosophie-Kurse.
+  - name: Sokratisches Gespräch im Business-Kontext (2-3h)
+    description: >
+      Gekürzte Form, thematisch fokussiert (Ethik, Führung,
+      Werte). Praxisfall aus der Organisation als
+      Ausgangspunkt.
+    when_to_use: >
+      Führungskräfte-Entwicklung, Ethik-Klärung, Werte-
+      Workshops in Organisationen.
+  - name: Kurzform-Sokratik (60 min)
+    description: >
+      Sehr kurze Fassung — Frage, Fall, 30 min Dialog, 10 min
+      Konsens. Weniger Tiefe, aber funktionales Einüben
+      sokratischer Gesprächsführung.
+    when_to_use: >
+      Methoden-Trainings (wenn Teilnehmende die Methode
+      lernen), Einstieg, Schnupper-Workshops.
+  - name: Schriftliches Sokratisches Gespräch
+    description: >
+      Statt mündlich: TN antworten schriftlich auf eine
+      Kaskade von Fragen. Moderation fragt in einem geteilten
+      Dokument/Forum. Zeitverzögert.
+    when_to_use: >
+      Asynchrone Kontexte, Fernunterricht, große Gruppen
+      mit individueller Betreuung.
+    setting_codes: [remote_async]
+  - name: Remote-Sokratik (Video)
+    description: >
+      Videokonferenz, möglichst alle Kameras an. Moderation
+      strukturiert, TN melden sich per Handzeichen. Chat
+      für Nebenfragen.
+    when_to_use: >
+      Verteilte Gruppen, wenn physisches Treffen nicht möglich.
+      Funktioniert, aber Dichte geringer als Präsenz.
+    setting_codes: [remote_sync]
+  - name: Fishbowl-Sokratik
+    description: >
+      Innere Gruppe (5-6) führt sokratisches Gespräch, äußere
+      beobachtet. Wechsel auf halber Strecke. Beobachtungs-
+      und Gesprächskompetenz parallel geübt.
+    when_to_use: >
+      Ausbildung für Gesprächsleitung (Coaches, Therapeut:innen).
+      Größere Gruppen, wenn nicht alle aktiv in Dialog können.
+
+pitfalls:
+  - issue: >
+      Moderation rutscht in Belehrung — erklärt, statt zu fragen.
+    countermeasure: >
+      Harte Selbstdisziplin: jede Aussage, die nicht Frage ist,
+      ist Regelverstoß. Ggf. Co-Moderation, die bei Abrutschen
+      leise korrigiert. Vorab: Trainings für sokratische
+      Gesprächsführung.
+    severity: common
+  - issue: >
+      Gruppe gibt schnelle Antworten, kein echtes Prüfen.
+    countermeasure: >
+      Nachfragen: "Woher wissen Sie das?", "Gilt das auch,
+      wenn...?", "Was wäre das Gegenbeispiel?". Zurück zum
+      konkreten Fall bringen, nicht im Abstrakten bleiben.
+    severity: common
+  - issue: >
+      Dominante Person kapert das Gespräch.
+    countermeasure: >
+      Moderation fragt explizit still gebliebene TN an:
+      "Was denken Sie dazu?". Regel: "Maximal 90 Sek. am
+      Stück." Bei Wiederholung: Sprechstab / Redekarte.
+    severity: common
+  - issue: >
+      Ausgangsfrage zu abstrakt — Gespräch schwebt, wird
+      zermürbend.
+    countermeasure: >
+      Zurück zum konkreten Fall: "Lassen Sie uns zu unserer
+      Beispielsituation zurückkehren. Wie wäre das dort?"
+      Philosophie erdet an Praxis.
+    severity: common
+  - issue: >
+      Teilnehmende fühlen sich unsicher — "man darf nichts
+      sagen".
+    countermeasure: >
+      Framing: "Falsche Antworten gibt's nicht, nur Denk-
+      Bewegungen." Vorab ein weniger bedrohliches Übungsbeispiel
+      (z.B. "Was ist ein Held?"). Sicherheit vor Tiefe.
+    severity: common
+  - issue: >
+      Konsens wird erzwungen, obwohl Dissens bleibt.
+    countermeasure: >
+      Dissens würdigen: "Wir sehen drei Positionen — das ist
+      ein Ergebnis." Nicht glätten, nicht zusammenfassen auf
+      Gemeinsamkeiten, die nicht da sind.
+    severity: common
+  - issue: >
+      Zeit läuft aus, Gespräch endet abrupt.
+    countermeasure: >
+      Meta-Reflexion + Abschluss fest einplanen (25 min). Bei
+      Zeitknappheit: Inhaltsteil abkürzen, nicht Abschluss.
+      Sokratisches Gespräch braucht Landung.
+    severity: common

@@ -1,0 +1,226 @@
+slug: dankbarkeits-runde
+canonical_name: Dankbarkeits-Runde
+synonyms:
+  - synonym: Gratitude Round
+    language: en
+  - synonym: Shout-Out-Runde
+    language: en
+short_description: >
+  Abschlussformat: Reihum bedankt sich jede:r TN bei einer anderen Person
+  aus der Gruppe konkret („Danke an X für …"). Stärkt Gruppenkohäsion,
+  macht Beitrag sichtbar, schließt auf positiver Note.
+originator: null
+origin_context: >
+  Verbreitet in der Positive-Psychology-Tradition (Seligman, Emmons)
+  und in agilen Ritualen („Kudo Cards" aus Management 3.0, Jurgen Appelo);
+  auch in Teambuilding- und Retrospektiv-Praxis.
+phases:
+  - code: closing
+    is_primary: true
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+    note: Als Dank-Nachrichten im Teamchannel oder auf einem Kudo-Board.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [feedback, reflective, cooperative]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 20
+tags: [dankbarkeit, abschluss, positive-psychologie, kudos]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Authentic Happiness"
+    author: Martin E. P. Seligman
+    year: 2002
+    relation: reference
+    note: >
+      Positive Psychology — Dankbarkeit als einer der
+      empirisch wirksamsten Wohlbefinden-Interventionen.
+  - kind: book
+    title: "Management 3.0"
+    author: Jurgen Appelo
+    year: 2010
+    relation: practice_guide
+    note: >
+      Kudo Cards als agiles Dankbarkeits-Instrument —
+      Popularisierung in Team-Retrospektiven.
+  - kind: article
+    title: "Counting blessings versus burdens: An experimental investigation of gratitude"
+    author: Emmons, R. A., McCullough, M. E.
+    year: 2003
+    relation: reference
+    note: Empirische Studie — Effekte regelmäßiger Dankbarkeits-Praxis.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Rahmen setzen & Freiwilligkeit klären
+    duration_minutes: 1
+    trainer_action: >
+      "Bevor wir heute schließen: eine Dankbarkeits-Runde.
+      Reihum sagt jede:r einen konkreten Dank an eine
+      andere Person. 'Danke an X für...' — ein Satz reicht."
+      Freiwilligkeit betonen: "Wer nicht will, sagt 'pass'."
+    participant_action: >
+      Zuhören, innerlich jemanden identifizieren, der heute
+      etwas beigetragen hat.
+    note: >
+      Konkretheit ist Schlüssel. "Danke für die Offenheit"
+      ist besser als "Danke für alles". Im Framing
+      konkret-Modell zeigen.
+  - order: 2
+    label: Einstiegs-Dank (Moderation)
+    duration_minutes: 1
+    trainer_action: >
+      Moderation startet mit konkretem Beispiel: "Ich möchte
+      mich bei Anna bedanken — ihre Frage zur Transfer-Methode
+      hat mich selbst zum Nachdenken gebracht." Konkret,
+      spezifisch, mit Begründung.
+    participant_action: >
+      Modelling wahrnehmen, eigenes Beispiel mental
+      vorbereiten.
+    note: >
+      Konkreter Bezug macht Dank wirksam. Pauschales "war
+      nett" wirkt hohl. Beispiel-Dank der Moderation als
+      Modelling, nicht als Zwang.
+  - order: 3
+    label: Reihum oder Popcorn-Runde
+    duration_minutes: 5
+    trainer_action: >
+      TN nacheinander: "Danke an X für Y." Reihum (Kreisordnung)
+      oder Popcorn (wer will, spricht). Bei Popcorn: kein
+      Druck, zu sprechen. Bei Reihum: Pass-Option explizit.
+    participant_action: >
+      Eigenen Dank aussprechen oder pass sagen. Dank anderer
+      hören, eigene Wahrnehmung bestätigt fühlen.
+    note: >
+      Emotionaler Raum entsteht. Pausen aushalten. Wer
+      länger überlegt, findet oft tieferen Dank. Hetzen killt.
+  - order: 4
+    label: Abschluss-Geste
+    duration_minutes: 2
+    trainer_action: >
+      Nach Abschluss der Runde: kurzer Dank an alle, die
+      teilgenommen haben. "Danke für die Offenheit." Übergang
+      zur Verabschiedung oder Ritual-Ende.
+    participant_action: >
+      Dank wahrnehmen, positiven Zustand mitnehmen.
+    note: >
+      Nicht gleich inhaltlich weiterziehen. Der emotionale
+      Moment braucht Raum zum Nachklingen. Dann sauber
+      verabschieden.
+
+variations:
+  - name: Klassisch (Reihum, 1-2 Sätze pro Person)
+    description: >
+      Standard-Variante: reihum, konkreter Dank, Pass-Option.
+    when_to_use: >
+      Seminar-Abschluss, Retrospektiven, Team-Events. 4-15
+      TN ideal.
+  - name: Kudos-Karten (Management-3.0-Stil)
+    description: >
+      TN schreiben Dank auf kleine Karten ("Kudo Cards"),
+      übergeben physisch oder digital. Haptischer, bleibt
+      als Erinnerung.
+    when_to_use: >
+      Agile Teams, Retrospektiven mit Material. Auch
+      asynchron nutzbar.
+  - name: Anonyme Dankbarkeit (Briefkasten)
+    description: >
+      TN werfen anonyme Dankeskarten in Box, die später
+      verteilt werden. Weniger Druck, mehr Ehrlichkeit.
+    when_to_use: >
+      Bei Gruppen mit Hierarchien oder Scheu vor öffentlichem
+      Dank. Integrations-Prozesse, sensible Kontexte.
+  - name: Dankbarkeits-Wand
+    description: >
+      Über mehrere Tage oder Wochen wird Dank auf
+      gemeinsamer Wand gesammelt. Jederzeit ergänzbar.
+      Kontinuierlich.
+    when_to_use: >
+      Längere Programme, Team-Räume, wenn Dankbarkeits-
+      Kultur aufgebaut werden soll.
+  - name: Remote (Chat oder Video)
+    description: >
+      Online: Dank direkt im Videocall (reihum), oder im
+      Chat (schriftlich). Emoji-Applaus nach jedem Dank.
+    when_to_use: >
+      Online-Trainings. Funktioniert gut — weniger
+      Körperlichkeit, aber gleiche emotionale Wirkung.
+    setting_codes: [remote_sync]
+  - name: Paar-Dankbarkeit
+    description: >
+      2er-Paare, je 1 min gegenseitiger Dank. Intimer,
+      weniger öffentlich. Keine Plenum-Phase.
+    when_to_use: >
+      Große Gruppen (>15), wenn reihum zu lang. Oder bei
+      Gruppen, die öffentliches Teilen scheuen.
+
+pitfalls:
+  - issue: >
+      Dank bleibt pauschal ("war alle toll!") — wirkt
+      hohl.
+    countermeasure: >
+      Im Framing Konkretheit fordern. Beispiel vorgeben
+      (Moderation-Modelling). Bei pauschalen Beiträgen
+      sanft nachfragen: "An wen konkret?"
+    severity: common
+  - issue: >
+      Einzelne TN werden mehrfach bedankt, andere gar
+      nicht — Asymmetrie.
+    countermeasure: >
+      Bei auffälliger Asymmetrie: am Ende Moderation
+      selbst bedanken, die unbeachteten Beiträge
+      würdigen. Nächstes Mal: Paar-Variante, wo alle
+      dran kommen.
+    severity: common
+  - issue: >
+      "Dank" wird zu implizitem Lob-Wettbewerb —
+      Stimmung kippt.
+    countermeasure: >
+      Framing: "Dank, nicht Lob. An eine Person, nicht
+      an Gruppe." Wenn es kippt: kurz unterbrechen und
+      Fokus zurückbringen.
+    severity: rare
+  - issue: >
+      Pass-Option wird ignoriert — Stille erwartet, man
+      muss sprechen.
+    countermeasure: >
+      Pass-Option mehrfach aktiv ansprechen. Nach jeder
+      Runde: "Wer möchte, bitte. Wer nicht, ist auch
+      gut." Freiwilligkeit durchhalten.
+    severity: common
+  - issue: >
+      In hierarchischen Gruppen wird Dank strategisch
+      (Chef zuerst loben).
+    countermeasure: >
+      Bei Gruppen mit Chef/Unterstellten: anonyme Variante.
+      Oder Paar-Dankbarkeit, die Hierarchie umgeht.
+    severity: common
+  - issue: >
+      Ritual wird abgenutzt durch zu häufige Nutzung.
+    countermeasure: >
+      Nicht in jeder Session einsetzen. Ca. alle 3-4 Sessions
+      oder bei besonderen Anlässen. Varianten wechseln.
+    severity: common
+  - issue: >
+      Dank wird unfreiwillig intim — emotional zu stark.
+    countermeasure: >
+      Framing: "Ein Satz, kein Roman." Zeitrahmen
+      begrenzen. Bei starker Emotion: Raum geben, nicht
+      ausschlachten, Übergang sanft setzen.
+    severity: rare

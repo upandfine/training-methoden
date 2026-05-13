@@ -1,0 +1,66 @@
+slug: klaerungshilfe
+canonical_name: Klärungshilfe
+synonyms:
+  - synonym: Klärungsgespräch
+    language: de
+  - synonym: Konfliktklärung
+    language: de
+  - synonym: Clarification Aid
+    language: en
+
+short_description: >
+  Spezielle Form der Konfliktbearbeitung nach Christoph Thomann: Ziel ist
+  nicht der "Frieden", sondern wechselseitiges Verstehen der inneren Welten.
+  Stark dialogisch, Empathie- und Affekt-orientiert. Unterscheidet sich von
+  Mediation durch tiefenpsychologischen Ansatz und längere, intensivere Sitzungen.
+
+originator: Christoph Thomann
+origin_context: >
+  Thomann (Schüler von Schulz von Thun) entwickelte die Klärungshilfe in den
+  1980/90ern als eigenständigen Ansatz. Heute Ausbildungsweg an der
+  Klärungshilfe-Akademie in Hamburg; verbreitet im Coaching von Führungs-
+  und Familienkonflikten.
+
+phases:
+  - code: practice
+    is_primary: true
+  - code: deepening
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Möglich, aber emotionale Resonanz schwerer wahrnehmbar.
+
+group_sizes: [one_on_one, small]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [cooperative, reflective]
+
+duration_min_minutes: 60
+duration_typical_minutes: 180
+duration_max_minutes: 480
+
+materials:
+  - Sitzkreis ohne Tisch, vier Stühle (zwei Konfliktparteien + zwei Helfer-Plätze)
+  - "Optional: Doppeln-Stühle für innere-Stimme-Arbeit"
+tags: [konflikt, klärung, dialog, gefuehl, coaching, mediation]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "Klärungshilfe 1-3"
+    author: Christoph Thomann
+    year: 2013
+    relation: originator
+    note: Drei-bändiges Standardwerk zur Klärungshilfe.
+  - kind: book
+    title: "Miteinander reden 4: Fragen und Antworten"
+    author: Friedemann Schulz von Thun
+    year: 2007
+    relation: reference
+    note: Theoretischer Hintergrund (Inneres Team, Doppeln).

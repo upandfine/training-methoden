@@ -1,0 +1,221 @@
+slug: ankommens-bildkarten
+canonical_name: Ankommens-Bildkarten
+synonyms:
+  - synonym: Fotokarten-Check-in
+    language: de
+  - synonym: Picture Card Check-in
+    language: en
+short_description: >
+  Teilnehmende wählen aus einer Auswahl von Bildkarten (30–80 Motive) diejenige
+  aus, die am besten ausdrückt, wie sie ankommen. Reihum wird kurz begründet.
+  Bildkarten senken die Einstiegshürde gegenüber rein verbalen Check-ins.
+originator: null
+origin_context: >
+  Bildkarten-Check-ins haben ihren Ursprung in systemischer Beratung und
+  Supervision (z.B. OH-Karten, Metaphernkarten von M. Egger); heute auch als
+  digitale Kartensets verfügbar (Klaxoon, Miro-Templates).
+phases:
+  - code: arrival
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digitale Kartensets (z.B. Miro-Templates, Pointz, Klaxoon) funktionieren sehr gut.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [icebreaker, reflective, visualization]
+duration_min_minutes: 10
+duration_typical_minutes: 15
+duration_max_minutes: 25
+materials:
+  - Bildkarten-Set (physisch oder digital)
+tags: [check-in, bildkarten, niederschwellig]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Metaphern — das Arbeitsmaterial"
+    author: Ulrich Pfeifer-Schaupp
+    year: 2014
+    relation: practice_guide
+    note: Systemische Metaphernarbeit mit Bildkarten.
+  - kind: url
+    title: "OH Cards — Originaltherapie-Karten"
+    url: https://www.ohcards-institute.org/
+    relation: reference
+    note: Pionier-Kartenset für metaphorische Arbeit.
+  - kind: book
+    title: "Moderationsmethoden in der Erwachsenenbildung"
+    author: Josef W. Seifert
+    year: 2014
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Karten-Auslage vorbereiten
+    duration_minutes: 2
+    trainer_action: >
+      Bildkarten (30-80 Motive) ausbreiten — Tisch,
+      Boden, oder digital auf Whiteboard. Ausreichend
+      Vielfalt: Natur, Alltag, abstrakt, Menschen,
+      Emotionen. Sichtbar für alle.
+    participant_action: >
+      Auslage betrachten, ankommen, erste Eindrücke
+      wirken lassen.
+    note: >
+      Vielfalt entscheidet. 30 Karten sind Minimum. Bei
+      weniger: eingeschränkte Wahl. Mindestens 3× mehr
+      Karten als TN.
+  - order: 2
+    label: Frage stellen & Auswahl-Zeit
+    duration_minutes: 3
+    trainer_action: >
+      "Wählen Sie eine Karte, die ausdrückt, wie Sie
+      heute ankommen." oder "Welche Karte entspricht
+      gerade Ihrem Zustand?" 2-3 min stille Auswahl.
+      Moderation beobachtet, greift nicht ein.
+    participant_action: >
+      Karten anschauen, intuitiv wählen, nicht zu lange
+      analysieren. Karte behalten (physisch) oder
+      markieren (digital).
+    note: >
+      Intuitions-Prinzip: "Welche ruft Sie an?" nicht
+      "Welche passt logisch?" Erste Reaktion ist oft die
+      stärkste.
+  - order: 3
+    label: Reihum teilen
+    duration_minutes: 8
+    trainer_action: >
+      Reihum: "Ich habe diese Karte gewählt, weil..."
+      20-60 Sek pro Person. Andere hören aktiv zu,
+      kommentieren nicht. Moderation sammelt
+      Stimmungsbild.
+    participant_action: >
+      Eigene Wahl teilen, so viel wie stimmig ist.
+      Anderen aufmerksam zuhören.
+    note: >
+      Kein Zwang zur Tiefe. Wer nur sagt "fand schön",
+      ist auch ok. Freiwilligkeits-Kultur sichern.
+  - order: 4
+    label: Gesamtbild wahrnehmen & Übergang
+    duration_minutes: 2
+    trainer_action: >
+      Kurz einordnen: "Ich nehme verschiedene Stimmungen
+      wahr — lassen Sie uns damit in die Session
+      gehen." Überleitung zum Hauptprogramm.
+    participant_action: >
+      Zurück zu Plätzen, Stimmung der Gruppe
+      wahrgenommen, mental auf Inhalt einstellen.
+    note: >
+      Karten können auf Pinnwand hängen bleiben — schafft
+      visuellen Anker für Stimmungslage des Tages.
+      Optional später wieder aufgreifen.
+
+variations:
+  - name: Klassisch (Bildkarten-Auslage + Runde)
+    description: >
+      Physische Kartenauslage, stille Auswahl, reihum
+      teilen. Standard-Variante.
+    when_to_use: >
+      Seminar-Einstieg, Coaching-Gruppen, längere
+      Workshops. 6-15 TN.
+  - name: OH-Karten oder Metapherkarten
+    description: >
+      Spezifische Kartensets (OH, COPE, Inner-Active
+      Cards) mit stärker metaphorischen Motiven.
+      Tiefere Arbeit möglich.
+    when_to_use: >
+      Coaching, Supervision, systemische Beratung.
+      Bei Vertrauens-Basis.
+  - name: Zufalls-Karte (verdeckt ziehen)
+    description: >
+      TN ziehen verdeckt, reagieren auf zugeteilte
+      Karte ("Was sagt mir diese Karte?"). Überraschungs-
+      Effekt.
+    when_to_use: >
+      Kreativer Einstieg, erfahrene Gruppen. Spielerisch.
+  - name: Zwei-Karten-Variante (Gefühl + Bedürfnis)
+    description: >
+      Zwei Karten wählen: "Wie geht's mir gerade?" + "Was
+      bräuchte ich?". Differenzierter.
+    when_to_use: >
+      Vertiefte Check-ins, längere Programme, Team-
+      Entwicklung.
+  - name: Digital (Miro-Template, Klaxoon)
+    description: >
+      Online-Kartensets auf Whiteboard. TN wählen per
+      Klick, teilen im Video.
+    when_to_use: >
+      Online-Trainings. Viele kostenlose Kartensets
+      digital verfügbar.
+    setting_codes: [remote_sync]
+  - name: Foto-Karten aus Alltag (selbst gemacht)
+    description: >
+      TN bringen eigene Fotos mit (Handy). Noch persönlicher,
+      aber aufwendiger vorzubereiten.
+    when_to_use: >
+      Längere Programme, wenn Eigenmaterial erwünscht.
+      Retreats, mehrtägige Workshops.
+
+pitfalls:
+  - issue: >
+      Karten-Auswahl zu klein — TN finden nichts passendes.
+    countermeasure: >
+      Mindestens 3× mehr Karten als TN. Vielfalt sichern
+      (nicht nur ein Stil). Bei Bedarf mehrere Sets
+      kombinieren.
+    severity: common
+  - issue: >
+      TN überanalysieren — zu lange Auswahl.
+    countermeasure: >
+      Intuitions-Framing: "Erstes Gefühl zählt." 2-3 min
+      Zeitlimit. Bei Stocken sanft zum Abschluss führen.
+    severity: common
+  - issue: >
+      Teilen wird zur Selbstdarstellung.
+    countermeasure: >
+      Zeit pro Person (30-60 Sek). Bei Überziehen sanft
+      kappen. Keine Nachfrage-Runde nach jeder Karte.
+    severity: common
+  - issue: >
+      Karten sind esoterisch angehaucht — Corporate-
+      Widerstand.
+    countermeasure: >
+      Neutralere Karten-Sets wählen (Alltag, Metaphern-
+      frei). Bei senior-Corporate: sachlicher framen
+      ("Bild-Check-in").
+    severity: common
+  - issue: >
+      Karten-Set wird nicht zurückgegeben / verloren.
+    countermeasure: >
+      Klares Abschluss-Ritual: "Karten zurücklegen." Bei
+      Kaufpreis-Sets: Ersatz-Karten vorab bestellen.
+    severity: common
+  - issue: >
+      In heterogenen Gruppen: intime Themen kommen.
+    countermeasure: >
+      Freiwilligkeit sichern. Bei starker Emotion: würdigen,
+      nicht ausdehnen. Einzelgespräch im Nachgang
+      anbieten wenn nötig.
+    severity: rare
+  - issue: >
+      Online-Bildkarten haben mindere Auswahl / schlechtere
+      Qualität.
+    countermeasure: >
+      Gute digitale Sets recherchieren (z.B. Unsplash-
+      Sammlungen, Klaxoon-Standard-Sets). Qualität
+      prüfen vor Einsatz.
+    severity: common
+    setting_codes: [remote_sync]

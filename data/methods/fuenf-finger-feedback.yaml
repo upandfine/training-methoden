@@ -1,0 +1,220 @@
+slug: fuenf-finger-feedback
+canonical_name: 5-Finger-Feedback
+synonyms:
+  - synonym: Hand-Feedback
+    language: de
+  - synonym: Five Finger Feedback
+    language: en
+short_description: >
+  Jeder Finger steht für eine Kategorie — Daumen (das war gut), Zeigefinger
+  (darauf weise ich hin), Mittelfinger (das fand ich schlecht), Ringfinger
+  (das nehme ich mit), kleiner Finger (das kam zu kurz). Strukturiert Feedback.
+originator: null
+origin_context: >
+  Mnemonische Feedback-Methode aus der Schul- und Jugendarbeit; heute auch
+  im Agile-Retrospektiven-Kontext populär.
+phases:
+  - code: feedback
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digital-Template mit 5 Spalten (je Finger) auf Miro/Mural.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [feedback, reflective]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 30
+tags: [feedback, mnemonik, strukturiert]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Retrospektiven in der Praxis: Frische Ideen für Teams"
+    author: Judith Andresen
+    year: 2017
+    relation: practice_guide
+    note: 5-Finger-Feedback als strukturiertes Retro-Format.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Finger-Bedeutungen erklären
+    duration_minutes: 3
+    trainer_action: >
+      Hand-Visualisierung (Flipchart oder Bildschirm).
+      Pro Finger Bedeutung: Daumen = "das war gut",
+      Zeigefinger = "darauf weise ich hin", Mittelfinger =
+      "das fand ich schlecht", Ringfinger = "das nehme
+      ich mit", kleiner Finger = "das kam zu kurz".
+    participant_action: >
+      Zuordnung verstehen, Bedeutung der Finger merken.
+    note: >
+      Humorvolle Eselsbrücke — Mittelfinger-Kategorie
+      macht Methode niederschwellig ernst-kritisch.
+      Bei sensiblen Kontexten ggf. alternative Finger-
+      Zuordnung wählen.
+  - order: 2
+    label: Einzelarbeit (Feedback ausfüllen)
+    duration_minutes: 10
+    trainer_action: >
+      Arbeitsblatt oder digitale Vorlage: Hand-Grafik mit
+      Feldern pro Finger. 10 min Zeit, alle Finger
+      beschreiben. Stichworte reichen.
+    participant_action: >
+      Eigenes Feedback pro Finger notieren. Ehrlich,
+      konkret, auch kritische Punkte.
+    note: >
+      Stille Arbeit ist wichtig. Wer erst später denkt,
+      bekommt oberflächliches Feedback. 10 min sind
+      Minimum für fünf Dimensionen.
+  - order: 3
+    label: Teilen in Kleingruppen oder Plenum
+    duration_minutes: 5
+    trainer_action: >
+      Je nach Gruppengröße: Kleingruppen à 4-5 (je 5 min)
+      oder Plenum-Runde. Teilen pro Finger, oder wählbar
+      (2-3 Finger pro Person).
+    participant_action: >
+      Eigenes Feedback teilen, anderen aufmerksam
+      zuhören.
+    note: >
+      Sharing nicht verpflichtend für alle Finger —
+      Freiwilligkeit. Mittelfinger-Kritik darf schwer
+      fallen, Pass-Option anbieten.
+  - order: 4
+    label: Moderation nimmt auf & Konsequenz
+    duration_minutes: 2
+    trainer_action: >
+      Schlüssel-Feedback bündeln: "Ich nehme mit:
+      Mittelfinger bei Länge, Ringfinger bei Übung X."
+      Ggf. Anpassung ankündigen.
+    participant_action: >
+      Rückmeldung der Moderation wahrnehmen. Eigenen
+      Wirkungs-Anteil spüren.
+    note: >
+      Konsequenz macht Feedback wirksam. Wer nur
+      sammelt, verliert Glaubwürdigkeit. Ehrlich, was
+      angepasst wird (und was nicht).
+
+variations:
+  - name: Klassisch (alle 5 Finger, Arbeitsblatt)
+    description: >
+      Standard-Variante: Hand-Arbeitsblatt, Einzelarbeit,
+      Teilen. Für Seminar-Abschluss.
+    when_to_use: >
+      Seminar-Ende, Team-Retros. 6-20 TN. Wenn
+      differenziertes Feedback gewünscht.
+  - name: 5-Finger mit abweichender Zuordnung
+    description: >
+      Finger-Bedeutungen anpassen an Kontext. Z.B.
+      Daumen = Stärke, Zeigefinger = Ziel, Mittelfinger
+      = Wichtig, Ringfinger = Bindung, Kleinfinger =
+      übersehen.
+    when_to_use: >
+      Wenn Mittelfinger-Assoziation unpassend (formale
+      Corporate, interkulturelle Gruppen).
+  - name: Digital-5-Finger (Miro/Mural)
+    description: >
+      Hand-Template auf Whiteboard, je Finger eine
+      Sticky-Note-Zone. TN füllen parallel, sehen
+      gegenseitig.
+    when_to_use: >
+      Online-Trainings, große Gruppen. Template
+      wiederverwendbar.
+    setting_codes: [remote_sync]
+  - name: Kurz-5-Finger (1 Kategorie pro Person)
+    description: >
+      Jede:r teilt nur 1 Finger-Beitrag, reihum. Sehr
+      kurz, dafür alle aktiv.
+    when_to_use: >
+      Zeitknappe Settings, wenn Gruppe schnell Feedback
+      geben soll.
+  - name: Team-5-Finger (gemeinsam)
+    description: >
+      Team-Konsens pro Finger. Diskussion statt
+      Einzelarbeit. Braucht Vertrauen.
+    when_to_use: >
+      Etablierte Teams, gemeinsame Wertung gewünscht.
+      Retrospektiven mit Konvergenz-Ziel.
+  - name: Dokumentierte Hand (Aushang)
+    description: >
+      Gruppen-Ergebnis als Hand-Plakat sichtbar
+      aufhängen. Kontinuierliche Erinnerung.
+    when_to_use: >
+      Längere Programme, Team-Räume, wenn Feedback
+      präsent bleiben soll.
+
+pitfalls:
+  - issue: >
+      Mittelfinger-Kategorie macht Gruppe unsicher —
+      niemand kritisiert.
+    countermeasure: >
+      Vorab framen: "Kritik ist willkommen, ehrliches
+      Feedback hilft mehr als höfliches." Pass-Option
+      für Mittelfinger zulassen.
+    severity: common
+  - issue: >
+      Finger-Bedeutungen werden vergessen — Zuordnungs-
+      Verwirrung.
+    countermeasure: >
+      Hand-Visualisierung durchgehend sichtbar. Während
+      Arbeit nochmal zeigen. Arbeitsblatt enthält
+      Bedeutungen schriftlich.
+    severity: common
+  - issue: >
+      Alle Finger müssen ausgefüllt — künstliches
+      Feedback.
+    countermeasure: >
+      Regel: "Nicht alle müssen, nur wo Sie wirklich
+      was haben." Lieber 3 echte als 5 erfundene.
+    severity: common
+  - issue: >
+      In formalem Corporate wirkt Finger-Metapher
+      unpassend.
+    countermeasure: >
+      Alternative Zuordnung wählen (siehe Variation).
+      Oder andere Retro-Methode. Metapher muss
+      anschlussfähig sein.
+    severity: common
+  - issue: >
+      Moderation sammelt, aber reagiert nicht.
+    countermeasure: >
+      Kurze Einordnung/Aufnahme explizit. "Folgende
+      3 Punkte nehme ich mit..." Transparente Anpassung.
+    severity: common
+  - issue: >
+      Sharing wird zu Marathon — alle 5 Finger pro Person.
+    countermeasure: >
+      Zeit-Limit (30-60 Sek pro Person). Oder
+      selektives Sharing (2-3 Finger pro Person wählbar).
+    severity: common
+  - issue: >
+      Ringfinger-Kategorie ("das nehme ich mit") wird
+      generisch.
+    countermeasure: >
+      Konkretheits-Impuls: "Was genau? Wann werden Sie
+      das einsetzen?" Transfer-nah machen.
+    severity: common

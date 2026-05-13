@@ -1,0 +1,240 @@
+slug: peer-teaching
+canonical_name: Peer Teaching
+synonyms:
+  - synonym: Lernen durch Lehren
+    language: de
+  - synonym: LdL
+    language: de
+short_description: >
+  Teilnehmende erarbeiten Teilthemen und lehren sie den anderen. Der Lernzuwachs
+  der Lehrenden übertrifft häufig den der Zuhörenden („wer lehrt, lernt").
+originator: Jean-Pol Martin (Lernen durch Lehren, LdL)
+origin_year: 1985
+origin_context: >
+  Martins LdL-Konzept, ursprünglich für Fremdsprachenunterricht; heute in
+  Didaktik und Erwachsenenbildung verbreitet.
+phases:
+  - code: practice
+    is_primary: true
+  - code: input
+  - code: group_work
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Vortragende teilen Bildschirm / erklären an digitalem Whiteboard.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [didactic, cooperative, activating]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 120
+tags: [lernen-durch-lehren, vertiefung, verantwortungsuebergabe]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Lernen durch Lehren — Konzeption und Praxis"
+    author: Jean-Pol Martin
+    year: 1985
+    relation: originator
+    note: >
+      Martins Grundlagenwerk zum LdL-Konzept, ursprünglich
+      für Fremdsprachenunterricht.
+  - kind: article
+    title: "Lernen durch Lehren: Paradigmenwechsel in der Didaktik?"
+    author: Joachim Grzega, Marion Schöner
+    year: 2008
+    relation: reference
+    note: >
+      Empirische Evidenz zum Lerneffekt bei Lehrenden —
+      "Protégé-Effekt".
+  - kind: book
+    title: "Make It Stick — The Science of Successful Learning"
+    author: Peter C. Brown et al.
+    year: 2014
+    relation: practice_guide
+    note: >
+      Kognitionspsychologische Grundlage: Wissen tief
+      verankert sich durch Anwendung, besonders durchs
+      Erklären.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Themen-Aufteilung & Gruppenbildung
+    duration_minutes: 5
+    trainer_action: >
+      Thema in Teilthemen zerlegen (4-6 Teilthemen für 4-6
+      Untergruppen). Jede Gruppe bekommt ein Teilthema.
+      Auftrag klar: "Erarbeiten Sie es so, dass Sie es dann
+      den anderen verständlich machen können." Zeitrahmen
+      (z.B. 30 min Vorbereitung + 5 min Lehren pro Gruppe).
+    participant_action: >
+      Gruppe finden, Teilthema verstehen, innerlich die
+      Rolle als Lehrende annehmen.
+    note: >
+      Wichtig: Themen gleichgewichtig zerlegen. Eine zu
+      umfangreiche Portion überfordert, zu kleine
+      entwertet. Vorher testen, ob Zerlegung aufgeht.
+  - order: 2
+    label: Erarbeitungsphase (Vorbereitung)
+    duration_minutes: 30
+    trainer_action: >
+      Gruppen erarbeiten ihr Thema — lesen Material, sprechen
+      durch, einigen sich auf Vermittlungs-Ansatz. Trainer:in
+      wandert, gibt Impulse, coached zur Vermittlung:
+      "Wie werden andere das verstehen?"
+    participant_action: >
+      Thema durchdringen, Kernaussagen identifizieren,
+      Vermittlungs-Methodik planen (Tafelbild? Übung?
+      Beispiel?).
+    note: >
+      Vermittlungs-Methodik ist Teil der Aufgabe. Gruppen
+      lernen, didaktisch zu reduzieren — "Was ist das
+      WICHTIGSTE, was bleibt?". Das ist oft wertvoller
+      als der Inhalt selbst.
+  - order: 3
+    label: Lehrende-Phase (Präsentation)
+    duration_minutes: 20
+    trainer_action: >
+      Jede Gruppe lehrt ihr Thema (ca. 5 min pro Gruppe).
+      Nach jeder Lehre: Verständnis-Prüfung ("Was haben
+      Sie verstanden?"). Gruppe kann kurze Übung / Frage
+      integrieren.
+    participant_action: >
+      Lehrende: mit didaktischer Haltung vortragen. Rest:
+      aufmerksam zuhören, Fragen stellen, Verständnis
+      prüfen.
+    note: >
+      Lehrende tragen Inhalts-UND Vermittlungs-Verantwortung.
+      Bei Unsicherheit: Moderation hilft fachlich, nicht
+      inhaltlich. "Dürfen" die Lehrenden auch nicht alles
+      wissen müssen.
+  - order: 4
+    label: Gemeinsame Integration
+    duration_minutes: 5
+    trainer_action: >
+      Rückblick im Plenum: "Was haben Sie heute
+      zusammengetragen?" Querbezüge zwischen Themen
+      herstellen. Moderation ergänzt nur das Nötigste —
+      Hauptarbeit ist im Dialog.
+    participant_action: >
+      Querbezüge selbst aufmachen. "Unser Thema hängt
+      mit dem von Gruppe 3 so zusammen..." Kollektive
+      Sinnstiftung.
+    note: >
+      Integration schließt den Lernprozess. Ohne sie
+      bleiben die Teilthemen nebeneinander stehen. Moderation
+      moderiert Verknüpfungen, ohne sie vorzugeben.
+
+variations:
+  - name: Klassisches LdL (Fachthemen)
+    description: >
+      Standard-Variante: Themen-Zerlegung, Gruppen-
+      Vorbereitung, Plenums-Lehrphase. Nach Martin.
+    when_to_use: >
+      Schule, Hochschule, fachliche Trainings.
+      Mittlere bis lange Sessions (60-120 min).
+  - name: Buddy-Teaching (2er-Paare)
+    description: >
+      Pro Paar ein Thema. Zwei Paare treffen sich, lehren
+      sich gegenseitig. Weniger Öffentlichkeit, mehr
+      Intimität.
+    when_to_use: >
+      Kleine Gruppen, vertiefte Peer-Interaktion, Sprach-
+      Trainings (Fremdsprachen-LdL ist Ursprung).
+  - name: Jigsaw-Methode (Gruppenpuzzle)
+    description: >
+      Expertengruppen erarbeiten Teilthemen, dann Mischgruppen
+      mit je einer Expert:in pro Thema. (Siehe eigenständige
+      Methode `gruppenpuzzle`.)
+    when_to_use: >
+      Wenn mehrere Themen parallel und strukturiert
+      ausgetauscht werden sollen. Strukturierteres Format.
+  - name: Peer-Coaching mit Lehrauftrag
+    description: >
+      Erfahrene lehren weniger Erfahrene in 1:1- oder 1:2-
+      Settings. Beruflicher Wissenstransfer-Kontext.
+    when_to_use: >
+      Onboarding, Berufsausbildung, Mentoring-Programme.
+      Wenn Erfahrungsgefälle vorhanden.
+  - name: Remote Peer Teaching (Video + Whiteboard)
+    description: >
+      Vorbereitung in Breakouts, Lehrphase mit Screenshare
+      im Plenum. Dokumentation parallel.
+    when_to_use: >
+      Online-Trainings, verteilte Lerngruppen. Funktioniert
+      gut, braucht tool-affine Gruppe.
+    setting_codes: [remote_sync]
+  - name: Lernvideos erstellen (LdL digital)
+    description: >
+      Gruppen erstellen kurzes Lernvideo (3-5 min) zu ihrem
+      Thema. Asynchron, nachhaltig, oft wiederverwendbar.
+    when_to_use: >
+      Längere Programme, wenn Lernmaterial entstehen soll.
+      Auch für Bildung-Communities/MOOCs.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Themen-Zerlegung ungleichgewichtig — manche Gruppen
+      überfordert, andere unterfordert.
+    countermeasure: >
+      Vorher testen: Wie schwer ist jedes Teilthema? Bei
+      Unklarheit gleichgewichtiger zerlegen oder
+      Untergruppen-Unterstützung anbieten.
+    severity: common
+  - issue: >
+      Lehrphase wird zur Vorleseübung — keine didaktische
+      Reduktion.
+    countermeasure: >
+      In Erarbeitungsphase coachen: "Was ist das EINE, was
+      alle verstehen müssen?" Beispiel guter didaktischer
+      Reduktion vorab zeigen.
+    severity: common
+  - issue: >
+      Zuhörende Gruppen bleiben passiv — lernen weniger.
+    countermeasure: >
+      Aktive Rollen für Zuhörende: Verständnisprüfung,
+      Fragen stellen, Zusammenfassung. Nicht nur konsumierend.
+    severity: common
+  - issue: >
+      Unsicherheit der Lehrenden bei Rückfragen — peinlich.
+    countermeasure: >
+      Kultur: "Nicht-Wissen ist normal, gemeinsam klären
+      ist die Methode." Moderation kann unterstützend
+      einspringen, aber nicht übernehmen.
+    severity: common
+  - issue: >
+      Querbezüge werden nicht gezogen — Themen stehen
+      isoliert.
+    countermeasure: >
+      Integrationsphase fest einplanen. Explizit fragen:
+      "Wie hängt das mit Thema 3 zusammen?" Moderation
+      moderiert Verknüpfung.
+    severity: common
+  - issue: >
+      Zeitrahmen sprengt — Lehrphase zieht sich.
+    countermeasure: >
+      Striktes Timing pro Lehrphase (5-7 min). Timer sichtbar.
+      Bei Überzug: sanft kappen, Ergänzung in Integrationsphase.
+    severity: common
+  - issue: >
+      Faktisch falsches Wissen wird "durchgereicht" —
+      Fehler pflanzen sich fort.
+    countermeasure: >
+      Moderation hört zu und korrigiert im Bedarfsfall
+      freundlich. Nicht ignorieren — Fehler würden das
+      Lerngefüge korrumpieren. Faktenchecks in
+      Integrationsphase.
+    severity: common

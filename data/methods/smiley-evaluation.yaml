@@ -1,0 +1,207 @@
+slug: smiley-evaluation
+canonical_name: Smiley-Evaluation
+synonyms:
+  - synonym: Smiley Evaluation
+    language: en
+  - synonym: Gesichter-Abfrage
+    language: de
+short_description: >
+  Kurze Evaluation mit drei bis fünf Smiley-Gesichtern (sehr zufrieden … sehr
+  unzufrieden). Teilnehmende setzen einen Punkt oder Kreuz. Schnell,
+  niederschwellig, auch mit Kindern und geringer Sprachbarriere einsetzbar.
+originator: null
+origin_context: >
+  Piktografische Bewertungs-Skalen sind seit langem in Kita-, Schul- und
+  Feedbackkontexten verbreitet; digitale Smiley-Terminals haben das Format
+  später in der Kundenzufriedenheitsmessung popularisiert.
+phases:
+  - code: evaluation
+    is_primary: true
+  - code: feedback
+  - code: closing
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+    note: Als 1-Klick-Umfrage per E-Mail (z.B. HappyOrNot, Feedbackr, Typeform).
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [diagnostic, feedback, visualization]
+duration_min_minutes: 1
+duration_typical_minutes: 3
+duration_max_minutes: 5
+tags: [evaluation, kurz, niederschwellig]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Evaluation in der Weiterbildung"
+    author: Harald Geißler
+    year: 2010
+    relation: reference
+    note: >
+      Einordnung piktografischer Bewertungs-Skalen als
+      niedrigschwellige Evaluationsform.
+  - kind: url
+    title: "HappyOrNot — Smiley-Terminal Research"
+    url: https://www.happy-or-not.com/
+    relation: reference
+    note: >
+      Kommerzieller Anbieter, der Smiley-Evaluation in der
+      Kundenzufriedenheit skaliert hat — Stichwort "4-Button-Feedback".
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Skala vorbereiten & Frage ansagen
+    duration_minutes: 1
+    trainer_action: >
+      3-5 Smileys sichtbar: 😀 😊 😐 😕 😞 (oder nur 3 für
+      niedrigere Sprachbarriere). Frage klar formulieren:
+      "Wie geht es Ihnen mit dem heutigen Training?"
+      "War die Übung hilfreich?". Nicht mehrere Fragen auf
+      einmal.
+    participant_action: >
+      Skala sehen, Frage verstehen, innerlich antworten.
+    note: >
+      3 Smileys reichen meist. 5 wirken differenzierter, aber
+      bei kurzer Evaluation selten nötig. Entscheidung vorher
+      treffen, nicht im Raum improvisieren.
+  - order: 2
+    label: Punkt setzen / klicken
+    duration_minutes: 1
+    trainer_action: >
+      Alle gleichzeitig Punkt kleben (Flipchart) oder klicken
+      (digital). Gleichzeitigkeit verhindert Bandwagon-Effekt.
+      Bei physischer Skala: Klebepunkte oder Magnete.
+    participant_action: >
+      Gleichzeitig eigenen Punkt setzen, ehrlich, ohne auf
+      andere zu schauen.
+    note: >
+      Sequenzielle Abstimmung führt zu Konformitätsdruck —
+      "alle kleben beim lächelnden Smiley, ich auch". Bei
+      Bedarf anonyme Variante (Zettel einwerfen).
+  - order: 3
+    label: Ergebnis kurz ansprechen
+    duration_minutes: 1
+    trainer_action: >
+      Bild ansehen: "Ich sehe viele ☺, zwei 😐, einen ☹."
+      Kurze Einordnung: "Freut mich" / "Das nehme ich mit".
+      Bei kritischem Bild (viele ☹): kurze offene Frage
+      "Was ist passiert?".
+    participant_action: >
+      Ergebnis mitbekommen, optional etwas ergänzen
+      (freiwillig).
+    note: >
+      Smiley-Evaluation ist Schnellbefund, nicht Tiefen-
+      Analyse. Bei kritischem Bild sollte eine tiefere
+      Methode folgen (z.B. Ein-Minute-Paper).
+
+variations:
+  - name: Klassisch (3-5 Smileys, Punktkleben)
+    description: >
+      Standard-Variante: Flipchart mit Smileys, Klebepunkte.
+      Für Seminar-Ende, Übungs-Check.
+    when_to_use: >
+      Schnelles Stimmungsbild, kurze Sessions, auch mit
+      Kindern. 5-50 TN.
+  - name: Digital (Online-Formular mit Emojis)
+    description: >
+      Google Form / Mentimeter / HappyOrNot-Terminal. Anonym,
+      automatisch ausgewertet.
+    when_to_use: >
+      Online-Trainings, große Gruppen, kontinuierliche
+      Kundenbefragung.
+    setting_codes: [remote_sync, remote_async]
+  - name: Mehrdimensionale Smiley-Evaluation
+    description: >
+      Mehrere Fragen mit je eigener Smiley-Skala
+      (z.B. "Inhalt", "Methodik", "Trainer:in", "Lernklima").
+      Differenziertere Rückmeldung.
+    when_to_use: >
+      Wenn kategoriale Rückmeldung gewünscht ist und Smileys
+      die Sprachbarriere senken.
+  - name: Smiley + Freitext
+    description: >
+      Smiley plus offene Frage ("Was war besonders gut/
+      ungünstig?"). Kombiniert Schnelligkeit mit qualitativer
+      Tiefe.
+    when_to_use: >
+      Wenn auch konkrete Verbesserungsvorschläge erwünscht
+      sind. Mehr Aufwand bei Auswertung.
+  - name: Smiley-Wand (kontinuierlich)
+    description: >
+      An einem zentralen Ort (z.B. Foyer, Küche) dauerhaft
+      Smiley-Wand. TN setzen jederzeit einen Punkt.
+    when_to_use: >
+      Mehrtägige Konferenzen, Schul-Kontext, wenn
+      kontinuierliches Feedback gewünscht.
+  - name: Smiley mit Bildkarten (Kinder)
+    description: >
+      Statt Punktkleben: TN wählen eine Karte (Smiley +
+      optional ein Wort). Gut für jüngere Zielgruppen
+      und Sprach-Sensitivität.
+    when_to_use: >
+      Kita, Grundschule, DaZ-Kontexte, Integrations-
+      Trainings.
+
+pitfalls:
+  - issue: >
+      Sequenzielle Abstimmung führt zu Bandwagon — alle wählen
+      Mehrheit.
+    countermeasure: >
+      Gleichzeitigkeit durchsetzen ("auf drei kleben").
+      Anonyme Variante (Zettel einsammeln) bei Misstrauen.
+    severity: common
+  - issue: >
+      Höflicher Bias — alle wählen mittleren oder lächelnden
+      Smiley.
+    countermeasure: >
+      Framing: "Ehrliches Feedback hilft mir mehr als
+      höfliches." Anonymität sichern. Variante mit 5
+      Smileys erzwingt leichter Differenzierung.
+    severity: common
+  - issue: >
+      Ergebnis wird überinterpretiert — "80 % zufrieden"
+      als Beleg für Qualität.
+    countermeasure: >
+      Smiley-Evaluation ist Stimmungsbild, nicht valide
+      Messung. Sprachregel: "Ich sehe..." statt "X % waren
+      zufrieden". Keine Evaluation-Theater.
+    severity: common
+  - issue: >
+      Frage zu allgemein — "Wie war's?" liefert nichts
+      Nutzbares.
+    countermeasure: >
+      Konkretere Frage: "Wie zufrieden mit der Praxis-Übung?"
+      Bei mehreren Dimensionen: mehrere kurze Smiley-Fragen.
+    severity: common
+  - issue: >
+      Smiley-Evaluation ersetzt nötige tiefere Rückmeldung
+      — kritische Themen bleiben unsichtbar.
+    countermeasure: >
+      Smiley als Entry Point: Bei ☹-Häufung nachfragen mit
+      tieferer Methode (1-Min-Paper, Zielscheibe,
+      Einzelgespräch).
+    severity: common
+  - issue: >
+      Großen Gruppen wird Punktkleben Chaos — Klebepunkte
+      überlappen.
+    countermeasure: >
+      Digital-Variante bei > 30 TN. Oder mehrere parallele
+      Smileys (Gruppen-splits). Farben differenzieren.
+    severity: common

@@ -1,0 +1,264 @@
+slug: kollegiale-fallberatung
+canonical_name: Kollegiale Fallberatung
+synonyms:
+  - synonym: Intervision
+    language: de
+  - synonym: Peer Consulting
+    language: en
+short_description: >
+  Strukturiertes 6–8-Schritte-Format, in dem eine:r ein Praxisthema einbringt,
+  die Gruppe Hypothesen und Lösungsideen entwickelt. Rollen (Fallgeber:in,
+  Moderation, Beratende) sind klar getrennt. Ohne externe Berater:in.
+originator: null
+origin_year: null
+origin_context: >
+  Wurzeln im Balint-Gruppenformat und in Intervisionsansätzen; das heute häufig
+  verwendete 6-Schritte-Modell wurde im deutschsprachigen Raum u.a. durch Kim-Oliver Tietze popularisiert.
+phases:
+  - code: practice
+    is_primary: true
+  - code: group_work
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Sehr gut remote praktizierbar mit fester Rollenzuteilung und Chat für Ideenparkplatz.
+  - code: hybrid
+    suitability: good
+group_sizes: [small]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective]
+duration_min_minutes: 45
+duration_typical_minutes: 75
+duration_max_minutes: 120
+tags: [peer-beratung, struktur, praxisreflexion]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: Kollegiale Beratung
+    author: Kim-Oliver Tietze
+    year: 2003
+    relation: reference
+  - kind: book
+    title: "Kollegiale Beratung — Problemlösungen gemeinsam entwickeln"
+    author: Kim-Oliver Tietze
+    year: 2022
+    relation: practice_guide
+    note: Aktualisierte Ausgabe mit Remote-Kapitel.
+  - kind: book
+    title: "Intervision — Ein Handbuch"
+    author: Jörg Fellermann, Erhard Franz Schiffer
+    year: 2019
+    relation: practice_guide
+  - kind: article
+    title: "Balint-Gruppen — Ursprung und Weiterentwicklung"
+    author: Michael Balint
+    year: 1957
+    relation: reference
+    note: Ursprungsformat aus der Ärzte-Supervision, konzeptueller Vorläufer.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Rollen verteilen & Casting
+    duration_minutes: 5
+    trainer_action: >
+      Rollen klar benennen: Fallgeber:in (bringt Fall), Moderation
+      (führt durch die Schritte, achtet auf Zeit), Beratende (3-6
+      Personen), optional Beobachter:in (gibt am Ende Meta-Feedback).
+      Bei mehreren Fällen: Rollen rotieren pro Fall.
+    participant_action: >
+      Rolle annehmen, ggf. sich für Fallgebung melden.
+    note: >
+      Moderation ist nicht Leitung des Workshops — bewusst an TN vergeben.
+      Fördert Selbstständigkeit der Gruppe.
+  - order: 2
+    label: Fallschilderung
+    duration_minutes: 10
+    trainer_action: >
+      Fallgeber:in erzählt den Fall (max. 5-7 min): Situation, Beteiligte,
+      eigene Rolle, wo die Schwierigkeit/Frage liegt. Moderation stoppt
+      sanft bei Abschweifung. Beratende hören nur zu, keine Zwischenfragen.
+    participant_action: >
+      Fallgeber:in: erzählen, nicht rechtfertigen. Beratende: aktiv
+      zuhören, Notizen, noch nicht bewerten.
+    note: >
+      Regel: keine Fragen während der Schilderung. Das erzwingt
+      strukturierte Erzählung und bewahrt die eigene Hypothesenbildung
+      der Beratenden.
+  - order: 3
+    label: Schlüsselfrage formulieren
+    duration_minutes: 5
+    trainer_action: >
+      Moderation fragt: „Welche konkrete Frage oder welches Anliegen
+      soll die Gruppe bearbeiten?". Fallgeber:in verdichtet auf eine
+      Frage („Wie gehe ich damit um, dass X?"). Frage sichtbar notieren.
+    participant_action: >
+      Fallgeber:in: fokussiert eine Frage. Beratende: prüfen, ob sie
+      die Frage verstehen.
+    note: >
+      Ohne scharfe Schlüsselfrage zerfasert die Beratung. Schlechte
+      Frage: „Was soll ich tun?" — bessere: „Wie kann ich in diesem
+      Konflikt mit X so sprechen, dass mein Anliegen ankommt?".
+  - order: 4
+    label: Verständnisfragen
+    duration_minutes: 10
+    trainer_action: >
+      Beratende stellen Klärungsfragen, nur Fakten und Kontext
+      („Wer war dabei? Wann?"), keine verkappten Ratschläge. Moderation
+      bremst bei „Hast du schon mal versucht…"-Fragen.
+    participant_action: >
+      Beratende: kurze faktische Fragen. Fallgeber:in: knapp antworten.
+    note: >
+      Typischer Fehler: „Meinst du nicht, dass du…" — das ist keine
+      Frage, sondern Ratschlag im Frage-Mantel. Moderation unterbricht.
+  - order: 5
+    label: Hypothesen & Resonanz
+    duration_minutes: 15
+    trainer_action: >
+      Beratende äußern Hypothesen, Assoziationen, Resonanz: „Mir
+      fällt auf, dass…", „Ich habe den Eindruck, dass…". Fallgeber:in
+      schweigt und hört zu, darf nur notieren, nicht kommentieren.
+    participant_action: >
+      Beratende: laut denken, auch ungewöhnliche Hypothesen.
+      Fallgeber:in: zuhören, notieren, Impulse sacken lassen.
+    note: >
+      Das Schweigen der Fallgebenden ist zentral. Jede Verteidigung
+      oder Erklärung würde die Offenheit der Beratenden killen. Bei
+      Unklarheit: „Das heben wir uns für die nächste Runde auf."
+  - order: 6
+    label: Lösungsideen / Handlungsoptionen
+    duration_minutes: 15
+    trainer_action: >
+      Beratende schlagen konkrete Optionen vor: „Ich würde…" oder „An
+      deiner Stelle…". Vielfalt vor Tiefe. Moderation sammelt auf
+      Flipchart. Fallgeber:in hört weiter zu, notiert.
+    participant_action: >
+      Beratende: konkrete Handlungsoptionen, auch gegensätzliche.
+      Fallgeber:in: alle Optionen notieren, noch nicht bewerten.
+    note: >
+      Auch scheinbar absurde Optionen zulassen — oft liegt darin
+      ein relevanter Perspektivwechsel.
+  - order: 7
+    label: Rückmeldung der Fallgeberin
+    duration_minutes: 10
+    trainer_action: >
+      Moderation gibt Fallgeber:in Wort zurück: „Was nimmst du mit?
+      Welche Hypothesen/Ideen haben dich berührt? Welche nächsten
+      Schritte?". Keine Verteidigung vergangener Entscheidungen.
+    participant_action: >
+      Fallgeber:in: reflektieren, was resoniert; 1-3 konkrete Schritte
+      nennen. Beratende: hören zu.
+    note: >
+      Kein Zwang, jede Idee zu kommentieren. „Was hat mich berührt,
+      was nehme ich mit" ist die wichtigste Frage.
+  - order: 8
+    label: Prozess-Reflexion
+    duration_minutes: 10
+    trainer_action: >
+      Kurze Meta-Runde: Wie hat sich die Struktur angefühlt? Was
+      fiel leicht, was schwer? Was für nächstes Mal? Moderation
+      und Beobachter:in geben Feedback.
+    participant_action: >
+      Ehrliche Rückmeldung zum Prozess, nicht zum Fall.
+    note: >
+      Diese Meta-Runde wird oft weggelassen. Sie ist aber der
+      Lern-Hebel für die Gruppe — die Methode wird nur durch
+      Reflexion besser.
+
+variations:
+  - name: Tietze 6-Phasen-Modell
+    description: >
+      Reduzierte Variante: Fall/Schlüsselfrage/Hypothesen/Lösungen/
+      Rückmeldung/Reflexion. Kompakter, 60 min.
+    when_to_use: >
+      Regelmäßige Gruppen mit Routine; knapp bemessene Zeit.
+  - name: 8-Phasen mit getrenntem Verständnisteil (oben beschrieben)
+    description: >
+      Volle Struktur mit separaten Phasen für Fakten-Fragen und
+      Hypothesen. Langsamer, gründlicher.
+    when_to_use: >
+      Einarbeitungsphase neuer Gruppen; komplexe Fälle.
+  - name: Reflecting-Team-Variante
+    description: >
+      Beratende sprechen in Phase 5/6 in der 3. Person über
+      Fallgeber:in („Wenn ich Max wäre, würde ich denken…").
+      Fallgeber:in hört nur zu, physisch außerhalb des Kreises.
+    when_to_use: >
+      Wenn emotional stark besetzte Fälle; schafft Distanz und
+      neue Perspektive. Braucht Vertrauen.
+  - name: Remote-Intervision
+    description: >
+      Videokonferenz, Rollen per Chat verteilt, Moderation teilt
+      Bildschirm für Flipchart-Ersatz. Fallgeber:in schaltet in
+      Hypothesen-Phase Kamera aus (erleichtert Schweigen).
+    when_to_use: >
+      Verteilte Teams, regelmäßige Peer-Supervision. Funktioniert
+      erstaunlich gut.
+    setting_codes: [remote_sync]
+  - name: Schnell-Intervision (30 min)
+    description: >
+      Kurz-Format: Fall 3 min, Schlüsselfrage 2 min, Hypothesen
+      10 min, Lösungen 10 min, Rückmeldung 5 min. Hohe Disziplin.
+    when_to_use: >
+      Teamroutinen („Peer-Check-in" wöchentlich); für kleine
+      operative Fragen statt großer Themen.
+  - name: Schriftliche Intervision
+    description: >
+      Fallgeber:in schreibt Fall + Schlüsselfrage schriftlich.
+      Beratende antworten asynchron im Forum/Dokument. Zusammenfassung
+      durch Moderation.
+    when_to_use: >
+      Wenn keine synchrone Zeit verfügbar; zum Beispiel bei
+      internationalen Teams. Tiefe oft gut, Energie geringer.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Beratende geben in Phase 4 bereits Ratschläge statt Fragen.
+    countermeasure: >
+      Moderation stoppt konsequent: „Das klingt wie ein Vorschlag —
+      heben wir für Phase 6 auf." Regelblatt sichtbar.
+    severity: common
+  - issue: >
+      Fallgeber:in rechtfertigt sich in Phase 5 (Hypothesen) statt
+      zuzuhören.
+    countermeasure: >
+      Vorab klar ansagen: „Du darfst nur zuhören und notieren, nicht
+      antworten." Moderation greift ein: „Jetzt sind wir bei
+      Hypothesen — deine Antwort kommt in Phase 7."
+    severity: common
+  - issue: >
+      Schlüsselfrage bleibt vage („Was soll ich machen?") — Beratung
+      verläuft ziellos.
+    countermeasure: >
+      Moderation investiert Zeit in die Formulierung. „Wie…",
+      „Welche…", „Was hindert mich daran…" als Startformeln.
+      Lieber 10 min Schlüsselfrage als 40 min Beratung am Thema vorbei.
+    severity: common
+  - issue: >
+      Gruppe zu groß (>7 Beratende) — Einzelne kommen kaum zu Wort,
+      Fallgeber:in überfordert von Hypothesen-Flut.
+    countermeasure: >
+      Max. 6 Beratende. Bei größerer Gruppe: 2 parallele Beratungen
+      oder Beratende in Reflecting-Team aufteilen.
+    severity: rare
+  - issue: >
+      Moderation führt eigene Meinung ein, wird Teil der Beratenden.
+    countermeasure: >
+      Moderation-Rolle schärfen: nur Prozess, keine Inhalte.
+      Ggf. Rolle wechseln, wenn Moderation selbst beraten will.
+    severity: common
+  - issue: >
+      Keine Meta-Reflexion am Ende — Gruppe wiederholt dieselben
+      Moderationsfehler.
+    countermeasure: >
+      Phase 8 fest einplanen (10 min), auch wenn Zeit knapp ist.
+      Ohne Meta-Feedback wird die Gruppe nicht besser.
+    severity: common

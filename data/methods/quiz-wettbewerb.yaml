@@ -1,0 +1,86 @@
+slug: quiz-wettbewerb
+canonical_name: Quiz-Wettbewerb
+synonyms:
+  - synonym: Lernquiz
+    language: de
+  - synonym: Quizshow
+    language: de
+  - synonym: Trivia-Quiz
+    language: en
+  - synonym: Live-Quiz
+    language: de
+  - synonym: Interactive Quiz
+    language: en
+
+short_description: >
+  Wissens-Check im Show-Format — Multiple-Choice, Tempo-Antworten, Punkte,
+  Bestenliste. Live-Tools wie Kahoot, Mentimeter, Quizizz machen das in
+  Sekunden auflegbar. Funktioniert als Aufwärmer (Vorwissen aktivieren),
+  Lernstands-Check (mid-session), Wiederholung (Ende der Einheit) und in
+  der Kombination Spaß + Druck zur kurzfristigen Motivation. Achtung:
+  bestraft die Schüchternen und Langsamen — Anonymisierung als Stellschraube.
+
+originator: null
+origin_context: >
+  Quiz-Show-Format als Lerntool seit den 2010ern populär durch Kahoot
+  (gegründet 2013, Norwegen) und ähnliche Plattformen. In der Schulpraxis
+  und IHK-Ausbildung breit etabliert; Corporate-Trainings nutzen es
+  zunehmend als Auflockerung in mehrtägigen Schulungen.
+
+phases:
+  - code: warmup
+  - code: activation
+  - code: practice
+    is_primary: true
+  - code: evaluation
+  - code: closing
+
+settings:
+  - code: onsite
+    suitability: excellent
+    note: Mit Smartphones der TN, projizierte Fragen — kein extra Equipment nötig.
+  - code: remote_sync
+    suitability: excellent
+    note: Native Stärke der Live-Quiz-Tools.
+  - code: hybrid
+    suitability: excellent
+    note: Funktioniert besser als viele andere Methoden, weil alle TN gleichen Eingangs-Kanal haben (eigenes Gerät).
+
+group_sizes: [small, medium, large, plenary]
+target_audiences: [school, youth, ihk, adult_education, corporate, higher_education]
+method_types: [activating, game, diagnostic]
+
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 30
+
+materials:
+  - Live-Quiz-Tool (Kahoot, Mentimeter, Quizizz, Slido, Wooclap, ...)
+  - Beamer / geteilter Bildschirm für Fragen + Bestenliste
+  - Smartphones / Geräte der TN
+tags: [motivation, wissenstest, spiel, kurz, digital, quiz, ausbildung, wiederholung]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: url
+    title: "Kahoot! — Game-based learning platform"
+    author: Kahoot AS
+    year: 2024
+    url: https://kahoot.com
+    relation: tool
+  - kind: url
+    title: "Mentimeter — Interactive presentations"
+    author: Mentimeter AB
+    year: 2024
+    url: https://mentimeter.com
+    relation: tool
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+    note: Quiz-Formate als Methodensammlung im deutschsprachigen Trainings-Kontext.

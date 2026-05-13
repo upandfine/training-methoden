@@ -1,0 +1,204 @@
+slug: stretching-routine
+canonical_name: Stretching-Routine
+synonyms:
+  - synonym: Stretch Break
+    language: en
+  - synonym: Dehnpause
+    language: de
+short_description: >
+  Kurze, angeleitete Dehnsequenz (3–5 Minuten) für Nacken, Schultern, Rücken.
+  Besonders nach langem Sitzen oder Bildschirmarbeit — senkt körperliche
+  Müdigkeit und erhöht Konzentration.
+originator: null
+origin_context: >
+  Etablierte Praxis aus Arbeitsmedizin und Bürogesundheit; vielfach in
+  Tages-Workshops und Online-Trainings als „Micro-Break" integriert.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Ideal auch im Videocall — jeder am eigenen Platz.
+  - code: remote_async
+    suitability: limited
+    note: Als Video-Anleitung oder Timer-Erinnerung denkbar.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [energizer, activating]
+duration_min_minutes: 2
+duration_typical_minutes: 5
+duration_max_minutes: 10
+tags: [koerperlich, gesundheit, pause, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Sitzende Tätigkeit und Gesundheit"
+    author: Ingo Froböse
+    year: 2018
+    relation: practice_guide
+  - kind: article
+    title: "Office workers' objectively measured sedentary behavior and physical activity"
+    author: Parry, S., Straker, L.
+    year: 2013
+    relation: reference
+    note: Studie zu Bewegung am Arbeitsplatz und Konzentrationseffekt.
+  - kind: book
+    title: "Gesundheit am Arbeitsplatz"
+    author: Carolyn Fisher
+    year: 2017
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Pause ankündigen & einladen
+    duration_minutes: 1
+    trainer_action: >
+      "Wir machen jetzt eine kurze Stretch-Pause —
+      stehen Sie auf, wenn möglich. Wer sitzen muss,
+      kann die Übungen sitzend mitmachen."
+      Niedrigschwellig framen.
+    participant_action: >
+      Aufstehen oder bequem hinsetzen, Bereitschaft
+      einnehmen.
+    note: >
+      "Wenn möglich" wichtig — körperliche
+      Einschränkungen respektieren. Niemand ausschließen.
+  - order: 2
+    label: Anleitung der Übungen
+    duration_minutes: 3
+    trainer_action: >
+      3-4 einfache Übungen anleiten:
+      (1) Schulterkreisen (5x vor, 5x zurück);
+      (2) Nacken sanft nach links und rechts neigen;
+      (3) Hüftöffnung (Beine schulterbreit, Becken
+      kreisen);
+      (4) Atemzüge (3x tief ein, langsam aus).
+      Jede Übung 20-30 Sek.
+    participant_action: >
+      Übungen mitmachen, sanft, ohne zu zwingen.
+      Auf eigenen Körper hören.
+    note: >
+      Sanft anleiten, nicht im Fitness-Modus.
+      Moderation macht selbst mit. Keine Ehrgeiz-
+      Pose.
+  - order: 3
+    label: Atemen & Übergang
+    duration_minutes: 1
+    trainer_action: >
+      Letzter Schritt: 3 tiefe Atemzüge gemeinsam.
+      Dann Übergang: "Setzen Sie sich wieder, los
+      geht's."
+    participant_action: >
+      Atemen, sanft zurücksetzen, mental in
+      nächsten Programmpunkt.
+    note: >
+      Atemen-Abschluss verankert Pause. Klarer
+      Cut zum Programm — sonst zerfällt Übergang.
+
+variations:
+  - name: Klassisch (3-4 Übungen, 5 min)
+    description: >
+      Standard: Schultern, Nacken, Hüfte, Atmen.
+      Geleitet, sanft.
+    when_to_use: >
+      Lange Sitzphasen, nach Mittagspause, bei
+      Konzentrations-Knick. Alle Settings.
+  - name: Body-Scan (Achtsamkeit)
+    description: >
+      Statt Bewegung: 3-5 min Body-Scan im Sitzen.
+      Achtsamkeitsbasiert (MBSR).
+    when_to_use: >
+      Achtsamkeits-affine Gruppen, Coaching-Kontext.
+  - name: Augenpause
+    description: >
+      Speziell für Bildschirm-Müdigkeit: Augen
+      schließen, in Ferne schauen, Augenrollen.
+    when_to_use: >
+      Online-Trainings, lange Bildschirmzeit.
+    setting_codes: [remote_sync]
+  - name: Geleiteter Stand-Up (Bewegungs-Pause)
+    description: >
+      Aufstehen, im Raum gehen, Schultern lockern.
+      Mehr Bewegung, mehr Aktivierung.
+    when_to_use: >
+      Wenn Energiemangel deutlich ist, vor wichtigem
+      nächsten Programmteil.
+  - name: Yoga-Light (geführte Asanas)
+    description: >
+      Einfache Yoga-Posen (Berghaltung, Vorbeuge).
+      Mehr Anleitung, mehr Tiefe.
+    when_to_use: >
+      Längere Workshops, achtsamkeits-affine Kontexte.
+      Erfordert Anleitungs-Kompetenz.
+  - name: Selbst-Massage (Hand, Schulter)
+    description: >
+      Sanfte Selbst-Massage von Händen, Schultern,
+      Nacken. Diskreter als Stretching.
+    when_to_use: >
+      Wenn Stretching unpassend (formal, enge
+      Räume).
+
+pitfalls:
+  - issue: >
+      Körperliche Einschränkungen — TN können nicht
+      mit.
+    countermeasure: >
+      Sitz-Variante anbieten. Übungen modifizierbar
+      anleiten. "So weit es Ihnen gut tut."
+    severity: common
+  - issue: >
+      Senior-Corporate empfindet als unprofessionell.
+    countermeasure: >
+      Framing als "Aufmerksamkeits-Reset" oder
+      "Gesundheits-Check". Body-Scan oder
+      Augenpause sind sicherer.
+    severity: common
+  - issue: >
+      Anleitung zu schnell — TN können nicht folgen.
+    countermeasure: >
+      Langsam anleiten, Übungen vorzeigen. Tempo
+      langsamer als gewohnt. 20-30 Sek pro Übung.
+    severity: common
+  - issue: >
+      Einzelne dehnen sich zu intensiv (Verletzungs-
+      Risiko).
+    countermeasure: >
+      Klare Regel: "Sanft, ohne Schmerz." Bei
+      übereifrigem Ehrgeiz: kurz hinweisen.
+    severity: rare
+  - issue: >
+      Nach Pause direkt schwerer Inhalt — Pause-
+      Effekt verpufft.
+    countermeasure: >
+      Nach Stretch kurze inhaltliche Brücke,
+      nicht direkt in komplexen Stoff. Übergang
+      planen.
+    severity: common
+  - issue: >
+      Online: TN ist allein, keine Gruppendynamik.
+    countermeasure: >
+      Moderation macht VOR Kamera mit. Klar:
+      "Auch bei Ihnen daheim — los geht's." Nicht
+      nur ansagen.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Stretching wird nur einmal gemacht — nicht
+      eingebaut in Tagesablauf.
+    countermeasure: >
+      Bei längeren Workshops: alle 90 min Pause
+      einplanen. Routine etablieren, nicht
+      Einzel-Aktion.
+    severity: common

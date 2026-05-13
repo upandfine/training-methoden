@@ -1,0 +1,231 @@
+slug: einstimmungsmusik
+canonical_name: Einstimmungsmusik
+synonyms:
+  - synonym: Opening Music
+    language: en
+  - synonym: Einstiegsmusik
+    language: de
+short_description: >
+  Während des Ankommens läuft thematisch passende Musik im Hintergrund.
+  Erzeugt Atmosphäre, senkt Gesprächshürden und gibt einen weichen Übergang
+  zwischen Pause und Arbeitsphase.
+originator: null
+origin_context: >
+  Praxis aus Seminar- und Workshopmoderation; in systemischer Beratung und
+  Suggestopädie (Lozanov) explizit als atmosphärisches Element beschrieben.
+phases:
+  - code: arrival
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Musik über Trainer-Share-Audio; GEMA bzw. Lizenzen beachten.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [icebreaker]
+duration_min_minutes: 3
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - Playlist oder Streaming-Zugang (Lizenzrechte klären)
+tags: [musik, atmosphaere, niederschwellig]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Suggestopädie"
+    author: Georgi Lozanov
+    year: 1978
+    relation: originator
+    note: >
+      Lozanovs Suggestopädie nutzt Musik als atmosphärisches
+      Lernelement — Grundlage der musikalischen Trainingsbegleitung.
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: reference
+  - kind: book
+    title: "Moderationsmethoden in der Erwachsenenbildung"
+    author: Josef W. Seifert
+    year: 2014
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Playlist vorab kuratieren
+    duration_minutes: 0
+    trainer_action: >
+      Vor dem Training 8-15 Tracks auswählen. Mix aus
+      ruhig/aktivierend, instrumentell bevorzugt
+      (verhindert Text-Ablenkung). Dauer auf Ankommens-
+      Phase abgestimmt (typisch 10-15 min). GEMA-Rechte
+      oder lizenzfreie Tracks klären.
+    participant_action: >
+      — (Vorbereitungs-Phase)
+    note: >
+      Musikauswahl prägt. Klassik/Jazz für Senior-Corporate,
+      elektronisch/pop für Jugend, Cinematic für Kreativ-
+      Workshops. Zum Zielgruppen-Stil passen.
+  - order: 2
+    label: Musik vor Ankunft einschalten
+    duration_minutes: 2
+    trainer_action: >
+      5-10 min vor offiziellem Start Musik anschalten, in
+      moderater Lautstärke (Gespräche möglich, aber
+      atmosphärisch). Raum geöffnet, offene Haltung der
+      Moderation.
+    participant_action: >
+      Raum betreten, Musik wahrnehmen, ankommen.
+    note: >
+      Lautstärke richtig treffen — zu laut: Lärm, zu leise:
+      wirkungslos. Faustregel: "Man kann bequem sprechen,
+      aber man merkt die Musik." 50-60 % Volumen bei
+      Durchschnittsanlage.
+  - order: 3
+    label: Ankommens-Phase begleiten
+    duration_minutes: 8
+    trainer_action: >
+      Musik läuft weiter, während TN ankommen. Moderation
+      begrüßt einzeln, Gespräche laufen. Musik schafft
+      Hintergrund, keine Vordergrund-Rolle.
+    participant_action: >
+      Ankommen, Getränke, kurze Gespräche. Musik als
+      Rahmen erleben.
+    note: >
+      Wichtig: Musik nicht bewusst machen ("Mögen Sie
+      die?"). Sie soll Hintergrund-Wirkung haben. Bei
+      Nachfrage kurz antworten, nicht zum Thema machen.
+  - order: 4
+    label: Übergang zum Programmstart
+    duration_minutes: 0
+    trainer_action: >
+      Zum offiziellen Start: Musik leiser werden lassen
+      (fade out), dann ausschalten. Klarer Wechsel
+      signalisiert Session-Beginn. Nicht abrupt, eher
+      Übergang.
+    participant_action: >
+      Übergang wahrnehmen, Aufmerksamkeit auf Moderation
+      richten.
+    note: >
+      Fade-out ist psychologisch klar: weicher Übergang
+      statt "Stecker raus". Macht den Start-Punkt deutlich,
+      ohne ihn zu markanten Unterbrechung zu machen.
+
+variations:
+  - name: Klassisch (Hintergrund-Playlist)
+    description: >
+      Musik im Hintergrund während Ankommens-Phase.
+      Standard-Variante.
+    when_to_use: >
+      Alle Seminarformate mit mehreren Teilnehmenden.
+      Besonders bei neuen Gruppen oder längerer Ankunfts-Zeit.
+  - name: Thematisch passende Musik
+    description: >
+      Musik passend zum Training-Thema ausgewählt
+      (z.B. afrikanische Trommeln für Diversity-Workshop,
+      elektronisch für Tech-Workshops, Klassik für
+      Management-Training).
+    when_to_use: >
+      Thematische Trainings, wenn auch atmosphärisch Bezug
+      gewünscht. Design-Thinking-Workshops, Kreativ-
+      Formate.
+  - name: Energizing Music (aktivierend)
+    description: >
+      Explizit aktivierende Musik (Uptempo, Beat) —
+      besonders für Nachmittags-Sessions oder vor
+      anstrengenden Phasen.
+    when_to_use: >
+      Post-Lunch-Slots, Energiepunkte, nach längerer
+      Sitzphase.
+  - name: Stille Einstimmung (paradoxe Variante)
+    description: >
+      Gezielt KEINE Musik — aber bewusste Ruhe im Raum
+      als Einstimmungselement. Atmosphärische Wirkung
+      anders erzeugt.
+    when_to_use: >
+      Achtsamkeits-basierte Formate, MBSR-Kontexte. Bei
+      Gruppen, die schon laut-überstimuliert sind.
+  - name: Soundscape (Naturgeräusche)
+    description: >
+      Statt Musik: Naturgeräusche (Regen, Wald, Meer).
+      Atmosphärisch, weniger kulturell besetzt.
+    when_to_use: >
+      Interkulturelle Gruppen, Meditations-Kontexte,
+      Retreat-Formate.
+  - name: Live-Musik (Moderation spielt)
+    description: >
+      Moderation oder eine:r TN spielt live (z.B. Gitarre,
+      Flöte). Sehr persönlich, sehr besonders.
+    when_to_use: >
+      Retreats, längere Seminare, wenn passende Musiker:in
+      verfügbar. Hochwirksam, aber aufwändig.
+
+pitfalls:
+  - issue: >
+      Lautstärke falsch — zu laut (stört) oder zu leise
+      (wirkungslos).
+    countermeasure: >
+      Vorab Lautstärke im leeren Raum einstellen, dann
+      nach 5 TN-Ankunft checken. 50-60 % ist Faustregel.
+      Bei Bedarf während Phase nachjustieren.
+    severity: common
+  - issue: >
+      Musik stört inhaltlich — nicht zum Thema passend.
+    countermeasure: >
+      Kuration ernst nehmen. Stilbruch (z.B. Death Metal
+      bei Mediations-Workshop) zerstört Atmosphäre.
+      Instrumental ist oft sicherer als Text-Musik.
+    severity: common
+  - issue: >
+      Text-Musik lenkt ab — TN singen mit oder
+      interpretieren.
+    countermeasure: >
+      Instrumental bevorzugen. Wenn Text: fremdsprachig
+      oder so bekannt, dass er nicht mehr "im Vordergrund"
+      ist.
+    severity: common
+  - issue: >
+      GEMA-/Lizenzprobleme bei öffentlicher Nutzung.
+    countermeasure: >
+      Lizenzfreie Tracks (Creative Commons, GEMA-freie
+      Archive). Oder pauschale GEMA-Lizenz für Unternehmen.
+      Rechtslage vorab klären, nicht einfach Spotify
+      nutzen.
+    severity: common
+  - issue: >
+      Technische Probleme (Lautsprecher tot, Stream
+      bricht ab) — Wirkung weg.
+    countermeasure: >
+      Technik-Check vor dem Training. Backup (Handy-
+      Lautsprecher, lokale Datei). Wenn Musik nicht
+      kommt: nicht zum Thema machen, einfach ohne
+      weiterfahren.
+    severity: common
+  - issue: >
+      Corporate-Kontexte empfinden Musik als "unprofessionell".
+    countermeasure: >
+      Musikwahl anpassen — Klassik/Jazz/Ambient passt
+      bei fast allen Corporate. Pop/Jugend-Musik
+      nur in entsprechenden Kontexten.
+    severity: common
+  - issue: >
+      Music-Volumen nicht angepasst an Gruppengröße —
+      überdeckt Gespräche oder wird nicht gehört.
+    countermeasure: >
+      Bei kleinen Gruppen (< 10) leiser, bei größeren
+      (> 30) etwas lauter wegen Ambience-Geräusch.
+      Kontinuierlich anpassen, wenn Gruppe wächst.
+    severity: rare

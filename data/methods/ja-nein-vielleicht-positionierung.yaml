@@ -1,0 +1,237 @@
+slug: ja-nein-vielleicht-positionierung
+canonical_name: Ja – Nein – Vielleicht (Positionierung)
+synonyms:
+  - synonym: Yes-No-Maybe
+    language: en
+  - synonym: Dreier-Positionierung
+    language: de
+short_description: >
+  Moderator:in stellt zugespitzte Aussagen; Teilnehmende positionieren sich
+  körperlich im Raum zu Ja / Nein / Vielleicht. Niedrigschwelliger Einstieg
+  für Meinungsbildung und Aktivierung.
+originator: null
+origin_context: >
+  Klassische Methode der politischen Bildung und Moderationstechnik
+  (Metaplan-Tradition); verwandt mit Soziometrischen Aufstellungen.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+  - code: expectations
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital per Emoji-Reactions oder Whiteboard-Zonen (Ja/Nein/Vielleicht).
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [activating, diagnostic]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 20
+tags: [aufstellung, meinung, bewegung, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden politischer Bildung"
+    author: Wolfgang Sander
+    year: 2014
+    relation: practice_guide
+    note: >
+      Einordnung der Positionierungs-Methodik in politischer
+      Bildung — Meinungsbildung durch körperliche Positionierung.
+  - kind: book
+    title: "Moderationsmethoden in der Erwachsenenbildung"
+    author: Josef W. Seifert
+    year: 2014
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Raum vorbereiten & Zonen markieren
+    duration_minutes: 2
+    trainer_action: >
+      Drei Zonen im Raum markieren: links = Ja, rechts = Nein,
+      Mitte = Vielleicht. Optional mit Flipchart-Plakaten
+      oder Bodenmarkierungen. Stühle zur Wand, Mittelraum
+      frei. Alle stehen in Mitte zu Beginn.
+    participant_action: >
+      Aufstehen, Zonen wahrnehmen, Raum erkunden.
+    note: >
+      Raum muss Bewegung erlauben. Bei fester Bestuhlung:
+      vorher umstellen oder andere Methode (Handzeichen,
+      Daumen-Abstimmung).
+  - order: 2
+    label: Aussage stellen & positionieren
+    duration_minutes: 1
+    trainer_action: >
+      Zugespitzte Aussage: "Homeoffice sollte bis 4 Tage
+      pro Woche Pflicht sein." "Führung braucht immer Macht."
+      "KI wird meinen Job ersetzen." Klar formuliert,
+      provokativ genug zum Positionieren.
+    participant_action: >
+      Aussage hören, innere Antwort prüfen, zur passenden
+      Zone gehen.
+    note: >
+      Gute Aussagen sind eindeutig UND kontrovers. "Sollte
+      die Welt besser werden?" ist trivial. "Maximal 3
+      Gehaltsstufen pro Unternehmen sind fair" zwingt zur
+      Haltung.
+  - order: 3
+    label: Austausch in Zonen
+    duration_minutes: 4
+    trainer_action: >
+      Pro Zone kurzer Austausch: "Warum stehen Sie hier?
+      Welches Argument wiegt am schwersten?" Je 1 Minute
+      pro Zone. Moderation bewegt sich zwischen den Zonen,
+      schnappt Argumente auf.
+    participant_action: >
+      Mit Mit-Positionierten kurz austauschen, eigene Gründe
+      formulieren, anderen zuhören.
+    note: >
+      Austausch macht den Unterschied zwischen Abstimmung
+      und Meinungsbildung. Ohne Austausch: Daumen-Variante
+      reicht. Mit Austausch: Argumente werden sichtbar.
+  - order: 4
+    label: Plenum-Stimmen sammeln
+    duration_minutes: 2
+    trainer_action: >
+      Pro Zone 1-2 Stimmen einholen: "Aus der Ja-Zone: Was
+      ist Ihr Argument?" Kurz, nicht ausdiskutieren. Keine
+      Bewertung der Argumente. Auch Vielleicht-Zone hören.
+    participant_action: >
+      Argumentieren, zuhören, eigene Position reflektieren.
+    note: >
+      Moderation wertet NICHT. Nicht "gutes Argument" —
+      sondern "Danke". Neutrale Haltung ist Voraussetzung
+      für Offenheit.
+  - order: 5
+    label: Ggf. Umpositionieren
+    duration_minutes: 1
+    trainer_action: >
+      "Nach dem, was Sie gehört haben — würde sich jemand
+      anders positionieren?" Freiwilliges Umziehen erlauben.
+      Zeigt, dass Meinungs-Änderung legitim ist.
+    participant_action: >
+      Frei umziehen, wenn etwas überzeugt hat. Oder bleiben —
+      beides ok.
+    note: >
+      Das Umpositionieren ist didaktisch wertvoll: es
+      zeigt, dass Argumente Wirkung haben dürfen. Gute
+      Kultur für Meinungsbildung.
+
+variations:
+  - name: Klassische 3-Zonen-Variante
+    description: >
+      Ja-Nein-Vielleicht, körperliche Positionierung.
+      Standard-Variante.
+    when_to_use: >
+      Seminar-Einstieg, politische Bildung, Meinungsbildung.
+      Gruppen bis 25 TN.
+  - name: Skalen-Variante (Linie)
+    description: >
+      Lineare Skala statt 3 Zonen. TN positionieren sich
+      auf Skala von "voll dafür" bis "voll dagegen".
+      Differenzierter.
+    when_to_use: >
+      Wenn Graduierung gewünscht. Komplexere Fragen mit
+      Zwischenpositionen.
+  - name: Mehrrunden-Positionierung (3-5 Aussagen)
+    description: >
+      Nacheinander mehrere Aussagen. TN positionieren sich
+      zu jeder, kurze Runde nach jeder.
+    when_to_use: >
+      Themen-Einstieg mit mehreren Dimensionen, Profil-
+      Bildung in Gruppen.
+  - name: Stilles Positionieren (ohne Austausch)
+    description: >
+      TN gehen in Zone, Moderation lässt Bild stehen,
+      ohne Austausch. Nur Zählen / Bild lesen. Kürzeste
+      Variante.
+    when_to_use: >
+      Sehr kurze Abfragen, große Gruppen. Ersetzt
+      Abstimmungs-Funktion.
+  - name: Remote (Emojis / Whiteboard-Zonen)
+    description: >
+      Digital: 3 Zonen auf Miro, Avatare platzieren. Oder
+      Emoji-Reaction 👍 / 👎 / 🤷.
+    when_to_use: >
+      Online-Trainings. Funktioniert, aber Bewegungs-
+      Element fehlt — Methoden-Wirkung abgeschwächt.
+    setting_codes: [remote_sync]
+  - name: Konflikt-Aufstellung
+    description: >
+      Zugespitzte Aussagen zu Konflikt-Themen (Organisation,
+      Team-Dynamik). Emotional anspruchsvoll.
+    when_to_use: >
+      Teamklausuren, Konflikt-Klärung. Erfordert Vertrauen
+      und erfahrene Moderation.
+
+pitfalls:
+  - issue: >
+      Aussagen sind zu wenig zugespitzt — fast alle im
+      "Vielleicht".
+    countermeasure: >
+      Schärfer formulieren: statt "X sollte wichtig sein"
+      besser "X ist der wichtigste Faktor". Zwingt zur
+      Haltung.
+    severity: common
+  - issue: >
+      Gruppen-Konformität — TN folgen der Mehrheit.
+    countermeasure: >
+      Gleichzeitiges Positionieren ("auf drei"). Oder stilles
+      Positionieren ohne Zwischenkommentare. Bei starkem
+      Druck: Anonym-Variante.
+    severity: common
+  - issue: >
+      Austausch in Zone wird zur Meta-Diskussion ("Wie ist
+      die Frage gemeint?").
+    countermeasure: >
+      Aussage vorher klar formulieren. Bei Meta-Fragen
+      kurz klären, dann zurück: "Jetzt Ihre Haltung."
+    severity: common
+  - issue: >
+      Moderation wertet Argumente — beeinflusst Gruppe.
+    countermeasure: >
+      Neutrale Haltung, nur "Danke" oder "Verstanden".
+      Keine Bewertung, auch nicht durch Körpersprache
+      (Nicken bei Zustimmung-Argumenten).
+    severity: common
+  - issue: >
+      Raum erlaubt keine freie Positionierung (zu eng,
+      feste Bestuhlung).
+    countermeasure: >
+      Vor der Methode Raum umstellen. Bei Unmöglichkeit:
+      Daumen-Abstimmung oder Karten-Variante. Methode
+      lebt von Bewegung.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN können nicht positionieren.
+    countermeasure: >
+      Handzeichen-Alternative anbieten (3 Schilder:
+      Ja/Nein/Vielleicht). Niemand darf ausgeschlossen
+      werden.
+    severity: rare
+  - issue: >
+      Umpositionieren wird als "Wankelmut" stigmatisiert.
+    countermeasure: >
+      Kultur etablieren: "Meinung zu ändern ist reif, nicht
+      schwach." Moderation kann selbst vorgehen:
+      "Ich bin gerade auch am Überlegen."
+    severity: common

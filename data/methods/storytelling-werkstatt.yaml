@@ -1,0 +1,280 @@
+slug: storytelling-werkstatt
+canonical_name: Storytelling-Werkstatt
+synonyms:
+  - synonym: Storytelling Workshop
+    language: en
+short_description: >
+  Teilnehmende entwickeln persönliche oder berufliche Geschichten entlang
+  klassischer Story-Strukturen (z.B. Hero's Journey, Pixar-Formel). Kombiniert
+  Struktur-Input, Schreibübungen und Erzähl-Coaching.
+originator: null
+origin_context: >
+  Storytelling als Organisations- und Lehrmethode verbreitet über Joseph
+  Campbells „Hero's Journey" (1949), Stephen Denning (Corporate Storytelling,
+  2000er). Heute Standard in Führungskräfteentwicklung.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [creative, cooperative]
+duration_min_minutes: 120
+duration_typical_minutes: 240
+duration_max_minutes: 480
+tags: [storytelling, narrativ, hero-journey]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Der Heros in tausend Gestalten"
+    author: Joseph Campbell
+    year: 1949
+    relation: originator
+    note: >
+      Campbells Monomythos / Hero's Journey — Grundstruktur
+      aller Storytelling-Didaktik.
+  - kind: book
+    title: "The Leader's Guide to Storytelling"
+    author: Stephen Denning
+    year: 2005
+    relation: practice_guide
+    note: >
+      Denning überträgt Storytelling auf Führungs- und
+      Organisationskontexte. Corporate-Storytelling-
+      Klassiker.
+  - kind: book
+    title: "Story: Substance, Structure, Style, and the Principles of Screenwriting"
+    author: Robert McKee
+    year: 1997
+    relation: reference
+    note: Strukturelle Grundlagen narrativer Dramaturgie.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einstieg & Story-Struktur einführen
+    duration_minutes: 30
+    trainer_action: >
+      Kurze Story erzählen (Moderations-Modelling).
+      Dann Struktur einführen: Hero's Journey (kurz)
+      oder Pixar-Formel: "Es war einmal... jeden Tag...
+      eines Tages... deshalb... bis schließlich..."
+      Einfache Struktur zuerst.
+    participant_action: >
+      Zuhören, Struktur aufnehmen, eigene Story-Ideen
+      mental aktivieren.
+    note: >
+      Modelling entscheidend. Wer selbst keine Story
+      erzählt, kann nicht glaubhaft lehren. Eigene
+      Story professionell vorbereitet mitbringen.
+  - order: 2
+    label: Story-Thema wählen (Einzelarbeit)
+    duration_minutes: 20
+    trainer_action: >
+      "Welche Story wollen Sie erzählen? Eine eigene
+      Erfahrung, ein Wendepunkt, eine Herausforderung?"
+      Prompts geben: Erfolg, Scheitern, Lernmoment,
+      Begegnung.
+    participant_action: >
+      Thema wählen, erste Skizze. Noch nicht
+      ausformulieren.
+    note: >
+      Gute Storys haben Konflikt / Wendepunkt. Ohne
+      das: Bericht, keine Story. Prompts helfen bei
+      Ideen-Findung.
+  - order: 3
+    label: Story strukturieren (Pixar-Formel oder 3-Akt)
+    duration_minutes: 30
+    trainer_action: >
+      Vorlage austeilen: 5-7 Story-Beats. "Füllen Sie
+      die Struktur mit Ihrer Geschichte." Ausreichend
+      Zeit zum Denken.
+    participant_action: >
+      Eigene Geschichte in Struktur bringen. Kern-
+      Elemente schärfen.
+    note: >
+      Struktur zwingt zur Fokussierung. Wer ohne
+      Struktur erzählt, verliert Zuhörende. Mit:
+      klare, gewogene Story.
+  - order: 4
+    label: Pitch-Runde im Paar (je 3 min)
+    duration_minutes: 20
+    trainer_action: >
+      2er-Paare: je 3 min Story erzählen. Partner:in
+      gibt 2 min Feedback ("Was war stark? Wo war
+      ich verloren?"). Rollenwechsel.
+    participant_action: >
+      Erste Erzählung, Feedback annehmen, eigene
+      Story verstehen.
+    note: >
+      Probe-Phase wichtig. Im Paar fällt auf, wo
+      Story hakt. Mit Partner-Feedback: Revisions-
+      Hinweise für zweite Runde.
+  - order: 5
+    label: Story überarbeiten (Einzelarbeit)
+    duration_minutes: 30
+    trainer_action: >
+      "Basierend auf Feedback: überarbeiten Sie
+      Story. Konkreter, dichter, emotionaler."
+      Stille Zeit zum Schärfen.
+    participant_action: >
+      Story-Fassung schärfen. Details ergänzen,
+      Überflüssiges streichen. Emotion einbauen.
+    note: >
+      Zweite Fassung ist oft deutlich besser als
+      erste. Geschichten brauchen Iterationen.
+      Perfektion nicht nötig, aber Klarheit.
+  - order: 6
+    label: Story im Plenum (freiwillig)
+    duration_minutes: 60
+    trainer_action: >
+      Freiwillige erzählen ihre Story dem Plenum
+      (je 4-5 min). Gruppe gibt Feedback. Nicht alle
+      — 4-6 ausgewählte Geschichten reichen.
+    participant_action: >
+      Story erzählen oder zuhören. Feedback
+      respektvoll geben.
+    note: >
+      Plenum-Erzählen ist Mut-Moment. Freiwilligkeit
+      sichern. Nicht alle müssen. Oft die mutigsten
+      Storys sind die stärksten.
+  - order: 7
+    label: Meta-Reflexion & Transfer
+    duration_minutes: 40
+    trainer_action: >
+      "Was haben Sie über Geschichten gelernt? Wo
+      nutzen Sie das im Alltag?" Storytelling-Anwendung
+      diskutieren: Präsentationen, Führung, Verkauf,
+      Teamkultur.
+    participant_action: >
+      Lern-Transfer formulieren. Anwendungsfälle
+      konkret benennen.
+    note: >
+      Transfer macht Werkstatt zu Methoden-Training.
+      Ohne: schönes Erlebnis, kein Skill-Aufbau.
+      Konkrete Anwendungen beleuchten.
+  - order: 8
+    label: Abschluss & Commitment
+    duration_minutes: 10
+    trainer_action: >
+      Commitment: "Wo werden Sie Storytelling in nächsten
+      4 Wochen einsetzen?" Kurze Notiz an sich selbst.
+      Abschluss-Ritual.
+    participant_action: >
+      Konkrete Einsatz-Situation nennen.
+    note: >
+      Ohne Praxis verpufft Training. Konkretes
+      Commitment schafft Verbindlichkeit.
+
+variations:
+  - name: Klassisch (4h-Workshop, Pixar-Formel)
+    description: >
+      Standard: Einführung, Struktur, Paar-Probe,
+      Plenum. 4h.
+    when_to_use: >
+      Führungskräfte-Training, Kommunikations-Coaching,
+      Verkaufs-Schulung.
+  - name: Hero's Journey Deep Dive
+    description: >
+      Komplettes Campbell-Modell (12 Stufen), eigene
+      Story entlang allen Stufen. 1-2 Tage.
+    when_to_use: >
+      Intensivierung bei Coaching, Persönlichkeits-
+      entwicklung.
+  - name: Corporate Storytelling (Denning)
+    description: >
+      Fokus auf organisationale Geschichten: Change,
+      Werte-Storys, Gründungs-Narrative. Nach Stephen
+      Denning.
+    when_to_use: >
+      Management-Ausbildung, interne Kommunikation.
+  - name: Digital Storytelling (Video/Audio)
+    description: >
+      TN produzieren kurze Video- oder Audio-Stories.
+      Mehr Aufwand, nachhaltige Dokumentation.
+    when_to_use: >
+      Längere Programme, digitale Teams, wenn
+      Tool-Kompetenz erwünscht.
+  - name: Team-Storytelling (gemeinsame Story)
+    description: >
+      Team entwickelt gemeinsame Narrative über Team/
+      Projekt. Teambildend.
+    when_to_use: >
+      Team-Retreats, Unternehmensgeschichte,
+      Onboarding-Narrative.
+  - name: Kurz-Storytelling (60 min)
+    description: >
+      Komprimiert: nur Einführung + Paar-Pitch. Keine
+      Plenum-Phase.
+    when_to_use: >
+      Als Baustein in größeren Trainings. Einstieg in
+      Technik.
+
+pitfalls:
+  - issue: >
+      Story bleibt Bericht — kein Konflikt / Wendepunkt.
+    countermeasure: >
+      Konflikt-Fokus: "Was war die Herausforderung?"
+      Struktur-Vorlage zwingt zu Wendepunkt. Ohne:
+      Langeweile.
+    severity: common
+  - issue: >
+      TN fühlen sich beim Erzählen unwohl —
+      Selbstoffenbarung erwartet.
+    countermeasure: >
+      Freiwilligkeit sichern. Pass-Option. Paar-Phase
+      als geschützter Raum vor Plenum. Corporate-
+      sicheres Thema möglich.
+    severity: common
+  - issue: >
+      Story wird zu lang — verliert Spannung.
+    countermeasure: >
+      Zeit-Limit (3-5 min). Vorher Struktur-Beats
+      fixieren: "Max. 5 Sätze pro Beat."
+      Kürze ist Qualität.
+    severity: common
+  - issue: >
+      Modelling durch Moderation fehlt — TN ohne
+      Beispiel verloren.
+    countermeasure: >
+      Eigene Story professionell vorbereiten. Ohne
+      gutes Modelling: Niveau bleibt niedrig.
+      Investment wert.
+    severity: common
+  - issue: >
+      Transfer fehlt — Werkstatt bleibt Spiel.
+    countermeasure: >
+      Schritt 7 fest einplanen. Anwendungs-Beispiele
+      konkret diskutieren. Ohne Transfer: kein Skill-
+      Aufbau.
+    severity: common
+  - issue: >
+      Feedback bleibt höflich — kein konstruktives
+      Schärfen.
+    countermeasure: >
+      Feedback-Struktur vorgeben: "Was stark? Was
+      unklar? Was fehlt?" Spezifizität einfordern.
+    severity: common
+  - issue: >
+      Plenum-Erzählen wirkt wie Casting — Druck
+      erzeugt.
+    countermeasure: >
+      Framing: "Werkstatt, keine Performance."
+      Freiwilligkeit. Geschützten Rahmen aktiv
+      herstellen.
+    severity: common

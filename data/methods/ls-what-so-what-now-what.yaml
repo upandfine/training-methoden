@@ -1,0 +1,240 @@
+slug: ls-what-so-what-now-what
+canonical_name: What, So What, Now What? (W³)
+synonyms:
+  - synonym: W3
+    language: en
+  - synonym: Dreistufige Reflexion
+    language: de
+short_description: >
+  Liberating Structure: Dreistufige Reflexion — 1) WAS ist passiert (Fakten)?
+  2) WAS bedeutet das (Deutung)? 3) WAS tun wir jetzt (Konsequenzen)?
+  Strukturiert Gruppenreflexion nach Erfahrungen oder Ereignissen.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_context: >
+  Liberating Structure; ursprüngliches Modell von Rolfe, Freshwater & Jasper
+  (2001) aus der reflektierenden Pflegepraxis. Lipmanowicz/McCandless haben
+  es als LS-Format mit Small-Scale/Large-Scale-Rhythmus kodifiziert.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: group_work
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Sehr gut remote; Breakouts à 4, Ergebnisse auf Whiteboard.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [reflective, cooperative]
+duration_min_minutes: 20
+duration_typical_minutes: 45
+duration_max_minutes: 60
+tags: [liberating-structures, reflexion, strukturiert]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Critical Reflection in Nursing and the Helping Professions"
+    author: Gary Rolfe, Dawn Freshwater, Melanie Jasper
+    year: 2001
+    relation: originator
+    note: >
+      Ursprungsmodell aus der reflektierenden Pflegepraxis —
+      dreistufige Reflexions-Struktur.
+  - kind: url
+    title: "Liberating Structures — What, So What, Now What?"
+    url: https://www.liberatingstructures.com/9-what-so-what-now-what-w/
+    relation: practice_guide
+    note: >
+      Kodifizierte LS-Version mit 1-2-4-All-Skalierung.
+      CC-BY-NC 4.0.
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kontext setzen & Struktur erklären
+    duration_minutes: 3
+    trainer_action: >
+      Erfahrung/Ereignis in Erinnerung rufen
+      (Session, Übung, Projekt). Drei Fragen groß
+      sichtbar: "WAS ist passiert (nur Fakten)? SO WAS
+      bedeutet das (Deutung)? NUN WAS machen wir damit
+      (Konsequenz)?" Struktur klar.
+    participant_action: >
+      Erfahrung in Erinnerung rufen, Struktur
+      verstehen.
+    note: >
+      Drei Fragen sind Kern. Sie MÜSSEN in Reihenfolge
+      abgearbeitet werden. Vermischung zerstört Methode.
+  - order: 2
+    label: Schritt 1 — WAS (Fakten sammeln)
+    duration_minutes: 12
+    trainer_action: >
+      "Was ist konkret passiert? Was haben Sie beobachtet?
+      Nur Fakten — keine Bewertung, keine Deutung."
+      Beginnt mit Einzelreflexion (2 min), dann 2er-
+      Paare (3 min), dann Kleingruppen à 4 (5 min),
+      dann Plenum (2 min). 1-2-4-All-Skalierung.
+    participant_action: >
+      Still fakten-basiert notieren. Paar-Austausch.
+      Gruppen-Konsolidierung. Plenum-Sharing.
+    note: >
+      "Nur Fakten" ist didaktisch schwer. TN springen
+      gleich zur Deutung. Moderation diszipliniert:
+      "Das ist Deutung — bleibt in Schritt 2."
+  - order: 3
+    label: Schritt 2 — SO WAS (Deutung)
+    duration_minutes: 15
+    trainer_action: >
+      "Was bedeutet das? Welche Muster erkennen Sie?
+      Was folgt daraus?" Gleiche Skalierung (1-2-4-All).
+      Dauert meist länger als Schritt 1.
+    participant_action: >
+      Deutungen formulieren, Muster erkennen, auf Fakten
+      aufbauend interpretieren.
+    note: >
+      Hier tieferer Dialog. Nicht die erste Deutung
+      stehenlassen — weiter fragen "Was noch?" Mehrere
+      Perspektiven hervorholen.
+  - order: 4
+    label: Schritt 3 — NUN WAS (Konsequenz)
+    duration_minutes: 12
+    trainer_action: >
+      "Was machen wir jetzt? Welche konkreten nächsten
+      Schritte? Was testen wir, ändern wir?" Gleiche
+      Skalierung. Mit Owner-Benennung bei konkreten
+      Aktionen.
+    participant_action: >
+      Konkrete Handlungsoptionen benennen. Commitment
+      zu nächsten Schritten.
+    note: >
+      NUN WAS erzeugt Handlung. Ohne diese Phase bleibt
+      Reflexion theoretisch. Owner + Termin für 2-3
+      konkrete Schritte.
+  - order: 5
+    label: Abschluss & Dokumentation
+    duration_minutes: 3
+    trainer_action: >
+      Ergebnisse zusammenfassen. Aktions-Liste
+      sichtbar. Follow-up-Termin für Umsetzungs-
+      Check vereinbaren.
+    participant_action: >
+      Ergebnisse dokumentieren, Owner-Commitment
+      geben.
+    note: >
+      Doku wichtig für Follow-through. Ohne Aktions-
+      Liste verpufft auch ein guter W³-Zyklus.
+
+variations:
+  - name: Klassisch (1-2-4-All-Skalierung pro Frage)
+    description: >
+      Drei Fragen nacheinander mit 1-2-4-All-Skalierung
+      (Einzel, Paar, 4er-Gruppe, Plenum).
+    when_to_use: >
+      Retrospektiven, Projekt-Abschlüsse, Lern-
+      Reflexionen. 8-30 TN.
+  - name: Kurz-Variante (20 min, nur Paar + Plenum)
+    description: >
+      Schneller: je Frage 3 min Paar + 2 min Plenum.
+      Weniger Tiefe, aber funktional.
+    when_to_use: >
+      Zeitknappe Settings, kurze Team-Meetings.
+      Einführung in Format.
+  - name: Team-Retrospektive (eigenständig)
+    description: >
+      Ohne Moderation, Team führt selbst durch mit
+      Flipchart pro Frage. Self-guided.
+    when_to_use: >
+      Etablierte Teams, nach Sprint/Projekt-Phase.
+      Wenn Methodik bekannt.
+  - name: Projekt-Post-Mortem
+    description: >
+      Nach Projekt-Ende als strukturierte Auswertung.
+      Alle drei Fragen sehr ausführlich.
+    when_to_use: >
+      Projekt-Abschluss, Change-Reflexion. Längere
+      Einsatz-Dauer (60-90 min).
+  - name: Remote W³
+    description: >
+      Online: Miro-Board mit drei Spalten, Breakouts
+      für Kleingruppen. Ergebnisse in Spalten.
+    when_to_use: >
+      Verteilte Teams. Funktioniert sehr gut — wird
+      seit 2020 oft eingesetzt.
+    setting_codes: [remote_sync]
+  - name: Einzelreflexion (solo)
+    description: >
+      Individuell: 3 Fragen schriftlich bearbeiten.
+      Journaling-Form. Keine Gruppe nötig.
+    when_to_use: >
+      Selbstreflexion, Coaching-Pausen,
+      Journalarbeit.
+
+pitfalls:
+  - issue: >
+      Fragen werden vermischt — WAS-Phase schon deutet.
+    countermeasure: >
+      Moderation diszipliniert: "Das ist Deutung,
+      bleiben wir bei Fakten." Fragen-Karten
+      sichtbar. Diskrete Einführung, aber konsequent.
+    severity: common
+  - issue: >
+      Deutung-Phase bleibt oberflächlich.
+    countermeasure: >
+      Nachfragen: "Was noch? Welche andere Interpretation
+      wäre möglich?" Mehrere Deutungen zulassen,
+      nicht auf erste einigen.
+    severity: common
+  - issue: >
+      NUN WAS wird vage ("wir machen weiter so").
+    countermeasure: >
+      Konkrete Aktions-Formulierung: "Was, wer, wann?"
+      SMART-Kriterien hilfreich. Owner-Commitment
+      erzwingen.
+    severity: common
+  - issue: >
+      Methode wird zum "Gute-Fragen-Katalog" — ohne
+      Fortsetzung.
+    countermeasure: >
+      Dokumentation + Follow-up wichtig. Nach 2 Wochen
+      nochmal checken: "Was haben wir umgesetzt?"
+      Ohne: nur Reflexions-Theater.
+    severity: common
+  - issue: >
+      1-2-4-All-Skalierung wird gebrochen — direkt ins
+      Plenum.
+    countermeasure: >
+      Skalierung als didaktischen Wert erklären. Nicht
+      abkürzen — Stille und Paar-Austausch sind
+      wesentlich.
+    severity: common
+  - issue: >
+      In großen Gruppen: Plenum-Phase wird endlos.
+    countermeasure: >
+      Plenum kurz halten (2-3 min pro Frage), nur
+      Highlights. Kleingruppen-Ergebnisse schriftlich
+      sammeln statt alle im Plenum vortragen.
+    severity: common
+  - issue: >
+      Bei emotional belasteten Themen: TN nicht bereit
+      für SO WAS.
+    countermeasure: >
+      Mehr Zeit in WAS investieren (Fakten aussprechen
+      entlastet). Bei Überforderung: Methode abbrechen,
+      individuellere Form wählen.
+    severity: rare

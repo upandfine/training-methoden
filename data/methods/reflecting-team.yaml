@@ -1,0 +1,259 @@
+slug: reflecting-team
+canonical_name: Reflecting Team
+synonyms:
+  - synonym: Reflecting Team
+    language: en
+  - synonym: Reflektierendes Team
+    language: de
+short_description: >
+  Eine Person (Fallgeberin) schildert ein Anliegen. Eine Beobachtergruppe
+  („Reflecting Team") tauscht sich anschließend hörbar aus, während die
+  Fallgeberin zuhört. Danach nimmt die Fallgeberin zurück Stellung.
+originator: Tom Andersen
+origin_context: >
+  Entwickelt 1985 von Tom Andersen (norwegischer Psychiater) in der
+  systemischen Familientherapie; heute auch in kollegialer Beratung und
+  Organisationsentwicklung gängig.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: practice
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Funktioniert gut via Video; Kameraführung (zu/ab) kann die Rollen markieren.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [reflective, cooperative]
+duration_min_minutes: 45
+duration_typical_minutes: 60
+duration_max_minutes: 120
+tags: [systemisch, beratung, perspektivwechsel]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: article
+    title: "The Reflecting Team: Dialogue and Meta-Dialogue in Clinical Work"
+    author: Tom Andersen
+    year: 1987
+    relation: originator
+    note: >
+      Andersens Ursprungsaufsatz in "Family Process" (1987), in dem
+      er das Reflecting Team als therapeutische Intervention etabliert.
+  - kind: book
+    title: "Das Reflektierende Team: Dialoge und Dialoge über Dialoge"
+    author: Tom Andersen
+    year: 1990
+    relation: originator
+    note: Deutsche Ausgabe, Standardwerk der systemischen Therapie.
+  - kind: book
+    title: "Kollegiale Beratung: Problemlösungen gemeinsam entwickeln"
+    author: Kim-Oliver Tietze
+    year: 2016
+    relation: practice_guide
+    note: >
+      Überträgt Reflecting-Team-Prinzip auf kollegiale Beratung in
+      Organisations-Kontexten.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Rollen klären & Framing
+    duration_minutes: 5
+    trainer_action: >
+      Rollen verteilen: Fallgeberin (1 Person mit Anliegen),
+      Reflecting Team (3-5 Personen), Moderation (hält den Prozess).
+      Prinzip erklären: Fallgeberin hört zu, während RT spricht —
+      kein direktes Gespräch. RT spricht IN DRITTER PERSON über die
+      Fallgeberin ("Ich habe gehört, sie erlebt..."). Vertraulichkeit
+      vereinbaren.
+    participant_action: >
+      Rolle übernehmen, Vertraulichkeit bestätigen, Haltung
+      einnehmen — neugierig, nicht bewertend.
+    note: >
+      Dritte Person ist die wesentliche Konvention. Fallgeberin
+      als "sie/er" erleichtert RT-Mitgliedern das freie Sprechen,
+      entlastet die Fallgeberin von sofortiger Reaktion.
+  - order: 2
+    label: Fallschilderung
+    duration_minutes: 15
+    trainer_action: >
+      Fallgeberin schildert Anliegen frei, ohne Unterbrechung.
+      Moderation hilft bei Bedarf mit Fragen: "Was ist das
+      Kernthema? Wer ist beteiligt? Was haben Sie schon
+      probiert?" RT hört schweigend, macht sich innerlich
+      Notizen zu Resonanz, Fragen, Bildern.
+    participant_action: >
+      Fallgeberin: schildert ihr Anliegen, eigene Perspektive,
+      emotionale Resonanz. RT: hört aktiv zu, schweigt.
+    note: >
+      Fallgeberin nicht "zu fertigen Lösungen" drängen. Die Phase
+      ist Verständnis-Aufbau, nicht Problem-Lösung. 15 min sind
+      ein Rahmen, mehr ist OK, weniger selten sinnvoll.
+  - order: 3
+    label: Reflektierender Austausch (Reflecting Team spricht)
+    duration_minutes: 15
+    trainer_action: >
+      Moderation ruft RT auf, sich untereinander auszutauschen —
+      Fallgeberin dreht sich weg / hört nur zu. RT-Mitglieder
+      sprechen miteinander: "Was habe ich gehört?", "Welches Bild
+      ist in mir entstanden?", "Was fällt mir auf?". In dritter
+      Person über Fallgeberin.
+    participant_action: >
+      RT: Dialog untereinander, nicht Fallgeberin adressieren.
+      Resonanzen teilen, Hypothesen äußern, Unterschiede
+      hervorheben. Fallgeberin: hört zu, notiert was resoniert.
+    note: >
+      Das Herzstück. RT darf Hypothesen und Assoziationen äußern
+      ("Ich habe das Bild einer Mauer gehört..."). KEINE Ratschläge,
+      KEINE Bewertungen. Andersens Regel: "Uncommon descriptions,
+      not uncommon advice."
+  - order: 4
+    label: Fallgeberin reagiert
+    duration_minutes: 10
+    trainer_action: >
+      Moderation lädt Fallgeberin ein, sich zurückzudrehen.
+      "Was haben Sie gehört? Was hat resoniert, was nicht?
+      Was nehmen Sie mit?" Keine Diskussion mit RT, nur
+      Fallgeberin spricht.
+    participant_action: >
+      Fallgeberin: reflektiert, was aus RT bei ihr angekommen
+      ist. Eigene Perspektive, neue Fragen, erste Schritte.
+      RT: hört zu, schweigt.
+    note: >
+      Die Umkehrung ist ein klarer Rollenwechsel. Körperliche
+      Markierung (umdrehen, Platz wechseln) hilft. Fallgeberin
+      hat jetzt das Wort — RT ist Spiegel, nicht Dialogpartner.
+  - order: 5
+    label: Meta-Reflexion & Abschluss
+    duration_minutes: 10
+    trainer_action: >
+      Ende des strukturierten Teils: alle dürfen frei sprechen.
+      Fragen an die Runde: "Wie war diese Form für Sie?" Fokus
+      auf Methoden-Erleben, nicht auf Inhalt. Vertraulichkeit
+      erneut bestätigen.
+    participant_action: >
+      Eigene Erfahrung mit der Methode teilen, ggf. Wünsche für
+      nächstes Mal, Dank an Fallgeberin für Öffnung.
+    note: >
+      Meta-Reflexion ist besonders wichtig, wenn Team die Methode
+      neu lernt. Erkenntnisse zur Struktur helfen beim nächsten
+      Einsatz.
+
+variations:
+  - name: Klassisch (Andersen-Original)
+    description: >
+      Fallschilderung → Reflecting Team (spricht untereinander,
+      Fallgeberin hört) → Fallgeberin reagiert → Meta-Reflexion.
+      Strikte Rollen-Trennung.
+    when_to_use: >
+      Therapie, systemische Beratung, Supervision. Kollegiale
+      Beratung in Führungs- und Beratungs-Kontexten.
+  - name: Kollegiale Beratung mit Reflecting Team (Tietze)
+    description: >
+      Strukturiertes Format für Arbeitskontexte. Schlüsselfrage
+      klären, RT-Runde, Lösungsideen. Ohne therapeutischen
+      Hintergrund.
+    when_to_use: >
+      Teamberatung, Führungskräfte-Intervision,
+      Organisationsentwicklung. 6-8 TN optimal.
+  - name: Mini-Reflecting-Team (30 min)
+    description: >
+      Kurzfassung: 5 min Fallschilderung, 8 min RT, 5 min
+      Rückmeldung. Gut als Werkzeug in Gruppen-Coachings
+      oder Methoden-Übungen.
+    when_to_use: >
+      Lern-Kontexte, wenn die Methode geübt werden soll. Nicht
+      für tiefe Anliegen geeignet.
+  - name: Mehrere Fallgeberinnen parallel (Carousel)
+    description: >
+      Mehrere Kleingruppen à 4-5 mit je einer Fallgeberin.
+      Parallele Reflecting Teams. Am Ende ggf. Plenum-Austausch.
+    when_to_use: >
+      Größere Gruppen (12+), wenn mehrere Anliegen bearbeitet
+      werden sollen. Sehr effizient, aber Moderation muss
+      sich aufteilen.
+  - name: Remote Reflecting Team (Video)
+    description: >
+      Video-Setting. Fallgeberin schaltet Video aus während
+      RT-Phase (symbolisiert "Zurückdrehen"), hört nur zu.
+      Dann wieder an für Rückmeldung.
+    when_to_use: >
+      Verteilte Teams, Supervisions-Online-Gruppen.
+      Funktioniert gut, Video-Toggle unterstützt Rollenwechsel.
+    setting_codes: [remote_sync]
+  - name: Schriftliches Reflecting Team
+    description: >
+      RT-Mitglieder schreiben ihre Reflexionen, statt mündlich
+      auszutauschen. Fallgeberin liest anschließend.
+    when_to_use: >
+      Asynchrone Formate, große Heterogenität, oder wenn
+      Mündliches für Fallgeberin zu intensiv wäre.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      RT gibt Ratschläge statt Reflexionen ("Du solltest...").
+    countermeasure: >
+      Moderation interveniert sofort: "Das ist ein Rat — bitte
+      beschreiben statt raten." Regel-Karte bereitliegen lassen.
+      Vorbereitung: Beispiele zeigen, was Reflexion ist ("Mir
+      fällt auf, dass...").
+    severity: common
+  - issue: >
+      Fallgeberin unterbricht RT oder meldet sich zu Wort.
+    countermeasure: >
+      Sanft zurückführen: "Bitte noch hören, gleich sind Sie
+      dran." Rollentrennung körperlich unterstützen (Stuhl
+      gedreht, Notizblock als "Andockpunkt").
+    severity: common
+  - issue: >
+      RT spricht in zweiter Person ("Du solltest...") statt
+      dritter Person.
+    countermeasure: >
+      Moderation korrigiert freundlich. Rolle als "Beobachtende
+      eines Dialogs" klarmachen. Beispiel-Formulierungen vorab
+      zeigen.
+    severity: common
+  - issue: >
+      Fallschilderung zu kurz — RT hat zu wenig Anhaltspunkte.
+    countermeasure: >
+      Moderation öffnet mit Fragen: "Was ist das Herzstück?
+      Was haben Sie schon probiert? Was erleben Sie konkret?"
+      Mindestens 10 min für Schilderung einplanen.
+    severity: common
+  - issue: >
+      RT bleibt oberflächlich — nur höfliche
+      Zusammenfassungen.
+    countermeasure: >
+      Zur Vertiefung ermutigen: "Welches Bild / welche
+      Assoziation hatten Sie? Was hat Sie überrascht?" Andersens
+      "uncommon descriptions" aktiv anfragen.
+    severity: common
+  - issue: >
+      Fallgeberin fühlt sich ausgestellt, RT-Phase wirkt
+      demütigend.
+    countermeasure: >
+      Vorab Vertraulichkeit ernst nehmen. RT-Mitglieder
+      briefen: "Wohlwollend, nicht entlarvend." Bei Unwohlsein
+      der Fallgeberin: sofort Prozess-Pause.
+    severity: rare
+  - issue: >
+      Zeitrahmen gesprengt — Fallgeberin-Rückmeldung kommt
+      nicht mehr.
+    countermeasure: >
+      Moderation schneidet RT-Phase hart ab (Timer). Lieber
+      Fallgeberin die Zeit geben, die sie braucht. Die
+      Rückmeldung ist für sie der Erkenntnismoment.
+    severity: common

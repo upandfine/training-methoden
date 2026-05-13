@@ -1,0 +1,248 @@
+slug: koffer-rucksack-muelleimer
+canonical_name: Koffer – Rucksack – Mülleimer
+synonyms:
+  - synonym: Suitcase - Backpack - Trash
+    language: en
+  - synonym: Drei-Behälter-Methode
+    language: de
+short_description: >
+  Drei visualisierte Behälter: Koffer (nehme ich mit), Rucksack (trage ich weiter,
+  muss aber noch integriert werden), Mülleimer (lasse ich hier). Teilnehmende
+  füllen mit Karten, was sie zu welcher Kategorie zuordnen.
+originator: null
+origin_context: >
+  Klassische Moderationstechnik, verwandt mit Erwartungsklärung und
+  Abschlussreflexion — heute sehr häufig in agilen Retrospektiven.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: transfer
+  - code: closing
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digital auf Miro/Mural als drei Spalten mit Karten sehr gängig.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, ihk, adult_education]
+method_types: [reflective, visualization, diagnostic]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 40
+materials:
+  - Flipchart oder Pinnwand, Moderationskarten
+tags: [erwartung, reflexion, drei-kategorien]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+    note: Drei-Behälter-Reflexion als Standard-Abschluss-Format.
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+  - kind: book
+    title: "Retrospektiven in der Praxis: Frische Ideen für Teams"
+    author: Judith Andresen
+    year: 2017
+    relation: reference
+    note: Variante in Retrospektiven, als Alternative zu Stop-Start-Continue.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Drei Behälter visualisieren
+    duration_minutes: 3
+    trainer_action: >
+      Flipchart oder Pinnwand mit drei sichtbaren Zonen:
+      Koffer-Symbol links (nehme mit), Rucksack-Symbol mitte
+      (trage noch mit, braucht Integration), Mülleimer rechts
+      (lasse hier). Metapher kurz erklären — kein Lehrer-Ton,
+      sondern einladend.
+    participant_action: >
+      Wahrnehmen, wo die drei Zonen sind, Metapher verstehen.
+    note: >
+      Visualisierung entscheidet. Ein handgezeichneter Koffer
+      wirkt einladender als eine Schablone. Mülleimer muss
+      nicht hässlich sein — auch negative Kategorie darf
+      freundlich gestaltet sein.
+  - order: 2
+    label: Einzelarbeit — Karten schreiben
+    duration_minutes: 8
+    trainer_action: >
+      3 Stapel Karten in verschiedenen Farben austeilen
+      (z.B. grün=Koffer, gelb=Rucksack, rot=Mülleimer). Pro
+      Kategorie mindestens eine Karte. Stichwort + ggf. kurze
+      Erläuterung pro Karte. Still schreiben.
+    participant_action: >
+      Rückblickend überlegen: Was nehme ich mit (konkret
+      anwendbar), was muss ich noch integrieren (angerissen,
+      braucht weiter Arbeit), was gehört nicht in meinen
+      Alltag (passt nicht, nicht hilfreich).
+    note: >
+      Klare Kategorien-Unterschiede. Koffer = "morgen umsetzen".
+      Rucksack = "klingt interessant, muss ich noch verstehen".
+      Mülleimer = "passt nicht zu mir/uns". Diese Abgrenzung
+      hilft, nicht nur die Koffer vollzukleben.
+  - order: 3
+    label: Karten ankleben
+    duration_minutes: 5
+    trainer_action: >
+      Alle gleichzeitig aufstehen und Karten in die passenden
+      Zonen kleben. Nicht sequenziell (sonst Höflichkeits-
+      Bias). Anonymität kann gewahrt werden, wenn gewünscht
+      (Moderation sammelt und klebt).
+    participant_action: >
+      Karten in die jeweiligen Zonen platzieren. Optional mit
+      Namen oder anonym.
+    note: >
+      Bei Anonymitätsbedarf (Arbeitskontext, Chef dabei):
+      Moderation klebt. Bei vertrauter Lerngruppe: TN selbst.
+      Methode funktioniert in beiden Varianten.
+  - order: 4
+    label: Gemeinsam lesen & thematisieren
+    duration_minutes: 8
+    trainer_action: >
+      Moderation liest laut durch — Koffer zuerst (positives
+      Momentum), dann Rucksack, dann Mülleimer. Bei Rucksack
+      fragen: "Was bräuchte es, damit das in den Koffer
+      kommt?" Bei Mülleimer: "Was war der Auslöser?"
+    participant_action: >
+      Zuhören, eigene Karten wiedererkennen, ggf. erläutern,
+      Kategorisierung der anderen wahrnehmen.
+    note: >
+      Rucksack ist die lehrreichste Kategorie — "noch nicht
+      ganz angekommen" zeigt, wo Nachbereitung fehlt. Mülleimer
+      respektvoll thematisieren, nicht abwerten ("ist ja
+      legitim").
+  - order: 5
+    label: Transfer-Commitment
+    duration_minutes: 5
+    trainer_action: >
+      Abschluss: "Eine Koffer-Sache pro Person — was machen
+      Sie damit konkret? Wann? Mit wem?" Kurze Runde, 30 Sek.
+      pro Person. Ggf. Notizen für eigenen Follow-up.
+    participant_action: >
+      Eine konkrete Umsetzung benennen, Zeithorizont und ggf.
+      Buddy nennen.
+    note: >
+      Ohne Commitment bleibt der Koffer ein hübsches Bild.
+      Der Transfer-Step macht aus Reflexion Handlung — nie
+      weglassen.
+
+variations:
+  - name: Klassisch (drei Kategorien)
+    description: >
+      Koffer / Rucksack / Mülleimer, einzeln befüllen, gemeinsam
+      lesen. Standard-Variante.
+    when_to_use: >
+      Seminar-Abschluss, Retrospektiven, Lernrückblicke. 6-25
+      TN ideal.
+  - name: Kurz (je 2 min, eine Karte pro Kategorie)
+    description: >
+      Je eine Karte pro Kategorie, schnell befüllen, kurzer
+      Plenum-Austausch. 10-15 min gesamt.
+    when_to_use: >
+      Kurze Sessions, Daily Reflections, Online-Mini-Retros.
+  - name: Vier Behälter (+ Spezial-Kategorie)
+    description: >
+      Vierte Kategorie je nach Bedarf: "Briefkasten" (an jemand
+      weiterleiten), "Tresor" (heikel, bleibt geheim), "Kiste
+      für später" (parken).
+    when_to_use: >
+      Teams mit spezifischen Follow-up-Bedürfnissen, oder wenn
+      eine Kategorie im Kontext besonders relevant ist.
+  - name: Remote (Mural/Miro-Template)
+    description: >
+      Drei Frames / Zonen, digitale Sticky Notes, Drag&Drop.
+      Template wiederverwendbar.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Besonders gut für
+      dokumentierbare Nachnutzung.
+    setting_codes: [remote_sync]
+  - name: Dialog-Variante (Paaraustausch vor Plenum)
+    description: >
+      Nach dem Befüllen: Paaraustausch "Warum der Koffer?",
+      erst dann Plenum. Mehr Tiefe durch bilaterale Reflexion.
+    when_to_use: >
+      Trainings, bei denen Vertiefung erwünscht ist, Zeit
+      vorhanden. 30-40 min gesamt.
+  - name: Physischer Koffer / Rucksack / Mülleimer
+    description: >
+      Echte Gegenstände (Koffer, Rucksack, Mülleimer) in der
+      Mitte des Raums. TN legen ihre Karten tatsächlich rein.
+      Sehr körperlich.
+    when_to_use: >
+      Längere Workshops, wenn die Metapher leibhaftig erlebt
+      werden soll. Bei Jugendgruppen und teambildenden
+      Formaten besonders wirksam.
+
+pitfalls:
+  - issue: >
+      Alle schreiben nur in den Koffer — nichts landet im
+      Rucksack oder Mülleimer.
+    countermeasure: >
+      Explizit bitten: "Bitte pro Kategorie mindestens eine
+      Karte." Beispiele geben, was in Rucksack / Mülleimer
+      passt. Keine Angst vor "negativem" Feedback, Framing:
+      "Mülleimer ist hilfreich — zeigt mir, was nicht wirkt."
+    severity: common
+  - issue: >
+      Mülleimer wird persönlich ("Trainer:in hat genervt").
+    countermeasure: >
+      Vorab Regel: "Methoden und Inhalte, nicht Personen."
+      Bei Personen-Karte: umformulieren zu Verhalten/Methode.
+    severity: common
+  - issue: >
+      Transfer-Schritt entfällt ("keine Zeit mehr").
+    countermeasure: >
+      Transfer fest einplanen (letzte 5 min). Wenn Zeit knapp:
+      alle anderen Phasen kürzen, aber NICHT den Transfer.
+    severity: common
+  - issue: >
+      Rucksack-Karten werden nicht weiterverfolgt — "noch
+      integrieren" bleibt Floskel.
+    countermeasure: >
+      Im Transfer-Schritt Rucksack-Themen explizit adressieren:
+      "Was bräuchten Sie, um das integrieren zu können? Wer
+      kann helfen?" Follow-up-Mail mit Rucksack-Punkten.
+    severity: common
+  - issue: >
+      Karten sind zu allgemein ("mehr Austausch") — keine
+      konkreten Transfer-Ansatzpunkte.
+    countermeasure: >
+      Beim Framing konkret machen: "Je konkreter, desto
+      besser. Statt 'mehr Austausch' — 'monatliches Kollegium-
+      Meeting initiieren'."
+    severity: common
+  - issue: >
+      Metapher wirkt zu verspielt für manche Zielgruppen
+      (seniors im Corporate).
+    countermeasure: >
+      Entweder abstrakter framen ("Drei Kategorien: Übernehmen,
+      Weiterbearbeiten, Verwerfen") oder die Metapher offensiv
+      verteidigen ("funktioniert, weil sichtbar"). Zielgruppe
+      realistisch einschätzen.
+    severity: rare
+  - issue: >
+      Online-Variante: TN sind zu sparsam mit Karten,
+      Whiteboard bleibt leer.
+    countermeasure: >
+      Klare Zeitvorgabe (8 min Schreibphase, Timer sichtbar).
+      Menge ansagen: "mindestens 5 Karten gesamt pro Person".
+    severity: common
+    setting_codes: [remote_sync]

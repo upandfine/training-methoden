@@ -1,0 +1,247 @@
+slug: brainstorming
+canonical_name: Brainstorming
+synonyms:
+  - synonym: Ideensturm
+    language: de
+short_description: >
+  Gruppenbasierte Ideensammlung mit vier Regeln: Quantität vor Qualität, keine
+  Kritik, wilde Ideen willkommen, auf Ideen anderer aufbauen. Divergente Phase
+  jedes Kreativprozesses.
+originator: Alex F. Osborn
+origin_year: 1953
+origin_context: >
+  Osborns „Applied Imagination" (1953) — Brainstorming ist der bekannteste
+  Kreativitätstechnik-Klassiker.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: activation
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digitales Whiteboard mit Sticky Notes; Still-Phase vor Diskussion empfohlen (Brainwriting-Variante).
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [creative, cooperative, activating]
+duration_min_minutes: 10
+duration_typical_minutes: 30
+duration_max_minutes: 45
+materials:
+  - Flipchart, Stifte — oder Whiteboard-Tool
+tags: [kreativitaet, ideensammlung, klassiker]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: Applied Imagination
+    author: Alex F. Osborn
+    year: 1953
+    relation: originator
+    note: Ursprungswerk, in dem Osborn die vier Grundregeln formuliert.
+  - kind: article
+    title: "Productivity loss in brainstorming groups: A meta-analytic integration"
+    author: Mullen, B.; Johnson, C.; Salas, E.
+    year: 1991
+    relation: reference
+    note: >
+      Meta-Analyse zur klassischen Kritik: Gruppen-Brainstorming produziert
+      weniger Ideen als Nominalgruppen — daher Brainwriting-Variante.
+  - kind: book
+    title: Kreativitätstechniken — ein Handbuch
+    author: Horst Geschka
+    year: 2019
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Fragestellung scharfschneiden & Regeln setzen
+    duration_minutes: 5
+    trainer_action: >
+      Fragestellung groß sichtbar machen (Flipchart / geteilter
+      Bildschirm). Eine Frage, nicht fünf — je spitzer, desto besser.
+      Die 4 Regeln ansagen und aufhängen: Quantität vor Qualität,
+      keine Kritik, wilde Ideen willkommen, auf Ideen anderer
+      aufbauen. Zeit-Box ankündigen.
+    participant_action: >
+      Fragestellung klären, nachfragen wenn etwas unklar ist.
+      Regeln nicken.
+    note: >
+      Schwache Fragen („Wie verbessern wir das?") produzieren schwache
+      Ideen. Besser: „Wie können wir in den nächsten 3 Monaten die
+      Onboarding-Zeit für neue Mitarbeiter:innen halbieren?"
+  - order: 2
+    label: Warm-up / Assoziationsübung
+    duration_minutes: 3
+    trainer_action: >
+      Kurze, harmlose Aufwärm-Frage („Andere Nutzungen für einen
+      Tennisball"). 2 min Ideen sammeln, nur um die Divergenz-Muskeln
+      zu wecken. Kein Bezug zum Thema.
+    participant_action: >
+      Mitmachen, ohne Anspruch auf Ernsthaftigkeit.
+    note: >
+      Wird gern ausgelassen — aber ohne Warm-up geht es mit der ersten
+      Frage direkt an die inneren Zensoren. 3 min sparen kostet später
+      10 min Ideenflaute.
+  - order: 3
+    label: Divergente Phase — still + laut
+    duration_minutes: 10
+    trainer_action: >
+      Erst 3 min Still-Phase: jede:r notiert Ideen auf eigenen Post-its
+      (Brainwriting-Einstieg). Dann Sammeln: Reihum eine Idee auf
+      Flipchart/Board, kein Kommentar, kein "Das gab's schon". Bei
+      Ideen-Flaute: Provokationstechnik einstreuen ("Jetzt 3 völlig
+      unpraktische Ideen").
+    participant_action: >
+      Erst schweigend schreiben. Dann Idee teilen (eine pro Runde),
+      bei anderen aktiv zuhören und gedanklich andocken.
+    note: >
+      Still-Phase ist der Game-Changer. Ohne sie dominieren 2-3
+      Schnellsprecher:innen. Mit ihr bekommt jede:r eine Startposition.
+  - order: 4
+    label: Strukturieren & Clustern
+    duration_minutes: 5
+    trainer_action: >
+      Die gesammelten Ideen zusammen mit der Gruppe clustern
+      (Affinity-Diagram). Nicht werten, nur sortieren. Dopplungen
+      zusammenführen. Ungewöhnliche Ideen nicht voreilig verwerfen.
+    participant_action: >
+      Vorschläge zur Gruppierung machen, Cluster-Namen finden.
+    note: >
+      Nicht schon hier bewerten. Bewertung = separater Schritt.
+      Wer beim Clustern sagt „das bringt sowieso nichts", killt die
+      Methode.
+  - order: 5
+    label: Konvergente Phase — Auswahl / Voting
+    duration_minutes: 5
+    trainer_action: >
+      Auswahlkriterien kurz klären (Machbarkeit? Wirkung? Zeit?).
+      Dot-Voting oder 2×2-Matrix (Impact × Effort). Top 3-5 Ideen
+      als nächste Schritte benennen.
+    participant_action: >
+      Punkte vergeben (z.B. 3 pro Person), nach Auswahl kurz
+      diskutieren.
+    note: >
+      Ohne Konvergenz endet Brainstorming als „war nett" und nichts
+      passiert. Immer mit Entscheidung + Owner + Nächste-Schritte
+      abschließen.
+  - order: 6
+    label: Debrief & Nächste Schritte
+    duration_minutes: 2
+    trainer_action: >
+      Kurz zusammenfassen: was wurde gewählt, wer kümmert sich,
+      wann wird weitergearbeitet. Nicht-gewählte Ideen parken
+      (nicht wegwerfen — Parkplatz-Board).
+    participant_action: >
+      Commitment zu übernommenen Owner-Rollen.
+    note: >
+      Parkplatz-Board ist wichtig: Ideen, die heute nicht ausgewählt
+      wurden, sind nicht „schlecht" — oft nur nicht passend für den
+      Moment. Archiv macht Folgetermine produktiver.
+
+variations:
+  - name: Klassisches Brainstorming (laut)
+    description: >
+      Reine Zuruf-Variante ohne Still-Phase. Eine Person protokolliert,
+      alle rufen rein. Schnell, aber anfällig für Dominanz.
+    when_to_use: >
+      Vertraute kleine Gruppen (4-6), in denen alle gleich laut sind.
+      Oder als Energizer-Variante, wenn nicht Ideenmenge, sondern
+      Energie das Ziel ist.
+  - name: Brainwriting 6-3-5
+    description: >
+      6 Personen schreiben 3 Ideen in 5 min, geben Blatt weiter.
+      Nächste:r baut auf den Ideen auf. 6 Runden = 108 Ideen.
+      Stille Methode, keine Dominanzrisiken.
+    when_to_use: >
+      Gemischte Gruppen mit introvertierten und extrovertierten TN.
+      Wenn Quantität und Diversität wichtiger als schnelle
+      Konvergenz sind.
+  - name: Brainstorming mit Rollen (de Bono Hüte)
+    description: >
+      Jede:r bekommt eine Denkhut-Rolle zugewiesen. Statt freier
+      Assoziation fokussiert jede Person aus einer Perspektive.
+    when_to_use: >
+      Wenn Gruppe dazu neigt, in einer Denkweise stecken zu bleiben
+      (nur Probleme / nur Optimismus / ...). Kombination mit
+      Six-Thinking-Hats.
+  - name: Remote-Brainstorming (Mural/Miro)
+    description: >
+      Alle auf gemeinsamem Whiteboard, Sticky Notes parallel. Still-
+      Phase per Timer, danach Präsentation per Screen-Share. Viel
+      effizienter als Zoom-Diskussion.
+    when_to_use: >
+      Verteilte Teams. Funktioniert besser als Präsenz-Brainstorming,
+      weil Parallelität Still-Phase quasi erzwingt.
+    setting_codes: [remote_sync]
+  - name: Reverse Brainstorming (Kopfstand)
+    description: >
+      Statt „Wie erreichen wir X?" die Gegenfrage: „Wie verhindern
+      wir X ganz sicher?". Anschließend jede Idee umkehren zu
+      Lösungsidee.
+    when_to_use: >
+      Bei festgefahrenen Themen, wenn positive Framing nicht mehr
+      greift. Gut bei Prozessverbesserungen.
+  - name: SCAMPER-Brainstorming
+    description: >
+      Strukturiertes Brainstorming entlang der 7 SCAMPER-Fragen
+      (Substitute, Combine, Adapt, Modify, Put to other use,
+      Eliminate, Reverse).
+    when_to_use: >
+      Für Produkt-/Service-Verbesserungen, wenn ein bestehender
+      Gegenstand Ausgangspunkt ist. Gibt der Kreativität ein Gerüst.
+
+pitfalls:
+  - issue: >
+      Fragestellung ist zu breit oder zu abstrakt — alle Ideen
+      bleiben auf Meta-Ebene.
+    countermeasure: >
+      Vor der Session Fragestellung schärfen (SMART-Kriterien,
+      Beispiel: Zeitraum, Zielgröße, Kontext). Lieber 5 min mehr
+      in die Frage als 30 min in leere Ideen.
+    severity: common
+  - issue: >
+      Kritik schleicht sich ein ("Ja aber, das geht nicht weil...").
+    countermeasure: >
+      Moderation unterbricht freundlich, erinnert an Regel 2. Ggf.
+      Karten mit "Parkplatz für Bedenken" bereitstellen, damit
+      Kritik nicht verloren geht, aber die divergente Phase nicht
+      killt.
+    severity: common
+  - issue: >
+      Ein bis zwei Personen dominieren, andere kommen nicht zu Wort.
+    countermeasure: >
+      Still-Phase mit individueller Notation einführen (Brainwriting).
+      Round-Robin-Runde, in der jede:r genau eine Idee einbringt.
+    severity: common
+  - issue: >
+      Gruppe produziert viele Ideen, aber keine Entscheidung — "war
+      nett, und jetzt?".
+    countermeasure: >
+      Konvergenz-Phase ist Pflicht, nicht optional. Dot-Voting +
+      Impact/Effort-Matrix + Owner-Nominierung fest im Ablauf.
+    severity: common
+  - issue: >
+      Gruppe bleibt nah am Bekannten, kommt nicht zu wilden Ideen.
+    countermeasure: >
+      Provokationstechniken einstreuen ("Jetzt 3 verrückte Ideen",
+      "Was würde Disney vorschlagen?"). Warm-up mit unsinnigen
+      Ideen hilft, den inneren Zensor zu umgehen.
+    severity: common
+  - issue: >
+      Remote: Dominanz durch Redebeiträge statt Ideenmenge.
+    countermeasure: >
+      Strikte Still-Phase auf Whiteboard, Chat-Beiträge parallel.
+      Kamera-an empfohlen, aber Mikrofon aus während der Still-Phase.
+    severity: common
+    setting_codes: [remote_sync]

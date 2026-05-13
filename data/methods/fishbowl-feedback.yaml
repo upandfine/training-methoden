@@ -1,0 +1,238 @@
+slug: fishbowl-feedback
+canonical_name: Fishbowl-Feedback
+synonyms:
+  - synonym: Fishbowl Feedback Circle
+    language: en
+short_description: >
+  Eine kleine Gruppe diskutiert im Innenkreis über die vergangene Einheit
+  („Was war hilfreich? Was nicht?"), die anderen beobachten. Durch Stuhlrotation
+  wechseln Rollen. Erzeugt Feedback-Transparenz ohne klassische Runde.
+originator: null
+origin_context: >
+  Fishbowl als Methode etabliert in der Community-Organizing-Tradition und
+  Großgruppenmoderation; Variante für Feedback nutzt die gleiche Struktur
+  gezielt für Trainings-Rückmeldung.
+phases:
+  - code: feedback
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Mit gezieltem Mikro-Management und Video-Spotlight.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [feedback, activating, cooperative]
+duration_min_minutes: 30
+duration_typical_minutes: 45
+duration_max_minutes: 60
+tags: [fishbowl, feedback, rotation]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Großgruppenmethoden: Lebendig lernen — Veränderung gestalten"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: practice_guide
+    note: Fishbowl-Varianten in der Großgruppenarbeit.
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+  - kind: url
+    title: "National School Reform Faculty — Fishbowl Protocol"
+    url: https://www.nsrfharmony.org/protocols/
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Fishbowl-Setup & Regeln erklären
+    duration_minutes: 5
+    trainer_action: >
+      Innenkreis aus 4-6 Stühlen, Außenkreis für Rest.
+      "Leer-Stuhl-Prinzip" erklären: 1 Stuhl im Innenkreis
+      bleibt frei — wer aus dem Außenkreis beitragen will,
+      kommt kurz rein. Thema ansagen: "Was war in dieser
+      Einheit hilfreich? Was weniger?"
+    participant_action: >
+      Plätze einnehmen. 4-6 freiwillige starten im
+      Innenkreis. Rest bildet Außenkreis.
+    note: >
+      Leer-Stuhl ist zentral — macht Fishbowl dynamisch.
+      Ohne ihn: geschlossene Gruppe, andere nur passiv.
+      Deutlich erklären.
+  - order: 2
+    label: Innenkreis-Diskussion startet
+    duration_minutes: 10
+    trainer_action: >
+      Innenkreis beginnt Diskussion. Moderation bleibt
+      außerhalb, greift nicht inhaltlich ein. Außenkreis
+      beobachtet still. Bei Rückmeldung: Person geht kurz
+      in Leer-Stuhl, dann zurück.
+    participant_action: >
+      Innenkreis: offen sprechen, zuhören, reagieren.
+      Außenkreis: beobachten, Notizen machen, bei Impuls
+      in Leer-Stuhl wechseln.
+    note: >
+      Moderation zurückhalten lernen. Fishbowl lebt von
+      Selbststeuerung. Nur bei Problemen eingreifen (zu
+      dominantes Reden, komplette Stille).
+  - order: 3
+    label: Rotationen durch Leer-Stuhl
+    duration_minutes: 15
+    trainer_action: >
+      Leer-Stuhl-Mechanismus aktiv halten. Wenn zu wenige
+      nutzen: ermutigen. Nach 10 min: "Wer will, wechselt
+      rein oder raus." Natürlicher Rhythmus.
+    participant_action: >
+      Bei eigenem Beitrag: kurz in Leer-Stuhl, dann zurück
+      (oder bleiben). Rotation aktiv mitgestalten.
+    note: >
+      In mittleren Gruppen (12-18 TN) ist realistisch, dass
+      jede:r einmal im Innenkreis war. Bei 20-30 TN dient
+      der Leer-Stuhl eher der Stichproben-Beteiligung —
+      vollständige Rotation wäre in 45 min nicht drin, und
+      ist auch didaktisch nicht zwingend. Ziel: jede Stimme,
+      die etwas beitragen will, bekommt die Chance.
+      Moderation kann gezielt einladen ("Frau X, was
+      denken Sie?"), wenn jemand zögert.
+  - order: 4
+    label: Auswertung im Plenum
+    duration_minutes: 10
+    trainer_action: >
+      Auflösung Fishbowl. Alle im Plenum. Moderation
+      bündelt: "Was waren die Kern-Punkte? Was nehmen wir
+      mit?" Notizen der Beobachter einbringen.
+    participant_action: >
+      Beobachtungen + eigene Beiträge zusammenführen.
+      Rote Fäden erkennen.
+    note: >
+      Beobachter:innen-Perspektive wichtig. Außenkreis
+      sieht oft, was Innenkreis nicht merkt. Gezielt
+      einbinden.
+  - order: 5
+    label: Konsequenz & Abschluss
+    duration_minutes: 5
+    trainer_action: >
+      "Was bedeutet das für den Rest/die nächste
+      Session?" Konkrete Anpassungen ankündigen. Dank an
+      beide Rollen.
+    participant_action: >
+      Feedback-Folgen verstehen. Eigene Rolle im
+      Fishbowl abschließen.
+    note: >
+      Ohne Konsequenz bleibt Feedback wirkungslos.
+      Zumindest Dankesformel + Benennung von 1-2
+      konkreten Anpassungen.
+
+variations:
+  - name: Klassisch (Innenkreis 4-6, Leer-Stuhl)
+    description: >
+      Standard-Fishbowl: kleiner Innenkreis, Außenkreis
+      beobachtet, Leer-Stuhl für Rotation.
+    when_to_use: >
+      Mittelgroße Gruppen (12-30 TN), wenn intime
+      Diskussion gewünscht + alle TN irgendwie beteiligt.
+  - name: Fishbowl mit Rotations-Pflicht
+    description: >
+      Alle müssen mindestens einmal rotieren. Nach
+      festen Zeiten (5 min) wechseln. Strukturierter.
+    when_to_use: >
+      Bei zögerlicher Gruppe, wenn Beteiligung erzwungen
+      werden soll.
+  - name: Themen-Fishbowl
+    description: >
+      Innenkreis wechselt nach Themen (z.B. "jetzt
+      Methodik-Feedback", "jetzt Atmosphäre-Feedback").
+      Mehrere Runden, Themen-fokussiert.
+    when_to_use: >
+      Wenn strukturiertes Feedback zu verschiedenen
+      Aspekten gewünscht.
+  - name: Asynchron-Beobachter (mit Rollen)
+    description: >
+      Beobachter:innen bekommen Beobachtungs-Aufträge
+      (Rollen: Körpersprache, Argumentation, Themen-
+      Übergänge). Vertieft Beobachtung.
+    when_to_use: >
+      Ausbildungskontexte, wenn Beobachtungs-Skills
+      mittrainiert werden sollen.
+  - name: Remote-Fishbowl (Video)
+    description: >
+      Videokonferenz: Innenkreis hat Kamera an, Außenkreis
+      Kamera aus. Wechsel per Chat-Anmeldung. Oder Zoom-
+      Spotlight für Innenkreis.
+    when_to_use: >
+      Online-Trainings. Funktioniert, aber Dichte geringer
+      als Präsenz.
+    setting_codes: [remote_sync]
+  - name: Expertenbasiertes Fishbowl
+    description: >
+      Innenkreis sind Expert:innen, Außenkreis Lernende.
+      Lernende stellen Fragen per Leer-Stuhl. Asymmetrisch.
+    when_to_use: >
+      Wissensvermittlung, wenn Experten-Diskussion als
+      Lern-Impuls gewünscht.
+
+pitfalls:
+  - issue: >
+      Leer-Stuhl wird nicht genutzt — Außenkreis passiv.
+    countermeasure: >
+      Moderation initiiert erste Rotation selbst.
+      Gezielte Einladung: "Wer aus dem Außenkreis möchte
+      kurz rein?"
+    severity: common
+  - issue: >
+      Innenkreis dominiert — wird zur Monolog-Show.
+    countermeasure: >
+      Innenkreis-Mitglieder rotieren nach Zeit (5 min).
+      Moderation signalisiert. Bei Bedarf: neue
+      Freiwillige reinholen.
+    severity: common
+  - issue: >
+      Feedback bleibt oberflächlich ("war gut").
+    countermeasure: >
+      Leitfragen konkretisieren: "Was war hilfreich?
+      Was hätten Sie anders gemacht?" Moderation
+      aktiviert bei Flachheit.
+    severity: common
+  - issue: >
+      Außenkreis flüstert — Innenkreis gestört.
+    countermeasure: >
+      Regel: "Außenkreis hört still zu." Notizen ok.
+      Bei Verstoß sanft erinnern.
+    severity: common
+  - issue: >
+      Bei kleinen Gruppen (< 10) wird Fishbowl-Struktur
+      künstlich.
+    countermeasure: >
+      Bei < 10 TN: andere Feedback-Methode (Blitzlicht,
+      Kartenabfrage). Fishbowl braucht kritische Masse.
+    severity: common
+  - issue: >
+      Plenum-Auswertung fehlt — Fishbowl endet abrupt.
+    countermeasure: >
+      Auflösung fest einplanen. 10 min Plenum reicht.
+      Ohne: Feedback bleibt in Köpfen der Innenkreis-
+      Teilnehmenden.
+    severity: common
+  - issue: >
+      Remote: Spotlight-Mechanik bricht — Fokus-Wechsel
+      unklar.
+    countermeasure: >
+      Klare Ansage bei Wechseln. Evtl. Chat-Anmeldung
+      für Rotation. Tool-Test vorab.
+    severity: common
+    setting_codes: [remote_sync]

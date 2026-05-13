@@ -1,0 +1,242 @@
+slug: lernplakat
+canonical_name: Lernplakat
+synonyms:
+  - synonym: Learning Poster
+    language: en
+  - synonym: Lernposter
+    language: de
+short_description: >
+  Kleingruppen erarbeiten zu einem Thema ein visuell gestaltetes Plakat,
+  das zentrale Inhalte, Zusammenhänge und Kernaussagen darstellt. Anschließend
+  Präsentation im Plenum oder Gallery Walk.
+originator: null
+origin_context: >
+  Standardmethode aus der Schul- und Hochschuldidaktik; kombiniert
+  Wissensaneignung, Strukturieren und Präsentieren.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: input
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digitales Plakat auf Miro/Mural; jede Gruppe eigene Frame-Zone.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [school, youth, ihk, adult_education, higher_education]
+method_types: [cooperative, visualization, creative]
+duration_min_minutes: 45
+duration_typical_minutes: 75
+duration_max_minutes: 120
+materials:
+  - Flipchart-Papier, Marker, ggf. Zeitschriften für Collage
+tags: [plakat, visualisierung, gruppenarbeit]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Unterrichtsmethoden II — Praxisband"
+    author: Hilbert Meyer
+    year: 2002
+    relation: practice_guide
+    note: Lernplakat als schulische Standardmethode mit didaktischer Einordnung.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Thema zuordnen & Aufgabenstellung
+    duration_minutes: 5
+    trainer_action: >
+      Kleingruppen bilden (3-5 Personen). Jede Gruppe bekommt
+      ein Teilthema zugewiesen oder wählt aus. Aufgabe klar
+      formulieren: "Stellen Sie Thema X so dar, dass jemand
+      Fremdes es in 2 min versteht." Kriterien nennen:
+      Struktur, Bild, Kern-Aussage.
+    participant_action: >
+      Gruppe finden, Thema verstehen, Aufgaben-Erwartung
+      klären.
+    note: >
+      Gute Aufgaben sind eng gefasst ("wie funktioniert X in
+      drei Schritten") vs. zu weit ("alles über X"). Enger =
+      besser für die Tiefe des Plakats.
+  - order: 2
+    label: Material verteilen & Regeln
+    duration_minutes: 3
+    trainer_action: >
+      Flipchart-Papier + Marker + ggf. Zeitschriften pro Gruppe.
+      Regeln: "Nicht ganze Sätze — Schlagworte, Bilder, Pfeile.
+      Mindestens 1 Bild oder Skizze. Alle malen mit, nicht
+      eine:r allein."
+    participant_action: >
+      Material holen, Arbeitsplatz einrichten, Rollen grob
+      verteilen (wer zeichnet, wer strukturiert).
+    note: >
+      Die "alle malen mit"-Regel verhindert, dass eine Person
+      das Plakat allein gestaltet. Gruppenprozess ist Teil des
+      Lerneffekts — nicht nur das fertige Produkt.
+  - order: 3
+    label: Gruppen-Erarbeitung (40 min)
+    duration_minutes: 40
+    trainer_action: >
+      Gruppen arbeiten selbstständig. Moderation wandert, hört
+      rein, gibt Impulse bei Stocken, coacht aber nicht zu
+      detailliert. Zwischen-Check bei 20 min: "Wie weit sind
+      Sie? Was braucht noch Zeit?" Bei 35 min: "Noch 5 min,
+      bitte landen."
+    participant_action: >
+      Thema erarbeiten, diskutieren, Plakat gestalten, ggf.
+      Rollen tauschen (Schreiber:in, Zeichner:in, Präsentator:in).
+    note: >
+      40 min ist Untergrenze für ordentliche Lernplakate. Bei
+      weniger Zeit: einfachere Aufgabe. Bei komplexen Themen
+      50-60 min. Zeit ist wichtigster Einflussfaktor.
+  - order: 4
+    label: Präsentation (Gallery Walk oder Plenum)
+    duration_minutes: 20
+    trainer_action: >
+      Zwei Optionen — Gallery Walk: Plakate hängen, TN rotieren
+      (alle 4 min Wechsel). Plenum: Gruppen präsentieren
+      nacheinander (3 min pro Gruppe + 2 min Rückfragen).
+      Moderation wählt nach Gruppengröße.
+    participant_action: >
+      Präsentieren oder rotieren, Fragen stellen, eigene
+      Erkenntnis notieren.
+    note: >
+      Gallery Walk bei 4+ Gruppen sinnvoll (sonst Plenum zu
+      lang). Plenum bei 2-3 Gruppen, weil alle einander
+      zusehen können.
+  - order: 5
+    label: Debrief & Lerntransfer
+    duration_minutes: 7
+    trainer_action: >
+      Plenum-Runde: "Was ist bei Ihrem Thema besonders
+      aufgefallen? Welche Querverbindungen zu anderen Plakaten
+      haben Sie gesehen?" Synthese-Fragen: "Was hängt zusammen?
+      Wo sind die roten Fäden?"
+    participant_action: >
+      Einsichten teilen, Querverbindungen benennen, eigenen
+      Lernerfolg reflektieren.
+    note: >
+      Lernen durch Vernetzung — die Verknüpfung der Plakate ist
+      oft der größte Lerneffekt, nicht das einzelne Plakat.
+      Debrief nicht wegkürzen.
+
+variations:
+  - name: Klassisch (Gruppe + Plakat + Präsentation)
+    description: >
+      Standard-Variante: 3-5er Gruppen, Flipchart, 40-60 min
+      Erarbeitung, Gallery Walk. Für 12-30 TN.
+    when_to_use: >
+      Schule, Hochschule, Seminare mit Inhalts-Schwerpunkt.
+      Wenn Zeit da ist (75-90 min Gesamt).
+  - name: Express-Plakat (30 min gesamt)
+    description: >
+      Sehr kurz: 10 min Plakat + 15 min Gallery Walk. Einfachere
+      Themen, weniger Tiefe.
+    when_to_use: >
+      Kurze Trainings, wenn visuelle Zusammenfassung ausreicht.
+      Vertiefung über Input-Material.
+  - name: Plakat mit Rollenstruktur
+    description: >
+      Feste Rollen in der Gruppe: Moderator:in, Zeichner:in,
+      Rechercher:in, Präsentator:in. Wechsel auf halber
+      Strecke.
+    when_to_use: >
+      Didaktisch-formative Trainings (Schule, Ausbildung), wenn
+      Team-Rollen trainiert werden sollen.
+  - name: Mehr-Runden-Plakat (Fortschreiben)
+    description: >
+      Plakat wird in 2-3 Etappen erstellt, zwischen den Etappen
+      Input-Blöcke. Iteratives Lernen.
+    when_to_use: >
+      Mehrtägige Trainings, wenn Plakat als Lerntagebuch
+      evoluieren soll. Langfristig angelegt.
+  - name: Remote (Miro-Frames pro Gruppe)
+    description: >
+      Jede Gruppe eigener Miro-Frame mit Vorlage (Kernaussage,
+      Grafik-Zone, Zusammenfassung). Parallel-Bearbeitung,
+      dann digitaler Gallery Walk.
+    when_to_use: >
+      Online-Trainings. Templates können wiederverwendet werden,
+      Dokumentation automatisch. Für Remote besonders praktisch.
+    setting_codes: [remote_sync]
+  - name: Kollaborative Sketchnotes
+    description: >
+      Statt klassischem Plakat: Sketchnoting-Stil (Handschrift,
+      Icons, Layout mit Bildern). Braucht Einführung in
+      Sketchnoting.
+    when_to_use: >
+      Kreativ-affine Gruppen, wenn visuelle Kompetenz auch
+      Lernziel ist. Coachings, Design-Communities.
+
+pitfalls:
+  - issue: >
+      Plakate werden zu Textwüsten — ganze Sätze statt Schlagworte.
+    countermeasure: >
+      Regel vorab: "Max. 7 Wörter pro Block". Beispielbilder
+      zeigen. Bei Sichtung: freundlich hinweisen "noch kürzen".
+    severity: common
+  - issue: >
+      Eine Person gestaltet allein, andere gucken zu.
+    countermeasure: >
+      Rolle-Verteilung als Regel. Bei Sichtung fragen: "Wer hat
+      was gemacht? Alle bitte am Plakat aktiv." Moderation
+      moderiert die Gruppenverteilung sanft.
+    severity: common
+  - issue: >
+      Zeitrahmen gesprengt — 40 min werden zu 70 min.
+    countermeasure: >
+      Zwischen-Check bei 20 + 35 min. Klare Time-Box. Nur dann
+      verlängern, wenn Mehrheit der Gruppen es braucht.
+      Perfektionismus kappen: "Fertig ist besser als perfekt."
+    severity: common
+  - issue: >
+      Präsentation wird zur Vorleseübung — Plakat wird
+      abgelesen.
+    countermeasure: >
+      Vorher ansagen: "3 min Präsentation, nicht vorlesen.
+      Stattdessen: Highlights zeigen, Interesse wecken."
+      Zeitdruck erzwingt Kürze.
+    severity: common
+  - issue: >
+      Plakate bleiben an der Wand hängen, kein Transfer.
+    countermeasure: >
+      Abfoto direkt nach Präsentation. Digitalisierung geplant
+      (z.B. Miro-Board als Nachnutzung, PDF-Versand). Im
+      Debrief explizit auf Querverbindungen eingehen.
+    severity: common
+  - issue: >
+      Gruppen-Zusammensetzung ungünstig — dominante/passive
+      Mischung.
+    countermeasure: >
+      Gruppenbildung steuern (nicht "wer will mit wem?", sondern
+      Losverfahren oder thematische Zuordnung). Bei Konflikten
+      vermittelnd eingreifen.
+    severity: common
+  - issue: >
+      Material fehlt — zu wenig Stifte, kein Flipchart-Papier.
+    countermeasure: >
+      Vorher Checkliste: 1 Flipchart-Papier + 4-6 Marker + ggf.
+      Schere/Klebstoff pro Gruppe. Reserve-Material
+      bereithalten.
+    severity: rare

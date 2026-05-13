@@ -1,0 +1,246 @@
+slug: bingo-runde
+canonical_name: Bingo-Runde
+synonyms:
+  - synonym: Human Bingo
+    language: en
+  - synonym: Personen-Bingo
+    language: de
+short_description: >
+  Teilnehmende erhalten eine Bingo-Karte mit Feldern wie „war schon in Japan",
+  „spielt ein Instrument". Sie suchen andere, auf die das zutrifft, und
+  sammeln Unterschriften. Wer eine Reihe voll hat, ruft „Bingo!".
+originator: null
+origin_context: >
+  Weit verbreitete Icebreaker-Methode in der Erwachsenenbildung und Jugendarbeit;
+  viele frei verfügbare Vorlagen und Konferenz-Varianten existieren.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digitales Bingoblatt (PDF), TN füllen mit Namen und Screenshot.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [icebreaker, game]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 30
+materials:
+  - Bingo-Karte (vorbereitet, pro Person)
+  - Stifte
+tags: [bingo, kennenlernen, bewegung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+    note: Personen-Bingo als Icebreaker-Klassiker.
+  - kind: book
+    title: "Methoden-Pool für Trainer und Moderatoren"
+    author: Martina Schmidt-Tanger, Stephan Dahm
+    year: 2016
+    relation: practice_guide
+  - kind: url
+    title: "SessionLab — Human Bingo"
+    url: https://www.sessionlab.com/methods/human-bingo
+    relation: reference
+    note: Englischsprachige Beschreibung mit Vorlagen-Inspiration.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Bingo-Karte vorbereiten & austeilen
+    duration_minutes: 3
+    trainer_action: >
+      Bingo-Karte (4×4 oder 5×5 Felder) mit Aussagen vorbereitet
+      mitbringen — je nach Kontext fachlich/persönlich gemischt.
+      Beispiele: "spricht mehr als 2 Sprachen", "hat schon mal
+      in einer anderen Branche gearbeitet", "bevorzugt Tee
+      über Kaffee". Pro TN eine Karte + Stift, erklären: "Suchen
+      Sie Personen, auf die die Aussage zutrifft — Unterschrift
+      einholen."
+    participant_action: >
+      Karte entgegennehmen, Aussagen überfliegen.
+    note: >
+      Aussagen sollten etwa 50:50 leicht/knifflig sein. Zu viele
+      leichte Treffer → Bingo in 3 min, zu anspruchsvoll → nichts
+      wird voll. Kontextnahe Aussagen (Branche, Organisation)
+      sind stärker als generische.
+  - order: 2
+    label: Aufwärmen & Los (Regeln klarmachen)
+    duration_minutes: 2
+    trainer_action: >
+      Regeln: "Pro Person max. 2 Felder unterschreiben, eine
+      Unterschrift pro Feld. Bei 'Bingo' (Reihe voll) kurz
+      rufen." Alle stehen auf, bewegen sich im Raum.
+      Hintergrundmusik optional.
+    participant_action: >
+      Aufstehen, Bewegung beginnen, erste Ansprache.
+    note: >
+      "Max. 2 Felder pro Person" ist wichtig — sonst gehen zwei
+      TN gemeinsam durch die Karte und sprechen mit niemandem
+      sonst. Zwingt zur Ansprache vieler verschiedener Leute.
+  - order: 3
+    label: Aktive Bingo-Phase (10 min)
+    duration_minutes: 10
+    trainer_action: >
+      Moderation bewegt sich im Raum, unterstützt bei stockenden
+      Gesprächen, ermutigt scheue TN. Bei ersten "Bingo"-Rufen:
+      Applaus, aber weitermachen — Ziel ist Austausch, nicht
+      ein erster Gewinner.
+    participant_action: >
+      Aktiv ansprechen, Gespräch, Unterschriften sammeln.
+      Kurzer Austausch bei jedem Feld — nicht nur "ja/nein",
+      sondern 1-2 Sätze Kontext.
+    note: >
+      Die Kurz-Gespräche sind das Wertvolle, nicht die Bingo-
+      Karte. Wer nur "Unterschrift? Danke!" sagt, verpasst den
+      Sinn. Moderation coacht: "Fragen Sie nach — wo waren Sie
+      in Japan?"
+  - order: 4
+    label: Auflösung & gemeinsames Durchgehen
+    duration_minutes: 3
+    trainer_action: >
+      Bingo stoppen. Feld für Feld laut vorlesen: "Wer war schon
+      in Japan?" — Personen melden sich, kurze Geschichten im
+      Plenum (max. 30 Sek). Nicht alle Felder besprechen, nur
+      die interessantesten.
+    participant_action: >
+      Sich melden, kurz eine Geschichte teilen, den anderen
+      zuhören.
+    note: >
+      Die Auflösung zieht viele Kennenlern-Erkenntnisse nach —
+      oft erfährt man erst hier, dass mehrere TN ein überraschendes
+      gemeinsames Merkmal haben.
+  - order: 5
+    label: Überleitung zum Programm
+    duration_minutes: 2
+    trainer_action: >
+      Kurzer Abschluss: "Jetzt kennen wir uns schon ein bisschen
+      besser. Setzen wir das gleich in der nächsten Aufgabe ein."
+      Überleitung zum Trainings-Inhalt.
+    participant_action: >
+      Zurück zu Plätzen, mental auf Trainings-Teil einstellen.
+    note: >
+      Übergang sauber setzen, sonst wirkt die Methode isoliert.
+      Bezug zum Folgeprogramm: "Die Perspektiven-Vielfalt, die
+      Sie eben erlebt haben, nutzen wir gleich..."
+
+variations:
+  - name: Klassisches Bingo (4×4 oder 5×5)
+    description: >
+      Vorbereitete Karte mit 16-25 Feldern, Unterschriften sammeln.
+      Standard-Variante für 10-40 TN.
+    when_to_use: >
+      Seminar-Einstieg, Konferenz-Networking, Tagungen. Ab 8 TN
+      sinnvoll.
+  - name: Themenspezifisches Bingo
+    description: >
+      Aussagen beziehen sich auf das Trainings-Thema ("hat schon
+      ein Team geführt", "kennt agile Methoden"). Kombiniert
+      Kennenlernen mit Diagnose.
+    when_to_use: >
+      Fachliche Trainings, wenn auch Vorerfahrungen erhoben
+      werden sollen. Inhaltlich aktivierend.
+  - name: Remote Bingo (digital / Screenshot)
+    description: >
+      Digitales Bingo-PDF, TN sprechen in Zoom-Breakouts zu
+      zweit, schreiben Namen ein, machen Screenshot.
+      Weniger dynamisch, aber funktioniert online.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Nicht ideal (fehlende
+      Bewegung), aber alternative Methoden für Remote-Kennenlernen
+      oft besser (Speed-Dating).
+    setting_codes: [remote_sync]
+  - name: Konferenz-Bingo (mehrere Tage)
+    description: >
+      Bingo läuft über mehrere Tage, TN füllen im Verlauf
+      der Konferenz. Feld "hat beim Dinner neben mir gesessen"
+      etc.
+    when_to_use: >
+      Mehrtägige Tagungen, Offsites, Team-Reisen. Niederschwellige
+      Konferenz-Aktivierung.
+  - name: Kind-freundliches Bingo
+    description: >
+      Einfachere Aussagen, bunt gestaltet, ggf. mit Bildern.
+      Kleinere Karten (3×3).
+    when_to_use: >
+      Schule, Jugendgruppen, Kinder-Trainings. Lese-Vorkenntnisse
+      berücksichtigen.
+  - name: Paarweise Bingo
+    description: >
+      Statt viele Ansprachen: 2er-Paare wechseln regelmäßig,
+      Karte wird im Paar gemeinsam ausgefüllt — andere Perspektive
+      über sich selbst teilen.
+    when_to_use: >
+      Introvertiertere Gruppen, wenn "viele ansprechen" als zu
+      anstrengend empfunden wird. Weniger Chaos, mehr Tiefe.
+
+pitfalls:
+  - issue: >
+      Bingo-Karte hat zu spezifische Aussagen, kaum jemand
+      findet Unterschriften.
+    countermeasure: >
+      Vorbereitung: Aussagen vor Session mit 2-3 Leuten testen.
+      Mix aus 50 % "die meisten werden treffen" und 50 % "witzig,
+      wenn jemand trifft". Kontext-Recherche zu Gruppe hilft.
+    severity: common
+  - issue: >
+      TN sammeln nur Unterschriften, kein echtes Gespräch.
+    countermeasure: >
+      Moderation interveniert: "Fragen Sie kurz nach, nicht nur
+      'ja/nein'." Felder wählen, die Geschichten einladen ("hat
+      schon mal einen Berg bestiegen" > "kann Rad fahren").
+    severity: common
+  - issue: >
+      Scheue TN bleiben in einer Ecke, sprechen niemanden an.
+    countermeasure: >
+      Moderation geht aktiv zu, stellt vor: "Herr/Frau X, Sie
+      suchen noch jemand, der Klavier spielt? Frau Y hier
+      nebenan..." Sanfte Vermittlung.
+    severity: common
+  - issue: >
+      "Bingo"-Rufe dominieren, andere fühlen sich unter Druck.
+    countermeasure: >
+      Framing: "Es geht nicht um Gewinnen, sondern um Leute
+      kennen." Bei Überkompetitivität: "Erst wenn alle mindestens
+      eine Unterschrift haben, kann jemand Bingo rufen."
+    severity: rare
+  - issue: >
+      Aufstellung im Raum erlaubt kein echtes Mischen (Reihen-
+      Bestuhlung, enger Raum).
+    countermeasure: >
+      Vorher Raum checken, Stühle an Wände, Mittelraum freiräumen.
+      Bei nicht-bewegbaren Stühlen: Bingo-Variante auf Papier
+      (Paaraustausch im Sitzen).
+    severity: common
+  - issue: >
+      Auflösung wird übersprungen — Karten bleiben privat.
+    countermeasure: >
+      Mindestens 3 min für gemeinsames Durchgehen einplanen,
+      auch wenn Zeit knapp. Die lustigsten Entdeckungen
+      passieren hier.
+    severity: common
+  - issue: >
+      Bei sehr kleinen Gruppen (< 8) ist Bingo frustrierend,
+      zu wenige Ansprech-Möglichkeiten.
+    countermeasure: >
+      Bei < 8 TN andere Icebreaker wählen (Partnerinterview,
+      Steckbrief, Zwei-Wahrheiten-eine-Lüge). Bingo braucht
+      Gruppengröße.
+    severity: common

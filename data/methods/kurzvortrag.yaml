@@ -1,0 +1,235 @@
+slug: kurzvortrag
+canonical_name: Kurzvortrag / Impulsreferat
+synonyms:
+  - synonym: Impulsvortrag
+    language: de
+  - synonym: Short Lecture
+    language: en
+short_description: >
+  Strukturierter, zeitlich begrenzter Input (5–15 Min.) der Trainer:in zu einem
+  Fachthema. Geeignet, um Wissensgrundlage zu legen oder Kontext zu setzen.
+originator: null
+origin_context: Standardbaustein didaktischer Vermittlung.
+phases:
+  - code: input
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Folien teilen, max. 15 Minuten — Aufmerksamkeit online bricht sonst.
+  - code: remote_async
+    suitability: good
+    note: Als Video vorab aufnehmen (Flipped-Classroom-Prinzip).
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [didactic]
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 30
+materials:
+  - Folien, Flipchart oder Whiteboard
+tags: [vortrag, input, klassisch]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Unterrichtsmethoden II — Praxisband"
+    author: Hilbert Meyer
+    year: 2002
+    relation: practice_guide
+    note: Didaktische Grundlagen des Lehrvortrags.
+  - kind: book
+    title: "Didaktik der Erwachsenenbildung"
+    author: Rolf Arnold
+    year: 2021
+    relation: reference
+  - kind: article
+    title: "The 10-minute rule for sustained attention in lectures"
+    author: John Medina
+    year: 2008
+    relation: reference
+    note: >
+      Aus "Brain Rules" — die 10-Minuten-Regel für Aufmerksamkeit
+      in Vorträgen. Begründung für zeitliche Begrenzung.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einstieg / Aufhänger
+    duration_minutes: 2
+    trainer_action: >
+      Aufmerksamkeit anschlagen: konkrete Frage, Anekdote, Zahl
+      oder Bild. „Stellen Sie sich vor..." / „Wussten Sie, dass...".
+      Verbindung zum Thema in einem Satz. Keine Agenda-Folien.
+    participant_action: >
+      Zuhören, mental andocken, Bezug zum eigenen Erleben
+      herstellen.
+    note: >
+      Die ersten 30 Sekunden entscheiden, ob die Gruppe „drin" ist.
+      Nie mit „Hallo, heute geht es um..." starten — das ist die
+      häufigste Todesursache von Kurzvorträgen.
+  - order: 2
+    label: Kernbotschaft platzieren
+    duration_minutes: 1
+    trainer_action: >
+      EINE zentrale Kernaussage in einem Satz formulieren: „Wenn Sie
+      heute nur eines mitnehmen, dann das." Sichtbar machen (Folie,
+      Flipchart, laut aussprechen).
+    participant_action: >
+      Kernbotschaft hören, ggf. mitnotieren.
+    note: >
+      Vorträge mit 5 Kernbotschaften hinterlassen meist 0 in der
+      Erinnerung. Disziplin: nur eine. Alle anderen Punkte sind
+      Stützen dafür.
+  - order: 3
+    label: 3-4 Argumentations-/Beweis-Schritte
+    duration_minutes: 8
+    trainer_action: >
+      Maximal 3-4 Punkte, die die Kernbotschaft stützen. Jeder Punkt:
+      Behauptung → Beispiel/Evidenz → Bezug zur Kernbotschaft.
+      Folien als Anker, nicht als Lesetext. Sprechtempo mittel,
+      Pausen nach wichtigen Punkten.
+    participant_action: >
+      Folgen, notieren bei wichtigen Punkten, innerlich Bezüge
+      zum eigenen Kontext herstellen.
+    note: >
+      Mehr als 4 Punkte in 10 min = Zuhörer:innen hecheln hinterher.
+      Miller's Gesetz (7±2) gilt nur für vertraute Informationen —
+      bei Neuem lieber 3-4 maximal.
+  - order: 4
+    label: Zusammenfassung & Aufruf
+    duration_minutes: 2
+    trainer_action: >
+      Kernbotschaft wiederholen, kurz rekapitulieren wie die Punkte
+      zu ihr führen. Schluss mit einer konkreten Frage, einer
+      Aufforderung oder einem Übergang zur nächsten Aktivität.
+    participant_action: >
+      Zusammenfassung hören, eigene Hauptlernerkenntnis formulieren
+      (innerlich oder auf Papier).
+    note: >
+      Viele Kurzvorträge enden lahm ("Gut, das war's"). Stattdessen
+      bewusst landen: „Die Kernfrage für uns ist jetzt...", „Nehmen
+      Sie heute mit...". Die letzten 30 Sekunden entscheiden über
+      Erinnerungswert.
+  - order: 5
+    label: Q&A oder aktivierender Übergang
+    duration_minutes: 2
+    trainer_action: >
+      Entweder kurze Q&A (max. 3 Fragen) oder direkt in
+      Verarbeitungs-Methode übergehen (Murmelgruppe,
+      Think-Pair-Share). Kein schleppendes "Gibt es noch Fragen?
+      ...Niemand?" — sondern gezielte Einladung.
+    participant_action: >
+      Fragen stellen, mit Nachbar:in kurz austauschen, auf
+      Verarbeitungsphase vorbereiten.
+    note: >
+      Kurzvortrag wirkt stärker, wenn direkt danach eine
+      Verarbeitung folgt (Sandwich-Prinzip). Allein stehen lassen
+      = 80 % gelernter Inhalt in 24 h weg.
+
+variations:
+  - name: Klassischer Impulsvortrag (10-15 min)
+    description: >
+      Standardlänge, strukturierter Input, mit Folien oder
+      Flipchart. Kernbotschaft + 3-4 Stützen + Schluss.
+    when_to_use: >
+      Seminar-Einstiege, Theorie-Input vor Gruppenarbeit,
+      Expertise-Vermittlung. Die Brot-und-Butter-Variante.
+  - name: Mikro-Input (2-5 min)
+    description: >
+      Sehr kurzer Impuls, nur eine Kernbotschaft, 1-2 Beispiele,
+      keine Folien. Mitten in einer Aktivität gesetzt.
+    when_to_use: >
+      Zwischen Gruppenarbeitsphasen, wenn ein bestimmter Begriff
+      oder eine Technik geklärt werden muss. Keine eigenständige
+      Session.
+  - name: Vortrag mit Folien-Minimum (Slideologie)
+    description: >
+      Pro Folie max. 1 Bild oder 3 Wörter. Keine Aufzählungslisten.
+      Sprechtext komplett mündlich, nicht abgelesen.
+    when_to_use: >
+      Wenn emotionaler Impact wichtig ist (Change-Kontext, Keynote-
+      Charakter). Erfordert mehr Vorbereitungsaufwand.
+  - name: Interaktiver Vortrag (Think-Pair-Share-Einlagen)
+    description: >
+      Alle 5 min unterbrochen durch 30-Sek-Murmeln oder eine
+      Fragestellung. Nie mehr als 5 min Monolog am Stück.
+    when_to_use: >
+      Gruppen mit Aufmerksamkeits-Schwankungen (Nachmittag, online,
+      Jugend). Bei Erwachsenen ab 30 min Gesamtrahmen.
+  - name: Video-Vortrag (async / flipped)
+    description: >
+      Vortrag vorab aufgenommen, TN schauen vor dem Seminar.
+      Präsenz-/Synchron-Zeit dann für Verarbeitung.
+    when_to_use: >
+      Flipped-Classroom-Szenarien, verteilte Lerngruppen. Länge
+      kann auf 20-30 min steigen, weil TN pausieren können.
+    setting_codes: [remote_async]
+  - name: Co-Vortrag (zwei Stimmen)
+    description: >
+      Zwei Trainer:innen wechseln sich ab, dialogisch. Eine stellt
+      Fragen, die andere antwortet / illustriert.
+    when_to_use: >
+      Komplexe Themen, bei denen Perspektivwechsel hilft; längere
+      Sessions (20+ min); als didaktisches Modelling für Lernende.
+
+pitfalls:
+  - issue: >
+      Vortrag überzieht auf 25-40 min, Aufmerksamkeit bricht.
+    countermeasure: >
+      Timer sichtbar, bei 10-15 min harte Marker setzen. Folien-
+      Anzahl so wählen, dass natürliche Obergrenze entsteht.
+      Nach 15 min: Unterbrechung einbauen (Frage, Murmelrunde).
+    severity: common
+  - issue: >
+      Folien = Sprechtext, Trainer:in liest ab.
+    countermeasure: >
+      Folien auf Bild + max. 3 Wörter reduzieren. Vorbereitung:
+      den Vortrag laut üben ohne Folien, Folien danach als
+      visuelle Anker hinzufügen.
+    severity: common
+  - issue: >
+      Zu viele Kernpunkte — TN erinnern sich an nichts.
+    countermeasure: >
+      Ein Vortrag = eine Kernbotschaft. Rest sind Stützen.
+      Selbstcheck: "Wenn TN morgen einen Satz erinnern sollen,
+      welcher?"
+    severity: common
+  - issue: >
+      Monolog-Charakter, keine Interaktion — TN werden passiv.
+    countermeasure: >
+      Mikro-Interaktionen einbauen: rhetorische Fragen, kurze
+      Handzeichen-Abfragen, "Nicken Sie mal". Alle 5 min ein
+      Aktivierungs-Signal.
+    severity: common
+  - issue: >
+      Einstieg zu lang ("Zuerst zur Agenda, dann Vorstellung,
+      dann..."). Kernbotschaft kommt erst Minute 8.
+    countermeasure: >
+      Kernbotschaft in Minute 1-2 platzieren. Agenda max. 15 Sek.
+      Aufhänger MUSS direkt zum Thema führen.
+    severity: common
+  - issue: >
+      Online: TN schalten Kamera aus, checken Mails, sind mental
+      weg.
+    countermeasure: >
+      Max. 10-12 min, dann zwingend Unterbrechung. Kamera-
+      Einladung ansagen: "Für diesen Teil gerne Kamera an."
+      Chat-Interaktion nutzen.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Schluss bricht ab ("Okay, das war's, Fragen?").
+    countermeasure: >
+      Letzte 30 Sek. bewusst gestalten: Kernbotschaft wiederholen,
+      konkrete Frage / Aufruf. Vorbereiten und üben wie den
+      Einstieg.
+    severity: common

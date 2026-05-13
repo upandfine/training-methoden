@@ -1,0 +1,197 @@
+slug: fishbowl
+canonical_name: Fishbowl
+synonyms:
+  - synonym: Innen-/Außenkreis
+    language: de
+  - synonym: Aquarium
+    language: de
+short_description: >
+  Innerer Kreis diskutiert ein Thema, äußerer Kreis beobachtet. Ein freier
+  Stuhl („Gaststuhl") im Innenkreis darf jederzeit von Außenkreis-Personen
+  besetzt werden. Intensiver Diskurs bei kontrollierter Gruppengröße.
+originator: null
+origin_context: >
+  Verbreitet in Großgruppenmethodik; Ursprünge nicht eindeutig zuschreibbar,
+  viele Autoren beanspruchen Varianten.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: group_work
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: „Spotlight"-Feature in Zoom/Teams; Stummschaltung regelt Zugang zum Innenkreis.
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective, activating]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 120
+materials:
+  - Innenkreis-Stühle + 1 Gaststuhl; Außenkreis-Bestuhlung
+tags: [diskussion, perspektivwechsel, grossgruppe]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Setup & Stuhlkreis
+    duration_minutes: 10
+    trainer_action: >
+      Zwei konzentrische Kreise stellen: innen 4-6 Stühle (inkl. 1-2 Gaststühlen),
+      außen Bestuhlung für alle übrigen TN. Regeln erklären: Nur im Innenkreis
+      wird gesprochen. Außenkreis hört zu, notiert. Gaststuhl-Mechanik: wer
+      reden will, setzt sich rein; wenn voll, steht jemand auf.
+    participant_action: >
+      Platz wählen (innen/außen). Erste Innenkreis-Besetzung freiwillig
+      oder per Aufruf.
+    note: >
+      Bei 20+ TN: Innenkreis maximal 8 Stühle, sonst wird der Diskurs zu
+      breit. Wichtig: Außenkreis sieht das Gesicht der Sprechenden.
+  - order: 2
+    label: Eröffnungsimpuls im Innenkreis
+    duration_minutes: 5
+    trainer_action: >
+      Leitfrage präsentieren, z.B. „Wie gehen wir mit X um?". Innenkreis
+      startet. Leitung hält sich raus, greift nur ein wenn Spielregeln
+      gebrochen werden (Außenkreis spricht, Gaststuhl wird ignoriert).
+    participant_action: >
+      Innenkreis diskutiert, Außenkreis hört zu und notiert
+      Beobachtungen/Fragen.
+    note: >
+      In den ersten 5 min nicht eingreifen, auch wenn es stockt — Gruppe
+      muss eigenes Tempo finden.
+  - order: 3
+    label: Dynamische Phase — Stühlewechsel
+    duration_minutes: 30
+    trainer_action: >
+      Beobachten. Wenn lange keine Rotation: Außenkreis-Stille bewusst
+      ansprechen („Wer aus dem Außenkreis hat eine Perspektive, die fehlt?").
+      Moderations-Flipchart mit Kernthesen mitschreiben, sichtbar für alle.
+    participant_action: >
+      Zwischen Innen- und Außenkreis fluktuieren. Außenkreis-Mitglieder
+      setzen sich rein wenn sie Beitrag haben, stehen wieder auf wenn
+      sie abgehört haben.
+    note: >
+      Gute Rotation = 3-8 Wechsel pro 30 min. Bei dominanten Personen
+      explizit ansagen: „Wenn du jetzt aus dem Innenkreis rausgehst,
+      macht ein:e andere:r den Beitrag."
+  - order: 4
+    label: Schließung & Harvest
+    duration_minutes: 15
+    trainer_action: >
+      Innenkreis schließen: letzte Runde, jede:r ein Satz. Dann
+      öffentliche Reflexion: „Was war der wichtigste Satz? Was
+      bleibt offen?". Externe Synthese, nicht bloß Runde.
+    participant_action: >
+      Alle (auch Außenkreis-TN die nie drinnen waren) dürfen jetzt
+      sprechen. Reflexion über Inhalte UND über den Prozess.
+    note: >
+      Die Harvest-Phase ist Pflicht — ohne sie ist der Perspektiv-Gewinn
+      oft nicht greifbar.
+
+variations:
+  - name: Klassisches Fishbowl mit Gaststuhl
+    description: >
+      1-2 leere Stühle im Innenkreis. Wer aus dem Außenkreis reinwill,
+      setzt sich. Wenn besetzt, muss jemand freimachen.
+    when_to_use: >
+      Standardformat für 15-40 TN, heterogene Gruppen, offene Leitfrage.
+  - name: Rollen-Fishbowl
+    description: >
+      Innenkreis-Plätze sind Rollen zugeordnet (z.B. „Pro", „Kontra",
+      „Kritische Stimme", „Journalist:in"). TN wechseln in Rollen.
+    when_to_use: >
+      Kontroverse Themen, wenn explizite Perspektivvielfalt gewollt ist;
+      verwandt mit Pro-Contra-Debatte.
+  - name: Multi-Stage-Fishbowl
+    description: >
+      Mehrere aufeinanderfolgende Innenkreise mit wechselnden Untergruppen
+      (z.B. erst Führungskräfte, dann Mitarbeiter:innen, dann gemischt).
+    when_to_use: >
+      Gruppen mit klaren Subpopulationen, bei denen jede Stimme einmal
+      zentral werden soll. Braucht min. 2 Stunden.
+    setting_codes: [onsite]
+  - name: Speaker-Only-Fishbowl
+    description: >
+      Keine Rotation: Innenkreis-Personen sind für die ganze Session drin,
+      Außenkreis hat nur am Ende Fragerunde. Näher an Podiumsdiskussion.
+    when_to_use: >
+      Wenn Expertise deutlich verteilt ist (z.B. Podium aus Praktiker:innen).
+  - name: Remote-Fishbowl
+    description: >
+      Nur Innenkreis-TN haben Kamera/Mikro an, Außenkreis stummgeschaltet
+      mit ausgeschalteter Kamera. Wer wechseln will, nutzt Hand-Zeichen;
+      Leitung gibt Mikro frei. Spotlight-Feature aktivieren.
+    when_to_use: >
+      Remote-Sync. Braucht konsequente Moderation und technisch vertraute TN.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Innenkreis bleibt statisch — dieselben 4 Personen diskutieren 40 min,
+      Außenkreis wird Publikum statt Mitdenker:in.
+    countermeasure: >
+      Nach 10-15 min explizite Ansage: „Ich bitte einmal aktiv um einen
+      Stuhlwechsel." Oder Timer: alle 10 min Minimum-Rotation.
+    severity: common
+  - issue: >
+      Außenkreis mischt sich ein — Zwischenrufe, Kichern, parallele
+      Gespräche. Diskurs bricht auseinander.
+    countermeasure: >
+      Einmal früh und klar einschreiten („Außenkreis hört zu, Beiträge
+      nur aus dem Innenkreis"). Regelwiederholung am Anfang extrem wichtig.
+    severity: common
+  - issue: >
+      Innenkreis wird zu Debattier-Club — Personen überzeugen statt zuhören.
+    countermeasure: >
+      Regel „Jede:r knüpft am Vorbeitrag an" einführen. Bei Bedarf
+      „reflexives Wiederholen" verlangen: erst zusammenfassen, dann
+      eigener Punkt.
+    severity: common
+  - issue: >
+      Leitung interveniert zu früh oder zu häufig, übernimmt die Moderation
+      im Innenkreis.
+    countermeasure: >
+      Selbstdisziplin: Die ersten 5-10 min Stille aushalten. Interventionen
+      nur zu Spielregel-Verstößen, nicht zu Inhalten.
+    severity: common
+  - issue: >
+      Hybrid/Remote: Außenkreis-Stimmen verschwinden akustisch oder visuell.
+    countermeasure: >
+      Eigener Chat-Kanal für Außenkreis-Beobachtungen; Leitung liest
+      alle 10 min kurz vor. Remote-TN im Innenkreis kriegen Spotlight.
+    severity: common
+    setting_codes: [remote_sync, hybrid]
+  - issue: >
+      Keine Harvest-Phase — Diskurs endet abrupt, kein gemeinsamer Ertrag.
+    countermeasure: >
+      Mindestens 15 min Harvest fest einplanen. Kernthesen mitprotokollieren
+      während der Runde, dann im Plenum clustern.
+    severity: common
+
+sources:
+  - kind: book
+    title: "Das Fishbowl-Prinzip — Moderationsmethode für Großgruppen"
+    author: Björn Lampe
+    year: 2020
+    relation: practice_guide
+  - kind: book
+    title: "Moderationsmethode — Arbeiten mit Plenum, Gruppen und Teams"
+    author: Karin Klebert, Einhard Schrader, Walter G. Straub
+    year: 1985
+    relation: reference
+  - kind: url
+    title: "Liberating Structures — User Experience Fishbowl"
+    url: https://www.liberatingstructures.com/18-users-experience-fishbowl/
+    relation: reference
+    note: Verwandtes LS-Format mit fokussierterem Setup.

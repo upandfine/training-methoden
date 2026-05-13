@@ -1,0 +1,253 @@
+slug: kopfstand-technik
+canonical_name: Kopfstand-Technik
+synonyms:
+  - synonym: Inversion
+    language: en
+  - synonym: Reverse Brainstorming
+    language: en
+short_description: >
+  Statt „Wie lösen wir Problem X?" wird gefragt „Wie erreichen wir das
+  Gegenteil / wie machen wir es garantiert schlimmer?". Die so gesammelten
+  Anti-Ideen werden anschließend umgedreht.
+originator: null
+origin_context: >
+  Kreativitätstechnik im Umfeld lateralen Denkens (de Bono); auch als
+  „Verschlimmbesserungs-Methode" bekannt.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [creative, cooperative]
+duration_min_minutes: 15
+duration_typical_minutes: 40
+duration_max_minutes: 60
+tags: [kreativitaet, perspektivwechsel, problemumkehrung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Lateral Thinking: Creativity Step by Step"
+    author: Edward de Bono
+    year: 1970
+    relation: reference
+    note: >
+      Lateraler Denken als Denk-Rahmen — Umkehrung von Annahmen als
+      eine von mehreren Techniken.
+  - kind: book
+    title: "Kreativitätstechniken — ein Handbuch"
+    author: Horst Geschka
+    year: 2019
+    relation: practice_guide
+    note: Detaillierte Beschreibung mit Varianten und Einsatzfeldern.
+  - kind: book
+    title: "Thinkertoys"
+    author: Michael Michalko
+    year: 2006
+    relation: practice_guide
+    note: Angloamerikanische Sammlung inkl. Reverse Brainstorming.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ursprungsfrage präzisieren
+    duration_minutes: 5
+    trainer_action: >
+      Ursprungs-Problemstellung klar visualisieren („Wie können wir
+      X verbessern?"). Mit der Gruppe Framing schärfen: Wer ist
+      Zielgruppe? Was ist „besser"? Zeithorizont? Ohne diese
+      Präzision ist die Umkehrung später schwammig.
+    participant_action: >
+      Fragestellung verstehen, Rückfragen stellen, Annahmen prüfen.
+    note: >
+      Ungeduldige Gruppen wollen gleich „umkehren". Bitte drei
+      Sätze zur Originalfrage erzwingen — sonst kippt die Methode
+      in Witzemacherei.
+  - order: 2
+    label: Kopfstand — Frage umkehren
+    duration_minutes: 3
+    trainer_action: >
+      Frage in 1-2 Varianten umdrehen, z.B.:
+      „Wie sorgen wir dafür, dass X NIEMALS passiert?"
+      „Wie treiben wir unsere Kund:innen endgültig in die Flucht?"
+      Die schärfste Formulierung sichtbar aufhängen.
+    participant_action: >
+      Varianten vorschlagen, Zustimmung zur Schärfste geben.
+    note: >
+      Schärfe ist wichtig — „Wie verhindern wir gute
+      Kundenbindung?" ist zu lau. „Wie machen wir unsere Kund:innen
+      wütend?" ist besser.
+  - order: 3
+    label: Anti-Ideen sammeln (Divergenz)
+    duration_minutes: 10
+    trainer_action: >
+      Klassisches Brainstorming auf die Negativ-Frage: Stichworte,
+      Plakat, keine Kritik. Die 4 Brainstorming-Regeln gelten
+      hier genauso. Ermutigen, provokant und absurd zu werden —
+      Absurdität ist hier Feature, nicht Bug.
+    participant_action: >
+      Anti-Ideen zurufen / aufschreiben. Lachen ist erlaubt, hält
+      die Energie hoch. Mitspielen statt „war doch nur Spaß".
+    note: >
+      Diese Phase fühlt sich subversiv an — das ist beabsichtigt.
+      Rollen- oder Tabuthemen dürfen benannt werden, weil sie ja
+      nicht gewollt sind. Moderation hält den Spielraum offen.
+  - order: 4
+    label: Umkehrung — Positive Reframing
+    duration_minutes: 10
+    trainer_action: >
+      Jede Anti-Idee umdrehen: Was ist das Gegenteil / die Nicht-
+      Version dieser Aussage? „Nie lesbares Design" → „Typografie-
+      Kontrast optimieren". Nicht jede Anti-Idee produziert eine
+      gute Positiv-Idee; das ist OK.
+    participant_action: >
+      Für eigene oder fremde Anti-Ideen Umkehrungen vorschlagen.
+      Gemeinsam formulieren.
+    note: >
+      Überraschender Moment: manche Anti-Ideen umzukehren führt
+      zu Ideen, die in normalem Brainstorming nie aufkommen
+      ("Wir sagen der Kundin offen, was uns nervt." → "Wir
+      kommunizieren transparent über Grenzen unseres Services").
+  - order: 5
+    label: Clustern & Priorisieren
+    duration_minutes: 7
+    trainer_action: >
+      Entstandene Positiv-Ideen clustern (ähnlich Affinity-Diagram).
+      Dann Dot-Voting oder Impact/Effort-Matrix. Top 3-5 als
+      nächste Schritte benennen.
+    participant_action: >
+      Punkte setzen, Diskussion zu Top-Kandidaten, Owner-Zuweisung.
+    note: >
+      Konvergenz nicht auslassen — wie beim normalen Brainstorming
+      sonst „war nett und vorbei". Umkehrungs-Ideen brauchen
+      explizite Entscheidung, weil sie oft unerwartet sind.
+  - order: 6
+    label: Debrief & Meta-Lernen
+    duration_minutes: 5
+    trainer_action: >
+      Kurz fragen: „Was hat euch überrascht? Welche Anti-Idee war
+      erschreckend nah an der Realität?" Diese Meta-Reflexion
+      generiert oft die wertvollsten Insights — Blind Spots im
+      aktuellen Vorgehen.
+    participant_action: >
+      Überraschungen benennen, eigene Muster reflektieren.
+    note: >
+      Der stärkste Nebeneffekt der Kopfstand-Technik: Anti-Ideen
+      decken auf, was die Organisation unbeabsichtigt bereits tut.
+      Dieses Aha ist oft wertvoller als die Lösungs-Ideen selbst.
+
+variations:
+  - name: Klassische Kopfstand-Technik
+    description: >
+      Eine Umkehr-Frage, Anti-Ideen sammeln, umkehren, priorisieren.
+      Standard-Variante.
+    when_to_use: >
+      Festgefahrene Themen, wenn positive Framing keine neuen
+      Ideen mehr produziert.
+  - name: Anti-Personas / Anti-Kund:in
+    description: >
+      Statt Frage umkehren: Persona umkehren. „Was will die
+      IDEAL-Kund:in?" wird zu „Wie sieht die ANTI-Kund:in aus,
+      die wir NIE haben wollen?". Umkehrung → Wunsch-Persona.
+    when_to_use: >
+      Produkt- und Serviceentwicklung, Kundenbindungsthemen.
+      Persona-Workshops, wenn klassische Personas zu generisch
+      werden.
+  - name: Kopfstand-Matrix (zwei Achsen)
+    description: >
+      Zwei-dimensionale Umkehrung: Matrix mit Ist/Gegenteil auf
+      X-Achse, Was-sollte/Was-sollte-nicht auf Y-Achse. Vier
+      Quadranten systematisch füllen.
+    when_to_use: >
+      Strategie-Workshops, wenn systematisch mehrere Dimensionen
+      untersucht werden sollen. Anspruchsvoller, mehr Zeit.
+  - name: Worst Possible Idea (IDEO-Variante)
+    description: >
+      Bewusst die schlechtesten Ideen sammeln, nicht Gegenteil
+      der Frage, sondern einfach schlechte Lösungen. Danach
+      "Was macht diese Idee schlecht? Wie wird sie gut?".
+    when_to_use: >
+      Design-Thinking-Workshops, kreative Durchbrüche, wenn
+      Gruppe zu selbstzensiert ist. Leichter als Kopfstand,
+      weil keine Umkehr-Frage benötigt wird.
+  - name: Remote-Kopfstand (Miro/Mural)
+    description: >
+      Digitales Whiteboard mit zwei Spalten: Anti-Idee | Umkehrung.
+      TN posten Sticky Notes parallel. Struktur zwingt zur
+      Umkehrung (jede Anti-Idee braucht Positiv-Gegenüber).
+    when_to_use: >
+      Online-Workshops, verteilte Teams. Struktur des Boards
+      kompensiert fehlende Raumenergie.
+    setting_codes: [remote_sync]
+  - name: Dramatisierte Umkehrung (Sketch)
+    description: >
+      Kleingruppen spielen die Anti-Situation als 2-min-Sketch vor.
+      Nach Spiel: Umkehr-Diskussion. Körperlich, hoch-aktivierend.
+    when_to_use: >
+      Jugend-/Schultrainings, Theaterpädagogik-affine Gruppen.
+      Braucht psychologischen Safe Space.
+
+pitfalls:
+  - issue: >
+      Umkehrfrage bleibt zu zahm — „Wie verhindern wir das?"
+      statt scharfer Provokation.
+    countermeasure: >
+      Schärfen mit konkreten Bildern („Wie sorgen wir dafür, dass
+      nie wieder jemand den Support kontaktiert?"). Moderation
+      schlägt Radikalvariante vor, wenn Gruppe zurückhaltend bleibt.
+    severity: common
+  - issue: >
+      Anti-Ideen werden zu Running Gags, Anschlussfähigkeit geht
+      verloren.
+    countermeasure: >
+      Humor ist gut — aber nach 8-10 min harte Cut-Off und
+      Umkehrphase starten. Timer sichtbar. Bei 20-Minuten-Gelächter
+      verliert die Gruppe den Ernst der Methode.
+    severity: common
+  - issue: >
+      Umkehr-Phase produziert nur triviale Ideen ("Kontrast erhöhen",
+      "schneller reagieren"), weil Anti-Ideen zu offensichtlich
+      waren.
+    countermeasure: >
+      Zurück zur Frage: Ist die Ursprungsfrage scharf genug? Sind
+      die Anti-Ideen spezifisch genug (statt "schlecht gestalten"
+      lieber "Hauptbutton grau auf grau")?
+    severity: common
+  - issue: >
+      Einzelne TN fühlen sich unwohl mit der negativen Frame,
+      blockieren oder beteiligen sich nicht.
+    countermeasure: >
+      Vorab Framing: "Anti-Ideen sind ein Spiel, keine Agenda."
+      Freiwilligkeit zur Beteiligung explizit machen. Alternativ:
+      Reverse-Persona (weniger persönlich) wählen.
+    severity: rare
+  - issue: >
+      Gruppe verlagert die Umkehrung auf Personen („Was würde
+      Kollege Y tun?") — wird zur versteckten Kritik.
+    countermeasure: >
+      Klarstellen: Umkehrung bezieht sich auf System / Prozess /
+      Produkt, nicht auf Personen. Moderation interveniert
+      freundlich, wenn personalisierend.
+    severity: common
+  - issue: >
+      Nach der Session bleiben nur die Anti-Ideen in Erinnerung,
+      die Umkehrung wird nicht weiterverfolgt.
+    countermeasure: >
+      Dokumentation: Anti-Ideen NICHT ins Protokoll, nur Positiv-
+      Ideen + Owner + Nächste Schritte. Flipchart mit Anti-Ideen
+      abfotografieren und dann entsorgen / archivieren.
+    severity: common

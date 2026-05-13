@@ -1,0 +1,243 @@
+slug: stop-and-fix
+canonical_name: Stop-and-Fix
+synonyms:
+  - synonym: Pause-and-Correct
+    language: en
+  - synonym: Anhalten-und-Nachbessern
+    language: de
+short_description: >
+  Während einer Übung (Rollenspiel, Simulation, Präsentation) wird jederzeit
+  „Stop" gerufen — von Leitung oder Beobachtenden. Die Handlung wird
+  zurückgedreht oder wiederholt, diesmal mit Korrektur/Alternative. Ermöglicht
+  gezieltes Nacharbeiten ohne kompletten Neustart.
+originator: null
+origin_context: >
+  Verwandt mit dem Forumtheater nach Augusto Boal (Theater der Unterdrückten,
+  1970er): Zuschauer:innen dürfen die Handlung stoppen und verändern.
+  Übertragung auf Trainingspraxis in Rollenspiel-Workshops verbreitet.
+phases:
+  - code: practice
+    is_primary: true
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [activating, cooperative, feedback]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 90
+tags: [stop-and-fix, forumtheater, boal, korrektur]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Theater der Unterdrückten"
+    author: Augusto Boal
+    year: 1979
+    relation: originator
+    note: >
+      Boals Forumtheater — Zuschauer:innen können Szene
+      stoppen und verändern. Grundlage des Stop-and-Fix-
+      Prinzips.
+  - kind: book
+    title: "Rollenspiele in Training und Beratung"
+    author: Hermann Lutz
+    year: 2015
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Setup & Stop-Regel einführen
+    duration_minutes: 5
+    trainer_action: >
+      Szenario festlegen (Rollenspiel, Simulation,
+      Präsentation). Rollen verteilen. Stop-Regel erklären:
+      "Jede:r Beobachtende kann 'Stop' rufen, wenn eine
+      Alternative versucht werden soll. Die Szene wird
+      zurückgedreht, Alternative gespielt."
+    participant_action: >
+      Rolle übernehmen, Szenario verstehen, Stop-Rolle
+      mental akzeptieren.
+    note: >
+      Stop-Regel schafft zunächst Unsicherheit. Vorab
+      kurz vor-demonstrieren: Moderation ruft selbst
+      "Stop" in Probe-Szene, zeigt Ablauf.
+  - order: 2
+    label: Erste Runde — Szene starten
+    duration_minutes: 8
+    trainer_action: >
+      Rollenspiel beginnt. Moderation hält sich zurück,
+      beobachtet. Bei Bedarf erstes "Stop" selbst rufen —
+      als Vorbild. Szene zurückdrehen, kurz besprechen,
+      anders spielen.
+    participant_action: >
+      In Rolle agieren. Beobachtende aufmerksam zuschauen,
+      "Stop"-Impulse wahrnehmen.
+    note: >
+      Bei erster Runde: Moderation als Beispiel-Stopper
+      zeigt Kultur. Ab Runde 2 sollten TN selbst stoppen.
+      Erfahrung nach 3-4 Stops: läuft.
+  - order: 3
+    label: Stop! — Intervention & Alternative
+    duration_minutes: 12
+    trainer_action: >
+      Wenn "Stop" gerufen: Szene einfrieren. Stoppende:r
+      erklärt kurz, was anders sein soll. Kann selbst
+      Rolle übernehmen oder Vorschlag verbal geben.
+      Szene wird zurückgedreht, Alternative gespielt.
+    participant_action: >
+      Stopper: kurz und konkret Änderung benennen.
+      Spielende: Veränderung aufnehmen, neu spielen.
+      Andere beobachten.
+    note: >
+      Stop muss konstruktiv sein — nicht "war schlecht"
+      sondern "was wäre, wenn...?" Moderation moderiert
+      die Qualität der Stopps.
+  - order: 4
+    label: Mehrere Stop-and-Fix-Zyklen
+    duration_minutes: 25
+    trainer_action: >
+      3-5 Stop-Zyklen. Verschiedene Alternativen
+      durchspielen. Rollen können wechseln. Moderation
+      achtet auf Tempo und auf Fairness (alle kommen
+      dran).
+    participant_action: >
+      Mehrere Alternativen versuchen. Als Stopper:in und
+      als Spieler:in aktiv sein. Gruppe lernt gemeinsam.
+    note: >
+      Mehrere Zyklen machen Methode zu echter Methoden-
+      Exploration. Nach 5 Stopps ist meist saturiert —
+      dann Debrief.
+  - order: 5
+    label: Debrief & Integration
+    duration_minutes: 10
+    trainer_action: >
+      Debrief: "Was haben die verschiedenen Varianten
+      gezeigt? Welche Strategie wirkt wann? Was nehmen
+      Sie mit?" Verallgemeinerung zum Transfer. Moderation
+      strukturiert, Gruppe denkt.
+    participant_action: >
+      Eigene Erkenntnisse teilen. Was funktioniert unter
+      welchen Bedingungen? Was hat überrascht?
+    note: >
+      Debrief zieht Methodischen Ertrag. Ohne ihn bleibt
+      es Spiel. Kernfragen: "Was wirkt?" und "Wann?"
+
+variations:
+  - name: Klassisch (Stop-Regel in Rollenspiel)
+    description: >
+      Standard-Variante in Rollenspielen oder Simulationen.
+      Stop von allen möglich, Alternative spielen.
+    when_to_use: >
+      Kommunikations-Trainings, Verhandlungs-Übungen,
+      Konfliktgespräche. 6-15 TN.
+  - name: Forumtheater (Boal-Original)
+    description: >
+      Inszenierte Szene vor Publikum, Publikum stoppt und
+      übernimmt Rollen. Politische/soziale Themen.
+    when_to_use: >
+      Politische Bildung, soziale Projekte,
+      gesellschaftliche Themen. Boal-ursprünglicher
+      Kontext.
+  - name: Trainer:in-Stop-Variante
+    description: >
+      Nur Trainer:in darf stoppen. Mehr Kontrolle, weniger
+      TN-Initiative. Didaktischer, weniger demokratisch.
+    when_to_use: >
+      Lern-Kontexte mit konkretem Ziel. Wenn TN noch nicht
+      bereit für Stopper-Rolle.
+  - name: Pause-and-Reflect (ohne Alternative)
+    description: >
+      Szene wird gestoppt, aber nicht neu gespielt —
+      nur reflektiert. "Was haben wir gerade gesehen?"
+      Weniger aktiv, mehr analytisch.
+    when_to_use: >
+      Bei komplexen Szenen, wenn Analyse wichtiger als
+      Alternative. Coaching-Supervision.
+  - name: Remote Stop-and-Fix (Video)
+    description: >
+      Videokonferenz mit eingeblendeten Kameras. Stop per
+      Handzeichen oder Chat. Szene in Video-Breakout,
+      Publikum beobachtet.
+    when_to_use: >
+      Verteilte Teams. Funktioniert, aber Dichte geringer
+      als Präsenz.
+    setting_codes: [remote_sync]
+  - name: Peer-Coaching-Variante
+    description: >
+      Zwei üben in einer Szene, dritte:r stoppt und coacht
+      parallel. Rollen rotieren. Coaching-Skill mitgetrainiert.
+    when_to_use: >
+      Coaching-Ausbildung, Peer-Learning-Kontexte.
+
+pitfalls:
+  - issue: >
+      TN rufen nicht "Stop" — bleiben in Zuschauer-Rolle.
+    countermeasure: >
+      Moderation ruft erste 1-2 Stops selbst als Vorbild.
+      Dann explizit einladen: "Wer hätte jetzt eine
+      Alternative?" Kultur anregen.
+    severity: common
+  - issue: >
+      Stops werden destruktiv ("das war falsch!").
+    countermeasure: >
+      Regel: "Stop kommt mit konkreter Alternative, nicht
+      mit Kritik." Moderation korrigiert sanft: "Was
+      wäre stattdessen?"
+    severity: common
+  - issue: >
+      Szene wird zu oft gestoppt — verliert Fluss.
+    countermeasure: >
+      Max. 1 Stop pro 3 min. Moderation kann moderieren.
+      Nicht jede kleine Irritation muss Stop werden.
+    severity: common
+  - issue: >
+      Spielende fühlen sich bloßgestellt durch häufige
+      Stops.
+    countermeasure: >
+      Framing: "Stops sind nicht Kritik an Person,
+      sondern Lernen über Situation." Freiwilligkeit
+      wahren, wer nicht stoppbar sein will, agiert
+      außerhalb.
+    severity: common
+  - issue: >
+      Alternative-Vorschläge sind nicht durchdacht —
+      Spiel wird chaotisch.
+    countermeasure: >
+      Bei unklaren Vorschlägen kurz präzisieren lassen:
+      "Was genau soll anders sein?" Nicht jeden Impuls
+      ausspielen.
+    severity: common
+  - issue: >
+      Debrief fehlt — Methode bleibt Spiel ohne Erkenntnis.
+    countermeasure: >
+      Debrief fest einplanen (10 min). Verallgemeinerungs-
+      Fragen stellen. Ohne Debrief: Methode liefert
+      wenig Transfer.
+    severity: common
+  - issue: >
+      Emotionale Szenen wirken nach — TN brauchen
+      Verarbeitung.
+    countermeasure: >
+      Bei sensiblen Themen: Check-out-Runde nach Debrief.
+      "Wie ist es jetzt?" Bei starker Betroffenheit:
+      Einzelgespräch anbieten.
+    severity: rare

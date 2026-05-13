@@ -1,0 +1,245 @@
+slug: schreibgespraech
+canonical_name: Schreibgespräch
+synonyms:
+  - synonym: Silent Discussion
+    language: en
+  - synonym: Stummes Schreibgespräch
+    language: de
+short_description: >
+  Thema wird mittig auf Plakat geschrieben. TN schreiben reihum oder gleichzeitig
+  Beiträge, Kommentare, Fragen, ohne zu sprechen. Entsteht ein vielstimmiger
+  schriftlicher Diskurs. Inklusiv — auch stille TN werden sichtbar.
+originator: null
+origin_context: >
+  Verbreitete Schulmethode aus der Deutsch- und Sozialkundedidaktik;
+  als „Silent Conversation" auch in angelsächsischer Praxis.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: activation
+  - code: group_work
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Auf Miro/Mural als Schreib-Canvas; sehr inklusiv.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [school, youth, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 60
+materials:
+  - Plakat mit Leitfrage oder digitales Whiteboard
+tags: [schreibgespraech, schriftlich, inklusiv, stumm]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Unterrichtsmethoden II — Praxisband"
+    author: Hilbert Meyer
+    year: 2002
+    relation: practice_guide
+    note: Schreibgespräch als didaktische Methode schulischer Erarbeitung.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: url
+    title: "National School Reform Faculty — Silent Conversation Protocol"
+    url: https://www.nsrfharmony.org/protocols/
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Thema / Frage auf Plakat setzen
+    duration_minutes: 3
+    trainer_action: >
+      Zentrale Frage oder These in Mitte eines großen Plakats
+      (A1 oder Flipchart) oder auf Whiteboard schreiben.
+      Beispiel: "Was brauchen wir, damit Transfer gelingt?"
+      oder "Wo sehen wir die größte Chance für Change?".
+      Regeln erklären: "Kein Sprechen. Nur Schreiben. Auf
+      Beiträge anderer reagieren (mit Pfeilen, Fragen,
+      Kommentaren) erlaubt."
+    participant_action: >
+      Frage verstehen, Regeln akzeptieren, mental auf
+      Schreib-Modus umschalten.
+    note: >
+      Regel "nicht sprechen" muss strikt sein. Ein kurzer
+      Kommentar bricht das stille Klima — Wirkung verpufft.
+      Vorab klar ansagen.
+  - order: 2
+    label: Stilles Schreiben (Erstbeiträge)
+    duration_minutes: 10
+    trainer_action: >
+      TN gehen zum Plakat (mehrere gleichzeitig — bei großen
+      Gruppen: Plakate verteilen) und schreiben Beiträge.
+      Stift in Hand, Plakat beschriften. Musik als Hintergrund
+      möglich. Moderation hält Abstand, beobachtet.
+    participant_action: >
+      Eigene Gedanken aufschreiben. Ideen, Fragen, Beispiele
+      — alles erlaubt. Nicht überlegen, ob es "passt".
+    note: >
+      Stille schafft Dichte. In den ersten 3 min oft
+      zögerlich, dann fließt es. Moderation soll nicht
+      eingreifen — Stille aushalten.
+  - order: 3
+    label: Reagieren & Dialog (Pfeile, Kommentare, Fragen)
+    duration_minutes: 10
+    trainer_action: >
+      Weiterschreiben: TN lesen Beiträge anderer und reagieren
+      — mit Pfeilen, Kommentaren, Gegenfragen. Echter
+      Dialog entsteht schriftlich. Plakat wird
+      vielstimmig.
+    participant_action: >
+      Fremde Beiträge lesen, mit eigenem reagieren.
+      Pfeile verbinden, Kommentare setzen, Fragen zurück.
+    note: >
+      Hier entsteht die eigentliche Methode — ein
+      vielstimmiger Diskurs, der ohne Dominanz abläuft.
+      Schüchterne TN sind genauso sichtbar wie laute.
+  - order: 4
+    label: Pause & Gemeinsames Lesen
+    duration_minutes: 5
+    trainer_action: >
+      Pause zum Lesen. Alle treten einen Schritt zurück,
+      lesen das entstandene Bild. Moderation sammelt
+      Strukturen: "Hier sehe ich Cluster A, dort Cluster B,
+      hier eine offene Frage." Nur strukturieren, nicht
+      inhaltlich bewerten.
+    participant_action: >
+      Plakat lesen, Muster wahrnehmen, eigene Position im
+      Gesamtbild erkennen.
+    note: >
+      Gemeinsames Lesen ist wichtig. Ohne es bleibt Plakat
+      individuelles Sammelwerk. Mit: Gruppenbewusstsein
+      entsteht.
+  - order: 5
+    label: Gesprochener Abschluss (optional)
+    duration_minutes: 2
+    trainer_action: >
+      Jetzt darf gesprochen werden. Kurzer Austausch: "Was
+      war überraschend? Was fehlt?" 2-3 Stimmen reichen.
+      Ergebnisse in nächsten Programmschritt überleiten.
+    participant_action: >
+      Kurze Reaktion teilen. Eigene Einsichten
+      artikulieren. Im Dialog mit anderen klären.
+    note: >
+      Gesprochener Abschluss ist Brücke. Nicht zu lang,
+      sonst wird aus Schreibgespräch doch wieder normale
+      Diskussion.
+
+variations:
+  - name: Klassisch (ein Plakat, stilles Schreiben)
+    description: >
+      Ein großes Plakat, alle schreiben reihum oder
+      gleichzeitig, Dialog schriftlich. Standardvariante.
+    when_to_use: >
+      Schule, Erwachsenenbildung, Team-Workshops. 8-25
+      TN mit einem Plakat; größer → mehrere Plakate.
+  - name: Rotierende Plakate (Multi-Tisch)
+    description: >
+      Mehrere Plakate mit verschiedenen Fragen, TN rotieren
+      zwischen Tischen. Nach jeder Runde kommentieren sie
+      das Vorgängige.
+    when_to_use: >
+      Wenn mehrere Fragen parallel bearbeitet werden sollen.
+      Größere Gruppen (20+), World-Café-Verwandt.
+  - name: Digital (Miro/Mural mit Sticky Notes)
+    description: >
+      Online: digitales Whiteboard, alle schreiben
+      gleichzeitig per Sticky Notes. Pfeile und Kommentare
+      digital verbinden.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Funktioniert sehr
+      gut online, dokumentiert sich automatisch.
+    setting_codes: [remote_sync, remote_async]
+  - name: Asynchron (über Tage)
+    description: >
+      Plakat hängt tagelang im Gemeinschaftsraum. TN schreiben
+      wann sie vorbeikommen. Langsames Sammeln von
+      Perspektiven.
+    when_to_use: >
+      Längere Programme, Team-Räume, wenn kontinuierliche
+      Reflexion gewünscht. Asynchron, niedrigschwellig.
+    setting_codes: [remote_async]
+  - name: Thema pro Plakat (mehrere parallele)
+    description: >
+      Mehrere Plakate mit Unterthemen. TN wählen, wo sie
+      beitragen. Diagnose-Funktion (wo hängen viele Themen?).
+    when_to_use: >
+      Wenn Themenvielfalt erhoben werden soll.
+      Strategie-Workshops, Problemanalyse.
+  - name: Galerie-Walk-Kombination
+    description: >
+      Zuerst Schreibgespräche in Kleingruppen, dann Gallery
+      Walk über alle Plakate mit Kommentar-Stiften.
+      Mehrschichtig.
+    when_to_use: >
+      Größere Workshops (20+ TN), wenn Tiefe UND Übersicht
+      gewünscht. Zeitaufwendiger.
+
+pitfalls:
+  - issue: >
+      TN sprechen trotzdem — Stille wird durchbrochen.
+    countermeasure: >
+      Regel klar wiederholen. Bei Verstoß: sanft
+      signalisieren ("Psst, nur schreiben"). Moderation
+      muss konsequent sein.
+    severity: common
+  - issue: >
+      Beiträge bleiben oberflächlich — "gute Idee!".
+    countermeasure: >
+      Leitfrage präzise formulieren. Konkrete Beispiele
+      als Impulse. Beim Reagieren auf Nachfragen stoßen:
+      "Warum glaubst du das?".
+    severity: common
+  - issue: >
+      Wenige TN schreiben, viele stehen nur rum.
+    countermeasure: >
+      Moderation selbst als Beitrag-Impuls wirken. "Jeder
+      bitte mindestens 3 Beiträge." Bei größeren Gruppen:
+      Plakate aufteilen, damit nicht alle warten.
+    severity: common
+  - issue: >
+      Plakat wird chaotisch — Übersicht geht verloren.
+    countermeasure: >
+      Strukturhilfen anbieten (Sektoren vorab, Farben).
+      Beim gemeinsamen Lesen strukturieren. Chaos
+      gehört teilweise dazu — zu viel Ordnung killt
+      Emergenz.
+    severity: common
+  - issue: >
+      Lese-Pause wird vergessen — Plakat bleibt
+      unverdaut.
+    countermeasure: >
+      Lese-Pause fest einplanen (5 min). Moderation
+      stoppt Schreiben: "Jetzt zurücktreten, lesen."
+      Pflicht-Schritt.
+    severity: common
+  - issue: >
+      Handschrift unleserlich — Beiträge verloren.
+    countermeasure: >
+      Druckbuchstaben-Regel (wie bei Kartenabfrage).
+      Dicke Stifte, klare Farben. Bei sehr kleiner
+      Schrift: digital-Variante erwägen.
+    severity: common
+  - issue: >
+      Ergebnis versandet — Plakat wird nicht weiterverwendet.
+    countermeasure: >
+      Abfoto, Digitalisierung (Transkription oder
+      Bild-Archiv). Im nächsten Programmpunkt auf
+      Plakat-Erkenntnisse zurückkommen.
+    severity: common

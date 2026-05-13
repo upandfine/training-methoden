@@ -1,0 +1,247 @@
+slug: lean-coffee
+canonical_name: Lean Coffee
+synonyms: []
+short_description: >
+  Agendalose Diskussionsrunde. Teilnehmende sammeln Themen auf Post-its,
+  priorisieren per Punktevoting, diskutieren das Top-Thema für 5–7 Min., danach
+  Daumenabstimmung „weiter diskutieren oder Thema wechseln". Hocheffizient.
+originator: Jim Benson, Jeremy Lightsmith
+origin_year: 2009
+origin_context: >
+  Entstanden 2009 in Seattle als selbst-organisierter Wissens-Austausch
+  ohne festen Sprecher oder Agenda.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Miro/Mural-Template, Timer sichtbar; funktioniert remote sehr gut.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective, activating]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 90
+materials:
+  - Sticky Notes, Klebepunkte, Kanban-Board (ToDo / Doing / Done), Timer
+tags: [agenda-los, diskussion, agile]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: url
+    title: Lean Coffee — The original site
+    url: https://leancoffee.org/
+    relation: originator
+    note: Originalseite mit Methoden-Kanon von Benson & Lightsmith.
+  - kind: book
+    title: "Personal Kanban: Mapping Work, Navigating Life"
+    author: Jim Benson, Tonianne DeMaria Barry
+    year: 2011
+    relation: practice_guide
+    note: Kontextwerk zu Lean-Prinzipien, aus dem Lean Coffee hervorging.
+  - kind: url
+    title: "Gamestorming — Lean Coffee"
+    url: https://gamestorming.com/lean-coffee/
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Rahmen setzen & Board vorbereiten
+    duration_minutes: 5
+    trainer_action: >
+      Kanban-Board an Wand / Whiteboard: drei Spalten ToDo, Doing,
+      Done. Methodik kurz erklären — viele kennen sie nicht. Zeit-
+      Box ansagen (60-90 min). Timer bereitstellen (Handy, Online-
+      Timer).
+    participant_action: >
+      Zuhören, Raum / Stuhlkreis einnehmen, ankommen.
+    note: >
+      Lean Coffee lebt von Rhythmus. Wer das Board nicht vorher
+      erklärt, verliert die ersten 15 min in Meta-Diskussion.
+      Saubere Einführung in 3 min ist möglich.
+  - order: 2
+    label: Themen sammeln (Still-Phase)
+    duration_minutes: 5
+    trainer_action: >
+      „Worüber würden Sie gern sprechen? Ein Thema pro Sticky,
+      kurz formuliert." 5 min still schreiben. Themen in die
+      ToDo-Spalte kleben, ungeordnet.
+    participant_action: >
+      Eigene Themen aufschreiben, ein Thema pro Karte, in
+      ToDo-Spalte kleben.
+    note: >
+      Niedrigschwellig formulieren: "eine Frage, eine Überlegung,
+      ein Problem — egal was." Keine Themen unter den Tisch
+      fallen lassen.
+  - order: 3
+    label: Dot-Voting auf Themen
+    duration_minutes: 3
+    trainer_action: >
+      Jede:r bekommt 2-3 Punkte. Gleichzeitig voten — alle aufstehen,
+      gleichzeitig punkten. Punkte auf ToDo-Sticky kleben.
+      Anschließend nach Stimmenzahl absteigend sortieren.
+    participant_action: >
+      Punkte verteilen auf Themen, die sie am meisten
+      interessieren. Kumulierung erlaubt (alles auf eins).
+    note: >
+      Gleichzeitiges Voting verhindert Bandwagon-Effekt. Bei
+      Gleichstand: nicht künstlich auflösen, beide bleiben in
+      Reihenfolge.
+  - order: 4
+    label: Erstes Thema diskutieren (5-7 min)
+    duration_minutes: 7
+    trainer_action: >
+      Top-Thema in "Doing" verschieben. Timer auf 5-7 min.
+      Person, die Thema vorgeschlagen hat, startet mit Kontext
+      (1-2 Sätze). Dann freie Diskussion. Moderation hält sich
+      zurück, hält nur Zeit.
+    participant_action: >
+      Diskutieren, Erfahrungen teilen, Fragen stellen, zuhören.
+    note: >
+      Moderation ist NICHT Vortragender. Lean Coffee funktioniert
+      peer-to-peer. Wer zu stark moderiert, killt den Charakter.
+  - order: 5
+    label: Daumen-Abstimmung (Roman Voting) — weiter oder wechseln?
+    duration_minutes: 1
+    trainer_action: >
+      Bei Timer-Ende: "Daumen hoch = weiter 5 min, Daumen mittel =
+      egal, Daumen runter = wechseln." Auszählen. Mehrheit
+      entscheidet. Wenn Wechsel: Thema in "Done", nächstes
+      Thema in "Doing".
+      (Achtung: Nicht mit Fist-of-Five verwechseln — das ist die
+      0-5-Finger-Zustimmungsskala aus agilen Schätzrunden.)
+    participant_action: >
+      Daumen-Abstimmung, Mehrheit akzeptieren.
+    note: >
+      Die Abstimmung ist das Markenzeichen. Nicht weglassen
+      auch wenn Diskussion noch lebhaft — oft verbessert der
+      Wechsel die Gesamtdynamik.
+  - order: 6
+    label: Weitere Runden & Abschluss
+    duration_minutes: 35
+    trainer_action: >
+      3-5 weitere Themen in gleicher Taktung. Timer konsequent.
+      Am Ende der Session: kurze Abschluss-Runde "Eine
+      Erkenntnis, ein Aha, eine offene Frage?". Fotos vom Board
+      für Dokumentation.
+    participant_action: >
+      An weiteren Themen teilnehmen, am Ende 1 Satz zur
+      Abschluss-Runde beitragen.
+    note: >
+      Typisch schafft eine 60-min-Session 4-5 Themen. Das ist
+      OK. Qualität der Diskussion > Menge der Themen.
+
+variations:
+  - name: Klassisches Lean Coffee (60-90 min)
+    description: >
+      Standard-Variante mit ToDo/Doing/Done-Board, Dot-Voting,
+      5-7 min Takte, Daumen-Abstimmung (Roman Voting).
+    when_to_use: >
+      Regelmäßige Team-Meetings, Retrospektiven in agilen Teams,
+      informeller Wissensaustausch. 4-10 TN ideal.
+  - name: Kurz-Lean-Coffee (30 min)
+    description: >
+      Komprimiert: 3 min sammeln, 2 min voten, 3 × 5-min-Themen.
+      Weniger Tiefe, aber funktioniert in Stand-up-Format.
+    when_to_use: >
+      Zeitlich begrenzte Slots (Lunch-Break, Stand-up), wenn
+      Lean-Coffee-Prinzip in knappe Zeit passen muss.
+  - name: Themen-fokussiertes Lean Coffee
+    description: >
+      Themen-Sammlung wird auf ein Oberthema begrenzt
+      ("Team-Zusammenarbeit", "aktuelle Projekt-Hürden").
+      Rest wie klassisch.
+    when_to_use: >
+      Wenn freies Brainstorming zu breit wäre, aber der
+      demokratische Charakter von Lean Coffee geschätzt wird.
+  - name: Remote Lean Coffee (Miro/Mural)
+    description: >
+      Digitales Board mit ToDo/Doing/Done-Vorlage. Sticky-Voting
+      digital, Timer im Chat. Funktioniert genauso gut wie
+      Präsenz.
+    when_to_use: >
+      Verteilte Teams, Online-Sessions. Oft sogar strukturierter
+      als analog, weil Tool-Disziplin erzwungen wird.
+    setting_codes: [remote_sync]
+  - name: Lean Coffee mit Expert:in
+    description: >
+      Eine Expert:in ist anwesend, aber antwortet nur, wenn
+      Gruppe fragt. Themen-Sammlung und -Priorisierung wie
+      sonst.
+    when_to_use: >
+      Lern-Kontext, Onboarding-Sessions, wenn Expertise
+      abrufbar sein soll, ohne Frontalbeschallung.
+  - name: Rotations-Lean-Coffee (Tischwechsel)
+    description: >
+      Mehrere Lean-Coffee-Runden parallel an verschiedenen
+      Tischen. Nach jedem Thema Tischwechsel, Themen bleiben
+      am Tisch, Menschen rotieren.
+    when_to_use: >
+      Größere Gruppen (20+ TN), wenn auch Vernetzung Ziel ist.
+      Verbindung mit World-Café-Prinzip.
+
+pitfalls:
+  - issue: >
+      Einzelne Themen überziehen — Lust auf "nur noch 5 Minuten"
+      kumuliert sich.
+    countermeasure: >
+      Timer sichtbar, Daumen-Abstimmung konsequent auch wenn es
+      „gerade spannend" ist. Regel: maximal 2 × verlängern, dann
+      Zwangswechsel.
+    severity: common
+  - issue: >
+      Dominierende TN reden 80 % der Zeit, andere kommen nicht
+      zu Wort.
+    countermeasure: >
+      Moderation greift leise ein: "Was denken die, die noch
+      nicht gesprochen haben?" Oder Regel: "Maximal 90 Sek. am
+      Stück reden."
+    severity: common
+  - issue: >
+      Themen-Sammlung bleibt flach — nur generische
+      Oberflächenthemen.
+    countermeasure: >
+      Konkrete Einladung: "Ein aktuelles Problem aus Ihrer
+      Arbeitswoche", "Eine Frage, die Sie gerade umtreibt".
+      Keine Meta-Themen.
+    severity: common
+  - issue: >
+      Gruppe beklagt "kein Ergebnis, viel geredet".
+    countermeasure: >
+      Abschluss-Runde mit expliziter Ergebnis-Frage ("Eine
+      Erkenntnis, die ich mitnehme"). Sticky-Sammlung als
+      Protokoll. Ggf. Follow-up-Termine aus Themen.
+    severity: common
+  - issue: >
+      Moderation übernimmt zu viel — wird zur
+      Diskussions-Leitung.
+    countermeasure: >
+      Bewusste Zurückhaltung, nur Zeit hüten und Prozess-Regeln
+      durchsetzen. Inhaltliche Beiträge explizit nicht aus der
+      Moderation.
+    severity: common
+  - issue: >
+      Remote: Board-Tool-Probleme halten Start auf.
+    countermeasure: >
+      Tool vor Session testen. Template vorher aufsetzen (nicht
+      live bauen). Fallback-Option (Chat statt Sticky) vorbereiten.
+    severity: rare
+    setting_codes: [remote_sync]
+  - issue: >
+      TN kennen Lean Coffee nicht, Startup dauert ewig.
+    countermeasure: >
+      3-min-Einführung mit Beispiel-Themen vorbereiten. Einmal
+      vorab durch-demonstrieren: "Ein Beispiel-Thema hängt schon
+      da, so funktioniert's..."
+    severity: common

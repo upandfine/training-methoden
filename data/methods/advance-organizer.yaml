@@ -1,0 +1,208 @@
+slug: advance-organizer
+canonical_name: Advance Organizer
+synonyms:
+  - synonym: Vorstrukturierer
+    language: de
+short_description: >
+  Visuelle Übersicht zu Beginn eines Themas, die die Struktur und wichtigsten
+  Konzepte vorwegnimmt. Teilnehmende bekommen eine „Landkarte", an der neues
+  Wissen andocken kann.
+originator: David Ausubel
+origin_year: 1960
+origin_context: >
+  Ausubels Theorie sinnvollen Lernens (Meaningful Learning); Advance Organizer
+  als Technik zur kognitiven Vorstrukturierung neuer Inhalte.
+phases:
+  - code: input
+    is_primary: true
+  - code: expectations
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large, plenary]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [didactic, visualization]
+duration_min_minutes: 5
+duration_typical_minutes: 8
+duration_max_minutes: 20
+materials:
+  - Visualisierte Struktur-Übersicht (Flipchart, Folie, Poster)
+tags: [strukturierung, einstieg, kognitive-landkarte]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: article
+    title: The use of advance organizers in the learning and retention of meaningful verbal material
+    author: David P. Ausubel
+    year: 1960
+    relation: originator
+  - kind: book
+    title: "Educational Psychology — A Cognitive View"
+    author: David P. Ausubel
+    year: 1968
+    relation: reference
+    note: Ausubels Hauptwerk; Theorie sinnvollen Lernens.
+  - kind: article
+    title: "A review of research on advance organizers — Assimilation theory is still the best predictor"
+    author: Mayer, Richard E.
+    year: 1979
+    relation: reference
+    note: Meta-Analyse, bestätigt Wirksamkeit besonders bei komplexen Themen.
+  - kind: book
+    title: "Unterrichtseinstiege — Modelle und Beispiele"
+    author: Hilbert Meyer
+    year: 2013
+    relation: practice_guide
+    note: Praxisorientierte Einstiegstechniken, u.a. Advance Organizer.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorarbeit — Struktur extrahieren (Prep, außerhalb der Session)
+    duration_minutes: 0
+    trainer_action: >
+      Vor dem Training: die Inhaltsstruktur des Themas in 5-9 Kernelemente
+      zerlegen. Beziehungen klären (hierarchisch, sequenziell, kausal,
+      kontrastiv). Visualisierung wählen: Mindmap, Flussdiagramm,
+      Matrix, Hierarchie-Baum.
+    participant_action: >
+      (Vorbereitung, TN nicht beteiligt)
+    note: >
+      Die Qualität des Advance Organizers entscheidet über seine
+      Wirkung. Zu detailliert = TN verwirrt. Zu abstrakt = keine
+      Ankerpunkte. 7±2 Kernelemente sind Optimum.
+  - order: 2
+    label: Einführen & Überblick geben
+    duration_minutes: 5
+    trainer_action: >
+      Visualisierung aufdecken und erklären: „Heute werden wir über X
+      sprechen. So ist das Feld aufgebaut…" Jedes Element in 1-2 Sätzen,
+      Beziehungen benennen. Verknüpfung mit vorhandenem Wissen der TN
+      herstellen („Sie kennen vermutlich schon Y — hier erweitern wir
+      um Z").
+    participant_action: >
+      Überblick aufnehmen, eigene Vorerfahrung andocken, Fragen
+      auftauchen lassen (erst später stellen).
+    note: >
+      Wichtig: Ausubels Prinzip ist „subsumption" — neues Wissen wird
+      an bestehendes angedockt. Ohne Verknüpfung zu Vorwissen wirkt
+      der Organizer nur als Gliederung, nicht als Lern-Beschleuniger.
+  - order: 3
+    label: Orientierung bieten während des Trainings
+    duration_minutes: 3
+    trainer_action: >
+      Organizer sichtbar belassen (Poster, Folie, digitales Board).
+      Bei jedem neuen Abschnitt verweisen: „Wir sind hier [Punkt auf
+      Organizer], jetzt kommen wir zu…". Am Ende des Trainings
+      Rückbezug: Wo waren wir, was haben wir abgedeckt.
+    participant_action: >
+      Organizer als Landkarte nutzen, eigene Notizen daran anknüpfen.
+    note: >
+      Der Organizer wird oft nur am Anfang gezeigt und dann vergessen.
+      Der wirkliche Effekt kommt durch die wiederholte Rückbezüge
+      während des Trainings.
+
+variations:
+  - name: Klassischer Expositorischer Organizer
+    description: >
+      Abstrakte begriffliche Struktur, die dem Inhalt vorangestellt
+      wird. Erklärt die Konzept-Hierarchie. Ausubels Originalform.
+    when_to_use: >
+      Bei abstrakten, wenig bekannten Themen; wenn TN sehr wenig
+      Vorwissen haben.
+  - name: Vergleichender Organizer
+    description: >
+      Stellt neue Inhalte in Kontrast zu bereits Bekanntem: „Sie kennen
+      X — Y ist wie X, aber unterscheidet sich in Z". Nutzt Analogie
+      und Gegenüberstellung.
+    when_to_use: >
+      Wenn TN ein verwandtes Thema schon kennen; Erweiterung oder
+      Abgrenzung zu bestehendem Wissen.
+  - name: Grafischer Organizer (Mindmap/Concept Map)
+    description: >
+      Rein visuell: Kernbegriff im Zentrum, verzweigte Unterthemen,
+      farbkodiert. Ohne Begleittext. Funktioniert auch als stummes
+      Poster.
+    when_to_use: >
+      Visueller Lerntyp dominiert; komplexe aber hierarchisch klare
+      Themen.
+  - name: Prozess-/Flussdiagramm-Organizer
+    description: >
+      Sequentielle Schritt-für-Schritt-Darstellung mit Entscheidungs-
+      knoten. Zeitachse oder Logikfluss.
+    when_to_use: >
+      Prozesstrainings (Arbeitsabläufe, Projektmanagement, Methoden
+      mit klaren Phasen).
+  - name: Asynchroner Organizer (Pre-Work)
+    description: >
+      Kurzes Video (3-5 min) oder einseitiges Dokument wird vor
+      dem Training verschickt. TN bringen bereits eine mentale
+      Landkarte mit ins Training.
+    when_to_use: >
+      Remote/Flipped-Formate; wenn Trainingszeit knapp und hohe
+      Dichte gewünscht.
+    setting_codes: [remote_async]
+  - name: Interaktiver Organizer (KWL-Chart)
+    description: >
+      TN füllen im Einstieg selbst: What I Know / What I Want to know /
+      What I Learned. Advance Organizer entsteht kooperativ.
+    when_to_use: >
+      Wenn Vorwissen heterogen ist und aktiviert werden soll;
+      jüngere TN, Schulkontext.
+
+pitfalls:
+  - issue: >
+      Organizer ist zu detailliert — wirkt wie Agenda oder Skript,
+      überfordert statt zu strukturieren.
+    countermeasure: >
+      Max. 7-9 Kernelemente. Detail-Gliederung gehört in die Agenda,
+      nicht auf den Organizer. „Kann ich das in 60 Sekunden erklären?"
+      als Selbsttest.
+    severity: common
+  - issue: >
+      Kein Bezug zum Vorwissen der TN — Organizer bleibt abstrakt.
+    countermeasure: >
+      Vorher kurze Ankerfrage stellen („Was wissen Sie über X?"),
+      Antworten im Organizer explizit verorten. Oder Vergleichenden
+      Organizer wählen.
+    severity: common
+  - issue: >
+      Organizer wird nur am Anfang gezeigt, danach nie wieder
+      referenziert — Effekt verpufft.
+    countermeasure: >
+      Bewusste Rückbezüge an Übergängen: „Wir schließen Punkt 3 ab,
+      jetzt kommen wir zu 4." Poster sichtbar aufhängen, nicht Folie
+      einmal zeigen und weg.
+    severity: common
+  - issue: >
+      Organizer als „Gliederung" missverstanden — Reihenfolge strukturiert
+      statt inhaltliche Beziehungen gezeigt.
+    countermeasure: >
+      Fokus auf Beziehungen (Pfeile, Farben, Hierarchie), nicht auf
+      Nummerierung. Ein Mindmap ist besser als eine Liste.
+    severity: common
+  - issue: >
+      Trainer:in hält sich nicht an die eigene Struktur, Organizer und
+      Inhalt driften auseinander.
+    countermeasure: >
+      Organizer beim Vortragen in Sichtweite haben, eigene Notizen
+      daran ausrichten. Bei Abweichung ggf. explizit benennen:
+      „Kleiner Exkurs außerhalb der Struktur."
+    severity: rare
+  - issue: >
+      Visualisierung ist optisch unübersichtlich (zu viele Farben,
+      zu dichte Beschriftung, schlechte Schriftgröße).
+    countermeasure: >
+      Visualisierungsregel: max. 3 Farben, Schriftgröße >= 24pt auf
+      Poster, Weißraum einhalten. Idealerweise eine:n designaffine:n
+      Kolleg:in drüber schauen lassen.
+    severity: common

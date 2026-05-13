@@ -1,0 +1,29 @@
+- code: one_on_one
+  label_de: "1:1"    # Quotes! Ohne sie parst YAML "1:1" als Sexagesimal = 61.
+  min_participants: 2
+  max_participants: 2
+  sort_order: 10
+
+- code: small
+  label_de: Kleingruppe (3–8)
+  min_participants: 3
+  max_participants: 8
+  sort_order: 20
+
+- code: medium
+  label_de: Mittlere Gruppe (9–20)
+  min_participants: 9
+  max_participants: 20
+  sort_order: 30
+
+- code: large
+  label_de: Große Gruppe (21–50)
+  min_participants: 21
+  max_participants: 50
+  sort_order: 40
+
+- code: plenary
+  label_de: Plenum (50+)
+  min_participants: 51
+  max_participants: null
+  sort_order: 50

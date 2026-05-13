@@ -1,0 +1,224 @@
+slug: symbol-abschluss
+canonical_name: Symbol-Abschluss
+synonyms:
+  - synonym: Symbolic Closing
+    language: en
+short_description: >
+  TN wählen aus einer Auslage von Gegenständen (Steine, Muscheln, Karten,
+  Figuren) eins aus, das ihren aktuellen Zustand oder ihre wichtigste
+  Erkenntnis symbolisiert, und teilen kurz, warum. Nonverbale Brücke zur
+  Abschlussreflexion.
+originator: null
+origin_context: >
+  Klassiker aus der systemischen und humanistischen Pädagogik;
+  verwandt mit Metaphernarbeit und Bildkarten-Methoden.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: closing
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Funktioniert mit Emoji-Auswahl oder Bildauswahl über Whiteboard.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [reflective, creative, visualization]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 30
+materials:
+  - Symbolauslage (Steine, Karten, Figuren, Naturmaterialien)
+tags: [symbol, abschluss, nonverbal]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Metaphern — das Arbeitsmaterial"
+    author: Ulrich Pfeifer-Schaupp
+    year: 2014
+    relation: practice_guide
+    note: Systemische Metaphernarbeit mit Gegenständen und Bildern.
+  - kind: book
+    title: "Humanistische Pädagogik"
+    author: Hilarion G. Petzold
+    year: 2010
+    relation: reference
+    note: Symbolische Ausdrucksformen in der Gruppenarbeit.
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Symbolauslage vorbereiten
+    duration_minutes: 3
+    trainer_action: >
+      Große Auswahl Gegenstände in Mitte auslegen: Steine,
+      Muscheln, Bildkarten, kleine Figuren, Naturmaterialien.
+      Mehr als TN — Auswahl-Reichtum wichtig. Kreisstellung,
+      damit alle Zugang haben.
+    participant_action: >
+      Auslage betrachten, erste Assoziationen zulassen,
+      noch nichts auswählen.
+    note: >
+      Materialvielfalt entscheidet. 30-50 Gegenstände für
+      10-15 TN. Mix aus Natur, Figürchen, Symbolkarten, ggf.
+      abstrakten Formen. Mindestens 3× mehr als TN.
+  - order: 2
+    label: Auswahl-Phase (still)
+    duration_minutes: 5
+    trainer_action: >
+      "Wählen Sie in Ruhe einen Gegenstand, der Ihr Erleben
+      von heute symbolisiert — was Sie mitnehmen, was sich
+      in Ihnen bewegt hat, was offen bleibt." 5 min Stille.
+      Moderation beobachtet, greift nicht ein.
+    participant_action: >
+      Gegenstände anschauen, intuitiv wählen — nicht
+      überanalysieren. Einen nehmen, der innerlich "ja"
+      sagt.
+    note: >
+      Intuition vor Analyse. Wer zu lange überlegt, findet
+      meist den schwächeren Gegenstand. Bei Stocken:
+      "Welcher ruft Sie am meisten an?"
+  - order: 3
+    label: Teilen-Runde (reihum, kurz)
+    duration_minutes: 8
+    trainer_action: >
+      Reihum, je 30-60 Sek: "Ich habe diesen Stein/Karte
+      gewählt, weil...". Teilen ist freiwillig. Andere
+      hören aufmerksam, kommentieren nicht.
+    participant_action: >
+      Gewählten Gegenstand kurz vorstellen, Bedeutung
+      teilen. Oder "pass" bei Nicht-Wollen.
+    note: >
+      Kein Ausschlachten. Die Methode wirkt im Individuum.
+      Zu viel Nachfrage würde die Tiefe der Selbstauswahl
+      zerreden.
+  - order: 4
+    label: Ritueller Abschluss
+    duration_minutes: 2
+    trainer_action: >
+      "Nehmen Sie Ihren Gegenstand mit oder geben Sie ihn
+      zurück — wie es stimmig ist." Kurzer Abschlussdank.
+      Übergang zur Verabschiedung.
+    participant_action: >
+      Gegenstand mitnehmen oder ablegen — bewusste Wahl.
+      Abschluss-Moment spüren.
+    note: >
+      Mitnehmen verlängert die Methode — der Gegenstand
+      wirkt zu Hause noch als Anker. Zurückgeben ist
+      symbolisches Loslassen. Beides legitim.
+
+variations:
+  - name: Klassisch (Gegenstände)
+    description: >
+      Physische Auslage, freie Auswahl, Plenum-Teilen.
+      Standard-Variante.
+    when_to_use: >
+      Seminar-Abschluss, Retreats, intensive Workshops.
+      Wenn Zeit und Raum für Nachklang da sind. 6-15 TN.
+  - name: Bildkarten-Variante
+    description: >
+      Nur Bildkarten (z.B. "Dixit", Metapherkarten, OH-Karten).
+      Mehr Vielfalt, weniger Platz-Bedarf.
+    when_to_use: >
+      Wenn Gegenstände nicht verfügbar. Bildkarten
+      funktionieren oft genauso gut.
+  - name: Zwei-Symbole-Variante
+    description: >
+      Zwei Gegenstände wählen: einen für "was nehme ich mit",
+      einen für "was lasse ich hier". Differenzierter.
+    when_to_use: >
+      Längere Workshops, Transformations-Prozesse. Wenn
+      Abgrenzung zwischen Fort- und Zurücklassen wichtig.
+  - name: Gruppenbild aus Symbolen
+    description: >
+      Am Ende legen alle ihre Symbole gemeinsam — ein
+      Gruppenbild entsteht. Fotografieren als Abschluss.
+    when_to_use: >
+      Team-Retreats, längere Workshops. Wenn
+      Gruppengefühl visualisiert werden soll.
+  - name: Remote-Variante (Bildauswahl digital)
+    description: >
+      Online: Bildauswahl auf Miro-Board mit 20-30 Bildern.
+      Jede:r wählt per Markierung, teilt im Video.
+    when_to_use: >
+      Online-Trainings. Weniger haptisch, aber Symbol-
+      Denken bleibt.
+    setting_codes: [remote_sync]
+  - name: Partner-Symbol
+    description: >
+      Jede:r wählt Symbol FÜR eine:n andere:n TN und
+      übergibt es. Wertschätzungs-Ritual.
+    when_to_use: >
+      Vertraute Gruppen, Team-Kohäsion schon da.
+      Retrospektiven mit Beziehungs-Fokus.
+
+pitfalls:
+  - issue: >
+      Auslage zu klein — TN finden nichts, das passt.
+    countermeasure: >
+      Mindestens 3× mehr Gegenstände als TN. Vielfalt
+      sichern (Natur, Figur, abstrakt, Bild). Vorbereitung
+      ernst nehmen.
+    severity: common
+  - issue: >
+      TN überanalysieren — kognitive Falle.
+    countermeasure: >
+      Einladung zur Intuition: "Welcher spricht Sie an —
+      ohne zu wissen, warum?" Kürzere Wahl-Zeit (3-4 min
+      statt 10).
+    severity: common
+  - issue: >
+      Teilen-Runde wird zur Selbstdarstellung.
+    countermeasure: >
+      Zeit pro Person (30-60 Sek) ansagen. Bei Überziehern
+      sanft kappen. Methode lebt von Knapp-und-Echt, nicht
+      Ausführlich-und-Ausführlich.
+    severity: common
+  - issue: >
+      Corporate-Kontexte empfinden Methode als esoterisch.
+    countermeasure: >
+      Framing anpassen: "symbolische Auswahl" statt
+      "energetischer Gegenstand". Auswahl an Gegenständen
+      seriöser (keine Kristalle, Federn). Bei starkem
+      Widerstand andere Reflexionsmethode.
+    severity: common
+  - issue: >
+      Intime Themen kommen hoch, Gruppe überfordert.
+    countermeasure: >
+      Moderation signalisiert: "Was geteilt werden kann,
+      soll geteilt werden. Mehr nicht nötig." Bei Tränen:
+      Raum geben, nicht ausschlachten. Nachbetreuung
+      anbieten.
+    severity: rare
+  - issue: >
+      Auslage wird zur "Kunst-Sammlung" — TN vermeiden
+      Gegenstände aus Respekt.
+    countermeasure: >
+      Framing: "Bitte anfassen, aussuchen, benutzen.
+      Die Gegenstände sind dafür da." Selbst Moderation
+      vor-demonstrieren.
+    severity: common
+  - issue: >
+      Online-Variante wirkt flach — keine haptische
+      Tiefe.
+    countermeasure: >
+      Akzeptieren, dass online weniger intensiv ist.
+      Bildkarten-Vielfalt maximieren (30+ Bilder) für
+      Auswahl-Reichtum. Erwartungen anpassen.
+    severity: common
+    setting_codes: [remote_sync]

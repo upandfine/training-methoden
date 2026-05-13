@@ -1,0 +1,231 @@
+slug: erwartungs-interview
+canonical_name: Erwartungs-Interview
+synonyms:
+  - synonym: Expectation Interview
+    language: en
+short_description: >
+  Teilnehmende interviewen sich in Paaren zu den Fragen: Was möchtest du
+  heute mitnehmen? Was steht dem möglicherweise im Weg? Was brauchst du vom
+  Trainer / von der Gruppe? Anschließend Kurzbericht ans Plenum.
+originator: null
+origin_context: >
+  Kombination aus Partnerinterview und klassischer Erwartungsabfrage —
+  in der Trainerausbildung vielfach als Standardformat gelehrt.
+phases:
+  - code: expectations
+    is_primary: true
+  - code: getting_acquainted
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: In Breakout-Räumen à 2 Personen; einfach umzusetzen.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [diagnostic, cooperative]
+duration_min_minutes: 20
+duration_typical_minutes: 30
+duration_max_minutes: 45
+tags: [erwartung, interview, paararbeit]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: practice_guide
+    note: Beschreibt Partner-Interviews für Erwartungsklärung.
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Paare bilden & Leitfragen ausgeben
+    duration_minutes: 3
+    trainer_action: >
+      2er-Paare bilden (bewusst fremde Leute, nicht Sitz-
+      nachbarn). 3-5 Leitfragen austeilen oder sichtbar
+      aufhängen: "Was möchtest du heute mitnehmen? Was
+      könnte im Weg stehen? Was brauchst du von mir/der
+      Gruppe?"
+    participant_action: >
+      Partner:in finden, Leitfragen lesen.
+    note: >
+      Fragen sollten erwartungs-öffnend sein. Nicht nur
+      "Was erwartest du?" sondern mit Tiefe (Hindernisse,
+      Bedürfnisse). Das bringt die echten Erwartungen.
+  - order: 2
+    label: Interview A → B (2 × 5 min)
+    duration_minutes: 10
+    trainer_action: >
+      "A fragt B, nur Fragen — keine eigenen Geschichten.
+      Aktives Zuhören, Notizen machen." 5 min. Wechsel-
+      Signal. Dann B fragt A, gleiche Regeln.
+    participant_action: >
+      A: Fragen stellen, zuhören, notieren. B: offen
+      antworten. Dann umgekehrt.
+    note: >
+      Strikte Rollentrennung wichtig. "Oh das kenne ich,
+      ich auch..." ist verboten. Reiner Fragemodus +
+      Antwortmodus.
+  - order: 3
+    label: Vorbereitung auf Präsentation
+    duration_minutes: 3
+    trainer_action: >
+      Kurze Zeit, Notizen strukturieren: "Was stelle ich
+      von meiner:m Partner:in im Plenum vor? Was darf ich
+      teilen?" Kurze Freigabe-Frage: "Ist das für dich
+      okay?"
+    participant_action: >
+      Highlights auswählen, bei Partner:in Freigabe holen.
+    note: >
+      Freigabe ist Pflicht. Sonst werden heikle Details
+      öffentlich. Macht Schritt 4 sicher.
+  - order: 4
+    label: Vorstellung im Plenum
+    duration_minutes: 10
+    trainer_action: >
+      Reihum stellt jede:r die Erwartungen seiner:ihrer
+      Partner:in vor (1-2 min). Moderation dokumentiert
+      auf Flipchart oder Board. Vorgestellte Person
+      kann kurz ergänzen.
+    participant_action: >
+      Partner:in vorstellen (in dritter Person: "Anna
+      möchte..."). Eigenen Vorgestellt-Moment annehmen.
+    note: >
+      Gegenseitige Vorstellung macht Erwartungen klar UND
+      stärkt Gruppen-Kohäsion. Pädagogischer Kick:
+      "wahrgenommen werden durch andere".
+  - order: 5
+    label: Synthese & Trainings-Anpassung
+    duration_minutes: 4
+    trainer_action: >
+      Cluster / Synthese der Erwartungen: "Ich sehe
+      Häufungen bei X und Y. Diese nehme ich explizit
+      auf. Die hier kann ich nicht einlösen, weil..."
+      Transparent anpassen.
+    participant_action: >
+      Trainings-Rahmen mitnehmen, eigene Erwartungen im
+      Rahmen einordnen.
+    note: >
+      Anpassung sichtbar machen — nicht nur "haben wir
+      gesammelt". Trainer:innen-Verantwortung zeigt
+      sich hier.
+
+variations:
+  - name: Klassisch (Paar-Interview, dann Plenum)
+    description: >
+      Standard-Variante: 2er-Interview, gegenseitige
+      Vorstellung, Sammlung im Plenum.
+    when_to_use: >
+      Seminar-Einstieg, Gruppen von 8-25 TN. Wenn
+      Kennenlern-Effekt gewünscht + Erwartungsklärung.
+  - name: Kurzform (3 Fragen, 15 min)
+    description: >
+      Nur 3 knackige Fragen, kürzere Interview-Zeit
+      (je 3 min). Schneller.
+    when_to_use: >
+      Halbtags-Workshops, wenn Zeit knapp aber
+      Erwartungsklärung gewünscht.
+  - name: Dreier-Interview (Triade)
+    description: >
+      3 Personen: A interviewt B, C beobachtet + ergänzt.
+      Rotation. Mehrere Perspektiven, langsamer.
+    when_to_use: >
+      Coaching-Ausbildung, wenn Beobachtungs-Kompetenz
+      mittrainiert werden soll.
+  - name: Remote-Interview (Breakouts)
+    description: >
+      2er-Breakouts in Zoom/Teams, dann Plenum-Runde.
+      Funktioniert online sehr gut.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Standardvariante
+      für remote-Sessions.
+    setting_codes: [remote_sync]
+  - name: Themen-fokussiertes Interview
+    description: >
+      Fragen beziehen sich auf spezifisches Trainings-
+      Thema (z.B. "Führungs-Herausforderungen").
+      Kombiniert Kennenlernen mit Diagnose.
+    when_to_use: >
+      Thematische Fachtrainings. Wenn Vorerfahrungen
+      aktiviert werden sollen.
+  - name: Selbst-Interview (schriftlich)
+    description: >
+      Statt Partner:in: TN beantworten Leitfragen selbst
+      schriftlich. Weniger sozial, aber schneller. Verliert
+      Dialog, sammelt aber Erwartungen zuverlässig — gute
+      Fallback-Option bei Zeitproblemen.
+    when_to_use: >
+      Bei ungerader TN-Zahl, oder wenn Einzelreflexion
+      bevorzugt wird.
+
+pitfalls:
+  - issue: >
+      Interviewende beginnen selbst zu erzählen.
+    countermeasure: >
+      Regel hart einführen: "Wer interviewt, fragt nur."
+      Bei Verstoß: kurz unterbrechen, Regel wiederholen.
+    severity: common
+  - issue: >
+      Eine Seite dominiert — andere kommt nicht zu Wort.
+    countermeasure: >
+      Timer strikt. Halbzeit-Signal. Bei Überziehern
+      freundlich kappen: "Bitte wechseln."
+    severity: common
+  - issue: >
+      Vorstellung wird zu Selbstdarstellung
+      ("und ich fand das auch super...").
+    countermeasure: >
+      Regel: "Sie stellen X vor, nicht sich selbst."
+      Dritte-Person-Form. Moderation korrigiert sanft.
+    severity: common
+  - issue: >
+      Freigabe-Schritt fehlt — sensible Details werden
+      geteilt.
+    countermeasure: >
+      Schritt 3 fest einplanen. Vor Plenum explizit
+      fragen: "Was darf ich teilen?" Methode schützt
+      Vertraulichkeit.
+    severity: common
+  - issue: >
+      Große Gruppen → Plenum-Vorstellung dauert ewig.
+    countermeasure: >
+      Max. 60 sek pro Vorstellung. Oder Kleingruppen à 6-8,
+      Highlight-Runde im Plenum. Dokumentation schriftlich
+      auch außerhalb Plenum.
+    severity: common
+  - issue: >
+      Leitfragen zu vage — liefern nichts Neues.
+    countermeasure: >
+      Mit vertiefender Frage arbeiten ("Was könnte
+      IM WEG stehen?"). Mindestens eine Frage, die über
+      "Was erwartest du?" hinausgeht.
+    severity: common
+  - issue: >
+      Moderation sammelt Erwartungen, zieht aber keine
+      Konsequenz.
+    countermeasure: >
+      Schritt 5 (Anpassung) ernst nehmen. Explizit
+      benennen, was angepasst wird, was nicht.
+      Trainings-Plan sichtbar justieren.
+    severity: common

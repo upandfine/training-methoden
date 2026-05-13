@@ -1,0 +1,211 @@
+slug: sandwich-prinzip
+canonical_name: Sandwich-Prinzip
+synonyms:
+  - synonym: Sandwich Teaching
+    language: en
+  - synonym: Sandwich-Methode
+    language: de
+short_description: >
+  Strukturierungsprinzip: Input-Phasen werden durchgängig mit Verarbeitungsphasen
+  (Partnerarbeit, Diskussion, Übung) verschachtelt. Vermeidet Aufmerksamkeitstäler
+  und stärkt Behalten durch aktive Auseinandersetzung.
+originator: null
+origin_context: >
+  Als didaktisches Strukturierungsprinzip anschlussfähig an Hans Aeblis
+  Lehr-Lern-Denken; in der Erwachsenenbildung u.a. durch Herbert Wahl als
+  Wechsel von Input- und Verarbeitungsphasen popularisiert.
+phases:
+  - code: input
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [didactic]
+duration_min_minutes: 45
+duration_typical_minutes: 90
+duration_max_minutes: 240
+tags: [struktur, wechsel, didaktik-grundlage]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Zwölf Grundformen des Lehrens"
+    author: Hans Aebli
+    year: 1983
+    relation: reference
+    note: Didaktische Grundlage des Phasenwechsels.
+  - kind: book
+    title: "Einführung in die Erwachsenenbildung"
+    author: Herbert Wahl
+    year: 2005
+    relation: practice_guide
+    note: Praxisdarstellung des Sandwich-Prinzips als Phasenwechsel Input/Verarbeitung.
+  - kind: book
+    title: "Methodenvielfalt im Unterricht"
+    author: Hilbert Meyer
+    year: 2007
+    relation: reference
+    note: Lernpsychologische Begründung des Rhythmisierens.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Input-Einheit planen (max. 15-20 min)
+    duration_minutes: 20
+    trainer_action: >
+      Inhalt in Happen à max. 15-20 min schneiden. Jede Input-Einheit
+      hat klaren Fokus: 1 Konzept, 2-3 Kernaussagen. Vortrag mit
+      Beispiel, Visualisierung. Abschluss: Frage oder Impuls als
+      Brücke zur nächsten Phase.
+    participant_action: >
+      Zuhören, mitdenken, Fragen aufkommen lassen.
+    note: >
+      Die Magie ist die Limitierung auf 15-20 min. Ab Minute 20 fällt
+      die Aufmerksamkeit steil ab — das ist empirisch gut belegt.
+  - order: 2
+    label: Verarbeitungs-Phase (5-15 min)
+    duration_minutes: 10
+    trainer_action: >
+      Methode wählen: Think-Pair-Share, kurze Einzelaufgabe, Murmel-
+      gruppe, Quick-Question, Think-Aloud. Klare Aufgabe („Formuliere
+      eine Anwendung auf deinen Kontext"). Stille Arbeit oder Kurz-
+      austausch.
+    participant_action: >
+      Aktiv mit dem Inhalt arbeiten, nicht nur konsumieren. Partner
+      suchen, austauschen, anwenden.
+    note: >
+      Kürzer und klar getaktet schlägt lang und unscharf. 5 min mit
+      konkretem Impuls sind produktiver als 15 min Debatte ohne Ziel.
+  - order: 3
+    label: Brücke zurück zum Input (3-5 min)
+    duration_minutes: 5
+    trainer_action: >
+      Kurz sammeln: „Was kam in den Gesprächen an Fragen oder Ideen
+      auf?". Nicht alles ausschöpfen, sondern 2-3 Punkte aufgreifen
+      als Übergang. Verknüpfung zum nächsten Input herstellen.
+    participant_action: >
+      Erkenntnisse aus Partnergespräch teilen, Fragen formulieren.
+    note: >
+      Diese Brücken sind das Klebemittel. Ohne sie wirken Input und
+      Verarbeitung isoliert.
+  - order: 4
+    label: Sandwich wiederholen (3-6x)
+    duration_minutes: 45
+    trainer_action: >
+      Input-Verarbeitung-Brücke als Grundmuster wiederholen für die
+      gesamte Trainingseinheit. Dazwischen größere Pausen einplanen
+      (nach 60-90 min). Abwechslung bei Verarbeitungs-Methoden, nicht
+      immer dasselbe Format.
+    participant_action: >
+      Rhythmus mitgehen, in jeder Verarbeitungsphase neu
+      einsteigen.
+    note: >
+      Typischer Aufbau für eine 3h-Session: 4-5 Zyklen à 25-30 min,
+      dazwischen kurze Pausen. Methodenwechsel verhindert Abnutzung.
+  - order: 5
+    label: Synthese & Transfer
+    duration_minutes: 10
+    trainer_action: >
+      Abschluss-Verarbeitung übergreifend: „Was nimmst du aus allen
+      Happen mit?". Roter Faden sichtbar machen (ggf. Flipchart mit
+      den Inputs als Timeline). Transfer in die Praxis.
+    participant_action: >
+      Eigene Top-3-Erkenntnisse formulieren, Umsetzungsidee.
+    note: >
+      Ohne Abschluss-Synthese bleiben einzelne Happen disjunkt — das
+      ist das Risiko des Sandwich-Prinzips.
+
+variations:
+  - name: Klassisches Sandwich (3-6 Zyklen)
+    description: >
+      Input-Verarbeitung-Input-Verarbeitung im kontinuierlichen
+      Wechsel. Standard für Schulungen ab 90 min.
+    when_to_use: >
+      Inhaltsreiche Trainings, Fachthemen, längere Sessions.
+  - name: Mini-Sandwich (15-20 min total)
+    description: >
+      Ein Zyklus in kurzer Einheit: 5 min Input, 5 min Partnerarbeit,
+      2 min Sharing. Als Mikro-Lern-Element.
+    when_to_use: >
+      Lunchtalk, kurzes Onboarding, Einstieg in andere Methode.
+  - name: Flipped Sandwich
+    description: >
+      Input als Video vor der Session, Live-Zeit nur für Verarbeitung
+      und Vertiefung. Intensiverer Austausch, weniger Frontalzeit.
+    when_to_use: >
+      Blended-Learning-Formate, wenn TN selbständig vorbereiten
+      können.
+  - name: Peer-Sandwich
+    description: >
+      TN übernehmen Input-Einheiten selbst (max. 10 min pro Person),
+      Trainer:in moderiert nur die Verarbeitungs-Phasen.
+    when_to_use: >
+      Erfahrene Gruppen, Train-the-Trainer, wenn Wissen in der
+      Gruppe ist.
+  - name: Remote-Sandwich
+    description: >
+      Input im Webinar-Format, Verarbeitung in Breakout-Rooms.
+      Trainer:in moderiert Übergänge, kurze Check-ins im Plenum.
+    when_to_use: >
+      Online-Trainings. Verarbeitungsphasen werden wichtiger als
+      onsite, weil online die Aufmerksamkeit schneller sinkt.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Input-Einheiten werden zu lang — nach 20 min kippt Aufmerksamkeit.
+    countermeasure: >
+      Harte Zeitgrenze (Timer) und kontinuierliche Selbst-Prüfung:
+      „Wie lange rede ich jetzt am Stück?". 15 min als Ideal, 20 min
+      als Obergrenze.
+    severity: common
+  - issue: >
+      Verarbeitungs-Aufgaben zu unklar — TN „plaudern", kein Lerneffekt.
+    countermeasure: >
+      Präzise Frage/Aufgabe, sichtbar visualisiert. Max. 1 Satz.
+      „Nennen Sie ein Beispiel für X aus Ihrem Alltag" statt „tauschen
+      Sie sich aus".
+    severity: common
+  - issue: >
+      Trainer:in verkürzt Verarbeitung unter Zeitdruck zugunsten von
+      mehr Input.
+    countermeasure: >
+      Verarbeitung ist nicht optional. Lieber Input kürzen als
+      Verarbeitung streichen — 30 min aktives Lernen schlägt 50 min
+      passives Hören.
+    severity: common
+  - issue: >
+      Dieselbe Verarbeitungs-Methode wird 5x wiederholt, wird monoton.
+    countermeasure: >
+      Methodenwechsel bewusst einplanen: Think-Pair-Share, dann
+      Blitzlicht, dann Murmelgruppe, dann Einzel-Schreiben. Max. 2x
+      dieselbe Methode.
+    severity: common
+  - issue: >
+      Brücken-Phasen werden weggelassen, Inputs wirken isoliert.
+    countermeasure: >
+      3-5 min zwischen jedem Zyklus für Verknüpfung fest einplanen.
+      Roter Faden explizit machen: „Wir hatten X, jetzt kommt Y, weil…".
+    severity: common
+  - issue: >
+      Remote: Verarbeitung in Breakouts funktioniert nicht — TN sind
+      stumm, kehren ohne Ergebnis zurück.
+    countermeasure: >
+      Rollen vergeben (Moderator:in, Protokoll), klares Ergebnis
+      einfordern (1 Satz in Chat posten). Breakouts lieber kürzer
+      (5 min) und klarer als lang und offen.
+    severity: common
+    setting_codes: [remote_sync]

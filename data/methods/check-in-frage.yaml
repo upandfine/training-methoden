@@ -1,0 +1,223 @@
+slug: check-in-frage
+canonical_name: Check-in-Frage
+synonyms:
+  - synonym: Eingangsfrage
+    language: de
+  - synonym: Opening Question
+    language: en
+short_description: >
+  Jede:r beantwortet reihum eine kurze, nicht-inhaltliche Frage zum Ankommen
+  (z.B. „Mit welchem Wetter bin ich heute hier?"). Öffnet den Raum, holt alle ab.
+originator: null
+origin_context: Gängige Praxis aus agiler Teamarbeit und systemischer Moderation.
+phases:
+  - code: arrival
+    is_primary: true
+  - code: getting_acquainted
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Reihenfolge über Videokacheln oder Namensliste; hilft beim Eis-Brechen im Call.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [icebreaker, reflective]
+duration_min_minutes: 3
+duration_typical_minutes: 8
+duration_max_minutes: 15
+tags: [kurz, niederschwellig, standard]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Agile Retrospectives: Making Good Teams Great"
+    author: Esther Derby, Diana Larsen
+    year: 2006
+    relation: reference
+    note: Check-in-Runde als Standardphase im Retrospective-Framework.
+  - kind: book
+    title: "Systemische Organisationsberatung"
+    author: Fritz B. Simon
+    year: 2018
+    relation: reference
+    note: >
+      Systemisch-konstruktivistischer Hintergrund für dialogische
+      Einstiegsformate.
+  - kind: url
+    title: "Liberating Structures — Impromptu Networking / Check-In"
+    url: https://www.liberatingstructures.com/2-impromptu-networking/
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage auswählen & framen
+    duration_minutes: 1
+    trainer_action: >
+      Frage überlegen / vorbereiten. Gute Check-in-Fragen:
+      niederschwellig, persönlich aber nicht intim, konkret
+      ("Mit welchem Wetter-Gefühl bin ich heute hier?" / "Was
+      war heute Morgen mein erster Gedanke?" / "Auf einer Skala
+      1-10: wie ist mein Energie-Level?"). Frage vorstellen,
+      Zweck kurz erklären.
+    participant_action: >
+      Zuhören, Frage verstehen, einen Moment innerlich
+      antworten.
+    note: >
+      Die Wahl der Frage ist 80 % der Wirkung. "Wie geht's?"
+      → nichts. "Was ist der erste Gedanke gewesen, als der
+      Wecker heute geklingelt hat?" → Geschichten. Offene
+      Fragen > geschlossene.
+  - order: 2
+    label: Reihenfolge festlegen
+    duration_minutes: 0
+    trainer_action: >
+      Reihenfolge ansagen: Kreis von links nach rechts, oder
+      "Popcorn" (wer möchte, spricht, ruft nächste Person auf),
+      oder Moderation ruft in Reihenfolge auf. Bei Remote:
+      Video-Kacheln-Reihenfolge oder Namensliste.
+    participant_action: >
+      Reihenfolge mitbekommen, eigenen Moment antizipieren.
+    note: >
+      Kreis ist am klarsten, "Popcorn" energetischer aber
+      ungeplanter. Bei unsicheren Gruppen: Kreis. Bei
+      vertrauten: Popcorn.
+  - order: 3
+    label: Reihum antworten
+    duration_minutes: 5
+    trainer_action: >
+      Moderation startet selbst oder bittet jemand zu starten.
+      Jede:r antwortet kurz (30-60 Sek). Moderation hört aktiv
+      zu, ggf. kurzer neutraler Kommentar ("Danke"), keine
+      Bewertung. Keine Rückfragen — das öffnet die Tür für
+      Diskussion, die nicht gewollt ist.
+    participant_action: >
+      Antworten, kurz, ehrlich. Pass-Option nutzen, wenn nicht
+      wohl. Anderen zuhören ohne zu bewerten.
+    note: >
+      Pass ist essentiell. "Ich möchte heute nicht" akzeptieren
+      ohne Nachfrage. Sonst wird die Methode zum Druck, nicht
+      zur Einladung.
+  - order: 4
+    label: Übergang zum inhaltlichen Teil
+    duration_minutes: 1
+    trainer_action: >
+      Kurz danken, Transition ansagen: "Schön, jetzt sind wir
+      alle angekommen. Lasst uns mit X beginnen." Nicht
+      "rekapitulieren", was einzelne gesagt haben — Check-in ist
+      keine Agenda.
+    participant_action: >
+      Transition mitgehen, innerlich vom Persönlichen zum
+      Inhaltlichen wechseln.
+    note: >
+      Saubere Transition macht den Unterschied zwischen "Check-in
+      als Ritual" und "Check-in als Verschwendung". Bewusst
+      schließen, bewusst öffnen.
+
+variations:
+  - name: Klassisch (1 Frage, reihum)
+    description: >
+      Eine vorbereitete Frage, alle antworten reihum, kurz.
+      Standardvariante.
+    when_to_use: >
+      Seminar-Einstieg, Meetings, Retros. 4-12 TN ideal.
+  - name: Skala-Check-in (1-10)
+    description: >
+      "Wie geht's Ihnen heute, Skala 1-10?" Manche ergänzen mit
+      "Was müsste passieren, damit es eine 9 wird?"
+    when_to_use: >
+      Wenn Stimmungsbild wichtig ist (Retros, Führungsmeetings).
+      Sehr schnell, auch in größeren Gruppen.
+  - name: Bild- / Kartenkarten-Check-in
+    description: >
+      TN wählen eine Karte (Bildkarten, Motivkarten) und
+      erklären kurz, warum. Mehr Tiefe durch Metapher.
+    when_to_use: >
+      Längere Einstiege möglich (10-15 min), wenn auch
+      kreative Ebene angesprochen werden soll. Gut in
+      Coaching-Kontexten.
+  - name: Partner-Check-in (Mini-Zweiergespräch)
+    description: >
+      2er-Paare, je 2 min pro Seite über die Check-in-Frage
+      sprechen. Dann kurzer Plenum-Sammel.
+    when_to_use: >
+      Größere Gruppen (15+), wenn Reihum zu lang wäre.
+      Kombination mit Kennenlernen.
+  - name: Non-verbaler Check-in (Handzeichen)
+    description: >
+      Statt zu reden: Handzeichen (Daumen hoch/mitte/runter),
+      oder Körpergesten zu einer Frage. Sehr schnell, keine
+      Worte.
+    when_to_use: >
+      Sehr große Gruppen, Zeitdruck, oder introvertierte
+      Gruppen. Niedrigschwellig.
+  - name: Remote-Check-in (Chat / Reaktion)
+    description: >
+      TN antworten im Chat zur Frage, oder per Emoji-Reaktion.
+      Parallel, schnell ausgelesen.
+    when_to_use: >
+      Online, wenn reihum-Runde zu lang wäre oder die Gruppe
+      groß ist. Cooler Einstieg, wenig persönlich.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Frage zu generisch ("Wie geht's?") → keine echten
+      Antworten, Ritual-Charakter.
+    countermeasure: >
+      Konkreter formulieren. Spezifische Frage zum Moment, zur
+      Situation, zur Gruppe. "Was war heute der erste Gedanke?"
+      ist besser als "Wie geht's?".
+    severity: common
+  - issue: >
+      TN überziehen ihre Antwort — aus 1 min werden 5.
+    countermeasure: >
+      Zeitrahmen vorab nennen: "30 Sek. pro Person." Moderation
+      sanft unterbricht nach 1 min. Ggf. Sanduhr sichtbar.
+    severity: common
+  - issue: >
+      Frage zu persönlich / zu intim — TN fühlen sich ausgestellt.
+    countermeasure: >
+      Niedrigschwellig starten, besonders bei neuen Gruppen.
+      Pass-Option immer anbieten. Erst nach mehreren
+      Check-ins persönlicher werden.
+    severity: common
+  - issue: >
+      Moderation kommentiert jede Antwort — Check-in wird
+      zur Show.
+    countermeasure: >
+      Moderation hört zu, sagt höchstens "Danke" oder nickt.
+      Keine Bewertung, keine Rückfrage. Jede:r darf einfach
+      landen, ohne aufgenommen zu werden.
+    severity: common
+  - issue: >
+      Check-in dominiert die Session ("wir haben noch gar nicht
+      begonnen"), obwohl Rahmen knapp war.
+    countermeasure: >
+      Zeit kalkulieren: 30-60 Sek. × Anzahl TN + Puffer. Bei
+      >12 TN: Kurzform wählen (Skala, Chat, Bildkarte) oder
+      2er-Paare.
+    severity: common
+  - issue: >
+      Remote: TN schweigen, weil keiner als Erstes will, Zoom-
+      Stille.
+    countermeasure: >
+      Moderation startet selbst. Klare Reihenfolge ansagen
+      ("Alphabetisch"). Bei Stille 3 Sek. warten, dann explizit
+      aufrufen.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Gleiche Check-in-Frage zum 10. Mal — TN rollen mit den
+      Augen.
+    countermeasure: >
+      Fragen rotieren. Pool von 10-15 Fragen bereithalten. Bei
+      regelmäßigen Teams: TN Fragen vorschlagen lassen.
+    severity: common

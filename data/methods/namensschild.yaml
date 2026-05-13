@@ -1,0 +1,178 @@
+slug: namensschild
+canonical_name: Namensschild-Gestaltung
+synonyms:
+  - synonym: Namenskarten
+    language: de
+short_description: >
+  Teilnehmende gestalten zu Beginn ein Namensschild mit Zusatzinformation
+  (Rolle, Interesse, Symbol). Praktisches Hilfsmittel plus Mini-Selbstvorstellung.
+originator: null
+origin_context: Standardbaustein in Seminaren der Erwachsenenbildung.
+phases:
+  - code: arrival
+  - code: getting_acquainted
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital-Variante — Hintergrund oder Video-Overlay mit Name + Symbol.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [icebreaker]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - Leere Namensschilder oder Papier + Filzstifte
+  - "Optional: Zusatzfrage auf Flipchart"
+tags: [ankommen, orientierung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: practice_guide
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Material verteilen & Aufgabe
+    duration_minutes: 2
+    trainer_action: >
+      Leere Namensschilder + Filzstifte. Aufgabe:
+      "Schreiben Sie Ihren Vornamen groß. Plus eine
+      Zusatzinfo: Rolle, Lieblingsfrage, Symbol —
+      was Sie ausdrückt." Beispiele zeigen.
+    participant_action: >
+      Material entgegennehmen, Aufgabe verstehen.
+    note: >
+      Zusatzinfo macht Methode interessant. Nur
+      Name = banal. Mit Symbol/Frage = Gesprächs-
+      Anlass.
+  - order: 2
+    label: Gestaltung (Einzel)
+    duration_minutes: 5
+    trainer_action: >
+      5 min Zeit. Moderation hat eigene Vorlage
+      sichtbar. Bei Stocken: Beispiele ergänzen.
+    participant_action: >
+      Namen schreiben, Symbol zeichnen, kreativ
+      werden.
+    note: >
+      Wer "kann nicht zeichnen": Strichmännchen
+      reichen. Niveau-Druck rausnehmen.
+  - order: 3
+    label: Vorstellungs-Runde (kurz)
+    duration_minutes: 4
+    trainer_action: >
+      Reihum: Name + Symbol erklären (30 Sek pro
+      Person). Bei großen Gruppen: nur Highlights
+      oder Paaraustausch.
+    participant_action: >
+      Namen sagen, Symbol erklären, andere
+      hören.
+    note: >
+      Bei > 12 TN: Paaraustausch reicht. Plenum
+      nur kurze Highlights.
+  - order: 4
+    label: Schilder dauerhaft tragen
+    duration_minutes: 0
+    trainer_action: >
+      Schilder bleiben den ganzen Tag sichtbar
+      (Anstecker, Tischschild). Funktion als
+      Namens-Erinnerung.
+    participant_action: >
+      Schild tragen oder aufstellen.
+    note: >
+      Schild ist nicht nur Methode, sondern
+      praktisches Hilfsmittel. Nutzen über die
+      Methode hinaus.
+
+variations:
+  - name: Klassisch (Anstecker mit Symbol)
+    description: >
+      Standardvariante: Anstecker, Name + Zusatz-
+      info, kurze Vorstellung.
+    when_to_use: >
+      Seminar-Einstieg, neue Gruppen. 6-30 TN.
+  - name: Tisch-Schild (gefaltet)
+    description: >
+      A5-Papier, gefaltet als Tisch-Schild. Sichtbar
+      vor jedem TN.
+    when_to_use: >
+      Sitzende Settings, formaler.
+  - name: Mit Themen-Bezug
+    description: >
+      Zusatzinfo bezieht sich auf Trainings-Thema
+      ("Mein größter Lern-Erfolg", "Meine Frage
+      ans Training").
+    when_to_use: >
+      Themenbezogene Trainings, wenn Diagnose
+      gewünscht.
+  - name: Remote (Zoom-Hintergrund / Display-Name)
+    description: >
+      Display-Name + Lieblings-Hintergrund mit
+      Information.
+    when_to_use: >
+      Online-Trainings.
+    setting_codes: [remote_sync]
+  - name: Mit Foto / Selfie
+    description: >
+      Polaroid oder Foto-Druck, kreativ
+      gestaltet. Aufwendiger, persönlicher.
+    when_to_use: >
+      Längere Programme, Retreats.
+
+pitfalls:
+  - issue: >
+      Nur Name geschrieben — keine Zusatzinfo.
+    countermeasure: >
+      Aufgabe klar wiederholen. Beispiele zeigen.
+      Beim Sichtungsgang anregen.
+    severity: common
+  - issue: >
+      Schilder werden nicht getragen — Methode
+      verpufft.
+    countermeasure: >
+      Klare Erinnerung: "Schild bleibt sichtbar."
+      Bei Tischschild: gleich aufstellen.
+    severity: common
+  - issue: >
+      In digitalen Settings unklar.
+    countermeasure: >
+      Display-Namen-Variante explizit erklären.
+      Mit Beispiel ("Anna — Lehrerin, Berlin").
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Bei großen Gruppen: Vorstellung zu lang.
+    countermeasure: >
+      Paaraustausch statt Plenum. Bei > 20 TN:
+      keine Plenum-Vorstellung.
+    severity: common
+  - issue: >
+      Symbole werden zu privat / intim.
+    countermeasure: >
+      Aufgabe konkretisieren: "Was Sie HIER
+      einbringen wollen." Nicht "wer Sie sind".
+    severity: common

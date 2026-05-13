@@ -1,0 +1,247 @@
+slug: selbstlern-modul
+canonical_name: Selbstlern-Modul
+synonyms:
+  - synonym: Self-Study Module
+    language: en
+  - synonym: E-Learning-Modul
+    language: de
+short_description: >
+  Asynchrones Lernmodul mit Text, Video, Übung und Selbsttest — von
+  Teilnehmenden im eigenen Tempo durchlaufen. Häufig als Vorbereitung
+  oder Nachbereitung präsenter Formate.
+originator: null
+origin_context: >
+  Breites Konzept des Selbstlernens; in LMS-Systemen seit den 2000ern
+  Standard (Moodle, Blackboard, Docebo). Didaktisch anschlussfähig
+  an Programmierten Unterricht (B.F. Skinner, 1960er).
+phases:
+  - code: input
+    is_primary: true
+  - code: practice
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: limited
+    note: Kernformat ist asynchron; präsent nur als Vor-/Nachbereitung sinnvoll.
+  - code: remote_sync
+    suitability: good
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [didactic]
+duration_min_minutes: 15
+duration_typical_minutes: 60
+duration_max_minutes: 240
+materials:
+  - LMS oder Kursplattform, Modulinhalte (Text, Video, Quiz)
+tags: [e-learning, asynchron, selbststeuerung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Programmed Learning and Programmed Instruction"
+    author: B. F. Skinner
+    year: 1968
+    relation: reference
+    note: >
+      Skinners Programmierter Unterricht — historische
+      Wurzel selbstgesteuerter Lernmodule.
+  - kind: book
+    title: "E-Learning: Theorien, Gestaltungsempfehlungen und Forschung"
+    author: Helmut M. Niegemann et al.
+    year: 2008
+    relation: practice_guide
+  - kind: article
+    title: "Designing effective instruction"
+    author: Morrison, G., Ross, S., Kemp, J., Kalman, H.
+    year: 2013
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Modul konzipieren (Prep, außerhalb der Session)
+    duration_minutes: 0
+    trainer_action: >
+      VOR Bereitstellung: Lernziele klar formulieren,
+      Inhalt strukturieren, Mix aus Medien (Text, Video,
+      Quiz, Übung). Faustregel: 60 min Modulinhalt
+      braucht 8-15h Erstellungszeit.
+    participant_action: >
+      — (Vorbereitungs-Phase, nur Trainer:in)
+    note: >
+      Konzeption ist Hauptarbeit. Gut konzipiertes
+      Modul = klar strukturiert, abwechslungsreich,
+      mit aktiven Anteilen. Schlecht = nur Text
+      lesen.
+  - order: 2
+    label: Lernziel klarstellen & Modul öffnen
+    duration_minutes: 5
+    trainer_action: >
+      TN sieht Lernziel + Zeitschätzung + Voraussetzungen.
+      Klar: "Was lernen Sie hier? Wieviel Zeit ist
+      realistisch?" Erwartung gesetzt.
+    participant_action: >
+      Lernziel verstehen, Zeit-Investment einschätzen,
+      eigenen Lernstand prüfen.
+    note: >
+      Klarheit über Ziel = halbe Miete. Wer nicht
+      weiß, wozu, lernt halbherzig.
+  - order: 3
+    label: Input-Phase (Text + Video)
+    duration_minutes: 20
+    trainer_action: >
+      Strukturierter Input: kurze Video-Clips (3-5 min),
+      Text-Abschnitte, ggf. Grafiken. Gute Häppchen-Größe:
+      max. 7 min am Stück Konsumieren.
+    participant_action: >
+      Aufmerksam konsumieren, eigene Notizen, Verständnis-
+      Probleme markieren.
+    note: >
+      Aufmerksamkeit fällt nach 7-10 min. Variation
+      hilft: Text, Video, Bild im Wechsel.
+  - order: 4
+    label: Aktive Übung (Anwendung)
+    duration_minutes: 15
+    trainer_action: >
+      Übung: praktische Anwendung des Inputs. Quiz,
+      Mini-Aufgabe, Reflexionsfrage. KEIN passives
+      "weiterklicken" — aktive Auseinandersetzung.
+    participant_action: >
+      Aufgabe lösen, eigene Antwort formulieren.
+      Selbst denken vor Anschauen der Lösung.
+    note: >
+      Aktive Übung ist Lerneffekt. Wer nur konsumiert,
+      vergisst in 24h 70%. Mit Anwendung: Retention
+      drastisch besser.
+  - order: 5
+    label: Selbsttest & Feedback
+    duration_minutes: 10
+    trainer_action: >
+      Quiz mit Multiple-Choice oder Freitextfragen.
+      Sofort-Feedback nach Beantwortung. Bei Fehlern:
+      Rück-Verlinkung zu betreffender Modul-Stelle.
+    participant_action: >
+      Test bearbeiten, Feedback aufnehmen, bei
+      Fehlern zurückspringen.
+    note: >
+      Feedback-Schleife wichtig. Sofort-Feedback
+      verankert Wissen. Bei verspätetem Feedback:
+      Lerneffekt geringer.
+  - order: 6
+    label: Transfer-Aufgabe (asynchron, im Alltag)
+    duration_minutes: 10
+    trainer_action: >
+      Transfer-Aufgabe: "Wenden Sie X in den nächsten
+      3 Tagen einmal an. Notieren Sie, was passiert."
+      Verlinkung mit Praxis.
+    participant_action: >
+      Transfer-Aufgabe annehmen, Termin selbst setzen,
+      später Bericht ablegen.
+    note: >
+      Ohne Transfer-Aufgabe verpufft Modul. Theorie
+      ohne Praxis = vergessen.
+
+variations:
+  - name: Klassisch (LMS-Modul, 60 min)
+    description: >
+      Standard-Modul: Lernziel, Input, Übung,
+      Selbsttest, Transfer. In LMS strukturiert.
+    when_to_use: >
+      Asynchrones Lernen, Pflicht-Schulungen, Onboarding.
+      Skalierbar.
+    setting_codes: [remote_async]
+  - name: Mikro-Modul (15-20 min)
+    description: >
+      Kurze Lerneinheit: ein Konzept, eine Übung, ein
+      Test. Häppchen-Lernen.
+    when_to_use: >
+      Berufsbegleitend, mobile Learning, Mikro-Inhalte.
+    setting_codes: [remote_async]
+  - name: Mit Video-Tutorial (Screencast)
+    description: >
+      Hauptmedium ist Video (Screencast). Text als
+      Begleitung, Quiz danach.
+    when_to_use: >
+      Software-Schulungen, technische Themen.
+    setting_codes: [remote_async]
+  - name: Modul mit Peer-Diskussion (Forum)
+    description: >
+      Modul + Forum-Diskussion. TN tauschen sich nach
+      Bearbeitung im Forum aus.
+    when_to_use: >
+      Studienprogramme, Lern-Communities. Mehr
+      sozialer Kontakt.
+    setting_codes: [remote_async]
+  - name: Adaptive Modul (Verzweigung nach Antworten)
+    description: >
+      Test-Antworten steuern Lernweg. Bei Fehlern:
+      Vertiefung. Bei Erfolg: Sprung. Personalisiert.
+    when_to_use: >
+      Fortgeschrittene LMS, große Heterogenität in
+      Vorwissen.
+    setting_codes: [remote_async]
+  - name: Begleitetes Selbstlern-Modul (Tutor)
+    description: >
+      Asynchron, aber mit Tutor:in im Hintergrund:
+      Mail-Support, wöchentliches Live-Q&A.
+    when_to_use: >
+      Komplexe Themen, Studienprogramme, anspruchsvolle
+      Berufsausbildung.
+
+pitfalls:
+  - issue: >
+      Modul wird zur Text-Wüste — TN klicken durch.
+    countermeasure: >
+      Medien-Mix: Text + Video + Bild + Übung. Max.
+      7 min am Stück konsumieren. Variation hält
+      Aufmerksamkeit.
+    severity: common
+  - issue: >
+      Übungs-Phasen werden übersprungen.
+    countermeasure: >
+      Übungen verpflichtend (LMS-Setting: erst nach
+      Übung weiter). Bei Freiwilligkeit: aktive
+      Aufforderung im Text.
+    severity: common
+  - issue: >
+      Quiz ist zu einfach — Lerneffekt gering.
+    countermeasure: >
+      Anspruchsvolle Fragen mit echtem Verständnis-
+      Test. Multiple Choice mit plausiblen
+      Distraktoren.
+    severity: common
+  - issue: >
+      Keine Transfer-Aufgabe — Modul bleibt theoretisch.
+    countermeasure: >
+      Transfer-Aufgabe fester Modul-Bestandteil.
+      Mit Termin und Reminder. Ohne: 80% vergessen.
+    severity: common
+  - issue: >
+      Erstellungs-Aufwand wird unterschätzt.
+    countermeasure: >
+      Realistisch: 8-15h Erstellung pro 60-min-Modul
+      bei mittlerer Qualität. Komplexere Module
+      länger. Budget einplanen.
+    severity: common
+  - issue: >
+      Modul ist nicht aktualisiert — veraltetes Wissen.
+    countermeasure: >
+      Wartungs-Plan: jährliche Review. Verantwortliche:r
+      benennen. Veraltete Module ersetzen oder
+      stilllegen.
+    severity: common
+  - issue: >
+      Dropout — TN fangen an, brechen ab.
+    countermeasure: >
+      Modul-Länge realistisch (15-30 min Häppchen).
+      Reminder-Mails. Sozialer Kontext (Buddy,
+      Lerngruppe) hilft.
+    severity: common

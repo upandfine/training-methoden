@@ -1,0 +1,67 @@
+slug: tetralemma
+canonical_name: Tetralemma
+synonyms:
+  - synonym: Tetralemma-Aufstellung
+    language: de
+  - synonym: Vier-Ecken-Tetralemma
+    language: de
+  - synonym: Tetralemma method
+    language: en
+
+short_description: >
+  Systemische Klärungsmethode aus dem indischen Rechtsdenken: vier Positionen
+  (das Eine, das Andere, beides, keines von beidem) plus ein fünfter freier
+  Standpunkt machen Konflikte und Entscheidungs-Patts beweglich. Klassiker
+  der systemischen Strukturaufstellung — geeignet, wenn ein Konflikt zwischen
+  zwei scheinbar unvereinbaren Optionen festgefahren ist.
+
+originator: Insa Sparrer / Matthias Varga von Kibéd
+origin_context: >
+  Sparrer und Varga von Kibéd haben das Tetralemma aus dem altindischen
+  Catuṣkoṭi (vierfache Logik) für die systemische Beratung adaptiert.
+  Klassisches Werkzeug der Systemischen Strukturaufstellungen (SySt®).
+
+phases:
+  - code: practice
+    is_primary: true
+  - code: reflection
+  - code: deepening
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Funktioniert in Miro/Mural per virtueller Aufstellung; Bewegung fehlt.
+  - code: hybrid
+    suitability: limited
+
+group_sizes: [one_on_one, small]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [reflective, cooperative]
+
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 120
+
+materials:
+  - 4-5 Bodenanker oder Moderationskarten am Boden
+tags: [konflikt, entscheidung, systemisch, perspektive, dilemma, mediation]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "Ganz im Gegenteil: Tetralemmaarbeit und andere Grundformen Systemischer Strukturaufstellungen"
+    author: Matthias Varga von Kibéd, Insa Sparrer
+    year: 2018
+    relation: originator
+    note: Standardwerk zum Tetralemma in der systemischen Strukturaufstellung.
+  - kind: book
+    title: "Strukturaufstellung in Beratung und Coaching"
+    author: Klaus P. Horn, Regine Brick
+    year: 2013
+    relation: practice_guide

@@ -1,0 +1,192 @@
+slug: begruessungsritual
+canonical_name: Begrüßungsritual
+synonyms:
+  - synonym: Opening Ritual
+    language: en
+  - synonym: Eröffnungsritual
+    language: de
+short_description: >
+  Wiederkehrende, bewusste Eröffnungssequenz zu Beginn jedes Termins — z.B.
+  gemeinsamer Atemzug, kurzes Standbild, wiederkehrendes Lied, Glocke. Schafft
+  Gruppenzusammenhalt und klaren Übergang vom Alltag ins Lernen.
+originator: null
+origin_context: >
+  Rituale als pädagogisches Element sind in Waldorf-, Jena-Plan- und
+  Reformpädagogik etabliert; in Erwachsenenbildung aus achtsamkeitsbasierten
+  Formaten (MBSR) übernommen.
+phases:
+  - code: arrival
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital mit Glocken-Sound, gemeinsamem Atem oder einem wiederkehrenden Bild.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large, plenary]
+target_audiences: [school, youth, adult_education]
+method_types: [icebreaker]
+duration_min_minutes: 2
+duration_typical_minutes: 5
+duration_max_minutes: 10
+tags: [ritual, einstieg, wiederkehrend, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Rituale in der Jugendarbeit"
+    author: Jürgen Osterhaus
+    year: 2017
+    relation: practice_guide
+  - kind: book
+    title: "Full Catastrophe Living (MBSR)"
+    author: Jon Kabat-Zinn
+    year: 1990
+    relation: reference
+    note: Klangschale / Atem als Eröffnungsritual aus MBSR.
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ankommen lassen & Aufmerksamkeit holen
+    duration_minutes: 1
+    trainer_action: >
+      TN sind im Raum, plaudern. Moderation signalisiert
+      Beginn — Klangschale, Glocke, "Wir starten gleich",
+      Aufstehen, Hände heben. Klares Übergangs-Signal.
+    participant_action: >
+      Aufmerksamkeit umlenken, ankommen, einrichten.
+    note: >
+      Ohne klares Signal bleibt Smalltalk. Mit: Gruppe
+      "schaltet" gemeinsam um. Auch akustisch oder
+      visuell signalisierbar.
+  - order: 2
+    label: Ritualische Eröffnung
+    duration_minutes: 2
+    trainer_action: >
+      Das gewählte Ritual durchführen: 3 Atemzüge gemeinsam,
+      Klangschale ausklingen lassen, gemeinsamer Eröffnungs-
+      Satz, kurzes Lied, Standbild. Klar und ruhig.
+    participant_action: >
+      Mitmachen, im Ritual ankommen, persönlich präsent
+      werden.
+    note: >
+      Form muss zu Gruppe passen. MBSR-Glocke in Corporate
+      kann zu spirituell wirken. Sprach-Ritual oft
+      anschlussfähiger.
+  - order: 3
+    label: Persönliche Einladung & Übergang
+    duration_minutes: 2
+    trainer_action: >
+      Kurzes Wort der Begrüßung. "Schön, dass Sie da
+      sind. Heute geht es um X." Übergang zum
+      Programm.
+    participant_action: >
+      Begrüßung wahrnehmen, mental auf Inhalt einstellen.
+    note: >
+      Persönlicher Abschluss des Rituals macht
+      Verbindung. Nicht zu lang — Ritual ist
+      Auftakt, nicht Hauptprogramm.
+
+variations:
+  - name: Klangschale (MBSR)
+    description: >
+      Klangschale anschlagen, ausklingen lassen,
+      gemeinsame Stille. Achtsamkeitsbasiert.
+    when_to_use: >
+      MBSR-Kontexte, Coaching, Retreats. Nicht in
+      Standard-Corporate.
+  - name: Sprach-Ritual (gemeinsamer Satz)
+    description: >
+      Wiederkehrender Satz: "Wir gehen offen ans Werk."
+      Niedrigschwellig.
+    when_to_use: >
+      Corporate, Erwachsenenbildung. Anschlussfähig
+      ohne esoterische Anmutung.
+  - name: Atem-Ritual (3 Atemzüge)
+    description: >
+      Drei gemeinsame Atemzüge bewusst. Ruhe
+      einkehrt.
+    when_to_use: >
+      Achtsamkeits-affine Gruppen, vor anspruchsvollen
+      Inhalten.
+  - name: Standbild / Geste (körperlich)
+    description: >
+      Alle stehen kurz auf, machen gemeinsame Geste
+      (Hände hoch, Verbeugung, Kreis bilden).
+    when_to_use: >
+      Jugend, Theaterpädagogik. Körperliche Verankerung.
+  - name: Remote-Ritual (Kamera-Kreis)
+    description: >
+      Online: alle Kameras an, gemeinsam in Kamera
+      blicken, kurzer Eröffnungs-Satz.
+    when_to_use: >
+      Online-Trainings. Funktioniert, aber weniger
+      stark als physisch.
+    setting_codes: [remote_sync]
+  - name: Themen-Ritual (passend zum Inhalt)
+    description: >
+      Ritual nimmt Bezug zum Inhalt — z.B. bei
+      Konflikt-Workshop: "Kreis der Offenheit". Mit
+      Kontext-Zeichen.
+    when_to_use: >
+      Längere Programme, themenspezifische Vertiefung.
+
+pitfalls:
+  - issue: >
+      Ritual passt nicht zur Gruppe — esoterisch
+      empfunden.
+    countermeasure: >
+      Zielgruppen-Check. Klangschale in Corporate:
+      meist deplatziert. Sprach-Ritual ist sicherer.
+    severity: common
+  - issue: >
+      Ritual wird durch zu häufigen Einsatz abgenutzt.
+    countermeasure: >
+      Variation: gleiche Form, aber gelegentlich
+      verändert. Nicht jede Session identisch.
+    severity: common
+  - issue: >
+      Ritual wird abgekürzt — Gruppe nicht angekommen.
+    countermeasure: >
+      Mindestens 2-3 min ernst nehmen. Bei Zeit-
+      Knappheit: anders einsteigen, nicht halbherzig
+      ritualisieren.
+    severity: common
+  - issue: >
+      Neue TN wissen nicht, was los ist.
+    countermeasure: >
+      Bei jedem neuen TN kurz erklären. Nicht "uns
+      ist klar, was wir tun" — sondern explizit
+      einladen.
+    severity: common
+  - issue: >
+      Ritual wirkt aufgesetzt, wenn Moderation nicht
+      voll dahinter steht.
+    countermeasure: >
+      Authentizität wichtig. Nur Rituale wählen, die
+      zur Moderation passen. Nicht imitieren, was
+      nicht passt.
+    severity: common
+  - issue: >
+      Kulturelle Sensibilitäten (z.B. religiös konnotierte
+      Rituale).
+    countermeasure: >
+      Neutrale Form wählen. Bei interkulturellen
+      Gruppen: säkulare Rituale (Atem, Sprache,
+      Geste). Auf Symbolik achten.
+    severity: rare

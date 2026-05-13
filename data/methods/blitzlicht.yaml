@@ -1,0 +1,167 @@
+slug: blitzlicht
+canonical_name: Blitzlicht
+synonyms:
+  - synonym: Stimmungsabfrage
+    language: de
+  - synonym: Flash round
+    language: en
+
+short_description: >
+  Jede:r Teilnehmende sagt in ein bis zwei Sätzen, wie er oder sie gerade dasteht —
+  zur Stimmung, zum Inhalt oder zu einer vorgegebenen Frage. Schnelle Momentaufnahme
+  der Gruppe, ohne Diskussion.
+
+originator: null
+origin_context: >
+  Allgemeingut der Seminardidaktik; verbreitet im deutschsprachigen Raum seit den 1970ern
+  in Erwachsenenbildung und Gruppentherapie.
+
+phases:
+  - code: arrival
+  - code: reflection
+  - code: feedback
+    is_primary: true
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Reihenfolge per Videokachel festlegen; Stummschaltung ausklappen.
+  - code: hybrid
+    suitability: good
+    note: Remote-TN abwechseln mit Präsenz-TN ansagen, sonst gehen die im Raum unter.
+
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [reflective, feedback, diagnostic]
+
+duration_min_minutes: 3
+duration_typical_minutes: 10
+duration_max_minutes: 20
+
+materials: []
+tags: [kurz, moderationsarm, jederzeit-einsetzbar]
+
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Rahmen setzen
+    duration_minutes: 2
+    trainer_action: >
+      Frage ankündigen („Wie bin ich gerade hier?" / „Was nehme ich mit?").
+      Regeln nennen: ein Satz pro Person, keine Diskussion, keine Kommentare.
+      Reihenfolge klären (meist Sitzordnung).
+    participant_action: >
+      Kurz innehalten, Satz im Kopf formulieren.
+    note: >
+      Sensible Themen vermeiden, solange Vertrauen in der Gruppe nicht da ist.
+      Bei schwierigen Fragen Papier + Stift anbieten, damit Stillere vorbereiten können.
+  - order: 2
+    label: Runde
+    duration_minutes: 6
+    trainer_action: >
+      Zuhören, nicht nachfragen, keine Bewertung. Muster mitdenken
+      (kommt „müde" dreimal? kommt „unsicher" oft?), aber nicht jetzt
+      kommentieren.
+    participant_action: >
+      Reihum einen Satz sprechen. Kein Bezug auf Vorredner:in nötig.
+      Wer aussetzen will, sagt „ich passe" — ohne Begründung.
+    note: >
+      Strikte Trainings-Disziplin: keine Diskussion. Sonst wird das Blitzlicht
+      zum verkappten Plenum.
+  - order: 3
+    label: Einordnung
+    duration_minutes: 2
+    trainer_action: >
+      Muster in 1-2 Sätzen zusammenfassen (NICHT einzelne Aussagen zitieren).
+      Z.B.: „Viele Müdigkeit und gleichzeitig Spannung auf das Nachmittags-Thema."
+      Ggf. in die nächste Einheit überleiten.
+    participant_action: >
+      Zuhören. Kein Einwand hier.
+    note: >
+      Die Einordnung ist optional; bei reiner Stimmungsabfrage kann sie weggelassen werden.
+
+variations:
+  - name: Thematisches Blitzlicht
+    description: >
+      Frage bezieht sich auf Inhalt: „Was nehme ich mit?", „Was ist mir noch offen?",
+      „Welche Frage bleibt?".
+    when_to_use: >
+      Am Ende eines Lernblocks oder Tages — kurzes Commitment/Offenheit-Signal.
+  - name: Stummes Blitzlicht
+    description: >
+      Jede:r schreibt einen Satz auf eine Karte und hängt sie auf — keine mündliche Runde.
+    when_to_use: >
+      Bei sensiblen Themen, Konflikten oder wenn Stillere in der Gruppe
+      untergehen. Gut für anonyme Rückmeldung.
+  - name: 1-Wort-Blitzlicht
+    description: >
+      Nur ein Wort pro Person. Sehr schnell, gut für große Gruppen (30+).
+    when_to_use: >
+      Warm-up, oder wenn wenig Zeit ist. Auch als Meeting-Opener.
+  - name: Bild-Blitzlicht
+    description: >
+      TN zeigen ein Emoji, eine Bildkarte oder ein Wetter-Symbol statt Worten.
+    when_to_use: >
+      Heterogene Sprachgruppen; auch bei Jugendlichen oder kreativen Settings.
+  - name: Remote-Blitzlicht
+    description: >
+      Reihenfolge per Videokachel-Grid oder alphabetisch. Chat-Variante:
+      alle tippen gleichzeitig, Moderation liest laut vor.
+    when_to_use: >
+      Remote-Sync; Chat-Variante spart Zeit, schützt Stillere vor
+      Videokamera-Sprechdruck.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Diskussion bricht auf — erste TN kommentieren Vorredner:innen, Dynamik kippt.
+    countermeasure: >
+      Früh stoppen („moment, das heben wir uns für nachher auf"), Regel
+      wiederholen. Gegebenenfalls Runde neu starten.
+    severity: common
+  - issue: >
+      Immer die gleichen sagen viel, andere sagen einen Halbsatz — Ungleichgewicht.
+    countermeasure: >
+      Zeitlimit pro Person klar ansagen (z.B. 20 Sekunden).
+      „Eine-Person-ein-Satz"-Regel stoisch einhalten.
+    severity: common
+  - issue: >
+      Sensible Frage ohne Vertrauen — TN fühlen sich exponiert, Ehrlichkeit sinkt.
+    countermeasure: >
+      Stummes Blitzlicht nutzen; oder einfacher starten („Wetter-Blitzlicht")
+      bevor tiefer gegangen wird.
+    severity: common
+  - issue: >
+      Leitung interpretiert einzelne Aussagen ungefragt — TN fühlen sich beobachtet.
+    countermeasure: >
+      Nur Muster ansprechen, nie Einzelaussagen zitieren. Bei Bedarf
+      1:1 nachhaken nach der Session.
+    severity: rare
+  - issue: >
+      Remote: Stille nach Aufforderung, weil unklar wer dran ist.
+    countermeasure: >
+      Explizite Reihenfolge (alphabetisch / Gitter) vorab ansagen,
+      oder mit Chat-Runde starten, die Vorbereitung ermöglicht.
+    severity: common
+    setting_codes: [remote_sync]
+
+sources:
+  - kind: book
+    title: "Moderationsmethode — Arbeiten mit Plenum, Gruppen und Teams"
+    author: Karin Klebert, Einhard Schrader, Walter G. Straub
+    year: 1985
+    relation: reference
+    note: Klassiker der deutschsprachigen Moderationsliteratur, führt das Blitzlicht als Standardelement.
+  - kind: book
+    title: "Handbuch Moderation"
+    author: Josef W. Seifert
+    year: 2011
+    relation: practice_guide
+    note: Praxisnahe Darstellung mit Varianten und Stolperfallen.

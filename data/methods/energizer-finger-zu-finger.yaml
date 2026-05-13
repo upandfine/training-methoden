@@ -1,0 +1,171 @@
+slug: energizer-finger-zu-finger
+canonical_name: Finger-zu-Finger
+synonyms:
+  - synonym: Finger to Finger
+    language: en
+  - synonym: Körperteil-zu-Körperteil
+    language: de
+short_description: >
+  Teilnehmende laufen durch den Raum. Bei Stopp-Signal nennt die Leitung zwei
+  Körperteile („Finger zu Finger", „Schulter zu Knie"), die mit einer anderen
+  Person zusammengeführt werden. Kontaktnah, energiereich.
+originator: null
+origin_context: >
+  Aus der Theater- und Erlebnispädagogik; verwandt mit Klassikern wie
+  „Obstsalat" und „Atomspiel".
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+    note: Körperkontakt — kulturelle und Pandemie-Sensibilitäten beachten.
+  - code: remote_sync
+    suitability: unsuitable
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: unsuitable
+group_sizes: [medium, large]
+target_audiences: [school, youth, adult_education]
+method_types: [energizer, game, activating]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+tags: [energizer, koerperkontakt, bewegung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Theaterpädagogik"
+    author: Gerd Koch
+    year: 2010
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Raum & Regeln
+    duration_minutes: 1
+    trainer_action: >
+      "Bewegen Sie sich frei im Raum. Bei meinem Stopp-
+      Signal rufe ich zwei Körperteile — z.B. 'Finger
+      zu Finger'. Sie suchen mit einer anderen Person
+      diese Berührung."
+    participant_action: >
+      Aufstehen, durch Raum laufen, Regeln
+      mitnehmen.
+    note: >
+      Vorab Sensibilität für Körperkontakt prüfen.
+      Bei interkulturellen Gruppen: harmlose Körper-
+      teile (Finger, Ellenbogen).
+  - order: 2
+    label: Erste Runden (harmlose Körperteile)
+    duration_minutes: 4
+    trainer_action: >
+      Stopp-Signal, dann "Finger zu Finger!" oder
+      "Hand zu Hand!". Paare suchen sich. 5-7
+      Runden mit verschiedenen Körperteilen.
+    participant_action: >
+      Bei Signal stoppen, schnell Partner finden,
+      Körperteile zusammenführen.
+    note: >
+      Anfangs harmlose Körperteile. Komplexere
+      ("Knie zu Schulter") später, mit Lachen.
+  - order: 3
+    label: Steigerung & Variationen
+    duration_minutes: 4
+    trainer_action: >
+      Komplexere Kombinationen ("Knie zu Ellenbogen").
+      Eventuell drei Personen, drei Körperteile.
+      Spaß im Vordergrund.
+    participant_action: >
+      Mit Lachen mitgehen, kreativ Position finden.
+    note: >
+      Steigerung über mehrere Runden bringt Energie.
+      Aber respektvoll mit Körperkontakt umgehen —
+      Kontakt-Vermeidung ist OK.
+  - order: 4
+    label: Abschluss
+    duration_minutes: 1
+    trainer_action: >
+      "Letztes Signal — und Schluss." Auf Hochpunkt
+      enden. Übergang.
+    participant_action: >
+      Zur Sitzordnung zurück.
+    note: >
+      Auf Energie-Spitze beenden, nicht ausweiten.
+
+variations:
+  - name: Klassisch (Körperteil-zu-Körperteil)
+    description: >
+      Standardvariante: zwei Körperteile, Paare.
+    when_to_use: >
+      Jugend, Schule, Theater. Genug Platz, vertraute
+      Gruppe.
+  - name: Drei-Personen-Variante
+    description: >
+      Drei Körperteile, drei Personen. Komplexer.
+    when_to_use: >
+      Erfahrene Gruppen, wenn Spaß-Faktor steigen
+      soll.
+  - name: Mit Geräusch / Wort
+    description: >
+      Statt Körperkontakt: gemeinsames Wort sagen.
+      Ohne Berührung.
+    when_to_use: >
+      Wenn Körperkontakt unpassend.
+  - name: Stuhl-Variante (sitzend)
+    description: >
+      Sitzend, nur mit Hand-Gesten zu zweit.
+    when_to_use: >
+      Bei Bewegungs-Einschränkungen.
+
+pitfalls:
+  - issue: >
+      Körperkontakt unangenehm — kulturell oder
+      persönlich.
+    countermeasure: >
+      Vorab Sensibilität prüfen. Variante ohne
+      Körperkontakt wählen. Niemand zwingen.
+    severity: common
+  - issue: >
+      In Corporate-Senior unpassend.
+    countermeasure: >
+      Andere Energizer wählen. Methode ist
+      jugendnah und körpernah.
+    severity: common
+  - issue: >
+      Bei ungerader TN-Zahl bleibt eine:r übrig.
+    countermeasure: >
+      Moderation macht selbst mit. Oder Dreier-
+      Gruppe an einer Stelle.
+    severity: common
+  - issue: >
+      Pandemie-Bedenken bei Körperkontakt.
+    countermeasure: >
+      Berührungslose Variante (Distanz halten,
+      nur "andeuten"). Oder andere Methode.
+    severity: rare
+  - issue: >
+      Methode wird zu sexuell-konnotiert.
+    countermeasure: >
+      Bei Körperteilen vorsichtig wählen — keine
+      Brust, Bauch, etc. Nur neutrale (Finger,
+      Hand, Knie, Ellenbogen).
+    severity: common

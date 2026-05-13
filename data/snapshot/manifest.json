@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-05-13T12:00:48.202382+00:00",
+  "method_count": 163,
+  "embedding_count": 153,
+  "embedding_dim": 1536,
+  "skipped_embeddings": false
+}

@@ -1,0 +1,240 @@
+slug: kartenabfrage
+canonical_name: Kartenabfrage
+synonyms:
+  - synonym: Metaplan-Abfrage
+    language: de
+  - synonym: Card Collection
+    language: en
+short_description: >
+  Jede:r beschriftet Moderationskarten (ein Gedanke pro Karte) zu einer Frage.
+  Karten werden eingesammelt und gemeinsam geclustert. Erlaubt anonyme, parallele
+  Erhebung ohne Gruppendruck.
+originator: Eberhard Schnelle (Metaplan)
+origin_year: 1972
+origin_context: >
+  Kern der Metaplan-Moderationstechnik von Eberhard Schnelle. Standard
+  in deutschsprachiger Seminardidaktik.
+phases:
+  - code: activation
+    is_primary: true
+  - code: deepening
+  - code: expectations
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digital Sticky Notes auf Mural/Miro, oft sogar effizienter als analog.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [diagnostic, visualization, activating]
+duration_min_minutes: 10
+duration_typical_minutes: 25
+duration_max_minutes: 45
+materials:
+  - Moderationskarten, Stifte, Pinnwand
+tags: [metaplan, clustering, parallele-erhebung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Das Moderatorenbuch"
+    author: Eberhard Schnelle, Wolfgang Schnelle
+    year: 1975
+    relation: originator
+    note: >
+      Grundlagenwerk der Metaplan-Technik — Kartenabfrage ist hier
+      als Kern-Moderations-Werkzeug systematisch beschrieben.
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+    note: Standardwerk deutschsprachiger Moderation, ausführliches Kapitel.
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage scharfschneiden & Regeln setzen
+    duration_minutes: 3
+    trainer_action: >
+      Frage konkret und ergebnisoffen formulieren, groß sichtbar
+      aufhängen. Regeln: "Druckbuchstaben, ein Gedanke pro Karte,
+      max. 5-7 Wörter, keine Namen." Karten + Stifte austeilen.
+    participant_action: >
+      Frage verstehen, Regeln mitbekommen, Karten entgegennehmen.
+    note: >
+      Schwache Frage → schwache Karten. „Was denken Sie?" ergibt
+      nichts Brauchbares. Besser: „Was braucht es, damit Sie in
+      diesem Team gern Feedback geben?"
+  - order: 2
+    label: Still schreiben (Einzelarbeit)
+    duration_minutes: 5
+    trainer_action: >
+      Still-Phase: 5 min, jede:r schreibt auf Karten. Moderation
+      schweigt. Keine Musik nötig — Stille erzeugt Konzentration.
+      Pro Person 3-7 Karten realistisch.
+    participant_action: >
+      Alleine auf Karten schreiben, ein Gedanke pro Karte,
+      Druckbuchstaben.
+    note: >
+      Still-Phase ist DER Kern. Wer sie überspringt („einfach
+      zurufen") verliert die introvertierten TN und die Tiefe.
+      Timer sichtbar, nicht unterbrechen.
+  - order: 3
+    label: Einsammeln & Vorstellen
+    duration_minutes: 5
+    trainer_action: >
+      Karten einsammeln (nicht vorlesen lassen — anonymisiert).
+      Moderation liest jede Karte einmal laut vor, heftet sie
+      lose an Pinnwand. Keine Kommentare, keine Wertung.
+    participant_action: >
+      Zuhören, eigene und fremde Karten wahrnehmen.
+    note: >
+      Vorlesen langsam genug, dass alle mitlesen können. Sich
+      wiederholende Karten nicht weglassen — Häufigkeit ist
+      Information.
+  - order: 4
+    label: Gemeinsam clustern
+    duration_minutes: 10
+    trainer_action: >
+      Mit der Gruppe Karten in thematische Cluster sortieren.
+      „Wo gehört das hin?" Jedes Cluster bekommt am Ende einen
+      Titel (Moderation moderiert, schreibt selbst nicht).
+      Einzelne Karten dürfen Einzelcluster sein.
+    participant_action: >
+      Vorschläge für Gruppierung machen, bei Titel-Findung
+      mitdenken, zustimmen oder widersprechen.
+    note: >
+      Clustern ist der kollektive Sinn-Stiftungs-Prozess.
+      Nicht durch Moderation dirigieren, sondern Gruppe
+      entscheiden lassen. Bei Streit: Karte zwischen zwei
+      Clustern lassen.
+  - order: 5
+    label: Priorisieren & Nächste Schritte
+    duration_minutes: 5
+    trainer_action: >
+      Wenn Ziel = Handlung: Dot-Voting auf Cluster. Welches
+      Thema zuerst angehen? Owner benennen. Sonst:
+      Dokumentation per Abfoto, Verteilung im Nachgang.
+    participant_action: >
+      Punkte kleben, Verantwortung übernehmen, Owner-Rolle
+      zusagen.
+    note: >
+      Nicht jede Kartenabfrage muss Handlungen auslösen —
+      manchmal ist Transparenz das Ziel. Aber wenn Handlung
+      gewollt ist, explizit schließen, sonst verpufft.
+
+variations:
+  - name: Klassische Kartenabfrage (Metaplan)
+    description: >
+      Karten, Still-Phase, Einsammeln, Clustern. Standard-Variante
+      für 6-30 TN in 20-30 min.
+    when_to_use: >
+      Erwartungsabfrage, Probleme sammeln, Themen-Landschaft
+      erheben. Wenn Gruppendruck oder Dominanz zu befürchten ist.
+  - name: Zuruf-Variante (keine Karten)
+    description: >
+      Kein Schreiben, stattdessen Zuruf in die Runde, Moderation
+      schreibt auf Flipchart. Schneller, aber verliert introvertierte
+      Stimmen.
+    when_to_use: >
+      Vertraute Gruppen (4-8 TN), wenn Tempo wichtiger als
+      Vollständigkeit ist. NICHT für erwartungsgeladene Themen.
+  - name: Blitzlicht-Variante (1 Karte pro Person)
+    description: >
+      Nur 1 Karte pro TN zu einer sehr konkreten Frage
+      (z.B. „Ihre größte Sorge in einem Wort"). Sehr kurz (10 min
+      gesamt), dafür alle zu Wort.
+    when_to_use: >
+      Einstieg in sensible Themen, Feedback-Runden, schnelle
+      Stimmungsbilder. Gruppen mit ungleicher Redebereitschaft.
+  - name: Digitale Kartenabfrage (Miro/Mural)
+    description: >
+      Digitale Sticky Notes parallel, alle schreiben gleichzeitig
+      ins Tool. Clustern per Drag&Drop. Oft effizienter als
+      analog (Anonymität bleibt, Sortieren schneller).
+    when_to_use: >
+      Online-Workshops, verteilte Teams, hybride Sessions. Auch
+      in Präsenz möglich, wenn Karten digital nachgenutzt werden
+      sollen.
+    setting_codes: [remote_sync, remote_async, hybrid]
+  - name: Mehrdimensionale Abfrage (2 Fragen)
+    description: >
+      Zwei Fragen parallel (z.B. „Was läuft gut?" / „Was behindert
+      uns?"), zwei Kartenfarben. Wird wie Start-Stop-Continue
+      visualisiert.
+    when_to_use: >
+      Retrospektiven, Ist-Analysen. Wenn Kontrast zwischen zwei
+      Aspekten sichtbar werden soll.
+  - name: Runden-Kartenabfrage (Delphi-light)
+    description: >
+      Runde 1: freie Sammlung. Runde 2: Karten nach
+      Wichtigkeit bewerten. Runde 3: Gruppe diskutiert die
+      wichtigsten. Mehr Tiefe, mehr Zeit (60+ min).
+    when_to_use: >
+      Strategie-Workshops, komplexe Entscheidungen. Wenn
+      gründliche Priorisierung gebraucht wird.
+
+pitfalls:
+  - issue: >
+      TN schreiben mehrere Gedanken auf eine Karte — Clustern
+      wird unmöglich.
+    countermeasure: >
+      Regel vorab zeigen mit Beispiel. Bei Sichtung: Karte
+      zurückgeben, bitten zu trennen. Freundlich, aber
+      konsequent.
+    severity: common
+  - issue: >
+      Karten sind unleserlich (Schreibschrift, klein, Bleistift).
+    countermeasure: >
+      Nur dicke Stifte austeilen (kein Bleistift). "Druckbuchstaben,
+      groß, max. 7 Wörter" als sichtbare Regel.
+    severity: common
+  - issue: >
+      Still-Phase wird unterbrochen, weil jemand Rückfragen stellt.
+    countermeasure: >
+      "Jetzt still schreiben, Fragen am Ende" ansagen. Bei
+      Unterbrechung freundlich zurück: "Kurz durchhalten,
+      dann besprechen wir."
+    severity: common
+  - issue: >
+      Clustern wird zur Moderator:innen-Monolog — Gruppe passiv.
+    countermeasure: >
+      Karten einzeln durchgehen und Gruppe fragen: "Wohin damit?"
+      Eigene Vorschläge zurückhalten. Pausen aushalten.
+    severity: common
+  - issue: >
+      Cluster bekommen keine Titel — bleiben unstrukturiert.
+    countermeasure: >
+      Für jedes Cluster explizit nach Titel fragen: "Wie würden
+      Sie das zusammenfassen?" Titel groß drüber kleben (neue
+      Karte, andere Farbe).
+    severity: common
+  - issue: >
+      Anonymität gebrochen — jemand sagt "das ist meine Karte".
+    countermeasure: >
+      Vorab explizit: "Karten bleiben anonym." Bei Verstoß:
+      freundlich neutralisieren, nicht weitergehen auf
+      Personalisierung.
+    severity: rare
+  - issue: >
+      Ergebnis bleibt an der Wand hängen, keine Nachnutzung.
+    countermeasure: >
+      Abfoto-Pflicht direkt nach Clustern. Digitalisierung (z.B.
+      Miro-Board, Textprotokoll) binnen 48 h, Verantwortung
+      vorher klären.
+    severity: common

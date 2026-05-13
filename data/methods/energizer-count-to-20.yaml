@@ -1,0 +1,184 @@
+slug: energizer-count-to-20
+canonical_name: Count to 20
+synonyms:
+  - synonym: Count to 20
+    language: en
+  - synonym: Gemeinsam bis 20 zählen
+    language: de
+short_description: >
+  Gruppe steht im Kreis, Augen geschlossen oder zu Boden gerichtet. Ziel:
+  gemeinsam von 1 bis 20 zählen — jede Zahl darf nur eine Person sagen, ohne
+  Absprache. Bei Überlappung Neustart. Lehrt Aufmerksamkeit und Gruppen-Intuition.
+originator: null
+origin_context: >
+  Bekannter Improv- und Achtsamkeits-Energizer; häufig in Theaterpädagogik
+  und Team-Coaching genutzt.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Funktioniert erstaunlich gut remote (Kameras aus, Mikros an).
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, adult_education]
+method_types: [energizer, game]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+tags: [energizer, achtsamkeit, gruppe, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Improvisation for the Theater"
+    author: Viola Spolin
+    year: 1963
+    relation: reference
+    note: Improv-Klassiker mit Spielen wie Count to 20.
+  - kind: book
+    title: "Theaterpädagogik"
+    author: Gerd Koch
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kreis & Regeln
+    duration_minutes: 1
+    trainer_action: >
+      Stehkreis, Augen geschlossen oder zu Boden.
+      "Wir zählen gemeinsam von 1 bis 20. Jede Zahl
+      darf nur eine Person sagen. Bei Überlappung
+      Neustart bei 1."
+    participant_action: >
+      Im Kreis stehen, Augen senken, Konzentration
+      einnehmen.
+    note: >
+      Augen-Zu wichtig. Ohne: Sichtkontakt verfälscht
+      Gruppen-Intuition. Mit: echtes Gefühl füreinander.
+  - order: 2
+    label: Erste Versuche
+    duration_minutes: 5
+    trainer_action: >
+      "Los — wer mag, fängt an." Zähl-Versuch. Bei
+      Überlappung: "Wieder von 1." Mehrfache Anläufe
+      üblich.
+    participant_action: >
+      Spüren, wann der Moment ist. Eine Zahl sagen,
+      wenn es sich richtig anfühlt.
+    note: >
+      Frustration ist normal. Ein-Zwei-Versuche bis
+      20 schaffen die meisten Gruppen nach 5 min.
+      Geduld aufbringen.
+  - order: 3
+    label: Steigerung & Erfolg
+    duration_minutes: 3
+    trainer_action: >
+      Bei Erreichen von 20: applaudieren! Bei mehr Zeit:
+      bis 30 versuchen, oder Variation (rückwärts,
+      mit Pause).
+    participant_action: >
+      Bei Erfolg: Stolz mitnehmen. Variationen
+      probieren.
+    note: >
+      Das Erreichen ist Erfolgs-Erlebnis. Nicht
+      kleinreden. Kollektive Aufmerksamkeit ist
+      ein Wert.
+  - order: 4
+    label: Reflexion (kurz)
+    duration_minutes: 1
+    trainer_action: >
+      "Was hat geholfen? Was gestört?" Kurze
+      Erkenntnis. Übergang zum Programm.
+    participant_action: >
+      Eigene Wahrnehmung teilen.
+    note: >
+      Kurze Reflexion bringt Meta-Lernen über
+      Gruppen-Aufmerksamkeit. Nicht ausschwafeln.
+
+variations:
+  - name: Klassisch (bis 20, Augen zu)
+    description: >
+      Standard: Stehkreis, geschlossene Augen,
+      gemeinsam zählen.
+    when_to_use: >
+      Achtsamkeits-affine Gruppen, Theater-Trainings.
+      6-15 TN.
+  - name: Open-Eye-Variante
+    description: >
+      Augen offen, aber kein Kontakt mit Mitspielenden.
+      Niederschwelliger.
+    when_to_use: >
+      Wenn Augen-Schließen unangenehm. Anfänger:innen.
+  - name: Mit Variationen (rückwärts, Tempo)
+    description: >
+      Nach Erfolg: rückwärts, schneller, mit Pausen.
+      Erweiterung.
+    when_to_use: >
+      Erfahrene Gruppen, wenn Standard-Variante schon
+      gemeistert.
+  - name: Remote (nur Audio)
+    description: >
+      Zoom mit Kamera aus, Mikrofon an. Funktioniert
+      überraschend gut.
+    when_to_use: >
+      Verteilte Teams, Online-Trainings.
+    setting_codes: [remote_sync]
+  - name: Mit Bewegung
+    description: >
+      Statt Zahlen: Schritte zählen. Körperlich
+      synchronisieren.
+    when_to_use: >
+      Bewegungs-Kontexte. Erlebnispädagogik.
+
+pitfalls:
+  - issue: >
+      Frustration nach mehreren Fehl-Versuchen.
+    countermeasure: >
+      Geduld, ermutigen: "Das ist normal." Bei lang-
+      anhaltender Frustration: andere Methode.
+    severity: common
+  - issue: >
+      In Senior-Corporate als Spielerei abgelehnt.
+    countermeasure: >
+      Andere Energizer (Stretching, Atem).
+      Method ist achtsamkeits-/theater-affin.
+    severity: common
+  - issue: >
+      Eine Person zählt fast alle Zahlen — Gruppe
+      passiv.
+    countermeasure: >
+      Regel verstärken: "Niemand zwei Zahlen
+      hintereinander." Aktiv ermutigen.
+    severity: common
+  - issue: >
+      Methode wirkt esoterisch.
+    countermeasure: >
+      Säkular framen: "Aufmerksamkeits-Übung", nicht
+      "Gruppen-Energie spüren". Anschlussfähig
+      kommunizieren.
+    severity: common
+  - issue: >
+      Augen-Schließen unangenehm.
+    countermeasure: >
+      Open-Eye-Variante. Freiwilligkeit. Niemand
+      zwingen.
+    severity: rare

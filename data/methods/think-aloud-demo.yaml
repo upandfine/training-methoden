@@ -1,0 +1,236 @@
+slug: think-aloud-demo
+canonical_name: Think-Aloud-Demonstration
+synonyms:
+  - synonym: Think Aloud
+    language: en
+  - synonym: Lautes Denken
+    language: de
+short_description: >
+  Expert:in führt eine Aufgabe vor und spricht dabei laut alle Gedanken,
+  Abwägungen und Zweifel aus. Macht implizite Expertise explizit und
+  modelliert Problemlösung, nicht nur Lösung.
+originator: null
+origin_context: >
+  Als kognitionspsychologische Methode des lauten Denkens besonders durch
+  Ericsson & Simon (1984) systematisiert; als didaktische Demo-Form in der
+  Mathematikdidaktik (Schoenfeld) und im Coding-Unterricht weit verbreitet.
+phases:
+  - code: input
+    is_primary: true
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Gut per Screenshare; Mikro in guter Qualität wichtig.
+  - code: remote_async
+    suitability: excellent
+    note: Als vertonte Bildschirmaufzeichnung sehr lehrreich.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [school, youth, ihk, adult_education, higher_education]
+method_types: [didactic, visualization]
+duration_min_minutes: 10
+duration_typical_minutes: 25
+duration_max_minutes: 45
+tags: [think-aloud, expertise, kognitiv, modellieren]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Protocol Analysis: Verbal Reports as Data"
+    author: K. Anders Ericsson, Herbert A. Simon
+    year: 1984
+    relation: originator
+    note: >
+      Methodologisches Fundament des lauten Denkens als
+      Forschungs- und Lehr-Instrument.
+  - kind: book
+    title: "Mathematical Problem Solving"
+    author: Alan H. Schoenfeld
+    year: 1985
+    relation: reference
+    note: >
+      Schoenfelds didaktische Anwendung — lautes Denken als
+      zentrale Technik im Problem-Löse-Unterricht.
+  - kind: article
+    title: "Cognitive Apprenticeship: Teaching the Crafts of Reading, Writing, and Mathematics"
+    author: Collins, A., Brown, J. S., Newman, S. E.
+    year: 1989
+    relation: practice_guide
+    note: >
+      Modelling expliziter Denkprozesse als Kern des Cognitive-
+      Apprenticeship-Ansatzes.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Aufgabe & Lernziel ansagen
+    duration_minutes: 3
+    trainer_action: >
+      Aufgabe konkret auswählen (nicht zu einfach, nicht zu
+      komplex). Lernziel klar: "Nach der Demo verstehen Sie
+      die Entscheidungs-Logik, nicht nur die Lösung."
+      Beobachtungs-Auftrag geben: "Hören Sie, wo ich unsicher
+      werde, wo ich zwischen Optionen abwäge."
+    participant_action: >
+      Aufgabe verstehen, Lernziel hören, Beobachtungs-Fokus
+      annehmen.
+    note: >
+      Beobachtungs-Auftrag ist essentiell. Ohne ihn sehen
+      TN nur die "Performance", nicht den Denkprozess.
+      Fokus-Fragen geben.
+  - order: 2
+    label: Aufgabe vormachen mit ALLEM Denken laut
+    duration_minutes: 15
+    trainer_action: >
+      Aufgabe durchführen, ALLES aussprechen — inklusive
+      Zweifel, Abwägungen, verworfene Optionen.
+      "Ich denke an X, aber warte — wenn ich das mache, dann
+      würde Y passieren. Das will ich nicht. Also doch Z."
+      Langsam sprechen, Pausen aushalten.
+    participant_action: >
+      Aktiv zuhören, Denkprozess mitverfolgen. Eigene
+      Notizen zu: "Wo war ich überrascht? Wo hätte ich
+      anders entschieden?"
+    note: >
+      Herausforderung: implizite Expertise offenlegen.
+      Expert:innen machen viel automatisch — bewusst machen
+      ist Kunst. Bei eigenen Zweifeln: AUSSPRECHEN. Die sind
+      didaktisch wertvoll.
+  - order: 3
+    label: Zwischenreflexion (optional)
+    duration_minutes: 2
+    trainer_action: >
+      Nach wichtigen Entscheidungen kurz innehalten:
+      "Hier war ich unsicher — was hätten Sie gemacht?"
+      Kurzes Gespräch, dann weiter. Nicht ausufernd.
+    participant_action: >
+      Eigene Hypothese äußern, Expertin-Entscheidung
+      verstehen, Denkprozess mitvollziehen.
+    note: >
+      Diese Unterbrechungen sind wichtig für Anfänger:innen.
+      Fortgeschrittene brauchen sie seltener. Je nach
+      Niveau dosieren.
+  - order: 4
+    label: Debrief & Meta-Reflexion
+    duration_minutes: 5
+    trainer_action: >
+      "Welche Denkschritte waren neu für Sie? Wo haben Sie
+      anders gedacht?" Meta-Fragen: "Was macht Expertise
+      in diesem Bereich aus?" Gruppe reflektiert, nicht
+      Moderation trägt vor.
+    participant_action: >
+      Beobachtungen teilen, Aha-Momente benennen, eigene
+      Denkmuster reflektieren.
+    note: >
+      Debrief macht Think-Aloud zu Lern-Methode statt
+      nur Performance. Ohne: TN bewundern Expertise,
+      ohne sie zu verinnerlichen.
+
+variations:
+  - name: Klassisch (Live-Demo mit Kommentaren)
+    description: >
+      Standard: Expert:in führt vor und denkt laut.
+      Gruppe hört und beobachtet.
+    when_to_use: >
+      Fachliche Trainings, wenn Denkmuster vermittelt
+      werden sollen. Mathematik, Programmierung, Medizin,
+      Consulting.
+  - name: Think-Aloud mit Tandem-Problemlöse
+    description: >
+      Zwei Expert:innen lösen gemeinsam laut. Mehrere
+      Perspektiven sichtbar. Noch mehr explizite Abwägung.
+    when_to_use: >
+      Fortgeschrittene Lerner:innen. Wenn Methoden-Vielfalt
+      sichtbar werden soll.
+  - name: Aufgenommene Think-Aloud (Video)
+    description: >
+      Bildschirmaufzeichnung + Voice-Over einer Aufgaben-
+      Bearbeitung. Asynchron nutzbar, pausierbar.
+    when_to_use: >
+      Online-Kurse, Massenschulungen, wenn Wiederholung
+      wichtig.
+    setting_codes: [remote_async]
+  - name: Think-Aloud mit Frageunterbrechungen
+    description: >
+      Gruppe unterbricht durchaus: "Warum machst du das?"
+      Expert:in reagiert. Dialog entsteht.
+    when_to_use: >
+      Kleinere Gruppen (< 8), interaktive Lern-Settings.
+      Mehr Tiefe, weniger Linearität.
+  - name: Peer Think-Aloud
+    description: >
+      TN lösen in 2er-Paaren, einer denkt laut, andere:r
+      hört und fragt nach. Rollenwechsel.
+    when_to_use: >
+      Übungskontexte, wenn TN selbst Think-Aloud-Technik
+      lernen sollen (Metakognition trainieren).
+  - name: Kontrastierende Think-Alouds
+    description: >
+      Expert:in UND Anfänger:in lösen gleiche Aufgabe,
+      denken beide laut. Unterschied wird offensichtlich.
+    when_to_use: >
+      Wenn Expertise-Entwicklung thematisiert werden soll.
+      Meta-kognitive Trainings.
+
+pitfalls:
+  - issue: >
+      Expert:in automatisiert, vergisst zu denken — sagt
+      nur was sie/er tut.
+    countermeasure: >
+      Vorab üben. Selbstbeobachtung: "Warum gerade das?
+      Welche Alternativen?" Bewusst langsamer machen
+      als normal. Trockenübung vorher hilft.
+    severity: common
+  - issue: >
+      Denken laut werden zu Vortrag — verlieren
+      Authentizität.
+    countermeasure: >
+      Zweifel, Sackgassen, verworfene Optionen auch zeigen.
+      "Ich bin unsicher"-Formulierungen einbauen. Keine
+      Perfektion performen.
+    severity: common
+  - issue: >
+      Aufgabe zu einfach — kein Denkprozess sichtbar.
+    countermeasure: >
+      Aufgabe mit echter Herausforderung wählen. Bei Zu
+      Leichtem: erhöht künstlich (z.B. Zeitlimit), sonst
+      keine Entscheidungen zu zeigen.
+    severity: common
+  - issue: >
+      Aufgabe zu komplex — Gruppe verliert Anschluss.
+    countermeasure: >
+      Komplexität staffeln. Nach schwerem Abschnitt kurze
+      Zusammenfassung ("bis hierhin haben wir..."). Bei
+      Verlust: neu ansetzen.
+    severity: common
+  - issue: >
+      Expert:in spricht zu schnell — verbale Geschwindigkeit
+      nicht zu Denkprozess.
+    countermeasure: >
+      Tempo drosseln, Pausen aushalten. Pausen sind
+      didaktisch — da denken TN mit. Nicht füllen mit
+      "Ähm".
+    severity: common
+  - issue: >
+      Gruppe findet "bewundere"-Modus, kein Transfer.
+    countermeasure: >
+      Debrief-Fragen richten den Blick: "Wo hätten Sie
+      anders entschieden?" Aktivierung zum eigenen
+      Denken, nicht nur Konsum.
+    severity: common
+  - issue: >
+      Video-Variante: TN schalten ab, passen nicht auf.
+    countermeasure: >
+      Stopp-Punkte einbauen (Fragen, Mini-Aufgaben).
+      Länge begrenzen (max. 15 min). Quiz zur
+      Verankerung nachschalten.
+    severity: common
+    setting_codes: [remote_async]

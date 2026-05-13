@@ -1,0 +1,228 @@
+slug: daumen-abstimmung
+canonical_name: Daumen-Abstimmung
+synonyms:
+  - synonym: Thumbs Up/Down
+    language: en
+  - synonym: Daumenprobe
+    language: de
+short_description: >
+  Schnelle, nonverbale Abfrage mit Daumen hoch / mittig / runter. Niederschwellig,
+  schnell, gut für erste Stimmungsbilder oder Zustimmungsabfragen.
+originator: null
+origin_context: >
+  Einfaches Handzeichen-Verfahren; seit langem Standard in Moderations- und
+  Unterrichtspraxis sowie in informellen Gruppenentscheidungen.
+phases:
+  - code: feedback
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Sehr einfach über Kamera; in vielen Tools auch per Emoji-Reaction.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [diagnostic, feedback, activating]
+duration_min_minutes: 1
+duration_typical_minutes: 5
+duration_max_minutes: 8
+tags: [feedback, kurz, nonverbal]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+    note: >
+      Daumen-Abstimmung als Standard-Schnellabfrage. Auch „Roman
+      Voting" genannt.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: url
+    title: "Liberating Structures — Conversation Cafe / Voting"
+    url: https://www.liberatingstructures.com/
+    relation: reference
+    note: Nutzt Daumen-Abstimmung als strukturelle Entscheidungs-Hilfe.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage / Aussage formulieren
+    duration_minutes: 1
+    trainer_action: >
+      Klare Ja/Nein- oder Zustimmungs-Frage. Beispiele: "Sind
+      wir bereit, zum nächsten Punkt zu gehen?", "Wer kann dieser
+      Aussage zustimmen?", "Wie war die Übung — hilfreich?"
+      Drei-Stufen-Skala ansagen: Daumen hoch = ja/gut,
+      Daumen seitlich = teils-teils, Daumen runter = nein/nicht
+      gut.
+    participant_action: >
+      Frage hören, kurz innerlich antworten.
+    note: >
+      Gute Daumen-Fragen sind kurz und präzise. "Finden Sie das
+      gut?" ist zu vage. "War Ihnen Punkt 3 klar?" besser.
+      Bei komplexen Fragen: differenzieren oder andere Methode.
+  - order: 2
+    label: Abstimmung (gleichzeitig)
+    duration_minutes: 1
+    trainer_action: >
+      "Auf drei — 1, 2, 3." Alle zeigen gleichzeitig Daumen.
+      Wichtig: gleichzeitig, damit niemand die anderen abchecken
+      kann. Bei Remote: alle in Video, Daumen vor Kamera, oder
+      Emoji-Reaction parallel absetzen.
+    participant_action: >
+      Gleichzeitig Daumen zeigen, ehrlich, ohne auf andere
+      zu schauen.
+    note: >
+      Gleichzeitigkeit schützt vor Bandwagon. Wer zuerst schaut,
+      wie andere stimmen, ist anfällig für Konformitätsdruck.
+      Bei jüngeren Gruppen: Augen zumachen und zeigen.
+  - order: 3
+    label: Bild lesen & thematisieren
+    duration_minutes: 2
+    trainer_action: >
+      Kurz aufnehmen: "Ich sehe überwiegend hoch, zwei mit
+      seitlich, einer runter." Bei seitlich/runter: freiwillig
+      ansprechen ("Möchte jemand sagen, was noch offen ist?").
+      Nicht zwingen zum Sprechen.
+    participant_action: >
+      Bei Wunsch: kurz erläutern, warum seitlich/runter. Oder
+      beim Schweigen bleiben — auch das ist erlaubt.
+    note: >
+      Freiwilligkeit bei Erläuterung ist wichtig. Daumen unten
+      aus Schüchternheit zu erklären zwingen schadet der
+      Methode. Bei gehäuften "Nein": Thema braucht echte
+      Diskussion, nicht nur Abstimmung.
+  - order: 4
+    label: Konsequenz ableiten
+    duration_minutes: 1
+    trainer_action: >
+      Je nach Ergebnis: weitermachen (viele Daumen hoch),
+      Nachbesserung (gemischtes Bild), Neudefinition (viel
+      Daumen runter). "Ich sehe ein mittleres Bild —
+      lassen Sie uns 5 min dazu nachjustieren."
+    participant_action: >
+      Konsequenz akzeptieren, bei weiterer Diskussion
+      konstruktiv beitragen.
+    note: >
+      Ohne Konsequenz ist die Abstimmung nur Show. Auch bei
+      einstimmiger Zustimmung kurz benennen: "Okay, wir gehen
+      weiter." Transparenz hilft.
+
+variations:
+  - name: Klassisch (3 Positionen)
+    description: >
+      Daumen hoch / seitlich / runter. Standardvariante.
+    when_to_use: >
+      Zwischen-Abstimmungen in Meetings, Feedback-Snapshots,
+      schnelles Stimmungsbild. Gruppen ab 4 TN.
+  - name: Binär (nur hoch/runter)
+    description: >
+      Nur Ja oder Nein, keine Mittelposition. Zwingt zur
+      Entscheidung.
+    when_to_use: >
+      Bei echten Entscheidungen (z.B. "Verabschieden wir das
+      Konzept?"). Nicht für Stimmungsbilder.
+  - name: Fünf-Finger / Fist-of-Five
+    description: >
+      Zustimmung auf Skala 0-5 (Faust bis offene Hand). Aus
+      agilen Schätzrunden. ACHTUNG: nicht mit Daumen-
+      Abstimmung verwechseln — das ist eine andere Methode.
+    when_to_use: >
+      Wenn differenziertes Zustimmungsmaß gebraucht wird
+      (agile Teams, Schätzungen). Für Stimmungsbilder zu
+      fein, für Schätzungen genau richtig.
+  - name: Remote (Emoji-Reaction)
+    description: >
+      Im Video-Tool Emoji-Reaction (👍 👎 🤔 oder Zahlen)
+      parallel absetzen. Automatisch ausgewertet.
+    when_to_use: >
+      Online-Trainings, Webinare, Großgruppen. Schneller als
+      Kamera-Daumen.
+    setting_codes: [remote_sync]
+  - name: Kombinierte Daumen-Abstimmung mit Kontext
+    description: >
+      Nach Abstimmung: "Wer einen seitlichen oder
+      runter-Daumen gezeigt hat, bekommt jetzt 30 Sek., um zu
+      erklären warum." Macht "Nein"-Stimmen diskutierbar.
+    when_to_use: >
+      Wenn Daumen-Abstimmung zu einer Entscheidung führen
+      soll und Bedenken aufgenommen werden müssen.
+  - name: Anonyme Daumen (Augen zu)
+    description: >
+      "Augen zu, Daumen zeigen. Ich zähle, dann Augen auf."
+      Schützt vor Gruppendruck.
+    when_to_use: >
+      Bei sensiblen Themen, hierarchischen Gruppen, oder
+      wenn Ehrlichkeit wichtiger als Transparenz ist.
+
+pitfalls:
+  - issue: >
+      Gruppendruck — Daumen geht hoch, weil alle anderen hoch
+      zeigen.
+    countermeasure: >
+      Gleichzeitiges Zeigen strikt durchsetzen ("Auf drei:
+      1, 2, 3"). Bei Zweifel anonyme Variante (Augen zu).
+    severity: common
+  - issue: >
+      Frage zu komplex für 3-Stufen-Skala.
+    countermeasure: >
+      Daumen-Abstimmung nur für einfache Ja/Nein- oder
+      Zustimmungs-Fragen nutzen. Bei Komplexität andere
+      Methode (Fünf-Finger, Dot-Voting, offene Diskussion).
+    severity: common
+  - issue: >
+      "Daumen seitlich" wird standardmäßig von vielen
+      gewählt — keine klare Botschaft.
+    countermeasure: >
+      Explizit ansagen: "Seitlich heißt 'gemischte Gefühle'
+      — nicht Standard." Nachfragen bei vielen
+      Seitlichen: "Was konkret ist offen?"
+    severity: common
+  - issue: >
+      Daumen runter wird als Angriff auf Moderator:in
+      gewertet.
+    countermeasure: >
+      Framing: "Daumen runter ist wertvoll — zeigt mir, was
+      anzupassen ist, nicht persönliche Kritik." Offen für
+      Rückmeldung bleiben.
+    severity: common
+  - issue: >
+      Nur sichtbare Abstimmung, keine Konsequenz.
+    countermeasure: >
+      Immer Handlung daraus ableiten ("Gehen wir weiter" /
+      "Klären wir noch"). Ohne Konsequenz verliert Methode
+      Glaubwürdigkeit.
+    severity: common
+  - issue: >
+      Remote: Kamera aus, Daumen nicht sichtbar.
+    countermeasure: >
+      Kamera-an-Regel für Abstimmung. Alternative: Emoji-
+      Reaction. Bei Tool-Limit: Chat-Reaktion
+      ("👍 / 👎 in Chat").
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Fist-of-Five und Daumen-Abstimmung werden verwechselt
+      (unklare Skala).
+    countermeasure: >
+      Begriffe trennen: Daumen-Abstimmung = 3 Positionen
+      (hoch/seitlich/runter). Fist-of-Five = 0-5 Finger
+      auf Zustimmungs-Skala. Klar kommunizieren, welche
+      Methode gerade läuft.
+    severity: common

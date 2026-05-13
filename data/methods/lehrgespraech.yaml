@@ -1,0 +1,239 @@
+slug: lehrgespraech
+canonical_name: Lehrgespräch
+synonyms:
+  - synonym: Entwickelndes Lehrgespräch
+    language: de
+  - synonym: Socratic Teaching
+    language: en
+short_description: >
+  Wissensvermittlung durch geführten Dialog. Trainer:in stellt gezielte Fragen,
+  die zur Antwort führen, statt Inhalte einfach zu präsentieren. Aktiviert,
+  braucht gute Fragenvorbereitung.
+originator: null
+origin_context: Pädagogische Tradition, sokratisch geprägt.
+phases:
+  - code: input
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Per Chat + Wortmeldung; funktioniert ab 10+ Personen zäh.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [didactic, activating]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 60
+tags: [fragen-basiert, dialog, schulisch]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Grundformen des Lehrens"
+    author: Hans Aebli
+    year: 1983
+    relation: reference
+    note: >
+      Didaktische Einordnung des entwickelnden Lehrgesprächs
+      als aktivierende Grundform.
+  - kind: book
+    title: "Unterrichtsmethoden II — Praxisband"
+    author: Hilbert Meyer
+    year: 2002
+    relation: practice_guide
+    note: Detaillierte Beschreibung inkl. Frage-Typologie.
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einstiegs-Problem oder -Frage
+    duration_minutes: 3
+    trainer_action: >
+      Mit konkretem Problem / überraschendem Phänomen
+      beginnen — nicht mit Definition. "Sie haben drei
+      Minuten für einen Kundenanruf. Was sagen Sie
+      zuerst?" Aktiviert Vorwissen, öffnet Interesse.
+    participant_action: >
+      Frage hören, eigenes Wissen aktivieren, spontan
+      antworten oder nachdenken.
+    note: >
+      Öffnende Frage muss PASSEND sein — nicht trivial,
+      nicht zu schwer. "Ratefragen" ("Wie heißt das?")
+      sind tot. Echte, offene Fragen, die zum Nachdenken
+      einladen.
+  - order: 2
+    label: Dialog-Runde mit offenen Fragen
+    duration_minutes: 12
+    trainer_action: >
+      Fragen-Kaskade, die zum Inhalt führt. "Was müsste
+      passieren, damit...?" / "Warum könnte X sinnvoll
+      sein?" / "Wie würde Sie entscheiden?". Antworten
+      aufgreifen, nicht bewerten. Visualisieren, was an
+      der Tafel/Flipchart aufgebaut wird.
+    participant_action: >
+      Antworten, auf andere TN reagieren, mitdenken,
+      eigene Hypothesen äußern.
+    note: >
+      Wichtig: Fragen vorbereitet. Ungeübte Moderator:innen
+      rutschen in "Ich erzähle einfach". Liste von 5-7
+      strukturierenden Fragen mitbringen.
+  - order: 3
+    label: Systematisierung
+    duration_minutes: 8
+    trainer_action: >
+      Antworten bündeln, strukturieren, auf zentrale
+      Begriffe bringen. "Das, was wir jetzt entwickelt
+      haben, nennt man X." Fachterminus einführen, wenn
+      Verstehen im Raum ist.
+    participant_action: >
+      Struktur mitvollziehen, eigene Notizen anpassen,
+      Fachterminus aufnehmen.
+    note: >
+      Dieser Schritt macht aus Dialog Lernen. Ohne
+      Systematisierung bleibt das Gespräch assoziativ.
+      Begriffe, Prinzipien, Regeln deutlich markieren.
+  - order: 4
+    label: Vertiefung durch Beispiel
+    duration_minutes: 5
+    trainer_action: >
+      Konkrete Anwendung zeigen: "Nehmen wir einen Fall
+      aus Ihrer Praxis..." TN-Beispiele wertschätzen.
+      Verbindung zum eben Entwickelten herstellen.
+    participant_action: >
+      Eigene Beispiele einbringen, sie mit dem
+      entwickelten Konzept verknüpfen.
+    note: >
+      Beispiele der TN sind didaktisch stärker als eigene
+      — sie aktivieren Anschlusswissen. Moderation
+      sammelt, nicht dominiert.
+  - order: 5
+    label: Zusammenfassung & Ausblick
+    duration_minutes: 2
+    trainer_action: >
+      "Was haben wir heute entwickelt?" Kurz rekapitulieren.
+      Ausblick auf nächstes Thema oder nächste Vertiefung.
+      Dokumentation sichern (Flipchart abfotografieren).
+    participant_action: >
+      Kern-Einsichten rekapitulieren, für sich notieren,
+      eigene offene Fragen merken.
+    note: >
+      Zusammenfassung ist kognitive Verankerung. TN sollten
+      idealerweise selbst formulieren, was entwickelt
+      wurde — nicht Moderator:in.
+
+variations:
+  - name: Klassisches entwickelndes Lehrgespräch
+    description: >
+      Fragen-basierte Herleitung durch Moderation, die
+      Inhalte strukturiert entwickelt. Standardvariante.
+    when_to_use: >
+      Schule, Hochschule, strukturierter Wissensaufbau.
+      4-20 TN. Wenn Moderation starke Fachkompetenz hat.
+  - name: Sokratisches Lehrgespräch (stärker dialogisch)
+    description: >
+      Mehr Ergebnis-offen, Moderation lässt sich überraschen.
+      Weniger "führend" als klassisches Lehrgespräch.
+      Verwandt mit Sokratisches Gespräch (als eigenständige
+      Methode).
+    when_to_use: >
+      Wissensbereiche mit Interpretations-Offenheit (Ethik,
+      Philosophie, Werte-Fragen).
+  - name: Cold-Call-Variante (Harvard-Stil)
+    description: >
+      Moderation ruft gezielt einzelne TN auf. Erzwingt
+      Vorbereitung und Aufmerksamkeit. Kontrovers —
+      stressig.
+    when_to_use: >
+      Fortgeschrittene Lerner:innen, hochselektive Gruppen
+      (MBA, Rechtsstudium). Nicht für Anfänger:innen.
+  - name: Gruppen-Lehrgespräch (Kleingruppen)
+    description: >
+      Kleingruppen à 3-4 erarbeiten Antworten, dann
+      Zusammenführung. Mehr TN aktiv, langsamer.
+    when_to_use: >
+      Größere Gruppen (15+), wenn Plenum-Antworten-Rate zu
+      gering. Team-Element ergänzt.
+  - name: Remote-Lehrgespräch (Video + Chat)
+    description: >
+      Antworten via Chat + Wortmeldungen. Moderation bündelt
+      Chat-Beiträge laut. Parallel zur Video-Diskussion.
+    when_to_use: >
+      Online-Trainings bis 20 TN. Über 20 zäh, lieber
+      Kleingruppen-Variante.
+    setting_codes: [remote_sync]
+  - name: Voraus-Lesung + Lehrgespräch (flipped)
+    description: >
+      TN lesen Material vorher, Lehrgespräch dient der
+      Vertiefung. Fragen bauen auf Vorlesung auf.
+    when_to_use: >
+      Hochschule, berufsbegleitende Weiterbildung. Wenn
+      TN Vorbereitung leisten.
+
+pitfalls:
+  - issue: >
+      Moderation fragt nur, was sie selbst schon weiß —
+      Gespräch wirkt manipulativ ("Ratespiel").
+    countermeasure: >
+      Echte offene Fragen formulieren, wo auch
+      überraschende Antworten legitim sind. Verschiedene
+      Denkwege wertschätzen, nicht nur die "richtige".
+    severity: common
+  - issue: >
+      Einzelne TN dominieren die Antwort-Runde.
+    countermeasure: >
+      Explizit still gebliebene ansprechen: "Was denken
+      Sie, Frau X?" Zwischen-Frage an andere ("Wer sieht
+      das anders?"). Rotation in Antworten.
+    severity: common
+  - issue: >
+      TN haben nicht genug Vorwissen — Fragen verhallen.
+    countermeasure: >
+      Vor dem Lehrgespräch Wissen aktivieren (z.B.
+      Text lesen, Video ansehen). Bei echter Wissens-
+      lücke: kurzer Input vor Lehrgespräch.
+    severity: common
+  - issue: >
+      Lehrgespräch wird zu Vortrag mit Pausen — Moderation
+      redet 80%.
+    countermeasure: >
+      Selbstbeobachtung: Redeanteil-Check. Pausen aushalten,
+      Antworten einsammeln, nicht sofort selbst fortfahren.
+      Gruppe muss Hauptdenkende sein.
+    severity: common
+  - issue: >
+      Systematisierung fehlt — Lernende erinnern sich nur
+      an Gespräch, nicht an Kern-Konzept.
+    countermeasure: >
+      Systematisierungs-Schritt fest einplanen. Visualisierung
+      (Flipchart, Tafel) mit Kernbegriffen. Klar benennen:
+      "Das, was wir entwickelt haben, heißt...".
+    severity: common
+  - issue: >
+      In großen Gruppen wird Dialog zäh — wenige antworten.
+    countermeasure: >
+      Gruppen-Variante mit Kleingruppen-Arbeit. Oder
+      andere Input-Methode (Kurzvortrag + Think-Pair-Share).
+      Lehrgespräch hat Größen-Obergrenze (~20 TN).
+    severity: common
+  - issue: >
+      Moderation wird unsicher bei unerwarteten Antworten,
+      "drückt sie beiseite".
+    countermeasure: >
+      Haltung: "Überraschende Antwort = Geschenk."
+      Annehmen, aufgreifen, vielleicht Gespräch umlenken.
+      Starrheit killt das Format.
+    severity: common

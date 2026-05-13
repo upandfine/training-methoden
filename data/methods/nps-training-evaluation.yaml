@@ -1,0 +1,211 @@
+slug: nps-training-evaluation
+canonical_name: NPS-Training-Evaluation
+synonyms:
+  - synonym: Net Promoter Score for Training
+    language: en
+  - synonym: tNPS
+    language: en
+short_description: >
+  Ein-Frage-Evaluation: „Würden Sie dieses Training einem Kollegen/einer
+  Kollegin weiterempfehlen?" (Skala 0–10). Promotoren (9-10) minus
+  Detraktoren (0-6) = NPS. Schlank, vergleichbar, aber oberflächlich —
+  braucht eine offene Zusatzfrage zum „Warum?".
+originator: Frederick F. Reichheld
+origin_context: >
+  Net Promoter Score von Fred Reichheld (Bain & Company), publiziert 2003
+  im Harvard Business Review („The One Number You Need to Grow").
+  In der Trainings-Evaluation unter „tNPS" (training NPS) adaptiert;
+  wissenschaftlich kritisiert (u.a. Keiningham 2007) wegen begrenzter
+  prognostischer Güte.
+phases:
+  - code: evaluation
+    is_primary: true
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [feedback]
+duration_min_minutes: 2
+duration_typical_minutes: 5
+duration_max_minutes: 10
+materials:
+  - Umfrage-Tool (z.B. Google Forms, Mentimeter, Typeform) oder Papierkarten
+tags: [nps, evaluation, kpi, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: article
+    title: "The One Number You Need to Grow"
+    author: Frederick F. Reichheld
+    year: 2003
+    relation: originator
+    note: >
+      Reichhelds NPS-Originalpublikation in Harvard
+      Business Review.
+  - kind: article
+    title: "A longitudinal examination of net promoter and firm revenue growth"
+    author: Timothy L. Keiningham et al.
+    year: 2007
+    relation: reference
+    note: >
+      Wissenschaftliche Kritik an NPS — empirisch
+      schwächere Prognosegüte als von Reichheld
+      behauptet.
+  - kind: book
+    title: "The Ultimate Question 2.0"
+    author: Frederick F. Reichheld, Rob Markey
+    year: 2011
+    relation: practice_guide
+    note: Praxis-Anwendung von NPS in Organisationen.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: NPS-Frage stellen
+    duration_minutes: 1
+    trainer_action: >
+      Klare Frage: "Auf einer Skala 0-10 — wie
+      wahrscheinlich würden Sie dieses Training
+      einer Kollegin/einem Kollegen weiterempfehlen?"
+      Skala visualisieren.
+    participant_action: >
+      Frage hören, eigene Bewertung mental fassen.
+    note: >
+      Die Frage ist Standard. Variation auf "weiterempfehlen"
+      essentiell — nicht "wie zufrieden". Empfehlung
+      ist verhaltensnah.
+  - order: 2
+    label: Antworten sammeln
+    duration_minutes: 1
+    trainer_action: >
+      Anonyme Erhebung: Online-Tool, Karten, Hand-
+      zeichen-Skala. Alle gleichzeitig, anonym.
+    participant_action: >
+      Wert wählen, eingeben oder zeigen.
+    note: >
+      Anonymität wichtig für Ehrlichkeit. Bei
+      Hand-Variante: "Augen zu, dann hochhalten."
+  - order: 3
+    label: Offene Zusatzfrage
+    duration_minutes: 2
+    trainer_action: >
+      Zweite Frage: "Was ist der wichtigste Grund
+      für Ihre Bewertung?" Offen-Text. Macht
+      NPS-Wert nutzbar.
+    participant_action: >
+      Kurze Begründung schreiben, ehrlich.
+    note: >
+      Ohne Zusatzfrage ist NPS-Wert hohl. Mit:
+      konkrete Verbesserungs-Hinweise. Zusatzfrage
+      ist wichtiger als Skala.
+  - order: 4
+    label: Auswertung & Konsequenz
+    duration_minutes: 1
+    trainer_action: >
+      NPS berechnen: (% Promotoren 9-10) - (%
+      Detraktoren 0-6) = NPS. Bei live: kurz nennen.
+      Bei post: in Bericht. Konkret aus Zusatzfragen
+      lernen.
+    participant_action: >
+      Wert wahrnehmen, Konsequenz mitnehmen.
+    note: >
+      NPS-Wert ist Indikator, kein vollständiges
+      Bild. Zusatzfragen geben qualitative
+      Tiefe.
+
+variations:
+  - name: Klassisch (NPS + offene Frage)
+    description: >
+      Standardvariante: 0-10-Skala + "Warum?".
+    when_to_use: >
+      Trainings-Abschluss, Kundenfeedback.
+      Skalierbar.
+  - name: Reine NPS (ohne Zusatzfrage)
+    description: >
+      Nur Skala. Schnell, aber inhaltlich
+      unbrauchbar.
+    when_to_use: >
+      Reine Quantifizierung für KPI-Tracking.
+      Nicht für inhaltliches Lernen.
+  - name: Erweiterter NPS (3 Fragen)
+    description: >
+      NPS + "Was war besonders gut?" + "Was
+      sollte sich ändern?" Mehr Tiefe.
+    when_to_use: >
+      Wenn detaillierteres Feedback gewünscht.
+  - name: Live-NPS (Hand-Skala)
+    description: >
+      Hände in Höhe heben (0-10). Visuelle
+      Bestätigung sofort.
+    when_to_use: >
+      Kleinere Gruppen, Live-Feedback.
+  - name: Digital-Tools (Mentimeter, Typeform)
+    description: >
+      Online-Tool mit automatischer Aggregation.
+    when_to_use: >
+      Online + Präsenz, größere Gruppen,
+      KPI-Tracking.
+    setting_codes: [remote_sync, remote_async]
+
+pitfalls:
+  - issue: >
+      Reine NPS ohne Zusatzfrage — nur Zahl, keine
+      Erkenntnis.
+    countermeasure: >
+      Zusatzfrage immer dabei. Ohne sie ist NPS
+      datenlos.
+    severity: common
+  - issue: >
+      NPS-Wert wird überinterpretiert.
+    countermeasure: >
+      NPS ist Indikator, kein vollständiges
+      Bewertungsbild. Wissenschaftliche Kritik
+      kennen.
+    severity: common
+  - issue: >
+      Bei kleinen Gruppen (< 10) ist NPS-Wert
+      statistisch instabil.
+    countermeasure: >
+      Bei < 10 TN: andere Evaluation (Zielscheibe,
+      qualitatives Feedback). NPS braucht Zahlen.
+    severity: common
+  - issue: >
+      Höflichkeits-Bias — alle wählen 8.
+    countermeasure: >
+      Anonymität sichern. Klar: "9-10 nur bei
+      echtem Empfehlen-Wollen, 0-6 bedeutet
+      kritisch."
+    severity: common
+  - issue: >
+      Skala-Verständnis variiert kulturell.
+    countermeasure: >
+      Bei interkulturellen Gruppen: Skala-
+      Konvention erklären. NPS ist westlich
+      geprägt.
+    severity: common
+  - issue: >
+      Detraktoren werden ignoriert — nur
+      Promotoren feiern.
+    countermeasure: >
+      Detraktoren-Antworten gezielt lesen. Hier
+      liegt Verbesserungs-Potential.
+    severity: common
+  - issue: >
+      Methode ersetzt tiefere Evaluation.
+    countermeasure: >
+      NPS ist Schnellbefund. Bei wichtigen
+      Trainings: Kirkpatrick + qualitative
+      Verfahren ergänzen.
+    severity: common

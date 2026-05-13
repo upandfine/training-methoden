@@ -1,0 +1,226 @@
+slug: stand-up-diskussion
+canonical_name: Stand-up-Diskussion
+synonyms:
+  - synonym: Stand-up Discussion
+    language: en
+  - synonym: Stehdiskussion
+    language: de
+short_description: >
+  Diskussion im Stehen, entweder im Kreis oder in Kleingruppen. Kürzere,
+  fokussiertere Beiträge als im Sitzen; erhöht Energie und Dynamik,
+  besonders nach längeren Sitzphasen.
+originator: null
+origin_context: >
+  Praxiswissen aus Moderations- und Meeting-Kultur; in Scrum-Stand-ups
+  als Daily-Format etabliert.
+phases:
+  - code: activation
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: TN können aufstehen, aber der gemeinsame körperliche Kontext fehlt.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [activating, cooperative]
+duration_min_minutes: 10
+duration_typical_minutes: 15
+duration_max_minutes: 25
+tags: [stehen, kurz, fokus]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Scrum: The Art of Doing Twice the Work in Half the Time"
+    author: Jeff Sutherland
+    year: 2014
+    relation: reference
+    note: Daily Stand-up als agile Standard-Praxis.
+  - kind: article
+    title: "The influence of standing meetings on team meeting outcomes"
+    author: Bluedorn, A., Turban, D., Love, M.
+    year: 1999
+    relation: reference
+    note: >
+      Studie — Stand-up-Meetings sind 34 % kürzer bei
+      vergleichbarer Entscheidungsqualität.
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Aufstehen einladen & Rahmen setzen
+    duration_minutes: 1
+    trainer_action: >
+      "Stehen Sie bitte auf. Wir machen das jetzt im Stehen —
+      kürzere Beiträge, mehr Fokus." Klarer Rahmen: Thema
+      ansagen, Zeitrahmen (10-15 min), Regel "kurze
+      Beiträge, max. 1 min pro Person".
+    participant_action: >
+      Aufstehen, sich nahe beieinander positionieren
+      (Kreis oder offene Runde).
+    note: >
+      Überraschungs-Effekt nutzen — "wir stehen auf!" bricht
+      Sitz-Routine. Aber: Körper-Einschränkungen respektieren,
+      Sitz-Option anbieten für die, die nicht stehen können.
+  - order: 2
+    label: Einstieg mit klarer Frage
+    duration_minutes: 2
+    trainer_action: >
+      Eine klare Frage: "Wie stehen wir zu X?" / "Was ist
+      der nächste Schritt?" / "Wo liegt die größte Hürde?".
+      Eine Frage, nicht mehrere. Erste freiwillige Antwort
+      ermuntern.
+    participant_action: >
+      Frage hören, innerlich kurz überlegen, spontan oder
+      nach Bedenken einsteigen.
+    note: >
+      Klare Fragen sind Pflicht. Im Stehen wird breite
+      Diskussion unruhig — Fokus-Frage zwingt zu
+      Präzision.
+  - order: 3
+    label: Diskussion im Stehen
+    duration_minutes: 10
+    trainer_action: >
+      Moderation managt: bei Überziehen kurz kappen, bei
+      Schweigen Einzelne ansprechen. Fokus auf Beiträge,
+      nicht auf Vollständigkeit. Fortschritt visualisieren
+      (Flipchart, Board).
+    participant_action: >
+      Kurze Beiträge, auf andere reagieren, Diskussion
+      lebhaft halten. Körperlich engagiert bleiben.
+    note: >
+      Im Stehen wird Diskussion automatisch fokussierter.
+      TN wollen weniger langatmig sein. Das ist der
+      methodische Vorteil — nutzen, nicht bremsen.
+  - order: 4
+    label: Ergebnis festhalten
+    duration_minutes: 2
+    trainer_action: >
+      Ergebnis zusammenfassen: "Wir haben entschieden..."
+      / "Offen bleibt..." / "Nächste Schritte: X macht Y
+      bis Z." Kurz, klar, visualisiert. Dann setzen lassen
+      oder weiter-Programm.
+    participant_action: >
+      Ergebnis mitbekommen, eigene Rolle / Aufgabe
+      verstehen. Wieder setzen.
+    note: >
+      Ohne Ergebnis-Festhalten ist Stand-up verschwendet.
+      Die Kürze macht Entscheidungen möglich — nutzen für
+      klare Actions.
+
+variations:
+  - name: Klassisch (Kreis, 10-15 min)
+    description: >
+      Standardvariante: alle stehen im Kreis, Diskussion zu
+      einer Frage, Ergebnis festhalten.
+    when_to_use: >
+      Team-Meetings, Entscheidungs-Runden, Retrospektiven
+      mit Fokus. 5-15 TN ideal.
+  - name: Daily-Stand-up (Scrum)
+    description: >
+      Kurzes tägliches Stand-up (15 min), jede:r sagt:
+      "Was habe ich gemacht? Was mache ich? Wo hake ich?".
+      Agiles Standard-Format.
+    when_to_use: >
+      Scrum-Teams, Projekt-Teams, agile Arbeitsweise.
+      Tägliche Synchronisation.
+  - name: Stand-up mit Bewegung
+    description: >
+      Während der Diskussion gehen (Walking-Stand-up im
+      Raum oder Outdoor). Noch mehr Aktivierung.
+    when_to_use: >
+      Nachmittags-Slots, lange Trainings mit viel Sitzen,
+      Kreativ-Sessions. Genug Platz nötig.
+  - name: Stand-up im Kleingruppen-Format
+    description: >
+      Mehrere Stand-up-Kreise à 4-6 TN parallel. Jede
+      Kleingruppe diskutiert eigene Facette, teilt dann.
+    when_to_use: >
+      Größere Gruppen (20+). Wenn Vielstimmigkeit gewünscht,
+      aber stehende Form erhalten bleiben soll.
+  - name: Stand-up vor Whiteboard
+    description: >
+      Gruppe steht vor Whiteboard/Flipchart. Visualisierung
+      zentral während Diskussion. Kombiniert stehende
+      Dynamik mit sichtbaren Ergebnissen.
+    when_to_use: >
+      Wenn Ergebnis-Dokumentation wichtig. Retros,
+      Design-Sessions, Planungs-Meetings.
+  - name: Remote-Stand-up (alle aufstehen)
+    description: >
+      Video-Call, aber alle stehen vor Kamera. Körperliche
+      Aktivierung auch online. Kürzere Beiträge.
+    when_to_use: >
+      Online-Meetings, verteilte Teams. Funktioniert, aber
+      Wirkung abgeschwächt gegenüber Präsenz.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Körperlich eingeschränkte TN — Stehen nicht möglich.
+    countermeasure: >
+      Sitz-Option anbieten: "Wer sitzen möchte, bitte. Das
+      ist kein Zwang." Inklusives Framing. Methode lebt vom
+      Standard, akzeptiert Ausnahmen.
+    severity: rare
+  - issue: >
+      Diskussion zieht sich trotz Stehen — Kürze-Vorteil
+      verpufft.
+    countermeasure: >
+      Zeit strikt begrenzen (15 min hart). Moderation treibt
+      aktiv: "Zu schließen — Entscheidung?". Nicht länger
+      als 20 min, sonst wird's ermüdend.
+    severity: common
+  - issue: >
+      Im Corporate-Kontext als "zu informell" empfunden.
+    countermeasure: >
+      Zielgruppen-Check. Bei senior-Corporate: eher
+      Standard-Meeting. Stand-up passt gut bei Scrum-,
+      Start-up-, Innovations-Teams.
+    severity: common
+  - issue: >
+      Ergebnisse werden nicht festgehalten — "haben wir
+      geredet, und jetzt?"
+    countermeasure: >
+      Flipchart/Whiteboard sichtbar. Nach jedem wichtigen
+      Punkt visualisieren. Ergebnis-Zusammenfassung als
+      fester letzter Schritt.
+    severity: common
+  - issue: >
+      Einzelne dominieren — Stand-up wird zur
+      Monolog-Bühne.
+    countermeasure: >
+      Moderation interveniert: "Wir hören noch andere."
+      Regel: "Max. 1 min pro Beitrag, dann nächste:r."
+      Aktive Moderation nötig.
+    severity: common
+  - issue: >
+      Kreis-Bildung ungeschickt — zu locker, zu eng.
+    countermeasure: >
+      Moderation stellt bewusst Kreis her. Alle sehen
+      sich, passender Abstand. Nicht zu eng (bedrohlich)
+      und nicht zu locker (auseinander-fallend).
+    severity: common
+  - issue: >
+      Stand-up wird Routine, Energie lässt nach.
+    countermeasure: >
+      Mix mit Sitz-Meetings. Stand-up nur bei Bedarf
+      (Entscheidungen, Energie-Check). Nicht jede
+      Diskussion muss stehend sein.
+    severity: common

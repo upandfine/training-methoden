@@ -1,0 +1,213 @@
+slug: applaus-runde
+canonical_name: Applaus-Runde
+synonyms:
+  - synonym: Applause Round
+    language: en
+  - synonym: Abschlussapplaus
+    language: de
+short_description: >
+  Zum Abschluss klatscht die Gruppe für einzelne Personen, Teams oder die
+  gemeinsame Leistung. Mehrere Varianten möglich (Reihum-Applaus, Standing
+  Ovation, Jubel). Erzeugt positiven Energie-Abschluss.
+originator: null
+origin_context: >
+  Einfache, kulturell breit verstandene Geste; in Trainerpraxis als
+  Abschlussritual sehr häufig.
+phases:
+  - code: closing
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital per sichtbares Klatschen in Kamera oder Emoji-Applaus.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [energizer]
+duration_min_minutes: 1
+duration_typical_minutes: 3
+duration_max_minutes: 5
+tags: [abschluss, ritual, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Rituale in der Jugendarbeit"
+    author: Jürgen Osterhaus
+    year: 2017
+    relation: practice_guide
+    note: Applaus als anerkannte Ritualform am Ende gemeinsamer Arbeit.
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Moment markieren & Applaus einleiten
+    duration_minutes: 1
+    trainer_action: >
+      Letzter Programmpunkt kommt. Moderation schließt
+      inhaltlich ab und wechselt in Ritual-Modus: "Bevor
+      wir gehen — einen Applaus für alle, die heute
+      mitgemacht haben." Aufstehen signalisieren,
+      Klatsch-Initiative ergreifen.
+    participant_action: >
+      Übergang wahrnehmen, aufstehen, in Ritual einsteigen.
+    note: >
+      Moderation muss vorangehen. Wer schüchtern wartet,
+      bis die Gruppe selbst klatscht, bekommt zaghaften
+      Applaus. Klar und warm einladen.
+  - order: 2
+    label: Applaus durchführen
+    duration_minutes: 1
+    trainer_action: >
+      5-10 Sekunden gemeinsamer Applaus. Je nach Variante:
+      für die ganze Gruppe, einzelne Gruppen, eine Person.
+      Eventuell mit Jubel oder Standing Ovation verstärken.
+    participant_action: >
+      Klatschen, lächeln, in Stimmung einsteigen.
+    note: >
+      Länge entscheidend: zu kurz = halbherzig, zu lang =
+      peinlich. 5-10 Sek für einmaligen Applaus, bei
+      mehreren Runden 3-5 Sek pro Runde.
+  - order: 3
+    label: Persönlicher Schluss-Satz
+    duration_minutes: 1
+    trainer_action: >
+      Nach Applaus kurzer Dank: "Danke für heute. Ich wünsche
+      Ihnen gute Heimfahrt / kommende Woche / was auch immer."
+      Nicht noch nachträglich inhaltliches bringen.
+    participant_action: >
+      Dank annehmen, sich selbst verabschieden,
+      gehen bereit machen.
+    note: >
+      Kein "Ach übrigens..." nach dem Applaus — das bricht
+      den Ritual-Rahmen. Alles Informative vor dem Applaus
+      ansagen.
+
+variations:
+  - name: Klassisch (ein Applaus für Gruppe)
+    description: >
+      Ein gemeinsamer Applaus für die ganze Gruppe am
+      Seminar-Ende. Kurz, klar.
+    when_to_use: >
+      Standardabschluss bei allen Seminarformaten, Meetings,
+      Workshops.
+  - name: Reihum-Applaus (einzelne Personen)
+    description: >
+      Für einzelne TN nacheinander klatschen (z.B. beim
+      Zertifikat-Verteilen, Geburtstage, Jubiläen). Jede
+      Person bekommt ihren Moment.
+    when_to_use: >
+      Längere Programme, Prüfungen, Zertifikats-
+      Übergaben. Wenn Einzelleistungen sichtbar werden
+      sollen.
+  - name: Standing Ovation
+    description: >
+      Gruppe steht auf und klatscht länger (15-20 Sek). Mehr
+      Emotion, mehr Würdigung.
+    when_to_use: >
+      Besondere Anlässe: verdiente Ehrung, Abschluss
+      langer Programme, emotionale Momente.
+  - name: Wellenklatschen
+    description: >
+      Applaus beginnt mit einer Person, breitet sich im
+      Kreis aus, klingt dann aus. Wie Welle. Rhythmisch.
+    when_to_use: >
+      Spielerische Gruppen, Jugend, wenn Energizer-Charakter
+      gewünscht. Nicht für seriöse Corporate-Kontexte.
+  - name: Silent Applause (geräuschlos)
+    description: >
+      Stille Geste — Hände oben in der Luft schütteln, wie
+      in Gebärdensprache. Würdigung ohne Lärm.
+    when_to_use: >
+      Reizempfindliche Gruppen, kleine Räume, Spätabend-
+      Settings. Inklusives Format.
+  - name: Remote-Applaus (Video-Klatschen oder Emoji)
+    description: >
+      Online: alle klatschen sichtbar in die Kamera, oder
+      Applaus-Emojis 👏 im Chat. Weniger Intensität,
+      aber geht.
+    when_to_use: >
+      Online-Trainings. Nie ganz genauso wie live, aber
+      besser als nichts.
+    setting_codes: [remote_sync]
+  - name: Themen-Applaus
+    description: >
+      Getrennte Applause für verschiedene Aspekte:
+      "Ein Applaus für alle, die etwas gewagt haben",
+      "für die, die Fragen gestellt haben", etc.
+    when_to_use: >
+      Längere Sessions, wenn viele Rollen sichtbar
+      werden sollen. Etwas verspielter.
+
+pitfalls:
+  - issue: >
+      Applaus wirkt zaghaft — Moderation hat nicht
+      vorangegangen.
+    countermeasure: >
+      Moderation startet KRÄFTIG, einladend. Hände
+      sichtbar hoch. Bei geringer Resonanz nochmal:
+      "Mehr! Für Sie alle!"
+    severity: common
+  - issue: >
+      Applaus wird zu lang — peinliche Stille danach.
+    countermeasure: >
+      5-10 Sek pro Applaus-Runde. Moderation signalisiert
+      Ende durch Nicken, Hand hoch, "Danke". Nicht warten,
+      bis es verebbt.
+    severity: common
+  - issue: >
+      "Bedankt werden" wirkt aufgesetzt — Gruppe zögert.
+    countermeasure: >
+      Spezifisch bedanken: "Danke für Offenheit",
+      "Danke für das schwere Thema angegangen zu haben."
+      Nicht generisches Lob.
+    severity: common
+  - issue: >
+      In formalem Corporate-Kontext wirkt Applaus unangemessen.
+    countermeasure: >
+      Zielgruppenprüfung. Bei formalen Meetings:
+      verbaler Dank reicht. Applaus passt bei Workshops,
+      Team-Events, Seminaren — nicht immer.
+    severity: common
+  - issue: >
+      "Standing Ovation"-Entertainment-Charakter kippt
+      Authentizität.
+    countermeasure: >
+      Standing nur bei wirklich besonderen Anlässen —
+      nicht als Standard. Inflation nimmt dem Akt Wert.
+    severity: common
+  - issue: >
+      Online-Applaus bleibt visuell flach — nur 2-3
+      klatschen sichtbar.
+    countermeasure: >
+      Klare Einladung: "Kamera an, klatschen zeigen." Oder
+      Emoji-Applaus organisieren: "Alle mal Applaus-Emoji."
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Nach Applaus folgt inhaltlicher Nachtrag ("Ach,
+      noch eine Sache...") — bricht Ritual.
+    countermeasure: >
+      Alles Informative vor dem Applaus ansagen.
+      Applaus ist wirklich Abschluss, danach kommt nur
+      noch Verabschiedung.
+    severity: common

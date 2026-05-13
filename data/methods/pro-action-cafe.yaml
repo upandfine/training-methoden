@@ -1,0 +1,267 @@
+slug: pro-action-cafe
+canonical_name: Pro Action Café
+synonyms:
+  - synonym: Pro Action Cafe
+    language: en
+short_description: >
+  Hybridform aus World Café und Open Space: Teilnehmende bringen eigene
+  Anliegen an Tische, andere helfen in drei strukturierten Runden
+  (Anliegen klären, was fehlt, nächste Schritte). Besonders gut für
+  Weiterentwicklung eigener Projekte.
+originator: Rainer von Leoprechting, Ria Baeck
+origin_context: >
+  Entwickelt ab 2007 in der Art of Hosting Community als strukturierteres
+  Format für Anliegen-Bearbeitung.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: group_work
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Komplexe Rotationsmechanik — digital aufwendig, aber möglich.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [cooperative, creative]
+duration_min_minutes: 120
+duration_typical_minutes: 150
+duration_max_minutes: 240
+tags: [pro-action-cafe, anliegen, art-of-hosting]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Pro Action Café — Art of Hosting"
+    url: https://www.artofhosting.org/methods/pro-action-cafe/
+    relation: originator
+    note: >
+      Von Leoprechting und Baeck entwickelt als Weiterentwicklung
+      des World Café für Anliegen-Bearbeitung.
+  - kind: book
+    title: "Großgruppenmethoden: Lebendig lernen — Veränderung gestalten"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: practice_guide
+    note: Einordnung in die Cafe-Formate-Landschaft.
+  - kind: book
+    title: "The Art of Hosting"
+    author: Toke Møller, Monica Nissén (Hrsg.)
+    year: 2011
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Anliegen sammeln (Gastgeber:innen)
+    duration_minutes: 20
+    trainer_action: >
+      Einladung: "Wer bringt eigenes Anliegen / Projekt
+      ein, das Unterstützung braucht?" 4-8 "Gastgeber:innen"
+      kommen vor, beschreiben Anliegen kurz (1-2 min).
+      Pro Tisch ein Anliegen.
+    participant_action: >
+      Gastgeber:innen: Anliegen benennen. Rest: Tisch
+      aussuchen, an dem man beitragen will.
+    note: >
+      Qualität der Anliegen entscheidet. Bei vage:
+      Moderation hilft mit "Was ist die Kernfrage?".
+      Klarheit vorher sparen Zeit später.
+  - order: 2
+    label: Tisch-Zuordnung & Gäste-Rolle
+    duration_minutes: 5
+    trainer_action: >
+      TN verteilen sich auf Tische (3-6 Gäste pro Tisch).
+      Balance prüfen — bei Überfüllung umverteilen.
+      Gäste-Rolle: helfen, nicht beraten.
+    participant_action: >
+      Zu Tisch gehen, der interessiert. Rolle als
+      Mit-Denkende:r einnehmen.
+    note: >
+      Tische nicht zu voll (max 6 Gäste). Bei zu
+      wenigen: zwei Anliegen zusammenlegen.
+  - order: 3
+    label: Runde 1 — "Was ist die wahre Frage?" (30 min)
+    duration_minutes: 30
+    trainer_action: >
+      Gastgeber:in schildert Anliegen. Gäste stellen
+      klärende Fragen: "Was ist die wirkliche Frage
+      dahinter? Worum geht es im Kern?" Keine
+      Lösungen.
+    participant_action: >
+      Gastgeber:in: schildert, beantwortet. Gäste:
+      tief fragen, Kern-Frage freilegen.
+    note: >
+      Häufig entdeckt Gastgeber:in, dass Kernfrage
+      anders ist als ursprünglich gedacht. Das ist
+      wertvoller Moment.
+  - order: 4
+    label: Tischwechsel (alle Gäste)
+    duration_minutes: 5
+    trainer_action: >
+      "Gäste wechseln Tische." Alle Gäste gehen zu
+      anderen Anliegen (nicht zurück zu selbem).
+      Gastgeber:innen bleiben. Neue Konstellation.
+    participant_action: >
+      Tisch wechseln, neues Anliegen wählen.
+    note: >
+      Kluger Wechsel — keine "Freundschafts-Paare"
+      bleiben zusammen. Diversität der Perspektiven.
+  - order: 5
+    label: Runde 2 — "Was fehlt zur Umsetzung?" (30 min)
+    duration_minutes: 30
+    trainer_action: >
+      Gastgeber:in fasst für neue Gäste zusammen
+      (2-3 min). Dann Fokus: "Was fehlt, damit Ihr
+      Anliegen vorankommt? Ressourcen, Verbündete,
+      Wissen, Mut?"
+    participant_action: >
+      Gastgeber:in: was fehlt konkret? Gäste: konkrete
+      Hinweise, Ressourcen, Kontakte, Erfahrungen
+      teilen.
+    note: >
+      Runde 2 ist diagnostisch. "Was fehlt" zeigt
+      Blockaden. Oft sind es nicht Ressourcen, sondern
+      Klarheit, Mut, Beziehungen.
+  - order: 6
+    label: Tischwechsel (Gäste erneut)
+    duration_minutes: 5
+    trainer_action: >
+      Zweiter Wechsel: Gäste zu wieder anderem Tisch.
+      Ziel: Gastgeber:innen bekommen in 3 Runden 3
+      verschiedene Gäste-Konstellationen.
+    participant_action: >
+      Erneut Tisch wechseln.
+    note: >
+      Dritte Konstellation bringt frischen Blick.
+      Auch dann noch produktiv, wenn Energie sinkt.
+  - order: 7
+    label: Runde 3 — "Nächste Schritte" (30 min)
+    duration_minutes: 30
+    trainer_action: >
+      "Welche konkreten nächsten Schritte nehmen Sie
+      mit? Was ist Ihre Entscheidung? Wer kann
+      helfen?" Gastgeber:in konsolidiert, Gäste
+      unterstützen konkret.
+    participant_action: >
+      Gastgeber:in: Commitment, Nächste-Schritte-Plan.
+      Gäste: konkrete Unterstützung anbieten.
+    note: >
+      Umsetzungs-Phase. Hier verdichtet sich alles
+      zu Action. Owner, Termine, Unterstützer:innen
+      benennen.
+  - order: 8
+    label: Ernte-Plenum & Netzwerk-Bildung
+    duration_minutes: 25
+    trainer_action: >
+      Plenum: jede:r Gastgeber:in 2-3 min: "Was habe
+      ich gelernt? Welche konkreten nächsten
+      Schritte?" Kontakt-Karten austauschen, Follow-up-
+      Vereinbarungen.
+    participant_action: >
+      Ernte teilen, Commitment festhalten, Netzwerke
+      bilden.
+    note: >
+      Follow-up macht Cafe nachhaltig. Ohne Ernte-
+      Plenum zerfällt Wissen in Einzel-Gespräche.
+      Netzwerk-Element aktiv pflegen.
+
+variations:
+  - name: Klassisches Pro-Action-Café (3 Runden)
+    description: >
+      Standardvariante: Wahre Frage, Was fehlt, Nächste
+      Schritte. 3 Runden, 30 min je Runde.
+    when_to_use: >
+      Innovationsworkshops, Strategy-Klausuren,
+      Projektentwicklung. 20-60 TN.
+  - name: Kurz-Pro-Action (2 Runden)
+    description: >
+      Nur 2 Runden: Frage + Nächste Schritte.
+      Kompakter, weniger Tiefe.
+    when_to_use: >
+      Zeitknappe Settings. Für erfahrene Gruppen.
+  - name: Thematisches Pro-Action-Café
+    description: >
+      Anliegen aus vorgegebenem Themen-Bereich (z.B.
+      alle zu "Nachhaltigkeit"). Fokussierte Vertiefung.
+    when_to_use: >
+      Branchen-Events, themenspezifische Initiativen.
+  - name: Remote Pro-Action
+    description: >
+      Zoom-Breakouts mit klarer Rotation. Miro-Board
+      pro Tisch. Erfordert erfahrene Moderation.
+    when_to_use: >
+      Verteilte Communities. Komplex, aber machbar.
+    setting_codes: [remote_sync]
+  - name: Führungs-Pro-Action
+    description: >
+      Für Führungskräfte: eigene Führungs-Herausforderungen
+      als Anliegen. Peer-Supervision-nah.
+    when_to_use: >
+      Leadership-Development, Führungs-Retreats.
+  - name: Offene Community-Variante
+    description: >
+      Anliegen aus Community (nicht vorbestimmt),
+      TN bringen spontan. Noch näher an Open Space.
+    when_to_use: >
+      Community-Events, Bürger:innen-Formate.
+
+pitfalls:
+  - issue: >
+      Anliegen zu vage — Runden bleiben oberflächlich.
+    countermeasure: >
+      Vorbereitung: Gastgeber:innen sollen Anliegen
+      vor Workshop formulieren. Moderation prüft
+      Klarheit.
+    severity: common
+  - issue: >
+      Gäste beraten statt helfen zu denken.
+    countermeasure: >
+      Framing: "Fragen, nicht Ratschläge." Bei
+      Ratschlag-Modus freundlich umlenken. Cafe
+      ist nicht Consulting.
+    severity: common
+  - issue: >
+      Tischwechsel bringt gleiche Personen zusammen.
+    countermeasure: >
+      Moderation steuert Wechsel aktiv bei kleiner
+      Gruppe. Bei großer: Nummer-System oder
+      Zufalls-Zuordnung.
+    severity: common
+  - issue: >
+      Gastgeber:in ermüdet nach 3 Runden — letzte
+      Runde oberflächlich.
+    countermeasure: >
+      Bei > 90 min einplanen: Pause zwischen Runde
+      2 und 3. Gastgeber:in-Erschöpfung normal.
+    severity: common
+  - issue: >
+      Nächste Schritte bleiben vage.
+    countermeasure: >
+      In Runde 3 SMART-Kriterien. Owner, Termin,
+      Unterstützer:innen konkret. Ohne: Cafe bleibt
+      "schön besprochen".
+    severity: common
+  - issue: >
+      Follow-up fehlt — Cafe ohne Nachklang.
+    countermeasure: >
+      Follow-up-Termine vereinbaren. Kontakt-Austausch
+      ritualisieren. Community-Character pflegen.
+    severity: common
+  - issue: >
+      Bei großen Gruppen: Plenum-Ernte wird endlos.
+    countermeasure: >
+      Pro Gastgeber:in strikt 2-3 min. Bei mehr als 8
+      Tischen: Kleingruppen-Ernte, Highlights in
+      Plenum.
+    severity: common

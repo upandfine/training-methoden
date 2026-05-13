@@ -1,0 +1,258 @@
+slug: szenario-uebung
+canonical_name: Szenario-Übung
+synonyms:
+  - synonym: Scenario Exercise
+    language: en
+  - synonym: Fall-Szenario
+    language: de
+short_description: >
+  Teilnehmende bearbeiten ein realitätsnahes Szenario (Notfall, Konflikt,
+  Entscheidungssituation) in Rollen oder als Team. Unterschied zur
+  Fallstudie: dynamisch, mit Input-Eskalation durch Leitung.
+originator: null
+origin_context: >
+  Aus der Krisen- und Sicherheitsausbildung (Militär, Rettungsdienste,
+  Medizin-Simulation); heute auch in Führungs- und Change-Trainings.
+phases:
+  - code: practice
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Mit Einspielungen per Screenshare oder Chat-Nachrichten als Eskalation.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [game, activating, cooperative]
+duration_min_minutes: 60
+duration_typical_minutes: 120
+duration_max_minutes: 240
+tags: [szenario, krise, dynamisch]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Planspiel und Simulation"
+    author: Willy Christian Kriz
+    year: 2011
+    relation: practice_guide
+    note: Didaktische Grundlagen szenariobasierter Lernmethoden.
+  - kind: book
+    title: "Crew Resource Management"
+    author: Barbara Kanki et al.
+    year: 2010
+    relation: reference
+    note: >
+      Szenario-basiertes Training in Luftfahrt + Medizin —
+      Gold-Standard für Hochrisiko-Kontexte.
+  - kind: book
+    title: "Rollenspiele in Training und Beratung"
+    author: Hermann Lutz
+    year: 2015
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Szenario vorbereiten (Prep, außerhalb der Session)
+    duration_minutes: 0
+    trainer_action: >
+      VOR dem Training: Realitäts-nahes Szenario ausarbeiten.
+      Ausgangslage klar, Rollen mit Zielen und Hintergrund,
+      mögliche Eskalations-Impulse (neue Information, neue
+      Person tritt auf, Zeitdruck). 2-4 Eskalations-
+      Stufen planen.
+    participant_action: >
+      — (nur Trainer:in)
+    note: >
+      Szenario-Qualität ist Methoden-Wert. Oberflächliches
+      Szenario produziert oberflächliche Übung. Realismus
+      ernst nehmen. Mit Praxis-Expert:innen vorab testen.
+  - order: 2
+    label: Rollen verteilen & Setting einführen
+    duration_minutes: 15
+    trainer_action: >
+      Rollen zuteilen, Rollen-Karten austeilen (Ziel,
+      Hintergrund, Wissenstand). Ausgangslage erklären.
+      Beobachter:innen bekommen Beobachtungs-Auftrag.
+      Zeit zum Einlesen.
+    participant_action: >
+      Rolle verstehen, eigene Haltung einnehmen,
+      strategisch überlegen, wie handeln.
+    note: >
+      15 min Vorbereitung sind Pflicht. Rollen-Dichte
+      entscheidet über Simulations-Qualität. Bei knapper
+      Zeit: einfachere Szenarien wählen.
+  - order: 3
+    label: Szenario starten
+    duration_minutes: 45
+    trainer_action: >
+      Start-Signal. Szenario läuft. Moderation führt
+      Eskalations-Impulse ein (neue Information, E-Mail
+      einspielen, Anruf simulieren, Zeitdruck).
+      Beobachter:innen dokumentieren.
+    participant_action: >
+      In Rolle handeln. Entscheidungen treffen, auf
+      Eskalation reagieren. Zusammenarbeiten oder
+      konfrontieren (je nach Rolle).
+    note: >
+      Eskalationen sind Kern. Ohne sie = Fallstudie.
+      Mit ihnen = echte Simulation. Spannung hoch
+      halten, aber nicht überfordern.
+  - order: 4
+    label: Zeitdruck & Entscheidungen
+    duration_minutes: 25
+    trainer_action: >
+      In der zweiten Hälfte Intensivierung. Kürzere
+      Zeitfenster, schwerere Dilemmata. Moderation
+      greift nur bei Entgleisung ein, sonst
+      dokumentieren.
+    participant_action: >
+      Unter Zeitdruck entscheiden, priorisieren,
+      Team-Kommunikation halten.
+    note: >
+      Hier zeigt sich Kompetenz unter Druck. Das ist
+      pädagogisch wertvoll — realistisch, wie Krise
+      sich anfühlt.
+  - order: 5
+    label: Abbruch & Entrollung
+    duration_minutes: 5
+    trainer_action: >
+      Klares Ende: "Szenario ist vorbei." Alle aus
+      Rollen — aufstehen, durch Raum gehen, eigenen
+      Namen sagen. Körperliche Entrollung.
+    participant_action: >
+      Aus Rolle treten, sich selbst wieder einnehmen.
+    note: >
+      Entrollung wichtig, besonders bei belastenden
+      Rollen (z.B. Aggressor:in, Verzweifelte). Nicht
+      direkt in Debrief.
+  - order: 6
+    label: Strukturierter Debrief
+    duration_minutes: 30
+    trainer_action: >
+      Drei-Phasen-Debrief: (1) ca. 10 min Spieler:innen:
+      "Wie war das?" (2) ca. 10 min Beobachter:innen:
+      konkrete Beobachtungen. (3) ca. 10 min Meta: "Was
+      lernen wir für Praxis?" Moderation strukturiert,
+      Zeitfenster klar.
+    participant_action: >
+      Eigenes Erleben teilen, Beobachtungen
+      einbringen, Transfer zum Alltag ziehen.
+    note: >
+      Debrief ist LERN-KERN — die 30 min sind Minimum.
+      Bei komplexeren Szenarien: 45-60 min und
+      duration_typical entsprechend höher ansetzen.
+      Kürzer zu debriefen entwertet die gesamte Übung.
+
+variations:
+  - name: Klassisches Krisen-Szenario
+    description: >
+      Mehrstufige Eskalation in Hochrisiko-Setting
+      (Notfall, Konflikt, Krise). Standard-Variante.
+    when_to_use: >
+      Krisen-Trainings, Leadership-Development,
+      Hochrisiko-Branchen (Medizin, Rettung, Luftfahrt).
+  - name: Business-Szenario (Entscheidung)
+    description: >
+      Strategische Entscheidungs-Situation, mehrere
+      Stakeholder. Eskalation durch neue Marktdaten,
+      Wettbewerbsaktion.
+    when_to_use: >
+      Management-Ausbildung, Strategie-Trainings.
+  - name: Konflikt-Szenario (zwischenmenschlich)
+    description: >
+      Konfliktsituation mit eskalierenden Dynamiken.
+      Fokus auf Kommunikation und Deeskalation.
+    when_to_use: >
+      Führungs-Trainings, Konflikt-Moderation,
+      Mediations-Ausbildung.
+  - name: Plan-Kippe (unerwartete Eskalation)
+    description: >
+      Szenario scheint normal, aber Eskalation wirft
+      Plan um ("Kunde kündigt"). Testen von
+      Flexibilität.
+    when_to_use: >
+      Wenn Adaptabilität trainiert werden soll.
+      Agile Kontexte.
+  - name: Simulationsraum (Medical Sim)
+    description: >
+      Nachgebauter realer Raum (Operationssaal, Cockpit,
+      Einsatzzentrale) mit Technik. Hochrealistisch.
+    when_to_use: >
+      Medizin-Trainings, Militär, Luftfahrt. Wenn
+      Investment in realistische Infrastruktur möglich.
+  - name: Remote Szenario (Video + Chat)
+    description: >
+      Online: Rollen via Video, Eskalationen per
+      Chat-Nachrichten oder eingespielte Videos.
+      Funktioniert für bestimmte Szenarien.
+    when_to_use: >
+      Verteilte Teams, Krisen-Training in digitalen
+      Teams.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Szenario zu künstlich — TN bleiben distanziert.
+    countermeasure: >
+      Realismus stark machen. Reale Namen, echte
+      Dokumente, plausible Details. TN müssen "drin"
+      sein können.
+    severity: common
+  - issue: >
+      Zu viele Rollen — Übersicht verloren.
+    countermeasure: >
+      4-8 Rollen ideal. Mehr überfordert. Bei
+      komplexen Themen: mehrere Szenarien parallel,
+      getrennte Gruppen.
+    severity: common
+  - issue: >
+      Eskalation zu schnell oder zu langsam — Dynamik
+      stimmt nicht.
+    countermeasure: >
+      Eskalations-Rhythmus planen. 1-2 Impulse in ersten
+      30 min, 1-2 in letzten 30 min. Zeit für Reaktion.
+    severity: common
+  - issue: >
+      Moderation greift zu viel ein — kontrolliert
+      Szenario.
+    countermeasure: >
+      Moderation ist Eskalations-Regie, nicht
+      Schauspiel-Leitung. Zurückhalten. Auch Chaos
+      gehört zum Lerneffekt.
+    severity: common
+  - issue: >
+      Debrief wird kurz gehalten — Übung ohne
+      Erkenntnis.
+    countermeasure: >
+      Debrief mindestens 30 min, bei komplexen
+      Szenarien 60 min. Strukturiert führen, Drei-
+      Phasen-Modell.
+    severity: common
+  - issue: >
+      Emotional belastende Szenarien — TN
+      überfordert.
+    countermeasure: >
+      Vorab Rahmen: "Sie können jederzeit aussteigen."
+      Check-out nach Debrief. Bei Belastung: 1:1-
+      Gespräch anbieten.
+    severity: rare
+  - issue: >
+      Nach Szenario fehlt Transfer — "war anstrengend,
+      war's das?"
+    countermeasure: >
+      Im Debrief konkrete Anwendungs-Fragen: "Wo in
+      Ihrem Alltag? Was nehmen Sie mit?" Aktions-
+      Commitment sichern.
+    severity: common

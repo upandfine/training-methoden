@@ -1,0 +1,248 @@
+slug: ls-ecocycle-planning
+canonical_name: Ecocycle Planning
+synonyms:
+  - synonym: Ecocycle
+    language: en
+short_description: >
+  Liberating Structure: Aktivitäten/Projekte werden in einer lemniskaten
+  Figur (∞) verortet — Geburt, Reife, schöpferische Zerstörung, Erneuerung.
+  Macht sichtbar, was loszulassen und was zu starten ist.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_context: >
+  Liberating Structure; basierend auf ökologischen Sukzessionsmodellen
+  (Holling, Panarchy). CC-BY-NC 4.0.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digitale Ecocycle-Vorlagen auf Miro/Mural sehr gängig.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective, visualization]
+duration_min_minutes: 60
+duration_typical_minutes: 90
+duration_max_minutes: 120
+tags: [liberating-structures, portfolio, loslassen]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — Ecocycle Planning"
+    url: https://www.liberatingstructures.com/31-ecocycle-planning/
+    relation: originator
+    note: Vollständige Methodenbeschreibung. CC-BY-NC 4.0.
+  - kind: book
+    title: "Panarchy: Understanding Transformations in Human and Natural Systems"
+    author: Lance H. Gunderson, C. S. Holling (Hrsg.)
+    year: 2002
+    relation: reference
+    note: >
+      Ökologisches Panarchy-Modell — theoretische Grundlage
+      des Ecocycle-Denkens.
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ecocycle-Modell erklären
+    duration_minutes: 10
+    trainer_action: >
+      Lemniskate (∞) groß zeichnen, 4 Phasen
+      beschriften: Geburt (oben rechts) → Reife (unten
+      rechts) → Schöpferische Zerstörung (unten links)
+      → Erneuerung (oben links). Plus zwei Fallen:
+      "Unwilligkeits-Falle" (Festhalten am Alten),
+      "Armuts-Falle" (zu viel Neues).
+    participant_action: >
+      Modell verstehen, erste mentale Verknüpfung zu
+      eigenem Kontext aufbauen.
+    note: >
+      Modell ist Kern. Ohne es kein Ecocycle. Visualisierung
+      gut sichtbar. Einführung ernst nehmen, 10 min sind
+      Minimum.
+  - order: 2
+    label: Aktivitäten sammeln (Einzelarbeit)
+    duration_minutes: 15
+    trainer_action: >
+      "Listen Sie ALLE Aktivitäten, Projekte, Prozesse
+      Ihrer Arbeit auf — keine Auswahl." 15 min einzeln
+      still schreiben. Jede Aktivität auf Sticky Note.
+      Meist 20-40 Stickies pro Person.
+    participant_action: >
+      Umfassend Aktivitäten listen — auch kleine. Ein
+      Thema pro Sticky Note.
+    note: >
+      Vollständigkeit zuerst. Filtern später. Ohne
+      umfassende Liste entgeht Ecocycle wichtige
+      Einsichten.
+  - order: 3
+    label: Verortung auf der Lemniskate
+    duration_minutes: 20
+    trainer_action: >
+      TN platzieren ihre Aktivitäten auf der Lemniskate
+      (physisch oder digital). Je nach Phase. Bei
+      Schwierigkeit: Moderation hilft mit Beispielen.
+      Bewusst positionieren — Reflexion läuft beim
+      Platzieren.
+    participant_action: >
+      Jede Aktivität reflektiert verorten. Viele
+      "reife" Aktivitäten? Oder zu viel "Geburt"?
+      Muster wahrnehmen.
+    note: >
+      Verortung ist der eigentliche Reflexionsakt.
+      "Schöpferische Zerstörung" ist oft unterrepräsentiert
+      — TN scheuen Loslassen.
+  - order: 4
+    label: Muster erkennen & Diskussion (Paare)
+    duration_minutes: 15
+    trainer_action: >
+      Paare vergleichen: "Wo ist Ihre Lemniskate
+      überfüllt, wo leer? Welche Muster sehen Sie?"
+      Gezielte Reflexion, keine Lösung.
+    participant_action: >
+      Mit Partner:in teilen, Muster benennen, auf
+      Partner-Muster reagieren.
+    note: >
+      Typische Muster: alles in "Reife" (nichts
+      entsteht/stirbt), oder alles in "Geburt"
+      (nichts wird reif). Das ist wertvolle Diagnose.
+  - order: 5
+    label: Aktionen ableiten
+    duration_minutes: 20
+    trainer_action: >
+      "Was muss sterben? Was muss geboren werden?"
+      2-3 konkrete Aktionen pro Person. Owner + Termin.
+      Ernsthafte Commitments — schöpferische Zerstörung
+      verlangt Mut.
+    participant_action: >
+      Konkrete Aktionen formulieren: Loslassen, Starten,
+      Reifen lassen. Schriftliches Commitment.
+    note: >
+      Ergebnis muss konkret sein. Ohne Actions bleibt
+      Ecocycle nur Visualisierung. Loslassen-Aktionen
+      sind oft die wirkungsvollsten.
+  - order: 6
+    label: Plenum-Abschluss & Dokumentation
+    duration_minutes: 10
+    trainer_action: >
+      Plenum: "Was nehmen Sie mit? Was war die stärkste
+      Einsicht?" Foto der Lemniskate. Follow-up-Termin
+      zur Aktions-Umsetzung.
+    participant_action: >
+      Einsicht teilen, Aktions-Commitment verbindlich
+      machen.
+    note: >
+      Dokumentation + Follow-up Pflicht. Ohne:
+      Ecocycle ist ein schönes Modell, aber keine
+      Transformation.
+
+variations:
+  - name: Klassisch (individueller Ecocycle)
+    description: >
+      Jede:r erstellt eigene Lemniskate. Für eigenes
+      Portfolio.
+    when_to_use: >
+      Führungskräfte-Entwicklung, individuelle
+      Karriere-Reflexion, Selbstmanagement.
+  - name: Team-Ecocycle (gemeinsam)
+    description: >
+      Team erstellt gemeinsame Lemniskate für Team-
+      Aktivitäten. Kollektive Diagnose.
+    when_to_use: >
+      Team-Klausuren, Sprint-Retros in größerem Rahmen.
+      Team-Entwicklung.
+  - name: Organisations-Ecocycle
+    description: >
+      Auf organisationaler Ebene: Produkte, Prozesse,
+      Abteilungen. Strategie-Werkzeug.
+    when_to_use: >
+      Strategie-Klausuren, Portfolio-Management,
+      Change-Vorbereitung.
+  - name: Remote (Miro-Template)
+    description: >
+      Digitale Lemniskate, Sticky Notes platzieren,
+      Diskussion via Video. Template wiederverwendbar.
+    when_to_use: >
+      Verteilte Teams, Online-Strategie-Workshops.
+    setting_codes: [remote_sync]
+  - name: Periodisches Ecocycle (jährlich)
+    description: >
+      Einmal jährlich Ecocycle als Routine-Reflexion.
+      Vergleich über Jahre.
+    when_to_use: >
+      Etablierte Teams, Organisations-Reifung.
+      Kontinuierliche Portfolio-Steuerung.
+  - name: Kurz-Ecocycle (60 min)
+    description: >
+      Verkürzt: 5 min Modell, 10 min Sammeln, 10 min
+      Verorten, 15 min Diskussion, 15 min Aktionen.
+    when_to_use: >
+      Zeitknappe Settings, wenn Modell schon bekannt.
+
+pitfalls:
+  - issue: >
+      Modell wird zu abstrakt empfunden — TN kommen
+      nicht rein.
+    countermeasure: >
+      Konkrete Beispiele geben (eigene oder fiktive
+      Aktivitäten verorten). Model vorab gut erklären,
+      Zeit nicht abkürzen.
+    severity: common
+  - issue: >
+      "Schöpferische Zerstörung" wird vermieden.
+    countermeasure: >
+      Explizit nachfragen: "Was steht schon viel zu
+      lange in 'Reife'? Was bindet Ressourcen ohne
+      Rendite?" Mut zu Loslassen thematisieren.
+    severity: common
+  - issue: >
+      Aktionen bleiben vage ("ich überlege mir was").
+    countermeasure: >
+      SMART-Kriterien: Wer, Was, Wann konkret? Aktionen
+      ohne Termin werden nicht umgesetzt.
+    severity: common
+  - issue: >
+      Zwischen-Phase zu knapp — Verortung übereilt.
+    countermeasure: >
+      20 min für Verortung ernst nehmen. Nicht abkürzen.
+      Der Verortungs-Akt ist Reflexion.
+    severity: common
+  - issue: >
+      Gruppe diskutiert Modell statt Aktivitäten
+      ("was bedeutet 'Reife' genau?").
+    countermeasure: >
+      Pragmatisch: "Ihre Definition, nicht die
+      perfekte." Nicht zu viel Philosophie.
+    severity: common
+  - issue: >
+      Team-Variante: kein Konsens bei Verortung.
+    countermeasure: >
+      Bei Uneinigkeit: mehrere Positionen pro Aktivität
+      markieren. Diskussion ist wertvoll, nicht
+      glätten.
+    severity: common
+  - issue: >
+      Kein Follow-up — Aktionen verpuffen.
+    countermeasure: >
+      Follow-up-Termin fest einplanen (4-6 Wochen).
+      Check-in zu Aktionen. Ohne Follow-through kein
+      Wandel.
+    severity: common

@@ -1,0 +1,211 @@
+slug: brainwriting-635
+canonical_name: Brainwriting 6-3-5
+synonyms:
+  - synonym: Methode 6-3-5
+    language: de
+  - synonym: 6-3-5 Method
+    language: en
+short_description: >
+  Sechs Personen schreiben je drei Ideen in fünf Minuten auf einen Bogen.
+  Der Bogen wird weitergegeben, die nächste Person baut auf den Ideen auf.
+  Nach sechs Runden: 108 strukturierte Ideen. Brainstorming für Introvertierte.
+originator: Bernd Rohrbach
+origin_year: 1968
+origin_context: >
+  Rohrbachs systematische Variante des Brainstormings, entwickelt um die
+  Dominanz lauter Teilnehmer auszugleichen.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital per geteiltem Dokument oder Miro-Template mit Rotationstakten.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [creative, cooperative]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 90
+materials:
+  - 6 Bögen mit 3×6-Raster, Stifte
+tags: [brainwriting, systematisch, introvertiertenfreundlich]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: article
+    title: Kreativ nach Regeln — Methode 635, eine neue Technik zur Lösungsfindung
+    author: Bernd Rohrbach
+    year: 1969
+    relation: originator
+    note: Veröffentlicht in Absatzwirtschaft 12/1969; deutschsprachige Erstpublikation.
+  - kind: book
+    title: "Kreativitätstechniken — Eine Einführung in die Praxis"
+    author: Jiri Scherer
+    year: 2007
+    relation: practice_guide
+  - kind: article
+    title: "Electronic Brainstorming and Group Size"
+    author: Alan R. Dennis, Joseph S. Valacich
+    year: 1993
+    relation: reference
+    note: Forschung zur Überlegenheit schriftlicher Idea-Generation gegenüber mündlichem Brainstorming.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Setup & Problemstellung
+    duration_minutes: 10
+    trainer_action: >
+      Problem/Fragestellung klar und knapp formulieren, sichtbar aushängen
+      (z.B. „Wie können wir X erreichen?"). 6-3-5-Bogen austeilen
+      (Raster 3 Spalten × 6 Zeilen). Regeln erklären: 3 Ideen, 5 Minuten,
+      dann weitergeben. Keine Wertung, keine Diskussion während der Runden.
+    participant_action: >
+      Bogen entgegennehmen, Problem verstehen, sich auf Schreibphase
+      einstellen.
+    note: >
+      Das Problem MUSS offen genug sein, um 108 verschiedene Antworten
+      zuzulassen. Zu eng und die Runden laufen leer.
+  - order: 2
+    label: Runde 1 — 3 Erst-Ideen
+    duration_minutes: 5
+    trainer_action: >
+      Startsignal, Timer sichtbar. Während der Runde absolute Stille.
+      Leitung schreibt nicht mit (ist nicht Teil der 6).
+    participant_action: >
+      Drei eigene Ideen in die erste Zeile schreiben. Knapp und präzise,
+      aber verständlich für andere.
+    note: >
+      Wenn TN sofort blockieren: erlaubt, eine Variante einer ersten Idee
+      nochmal aufzuschreiben — Anker statt Nichts.
+  - order: 3
+    label: Runden 2-6 — Weiterentwickeln
+    duration_minutes: 25
+    trainer_action: >
+      Alle 5 min Signal, Bögen rotieren im Uhrzeigersinn. Aufgabe in
+      jeder neuen Runde: Vorherige Ideen lesen, dann 3 neue Ideen
+      ergänzen — können Weiterentwicklungen, Kombinationen oder ganz
+      neue Richtungen sein.
+    participant_action: >
+      Bogen lesen, 3 neue Ideen pro Runde ergänzen. Bewusst an Vorideen
+      anknüpfen oder abbrechen.
+    note: >
+      Runde 3-4 wird oft zur Ermüdungsphase — Leitung kann einen
+      Energizer (30 sec Dehnen) einschieben.
+  - order: 4
+    label: Sichten & Clustern
+    duration_minutes: 15
+    trainer_action: >
+      Alle Bögen einsammeln, an Wand hängen. Gallery Walk: TN lesen
+      alle Bögen, markieren 3 spannende Ideen mit Punkten. Dann
+      Cluster nach Themen/Lösungsrichtungen.
+    participant_action: >
+      Alle Ideen sichten, eigene Favoriten markieren, Cluster-Vorschläge
+      machen.
+    note: >
+      Viele Ideen werden Duplikate sein — das ist OK. Interessant sind
+      die Outlier und Kombinationen.
+  - order: 5
+    label: Priorisierung & Nächste Schritte
+    duration_minutes: 10
+    trainer_action: >
+      Dot-Voting auf Cluster oder Einzelideen. Top 3-5 benennen,
+      Verantwortliche und nächste Schritte definieren.
+    participant_action: >
+      Priorisieren, Commitment zu nächsten Schritten.
+    note: >
+      Ohne Priorisierung verpufft die Runde — 108 Ideen nützen nichts,
+      wenn keine Auswahl passiert.
+
+variations:
+  - name: Klassisches 6-3-5
+    description: >
+      6 Personen, 3 Ideen, 5 Minuten × 6 Runden. Standard-Format, liefert
+      nach 30 min bis zu 108 Ideen (oft mit Duplikaten).
+    when_to_use: >
+      Gruppe von genau 6 Personen, klares Problem, dominante Stimmen
+      in der Gruppe ausgleichen.
+  - name: Variable Gruppengröße
+    description: >
+      Format auf 4-8 Personen angepasst (4-3-5, 8-3-5 etc.). Zeiten und
+      Ideen-Anzahl bleiben, Rundenanzahl entspricht Gruppengröße.
+    when_to_use: >
+      Realer Gruppengrößen; klassisches 6 ist meist nicht genau verfügbar.
+  - name: 6-3-5-Remote
+    description: >
+      Shared Dokument (Google Docs, Miro) mit 6 Spalten. Jede:r arbeitet
+      in der eigenen Spalte, nach 5 min rutscht die Aufgabe „eine Spalte
+      weiter". Timer visuell für alle.
+    when_to_use: >
+      Remote-Sync-Teams, bei denen Dominanz-Ausgleich wichtig ist.
+    setting_codes: [remote_sync]
+  - name: Asynchrones 6-3-5
+    description: >
+      Jede:r hat 24h für die eigene Runde. Bogen wandert digital per
+      E-Mail/Slack weiter. Dauert 6 Tage für volle Sequenz.
+    when_to_use: >
+      Verteilte Teams ohne synchrone Zeitfenster; bei Tiefgang statt
+      Geschwindigkeit.
+    setting_codes: [remote_async]
+  - name: Themen-Kaskade
+    description: >
+      Jede Runde hat eine Fokus-Frage („Wie würde es ein Start-up lösen?",
+      „Wie würde es in 10 Jahren aussehen?"). TN durchlaufen Perspektiven.
+    when_to_use: >
+      Wenn Ideen aus bestimmten Blickwinkeln fehlen; verwandt mit
+      SCAMPER und Walt-Disney-Methode.
+
+pitfalls:
+  - issue: >
+      Ideen werden unleserlich oder zu knapp notiert — Nachfolger:innen
+      verstehen nicht, was gemeint ist, und bauen nicht darauf auf.
+    countermeasure: >
+      Kurzer Lesbarkeits-Hinweis zu Beginn: „In ganzen Sätzen, Stichwort
+      + kurze Erläuterung." Bei unleserlichem Bogen: Nachfragen erlaubt
+      in der Cluster-Phase.
+    severity: common
+  - issue: >
+      Erste Runde dauert deutlich länger als 5 min, weitere Runden werden
+      unter Druck.
+    countermeasure: >
+      Stoisch Timer, Ablauf-Regel ist unverhandelbar. Wer nur 2 Ideen
+      schafft, gibt 2 ab — keine „Nachreichung".
+    severity: common
+  - issue: >
+      Gruppe ermüdet in Runde 4-5, Qualität sinkt, Ideen werden repetitiv.
+    countermeasure: >
+      Mini-Pause nach Runde 3 (2 min dehnen/wasser). Oder Themen-
+      Kaskade einführen: jede Runde andere Leitfrage.
+    severity: common
+  - issue: >
+      Priorisierung fällt aus, Bögen landen im Ordner — klassisches
+      „Ideenfriedhof".
+    countermeasure: >
+      Cluster + Dot-Voting fest in den Ablauf einplanen (mind. 25 min
+      für Auswertung). Ergebnis dokumentieren, Verantwortliche benennen.
+    severity: common
+  - issue: >
+      Dominante Personen geben erst zuletzt ab, um zu sehen wer was
+      geschrieben hat — Diskurs-Ungleichgewicht kommt zurück.
+    countermeasure: >
+      Rotation strikt synchron, alle geben gleichzeitig ab. Wer zu spät
+      ist, macht in der nächsten Runde mit.
+    severity: rare
+  - issue: >
+      Problem ist zu geschlossen („Welche Farbe für das Logo?") oder zu
+      abstrakt („Was ist Zukunft?").
+    countermeasure: >
+      Vor dem Workshop 3-5 Varianten der Leitfrage entwerfen und mit
+      Kolleg:in testen. „Wie könnten wir …" als Formel funktioniert meist gut.
+    severity: common

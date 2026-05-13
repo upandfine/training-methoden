@@ -1,0 +1,254 @@
+{
+  "phases": [
+    {
+      "code": "activation",
+      "label_de": "Aktivierung",
+      "label_en": "Activation / energizer",
+      "description": "Energie zurückbringen, Aufmerksamkeit schärfen, Durchhänger überbrücken.",
+      "sort_order": 60
+    },
+    {
+      "code": "arrival",
+      "label_de": "Ankommen",
+      "label_en": "Arrival",
+      "description": "Erste Minuten — Raum öffnen, Stimmung aufnehmen, Ankommen ermöglichen.",
+      "sort_order": 10
+    },
+    {
+      "code": "closing",
+      "label_de": "Abschluss",
+      "label_en": "Closing",
+      "description": "Bewusster Abschluss, Verabschiedung, Ausblick.",
+      "sort_order": 140
+    },
+    {
+      "code": "deepening",
+      "label_de": "Vertiefung",
+      "label_en": "Deepening",
+      "description": "Inhalte verarbeiten, eigene Perspektiven entwickeln.",
+      "sort_order": 70
+    },
+    {
+      "code": "evaluation",
+      "label_de": "Evaluation",
+      "label_en": "Evaluation",
+      "description": "Systematische Bewertung des Lernerfolgs und der Veranstaltung.",
+      "sort_order": 130
+    },
+    {
+      "code": "expectations",
+      "label_de": "Erwartungsklärung",
+      "label_en": "Expectations",
+      "description": "Ziele, Hoffnungen, Befürchtungen und Arbeitsregeln klären.",
+      "sort_order": 40
+    },
+    {
+      "code": "feedback",
+      "label_de": "Feedback",
+      "label_en": "Feedback",
+      "description": "Rückmeldung geben und nehmen — zur Trainer:in, Gruppe, sich selbst.",
+      "sort_order": 110
+    },
+    {
+      "code": "getting_acquainted",
+      "label_de": "Kennenlernen",
+      "label_en": "Getting acquainted",
+      "description": "Teilnehmende lernen einander und die Trainer:in kennen.",
+      "sort_order": 30
+    },
+    {
+      "code": "group_work",
+      "label_de": "Gruppenarbeit",
+      "label_en": "Group work",
+      "description": "Kooperation in Klein- oder Großgruppen, Perspektivenintegration.",
+      "sort_order": 80
+    },
+    {
+      "code": "input",
+      "label_de": "Wissensvermittlung",
+      "label_en": "Input / content delivery",
+      "description": "Inhalte einführen, erklären, strukturiert präsentieren.",
+      "sort_order": 50
+    },
+    {
+      "code": "practice",
+      "label_de": "Anwendung & Übung",
+      "label_en": "Practice / application",
+      "description": "Gelerntes auf Fälle anwenden, üben, ausprobieren.",
+      "sort_order": 90
+    },
+    {
+      "code": "reflection",
+      "label_de": "Reflexion",
+      "label_en": "Reflection",
+      "description": "Rückschau auf das Erlebte, Lernwirksamkeit bewusst machen.",
+      "sort_order": 100
+    },
+    {
+      "code": "transfer",
+      "label_de": "Transfer",
+      "label_en": "Transfer",
+      "description": "Brücke in den Arbeits-/Lernalltag bauen, Umsetzung planen.",
+      "sort_order": 120
+    },
+    {
+      "code": "warmup",
+      "label_de": "Warm-up",
+      "label_en": "Warm-up",
+      "description": "Aktivierung, Energie aufbauen, Gruppendynamik lockern.",
+      "sort_order": 20
+    }
+  ],
+  "settings": [
+    {
+      "code": "hybrid",
+      "label_de": "Hybrid",
+      "label_en": "Hybrid",
+      "description": "Ein Teil vor Ort, ein Teil remote, gleichzeitig."
+    },
+    {
+      "code": "onsite",
+      "label_de": "Präsenz",
+      "label_en": "On-site",
+      "description": "Alle Teilnehmenden im selben physischen Raum."
+    },
+    {
+      "code": "remote_async",
+      "label_de": "Remote (asynchron)",
+      "label_en": "Remote (asynchronous)",
+      "description": "Zeitversetzt — Whiteboard, Forum, Video-Aufgaben ohne Live-Termin."
+    },
+    {
+      "code": "remote_sync",
+      "label_de": "Remote (synchron)",
+      "label_en": "Remote (synchronous)",
+      "description": "Live über Videokonferenz, alle gleichzeitig."
+    }
+  ],
+  "group_sizes": [
+    {
+      "code": "large",
+      "label_de": "Große Gruppe (21–50)",
+      "min_participants": 21,
+      "max_participants": 50,
+      "sort_order": 40
+    },
+    {
+      "code": "medium",
+      "label_de": "Mittlere Gruppe (9–20)",
+      "min_participants": 9,
+      "max_participants": 20,
+      "sort_order": 30
+    },
+    {
+      "code": "one_on_one",
+      "label_de": "1:1",
+      "min_participants": 2,
+      "max_participants": 2,
+      "sort_order": 10
+    },
+    {
+      "code": "plenary",
+      "label_de": "Plenum (50+)",
+      "min_participants": 51,
+      "max_participants": null,
+      "sort_order": 50
+    },
+    {
+      "code": "small",
+      "label_de": "Kleingruppe (3–8)",
+      "min_participants": 3,
+      "max_participants": 8,
+      "sort_order": 20
+    }
+  ],
+  "target_audiences": [
+    {
+      "code": "adult_education",
+      "label_de": "Erwachsenenbildung",
+      "description": "VHS, freie Träger, politische Bildung."
+    },
+    {
+      "code": "corporate",
+      "label_de": "Unternehmen / Business",
+      "description": "Mitarbeiter:innen-Trainings, Führungskräfte, Teams im Unternehmenskontext."
+    },
+    {
+      "code": "higher_education",
+      "label_de": "Hochschule",
+      "description": "Universität, FH, Dozierende und Studierende."
+    },
+    {
+      "code": "ihk",
+      "label_de": "IHK / Berufliche Bildung",
+      "description": "IHK-Weiterbildung, Ausbilder, duale Ausbildung, Meisterkurse."
+    },
+    {
+      "code": "school",
+      "label_de": "Schule",
+      "description": "Schulunterricht Sek I + Sek II, Lehrerfortbildung."
+    },
+    {
+      "code": "youth",
+      "label_de": "Jugendgruppen",
+      "description": "Außerschulische Jugendarbeit, Vereine, Jugendverbände."
+    }
+  ],
+  "method_types": [
+    {
+      "code": "activating",
+      "label_de": "Aktivierend",
+      "description": "Teilnehmende in Bewegung / Gespräch / Handlung bringen."
+    },
+    {
+      "code": "cooperative",
+      "label_de": "Kooperativ",
+      "description": "Zusammenarbeit in Gruppen, gemeinsame Problemlösung."
+    },
+    {
+      "code": "creative",
+      "label_de": "Kreativ",
+      "description": "Ideen generieren, visualisieren, ungewöhnliche Perspektiven erzeugen."
+    },
+    {
+      "code": "diagnostic",
+      "label_de": "Diagnostisch",
+      "description": "Stand, Wissen, Stimmung oder Meinungen systematisch erheben."
+    },
+    {
+      "code": "didactic",
+      "label_de": "Didaktisch-vermittelnd",
+      "description": "Wissen strukturiert weitergeben (Vortrag, Lehrgespräch, Demonstration)."
+    },
+    {
+      "code": "energizer",
+      "label_de": "Energizer",
+      "description": "Kurze Aktivierung zwischendurch, meist körperlich."
+    },
+    {
+      "code": "feedback",
+      "label_de": "Feedback",
+      "description": "Rückmeldung geben, einholen, strukturieren."
+    },
+    {
+      "code": "game",
+      "label_de": "Spielerisch",
+      "description": "Spiele, Simulationen, Gamification."
+    },
+    {
+      "code": "icebreaker",
+      "label_de": "Icebreaker",
+      "description": "Hemmschwellen am Anfang senken, Kontakt herstellen."
+    },
+    {
+      "code": "reflective",
+      "label_de": "Reflexiv",
+      "description": "Nach innen gerichtet, eigenes Erleben und Lernen bewusst machen."
+    },
+    {
+      "code": "visualization",
+      "label_de": "Visualisierung",
+      "description": "Inhalte bildhaft, räumlich oder grafisch darstellen."
+    }
+  ]
+}

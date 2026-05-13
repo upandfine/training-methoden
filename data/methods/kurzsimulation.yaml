@@ -1,0 +1,232 @@
+slug: kurzsimulation
+canonical_name: Kurzsimulation
+synonyms:
+  - synonym: Mini Simulation
+    language: en
+  - synonym: Micro-Planspiel
+    language: de
+short_description: >
+  Zeitlich straff gesetzte Simulation (15–45 Min) zu einer abgegrenzten
+  Situation. Fokus auf ein konkretes Können (Kundengespräch, Konflikt,
+  Entscheidung unter Zeitdruck). Danach strukturierte Nachbesprechung.
+originator: null
+origin_context: >
+  Verkürzte Variante klassischer Planspiele — in der modernen
+  Trainingspraxis häufig eingesetzt, z.B. bei AEVO-Prüfungssimulationen.
+phases:
+  - code: practice
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Breakout-Rollenspiel mit Szenariokarten; Beobachter per Kamera.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [game, activating, cooperative]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 45
+tags: [simulation, kurz, rollenspiel]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Planspiel und Simulation"
+    author: Willy Christian Kriz
+    year: 2011
+    relation: reference
+    note: >
+      Didaktische Einordnung von Simulationen und
+      Planspielen in der Erwachsenenbildung.
+  - kind: book
+    title: "AEVO-Handbuch: Ausbildung der Ausbilder"
+    author: Detlef Rothe
+    year: 2021
+    relation: practice_guide
+    note: Kurzsimulationen als gängiges Format in AEVO-Prüfungen.
+  - kind: book
+    title: "Rollenspiele in Training und Beratung"
+    author: Hermann Lutz
+    year: 2015
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Szenario & Rollen ansagen
+    duration_minutes: 5
+    trainer_action: >
+      Konkretes Szenario beschreiben: "Sie sind
+      Projektleitung. Kund:in meldet kurzfristig
+      Anforderungsänderung." Rollen-Karten verteilen mit
+      Haltung, Ziel, Hintergrund. Je Rolle 1-2 TN.
+      Rest sind Beobachter:innen mit Beobachtungs-Auftrag.
+    participant_action: >
+      Rolle verstehen, eigene Rolle-Motivation mental
+      einnehmen. Beobachter:innen ihren Fokus klären.
+    note: >
+      Rollen-Karten sollen Position UND Motivation
+      enthalten. "Projektleitung, die Budget einhalten
+      muss und gleichzeitig Kundenbeziehung schützen will."
+      Rollenbild macht Spiel möglich.
+  - order: 2
+    label: Kurze Vorbereitungs-Phase
+    duration_minutes: 5
+    trainer_action: >
+      3-5 min: Teilnehmende lesen ihre Rolle durch,
+      mental einstimmen. Beobachter:innen bekommen
+      konkreten Beobachtungs-Auftrag: "Achten Sie auf
+      Körpersprache / Gesprächsverlauf / Argumentations-
+      Struktur."
+    participant_action: >
+      In Rolle einstimmen. Eigene Strategie überlegen.
+      Als Beobachter:in Fokus-Punkte merken.
+    note: >
+      Vorbereitung kurz halten. Nicht zu viel analysieren
+      — spontane Reaktion ist Teil des Lerneffekts.
+  - order: 3
+    label: Simulation (10-15 min)
+    duration_minutes: 12
+    trainer_action: >
+      Start-Signal. Simulation läuft. Moderation greift
+      nicht ein — außer bei völliger Entgleisung. Zeit
+      sichtbar (Timer). Bei Zeit-Ende hartes Stop-Signal.
+    participant_action: >
+      In Rolle handeln. Beobachter:innen notieren.
+      Realistisch spielen, nicht karikieren.
+    note: >
+      Moderation widersteht dem Impuls, in die Szene
+      einzugreifen. Das wäre Regie-Verletzung.
+      Auch Scheitern ist Lerneffekt.
+  - order: 4
+    label: Strukturierte Nachbesprechung (Debrief)
+    duration_minutes: 8
+    trainer_action: >
+      Drei-Phasen-Debrief: (1) Spieler:innen: "Wie war's
+      in der Rolle?" (2) Beobachter:innen: konkrete
+      Beobachtungen (kein "war gut"). (3) Meta: "Was
+      lernen wir für den Alltag?". Moderation strukturiert,
+      kommentiert wenig.
+    participant_action: >
+      Eigenes Erleben teilen. Beobachtungen konkret
+      einbringen. Transfer zu eigener Praxis ziehen.
+    note: >
+      Debrief ist das eigentliche Lernen. Mindestens
+      50 % der Zeit für Besprechung. Ohne Debrief =
+      nur Spiel ohne Erkenntnis.
+
+variations:
+  - name: Klassisch (30 min gesamt)
+    description: >
+      Standard-Variante: 5 Min Setup, 12 Min Spiel, 8 Min
+      Debrief + Rest-Organisation.
+    when_to_use: >
+      AEVO, Kommunikations-Trainings, Verkaufs-Schulungen.
+      Wenn eine konkrete Situation geübt werden soll.
+  - name: Mit Rollenwechsel
+    description: >
+      Simulation wird zweimal gespielt, mit Rollenwechsel
+      dazwischen. TN erleben beide Seiten. Mehr Empathie.
+    when_to_use: >
+      Konflikt-Trainings, Verhandlungs-Übungen. Wenn
+      Perspektivwechsel Lernziel ist.
+  - name: Micro-Simulation (10 min)
+    description: >
+      Sehr kurze Szene (3 min Setup, 3 min Spiel, 4 min
+      Debrief). Nur eine minimale Interaktion.
+    when_to_use: >
+      Trainings-Inhalt-Veranschaulichung, kurze Praxis-
+      Checks. Vor größeren Übungen als Aufwärmer.
+  - name: Simulation mit Pausen-Coaching
+    description: >
+      Moderator:in darf jederzeit Time-out rufen, Spieler:innen
+      coachen, dann weiterlaufen lassen. Lerngeschehen in
+      Echtzeit.
+    when_to_use: >
+      Coaching-Ausbildung, Führungs-Training. Wenn Coaching-
+      Dimension sichtbar werden soll.
+  - name: Goldfisch-Bowl-Simulation
+    description: >
+      Zwei Spieler:innen in der Mitte (Fishbowl), Gruppe
+      außen beobachtet. Im Debrief alle beteiligt, auch
+      Beobachtungen aus Gruppe.
+    when_to_use: >
+      Modell-Situationen, wenn mehr TN profitieren sollen.
+      Gute für Demo-Funktion.
+  - name: Remote-Simulation (Breakouts)
+    description: >
+      Rollen-Paare in Zoom-Breakouts, Beobachter:innen im
+      Breakout mit dabei oder separat. Debrief im
+      Plenum.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Funktioniert gut
+      für Verbale-Kommunikations-Übungen.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Rolle zu vage — Spieler:innen wissen nicht, wie sie
+      reagieren sollen.
+    countermeasure: >
+      Rollen-Karten präzise: Position, Motivation, Haltung,
+      Hintergrund. Ggf. Beispiel-Handlungsmuster. Lieber
+      mehr Struktur als zu wenig.
+    severity: common
+  - issue: >
+      Simulation kippt in Karikatur — TN übertreiben Rollen.
+    countermeasure: >
+      Framing: "Realistische Reaktion, nicht Theater."
+      Bei Karikatur: kurz unterbrechen, Rolle
+      realistischer machen. Nicht moralisieren.
+    severity: common
+  - issue: >
+      Moderation greift in Simulation ein — zerstört
+      Lernraum.
+    countermeasure: >
+      Nicht eingreifen außer bei Gefahr/Entgleisung.
+      Scheitern in der Rolle ist didaktisch wertvoll.
+      Selbstdisziplin.
+    severity: common
+  - issue: >
+      Debrief wird zu "Was war gut/schlecht?" — Bewertung
+      statt Lernen.
+    countermeasure: >
+      Strukturiert fragen: "Was haben Sie in der Rolle
+      gefühlt? Was fiel Ihnen schwer? Welche Strategie
+      hätte geholfen?" Offene Fragen, nicht
+      Bewertungen.
+    severity: common
+  - issue: >
+      Zeit-Limit im Spiel wird ignoriert — Simulation
+      zieht sich.
+    countermeasure: >
+      Harte Zeit-Grenze (Timer, Signal). Auch wenn mitten
+      im Satz abbrechen. Real-Life hat auch keine
+      Verlängerung.
+    severity: common
+  - issue: >
+      Beobachter:innen langweilen sich oder werden passiv.
+    countermeasure: >
+      Konkrete Beobachtungs-Aufträge geben. "Achten Sie
+      auf..." Rolle als aktive Rolle framen. Im Debrief
+      Beobachtungen würdigen.
+    severity: common
+  - issue: >
+      Emotionale Betroffenheit nach sensiblen Simulationen.
+    countermeasure: >
+      Debrief ernst nehmen, Zeit für Nachklang. Bei
+      sensiblen Themen: klare Abgrenzung "Ich steige
+      aus der Rolle." Bei Bedarf Einzelgespräch nach
+      Session.
+    severity: rare

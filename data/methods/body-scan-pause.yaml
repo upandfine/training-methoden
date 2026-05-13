@@ -1,0 +1,199 @@
+slug: body-scan-pause
+canonical_name: Body-Scan-Pause
+synonyms:
+  - synonym: Body Scan
+    language: en
+  - synonym: Koerperreise
+    language: de
+short_description: >
+  Angeleitete, 3–10-minütige Aufmerksamkeits-Sequenz, bei der nacheinander
+  verschiedene Körperteile wahrgenommen werden. Senkt Anspannung, holt aus
+  dem Denken in den Körper zurück. Gut als Mittags- oder Nachmittags-Reset.
+originator: Jon Kabat-Zinn (MBSR)
+origin_context: >
+  Kernelement des Mindfulness-Based Stress Reduction (MBSR) Programms,
+  entwickelt ab 1979 von Jon Kabat-Zinn; heute auch in säkularem
+  Corporate-Mindfulness etabliert.
+phases:
+  - code: activation
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Ideal remote — alle am eigenen Platz, Augen geschlossen, Anleitung per Audio.
+  - code: remote_async
+    suitability: good
+    note: Als Audio-/Video-Aufnahme vorbereiten.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [reflective, energizer]
+duration_min_minutes: 3
+duration_typical_minutes: 8
+duration_max_minutes: 15
+tags: [achtsamkeit, mbsr, pause, koerper]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Full Catastrophe Living"
+    author: Jon Kabat-Zinn
+    year: 1990
+    relation: originator
+    note: MBSR-Standardwerk mit Body Scan als Kernpraxis.
+  - kind: book
+    title: "Suchst du noch oder lebst du schon?"
+    author: Jon Kabat-Zinn
+    year: 2005
+    relation: practice_guide
+  - kind: book
+    title: "Mindful Work"
+    author: David Gelles
+    year: 2015
+    relation: reference
+    note: Übertragung von MBSR auf Corporate-Kontexte.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Einladung & Setting
+    duration_minutes: 1
+    trainer_action: >
+      "Wir machen jetzt eine kurze Body-Scan-Pause.
+      Setzen Sie sich bequem, Augen können geschlossen
+      werden, müssen aber nicht."
+    participant_action: >
+      Bequem hinsetzen, Augen schließen oder Blick
+      senken.
+    note: >
+      Freiwilligkeit explizit. Augen schließen darf
+      sein — manche fühlen sich sicherer mit offenen
+      Augen.
+  - order: 2
+    label: Atem-Anker
+    duration_minutes: 1
+    trainer_action: >
+      "Spüren Sie zuerst Ihren Atem. Drei tiefe Atemzüge.
+      Lassen Sie sich Zeit." Ruhig und langsam sprechen.
+    participant_action: >
+      Atem wahrnehmen, drei tiefe Atemzüge.
+    note: >
+      Atem als Anker — bringt Aufmerksamkeit aus dem
+      Denken in den Körper. Wichtiger Übergang.
+  - order: 3
+    label: Geleiteter Body-Scan
+    duration_minutes: 5
+    trainer_action: >
+      Schrittweise durch Körper: "Spüren Sie Ihre Füße,
+      Ihre Beine, Becken, Bauch, Brust, Schultern,
+      Hände, Hals, Gesicht, Kopfmitte." Pro Körper-
+      teil 20-30 Sek. Was ist da, ohne zu bewerten.
+    participant_action: >
+      Körperteile innerlich wahrnehmen, Empfindungen
+      registrieren, ohne zu ändern.
+    note: >
+      Tempo langsam halten. Bei zu schnell: TN können
+      nicht ankommen. Sprache ruhig, einladend, nicht
+      esoterisch.
+  - order: 4
+    label: Ankommen & Übergang
+    duration_minutes: 1
+    trainer_action: >
+      "Spüren Sie, wie Sie hier sitzen. Wenn Sie
+      möchten, öffnen Sie langsam die Augen, kommen
+      Sie zurück in den Raum." Sanfter Übergang.
+    participant_action: >
+      Augen öffnen, Aufmerksamkeit zurück, sanft
+      ankommen.
+    note: >
+      Übergang nicht abrupt. Direkt nach Body-Scan
+      keine intensive Aufgabe — Pause-Wirkung
+      verpufft sonst.
+
+variations:
+  - name: Klassisch (3-5 min Body-Scan)
+    description: >
+      Standardvariante: Atem + geleiteter Scan +
+      Übergang.
+    when_to_use: >
+      Mittagspause, vor anspruchsvollem Block, nach
+      Konflikt-Phase. Erwachsenen-Trainings.
+  - name: Mini-Scan (3 min)
+    description: >
+      Kürzer: nur 3-4 Körperteile, schnellerer
+      Durchlauf.
+    when_to_use: >
+      Zeitknapp. Als Mikro-Pause in Online-Sessions.
+  - name: Geführte Audio-Aufnahme
+    description: >
+      Vorab aufgezeichnete Anleitung. Asynchron oder
+      live abspielen.
+    when_to_use: >
+      Wenn Moderation sich nicht selbst durchführen
+      will. Online-Learning-Module.
+    setting_codes: [remote_async]
+  - name: Body-Scan im Liegen
+    description: >
+      Längere Variante (15 min) im Liegen. Mehr Tiefe.
+    when_to_use: >
+      Achtsamkeits-affine Gruppen, Retreats.
+      Genug Platz und Zeit.
+  - name: Mit emotionaler Reflexion
+    description: >
+      Nach Scan: kurze Frage "Was haben Sie
+      bemerkt?" Im Stillen oder im Paaraustausch.
+    when_to_use: >
+      Coaching-Kontexte, wenn Reflexion
+      gewünscht.
+
+pitfalls:
+  - issue: >
+      Senior-Corporate empfindet als esoterisch.
+    countermeasure: >
+      Säkular framen: "Aufmerksamkeits-Pause." Mindful-
+      Work-Tradition zitieren. Kabat-Zinns Forschung
+      kurz erwähnen.
+    severity: common
+  - issue: >
+      TN haben Angst vor Augen-Schließen — Kontroll-
+      Verlust.
+    countermeasure: >
+      "Augen offen ist auch okay" mehrfach. Niemand
+      zwingen.
+    severity: common
+  - issue: >
+      Anleitung zu schnell — TN können nicht ankommen.
+    countermeasure: >
+      Ruhiger Sprechen als gewohnt. Pausen aushalten.
+      Tempo langsam.
+    severity: common
+  - issue: >
+      Methode wirkt aufgesetzt, wenn Moderation nicht
+      authentisch dahinter steht.
+    countermeasure: >
+      Nur einsetzen, wenn vertraut. Bei Unsicherheit:
+      Audio-Aufnahme abspielen statt selbst leiten.
+    severity: common
+  - issue: >
+      Direkt nach Scan schwerer Inhalt — Pause-Effekt
+      verpufft.
+    countermeasure: >
+      Sanfter Übergang. Nicht direkt in Diskussion.
+      Lieber kurz einleiten.
+    severity: common
+  - issue: >
+      Bei psychisch belasteten TN: starke Emotionen
+      kommen hoch.
+    countermeasure: >
+      Vorab Sensibilität für Vorgeschichten.
+      Freiwilligkeit. Bei akuter Belastung andere
+      Methode wählen.
+    severity: rare

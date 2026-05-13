@@ -1,0 +1,274 @@
+slug: kirkpatrick-4-level
+canonical_name: Kirkpatrick 4-Level-Evaluation
+synonyms:
+  - synonym: Kirkpatrick Model
+    language: en
+  - synonym: Vier-Ebenen-Modell
+    language: de
+short_description: >
+  Evaluationsrahmen auf 4 Ebenen: 1) Reaction (Zufriedenheit direkt),
+  2) Learning (Wissen/Skills erworben), 3) Behavior (Verhalten im Arbeitsalltag
+  nach Wochen), 4) Results (messbare Geschäftswirkung). Kein einzelnes Tool,
+  sondern Bezugsrahmen für Evaluations-Design.
+originator: Donald L. Kirkpatrick
+origin_context: >
+  1959 erstmals publiziert; 2016 von James und Wendy Kirkpatrick zum
+  „New World Kirkpatrick Model" weiterentwickelt. Weltweit verbreitetster
+  Evaluationsrahmen in Corporate Learning; die Kausalität zwischen den
+  Ebenen wird in der Evaluationsforschung kontrovers diskutiert
+  (vgl. Alliger/Janak 1989, Holton 1996).
+phases:
+  - code: evaluation
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+    note: Level 1+2 direkt per Umfrage; Level 3+4 brauchen längere Zeithorizonte.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [diagnostic, feedback]
+duration_min_minutes: 30
+duration_typical_minutes: 270
+duration_max_minutes: 2880
+tags: [evaluation, framework, langfristig, kirkpatrick]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: article
+    title: "Techniques for Evaluating Training Programs"
+    author: Donald L. Kirkpatrick
+    year: 1959
+    relation: originator
+    note: >
+      Ursprungsaufsatz in "Journal of the ASTD" — vier Ebenen
+      erstmals systematisch beschrieben.
+  - kind: book
+    title: "Kirkpatrick's Four Levels of Training Evaluation"
+    author: James D. Kirkpatrick, Wendy Kayser Kirkpatrick
+    year: 2016
+    relation: practice_guide
+    note: >
+      "New World Kirkpatrick Model" — aktualisierte Fassung mit
+      Betonung auf Return-on-Expectations und Leading Indicators.
+  - kind: article
+    title: "The postulates of Kirkpatrick's training criteria"
+    author: Holton, E. F.
+    year: 1996
+    relation: reference
+    note: >
+      Kritik an der unterstellten Kausalität zwischen den Ebenen —
+      wichtig für eine differenzierte Anwendung.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Evaluations-Ziele festlegen
+    duration_minutes: 30
+    trainer_action: >
+      Vor dem Training mit Auftraggeber klären: Welche Ebenen
+      brauchen wir? Nicht alle 4 sind immer sinnvoll. Für
+      Compliance-Schulung reicht Level 1-2. Für teures
+      Führungs-Programm: alle 4, mit Fokus auf Level 3-4.
+      Messmethoden pro Ebene vorab planen.
+    participant_action: >
+      — (Design-Phase, Trainer:in und Auftraggeber)
+    note: >
+      Evaluations-Design vor dem Training entscheiden, nicht
+      danach. Rückwirkend Level 3+4 zu messen ist fast nie
+      möglich (keine Baseline).
+  - order: 2
+    label: Level 1 — Reaction (direkt nach Training)
+    duration_minutes: 15
+    trainer_action: >
+      Kurzer Feedback-Bogen am Seminar-Ende: Zufriedenheit mit
+      Inhalt, Methodik, Trainer:in, Lernklima, Relevanz. Skala
+      1-5 oder 1-10. Freitextfelder für "Was sollte ich
+      ändern?". Online-Tool oder Papier-Bogen.
+    participant_action: >
+      Bogen ausfüllen (anonym), 10-15 min investieren, auch
+      Freitext nutzen.
+    note: >
+      Level-1-Bogen NICHT überladen. 10-15 Items reichen.
+      Längere Bögen werden nicht ausgefüllt. Freitext zählt
+      mehr als Skalen.
+  - order: 3
+    label: Level 2 — Learning (direkt oder nach 1 Woche)
+    duration_minutes: 30
+    trainer_action: >
+      Wissens-/Skills-Test. Quiz (Multiple Choice), praktische
+      Übungsaufgabe oder Skill-Demo. Pre-Post-Vergleich ideal:
+      am Seminar-Anfang + am Seminar-Ende denselben Test. Dann
+      Delta messbar.
+    participant_action: >
+      Test absolvieren, Skill in Übungsaufgabe zeigen, pre/post
+      mitmachen.
+    note: >
+      Pre-Post ist Goldstandard für Level 2. Ohne Baseline ist
+      "X % haben Y gewusst" inkonsistent — weiß man nicht,
+      ob das am Training liegt. Pre-Test am Anfang einplanen.
+  - order: 4
+    label: Level 3 — Behavior (nach 6-12 Wochen)
+    duration_minutes: 60
+    trainer_action: >
+      Nach 6-12 Wochen: Verhaltens-Beobachtung. Methoden:
+      Selbst-Einschätzung, Peer-Feedback, Vorgesetzten-
+      Bewertung (360°), Arbeitsproben, Manager-Interviews.
+      Fokus: Was hat sich in der Praxis verändert?
+    participant_action: >
+      Selbstbeobachtung, Feedback-Gespräche mit Kolleg:innen
+      oder Führungskraft. Evtl. Vorher-Nachher-Protokolle.
+    note: >
+      Level 3 ist der größte Sprung zur Praxis. Transfer-Support
+      entscheidet: Ohne Follow-up-Gespräche, Buddy-System o.ä.
+      bleiben Verhaltens-Änderungen gering. Planen Sie
+      Transfersicherung als Teil des Trainings ein.
+  - order: 5
+    label: Level 4 — Results (nach 3-12 Monaten)
+    duration_minutes: 90
+    trainer_action: >
+      Messbare Geschäfts-Kennzahlen: Fehlerquote, Kunden-
+      Zufriedenheit, Durchlaufzeit, Verkaufsabschlüsse,
+      Krankheitsquote. Pre-Post-Vergleich in Zahlen.
+      Korrelation zum Training plausibilisieren (keine
+      strenge Kausalität möglich).
+    participant_action: >
+      Daten bereitstellen, bei Manager-Interviews teilnehmen,
+      organisatorische Kennzahlen zugänglich machen.
+    note: >
+      Level 4 ist methodisch umstritten. Direkte Kausalität
+      zwischen Training und Kennzahl ist selten isolierbar.
+      Besser: Korrelationen + qualitative Hinweise + Plausibilität.
+      Nicht "Training hat X % gebracht" verkaufen.
+  - order: 6
+    label: Auswertung & Kommunikation
+    duration_minutes: 45
+    trainer_action: >
+      Ergebnisse pro Ebene zusammenfassen. Visualisierung als
+      Dashboard oder Report. Kommunikation an Auftraggebende,
+      evtl. TN. Fokus: Was hat das Training bewirkt? Wo hat
+      es nicht gegriffen? Was wird daraus gelernt?
+    participant_action: >
+      — (Trainer:in + Auftraggebende)
+    note: >
+      Ehrliche Kommunikation: auch negative Ergebnisse
+      transparent machen. Evaluation wird oft als
+      "Rechtfertigungs-Instrument" missbraucht — sollte aber
+      als Lern-Instrument genutzt werden.
+
+variations:
+  - name: Vollständiges 4-Level-Modell
+    description: >
+      Alle 4 Ebenen mit Pre-Post-Design, Messungen zu definierten
+      Zeitpunkten. Ressourcenintensiv, aber vollständig.
+    when_to_use: >
+      Teure Trainings-Programme (Führungs-Development, Executive
+      Education), wenn ROI nachzuweisen ist. Nur sinnvoll mit
+      Budget und Mandat für Evaluation.
+  - name: Leichte Version (nur Level 1+2)
+    description: >
+      Reaction-Bogen + Learning-Test. Schnell, günstig, für
+      Standard-Schulungen ausreichend.
+    when_to_use: >
+      Kurze Schulungen (1-2 Tage), Compliance-Training,
+      Standardkurse. Wenn Level 3+4 nicht budget-machbar.
+  - name: Verkürzt auf Level 3 (Verhalten)
+    description: >
+      Skip Level 4. Fokus auf Level 1-3: Zufriedenheit, Lernen,
+      Verhalten. Gut umsetzbar mit Folge-Interviews oder
+      Peer-Feedback.
+    when_to_use: >
+      Soft-Skill-Trainings, Leadership-Entwicklung. Wenn
+      Business-Metrics schwer messbar, Verhalten aber
+      beobachtbar ist.
+  - name: New World Kirkpatrick (2016er Fassung)
+    description: >
+      Modernisiertes Modell mit "Leading Indicators" und
+      "Return on Expectations" (nicht nur ROI). Ebenen
+      bleiben, aber Fokus auf Erwartungs-Management.
+    when_to_use: >
+      Corporate-Kontexte mit Stakeholder-Orientierung.
+      Modernere Variante, oft besser anschlussfähig.
+  - name: Remote-Evaluation
+    description: >
+      Alle 4 Ebenen digital: Online-Bogen (L1), Online-Quiz
+      (L2), Video-Interviews (L3), Daten-Analyse aus
+      Systemen (L4). Skalierbar.
+    when_to_use: >
+      Online-Trainings, große Gruppen, verteilte Teams.
+      Erfordert gute Tools (Learning-Analytics-Plattform).
+    setting_codes: [remote_sync, remote_async]
+  - name: Schnell-Evaluation (nur Level 1)
+    description: >
+      Kurzer Reaction-Bogen, sonst nichts. Minimale
+      Aussagekraft, aber besser als gar keine Evaluation.
+    when_to_use: >
+      Kleine, einmalige Trainings, kein Evaluations-Budget.
+      Als "Minimal Viable Evaluation" akzeptabel.
+
+pitfalls:
+  - issue: >
+      Evaluation rückwirkend, ohne Baseline gestartet.
+    countermeasure: >
+      Evaluations-Design VOR dem Training festlegen. Baseline
+      messen am Trainings-Anfang (L2-Pretest) oder aus
+      organisatorischen Daten (L4-Ausgangslage).
+    severity: common
+  - issue: >
+      Level 1 überbewertet — Zufriedenheit wird als Erfolgs-
+      Kennzahl verkauft.
+    countermeasure: >
+      Level 1 ist reine Stimmung. Keine Kausalität zu Lernen
+      oder Verhalten. Klar kommunizieren: "Zufrieden ≠ gelernt".
+      Bei Auftraggebenden ggf. Schulung zum Modell-Verständnis.
+    severity: common
+  - issue: >
+      Level 4 wird zu "Ergebnis-Wäsche" — Training bekommt
+      Kredit für alles Positive.
+    countermeasure: >
+      Kausalität kritisch prüfen: Confounding-Faktoren
+      (neue Tools, Marktveränderungen, Personalwechsel).
+      Korrelation ≠ Kausalität. Ergebnisse plausibilisieren,
+      nicht behaupten.
+    severity: common
+  - issue: >
+      Evaluation wird nicht genutzt — Ergebnisse im
+      Aktenschrank.
+    countermeasure: >
+      Rückkopplung an Trainings-Design fest einplanen.
+      Ergebnisse zeitnah an Trainer:innen kommunizieren.
+      Nächste Iteration zeigt, was sich geändert hat.
+    severity: common
+  - issue: >
+      Level 3+4-Messung fehlt Transfer-Support — niedrige
+      Verhaltens-Änderung.
+    countermeasure: >
+      Transfer als Design-Parameter: Follow-up-Sessions,
+      Buddy-System, Manager-Coaching. Kirkpatrick ohne
+      Transfer-Arbeit misst nur Abwesenheit des Effekts.
+    severity: common
+  - issue: >
+      Ressourcen werden unterschätzt — Evaluation wird
+      halbherzig.
+    countermeasure: >
+      Realistischer Budget-Plan: Level 1-2 ca. 10-15 %
+      der Trainings-Kosten, Level 3-4 nochmal 20-40 %.
+      Entweder voll oder gar nicht, kein halbherziges
+      Mess-Theater.
+    severity: common
+  - issue: >
+      TN empfinden Evaluation als Kontrolle, weigern sich.
+    countermeasure: >
+      Framing: "Wir messen das Training, nicht Sie." Anonyme
+      Level-1/2. Bei Level 3: Freiwilligkeit + Vertraulichkeit
+      zusichern. Nicht personalisierte Ergebnisse melden.
+    severity: common

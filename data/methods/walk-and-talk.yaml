@@ -1,0 +1,231 @@
+slug: walk-and-talk
+canonical_name: Walk & Talk
+synonyms:
+  - synonym: Spaziergespräch
+    language: de
+  - synonym: Walking Meeting
+    language: en
+short_description: >
+  Teilnehmende gehen in Paaren während eines Spaziergangs und bearbeiten eine
+  Fragestellung. Bewegung + informeller Rahmen fördern offenes Sprechen und
+  neue Gedanken.
+originator: null
+origin_context: >
+  Populär gemacht durch Nilofer Merchants „Walking Meetings" (TED 2013),
+  lange vorher in systemischer Beratung und Supervision.
+phases:
+  - code: deepening
+  - code: group_work
+  - code: activation
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Teilnehmende telefonieren parallel und gehen jeweils draußen — ohne Video.
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [activating, reflective, cooperative]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 60
+tags: [bewegung, zweier, tiefe-gespraeche]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Got a meeting? Take a walk (TED 2013)"
+    author: Nilofer Merchant
+    url: https://www.ted.com/talks/nilofer_merchant_got_a_meeting_take_a_walk
+    relation: reference
+    note: >
+      Populär gewordener TED-Talk; verbindet Bewegung mit besserem
+      Denken und kritischer Sicht aufs Sitzungsritual.
+  - kind: article
+    title: "Give your ideas some legs: The positive effect of walking on creative thinking"
+    author: Oppezzo, M., Schwartz, D. L.
+    year: 2014
+    relation: reference
+    note: >
+      Stanford-Studie — Gehen (innen wie draußen) erhöht
+      Divergenz-Leistung um ~60 %.
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Fragestellung festlegen & Paare bilden
+    duration_minutes: 5
+    trainer_action: >
+      Konkrete Fragestellung formulieren, die ins 2er-Gespräch
+      passt (nicht zu breit, aber offen genug). Paare bilden —
+      bewusst gemischt (nicht Sitznachbarn). Zeit-Rahmen ansagen
+      (z.B. 20 min draußen, Treffpunkt und Zeit). Kurze Runde
+      zu Zugänglichkeit (Rollstuhl, Kinderwagen etc.).
+    participant_action: >
+      Frage notieren, Partner:in treffen, Ausgeh-Bereitschaft
+      prüfen (Schuhe, Jacke).
+    note: >
+      Gute Fragestellungen: "Was beschäftigt Sie bei X?" /
+      "Wo sehen Sie sich in 3 Jahren?" — nicht "Welche der
+      folgenden Techniken..." (zu geschlossen, braucht
+      Visuelles).
+  - order: 2
+    label: Route & Rhythmus klären
+    duration_minutes: 2
+    trainer_action: >
+      Route kurz skizzieren (Park, um den Block, bestimmter Weg).
+      Rhythmus vorschlagen: "Erste Hälfte A erzählt, B hört;
+      Mitte wechseln; zweite Hälfte B erzählt, A hört." Handy-
+      Timer als Wechsel-Signal.
+    participant_action: >
+      Route verstehen, eigenes Handy stellen, mit Partner:in
+      Rhythmus bestätigen.
+    note: >
+      Ohne klaren Zeitrahmen wird's entweder ein Monolog einer
+      Seite oder beide reden durcheinander. Struktur gibt
+      Sicherheit, gerade bei nicht-eingespielten Paaren.
+  - order: 3
+    label: Walk & Talk (20 min)
+    duration_minutes: 20
+    trainer_action: >
+      Selbst mitgehen (wenn ungerade Anzahl) oder am Treffpunkt
+      warten. TN gehen in Paaren, Moderation mischt sich nicht
+      ein. Bei schlechtem Wetter: Alternative indoor-Route
+      (Treppenhaus, Flur).
+    participant_action: >
+      Gehen, sprechen, zuhören, nach Halbzeit wechseln. Nebenher
+      schauen (Grün, Gebäude) — hilft dem Gespräch in stockenden
+      Momenten.
+    note: >
+      Kameras aus, Handys weg — Walk & Talk wirkt nur ohne
+      Ablenkung. Wer während des Gehens mails checkt, verliert
+      den Methoden-Effekt.
+  - order: 4
+    label: Rückkehr & Kurz-Debrief
+    duration_minutes: 3
+    trainer_action: >
+      Bei Rückkehr: kurze Plenum-Runde. 1-2 Paare teilen (max.
+      1 min pro Paar): "Was war überraschend? Was nehmt ihr
+      mit?" Nicht alle, nur Stichprobe.
+    participant_action: >
+      Erkenntnis teilen oder zuhören. Eigene Notizen sichern.
+    note: >
+      Nicht jeder Walk muss öffentlich werden — das ist oft
+      der Punkt der Methode (Vertraulichkeit). Debrief darf
+      leicht sein: Gefühl, eine Erkenntnis, keine Details.
+
+variations:
+  - name: Klassisch (2er-Paare draußen)
+    description: >
+      Zweier-Paare, 20-30 min Spaziergang, strukturierter
+      Rhythmus. Standard-Variante.
+    when_to_use: >
+      Mehrtägige Trainings, wenn Tiefe erwünscht ist. Bei
+      schönem Wetter, zugänglichem Gebiet.
+  - name: Triade-Walk
+    description: >
+      3er-Gruppen, zwei gehen, eine:r beobachtet/stellt Fragen.
+      Rollenwechsel nach Drittel der Zeit.
+    when_to_use: >
+      Coaching-Ausbildung, Beratungs-Skills-Training —
+      Beobachtungs-Komponente wichtig.
+  - name: Solo-Walk mit Journalrückkehr
+    description: >
+      Einzelperson geht mit einer Frage, schreibt anschließend
+      Gedanken ins Journal. Weniger Dialog, mehr Tiefenreflexion.
+    when_to_use: >
+      Retreats, Selbst-Coaching-Tage, Schreibgruppen. Wenn
+      2er-Paare zu intensiv wären.
+  - name: Telefonisches Walk & Talk
+    description: >
+      Zwei TN telefonieren, beide gehen parallel draußen,
+      je an ihrem Ort. Kamera aus, nur Audio.
+    when_to_use: >
+      Remote-Teams, verteilte Gruppen. Funktioniert oft besser
+      als Zoom mit Kamera — weniger Screen-Fatigue.
+    setting_codes: [remote_sync]
+  - name: Indoor-Walk (langer Flur)
+    description: >
+      Bei Schlechtwetter oder fehlendem Außenbereich: langer
+      Flur, Treppenhäuser, Messe-Foyer. Selbe Struktur.
+    when_to_use: >
+      Konferenzen ohne Außenzugang, Wetter-Alternative. Lieber
+      drinnen als gar nicht.
+  - name: Walk mit Input-Impuls
+    description: >
+      Vor dem Walk: Mini-Input (5 min) zu einem Modell oder
+      Konzept. Das Walk-Gespräch greift den Input auf
+      ("Wo im Modell stehen Sie?").
+    when_to_use: >
+      Theoretisch fundierte Trainings, wenn Inhalt auch praktisch
+      diskutiert werden soll. Verbindet Wissen mit Transfer.
+
+pitfalls:
+  - issue: >
+      Wetter/Infrastruktur nicht geprüft — Gruppe steht im
+      Regen oder vor zugeparktem Innenhof.
+    countermeasure: >
+      Wetter + Zugang vorher checken. Alternative (Indoor,
+      Café, kürzere Runde) bereithalten. Kurze Ansage bei
+      Wetterumschwung ("wir kürzen auf 10 min").
+    severity: common
+  - issue: >
+      Eine Seite dominiert, andere kommt kaum zu Wort.
+    countermeasure: >
+      Strikter Rhythmus (Handy-Timer). Beim Debrief fragen:
+      "Sind beide zu Wort gekommen?" Bei Nein: nächstes Mal
+      Strukturierung verstärken.
+    severity: common
+  - issue: >
+      Handys/Mails unterbrechen — aus 20 min werden 5 min
+      Gespräch.
+    countermeasure: >
+      Vorab klare Regel: "Handys aus oder auf Stumm, nur für
+      Timer." Freundliche Erinnerung an Methoden-Charakter:
+      "Sie sind jetzt hier, nicht da."
+    severity: common
+  - issue: >
+      Sicherheit/Orientierung — Paare verlaufen sich, kommen
+      spät zurück.
+    countermeasure: >
+      Route einfach halten (Blockumrundung), Rückkehr-Zeit
+      klar, Notfall-Kontakt (Moderations-Handy). Bei
+      Neulingen auf dem Gelände: Route vorher gemeinsam
+      ablaufen.
+    severity: rare
+  - issue: >
+      Gehen-Tempo ungleich — ein:e schlenderst, ein:e walkt.
+      Gespräch bricht ab.
+    countermeasure: >
+      Vorab thematisieren: "Finden Sie ein gemeinsames
+      Tempo." Ggf. Paare nach Gehgeschwindigkeit sortieren.
+      Bei Bedarf: Paare selbst wählen lassen.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN ausgeschlossen.
+    countermeasure: >
+      Vorab Zugänglichkeit klären. Alternative anbieten
+      (sitzendes 2er-Gespräch, Indoor-Runde). Niemand darf
+      sich ausgeschlossen fühlen.
+    severity: rare
+  - issue: >
+      Methode wird als "Kaffeepause" missverstanden — kein
+      strukturiertes Ergebnis.
+    countermeasure: >
+      Fragestellung klar formulieren, Ergebnis-Erwartung
+      kommunizieren ("Eine Erkenntnis pro Paar im Debrief").
+      Walk & Talk ist produktives Arbeiten im Gehen, nicht
+      Smalltalk.
+    severity: common

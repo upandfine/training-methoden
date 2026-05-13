@@ -1,0 +1,238 @@
+slug: erwartungs-karten
+canonical_name: Erwartungs-Kartenabfrage
+synonyms:
+  - synonym: Erwartungsplakat
+    language: de
+short_description: >
+  Teilnehmende schreiben je 1–3 Erwartungen auf Moderationskarten, die
+  anschließend gemeinsam geclustert und an der Pinnwand festgehalten werden.
+  Rückgriff am Ende des Trainings zur Auswertung möglich.
+originator: null
+origin_context: Klassische Metaplan-Moderationstechnik.
+phases:
+  - code: expectations
+    is_primary: true
+  - code: evaluation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Sticky Notes auf digitalem Whiteboard; Clustering per Drag-and-drop.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [diagnostic, visualization]
+duration_min_minutes: 10
+duration_typical_minutes: 25
+duration_max_minutes: 40
+materials:
+  - Moderationskarten, Pinnwand, Stifte
+tags: [clustering, moderationstechnik]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Das Moderatorenbuch"
+    author: Eberhard Schnelle, Wolfgang Schnelle
+    year: 1975
+    relation: originator
+    note: Klassiker der Metaplan-Technik — Kartenabfrage als Basis-Methode.
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Karten verteilen & Frage stellen
+    duration_minutes: 3
+    trainer_action: >
+      Moderationskarten verteilen (je 2-3 pro Person), dicke
+      Stifte. Frage klar formulieren: "Was erwarten Sie von
+      diesem Training? Was soll passieren, damit Sie zufrieden
+      rausgehen?" Regeln: "Druckbuchstaben, ein Gedanke pro
+      Karte, max. 7 Wörter."
+    participant_action: >
+      Karten entgegennehmen, Frage verstehen, erste
+      Erwartungen mental aktivieren.
+    note: >
+      Frage-Formulierung entscheidet. "Was erwarten Sie?" ist
+      vage — "Was muss heute passieren, damit Sie sagen:
+      das war wertvoll?" konkreter.
+  - order: 2
+    label: Still schreiben (Einzelarbeit)
+    duration_minutes: 7
+    trainer_action: >
+      7 min Stille. Jede:r schreibt seine Erwartungen auf
+      Karten. Moderation bleibt präsent, schweigt. Keine
+      Rückfragen zur Frage.
+    participant_action: >
+      Eigene Erwartungen klar formulieren. Stichworte,
+      keine Sätze. Ehrlich, nicht sozial-erwartbar.
+    note: >
+      Still-Phase ist Pflicht. Ohne sie: Gruppen-Denken,
+      erste lauteste Stimmen dominieren Erwartungs-Rahmen.
+  - order: 3
+    label: Einsammeln & Lesen
+    duration_minutes: 5
+    trainer_action: >
+      Karten einsammeln (anonym). Moderation liest jede
+      laut vor, heftet an Pinnwand — lose, nicht gleich
+      sortiert. Keine Kommentare während des Vorlesens.
+    participant_action: >
+      Beim Vorlesen zuhören, eigene Karten wiedererkennen,
+      Erwartungen anderer wahrnehmen.
+    note: >
+      Lautes Vorlesen macht Erwartungen kollektiv wahrnehmbar.
+      "Karten anheften und später lesen" reicht nicht.
+  - order: 4
+    label: Clustern in Themen
+    duration_minutes: 6
+    trainer_action: >
+      Mit Gruppe clustern: "Wohin gehört diese Karte?"
+      Oberbegriffe entstehen kollaborativ (Moderation
+      schreibt sie auf neue Karten, andere Farbe). 4-7
+      Cluster ideal.
+    participant_action: >
+      Vorschläge zur Zuordnung machen, Titel vorschlagen,
+      Konsens suchen.
+    note: >
+      Clustern ist kollektiver Sinn-Stiftungs-Akt.
+      Moderation moderiert, schreibt nicht selbst
+      inhaltlich vor.
+  - order: 5
+    label: Mit Programm abgleichen & Konsequenz
+    duration_minutes: 4
+    trainer_action: >
+      Cluster mit geplantem Programm abgleichen. "Diese
+      Erwartungen decke ich mit Block 2 und 3. Die hier
+      ist außerhalb meines Mandats. Die kann ich anpassen."
+      Transparent und ehrlich.
+    participant_action: >
+      Abgleich mitvollziehen, eigene Position im Programm-
+      Rahmen einordnen.
+    note: >
+      Ehrlichkeit: nicht alles versprechen. Lieber klar
+      sagen "das kommt heute nicht vor" als vage
+      Zusagen. Pinnwand am Ende wieder hernehmen
+      (Evaluation).
+
+variations:
+  - name: Klassisch (Metaplan-Kartenabfrage)
+    description: >
+      Karten, Stille, Einsammeln, Clustern, Abgleich.
+      Standardvariante.
+    when_to_use: >
+      Trainings-Einstieg, Workshop-Start. 6-30 TN. Wenn
+      strukturierte Erwartungsklärung gewünscht.
+  - name: Zwei-Farben-Variante (Erwartungen + Befürchtungen)
+    description: >
+      Zwei Kartenfarben: Erwartungen (grün) + Befürchtungen
+      (rot). Macht Sorgen sichtbar. Verwandt mit
+      Hoffnungen-Befürchtungen-Methode.
+    when_to_use: >
+      Bei emotional aufgeladenen Themen, Change-Kontexten,
+      wenn Vertrauens-Boden noch dünn.
+  - name: Digitale Kartenabfrage (Mural/Miro)
+    description: >
+      Online: digitale Sticky Notes, parallele Eingabe,
+      Drag-and-Drop-Clustering. Oft effizienter als
+      analog.
+    when_to_use: >
+      Online-Trainings, hybride Gruppen. Auch bei
+      Präsenz: digital spart Zeit beim Sortieren.
+    setting_codes: [remote_sync]
+  - name: Einstieg + Abschluss (Prä/Post)
+    description: >
+      Karten zu Beginn, Pinnwand bleibt sichtbar bis
+      zum Ende, dort Auswertung: "Welche Erwartungen
+      erfüllt? Welche offen?"
+    when_to_use: >
+      Trainings mit Evaluations-Anspruch. Wenn Erwartungs-
+      Trust wichtig ist.
+  - name: Partner-Variante (2er-Austausch vor Plenum)
+    description: >
+      Erst Paaraustausch über Erwartungen, dann Karten
+      schreiben. Reduziert soziale Erwünschtheit,
+      klärt vorab.
+    when_to_use: >
+      Größere Gruppen, wenn tieferer Erwartungs-Klärungs-
+      Prozess gewünscht.
+  - name: 1-Karte-1-Kern-Variante
+    description: >
+      Nur eine Karte pro Person: "Ihre wichtigste
+      Erwartung." Zwingt zur Priorisierung. Schneller.
+    when_to_use: >
+      Kurzformate (halbtags), wenn Priorität wichtiger
+      als Breite.
+
+pitfalls:
+  - issue: >
+      Karten werden zu allgemein ("viel lernen", "gut
+      fühlen") — liefern kein nutzbares Feedback.
+    countermeasure: >
+      Frage schärfen: "Was müsste konkret passieren?".
+      Bei unbrauchbaren Karten freundlich nachfragen:
+      "Was heißt das konkret?"
+    severity: common
+  - issue: >
+      Erwartungen werden erhoben, aber Trainer:in kann
+      oder will sie nicht berücksichtigen.
+    countermeasure: >
+      Nur dann Methode einsetzen, wenn echtes Anpassungs-
+      Mandat vorhanden. Ehrlich sagen, was nicht drin
+      ist. Nicht-Einlösen zerstört Vertrauen für ganzes
+      Training.
+    severity: common
+  - issue: >
+      Still-Phase wird abgekürzt, Gruppendenken
+      beginnt.
+    countermeasure: >
+      7 min sind Untergrenze. Timer. Bei Unruhe:
+      "Wir halten durch, die Stille dient Ihren eigenen
+      Erwartungen."
+    severity: common
+  - issue: >
+      Clustern wird chaotisch, viele Einzel-Cluster.
+    countermeasure: >
+      Zuerst Ober-Cluster formulieren lassen. Aggregation
+      erzwingen. Bei zu vielen: "Welche 3-5 sind Haupt-
+      Kategorien?"
+    severity: common
+  - issue: >
+      Pinnwand wird nicht nochmal hergenommen — Rückbezug
+      fehlt.
+    countermeasure: >
+      Pinnwand sichtbar im Raum. Am Ende explizit
+      zurück: "Schauen wir auf Ihre Erwartungen vom
+      Morgen."
+    severity: common
+  - issue: >
+      Große Gruppen (>25): Sammeln dauert ewig.
+    countermeasure: >
+      Digital-Variante, oder Kleingruppen mit je eigener
+      Pinnwand + Highlights im Plenum. Karten-Einsammeln
+      nicht für alle einzeln.
+    severity: common
+  - issue: >
+      Anonymität gebrochen (Handschrift erkannt, TN
+      weist sich selbst zu).
+    countermeasure: >
+      Druckbuchstaben als Regel. Moderation mischt Karten
+      vor Vorlesen. Nicht öffentlich zuordnen.
+    severity: rare

@@ -1,0 +1,229 @@
+slug: rollenspiel
+canonical_name: Rollenspiel
+synonyms:
+  - synonym: Role Play
+    language: en
+short_description: >
+  Teilnehmende übernehmen Rollen in einer vorgegebenen Situation und spielen
+  Interaktionen durch. Beobachter:innen geben anschließend Feedback.
+  Klassiker für Gesprächsführung, Konfliktmanagement, Verkauf.
+originator: Jacob L. Moreno (Psychodrama als Urform)
+origin_year: 1921
+origin_context: >
+  Wurzeln in Morenos Psychodrama (1920er); heute verbreitet in Soft-Skills-,
+  Verkaufs- und Führungstraining.
+phases:
+  - code: deepening
+  - code: practice
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Funktioniert, braucht aber klare Regeln (Kamera an, „Rolle raus" vor Feedback).
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [activating, cooperative]
+duration_min_minutes: 20
+duration_typical_minutes: 45
+duration_max_minutes: 90
+materials:
+  - Rollenbeschreibungen, ggf. Requisiten
+tags: [simulation, soft-skills, feedback-intensiv]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Fall & Rollen vorbereiten
+    duration_minutes: 10
+    trainer_action: >
+      Situation schildern: Kontext, Ausgangslage, Ziel der Interaktion.
+      Rollenkarten austeilen (für Rollenspieler:innen unterschiedliche
+      Karten mit Motivation/Hintergrund, nicht gleiche Info). Beobachter:innen
+      klare Beobachtungsaufgaben geben (z.B. „Ich-Botschaften zählen",
+      „Gesprächsanteile schätzen").
+    participant_action: >
+      Rolle lesen, sich einstellen. Beobachter:innen positionieren sich
+      mit Notizblock.
+    note: >
+      Asymmetrische Rollenkarten sind der Trick: TN sehen erst im Spiel,
+      was die andere Seite wirklich will. So entsteht echter Diskurs.
+  - order: 2
+    label: Spiel-Einstieg & Rahmen
+    duration_minutes: 5
+    trainer_action: >
+      Regel-Rahmen klar: Spielbeginn-Signal, Stop-Möglichkeit („Cut"),
+      keine persönlichen Angriffe, Fokus auf Rolle nicht Person.
+      Physisch Raum abgrenzen: „Dies ist die Spielfläche."
+    participant_action: >
+      Sich positionieren, in Rolle eintauchen (manche nehmen andere
+      Körperhaltung, Stimme).
+    note: >
+      Ein kurzer Rollen-Aktivierungs-Trick (z.B. „nennen Sie dreimal
+      Ihren Rollennamen laut") hilft aus dem Alltags-Selbst auszutreten.
+  - order: 3
+    label: Rollenspiel-Durchgang
+    duration_minutes: 10
+    trainer_action: >
+      Beobachten, nicht eingreifen. Ausnahme: Safe-Word „Cut" wenn
+      Grenzen verletzt werden. Bei Stillstand Impuls: „Was würde
+      deine Rolle jetzt sagen?".
+    participant_action: >
+      Interaktion spielen, im Rahmen der Rolle bleiben, auf
+      Gegenüber reagieren.
+    note: >
+      10 min ist Optimum. Bei kürzer: TN kommen nicht in Rolle.
+      Bei länger: Energie kippt und es wird Alltagsdialog.
+  - order: 4
+    label: Ausstieg aus der Rolle (De-Roling)
+    duration_minutes: 3
+    trainer_action: >
+      Aktiver Ausstieg: „Verlassen Sie jetzt die Rolle." Körperlich
+      Platz wechseln, Rollenname ablegen. Optional: kurz schütteln,
+      eigenen Namen laut sagen.
+    participant_action: >
+      Rolle ablegen, sich als eigene Person neu verorten.
+    note: >
+      De-Roling ist NICHT optional. Ohne läuft emotionales Echo
+      in die Feedback-Runde.
+  - order: 5
+    label: Feedback-Runde
+    duration_minutes: 15
+    trainer_action: >
+      Strukturiert: Zuerst Spielende selbst („Wie ist es dir in der
+      Rolle ergangen?"), dann Gegenüber, dann Beobachter:innen mit
+      ihren konkreten Beobachtungen (nicht Bewertungen). Leitung
+      synthetisiert Kernlearnings.
+    participant_action: >
+      Spielende reflektieren eigenes Erleben. Beobachter:innen nennen
+      Beobachtetes mit konkreten Belegen.
+    note: >
+      Regel: Beobachtung vor Bewertung. „Ich habe gesehen, dass..."
+      schlägt „du warst zu..." immer.
+  - order: 6
+    label: Transfer & Wiederholung
+    duration_minutes: 5
+    trainer_action: >
+      Abschlussfrage: „Was nimmst du mit, wenn du nächstes Mal in
+      ähnlicher Situation bist?". Optional: zweiter Durchgang mit
+      bewussten Änderungen.
+    participant_action: >
+      Eigenen Transfer formulieren.
+    note: >
+      Ein zweiter Durchgang bringt oft den größten Lern-Sprung —
+      wenn Zeit, unbedingt nutzen.
+
+variations:
+  - name: Klassisches Zweier-Rollenspiel
+    description: >
+      Zwei Spielende, 2-4 Beobachter:innen, strukturierte Feedbackrunde.
+      Standard für Gesprächsführungstrainings.
+    when_to_use: >
+      Feedback-Gespräche, Mitarbeiter-Jahresgespräch, Verkaufsgespräch,
+      Konfliktgespräch 1:1.
+  - name: Multi-Rollen (Meeting)
+    description: >
+      3-6 Spielende mit verschiedenen Rollen (Team-Meeting, Stakeholder-
+      Runde). Beobachter:innen fokussieren auf Dynamik statt auf
+      Einzelne.
+    when_to_use: >
+      Führungstrainings, Team-Coaching, Stakeholder-Management.
+  - name: Stehgreif-Rollenspiel
+    description: >
+      Situation spontan aus TN-Alltag entwickeln, ohne vorbereitete
+      Rollenkarten. Kürzer, weniger tief.
+    when_to_use: >
+      Aufwärmen für späteres ausführliches Rollenspiel; oder wenn
+      konkrete aktuelle Fälle der TN bearbeitet werden sollen.
+  - name: Video-Rollenspiel mit Replay
+    description: >
+      Rollenspiel aufzeichnen (mit Einverständnis!), in Feedback-Runde
+      Passagen gemeinsam ansehen. Selbstbild-Effekt sehr stark.
+    when_to_use: >
+      Intensiv-Trainings (Vertrieb, Rhetorik), bei gegebenem Vertrauen.
+      Kein Einstiegsformat.
+  - name: Remote-Rollenspiel
+    description: >
+      Video-Call, Kamera zwingend an, Hintergrund neutral. „Rollen-
+      Abgang" explizit durch Video-Aus/An oder Platzwechsel. Beobachter:innen
+      stummgeschaltet.
+    when_to_use: >
+      Remote-Teams. Funktioniert erstaunlich gut, weil die 2D-Video-
+      Situation oft dichter wirkt.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      TN bleiben in sich, spielen „höflich" — keine echte Interaktion
+      entsteht.
+    countermeasure: >
+      Asymmetrische Rollenkarten mit echten Zielkonflikten. Warm-up
+      mit Körperaktivität vor dem Spiel. Leitung fordert
+      energisch auf: „Spielen Sie groß, nicht klein."
+    severity: common
+  - issue: >
+      Persönliche Verletzung — TN nimmt Kritik aus dem Spiel mit nach Hause.
+    countermeasure: >
+      De-Roling zwingend. Regel: Feedback zu Rolle, nicht zu Person.
+      „Du hast…" durch „die Rolle hat…" ersetzen. Bei Eskalation
+      Safe-Word „Cut" durchsetzen.
+    severity: common
+  - issue: >
+      Beobachter:innen bewerten statt beobachten („das war schlecht").
+    countermeasure: >
+      Vorab Regel: nur Beobachtung + Wirkung auf sich selbst. Ggf.
+      Beobachtungsbogen strukturieren (was sagt die Person / was tut sie).
+    severity: common
+  - issue: >
+      TN verweigern sich der Rolle — „Das ist nicht wie ich".
+    countermeasure: >
+      Das ist OK und sogar Information. Klar ansagen: „Sie spielen
+      nicht sich, sondern eine Rolle." Notfalls Rolle tauschen oder
+      Person als Beobachter:in einsetzen.
+    severity: common
+  - issue: >
+      Spielzeit überzogen, Feedback-Zeit fehlt — Lernertrag verpufft.
+    countermeasure: >
+      Spielzeit per Timer begrenzen. Lieber 8 min Spiel + 15 min
+      Feedback als 20 min Spiel ohne Aufarbeitung.
+    severity: common
+  - issue: >
+      Hybrid/Remote: Hybrid-Setup (manche im Raum, andere remote) macht
+      Rollenspiel chaotisch; Remote-TN sind optisch zweitrangig.
+    countermeasure: >
+      Entweder alles onsite oder alles remote — Hybrid bei
+      Rollenspielen vermeiden. Alternative: Rolle dem Remote-TN geben,
+      Beobachter:innen im Raum.
+    severity: common
+    setting_codes: [hybrid]
+
+sources:
+  - kind: book
+    title: "Psychodrama — Grundlagen der Therapie und Praxis"
+    author: Jacob Levy Moreno
+    year: 1946
+    relation: originator
+    note: Ursprungs-Werk; Rollenspiel als Trainings-Methode abgeleitet aus Psychodrama.
+  - kind: book
+    title: "Rollenspiel in Training und Unterricht"
+    author: Ruth Limmer, Klaus Schneider
+    year: 2014
+    relation: practice_guide
+  - kind: book
+    title: "Rollenspiele professionell anleiten"
+    author: Katrin Hille
+    year: 2018
+    relation: practice_guide
+  - kind: article
+    title: "Role-play: A Practical Guide to Training and Development"
+    author: Morry van Ments
+    year: 1999
+    relation: reference

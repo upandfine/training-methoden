@@ -1,0 +1,184 @@
+slug: aktivierung-polarisierungs-abfrage
+canonical_name: Polarisierungs-Abfrage
+synonyms:
+  - synonym: Either/Or Poll
+    language: en
+  - synonym: Entweder-Oder-Abfrage
+    language: de
+short_description: >
+  Leitung stellt zugespitzte Entweder-Oder-Fragen („Strand oder Berge?",
+  „Text oder Video?"). Teilnehmende wechseln bei jeder Frage die Seite
+  im Raum. Aktiviert körperlich, erzeugt Lachen, zeigt Vielfalt.
+originator: null
+origin_context: >
+  Verbreiteter Energizer in Schul- und Seminarpraxis; verwandt mit
+  Vier-Ecken und Positionierungs-Aufstellungen.
+phases:
+  - code: activation
+    is_primary: true
+  - code: warmup
+  - code: getting_acquainted
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital per Reactions oder Two-Sides-Whiteboard.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [activating, icebreaker]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+tags: [polarisierung, bewegung, schnell]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Raum aufteilen & Regeln erklären
+    duration_minutes: 1
+    trainer_action: >
+      Raum in zwei Hälften teilen (Klebeband, imaginäre
+      Linie). "Ich stelle Entweder-Oder-Fragen. Jede:r
+      entscheidet sich, geht in passende Hälfte."
+    participant_action: >
+      Aufstehen, Raum-Aufteilung verstehen.
+    note: >
+      Niederschwellig framen. Spielerisch — Energizer-
+      Charakter.
+  - order: 2
+    label: Erste Fragen (leicht)
+    duration_minutes: 3
+    trainer_action: >
+      3-4 leichte Fragen: "Strand oder Berge? Tee oder
+      Kaffee? Hund oder Katze?" Jede Frage 30 Sek.
+      Bewegung im Raum, Spaß.
+    participant_action: >
+      Schnell entscheiden, Seite wechseln. Andere
+      sehen, lachen.
+    note: >
+      Anfangs leichte Fragen — Eis brechen. Komplexe
+      Fragen später.
+  - order: 3
+    label: Themen-bezogene Fragen
+    duration_minutes: 4
+    trainer_action: >
+      2-3 Trainings-bezogene Fragen: "Top-Down oder
+      Bottom-Up? Plan oder Spontaneität? Theorie oder
+      Praxis?" Übergang zum Inhalt.
+    participant_action: >
+      Mit eigenem Hintergrund antworten, Perspektive
+      sichtbar machen.
+    note: >
+      Themenbezug bringt Aktivierung + Diagnose. Wer
+      wo steht, ist Info.
+  - order: 4
+    label: Kurze Reflexion & Übergang
+    duration_minutes: 2
+    trainer_action: >
+      "Spannend, dass die Gruppe so verteilt ist. Mit
+      diesem Bild gehen wir in die nächste Phase."
+      Übergang zum Programm.
+    participant_action: >
+      Verteilung wahrnehmen, zu Plätzen.
+    note: >
+      Methode ist Energizer + leichte Diagnose.
+      Kein langer Debrief nötig.
+
+variations:
+  - name: Klassisch (5-7 Entweder-Oder-Fragen)
+    description: >
+      Standardvariante: leichte + thematische Fragen.
+    when_to_use: >
+      Seminar-Einstieg, nach Pause. 8-40 TN, ausreichend
+      Platz.
+  - name: Bewegungs-intensiv
+    description: >
+      Schnelle Fragen, viel Wechsel. Hochaktivierend.
+    when_to_use: >
+      Müde Gruppen, nach langer Sitzphase.
+  - name: Themen-fokussiert (Diagnose)
+    description: >
+      Nur Trainings-bezogene Fragen. Kombiniert
+      Aktivierung mit Vorerfahrung-Erhebung.
+    when_to_use: >
+      Vor Inhaltsblock, wenn Vorwissen sichtbar
+      werden soll.
+  - name: Remote (Reactions/Whiteboard)
+    description: >
+      Online: TN klicken Reaktion (Daumen / Herz)
+      oder bewegen Avatar zu zwei Whiteboard-Hälften.
+    when_to_use: >
+      Online-Trainings.
+    setting_codes: [remote_sync]
+  - name: Mit Begründung (kurze Stichprobe)
+    description: >
+      Nach jeder Frage 1-2 freiwillige Begründungen
+      ("Warum sind Sie auf der Seite?"). Mehr Tiefe.
+    when_to_use: >
+      Wenn Aktivierung + Reflexion gewünscht.
+
+pitfalls:
+  - issue: >
+      Fragen banal — Energie kommt nicht hoch.
+    countermeasure: >
+      Mix aus überraschend (lustig) und thematisch
+      (relevant). 2-3 spielerisch, dann fachlich.
+    severity: common
+  - issue: >
+      Zu viele Fragen — ermüdet.
+    countermeasure: >
+      Max. 5-7 Fragen. Energizer-Wirkung nach 6-8
+      Fragen weg.
+    severity: common
+  - issue: >
+      Körperlich Eingeschränkte — Aufstellen nicht
+      möglich.
+    countermeasure: >
+      Hand-Variante (Daumen links/rechts). Sitz-
+      Möglichkeit anbieten.
+    severity: rare
+  - issue: >
+      In Senior-Corporate kindisch.
+    countermeasure: >
+      Andere Energizer wählen (Stretching, Walk-and-
+      Talk). Polarisierung ist jugendnah.
+    severity: common
+  - issue: >
+      Raum zu klein für Wechsel.
+    countermeasure: >
+      Bei engen Räumen: Daumen-Variante. Oder andere
+      Methode.
+    severity: common
+  - issue: >
+      Bei großen Gruppen: Wechsel chaotisch.
+    countermeasure: >
+      Klare Ansage, kurze Wechsel-Zeit. Bei > 40 TN:
+      Daumen-Variante.
+    severity: common

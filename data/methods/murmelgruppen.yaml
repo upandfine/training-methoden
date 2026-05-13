@@ -1,0 +1,195 @@
+slug: murmelgruppen
+canonical_name: Murmelgruppen
+synonyms:
+  - synonym: Buzz Groups
+    language: en
+  - synonym: Murmelrunde
+    language: de
+short_description: >
+  Ganz kurzes Austauschen (1–3 Min.) mit den direkten Nachbar:innen zu einer
+  Frage, ohne formalen Rahmen. Niedrigschwelliger Aktivierungsbooster
+  mitten im Input.
+originator: null
+origin_year: null
+origin_context: >
+  Verwandt mit Kurzgruppenformaten wie Phillips 66; in der heutigen Form als
+  informeller 2er/3er-Kurztausch ein allgemeiner didaktischer Standard.
+phases:
+  - code: activation
+    is_primary: true
+  - code: input
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Breakouts zu 2–3, bewusst kurz (max. 3 Min.); Wechselzeit mitkalkulieren.
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [activating, cooperative]
+duration_min_minutes: 2
+duration_typical_minutes: 4
+duration_max_minutes: 6
+tags: [kurz, nachbar-austausch, durchhaenger-brecher]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: practice_guide
+    note: Kurzgruppenformate als aktivierende Mikro-Methoden.
+  - kind: book
+    title: "Unterrichtsmethoden I — Theorieband"
+    author: Hilbert Meyer
+    year: 2002
+    relation: reference
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Impuls & Murmelfrage stellen
+    duration_minutes: 1
+    trainer_action: >
+      Input/Vortrag/Segment unterbrechen. Konkrete, kurze Frage
+      stellen, die zum 2er-/3er-Austausch einlädt. Gute
+      Murmelfragen sind nah an der eigenen Erfahrung: „Was davon
+      erleben Sie in Ihrem Arbeitsalltag?"
+    participant_action: >
+      Frage hören, kurzen Augenkontakt zu Nachbar:in suchen.
+    note: >
+      Vage Fragen („Was denken Sie dazu?") produzieren vage
+      Murmelei. Spezifisch und erfahrungsnah formulieren.
+  - order: 2
+    label: Murmeln (2-3 Min.)
+    duration_minutes: 2
+    trainer_action: >
+      Murmelphase starten, sichtbar-akustisch ("Los geht's. 2 Minuten.
+      Mit Nachbar:in."). Timer laufen lassen. Moderation selbst
+      still — nicht eingreifen, Raum lassen. Ggf. durch Raum
+      wandern, um Interesse zu signalisieren.
+    participant_action: >
+      Mit direkter Nachbar:in zur Frage sprechen. Eigene
+      Beobachtung/Erfahrung einbringen, zuhören.
+    note: >
+      Nicht zu lang — 3 Min. ist die Obergrenze. Längere Buzz-
+      Gruppen werden zu Kleingruppen und verlieren den "Booster"-
+      Charakter.
+  - order: 3
+    label: Wechsel-Signal & Kurz-Aufgreifen
+    duration_minutes: 1
+    trainer_action: >
+      Sichtbares Signal (Glocke, lauter Hinweis "Schluss."). Kurz
+      einsammeln — 2-3 Wortmeldungen, nicht vollständiges Teilen:
+      "Was kam bei Ihnen raus?". Ergebnisse in 1-2 Sätzen
+      aufgreifen, dann im Input weitermachen.
+    participant_action: >
+      Gespräch abbrechen, 1-2 Stimmen beisteuern oder zuhören.
+    note: >
+      Das Aufgreifen ist Pflicht, sonst fühlen sich TN unsichtbar
+      und die Murmelphase wirkt wie Beschäftigungs-Deko. Aber
+      nicht zu lang — sonst wird aus 3 min Murmeln ein 10-min-
+      Schlenker.
+
+variations:
+  - name: Klassische Murmelphase (2er-Austausch)
+    description: >
+      Kürzestmögliche Variante: 2 Min. mit direkter Nachbar:in
+      zu einer präzisen Frage.
+    when_to_use: >
+      Alle 20-30 Min. in Vorträgen, um Aufmerksamkeit zu erhalten.
+      Nach Input-Blöcken, vor Zusammenfassung.
+  - name: Dreier-Murmelrunde (Triade)
+    description: >
+      Gleicher Ablauf, aber 3er-Gruppen. Ermöglicht Vielfalt an
+      Perspektiven, leicht längerer Rahmen (3-4 Min.).
+    when_to_use: >
+      Wenn Gruppe heterogen ist und 2er-Austausch zu einseitig
+      werden könnte. Mehr Verbindungschancen im Gesamtseminar.
+  - name: Murmeln mit Notizen
+    description: >
+      Kurzer Murmel-Austausch, dann 30 Sek. individuell notieren
+      ("Was war für mich neu / strittig / brauchbar?"). Notizen
+      nicht teilen, nur für sich.
+    when_to_use: >
+      In Fortbildungen, wenn Transfer ins eigene Handeln wichtig
+      ist. Kombiniert aktivierende Bewegung mit persönlicher
+      Integration.
+  - name: Remote-Murmelphase (Breakouts)
+    description: >
+      Zoom/Teams-Breakouts zu 2-3 Personen für 2-3 Min. Kürzere
+      Slots als onsite, weil Wechsel Zeit kostet. Gut für
+      längere Online-Trainings.
+    when_to_use: >
+      Online-Trainings ab 10 TN; wichtig zur Unterbrechung des
+      Frontal-Screen-Flows. Funktioniert mit automatischen
+      Breakouts.
+    setting_codes: [remote_sync]
+  - name: Schreib-Murmeln (Silent)
+    description: >
+      Statt sprechen: 2 Min. schreibend auf gemeinsamem Papier /
+      Whiteboard zur Frage notieren, ohne zu reden. Dann kurz
+      lesen lassen.
+    when_to_use: >
+      Wenn Gruppe sehr groß ist (>50) und Sprech-Chaos unvermeidlich
+      wäre. Oder in Settings, wo Geräuschpegel stören würde
+      (Bibliothek-Schulung, Großraumbüro).
+
+pitfalls:
+  - issue: >
+      Murmelfrage ist zu abstrakt, Gespräche verlaufen im Sand.
+    countermeasure: >
+      Frage vorher aufschreiben: „Nennen Sie ein Beispiel aus Ihrem
+      Alltag, bei dem...". Erfahrungsnah, beantwortbar in 1 Min.
+    severity: common
+  - issue: >
+      Murmelphase dauert zu lang, wird zur Kleingruppenarbeit.
+    countermeasure: >
+      Harter Timer (2 Min., akustisches Signal). Nach 3 Min.
+      ist es keine Murmelphase mehr. Disziplin bei der Moderation.
+    severity: common
+  - issue: >
+      TN kennen einander nicht / sitzen zu weit auseinander
+      → niemand fängt an.
+    countermeasure: >
+      Vor der ersten Murmelphase explizit ansagen: "Drehen Sie
+      sich zu Ihrer:m Nachbar:in um, auch wenn Sie sich nicht
+      kennen." Ggf. kurze Vorname-Runde als Auftakt.
+    severity: common
+  - issue: >
+      Aufgreifen-Phase überzieht, aus 3 Min. wird 10-Min-Diskussion.
+    countermeasure: >
+      Vorab ansagen: "Wir hören 2 Stimmen kurz, dann geht's
+      weiter." Selbstdisziplin der Moderation: nicht jede
+      Wortmeldung ausdiskutieren.
+    severity: common
+  - issue: >
+      Remote: Breakout-Wechsel verbraucht selbst 1-2 Min., echte
+      Gesprächszeit sinkt drastisch.
+    countermeasure: >
+      Breakout-Zeit nicht unter 3 Min. ansetzen. Oder auf Schreib-
+      Variante im Chat umsteigen, wenn Zeit knapp. Tool mit
+      schnellem Automatic-Breakout nutzen.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      TN nutzen Murmelzeit für Off-Topic (Mittagessen, Wetter) —
+      verpuffende Aktivierung.
+    countermeasure: >
+      Konkrete, verbindliche Frage statt offene Einladung. Durch
+      den Raum wandern signalisiert, dass zugehört werden kann.
+      Aufgreifen macht Ergebnisse sichtbar — belohnt On-Topic-
+      Gespräche.
+    severity: common

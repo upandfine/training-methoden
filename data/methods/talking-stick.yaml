@@ -1,0 +1,79 @@
+slug: talking-stick
+canonical_name: Talking Stick
+synonyms:
+  - synonym: Redestab
+    language: de
+  - synonym: Sprechobjekt
+    language: de
+  - synonym: Speaking Stone
+    language: en
+  - synonym: Council Stick
+    language: en
+
+short_description: >
+  Nur wer das Sprechobjekt in der Hand hat, redet — alle anderen hören
+  aktiv zu. Ursprünglich aus indigenen Ratsversammlungen Nordamerikas;
+  heute klassisches Werkzeug zur Beruhigung hitziger Gespräche, fairen
+  Verteilung von Redeanteilen und Förderung tiefen Zuhörens. Funktioniert,
+  weil das Objekt physisch macht, dass Rede ein Privileg ist, das man
+  bewusst übergibt.
+
+originator: null
+origin_context: >
+  Tradition mehrerer indigener Völker Nordamerikas (Lakota, Haudenosaunee
+  u.a.). Im westlichen Trainings- und Mediations-Kontext seit den 1990ern
+  populär — Stephen Covey nutzt das Talking Stick als Metapher in
+  "The 7 Habits"; Marshall Rosenberg empfiehlt es im Kontext der Gewaltfreien
+  Kommunikation für eskalierte Gespräche.
+
+phases:
+  - code: practice
+    is_primary: true
+  - code: deepening
+  - code: reflection
+  - code: closing
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Digitale Variante mit "virtuellem Mikrofon" (Klick-Übergabe in Mural) möglich, aber haptisch fehlt.
+  - code: hybrid
+    suitability: limited
+
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [cooperative, reflective]
+
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 60
+
+materials:
+  - Ein bedeutsames Objekt — Stab, Stein, Feder, Klangschale, etc.
+tags: [moderation, redeordnung, indigen, gespraech, deeskalation, dialog, stress]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "The 8th Habit: From Effectiveness to Greatness"
+    author: Stephen R. Covey
+    year: 2004
+    relation: reference
+    note: Covey adaptiert den Talking Stick als Konzept für aktives Zuhören.
+  - kind: book
+    title: "The Way of Council"
+    author: Jack Zimmerman, Virginia Coyle
+    year: 2009
+    relation: practice_guide
+    note: Standardwerk zur Council-Praxis im westlichen Kontext.
+  - kind: book
+    title: "Gewaltfreie Kommunikation: Eine Sprache des Lebens"
+    author: Marshall B. Rosenberg
+    year: 2016
+    relation: reference

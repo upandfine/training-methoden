@@ -1,0 +1,231 @@
+slug: kopf-hand-herz
+canonical_name: Kopf – Hand – Herz
+synonyms:
+  - synonym: Head-Hand-Heart
+    language: en
+short_description: >
+  Reflexions-Raster zum Abschluss. Teilnehmende notieren drei Dinge — was sie
+  gedanklich mitnehmen (Kopf), was sie konkret umsetzen wollen (Hand) und was
+  sie emotional bewegt (Herz).
+originator: null
+origin_context: >
+  Rückgriff auf Pestalozzis Dreiklang „Kopf – Herz – Hand" (um 1800); in
+  heutiger Form als Reflexions-Template weit verbreitet.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: transfer
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digital-Vorlage mit drei Feldern; jede:r füllt eigene Kachel auf Miro.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [reflective, visualization]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 30
+materials:
+  - Arbeitsblatt mit drei Feldern (Kopf / Hand / Herz)
+tags: [reflexion, dreiteilig, pestalozzi]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Lienhard und Gertrud"
+    author: Johann Heinrich Pestalozzi
+    year: 1781
+    relation: originator
+    note: >
+      Pestalozzis Dreiklang "Kopf, Herz, Hand" als ganzheitliches
+      Bildungsverständnis — didaktisch-historische Wurzel.
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Methodenbar für Trainer und Moderatoren"
+    author: Martina Schmidt-Tanger, Stephan Dahm
+    year: 2016
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Arbeitsblatt verteilen & Dreiklang erklären
+    duration_minutes: 3
+    trainer_action: >
+      Arbeitsblatt mit drei Feldern (Kopf, Hand, Herz) verteilen
+      oder digital teilen. Kurz erklären: Kopf = was habe ich
+      gedanklich verstanden/gelernt? Hand = was werde ich konkret
+      tun? Herz = was hat mich emotional berührt/bewegt? Einladung
+      zur Offenheit.
+    participant_action: >
+      Blatt entgegennehmen, drei Bereiche verstehen, erste
+      Assoziationen aktivieren.
+    note: >
+      Die drei Ebenen bewusst trennen: viele TN laufen Gefahr,
+      alles in "Kopf" zu schreiben. Kurze Beispiele helfen:
+      "Kopf = Konzept X hat mich überzeugt. Hand = am Montag
+      frage ich Kollegin Y. Herz = mich hat die Geschichte
+      gerührt."
+  - order: 2
+    label: Stille Einzelreflexion
+    duration_minutes: 10
+    trainer_action: >
+      10 min Stille. Jede:r füllt alle drei Felder für sich
+      selbst. Moderation bleibt sichtbar, schweigt, vermeidet
+      Nachfragen. Ruhige Atmosphäre schaffen — keine Musik
+      oder Gespräche im Raum.
+    participant_action: >
+      Still schreiben, ehrlich, kurz. Stichworte genügen,
+      keine Sätze nötig.
+    note: >
+      10 min sind Untergrenze für echte Tiefe. Wer verkürzt,
+      bekommt Oberflächliches. Die Still-Phase ist die
+      eigentliche Methode — alles andere ist Rahmen.
+  - order: 3
+    label: Austausch in 2er-Paaren
+    duration_minutes: 5
+    trainer_action: >
+      Paare bilden, 5 min Austausch (je 2-3 min pro Seite):
+      "Teilen Sie, was Sie mögen — kein Zwang, alles zu teilen."
+      Vor allem die Herz-Felder sind sensibel. Freiwilligkeit
+      klar ansprechen.
+    participant_action: >
+      Mit Partner:in teilen, was stimmig ist. Zuhören ohne
+      Bewertung. Eigene Herz-Anteile dürfen im eigenen
+      Raum bleiben.
+    note: >
+      Ohne Austausch bleibt die Reflexion oft zu abstrakt. Im
+      Paar werden Gedanken geschärft. Aber: nicht alles muss
+      geteilt werden, besonders die Herz-Dimension ist
+      vertraulich.
+  - order: 4
+    label: Plenum-Sharing (optional & freiwillig)
+    duration_minutes: 2
+    trainer_action: >
+      1-2 Freiwillige teilen im Plenum eine Erkenntnis. Kein
+      Durchgang aller. Moderation fragt offen: "Möchte jemand
+      etwas teilen?" Bei Schweigen kurze Stille aushalten, dann
+      weitergehen.
+    participant_action: >
+      Freiwillig teilen oder zuhören. Beide Optionen gleichwertig.
+    note: >
+      Plenum-Phase ist optional. Bei kleinen Gruppen ggf.
+      weglassen. Wichtiger ist das Paar-Gespräch. Bei großen
+      Gruppen: 2-3 Beispiele reichen.
+
+variations:
+  - name: Klassisch (drei Felder, 20 min)
+    description: >
+      Standardvariante: Arbeitsblatt, Einzelreflexion,
+      Paaraustausch, ggf. Plenum.
+    when_to_use: >
+      Seminar-Abschluss, Weiterbildungs-Ende, Lernreflexion
+      nach größeren Einheiten. 6-25 TN ideal.
+  - name: Visuelles Kopf-Hand-Herz
+    description: >
+      Statt Text: Symbole zeichnen oder Bildkarten auswählen
+      für jedes Feld. Nonverbale Reflexion.
+    when_to_use: >
+      Kreativ-affine Gruppen, Kinder/Jugend, Trainings mit
+      visueller Methodik. Auch bei sprachsensiblen Kontexten
+      (fremdsprachige TN).
+  - name: Kurz-Variante (10 min)
+    description: >
+      Nur 1 Stichwort pro Feld, kein Austausch. Sehr schnell,
+      in bestehende Abschluss-Rituale integrierbar.
+    when_to_use: >
+      Kurze Sessions (1-2h), wenn Tiefe-Abschluss nicht
+      notwendig, aber Struktur hilfreich.
+  - name: Kopf-Hand-Herz-Bauch (4 Felder)
+    description: >
+      Vierte Dimension "Bauch" — was sagt mein Bauchgefühl?
+      Noch stärkerer Fokus auf Intuition.
+    when_to_use: >
+      Coaching-Kontexte, Entscheidungs-Workshops, wenn
+      Intuition als eigenständige Kategorie wichtig ist.
+  - name: Remote (digitales Template)
+    description: >
+      Miro/Mural-Template mit drei Feldern pro TN. Sticky
+      Notes befüllen, teilweise anonym möglich. Breakouts
+      für Paaraustausch.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Funktioniert sehr
+      gut — Vorlage wiederverwendbar.
+    setting_codes: [remote_sync]
+  - name: Journal-Variante (3 × täglich)
+    description: >
+      Über mehrere Trainingstage: täglich abends eine Runde
+      Kopf-Hand-Herz. Zeigt Lernprozess.
+    when_to_use: >
+      Mehrtägige Intensiv-Trainings, Klausuren, Retreats.
+      Lernbegleitung über Zeit.
+
+pitfalls:
+  - issue: >
+      TN schreiben nur in "Kopf" — Hand und Herz bleiben leer.
+    countermeasure: >
+      Vor der Still-Phase Beispiele pro Feld zeigen. Nachfragen
+      bei Sichtung: "Ist etwas konkretes in Hand? Hat Sie etwas
+      bewegt?" — gerne auch Kleines würdigen.
+    severity: common
+  - issue: >
+      Herz-Feld wird als unangemessen intim empfunden.
+    countermeasure: >
+      Framing anpassen: "Was hat Sie bewegt/überrascht/
+      nachdenklich gemacht?" statt "emotional". Freiwilligkeit
+      zum Teilen klar machen. Corporate-Kontexte brauchen
+      oft zurückhaltenderen Einstieg.
+    severity: common
+  - issue: >
+      Paaraustausch wird zum Smalltalk — "war ja nett".
+    countermeasure: >
+      Fokus auf Inhalt geben: "Eine Erkenntnis teilen, nicht
+      über das Wetter." Zeitstruktur (2-3 min pro Seite) hält
+      die Form. Moderation kann mit Signal umschalten.
+    severity: common
+  - issue: >
+      Hand-Kategorie wird zu unkonkret ("ich will das anwenden").
+    countermeasure: >
+      Zusatzfrage: "Wann? Mit wem? Welcher erste Schritt?"
+      Auf konkreten Handlungsschritt zielen, nicht auf
+      Absichtsformulierung.
+    severity: common
+  - issue: >
+      Trainer:in zwingt zu Plenum-Sharing — "jetzt bitte alle
+      einmal eine Erkenntnis".
+    countermeasure: >
+      Plenum-Sharing freiwillig halten. 1-2 Meldungen reichen.
+      Wer nicht teilen will, teilt nicht. Die innere Reflexion
+      ist das Zielprodukt, nicht das öffentliche Bekenntnis.
+    severity: common
+  - issue: >
+      Arbeitsblatt wird mitgenommen, aber nie wieder angeschaut.
+    countermeasure: >
+      Follow-up-Impuls anbieten: "In 2 Wochen bitte in die
+      Mail schauen — was haben Sie von der Hand-Spalte
+      umgesetzt?" Transfer ohne Kontrolle, aber mit
+      Erinnerung.
+    severity: common
+  - issue: >
+      Zu knapp getaktet, TN hetzen durch die Felder.
+    countermeasure: >
+      10 min Still-Phase als Minimum, nicht Maximum.
+      Bei Zeitknappheit: Methode nicht einsetzen, andere
+      kürzere Reflexion wählen. Halbfertiges Kopf-Hand-Herz
+      ist Verschwendung.
+    severity: common

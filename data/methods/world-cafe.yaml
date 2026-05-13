@@ -1,0 +1,233 @@
+slug: world-cafe
+canonical_name: World Café
+synonyms:
+  - synonym: Café-Methode
+    language: de
+  - synonym: Knowledge Café
+    language: en
+
+short_description: >
+  Großgruppen-Format mit mehreren Tisch-Runden. Teilnehmende wechseln zwischen Tischen,
+  jeweils ein:e Gastgeber:in bleibt und trägt vorherige Ideen weiter. Erzeugt dichten
+  Austausch und Cross-Pollination zwischen Subgruppen.
+
+originator: Juanita Brown & David Isaacs
+origin_year: 1995
+origin_context: >
+  Entstanden 1995 in Kalifornien als spontanes Format einer zufällig entstandenen
+  Tischrunde. Seitdem in Organisationsentwicklung und Bürgerbeteiligung etabliert.
+
+phases:
+  - code: deepening
+  - code: group_work
+    is_primary: true
+  - code: expectations
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: >
+      Breakout-Rooms als Tische, geteiltes Miro/Mural-Board pro Tisch, Gastgeber:in
+      bleibt im Raum während Rest rotiert. Zeitmanagement per Gong/Timer.
+  - code: hybrid
+    suitability: limited
+
+group_sizes: [large, plenary]
+target_audiences: [corporate, adult_education, higher_education, ihk]
+method_types: [cooperative, creative, activating]
+
+duration_min_minutes: 60
+duration_typical_minutes: 120
+duration_max_minutes: 240
+
+materials:
+  - Pro Tisch ein Flipchart-Papier als Tischdecke, Stifte
+  - Leitfrage pro Tisch (sichtbar am Tisch)
+  - Klingel/Timer für Rundenwechsel
+
+tags: [großgruppe, beteiligung, ideensammlung]
+
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "The World Café: Shaping Our Futures Through Conversations That Matter"
+    author: Juanita Brown, David Isaacs
+    year: 2005
+    relation: originator
+  - kind: url
+    title: The World Café Community Foundation
+    url: https://theworldcafe.com/
+    relation: reference
+  - kind: url
+    title: "A Quick Reference Guide for Hosting World Café"
+    url: https://theworldcafe.com/wp-content/uploads/2015/07/Cafe-To-Go-Revised.pdf
+    relation: practice_guide
+    note: Offizielles Hosting-Handout der Brown/Isaacs-Community.
+  - kind: article
+    title: "The World Café: Living Knowledge Through Conversations That Matter"
+    author: Juanita Brown
+    year: 2001
+    relation: reference
+    note: Doktorarbeit von Juanita Brown, konzeptionelle Grundlage.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Setup & Framing
+    duration_minutes: 10
+    trainer_action: >
+      Raum als Café einrichten: 4-5 TN pro Tisch, Papier-"Tischdecke", Stifte,
+      sichtbare Leitfrage(n) je Tisch. Ablauf am Plenum erklären: Anzahl Runden,
+      Rotationsregel, Rolle der Gastgeber:in. Café-Etikette ansprechen
+      (zuhören, anknüpfen, auf Papier mitdenken).
+    participant_action: >
+      Ankommen, Tisch frei wählen, Ablauf verstehen. Erste Gastgeber:innen
+      freiwillig bestimmen (eine:r pro Tisch).
+    note: >
+      Leitfragen müssen generativ sein, nicht abfragend — offene „Was
+      wäre wenn…" oder „Was brauchen wir, um…" schlägt geschlossene Listen.
+  - order: 2
+    label: Runde 1 — Erste Assoziationen
+    duration_minutes: 20
+    trainer_action: >
+      Startet die Runde, sorgt für ruhigen Rahmen. Beobachtet Tische,
+      unterstützt Gastgeber:innen ohne einzugreifen. Timer sichtbar.
+    participant_action: >
+      Diskutieren die Tisch-Leitfrage, schreiben/kritzeln auf die
+      Tischdecke. Ideen, Skizzen, Fragen sind erlaubt, keine Protokolle.
+    note: null
+  - order: 3
+    label: Rotationswechsel
+    duration_minutes: 3
+    trainer_action: >
+      Gong/Signal. Rotationsregel durchsagen. Gastgeber:in bleibt, alle
+      anderen verteilen sich auf neue Tische.
+    participant_action: >
+      Neuen Tisch suchen, möglichst nicht mit denselben Leuten wie vorher.
+    note: >
+      Kurze Pause-Stimmung nicht zulassen — Energie hochhalten.
+  - order: 4
+    label: Runde 2 — Vertiefung durch Cross-Pollination
+    duration_minutes: 20
+    trainer_action: >
+      Gastgeber:innen briefen (kurz vor Start): 2-Minuten-Impuls zu
+      vorigem Stand, dann Raum für neue Stimmen. Beobachten, bei Bedarf
+      flüstern.
+    participant_action: >
+      Gastgeber:in hört 2 min zu, neue Ideen werden ergänzt. Verbindungen
+      zu eigenem Vorwissen von anderen Tischen werden sichtbar gemacht.
+    note: >
+      Hier passiert die eigentliche „Cross-Pollination" — das ist das
+      Herzstück des Formats.
+  - order: 5
+    label: Runde 3 — Verdichtung
+    duration_minutes: 20
+    trainer_action: >
+      Optional Leitfrage fokussieren („Was ist der entscheidende
+      Beitrag?"). Ermutigt zu Priorisierung/Markierung auf den Decken.
+    participant_action: >
+      Verdichten, markieren Kern-Insights mit Farbe/Stern/Rahmen.
+    note: >
+      3 Runden ist Standard; bei 60 min Gesamt geht auch nur 2 Runden.
+  - order: 6
+    label: Harvest / Ernte im Plenum
+    duration_minutes: 30
+    trainer_action: >
+      Führt Plenum: Jede:r Gastgeber:in präsentiert 2-3 Kern-Insights
+      vom eigenen Tisch. Alternativ: Gallery Walk — alle gehen zu den
+      Tischdecken. Offene Punkte festhalten, nächste Schritte benennen.
+    participant_action: >
+      Hören zu, fragen nach, ergänzen. Markieren individuell: „Was
+      nehme ich mit?"
+    note: >
+      Ohne sichtbare Ernte verpufft das Café. Mindestens 15 Minuten
+      einplanen.
+
+variations:
+  - name: Klassisches 3-Runden-Café
+    description: >
+      Drei Runden à 20 min mit Gastgeber:innen-Modell, gefolgt von
+      Plenum-Harvest. Standardformat für 20-100 TN.
+    when_to_use: >
+      Thema mit mehreren Facetten, genug Zeit (mind. 120 min),
+      breite Beteiligung gewollt.
+  - name: Thematisches Café
+    description: >
+      Jeder Tisch hat eine andere Leitfrage; TN wählen Tisch nach
+      Interesse und wechseln selbstgesteuert.
+    when_to_use: >
+      Wenn Teilthemen klar abgrenzbar sind und TN-Selbstlenkung
+      erwünscht ist (z.B. Strategie-Workshop mit mehreren Handlungsfeldern).
+  - name: Progressives Café
+    description: >
+      Leitfragen bauen pro Runde aufeinander auf (Was ist? → Warum?
+      → Was, wenn? → Was dann?). Tisch-Konstellation bleibt gleich, Fragen wandern.
+    when_to_use: >
+      Problemdiagnose + Lösungsfindung in einem Format,
+      homogenere Gruppen.
+  - name: Remote-Café (Breakout-Rooms)
+    description: >
+      Breakout-Rooms als Tische, geteiltes Miro/Mural-Board pro Raum
+      als Tischdecke. Gastgeber:in bleibt im Raum. Moderation per
+      Zeit-Slot und klaren Wechsel-Signalen.
+    when_to_use: >
+      Verteilte Teams oder Großgruppen, bei denen Onsite nicht möglich ist.
+    setting_codes: [remote_sync]
+  - name: Hybrid-Café
+    description: >
+      Vor-Ort-Tische mit Video-Conference-Leinwand; Remote-TN sind
+      per Video an einzelnen Tischen "dabei". Nur mit eigener
+      Audio/Video-Ausstattung pro Tisch praktikabel.
+    when_to_use: >
+      Wenn beide Modi zwingend sind; anspruchsvoll in der Moderation.
+    setting_codes: [hybrid]
+
+pitfalls:
+  - issue: >
+      Leitfrage zu geschlossen oder zu abstrakt formuliert — TN arbeiten
+      Checklisten ab statt zu denken.
+    countermeasure: >
+      Fragen vorab mit Pilotgruppe testen. Gute Fragen sind generativ
+      ("Was würde sich ändern, wenn…") und persönlich anschlussfähig.
+    severity: common
+  - issue: >
+      Gastgeber:in wird zum Bericht-Echo, referiert minutenlang
+      Vergangenes und erstickt neue Beiträge.
+    countermeasure: >
+      Gastgeber:innen explizit briefen: 2-Minuten-Impuls, dann aktiv
+      Fragen stellen („Was fügt ihr hinzu? Was seht ihr anders?").
+    severity: common
+  - issue: >
+      Keine sichtbare Ernte — die Tischdecken verschwinden, Insights
+      verpuffen, TN erleben das Café als Smalltalk.
+    countermeasure: >
+      Harvest-Schritt NICHT kürzen. Fotos der Decken, Gallery Walk,
+      oder Cluster-Board im Nachgang. Nächste Schritte konkret benennen.
+    severity: common
+  - issue: >
+      Tische zu groß (>6 Personen) — Ränder beteiligen sich nicht mehr.
+    countermeasure: >
+      Bei mehr TN lieber mehr Tische bauen (4-5 ist Optimum),
+      nicht größere Tische.
+    severity: common
+  - issue: >
+      Zu knappe Zeit für Rotation — chaotischer Übergang, Energieverlust.
+    countermeasure: >
+      Mindestens 2-3 Minuten für Rotation, klares Signal, evtl.
+      kurze Ansage zur neuen Gastgeber:innen-Rolle.
+    severity: rare
+  - issue: >
+      Remote: Breakout-Wechsel manuell ist fehleranfällig, TN landen
+      im falschen Raum.
+    countermeasure: >
+      Vorab fixe Raum-Zuordnung pro Runde (z.B. in Shared Doc),
+      automatisches Wechseln per Meeting-Tool wo möglich.
+    severity: common
+    setting_codes: [remote_sync, hybrid]

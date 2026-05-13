@@ -1,0 +1,173 @@
+slug: energizer-clap-in-sync
+canonical_name: Klatsch-Impuls (Clap in Sync)
+synonyms:
+  - synonym: Clap in Sync
+    language: en
+  - synonym: Klatsch-Weitergabe
+    language: de
+short_description: >
+  Im Kreis wird ein Klatsch-Impuls reihum weitergegeben — jede:r klatscht
+  möglichst zeitgleich mit den Nachbarn. Nach wenigen Runden wird das Tempo
+  erhöht oder die Richtung gewechselt. Fördert Fokus und Gruppengefühl.
+originator: null
+origin_context: >
+  Aus der Theater- und Improvisationsarbeit (z.B. Viola Spolin, Keith Johnstone)
+  übernommen; heute in agilen Team-Kickoffs und Konferenz-Energizern verbreitet.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: unsuitable
+    note: Audio-Latenz verhindert das synchrone Klatschen.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, adult_education]
+method_types: [energizer, game]
+duration_min_minutes: 3
+duration_typical_minutes: 5
+duration_max_minutes: 10
+tags: [energizer, klatschen, fokus, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Improvisation for the Theater"
+    author: Viola Spolin
+    year: 1963
+    relation: reference
+    note: Klatsch-Übungen als Improvisations-Klassiker.
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kreis bilden & Regeln
+    duration_minutes: 1
+    trainer_action: >
+      Stuhl- oder Stehkreis. "Ich klatsche zu meiner
+      Nachbarin links — sie klatscht möglichst
+      zeitgleich mit. Klatsch-Impuls geht reihum."
+      Vorzeigen.
+    participant_action: >
+      Im Kreis stehen, Nachbarn wahrnehmen.
+    note: >
+      Synchronität ist Kern. Bei zu früh klatschen:
+      keine Übergabe, sondern eigenes Klatschen.
+      Bei zu spät: Verzögerung.
+  - order: 2
+    label: Erste Runden synchronisieren
+    duration_minutes: 2
+    trainer_action: >
+      Klatsch-Impuls startet. 2-3 Runden langsam,
+      Synchronität üben. Lob bei guten Übergaben:
+      "Das war perfekt!"
+    participant_action: >
+      Mit Nachbarin synchron klatschen, weitergeben.
+    note: >
+      Erste Runden langsam — alle finden Rhythmus.
+      Tempo erst erhöhen, wenn Synchronität
+      sitzt.
+  - order: 3
+    label: Variationen & Tempo-Wechsel
+    duration_minutes: 1
+    trainer_action: >
+      Variationen: Richtung wechseln, Tempo
+      erhöhen, doppelt klatschen, Klatsch
+      "wegwerfen". Dynamik halten.
+    participant_action: >
+      Bei Variationen mitgehen. Schnell reagieren.
+    note: >
+      Variationen halten Spiel frisch. Nicht zu
+      viele auf einmal — sonst Verwirrung.
+  - order: 4
+    label: Abschluss
+    duration_minutes: 1
+    trainer_action: >
+      Mit gemeinsamem Klatschen oder Applaus
+      enden. "Jetzt wach und fokussiert. Los geht's
+      mit..."
+    participant_action: >
+      Zur Sitzordnung zurück, Energie mitnehmen.
+    note: >
+      Nicht ausweiten. Energizer ist Impuls, nicht
+      Hauptprogramm. Auf Hochpunkt beenden.
+
+variations:
+  - name: Klassisch (Reihum-Klatsch)
+    description: >
+      Standard: Klatsch geht im Kreis weiter.
+    when_to_use: >
+      Schule, Jugend, Theater-Kontexte. 8-25 TN.
+  - name: Mit Tempo-Steigerung
+    description: >
+      Tempo erhöhen bis Bruchpunkt. Mehr Spaß,
+      mehr Konzentration.
+    when_to_use: >
+      Erfahrene Gruppen, wenn Steigerung erwünscht.
+  - name: Mit Richtung-Wechsel
+    description: >
+      Per Geste Richtung umkehren. Aufmerksamkeit
+      hochhalten.
+    when_to_use: >
+      Mittel-erfahren, wenn klassisch zu langweilig.
+  - name: Mit "Stolen Clap" (übernehmen)
+    description: >
+      Eine Person kann Klatsch "stehlen" und in
+      andere Richtung weitergeben.
+    when_to_use: >
+      Theater-affin, fortgeschrittene Improvisation.
+
+pitfalls:
+  - issue: >
+      Synchronität klappt nicht — Methode bricht ab.
+    countermeasure: >
+      Langsamer starten. Bei Bruch: nicht frustriert,
+      neu anfangen. Synchronität ist Übung, nicht
+      Talent.
+    severity: common
+  - issue: >
+      In Senior-Corporate kindisch.
+    countermeasure: >
+      Andere Energizer (Stretching, Atmung).
+      Klatschen ist jugendnah.
+    severity: common
+  - issue: >
+      Körperlich Eingeschränkte — Klatschen schwer.
+    countermeasure: >
+      Sanfte Variante (Schnipsen, Tippen).
+      Inklusiv anpassen.
+    severity: rare
+  - issue: >
+      Remote: Latenz killt Synchronität.
+    countermeasure: >
+      Online andere Energizer (Echo-Klatsch:
+      Moderation klatscht, alle einzeln nach).
+      Synchron ist remote nicht möglich.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Spiel zu lang — Energie sinkt.
+    countermeasure: >
+      Max. 3-5 min. Energizer-Charakter durch
+      Kürze.
+    severity: common

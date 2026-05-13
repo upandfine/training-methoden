@@ -1,0 +1,75 @@
+slug: mediation
+canonical_name: Mediation
+synonyms:
+  - synonym: Konfliktmediation
+    language: de
+  - synonym: Schlichtung
+    language: de
+  - synonym: Mediation
+    language: en
+  - synonym: Conflict Mediation
+    language: en
+
+short_description: >
+  Strukturierter Konflikt-Klärungsprozess durch eine allparteiliche dritte
+  Person. Fünf Phasen: Auftragsklärung, Themensammlung, Konfliktbearbeitung,
+  Lösungsfindung, Vereinbarung. Geeignet, wenn zwei Personen oder Gruppen
+  einen Konflikt nicht mehr alleine klären können — die Mediator:in moderiert
+  ohne eigene Lösungsvorschläge.
+
+originator: null
+origin_context: >
+  Mediations-Verfahren als formale Methode hat in den USA der 1970er Wurzeln
+  (Frank Sander, Harvard); im deutschsprachigen Raum etabliert seit den
+  1990ern, gesetzlich verankert durch das Mediationsgesetz 2012. Heute
+  Standard in Wirtschafts-, Familien- und Schulmediation.
+
+phases:
+  - code: practice
+    is_primary: true
+  - code: deepening
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Möglich, aber Körpersprache und Pausen-Signal verlieren an Wirkung.
+  - code: hybrid
+    suitability: limited
+
+group_sizes: [one_on_one, small]
+target_audiences: [corporate, school, ihk, adult_education]
+method_types: [cooperative, reflective]
+
+duration_min_minutes: 60
+duration_typical_minutes: 120
+duration_max_minutes: 480
+
+materials:
+  - Flipchart/Whiteboard zur Themensammlung
+  - Optional Bodenanker für Positionsklärung
+tags: [konflikt, klärung, allparteilich, gespraech, mediation]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "Konfliktmanagement: Ein Handbuch für Führungskräfte, Beraterinnen und Berater"
+    author: Friedrich Glasl
+    year: 2020
+    relation: reference
+    note: Systematik des Konflikteskalations-Modells, Grundlage moderner Mediations-Praxis.
+  - kind: book
+    title: "Mediation: Konflikte ohne Verlierer"
+    author: Christoph Besemer
+    year: 2016
+    relation: practice_guide
+  - kind: book
+    title: "Das Geheimnis erfolgreicher Mediation"
+    author: Thomas Trenczek, Detlev Berning
+    year: 2017
+    relation: practice_guide

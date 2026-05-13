@@ -1,0 +1,185 @@
+slug: ls-1-2-4-all
+canonical_name: 1-2-4-All
+synonyms:
+  - synonym: Liberating Structure 1-2-4-All
+    language: en
+short_description: >
+  Gestufte Aktivierung — 1 Min. alleine, 2 Min. zu zweit, 4 Min. zu viert,
+  dann Plenum. Jede:r denkt mit, niemand muss kalt im Plenum sprechen.
+  Mini-Architektur für die meisten Ideensammlungen.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_year: 2013
+origin_context: >
+  Eine der 33 Liberating Structures — bewusst kleine, kombinierbare Interaktions-Bausteine.
+phases:
+  - code: activation
+    is_primary: true
+  - code: group_work
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Geradezu ideal — Breakouts 2er, dann 4er, zurück ins Plenum; explizit auch remote konzipiert.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, activating]
+duration_min_minutes: 10
+duration_typical_minutes: 15
+duration_max_minutes: 25
+tags: [liberating-structures, gestuft, plenum-ohne-kaltstart]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2013
+    relation: originator
+  - kind: url
+    title: Liberating Structures — 1-2-4-All
+    url: https://www.liberatingstructures.com/1-1-2-4-all/
+    relation: reference
+  - kind: url
+    title: "Liberating Structures — Including and Unleashing Everyone (Prinzip)"
+    url: https://www.liberatingstructures.com/
+    relation: reference
+    note: Gesamtübersicht der 33 LS-Strukturen; 1-2-4-All ist die „Swiss-Army-Knife"-Struktur.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage präsentieren
+    duration_minutes: 2
+    trainer_action: >
+      Generative Frage klar und sichtbar formulieren (z.B. „Welche
+      Chancen sehen Sie in X?", „Was hindert uns derzeit?").
+      Ablauf kurz erklären: 1 min allein, 2 min zu zweit, 4 min
+      zu viert, dann kurzer Plenum-Austausch.
+    participant_action: >
+      Frage lesen, sich innerlich einstellen.
+    note: >
+      Die Frage entscheidet über 80% des Erfolgs. Geschlossene Fragen
+      („Wer ist für X?") machen das Format sinnlos.
+  - order: 2
+    label: 1 — Solo-Reflexion
+    duration_minutes: 1
+    trainer_action: >
+      Timer starten, absolute Stille. Auf Versuche einzugreifen nicht
+      reagieren. „Sie haben noch 30 Sekunden" als einzige Intervention.
+    participant_action: >
+      Alleine überlegen, stichpunktartig notieren.
+    note: >
+      Die 1 Minute ist heilig — nicht verkürzen, auch nicht wenn alle
+      fertig scheinen.
+  - order: 3
+    label: 2 — Paar
+    duration_minutes: 2
+    trainer_action: >
+      Paar-Bildung anweisen (Sitznachbar:in oder Nummer). Zeit
+      ansagen. Beobachten aus Abstand.
+    participant_action: >
+      Ideen austauschen, ergänzen, verbinden. Jede:r spricht mindestens
+      einmal.
+    note: >
+      Bei ungerader TN-Zahl: Eine 3er-Gruppe bilden, nicht zum Partner machen.
+  - order: 4
+    label: 4 — Gruppe
+    duration_minutes: 4
+    trainer_action: >
+      Zwei Paare zu viert zusammenführen. Aufgabe: Ähnlichkeiten,
+      Unterschiede, überraschende Punkte benennen. Zu einem Vorschlag
+      verdichten, den die Gruppe im Plenum einbringen könnte.
+    participant_action: >
+      Reihum berichten, Gemeinsames und Neues markieren. Gruppenantwort
+      stichpunktartig formulieren.
+    note: >
+      Falls Gruppe zu schnell fertig wirkt: zusätzliche Aufgabe —
+      „Was wäre eine mutigere Version?".
+  - order: 5
+    label: All — Plenum-Share
+    duration_minutes: 5
+    trainer_action: >
+      Frage: „Was war der wichtigste Gedanke in eurer Gruppe?".
+      Max 4-5 Gruppen sprechen lassen, Kern an Flipchart sammeln.
+      Nicht auf Vollständigkeit zielen.
+    participant_action: >
+      Gruppen-Sprecher:innen teilen Essenz kompakt (max. 30 sek).
+    note: >
+      Plenum nie länger als die 4er-Phase. Sonst kippt 1-2-4-All zur
+      klassischen Diskussionsrunde.
+
+variations:
+  - name: Klassisches 1-2-4-All
+    description: >
+      Standardformat 1-2-4-min Sequenz + Plenum. Für fast alle
+      generativen Fragen.
+    when_to_use: >
+      Wenn eine Gruppe zu einer Frage breit aktiviert werden soll,
+      ohne dass einzelne den Diskurs dominieren.
+  - name: 1-2-4-4-All (Doppel-Gruppe)
+    description: >
+      Statt einmal zu viert zwei aufeinanderfolgende 4er-Runden mit
+      gemischter Neuzusammensetzung.
+    when_to_use: >
+      Komplexere Fragen, größere Gruppen (30+), mehr Cross-Pollination
+      gewollt.
+  - name: 1-2-4-All mit Poll
+    description: >
+      Statt Plenum-Share: Alle Gruppen schreiben 1-2 Kernthesen auf
+      Zettel/Miro. Anschließend Dot-Voting zur Priorisierung.
+    when_to_use: >
+      Wenn am Ende eine Entscheidung oder Priorisierung stehen soll.
+  - name: Remote 1-2-4-All
+    description: >
+      Solo im Chat/per Miro-Sticky; 2er und 4er als Breakout-Rooms;
+      All als Chat-Sammlung oder kurzes Video-Plenum.
+    when_to_use: >
+      Remote-Sync. Laut LS-Autor:innen das Format, das am besten
+      remote skaliert.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Frage ist geschlossen oder zu spezifisch — Gruppen finden nichts
+      zu diskutieren, fallen auf Smalltalk zurück.
+    countermeasure: >
+      Vorab selbst mit einer Test-Person durchprobieren: „Was würde
+      ich darauf in 4 Minuten sagen?" Wenn unter 3 Gedanken: neu formulieren.
+    severity: common
+  - issue: >
+      Zeitblöcke zu kurz oder zu lang — 1-2-4 wird 30 sec / 5 min / 10 min.
+    countermeasure: >
+      Sichtbarer Timer, stoisch einhalten. Format ist kurz-intensiv
+      by design; Abweichen entwertet die Struktur.
+    severity: common
+  - issue: >
+      Plenum wird überdehnt — Leitung will alle Gruppen hören,
+      Aufmerksamkeit kollabiert.
+    countermeasure: >
+      Regel: max 4-5 Gruppen. Danach explizit: „Falls etwas Wichtiges
+      fehlt — Handzeichen." Harvest-Flipchart ersetzt Vollständigkeit.
+    severity: common
+  - issue: >
+      Gruppen in 4er-Phase bilden sich nach Sympathie, nicht zufällig —
+      gleiche Perspektiven, wenig Lerngewinn.
+    countermeasure: >
+      Paare per Zählmethode bilden und 4er durch Zusammenschluss
+      benachbarter Paare; oder Remote-Random-Assignment.
+    severity: rare
+  - issue: >
+      Asynchron/Hybrid: Struktur funktioniert nicht — die Echtzeit-Staffelung
+      ist Kernmechanik.
+    countermeasure: >
+      Bei Async: anderes Format wählen (Brainwriting, Schreibgespräch).
+      Bei Hybrid: alle machen 1-2-4 synchron, nur Share ist hybrid.
+    severity: common
+    setting_codes: [remote_async, hybrid]

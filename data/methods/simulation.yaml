@@ -1,0 +1,243 @@
+slug: simulation
+canonical_name: Simulation
+synonyms:
+  - synonym: Simulation
+    language: en
+  - synonym: Planspiel (i.w.S.)
+    language: de
+short_description: >
+  Teilnehmende handeln in einer vereinfachten, aber realistischen Modellsituation
+  (Fallbetrieb, Verkaufsgespräch, Krisensitzung). Kombiniert Anwenden, Handeln
+  und Fehler-dürfen; ermöglicht tiefe Verarbeitung.
+originator: null
+origin_context: >
+  Entwickelt aus Planspieltradition (USA, 1950er, RAND Corporation) und
+  Handlungsorientierung (Roth, Aebli); heute zentrales Element in
+  kompetenzorientiertem Lernen (z.B. IHK, Medizin, Sicherheitstraining).
+phases:
+  - code: practice
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital als Web-Simulation oder moderiertes Rollenspiel mit Szenariodokumenten.
+  - code: remote_async
+    suitability: good
+    note: Als asynchrone Online-Simulation (z.B. Harvard Business Simulations).
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [game, cooperative, activating]
+duration_min_minutes: 60
+duration_typical_minutes: 200
+duration_max_minutes: 480
+tags: [simulation, planspiel, handlungsorientiert]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Planspiel und Simulation"
+    author: Willy Christian Kriz
+    year: 2011
+    relation: practice_guide
+    note: Standardwerk zu didaktischen Planspielen.
+  - kind: book
+    title: "Crew Resource Management"
+    author: Barbara Kanki et al.
+    year: 2010
+    relation: reference
+    note: >
+      Simulation als Goldstandard im sicherheits-
+      kritischen Training (Luftfahrt, Medizin).
+  - kind: article
+    title: "The pedagogical value of simulations"
+    author: Salas, E., Wildman, J. L., Piccolo, R. F.
+    year: 2009
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Szenario & Rollen vorbereiten (Prep, außerhalb)
+    duration_minutes: 0
+    trainer_action: >
+      VOR dem Training: Szenario ausgearbeitet —
+      realistisch, mit klaren Eckdaten, Rollen-
+      Beschreibungen, möglichen Eskalationen. Materialien
+      vorbereiten (Dokumente, Datensätze, Requisiten).
+      Briefing-Pakete pro Rolle.
+    participant_action: >
+      — (nur Trainer:in)
+    note: >
+      Realismus entscheidet. Schlecht designte Simulation
+      = Spielcharakter ohne Lerneffekt. Mit Praxis-
+      Expert:innen vorab testen.
+  - order: 2
+    label: Briefing & Rollen-Einnahme
+    duration_minutes: 30
+    trainer_action: >
+      TN bekommen Rollen-Briefings, lesen sich ein.
+      Kurze Klärungsrunde — Verständnis prüfen.
+      Materialien austeilen (Daten, Hintergrund-
+      Dokumente). Beobachter:innen mit Beobachtungs-
+      Auftrag.
+    participant_action: >
+      Rolle verstehen, Hintergrund einlesen, Rolle
+      mental einnehmen. Beobachter:innen Fokus klären.
+    note: >
+      30 min Briefing sind Pflicht. Bei knapper
+      Vorbereitung wird Simulation flach — TN sind
+      nicht in Rolle.
+  - order: 3
+    label: Simulation läuft
+    duration_minutes: 80
+    trainer_action: >
+      Start-Signal. Simulation läuft selbstständig.
+      Moderation führt Eskalations-Impulse ein
+      (neue Information, Marktveränderung, Kund:innen-
+      Anruf). Beobachter:innen dokumentieren.
+    participant_action: >
+      In Rolle handeln, Entscheidungen treffen,
+      kommunizieren mit anderen Rollen, auf
+      Eskalationen reagieren.
+    note: >
+      Moderation greift inhaltlich nicht ein. Auch
+      Sackgassen sind Lerneffekt. Eskalationen
+      machen Simulation dynamisch.
+  - order: 4
+    label: Cool-Down & Entrollung
+    duration_minutes: 10
+    trainer_action: >
+      Klares Ende-Signal. Alle aus Rolle: aufstehen,
+      Raum wechseln, eigenen Namen sagen. Körperliche
+      Entrollung wichtig.
+    participant_action: >
+      Aus Rolle treten, sich selbst wieder einnehmen.
+    note: >
+      Entrollung nie weglassen. Bei intensiven
+      Simulationen: 10 min, Bewegung, Atem.
+      Psychologisch wichtig.
+  - order: 5
+    label: Strukturierter Debrief
+    duration_minutes: 80
+    trainer_action: >
+      Drei-Phasen-Debrief, mindestens so lang wie die
+      Simulation selbst: (1) ca. 30 min Spieler:innen
+      "Wie war's?" (2) ca. 30 min Beobachter:innen mit
+      konkreten Beobachtungen. (3) ca. 20 min Meta:
+      "Was lernen wir für Praxis?"
+    participant_action: >
+      Eigenes Erleben teilen, Beobachtungen
+      einbringen, Transfer ziehen.
+    note: >
+      Debrief ist mindestens so lang wie die
+      Simulation selbst — bei sicherheitskritischen
+      Trainings sogar länger. Lerneffekt liegt
+      hier.
+
+variations:
+  - name: Klassische Simulation (3-4h)
+    description: >
+      Standard-Variante: Briefing, Simulation,
+      Debrief. Realistische Komplexität.
+    when_to_use: >
+      Sicherheits-Trainings, Management-Education,
+      Verhandlungs-Training. Wenn Zeit + Realismus
+      möglich.
+  - name: Kurz-Simulation (60 min)
+    description: >
+      Komprimiert: 15 min Briefing, 30 min Spiel,
+      15 min Debrief. Reduzierte Komplexität.
+    when_to_use: >
+      Erste Methoden-Erfahrung, Zeitknappe Settings.
+  - name: Computer-gestützte Simulation
+    description: >
+      Online-Simulation mit interaktiver Software
+      (z.B. Harvard Business Simulations,
+      Markenstrategie-Sim). Komplexe Datenmodelle.
+    when_to_use: >
+      MBA-Programme, Technical Training. Erfordert
+      Lizenzen.
+    setting_codes: [remote_sync, remote_async]
+  - name: High-Fidelity-Simulation (Realraum)
+    description: >
+      Nachgebauter realer Raum (OP, Cockpit, Notruf-
+      Zentrale). Hochrealistisch.
+    when_to_use: >
+      Medizin, Luftfahrt, Militär. Wenn Investition
+      in Infrastruktur möglich.
+  - name: Crisis-Simulation
+    description: >
+      Krisenübung mit eskalierender Dynamik. Speziell
+      für Krisenstab-Training, Notfallpläne.
+    when_to_use: >
+      Krisenmanagement, IT-Security, BCM-Training.
+  - name: Multi-Tag-Simulation
+    description: >
+      Über mehrere Tage verteilt, mit "echten" Pausen.
+      Tagesgeschäft-Simulation.
+    when_to_use: >
+      Lange Programme, MBA, wenn Realismus wichtig
+      ist (Tag-zu-Tag-Folgen).
+
+pitfalls:
+  - issue: >
+      Szenario zu künstlich — TN bleiben distanziert.
+    countermeasure: >
+      Realismus stark machen: echte Daten, plausible
+      Details, reale Namen. Vorab mit Praxis-
+      Expert:innen testen.
+    severity: common
+  - issue: >
+      Briefing zu kurz — Rollen werden nicht
+      verstanden.
+    countermeasure: >
+      30 min Briefing ist Minimum. Klärungsrunden
+      vorab. Bei Unklarheit: Material überarbeiten.
+    severity: common
+  - issue: >
+      Moderation greift in Simulation ein —
+      kontrolliert.
+    countermeasure: >
+      Moderation ist Eskalations-Regie, nicht
+      Schauspiel-Direktion. Selbstdisziplin.
+      Auch Scheitern ist Lerneffekt.
+    severity: common
+  - issue: >
+      Debrief zu kurz — Lerneffekt verpufft.
+    countermeasure: >
+      Debrief mindestens 30-60 min. Drei-Phasen-
+      Modell. Bei Zeitknappheit: Simulation
+      kürzen, nicht Debrief.
+    severity: common
+  - issue: >
+      Emotionale Belastung nach Simulation —
+      Verarbeitung fehlt.
+    countermeasure: >
+      Cool-Down + Entrollung ernst nehmen. Bei
+      sensiblen Themen: 1:1-Nachgespräch
+      anbieten.
+    severity: rare
+  - issue: >
+      Erstellungs-Aufwand wird unterschätzt.
+    countermeasure: >
+      Realistisch: Szenario-Design + Materialien
+      brauchen 20-60h Vorarbeit. Wiederverwendbarkeit
+      einplanen.
+    severity: common
+  - issue: >
+      Bei großen Gruppen: zu viele Rollen — Übersicht
+      verloren.
+    countermeasure: >
+      Max. 8-10 Rollen. Bei mehr: parallele
+      Simulationen mit gleichem Szenario.
+      Komplexität begrenzen.
+    severity: common

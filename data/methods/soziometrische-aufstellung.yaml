@@ -1,0 +1,252 @@
+slug: soziometrische-aufstellung
+canonical_name: Soziometrische Aufstellung
+synonyms:
+  - synonym: Aufstellung im Raum
+    language: de
+  - synonym: Sociometric Lineup
+    language: en
+short_description: >
+  Teilnehmende positionieren sich im Raum entlang einer Dimension
+  (Erfahrung, Herkunft, Zustimmung). Macht Gruppenzusammensetzung visuell sichtbar.
+originator: Jacob L. Moreno (soziometrische Grundidee)
+origin_year: 1934
+origin_context: >
+  Morenos Soziometrie-Konzept (1934), von der Erlebnispädagogik und Großgruppenarbeit
+  als Methode adaptiert.
+phases:
+  - code: getting_acquainted
+  - code: expectations
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digitale Skala auf Miro/Mural mit Namens-Magneten.
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [diagnostic, activating, visualization]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 40
+tags: [gruppendiagnostik, bewegung, visualisierung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: Who Shall Survive? A New Approach to the Problem of Human Interrelations
+    author: Jacob L. Moreno
+    year: 1934
+    relation: originator
+    note: Morenos Grundlagenwerk der Soziometrie — Basis aller Aufstellungs-Methoden.
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+    note: Aufstellungen als Grundtechnik erlebnispädagogischer Arbeit.
+  - kind: book
+    title: "Systemische Organisationsberatung"
+    author: Fritz B. Simon
+    year: 2018
+    relation: reference
+    note: >
+      Systemische Anwendung — Aufstellungen als diagnostische
+      Interventionen in Organisations-Kontexten.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Raum vorbereiten & Dimension festlegen
+    duration_minutes: 2
+    trainer_action: >
+      Raum: genug Platz, Bodenlinie oder imaginäre Achse.
+      Dimensionen festlegen: vertikal/horizontal, einlinig
+      (Skala) oder zweidimensional (Matrix). Pole klar
+      benennen: "Hier — 0 Jahre Erfahrung, dort — 20+ Jahre."
+    participant_action: >
+      Raum wahrnehmen, Pole registrieren, aufstehen.
+    note: >
+      Pole sichtbar markieren (Schilder, Kreuze auf Boden).
+      Ohne Markierung: TN positionieren sich orientierungslos.
+      Bei zweidimensionaler Aufstellung: zwei Achsen
+      deutlich kreuzen.
+  - order: 2
+    label: Frage stellen & positionieren
+    duration_minutes: 3
+    trainer_action: >
+      Frage klar formulieren: "Wie viele Jahre Erfahrung
+      haben Sie in X? Positionieren Sie sich entsprechend."
+      Alle gleichzeitig aufstellen, nicht sequenziell.
+      Bei Unsicherheit: "Grob reicht."
+    participant_action: >
+      Eigene Position wählen, im Verhältnis zu anderen
+      orientieren, leicht anpassen.
+    note: >
+      Soziometrie ist körperlich — das ist Teil der Wirkung.
+      TN erleben ihre Position zu anderen leiblich, nicht
+      nur kognitiv. Das macht Aufstellungen besonders
+      stark.
+  - order: 3
+    label: Ergebnis sichten & thematisieren
+    duration_minutes: 5
+    trainer_action: >
+      Moderation bewegt sich entlang der Aufstellung, liest
+      laut vor: "Ich sehe hier links zwei Personen mit
+      wenig Erfahrung, in der Mitte eine Gruppe mit 5-10
+      Jahren, rechts zwei Routiniers mit 15+ Jahren."
+      Nicht werten.
+    participant_action: >
+      Eigene Position relativ zu anderen wahrnehmen.
+      Überraschungen registrieren ("ich hätte gedacht,
+      mehr hätten weniger Erfahrung").
+    note: >
+      Bild lesen schafft Gemeinschafts-Einsicht. TN
+      erfahren etwas über Gruppe (und sich in Gruppe),
+      was ohne Aufstellung verborgen wäre.
+  - order: 4
+    label: Kurz-Interviews an ausgewählten Punkten
+    duration_minutes: 5
+    trainer_action: >
+      An Extrem-Positionen oder überraschenden Clustern
+      kurz interviewen: "Warum stehen Sie hier ganz außen?"
+      "Was bedeutet Ihre mittlere Position für heute?"
+      Freiwillig, nicht zwingen.
+    participant_action: >
+      Kurz erläutern, was die eigene Position motiviert.
+      Zuhören, wenn andere erzählen.
+    note: >
+      Interviews machen die Aufstellung sprechfähig. Ohne
+      sie: nur Bild. Mit ihnen: Bild + Geschichte.
+      2-3 Stimmen reichen.
+  - order: 5
+    label: Mehrere Runden (optional)
+    duration_minutes: 3
+    trainer_action: >
+      Bei Bedarf mehrere Dimensionen: "Wie sicher fühlen
+      Sie sich? Wie wichtig ist Ihnen das Thema?"
+      Neue Aufstellung pro Dimension.
+    participant_action: >
+      Bei jeder neuen Dimension neu positionieren.
+    note: >
+      Mehrere Dimensionen zeigen Gruppenprofil.
+      Aber: nicht mehr als 3-4, sonst wird es mechanisch.
+  - order: 6
+    label: Übergang zur Hauptarbeit
+    duration_minutes: 2
+    trainer_action: >
+      Rückführung: "Diese Verteilung ist gut zu wissen —
+      ich berücksichtige sie in der heutigen Arbeit."
+      Überleitung zum Programm.
+    participant_action: >
+      Zurück zu Plätzen, Einsichten mitnehmen.
+    note: >
+      Nachklang wichtig. Aufstellung ist nicht Selbstzweck —
+      sie informiert das weitere Vorgehen. Ankündigen,
+      wie die Info verwendet wird.
+
+variations:
+  - name: Ein-Dimensions-Aufstellung (Skala)
+    description: >
+      Eine Linie, TN positionieren sich auf Skala zu einer
+      Frage. Standardvariante.
+    when_to_use: >
+      Schnelle Diagnose (Erfahrung, Wissen, Zustimmung).
+      10-40 TN.
+  - name: Zwei-Dimensions-Aufstellung (Matrix)
+    description: >
+      Zwei Achsen kreuzen sich. TN positionieren sich in
+      2D-Raum. Z.B. Erfahrung × Interesse.
+    when_to_use: >
+      Komplexere Diagnose, strategische Workshops. Wenn
+      mehrere Dimensionen wichtig sind.
+  - name: Netzwerk-Aufstellung
+    description: >
+      TN positionieren sich nach Beziehungen ("Wer hat mit
+      wem schon gearbeitet?"). Visualisiert Sozial-Netzwerk.
+    when_to_use: >
+      Team-Zusammenstellung, Organisationsdiagnose,
+      Onboarding-Phase mit bestehender Gruppe.
+  - name: Präferenz-Aufstellung
+    description: >
+      Entlang einer Präferenz ("Wie wichtig ist Ihnen X?").
+      Verbunden mit Vier-Ecken-Methode möglich.
+    when_to_use: >
+      Erwartungsklärung, Themenprioritäten in Gruppe.
+  - name: Digitale Aufstellung (Miro/Mural)
+    description: >
+      Online: Skala oder Matrix auf Whiteboard, TN ziehen
+      Avatare. Anonym oder mit Namen möglich.
+    when_to_use: >
+      Remote-Trainings. Bewegungs-Element entfällt, aber
+      Visualisierungs-Kern bleibt.
+    setting_codes: [remote_sync]
+  - name: Dimensionen-Wechsel
+    description: >
+      Mehrere Aufstellungen nacheinander zu verschiedenen
+      Fragen (Erfahrung, Erwartung, Energie). Zeigt Profile.
+    when_to_use: >
+      Workshop-Einstieg mit Diagnose-Ambition, Teamklausuren.
+      Mehr Zeit (30+ min).
+
+pitfalls:
+  - issue: >
+      Pole sind unklar — TN wissen nicht, wo "viel" und
+      "wenig" ist.
+    countermeasure: >
+      Sichtbare Markierungen (Schilder, Flipcharts). Beim
+      Erklären zweimal zeigen: "Hier = wenig, dort = viel."
+      Bei Unsicherheit: kurz nochmal klären.
+    severity: common
+  - issue: >
+      TN vermeiden extreme Positionen aus Schamgefühl.
+    countermeasure: >
+      Framing entspannt: "Ihre Position ist kein Urteil —
+      nur Ist-Zustand." Bei wiederholter Meiden-Tendenz:
+      andere Methode (Karten, anonym).
+    severity: common
+  - issue: >
+      Moderation wertet implizit ("ah, Sie sind erfahren!")
+      — beeinflusst.
+    countermeasure: >
+      Neutrale Sprache: "Ich sehe..." statt "Super..." oder
+      "Schade...". Bewertung ist nicht die Aufgabe.
+    severity: common
+  - issue: >
+      Große Gruppen (>30) machen Aufstellung unübersichtlich.
+    countermeasure: >
+      Gruppen-Splits, oder Digital-Variante. Oder Methode
+      umlenken: "Wer mehr als 10 Jahre — bitte die Hand
+      heben" statt Raum-Aufstellung.
+    severity: common
+  - issue: >
+      Körperliche Einschränkungen — nicht alle können
+      mitpositionieren.
+    countermeasure: >
+      Alternative: Karten mit Positionen auf Tisch, oder
+      per Hand-Zeichen. Niemand ausgeschlossen.
+    severity: rare
+  - issue: >
+      Sensible Dimensionen ("Wie zufrieden sind Sie im
+      Team?") ohne Vertrauen — TN verweigern ehrliche
+      Positionierung.
+    countermeasure: >
+      Anfängliche Aufstellungen niederschwellig
+      (Erfahrung, Lieblings-Essen). Erst nach Vertrauensaufbau
+      sensiblere Dimensionen. Oder Anonym-Varianten.
+    severity: common
+  - issue: >
+      Nach der Aufstellung folgt kein Transfer — bleibt
+      "wir haben da gestanden".
+    countermeasure: >
+      Anschluss an Hauptarbeit sichtbar machen. "Weil wir
+      sehr heterogen sind, arbeite ich in 3 Tempi."
+      Aufstellung als Orientierungs-Hilfe nutzen, nicht als
+      Ritual.
+    severity: common

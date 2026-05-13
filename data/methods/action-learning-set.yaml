@@ -1,0 +1,272 @@
+slug: action-learning-set
+canonical_name: Action Learning Set
+synonyms:
+  - synonym: ALS
+    language: en
+  - synonym: Aktionslern-Gruppe
+    language: de
+short_description: >
+  Feste Kleingruppe (4–7 Personen) bearbeitet über mehrere Treffen reale
+  Praxisprobleme der Mitglieder. Einer schildert, andere fragen — nur Fragen,
+  keine Ratschläge. Zwischen den Treffen werden Handlungsschritte erprobt.
+originator: Reg Revans
+origin_context: >
+  Entwickelt in den 1940ern von Reg Revans im britischen Kohlebergbau;
+  heute Standardformat in Führungskräfte-Entwicklung und lernenden
+  Organisationen.
+phases:
+  - code: practice
+    is_primary: true
+  - code: transfer
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Funktioniert sehr gut per Videocall; längere Serien niederschwelliger.
+  - code: remote_async
+    suitability: limited
+    note: Asynchrone Varianten (Foren) existieren, Energie geringer.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [cooperative, reflective]
+duration_min_minutes: 120
+duration_typical_minutes: 150
+duration_max_minutes: 240
+tags: [action-learning, gruppenberatung, praxisproblem, langfristig]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "ABC of Action Learning"
+    author: Reg Revans
+    year: 1998
+    relation: originator
+    note: >
+      Revans' kompakte Einführung zu seinem Lernformat — Kern:
+      "L = P + Q" (Lernen = Programmed knowledge + Questioning).
+  - kind: book
+    title: "Action Learning: Research and Practice"
+    author: Mike Pedler (Hrsg.)
+    year: 2008
+    relation: practice_guide
+    note: Umfassendes Sammelband mit Fallstudien und Set-Varianten.
+  - kind: book
+    title: "Action Learning: How the World's Top Companies Are Re-Creating Their Leaders and Themselves"
+    author: Michael Marquardt
+    year: 2004
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Set-Aufbau & Arbeitsvereinbarung
+    duration_minutes: 30
+    trainer_action: >
+      Set etablieren (4-7 Personen, feste Zusammensetzung über
+      6-12 Monate). Arbeitsvereinbarung klären: Vertraulichkeit,
+      Regelmäßigkeit (1-2× monatlich), Zeitbudget pro Treffen
+      (2-3h), Rollen (Set-Advisor oder selbstorganisiert).
+      Nur Fragen-Regel ernst machen.
+    participant_action: >
+      Rahmenbedingungen akzeptieren, Commitment zu
+      Regelmäßigkeit abgeben, Arbeitsvereinbarung
+      unterschreiben.
+    note: >
+      Set-Qualität entsteht durch Konstanz. Wer unregelmäßig
+      kommt, zerstört Vertrauen. Lieber kleineres, verlässliches
+      Set als großes mit Wechsel.
+  - order: 2
+    label: Check-in & Themen-Wahl
+    duration_minutes: 15
+    trainer_action: >
+      Kurzer Check-in aller Mitglieder: "Was beschäftigt Sie
+      gerade? Was ist Ihre aktuelle Herausforderung?" Dann
+      Entscheidung: Wer stellt heute ein Thema ein? Je nach
+      Dringlichkeit und Vorbereitungsstand. Meistens 1-2
+      Themen pro Treffen.
+    participant_action: >
+      Aktuelle Lage teilen, eigene Anliegen einbringen.
+      Gruppe entscheidet gemeinsam, wer heute im Fokus steht.
+    note: >
+      Nicht jedes Mitglied kommt in jedem Treffen dran — das
+      ist normal. Wichtiger: Qualität der Bearbeitung pro
+      Thema, nicht Menge.
+  - order: 3
+    label: Fallpräsentation (15 min)
+    duration_minutes: 15
+    trainer_action: >
+      "Presenter" schildert eigenes reales Problem oder
+      Entscheidungssituation. Kontext, eigene Perspektive,
+      was bisher versucht wurde, was die Kernfrage ist.
+      Andere hören schweigend zu, machen Notizen.
+    participant_action: >
+      Presenter: schildert authentisch, auch mit Unsicherheit.
+      Set-Mitglieder: hören aktiv, schreiben Fragen auf,
+      unterbrechen nicht.
+    note: >
+      Authentizität ist Pflicht. Wer "verkauft" statt
+      "schildert", verliert die Set-Dynamik. Verletzlichkeit
+      ist in Action Learning ein Stärke-Zeichen.
+  - order: 4
+    label: Fragerunde (45-60 min)
+    duration_minutes: 60
+    trainer_action: >
+      Set-Mitglieder stellen Fragen — nur Fragen, keine
+      Ratschläge. Regel strikt durchsetzen. Fragen können
+      sein: klärend ("Was meinen Sie mit X?"), öffnend
+      ("Was würde passieren, wenn...?"), konfrontativ
+      ("Was hindert Sie daran?").
+    participant_action: >
+      Fragen stellen, die helfen, das Problem aus neuen
+      Winkeln zu sehen. Presenter antwortet so ehrlich wie
+      möglich, auch mit "Das weiß ich nicht".
+    note: >
+      Die Nur-Fragen-Regel ist der Kern. Verstöße ("Ich finde,
+      Sie sollten...") müssen sanft aber klar korrigiert werden.
+      Rat-Geben ist verboten, weil es die Lernsituation killt.
+  - order: 5
+    label: Handlungsplanung (20 min)
+    duration_minutes: 20
+    trainer_action: >
+      Presenter formuliert, was er/sie bis zum nächsten Set-
+      Treffen tun wird. Konkret, überschaubar: "Ich werde
+      bis XX mit Person Y darüber sprechen." Set hält fest,
+      fragt nach Machbarkeit und Commitment.
+    participant_action: >
+      Presenter: konkrete Schritte benennen, nicht zu viel
+      auf einmal. Set: fragen nach Realismus, unterstützen
+      bei Konkretion.
+    note: >
+      Action Learning lebt von tatsächlichem Ausprobieren.
+      Beim nächsten Treffen wird berichtet. Das ist nicht
+      Option — ist Kern der Methodik.
+  - order: 6
+    label: Meta-Reflexion & Check-out
+    duration_minutes: 10
+    trainer_action: >
+      "Was war heute im Set hilfreich? Was hat sich im Denken
+      bewegt?" Kurzer Reflexions-Blick, auch für andere
+      Set-Mitglieder, die nicht im Fokus waren. Präsentation
+      des Presenter von nächstem Treffen.
+    participant_action: >
+      Reflektion teilen, eigene Lern-Erfahrung benennen,
+      Planung fürs nächste Treffen.
+    note: >
+      Meta-Reflexion ist wichtig, weil Set-Qualität
+      reflektiert werden muss. Wer nur über Inhalte spricht,
+      vernachlässigt die Methodik.
+
+variations:
+  - name: Klassisches Action Learning Set (Revans)
+    description: >
+      Feste Gruppe über 6-12 Monate, monatliche Treffen à 3h.
+      Reale Praxisprobleme, strikte Fragen-Regel.
+      Standardvariante.
+    when_to_use: >
+      Führungskräfte-Entwicklung, Change-Begleitung, lernende
+      Organisationen. Wenn Langzeit-Commitment möglich ist.
+  - name: Action Learning Set mit externem Set-Advisor
+    description: >
+      Professionelle:r Moderator:in begleitet das Set über
+      mehrere Treffen, schützt Struktur und Regeln.
+      Empfohlen für Einsteiger-Sets.
+    when_to_use: >
+      Erste Set-Erfahrungen, wenn Methodik-Reife noch nicht
+      da. Oft die ersten 3-5 Treffen mit Advisor, dann
+      selbstorganisiert.
+  - name: Kollegiale Beratung als Light-Version
+    description: >
+      Ähnliche Struktur, aber einmaliges Treffen statt
+      Langzeit-Set. Weniger Tiefe, niedrigere Einstiegs-
+      hürde.
+    when_to_use: >
+      Einmalige Workshops, Fortbildungen, wenn Methode
+      erprobt werden soll ohne Langzeit-Committment.
+  - name: Remote Action Learning Set
+    description: >
+      Digitales Format über Video. Sonst identische Struktur.
+      Tools: Video-Konferenz, geteiltes Notizdokument,
+      Chat für schriftliche Fragen.
+    when_to_use: >
+      Verteilte Teams, internationale Sets. Funktioniert
+      überraschend gut, weil Fokus auf Fragen (nicht
+      Körpersprache).
+    setting_codes: [remote_sync]
+  - name: Thematisch fokussiertes Set
+    description: >
+      Alle Mitglieder arbeiten an ähnlichem Themenbereich
+      (z.B. "Führungsübergang", "Digitale Transformation").
+      Synergie durch geteilte Vorerfahrung.
+    when_to_use: >
+      Onboarding-Programme, Transition-Phasen, wenn mehrere
+      Personen ähnliche Herausforderungen bearbeiten.
+  - name: Internationale Action Learning Sets (WIAL)
+    description: >
+      Nach Marquardts Standard: zusätzliche Rollen (Coach,
+      Problem-Presenter, Set-Members), stärkere Strukturierung
+      der Fragerunden.
+    when_to_use: >
+      Corporate-Kontexte mit WIAL-Zertifizierung, größere
+      Programme (Global Leadership Development).
+
+pitfalls:
+  - issue: >
+      Set-Mitglieder können die Nur-Fragen-Regel nicht halten,
+      geben Ratschläge.
+    countermeasure: >
+      Regel in jedem Treffen erinnern. Bei Verstoß:
+      "Das war ein Rat — bitte als Frage formulieren."
+      Set-Advisor kann konsequent einhaken.
+    severity: common
+  - issue: >
+      Presenter erzählt unter der Zeit zu sehr, Fragerunde
+      wird zu kurz.
+    countermeasure: >
+      Timer für Fall-Präsentation (15 min, abrupt stoppen).
+      Fragerunde ist der Wert der Methode, nicht die
+      Schilderung.
+    severity: common
+  - issue: >
+      Set wird zum "Jammer-Set" — viel Klage, wenig Handlung.
+    countermeasure: >
+      Handlungsplanung (Schritt 5) ist Pflicht. Beim nächsten
+      Treffen wird berichtet. Ohne Action-Bericht: keine
+      neue Fall-Zeit.
+    severity: common
+  - issue: >
+      Unregelmäßige Teilnahme — Vertrauen schwindet.
+    countermeasure: >
+      Klare Commitment-Vereinbarung zu Beginn. Bei
+      wiederholten Ausfällen: Set-Gespräch über
+      Zugehörigkeit. Lieber 4 Treue als 7 Wackelige.
+    severity: common
+  - issue: >
+      Presenter bringt "einfache" Probleme, die keine echte
+      Herausforderung sind.
+    countermeasure: >
+      Set selbst fordert: "Ist das wirklich Ihre schwerste
+      Frage gerade?" Oft ist das erste Präsentierte nicht
+      das Eigentliche — Fragerunde dringt tiefer.
+    severity: common
+  - issue: >
+      Vertraulichkeit wird verletzt (Inhalte verlassen Set).
+    countermeasure: >
+      In Arbeitsvereinbarung explizit festgehalten. Bei
+      Verstoß: sofortige Set-Aussprache, evtl. Ausschluss.
+      Vertrauen ist nicht wiederherstellbar nach Bruch.
+    severity: rare
+  - issue: >
+      Handlungspläne werden vereinbart, aber nicht umgesetzt.
+    countermeasure: >
+      Beim nächsten Treffen nachhaltig nachfragen: "Sie
+      wollten XX — was ist passiert?" Ernsthaftigkeit
+      der Methode hängt am Tun.
+    severity: common

@@ -1,0 +1,274 @@
+slug: pro-contra-debatte
+canonical_name: Pro-Contra-Debatte
+synonyms:
+  - synonym: Streitgespräch
+    language: de
+  - synonym: Pro-Con Debate
+    language: en
+short_description: >
+  Zwei Teams vertreten strukturiert je eine Position (ggf. per Los zugewiesen).
+  Nach Redezeit, Kreuzverhör und Schlussplädoyer folgt Meta-Reflexion. Schult
+  Argumentation, Perspektivwechsel und strukturiertes Zuhören.
+originator: null
+origin_context: Tradition schulischer und hochschulischer Debattierkultur.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Breakouts zur Vorbereitung, Hauptraum für Debatte; Redezeiten per Timer.
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [cooperative, activating, didactic]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 120
+materials:
+  - Thesenblatt, Timer
+tags: [argumentation, debatte, perspektivwechsel]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Unterrichtsmethoden II — Praxisband"
+    author: Hilbert Meyer
+    year: 2002
+    relation: practice_guide
+    note: Didaktische Einordnung der strukturierten Debatte.
+  - kind: book
+    title: "Jugend debattiert — Methodenhandbuch"
+    author: Ansgar Kemmann et al.
+    year: 2015
+    relation: practice_guide
+    note: Jugend-debattiert-Standard mit strenger Formatstruktur.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: These formulieren & Teams zuordnen
+    duration_minutes: 5
+    trainer_action: >
+      Eine klare, dichotome These setzen ("Homeoffice sollte bis
+      4 Tage/Woche Pflicht sein."). Per Los zwei Teams bilden
+      (Pro/Contra) — bewusst Los, nicht Wahl, weil
+      Perspektivwechsel Lernziel ist. Rollen in Teams flexibel
+      verteilen: mindestens 2 Aktive pro Team (eine:r Eröffnung,
+      eine:r Kreuzverhör/Schluss; Zeitnehmer-Rolle bei kleinen
+      Teams von der Moderation übernommen). Bei größeren Teams:
+      bis zu 3 Redner:innen + 1 Zeitnehmer:in.
+    participant_action: >
+      These verstehen, Team-Zugehörigkeit akzeptieren, auch
+      wenn Position nicht der eigenen entspricht.
+    note: >
+      Die Zufalls-Zuordnung ist entscheidend. "Ich vertrete die
+      andere Seite" ist Lerneffekt, nicht Zumutung. Bei
+      Widerstand: "Das ist die Methode — genau deshalb lernen
+      Sie am meisten."
+  - order: 2
+    label: Team-Vorbereitung
+    duration_minutes: 15
+    trainer_action: >
+      Teams erarbeiten 3 Hauptargumente und mögliche
+      Gegenargumente + Antworten. Struktur vorgeben:
+      Behauptung → Begründung → Beispiel → Folgerung (BBEF).
+      Moderation wandert, gibt Impulse bei Stocken.
+    participant_action: >
+      Argumente sammeln, strukturieren, Rollen verteilen
+      (wer beginnt, wer vertieft, wer schließt).
+    note: >
+      15 min sind Untergrenze. Bei komplexen Themen oder
+      Neuen auf der Methode: 20-30 min. Vorbereitung ist
+      der größte Lerneffekt.
+  - order: 3
+    label: Eröffnungsplädoyers (3 + 3 min)
+    duration_minutes: 8
+    trainer_action: >
+      Je ein:e Sprecher:in pro Team präsentiert 3-min-Plädoyer
+      (Pro beginnt, dann Contra). Strenger Timer. Publikum
+      (falls vorhanden) hört zu, notiert Argumente. Moderation
+      visualisiert die Kernargumente am Flipchart.
+    participant_action: >
+      Sprecher:in: strukturiert vortragen, klar, nicht hetzen.
+      Team: zuhören, Gegenargumente notieren für Kreuzverhör.
+    note: >
+      Zeit-Disziplin ist didaktisch wichtig — abrupt stoppen
+      bei Timer-Ende. TN lernen, in Zeit zu denken. Auch wenn
+      mitten im Satz.
+  - order: 4
+    label: Kreuzverhör (5 + 5 min)
+    duration_minutes: 10
+    trainer_action: >
+      Nach Eröffnungen: Pro stellt 5 min lang Fragen an Contra,
+      dann Contra an Pro. Kurze, scharfe Fragen — keine
+      Statements. Ziel: Schwachstellen im Argument aufdecken.
+    participant_action: >
+      Fragende: Fragen formulieren, die Lücken aufdecken.
+      Antwortende: präzise antworten, ausweichen vermeiden.
+    note: >
+      Kreuzverhör ist die intellektuell anspruchsvollste Phase.
+      "Jede Frage muss sich innerhalb von 5 Sek stellen lassen."
+      Ausschweifende Statements werden moderativ gekappt.
+  - order: 5
+    label: Schlussplädoyers (2 + 2 min)
+    duration_minutes: 5
+    trainer_action: >
+      Jedes Team fasst zusammen — was war der stärkste Punkt?
+      Wo wurde die Gegenseite entlarvt? Kein neues Material,
+      nur Synthese. Contra beginnt (umgekehrte Reihenfolge),
+      dann Pro.
+    participant_action: >
+      Schlussplädoyer halten — Highlights der eigenen Argumentation,
+      Wertung der gegnerischen Antworten. Emotional ankommen
+      lassen.
+    note: >
+      Schlussplädoyer ist Handwerk: "Was ist der eine Satz,
+      den das Publikum mitnehmen soll?". Vorher im Team
+      abstimmen.
+  - order: 6
+    label: Publikums-Votum & Meta-Reflexion
+    duration_minutes: 17
+    trainer_action: >
+      Publikum (oder Gruppe selbst) stimmt ab: Welche Seite
+      war überzeugender? Warum? Dann Meta-Reflexion: "Wie
+      war es, die Position zu vertreten? Was habt ihr über
+      die Gegenseite gelernt?". Hier die eigentliche
+      Lernphase.
+    participant_action: >
+      Votum abgeben, Beobachtungen teilen — welche Argumente
+      haben überzeugt? Was war schwach? Eigene Perspektive
+      reflektieren.
+    note: >
+      Meta-Reflexion ist der Kern. Ohne sie bleibt Pro-Contra
+      ein Wettbewerb. Mit ihr: Erkenntnis über eigene
+      Argumentations-Muster und Voreingenommenheit.
+
+variations:
+  - name: Klassische Debatte (Jugend-debattiert-Format)
+    description: >
+      Formatstrenge Variante mit vorgegebenen Redezeiten
+      (2-3-2-5-5-2 min). Standard für Wettbewerbe.
+    when_to_use: >
+      Schul- oder Hochschul-Debatten, Jugend-debattiert,
+      Argumentations-Training mit hoher Strenge.
+  - name: Kurz-Debatte (30 min)
+    description: >
+      Komprimiert: 5 min Vorbereitung, je 2 min Plädoyer,
+      3 min Kreuzverhör, 5 min Debrief. Weniger Tiefe, mehr
+      Flexibilität.
+    when_to_use: >
+      Einstieg in Methode, knappe Zeitfenster, wenn mehrere
+      Themen hintereinander bearbeitet werden sollen.
+  - name: Kleingruppen-Debatte (ab 4 TN, 2 gegen 2)
+    description: >
+      Zwei 2er-Teams. Jede Person übernimmt beide Sprech-Rollen
+      (Eröffnung + Schluss oder Eröffnung + Kreuzverhör). Keine
+      Zeitnehmer-Rolle — Moderation hält die Zeit. Kein Publikum,
+      Gruppe reflektiert selbst.
+    when_to_use: >
+      Kleinere Seminare oder Coaching-Gruppen (4-8 TN), wenn die
+      Methode dennoch eingesetzt werden soll. Weniger Formalismus,
+      aber volles Perspektivwechsel-Lernziel.
+  - name: Rotierende Debatte (Rollenwechsel)
+    description: >
+      Nach dem ersten Durchgang werden Rollen getauscht —
+      Pro wird Contra und umgekehrt. Gleiche These, neue
+      Seite. Vertieft den Perspektivwechsel.
+    when_to_use: >
+      Lange Trainings (2-3h), wenn Flexibilität im Argumentieren
+      Lernziel ist. Sehr intensiv.
+  - name: Fishbowl-Debatte
+    description: >
+      Kleine Debattier-Gruppe in der Mitte, Außen-Ring
+      beobachtet. Nach Schlussplädoyer wechseln
+      Beobachter:innen rein. Mehr TN können lernen.
+    when_to_use: >
+      Größere Gruppen (16+), wenn Argumentation trainiert
+      werden soll, aber nicht alle gleichzeitig aktiv sein
+      können.
+  - name: Remote-Debatte (Video-Konferenz)
+    description: >
+      Breakouts für Vorbereitung, Hauptraum für Debatte.
+      Redezeiten über Timer sichtbar. Chat für Beobachtungen.
+    when_to_use: >
+      Verteilte Gruppen. Funktioniert, aber Dichte geringer
+      als Präsenz (weniger Körpersprache, verzögerte Reaktionen).
+    setting_codes: [remote_sync]
+  - name: Multi-Team-Debatte (4 Positionen)
+    description: >
+      Vier Teams vertreten differenzierte Positionen (z.B.
+      "radikal pro", "moderat pro", "moderat contra",
+      "radikal contra"). Komplexer, aber realistischer.
+    when_to_use: >
+      Hochschul-Kontexte, komplexe ethische/politische Themen.
+      Wenn Dichotomie zu stark verkürzt.
+
+pitfalls:
+  - issue: >
+      Teams identifizieren sich emotional mit zugelostem
+      Standpunkt — Debatte wird persönlich.
+    countermeasure: >
+      Framing vorab: "Sie vertreten eine Rolle, keine
+      Meinung." Nach Debatte explizit auflösen: "Das war
+      die Rolle — was ist Ihre eigene Position?"
+    severity: common
+  - issue: >
+      Argumente sind flach — nur Behauptungen, keine Evidenz.
+    countermeasure: >
+      BBEF-Struktur vorgeben (Behauptung-Begründung-Beispiel-
+      Folgerung). In Vorbereitungsphase moderativ drauf
+      hinweisen. Beispiele für gute Argumentation mitliefern.
+    severity: common
+  - issue: >
+      Kreuzverhör wird zum Statement-Austausch.
+    countermeasure: >
+      Moderation stoppt Statements: "Das ist keine Frage.
+      Bitte stellen Sie eine Frage." Nur Fragen, die
+      Antworten einfordern (nicht rhetorische).
+    severity: common
+  - issue: >
+      Zeiten werden überzogen, Debatte zerfließt.
+    countermeasure: >
+      Striktes Timing, Timer sichtbar und hörbar. Abbruch
+      bei Zeit-Ende ohne Höflichkeits-Pause. "Das ist Teil
+      der Methode."
+    severity: common
+  - issue: >
+      Meta-Reflexion wird weggekürzt — Debatte endet als
+      Wettbewerb.
+    countermeasure: >
+      Reflexion fest einplanen (15+ min). Bei Zeitknappheit:
+      Debatte kürzen, nicht Reflexion. Hier passiert das
+      Lernen.
+    severity: common
+  - issue: >
+      Dominante Persönlichkeiten übernehmen beide Sprecher-
+      Rollen, Scheuere kommen nicht zu Wort.
+    countermeasure: >
+      Im Team explizit Rollen zuteilen (1. Plädoyer, 2.
+      Kreuzverhör, 3. Schluss) — mindestens 3 Personen
+      aktiv. Rotation über mehrere Runden.
+    severity: common
+  - issue: >
+      Sensible / polarisierende Themen lösen echte Konflikte
+      aus.
+    countermeasure: >
+      Themenwahl bewusst. Bei politisch/ethisch geladenen
+      Themen: extra Zeit für Auflösung planen, evtl.
+      "Check-out" mit Pause vor Meta-Reflexion. Bei
+      erwartbarer Hitze: Moderation verstärken.
+    severity: rare

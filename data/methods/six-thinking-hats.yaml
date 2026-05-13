@@ -1,0 +1,251 @@
+slug: six-thinking-hats
+canonical_name: Sechs Denkhüte
+synonyms:
+  - synonym: Six Thinking Hats
+    language: en
+  - synonym: De-Bono-Hüte
+    language: de
+
+short_description: >
+  Strukturierte Gruppendiskussion, in der alle Teilnehmenden die Perspektive gleichzeitig wechseln.
+  Jeder „Hut" steht für eine Denkrichtung (Fakten, Emotionen, Kritik, Optimismus, Kreativität, Steuerung).
+  Vermeidet, dass Rollen (Pessimist, Optimist, Kritiker) personalisiert werden.
+
+originator: Edward de Bono
+origin_year: 1985
+origin_context: >
+  De Bonos Methode aus „Six Thinking Hats" (Little, Brown, 1985). Ursprünglich für
+  Management-Meetings entwickelt; heute Standardwerkzeug in Kreativ- und Entscheidungsprozessen.
+
+phases:
+  - code: deepening
+  - code: group_work
+    is_primary: true
+  - code: practice
+
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: >
+      Farbige Hintergründe, Namens-Präfixe (z.B. [GELB] Max) oder Miro-Board mit
+      Hut-Spalten als Stellvertreter für die physischen Hüte.
+  - code: hybrid
+    suitability: limited
+    note: Schwierig, weil Farbsignal zwischen Raum und Remote schwer synchron haltbar ist.
+
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, higher_education, adult_education]
+method_types: [cooperative, creative, reflective]
+
+duration_min_minutes: 45
+duration_typical_minutes: 75
+duration_max_minutes: 120
+
+materials:
+  - Sechs farbige Hüte oder farbige Karten (weiß, rot, schwarz, gelb, grün, blau)
+  - Flipchart für blauen Hut (Moderation/Prozess)
+
+tags: [entscheidungsfindung, perspektivwechsel, meeting-format]
+
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: Six Thinking Hats
+    author: Edward de Bono
+    year: 1985
+    relation: originator
+  - kind: url
+    title: "de Bono Group — Six Thinking Hats"
+    url: https://www.debonogroup.com/services/core-programs/six-thinking-hats/
+    relation: reference
+    note: Offizieller Lizenzinhaber mit Trainings- und Materialangebot.
+  - kind: book
+    title: "Der aufrechte Denker — Einführung in das Denken mit sechs Hüten"
+    author: Edward de Bono
+    year: 2002
+    relation: reference
+    note: Deutsche Praxisausgabe.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kontext & Regeln
+    duration_minutes: 10
+    trainer_action: >
+      Fragestellung klar umreißen („Sollen wir X einführen?"). Hüte
+      erklären: Weiß=Fakten, Rot=Emotionen, Schwarz=Risiken,
+      Gelb=Chancen, Grün=Kreativität, Blau=Steuerung. Regel:
+      Alle tragen zur gleichen Zeit den gleichen Hut. Blauer Hut
+      meist bei Leitung.
+    participant_action: >
+      Hüte als Perspektiven verinnerlichen, Fragestellung aufnehmen.
+    note: >
+      Physische Hüte wirken (auch aus Papier); Symbolkraft. Bei
+      Online: Farbige Frames, Namenspräfixe [GELB], Hut-Emojis.
+  - order: 2
+    label: Weißer Hut — Fakten sammeln
+    duration_minutes: 10
+    trainer_action: >
+      Ansagen: „Was wissen wir sicher? Welche Daten liegen vor?
+      Welche Informationen fehlen?". Strikt Fakten, keine Meinungen.
+      Notizen an Flipchart „Weiß".
+    participant_action: >
+      Beiträge reihum oder frei, nur Faktisches. Widersprüchliche
+      Fakten werden beide aufgenommen.
+    note: >
+      Bei Meinungs-Einbruch früh eingreifen: „Das ist Schwarzer Hut —
+      heben wir auf."
+  - order: 3
+    label: Roter Hut — Emotionen & Intuition
+    duration_minutes: 5
+    trainer_action: >
+      „Was fühlt sich an diesem Thema an? Bauchgefühl?". Explizit
+      kein Begründungszwang. Jede:r darf einen Satz / Wort.
+    participant_action: >
+      Ehrlich Gefühl/Intuition äußern („ich bin skeptisch", „das
+      begeistert mich").
+    note: >
+      Roter Hut bewusst kurz halten. Er ist Ventil, nicht Argumenten-
+      runde. Ohne ihn schwappen Gefühle unkontrolliert in andere Hüte.
+  - order: 4
+    label: Schwarzer Hut — Risiken & Kritik
+    duration_minutes: 15
+    trainer_action: >
+      „Was kann schiefgehen? Welche Risiken, Einwände, Bedenken?".
+      Kritisch, aber sachlich (kein Zynismus). Flipchart „Schwarz".
+    participant_action: >
+      Risiken benennen, auch wenn unbequem. Hut schützt — es ist
+      „die Aufgabe des schwarzen Hutes", negativ zu sein.
+    note: >
+      Der schwarze Hut ist bei manchen Menschen Lieblingshut, bei
+      anderen der verhasste. Leitung achtet darauf, dass alle
+      dran teilnehmen.
+  - order: 5
+    label: Gelber Hut — Chancen & Nutzen
+    duration_minutes: 10
+    trainer_action: >
+      „Was sind die Chancen, Vorteile, Wertgewinne? Unter welchen
+      Bedingungen würde das glänzen?". Konstruktiv, nicht naiv.
+    participant_action: >
+      Potenziale benennen, auch wenn gerade der Schwarze Hut
+      dominiert hat.
+    note: >
+      Gelber Hut ist nicht „Optimismus", sondern Logik des Nutzens —
+      mit Bedingungen und Belegen.
+  - order: 6
+    label: Grüner Hut — Kreativität & Alternativen
+    duration_minutes: 15
+    trainer_action: >
+      „Welche neuen Ideen, Alternativen, Variationen fallen uns ein?
+      Was wäre eine ganz andere Herangehensweise?". Regel: keine
+      Bewertung, freie Assoziation.
+    participant_action: >
+      Ideen sammeln, auch wilde. Andere Ideen aufgreifen und
+      weiterspinnen.
+    note: >
+      Bewertungs-Einbrüche unterbrechen — das ist Schwarzer Hut.
+      Grüner Hut lebt von „Ja, und…".
+  - order: 7
+    label: Blauer Hut — Synthese & Entscheidung
+    duration_minutes: 10
+    trainer_action: >
+      Prozess reflektieren: Was haben wir jetzt? Wo stehen wir?
+      Synthese der sechs Perspektiven, nächste Schritte oder
+      Entscheidung formulieren.
+    participant_action: >
+      Mitdenken über Prozess und Ergebnis. Commitment zur nächsten
+      Handlung.
+    note: >
+      Blauer Hut wird am Ende nochmal kollektiv aufgesetzt — nicht
+      nur von der Leitung.
+
+variations:
+  - name: Klassische Sequenz (de Bono)
+    description: >
+      Reihenfolge: Blau (Framing) → Weiß → Rot → Gelb → Schwarz →
+      Grün → Blau (Synthese). Klassisch für die meisten Entscheidungen.
+    when_to_use: >
+      Standardfall: Entscheidung unter Unsicherheit, heterogene
+      Gruppe, 1-2 Stunden Zeit.
+  - name: Kurz-Variante (3 Hüte)
+    description: >
+      Nur Weiß, Schwarz, Gelb + finaler Blauer Hut. 30-45 min.
+    when_to_use: >
+      Wenn Zeit knapp ist oder Entscheidung relativ klar strukturiert.
+  - name: Kreativ-Fokus (Grün-betont)
+    description: >
+      Kurzer Weißer Hut zur Kontextklärung, dann intensive Grüne-Hut-
+      Phase (30-40 min), Gelb + Schwarz nur am Ende zur Filterung.
+    when_to_use: >
+      Innovations-Workshops, Ideen-Generierung; wenn noch keine
+      Entscheidungsfrage, sondern eine Möglichkeitsfrage.
+  - name: Parallel-Hüte (Gruppen-Variante)
+    description: >
+      Jede Kleingruppe bekommt einen Hut fest zugewiesen, arbeitet
+      parallel an derselben Frage. Anschließend Plenum mit Cross-
+      Präsentation.
+    when_to_use: >
+      Große Gruppen (30+), wenn parallele statt sequenzielle
+      Bearbeitung effizienter ist. Geht etwas vom de-Bono-Prinzip
+      „alle denken gleich" weg.
+  - name: Remote-Variante
+    description: >
+      Shared Miro-/Mural-Board mit 6 Spalten pro Hut. Namenspräfix
+      [WEISS], Emojis als Kennung. Leitung schaltet Phasen visuell
+      um.
+    when_to_use: >
+      Remote-Sync. Das parallele Schreiben auf dem Board entschärft
+      Moderations-Choreographie.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Hüte werden vermischt — Kritik im Gelben, Euphorie im Schwarzen.
+      Disziplin geht verloren.
+    countermeasure: >
+      Frühe, freundliche, unmissverständliche Unterbrechungen
+      („Das ist Schwarzer Hut — notieren wir, heben es uns auf").
+      Physische/visuelle Hut-Symbolik hilft.
+    severity: common
+  - issue: >
+      Roter Hut wird zur Psycho-Analyse — TN werden nach Gefühlen
+      befragt, obwohl sie nur eins nennen wollten.
+    countermeasure: >
+      Klar ansagen: „Ein Wort/Satz pro Person, keine Begründung
+      nötig." Roten Hut kurz halten (max. 5 min).
+    severity: common
+  - issue: >
+      Schwarzer Hut dominiert, Gruppe kippt in Pessimismus, Gelb
+      und Grün verkümmern.
+    countermeasure: >
+      Reihenfolge bewusst wählen — z.B. Gelb vor Schwarz.
+      Zeitlimits einhalten. Leitung hält Balance.
+    severity: common
+  - issue: >
+      Kein Blauer Hut am Ende — Ergebnisse verpuffen, keine Entscheidung.
+    countermeasure: >
+      Blauen Hut fest einplanen (10-15 min), explizit: „Was machen
+      wir jetzt mit dem Gehörten? Was entscheiden wir?".
+    severity: common
+  - issue: >
+      Methode wirkt „spielerisch", wird in professionellem Kontext
+      belächelt oder nicht ernst genommen.
+    countermeasure: >
+      Einbettung: Zweck klar machen (strukturierte Analyse), Hüte
+      auch metaphorisch ohne Papp-Requisiten möglich. Reifere
+      Gruppen schätzen oft gerade das Entpersonalisieren.
+    severity: rare
+  - issue: >
+      Hybrid-Setup: Farb-Symbolik zwischen Raum und Remote nicht synchron.
+    countermeasure: >
+      Gemeinsames digitales Board, das beide Modi sehen. Oder bewusst
+      onsite-fokussiert gestalten, Remote-TN als aktiv Hinzugezogene.
+    severity: common
+    setting_codes: [hybrid]

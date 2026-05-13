@@ -1,0 +1,242 @@
+slug: syndikatsgespraech
+canonical_name: Syndikatsgespräch
+synonyms:
+  - synonym: Buzz Group
+    language: en
+  - synonym: Gruppen-Syndikat
+    language: de
+short_description: >
+  Großgruppe wird in parallele Kleingruppen („Syndikate") aufgeteilt, die
+  dasselbe Thema bearbeiten. Im Plenum vergleichen sie Ergebnisse — Unterschiede
+  öffnen den Diskurs. Ursprung im britischen Nachkriegs-Staff-Training.
+originator: null
+origin_context: >
+  Syndicate-Method verbreitet ab den 1940ern durch britische Management-Kurse
+  (Administrative Staff College Henley); in Deutschland weniger gebräuchlich
+  als in GB/AUS.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: group_work
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Parallele Breakouts mit gleichem Auftrag; Plenum zum Vergleich.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: excellent
+group_sizes: [large, plenary]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [cooperative]
+duration_min_minutes: 60
+duration_typical_minutes: 120
+duration_max_minutes: 240
+tags: [syndikat, kleingruppe, vergleich]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Henley: The Story of a Management College"
+    author: M. F. Hewitt
+    year: 1986
+    relation: reference
+    note: >
+      Geschichte des Henley-College, das Syndicate-Method
+      ab 1948 als didaktische Innovation für Management-
+      Education prägte.
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: practice_guide
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Aufgabe formulieren & Syndikate bilden
+    duration_minutes: 10
+    trainer_action: >
+      Konkrete Aufgabe: alle Syndikate erhalten dieselbe
+      Aufgabenstellung. "Erarbeiten Sie X" oder "Wie würden
+      Sie Y entscheiden?". Syndikate à 5-7 Personen
+      bilden — bewusst gemischt (Hierarchien, Funktionen).
+      Räume zuweisen.
+    participant_action: >
+      Aufgabe verstehen, Syndikat finden, mental als Team
+      einstellen.
+    note: >
+      Aufgaben-Qualität entscheidet. Für Vergleich brauchen
+      Syndikate identische Aufgabenstellung. Bei vagen
+      Aufgaben verlieren Vergleiche ihre Schärfe.
+  - order: 2
+    label: Syndikat-Arbeit (parallel)
+    duration_minutes: 50
+    trainer_action: >
+      Syndikate arbeiten unabhängig. Moderation wandert,
+      gibt nur Prozess-Impulse, keine Inhalts-Tipps.
+      Jedes Syndikat dokumentiert Ergebnis auf Flipchart
+      oder digital.
+    participant_action: >
+      Im Syndikat diskutieren, dokumentieren, Lösungsweg
+      finden. Eigenständig arbeiten — kein Vergleich
+      mit anderen Syndikaten in dieser Phase.
+    note: >
+      Unabhängigkeit zentral. Syndikate dürfen sich nicht
+      austauschen — sonst wird Vergleich verfälscht.
+      Pausen-Regel: keine Cross-Syndikat-Gespräche.
+  - order: 3
+    label: Plenum-Präsentation pro Syndikat
+    duration_minutes: 25
+    trainer_action: >
+      Jedes Syndikat 5-7 min Präsentation. Andere
+      Syndikate hören aufmerksam, notieren Unterschiede.
+      Moderation visualisiert auf großer Vergleichs-
+      Matrix.
+    participant_action: >
+      Eigene Lösung präsentieren. Bei anderen genau
+      zuhören — was anders? Warum?
+    note: >
+      Präsentations-Qualität ist Lernfaktor. Syndikate
+      sollten ihre Lösungs-Logik zeigen, nicht nur
+      Ergebnis. Logik macht Vergleich möglich.
+  - order: 4
+    label: Vergleichs-Diskussion
+    duration_minutes: 25
+    trainer_action: >
+      "Wo unterscheiden sich Lösungen? Warum kommt jedes
+      Syndikat zu anderem Ergebnis? Welche Annahmen
+      stecken dahinter?" Strukturiert vergleichen,
+      nicht bewerten.
+    participant_action: >
+      Unterschiede aktiv benennen, Annahmen unter den
+      Lösungen freilegen. Eigene und andere Logik
+      reflektieren.
+    note: >
+      Das ist das Herzstück. Im Vergleich wird sichtbar,
+      was bei einer einzigen Lösung verborgen bliebe:
+      verschiedene Wege führen zu verschiedenen Zielen.
+  - order: 5
+    label: Synthese & Lerntransfer
+    duration_minutes: 10
+    trainer_action: >
+      "Was nehmen wir mit? Welche Lösungs-Elemente sind
+      übertragbar? Was hat überrascht?" Kollektive
+      Synthese. Nicht zwingend EINE Lösung, sondern
+      Vielfalt würdigen.
+    participant_action: >
+      Eigene Erkenntnisse formulieren. Methodisches
+      Lernen über Lösungs-Diversität.
+    note: >
+      Vielfalt würdigen, nicht auf "richtige" Lösung
+      reduzieren. Der Vergleich IST die Erkenntnis.
+
+variations:
+  - name: Klassisch (3-5 Syndikate, gleiche Aufgabe)
+    description: >
+      Standard-Variante: parallele Syndikate, einheitliche
+      Aufgabe, Plenum-Vergleich.
+    when_to_use: >
+      Komplexe Entscheidungs-Situationen, wenn Lösungs-
+      Pluralität gezeigt werden soll. 15-50 TN.
+  - name: Mehrere unterschiedliche Aufgaben (Cross-Syndikat)
+    description: >
+      Jedes Syndikat andere Aspekt der Gesamt-Aufgabe.
+      Ergebnisse fügen sich zu Gesamtbild. Verwandt mit
+      Gruppenpuzzle.
+    when_to_use: >
+      Wenn Aufgabe zu komplex für ein einzelnes Syndikat.
+      Arbeitsteilung gewünscht.
+  - name: Wettbewerbs-Syndikat
+    description: >
+      Syndikate konkurrieren um beste Lösung. Jury (oder
+      Plenum) bewertet. Mehr Spannung, weniger
+      Zusammenarbeit.
+    when_to_use: >
+      Wettbewerbsmäßige Kontexte, MBA-Programme. Vorsicht
+      bei Team-bildenden Zielen.
+  - name: Iteratives Syndikat (mehrere Runden)
+    description: >
+      Nach Plenum: zweite Runde mit angepasster Aufgabe.
+      Lerneffekte aus Vergleich werden integriert.
+    when_to_use: >
+      Tagesseminare mit Vertiefungs-Anspruch. Wenn Lernen
+      sichtbar werden soll.
+  - name: Remote Syndikat (Breakouts)
+    description: >
+      Parallele Zoom-Breakouts, Plenum für Vergleich.
+      Funktioniert sehr gut online.
+    when_to_use: >
+      Verteilte Teams, Online-Workshops. Standard-Format
+      für Online-Lerngruppen.
+    setting_codes: [remote_sync]
+  - name: Henley-Original (mehrtägig)
+    description: >
+      Original-Format aus Henley: über mehrere Tage,
+      eigenständige Recherche, finale Plenum-Sitzung.
+      Sehr intensiv.
+    when_to_use: >
+      Management-Education, lange Fortbildungs-Programme.
+
+pitfalls:
+  - issue: >
+      Aufgabenstellung uneinheitlich — Syndikate
+      bearbeiten unterschiedliches.
+    countermeasure: >
+      Aufgabe schriftlich, Identität sichern. Vor Beginn
+      Klärung: "Alle bearbeiten exakt dasselbe?" Bei
+      Unsicherheit: Aufgabe wiederholen.
+    severity: common
+  - issue: >
+      Cross-Syndikat-Kommunikation während Arbeitsphase.
+    countermeasure: >
+      Räumlich trennen. Pausen-Regel: keine Inhalts-
+      Gespräche zwischen Syndikaten. Bei Verstoß
+      freundlich erinnern.
+    severity: common
+  - issue: >
+      Plenum-Vergleich wird zur Bewertung — "welches
+      Syndikat war besser?".
+    countermeasure: >
+      Framing: "Verschiedenheit, nicht Bewertung." Keine
+      "beste Lösung" auswählen. Lerneffekt liegt in
+      Vergleich, nicht im Sieger.
+    severity: common
+  - issue: >
+      Annahmen unter Lösungen werden nicht offengelegt.
+    countermeasure: >
+      Im Vergleich gezielt nach Annahmen fragen: "Welche
+      Hypothese steckt hinter dieser Lösung? Was hat
+      Syndikat A vorausgesetzt?"
+    severity: common
+  - issue: >
+      Zu wenige Syndikate — kein echter Vergleich.
+    countermeasure: >
+      Minimum 3 Syndikate. Bei nur 2: Polarisierung
+      statt Vielfalt. Methode braucht kritische Masse.
+    severity: common
+  - issue: >
+      Zeit für Plenum zu kurz — Vergleich wird hektisch.
+    countermeasure: >
+      Plenum-Phase ernst nehmen. Mindestens so viel Zeit
+      wie für Syndikat-Arbeit. Bei Knappheit: Syndikat-
+      Phase kürzen, nicht Vergleich.
+    severity: common
+  - issue: >
+      Methode wirkt akademisch — Praxis-Transfer fehlt.
+    countermeasure: >
+      Synthese-Phase mit Transfer-Fragen: "Wo nutzen Sie
+      diese Lösungs-Vielfalt im Alltag?" Konkrete
+      Anwendungen.
+    severity: common

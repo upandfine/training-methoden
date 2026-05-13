@@ -1,0 +1,38 @@
+# Build-Kontext minimal halten — beschleunigt `docker build` und schützt vor
+# accidentally-shipping-secrets (.env).
+.git/
+.github/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+node_modules/
+
+# Niemals Secrets ins Image
+.env
+.env.*
+!.env.example
+
+# Dev-Outputs
+browse/katalog.html
+*.log
+
+# Tests gehören nicht in die Runtime
+tests/
+
+# Scripts: die meisten brauchen wir im Container:
+#   * bootstrap.sh — PaaS-Release-Command für Erst-Setup
+#   * embed_methods.py — wird von `methods embed` (CLI) importiert
+# Nur reine Dev-Helfer ausschließen:
+scripts/verify_yamls.py
+scripts/build_static_browser.py
+scripts/eval_search.py
+
+# Frontend-Buildartefakte (UI wird via Static-Mount gemountet, das ist OK)
+# browse/app/ bleibt drin — die HTML-UI ist Teil der App

@@ -1,0 +1,266 @@
+slug: barcamp
+canonical_name: Barcamp
+synonyms:
+  - synonym: Unconference
+    language: en
+  - synonym: Ad-hoc-Nicht-Konferenz
+    language: de
+short_description: >
+  Offene Konferenz mit Sessions, die zu Beginn gemeinsam geplant werden.
+  Jede:r kann beitragen. Flache Hierarchie zwischen Vortragenden und
+  Teilnehmenden. Ähnelt Open Space, eher IT-/Community-geprägt.
+originator: Chris Messina, Andy Smith u.a.
+origin_year: 2005
+origin_context: >
+  Aus der O'Reilly-„Foo Camp"-Tradition heraus 2005 als offenes Gegenformat
+  entstanden; Name vom Hacker-Begriff „foobar".
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Einer der Remote-Durchbruch-Formate 2020/21, gut etabliert in digitalen Communities.
+  - code: hybrid
+    suitability: limited
+group_sizes: [large, plenary]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [cooperative, creative, activating]
+duration_min_minutes: 180
+duration_typical_minutes: 480
+duration_max_minutes: 1440
+materials:
+  - Session-Wand (Raster Zeit × Raum), Sticky Notes
+tags: [unconference, selbstorganisation, digital-affin]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "BarCamp.org"
+    url: https://barcamp.org/
+    relation: originator
+    note: >
+      Ursprungs-Community-Seite, dokumentiert die Prinzipien
+      und den Ursprung im O'Reilly-Umfeld 2005.
+  - kind: book
+    title: "BarCamp Handbook"
+    author: Tara Hunt
+    year: 2007
+    relation: practice_guide
+    note: Early Practice Guide aus der gründungsnahen Community.
+  - kind: book
+    title: "Großgruppenmethoden: Lebendig lernen — Veränderung gestalten"
+    author: Matthias Zur Bonsen, Carole Maleh
+    year: 2019
+    relation: reference
+    note: >
+      Einordnung in die Landschaft partizipativer Großgruppen-
+      Methoden, Abgrenzung zu Open Space.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Pre-Barcamp & Raum vorbereiten
+    duration_minutes: 60
+    trainer_action: >
+      Mehrere Räume / Zonen für parallele Sessions. Session-
+      Wand mit Raster: horizontal Zeit-Slots (z.B. 9-10,
+      10-11, 11-12), vertikal Räume (Raum A, Raum B...).
+      Pro Zelle frei, wird gefüllt. Material: Sticky Notes
+      für Session-Vorschläge, Stifte.
+    participant_action: >
+      Ankommen, Räume erkunden, Format überblicken, eigene
+      Themen-Ideen mental sortieren.
+    note: >
+      Raum-Setup ist entscheidend. 3-5 parallele Räume pro
+      Slot bei 30-50 TN typisch. Session-Wand groß und
+      sichtbar — idealerweise im Hauptraum.
+  - order: 2
+    label: Einführung & Prinzipien
+    duration_minutes: 30
+    trainer_action: >
+      Kreis-Eröffnung. Prinzipien: "Wer da ist, sind die
+      richtigen Leute. Wir lernen voneinander. Sessions
+      entstehen jetzt. Hands down bei Fragen, dann reden."
+      Kurzvorstellung (z.B. "In 3 Hashtags stelle ich mich
+      vor"). Zeitplan ansagen.
+    participant_action: >
+      Prinzipien mitnehmen, eigene 3 Hashtags formulieren,
+      kurz vorstellen.
+    note: >
+      Hashtag-Vorstellung ist klassisches Barcamp-Ritual.
+      Macht niedrigschwellig und schnell — "Name, Werk,
+      3 Themen-Tags in 20 Sek."
+  - order: 3
+    label: Session-Planung (Sessionplan)
+    duration_minutes: 45
+    trainer_action: >
+      "Wer möchte eine Session anbieten? Thema auf Sticky,
+      kurz vorstellen, in Plan kleben." TN kommen nach
+      vorn, sagen Thema laut, kleben in freien Slot. Jede:r
+      kann mehrere anbieten. Bei parallelen Interesse-Themen:
+      Merge-Gespräche kurz.
+    participant_action: >
+      Eigene Themen einbringen, Slot-Wahl treffen (Raum +
+      Zeit), andere Themen wahrnehmen.
+    note: >
+      Sessionplanung lebhaft, nicht perfekt. Bei zu wenigen
+      Themen: Moderation ermuntert, aber nicht drängt.
+      Bei zu vielen: TN wählen Prio-Themen. Organik vor
+      Ordnung.
+  - order: 4
+    label: Parallele Sessions (3-5 Slots × 45-60 min)
+    duration_minutes: 240
+    trainer_action: >
+      Sessions laufen parallel in verschiedenen Räumen.
+      Jede:r Session-Vorschlager:in moderiert eigene Session
+      (oder delegiert). "Gesetz der zwei Füße" gilt: wer
+      nichts mitnimmt, geht. Moderation wandert, unterstützt.
+    participant_action: >
+      Zu gewählten Sessions gehen, aktiv mitdiskutieren.
+      Bei Bedarf Räume wechseln. Session-Doku in
+      gemeinsamem Dokument.
+    note: >
+      Kein starres Session-Format — kann Präsentation, Q&A,
+      Diskussion, Workshop sein. Session-Vorschlager:in
+      entscheidet. Moderation mischt nicht inhaltlich ein.
+  - order: 5
+    label: Abschluss & Ergebnis-Share
+    duration_minutes: 60
+    trainer_action: >
+      Plenum-Rückkehr. Jede Session bekommt 2-3 min für
+      Ergebnis-Share. Dokumente sammeln (gemeinsames Pad,
+      Miro-Board). Abschluss-Ritual (Applaus, Danke,
+      Follow-up-Ankündigung).
+    participant_action: >
+      Eigene Session kurz vorstellen oder zuhören, eigene
+      Erkenntnisse notieren, Netzwerk-Kontakte klären.
+    note: >
+      Ergebnis-Share wichtig, auch wenn nur kurz. Ohne
+      Zusammenführung zerfällt Barcamp in Einzelerlebnisse.
+      Digitalisierung der Doks fester Schritt.
+  - order: 6
+    label: Open Community / Networking
+    duration_minutes: 45
+    trainer_action: >
+      Offener Ausklang — Gespräche, Networking, Kontakte
+      knüpfen. Idealerweise Getränke / Snacks. Kein
+      Pflichtprogramm, freies Nachklingen.
+    participant_action: >
+      Networking nach eigenem Tempo, interessante TN
+      anspechen, weiterhin austauschen.
+    note: >
+      "Half the conference is in the hallway" — viele
+      Barcamp-Insights entstehen informell. Diese Phase
+      bewusst reservieren, nicht ersparen.
+
+variations:
+  - name: Klassisches Barcamp (1 Tag)
+    description: >
+      Vollversion: Einführung, Session-Planung, 3-5 Session-
+      Slots, Abschluss, Networking. 30-200 TN. 8-10 h.
+    when_to_use: >
+      Tech-Communities, interne Unconferences, Branchen-
+      Treffen. Wenn Selbstorganisation und Ad-hoc-Themen
+      Kern sind.
+  - name: Mini-Barcamp (Half-Day)
+    description: >
+      Kompakt: 4 Stunden, 2 Session-Slots, kurze Einführung.
+      Weniger Sessions, aber machbar.
+    when_to_use: >
+      Team-Events, Nachmittags-Formate, kleinere Gruppen
+      (15-40).
+  - name: Themen-Barcamp
+    description: >
+      Barcamp mit inhaltlichem Rahmen ("Digitalisierung im
+      Mittelstand", "Zukunft der Arbeit"). Sessions
+      selbstorganisiert, aber Fokus gegeben.
+    when_to_use: >
+      Branchen-Fokus, strategische Gruppen-Arbeit. Lenkt
+      Emergenz in passende Richtung.
+  - name: Mehrtägiges Barcamp
+    description: >
+      2-3 Tage, mit zusätzlichen Elementen (Keynotes, Kleingruppen-
+      Vertiefungen). Community-Aufbau-Dimension.
+    when_to_use: >
+      Große Communities (100+), internationale Events.
+      Wenn Beziehungs-Kapital aufgebaut werden soll.
+  - name: Remote Barcamp
+    description: >
+      Virtuelle Session-Wand (Miro), parallele Zoom-
+      Breakouts, gemeinsames Dokument. "Zwei Füße" = freies
+      Room-Hopping.
+    when_to_use: >
+      Verteilte Communities, Online-Events. Seit 2020 breit
+      etabliert, funktioniert gut.
+    setting_codes: [remote_sync]
+  - name: Corporate Barcamp
+    description: >
+      Unternehmensintern mit Barcamp-Mechanik. Sessions
+      zu internen Themen, Hierarchie wird neutralisiert.
+      Bottom-up-Impulse.
+    when_to_use: >
+      Innovationsformate in Unternehmen, Change-Prozesse,
+      kulturelle Öffnung. Erfordert Top-Management-Mandat.
+
+pitfalls:
+  - issue: >
+      Zu wenige Session-Vorschläge — Wand bleibt leer.
+    countermeasure: >
+      Vor-Einladung: "Überlegen Sie vorher Themen."
+      Moderation kann 1-2 eigene Themen-Karten als
+      Ausgangspunkt bereitlegen. Stille Anfangs-Phase
+      aushalten.
+    severity: common
+  - issue: >
+      Session-Vorschlager:innen sind überfordert mit
+      Moderations-Rolle.
+    countermeasure: >
+      Kurze Einführung in Session-Moderation geben
+      (3 Tipps: klare Frage, Zeit managen, Dokumentieren).
+      Ermutigen zur Delegation an Mit-Interessierte.
+    severity: common
+  - issue: >
+      "Zwei Füße" wird nicht gelebt — TN bleiben aus
+      Höflichkeit in langweiliger Session.
+    countermeasure: >
+      Prinzip aktiv ermuntern: "Ich selbst wechsle auch.
+      Das ist Service für alle." Pausen als natürliche
+      Wechsel-Punkte nutzen.
+    severity: common
+  - issue: >
+      Dokumentation fehlt — Sessions verpuffen nach Event.
+    countermeasure: >
+      Einheitliches Doku-Template. Session-Pate
+      verpflichtet. Bei Digital: Pad automatisch pro
+      Session. Ergebnis-Share-Phase wichtig.
+    severity: common
+  - issue: >
+      Kleine Gruppen (< 20) — Format wird dünn.
+    countermeasure: >
+      Barcamp braucht kritische Masse. Bei < 20 TN:
+      einfacheres Format (World Café, Pro-Action-Café).
+      Weniger Sessions parallel (2 statt 4).
+    severity: common
+  - issue: >
+      Hierarchien neutralisieren sich nicht — Chef dominiert.
+    countermeasure: >
+      Explizit: "Hier keine Titel, wir sind alle gleich."
+      Chef kann Session vorschlagen, aber nicht dominieren.
+      Bei kritischer Lage: externe Moderation.
+    severity: common
+  - issue: >
+      Corporate-Skeptiker sehen "nur Chaos" — Vertrauen
+      fehlt.
+    countermeasure: >
+      Vorab Prinzipien-Workshop mit Auftraggebenden.
+      Fallstudien zeigen. Erstes Barcamp als
+      "Experiment" framen.
+    severity: common

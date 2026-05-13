@@ -1,0 +1,233 @@
+slug: gallery-walk
+canonical_name: Gallery Walk
+synonyms:
+  - synonym: Marktplatz
+    language: de
+  - synonym: Ausstellung
+    language: de
+short_description: >
+  Kleingruppen-Ergebnisse werden an Stellwänden ausgestellt. Teilnehmende
+  wandern durch die „Galerie", lesen, diskutieren, kommentieren per Klebezettel.
+  Verbindet Präsentation mit Interaktion.
+originator: null
+origin_context: Klassiker der aktivierenden Erwachsenenbildung.
+phases:
+  - code: activation
+  - code: group_work
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Miro/Mural-Board mit „Tour"; Moderator:in führt per Mauszeiger / Breakout-Hopping.
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [activating, cooperative, visualization]
+duration_min_minutes: 20
+duration_typical_minutes: 40
+duration_max_minutes: 75
+materials:
+  - Flipcharts/Stellwände, Klebepunkte, Post-its
+tags: [praesentation, ausstellung, rundgang]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+    note: Gallery Walk / Marktplatz als aktivierende Ergebnis-Präsentation.
+  - kind: book
+    title: "Methodenbar für Trainer und Moderatoren"
+    author: Martina Schmidt-Tanger, Stephan Dahm
+    year: 2016
+    relation: practice_guide
+  - kind: url
+    title: "The Teacher Toolkit — Gallery Walk"
+    url: https://www.theteachertoolkit.com/index.php/tool/gallery-walk
+    relation: reference
+    note: Pädagogische Anwendung in der Schule.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ergebnisse aufhängen & Regeln einführen
+    duration_minutes: 5
+    trainer_action: >
+      Ergebnisse der Kleingruppen (Flipcharts, Plakate, Leinwände)
+      gleichmäßig im Raum verteilen — genug Abstand, damit mehrere
+      Gruppen gleichzeitig vor einem Poster stehen können.
+      Regeln: „Lesen, leise diskutieren, Kommentare auf Post-its
+      hängen, nicht wegnehmen."
+    participant_action: >
+      Eigenes Ergebnis kurz aufbauen, Platz finden, Regeln mitnehmen.
+    note: >
+      Abstand zwischen Postern ist wichtig — Enge blockiert Bewegung
+      und Austausch. Mindestens 2 m, ideal 3 m zwischen Stellwänden.
+  - order: 2
+    label: Rundgang mit Standbesetzung (Rotation)
+    duration_minutes: 20
+    trainer_action: >
+      Zeit-Slot pro Station (z.B. 3-5 min). Wechsel-Signal akustisch.
+      Option A: „1 TN bleibt am eigenen Poster, Rest rotiert."
+      Option B: „Alle rotieren, kein Standdienst."
+      Option A ist dichter für Rückfragen, B egalitärer.
+    participant_action: >
+      Von Station zu Station bewegen. Lesen. Fragen stellen. Post-its
+      mit Kommentaren/Anregungen kleben.
+    note: >
+      Reihenfolge muss nicht vorgegeben sein — Selbstorganisation
+      funktioniert bei Gruppen bis ~30. Bei größeren: Start-Stationen
+      zuweisen, dann im Uhrzeigersinn.
+  - order: 3
+    label: Punkt-Voting (optional)
+    duration_minutes: 5
+    trainer_action: >
+      Wenn Priorisierung Ziel ist: jede:r bekommt 3-5 Punkte für
+      Lieblings-Ideen quer über alle Stationen. Klare Kriterien
+      (z.B. "Was soll wir zuerst angehen?").
+    participant_action: >
+      Punkte anbringen, ggf. Lieblingsidee aus allen Postern benennen.
+    note: >
+      Nicht bei allen Gallery Walks nötig. Wenn Ziel = Austausch,
+      nicht Entscheidung, kann dieser Schritt entfallen.
+  - order: 4
+    label: Plenum-Debrief
+    duration_minutes: 8
+    trainer_action: >
+      Ergebnisse zusammentragen: Was war überraschend? Welche
+      Gemeinsamkeiten zwischen den Gruppen? Welche Impulse nehmen
+      wir mit? Wenn Voting lief: Top-3 besprechen.
+    participant_action: >
+      Eigene Beobachtungen teilen, Resonanz zu anderen Ergebnissen
+      geben.
+    note: >
+      Debrief ist Pflicht, nicht Kür. Ohne ihn bleiben die Plakate
+      „gesehen aber nicht verarbeitet". 5-10 min reservieren.
+  - order: 5
+    label: Dokumentation & Transfer
+    duration_minutes: 2
+    trainer_action: >
+      Fotos der Poster + Post-its aufnehmen. Im Nachgang digital
+      verteilen (per Mail, Dokumentenablage, Miro-Board). Nächste
+      Schritte/Owner ggf. nennen.
+    participant_action: >
+      Eigene Notizen abschließen, wissen wo Material später liegt.
+    note: >
+      Ohne Dokumentation verpuffen 80 % der Ergebnisse innerhalb
+      einer Woche. Kurzer Aufnahme-Rundgang mit Smartphone reicht.
+
+variations:
+  - name: Klassischer Gallery Walk (Ausstellung)
+    description: >
+      Fixe Poster, freie Rotation, Post-it-Kommentare, Debrief.
+      Standard-Variante für 4-8 Kleingruppen.
+    when_to_use: >
+      Präsentations-Ersatz in Gruppen von 12-40 TN. Gut nach
+      längeren Gruppenarbeitsphasen.
+  - name: Marktplatz mit Expert:innen (Standdienst)
+    description: >
+      Je Station bleibt 1 Gruppenmitglied als Expert:in. Beantwortet
+      Fragen, erklärt das Plakat. Rest rotiert. Nach halber Zeit:
+      Rollenwechsel.
+    when_to_use: >
+      Wenn Ergebnisse komplex sind und Rückfragen erwartet werden
+      (Konzepte, Modelle). Expertenrolle erhöht Engagement der
+      Präsentierenden.
+  - name: Gallery Walk mit Auftrag (Structured Walking)
+    description: >
+      TN bekommen Arbeitsbogen mit spezifischen Fragen zu jedem
+      Poster. Ergebnisse werden strukturiert notiert, nicht frei
+      kommentiert.
+    when_to_use: >
+      Schule / Weiterbildung, wenn Lernziele strukturiert geprüft
+      werden sollen. Didaktisch „gegärtnert", nicht frei.
+  - name: Remote Gallery Walk (Miro/Mural)
+    description: >
+      Ergebnisse als Frames auf geteiltem Whiteboard. Moderation
+      führt Rundgang per Screen-Share, oder TN navigieren selbst.
+      Sticky Notes als Kommentare.
+    when_to_use: >
+      Online-Workshops. Funktioniert, wenn Tool vertraut ist.
+      Weniger lebendig als Präsenz, aber asynchron besser
+      dokumentierbar.
+    setting_codes: [remote_sync]
+  - name: Silent Gallery Walk
+    description: >
+      Komplett ohne Gespräch — nur Lesen und Post-it-Kommentare.
+      Alle 5-7 min Wechsel per Signal. Auswertung im Plenum.
+    when_to_use: >
+      Wenn Gruppe dominanz-anfällig ist, oder wenn Reflexion wichtiger
+      ist als Austausch. Gut mit sensiblen Themen.
+  - name: Rotating Gallery (mit Ergänzung)
+    description: >
+      Jede Gruppe rotiert zu anderem Poster und ergänzt dieses
+      (nicht nur kommentieren, sondern weiterentwickeln). Am Ende
+      kehrt jede Gruppe zum eigenen Poster zurück und sieht die
+      Anreicherung.
+    when_to_use: >
+      Für kreative Themen — wenn Gruppen gegenseitig auf Ideen
+      aufbauen sollen. Zeitintensiver (+15 min).
+
+pitfalls:
+  - issue: >
+      TN bleiben stumm vor Postern stehen, reine Rezeption statt
+      Diskussion.
+    countermeasure: >
+      Strukturierender Arbeitsauftrag pro Station („Notieren Sie
+      1 Aha und 1 Frage"). Oder Standdienst-Variante mit Experten
+      zur aktiven Ansprache.
+    severity: common
+  - issue: >
+      Ein Poster dominiert (visuell auffälliger oder polarisierend),
+      andere werden übersehen.
+    countermeasure: >
+      Auf visuelle Konsistenz achten (gleichgroße Flipcharts,
+      ähnliches Farbschema). Rotation mit vorgegebener Start-
+      Station verteilt Anfangsaufmerksamkeit.
+    severity: common
+  - issue: >
+      Zeitmanagement entgleist — manche Stationen 15 min, andere
+      2 min.
+    countermeasure: >
+      Signal (Glocke, Horn) alle 3-5 min. Moderation im Hintergrund
+      treibt sanft („noch 1 Minute"). Standard-Slot vorher ansagen.
+    severity: common
+  - issue: >
+      Post-it-Kommentare bleiben oberflächlich („gut!", „toll!").
+    countermeasure: >
+      Vorgegebene Kommentar-Typen: "+/-/!/?" (plus, minus,
+      Überraschung, Frage). Oder konkrete Prompts: „Was fehlt?",
+      „Was würdest du anders machen?".
+    severity: common
+  - issue: >
+      Große Gruppen (>30) → Gedränge, Poster nicht lesbar.
+    countermeasure: >
+      Zwei parallele Galerien (A und B), Gruppen gehen durch
+      unterschiedliche Reihen. Oder Stufen-Rundgang: erst Hälfte,
+      dann Wechsel.
+    severity: common
+  - issue: >
+      Hybrid-Setup: Online-TN sind von der Bewegung ausgeschlossen.
+    countermeasure: >
+      Parallel ein digitales Board (Miro) mit Fotos der Poster
+      oder Mini-Version. Onsite-Moderation verbindet Kanäle,
+      liest Online-Kommentare vor.
+    severity: common
+    setting_codes: [hybrid]
+  - issue: >
+      Dokumentation fällt unter den Tisch, Ergebnisse bleiben am
+      Raum hängen.
+    countermeasure: >
+      Abfoto-Pflicht im Ablauf. 1 Person pro Gruppe wird vorher
+      für Foto-/Digitalisierungs-Verantwortung benannt.
+    severity: rare

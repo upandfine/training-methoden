@@ -1,0 +1,210 @@
+slug: menschen-memory
+canonical_name: Menschen-Memory
+synonyms:
+  - synonym: Pair Matching Game
+    language: en
+short_description: >
+  Teilnehmende erhalten Paare (Bildkarten, Begriffe, Fragen/Antworten). Sie
+  bewegen sich durch den Raum und suchen das passende Gegenstück. Variation
+  klassischer Partnerfindung für Gruppenbildung oder Lerninhalte.
+originator: null
+origin_context: Didaktik-Baukasten für Erwachsenenbildung und Schule.
+phases:
+  - code: warmup
+  - code: activation
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Per Breakout-Pairing mit digitalen Karten adaptierbar.
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large]
+target_audiences: [school, youth, corporate, ihk, adult_education]
+method_types: [activating, game, icebreaker]
+duration_min_minutes: 5
+duration_typical_minutes: 12
+duration_max_minutes: 20
+materials:
+  - Kartenpaare (Bilder, Begriffe, Zitate)
+tags: [paarfindung, aktivierung, inhaltlich-koppelbar]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+    note: Paarfindungs-Methoden als Gruppen-Mixer.
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kartenpaare vorbereiten & ausgeben
+    duration_minutes: 2
+    trainer_action: >
+      Kartenpaare vorbereitet mitbringen — je nach Kontext:
+      Bildkarten (Kunst, Natur), Begriffe + Erklärungen,
+      Fragen + Antworten, Zitate. Je TN eine Karte.
+      Austeilen, ohne dass jemand zeigen kann.
+    participant_action: >
+      Karte entgegennehmen, selbst anschauen, nicht zeigen.
+    note: >
+      Karten-Qualität bestimmt Methoden-Effekt. Bei reinem
+      Partner-Finden: Bildkarten einfach. Bei Lern-Bezug:
+      Begriffe/Erklärungen passend zum Training-Thema.
+  - order: 2
+    label: Partner suchen durch Fragen
+    duration_minutes: 5
+    trainer_action: >
+      Regel: "Suchen Sie die passende andere Karte. Aber:
+      Karte nicht zeigen, nur BESCHREIBEN." TN gehen durch
+      Raum, fragen andere: "Bei mir steht... Was passt
+      dazu?"
+    participant_action: >
+      Eigene Karte beschreiben, andere fragen. Bei Match
+      kurz prüfen, dann bestätigen.
+    note: >
+      Beschreibungs-Regel ist Kern. Ohne sie: Karten werden
+      gezeigt, Methode verpufft. Mit Regel: echte
+      Kommunikation entsteht.
+  - order: 3
+    label: Paar-Austausch nach Matching
+    duration_minutes: 3
+    trainer_action: >
+      Nach Paar-Finden: kurzer Austausch mit Partner:in
+      ("Wie kamen wir zusammen? Was verbindet unsere
+      Karten?"). 2-3 min pro Paar.
+    participant_action: >
+      Mit gefundenem:r Partner:in kurz sprechen. Erste
+      Verbindung knüpfen.
+    note: >
+      Direkter Übergang zu Kennenlern- oder Arbeits-Paar.
+      Menschen-Memory produziert gute Kennenlern-Basis.
+  - order: 4
+    label: Übergang zu Arbeits-Phase
+    duration_minutes: 2
+    trainer_action: >
+      Abschluss: "Sie haben jetzt Paare — los geht's mit
+      der nächsten Aufgabe." Oder kurze Plenum-Runde:
+      "Wie hat's geklappt? Was war überraschend?"
+    participant_action: >
+      In nächste Phase übergehen — als Paar Zusammenarbeit
+      starten.
+    note: >
+      Menschen-Memory ist meist Mittel zum Zweck (Paare
+      für nächsten Schritt). Nicht Selbstzweck. Übergang
+      sauber setzen.
+
+variations:
+  - name: Klassisch (Bild-Paare)
+    description: >
+      Bildkarten-Paare (identische Bilder), reines
+      Matching-Spiel. Einfach, schnell.
+    when_to_use: >
+      Wenn nur Paare für nächste Aufgabe gebraucht werden.
+      Niederschwellig.
+  - name: Begriff + Definition
+    description: >
+      Fachbegriffe + Definitionen als Paare. Match dient
+      Lern-Kontrolle.
+    when_to_use: >
+      Fachtrainings, wenn Wissens-Aktivierung gewünscht.
+      Kombiniert Paar-Findung mit Review.
+  - name: Frage + Antwort
+    description: >
+      Eine Karte hat Frage, andere passende Antwort. Dialog
+      entsteht beim Matching.
+    when_to_use: >
+      Lern-Kontexte, wenn Verstehens-Check gewünscht.
+  - name: Zitat + Autor:in
+    description: >
+      Zitate und Urheber:innen als Paare. Kulturelle
+      Bildung oder thematische Tiefe.
+    when_to_use: >
+      Geisteswissenschaftliche Trainings, Persönlichkeits-
+      entwicklung.
+  - name: Kontraste (Gegensatz-Paare)
+    description: >
+      Karten mit Gegensatz-Paaren (heiß-kalt, hell-dunkel,
+      Lehrer-Lerner). Konzept-Tiefe.
+    when_to_use: >
+      Inhaltliche Aktivierung zu polaren Begriffen. Vor
+      Diskussionen.
+  - name: Remote (digitale Karten)
+    description: >
+      Online: Karten per Chat oder Miro. Breakouts per
+      Zufall, Partner:in finden per Beschreibung im
+      Hauptraum.
+    when_to_use: >
+      Online-Trainings. Funktioniert schlechter als
+      Präsenz — Körperlichkeit fehlt.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      TN zeigen sich gegenseitig die Karten — Beschreibungs-
+      Regel wird umgangen.
+    countermeasure: >
+      Regel deutlich und strikt: "Nur beschreiben, nicht
+      zeigen." Bei Verstoß: Karte zurücknehmen, neu
+      starten.
+    severity: common
+  - issue: >
+      Karten zu ungleich in Schwierigkeit — manche
+      finden schnell, andere nicht.
+    countermeasure: >
+      Vorab Karten-Paare ausbalancieren. Bei zu schweren
+      Paaren: Hinweis geben. Moderation unterstützt bei
+      Stocken.
+    severity: common
+  - issue: >
+      Bei ungerader TN-Zahl bleibt eine:r allein.
+    countermeasure: >
+      Moderation macht mit (eigene Karte). Oder: eine:r
+      hat "Joker"-Karte, die auf mehrere passt.
+    severity: common
+  - issue: >
+      Plenum-Runde wird zu lang — aus 3 min werden 15.
+    countermeasure: >
+      Kurz halten. Methode ist Auftakt, nicht Hauptthema.
+      2-3 min für Plenum-Reflexion reichen.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN können nicht durch
+      Raum.
+    countermeasure: >
+      Sitz-Variante: TN beschreiben vom Sitzplatz aus,
+      Moderation vermittelt. Oder andere Paarung (Zufallsliste).
+    severity: rare
+  - issue: >
+      In senior-Corporate-Kontext kindisch empfunden.
+    countermeasure: >
+      Fachlich aufwerten: Begriffs-Definition-Paare statt
+      Bilder. Bei Widerstand andere Paarung-Methode
+      (Lose ziehen).
+    severity: common
+  - issue: >
+      Karten werden nicht für Inhalt genutzt — reines
+      Mixing ohne Lerneffekt.
+    countermeasure: >
+      Inhaltlich koppeln, wo möglich. Selbst bei reinem
+      Mixing: Paar-Austausch nutzen, damit Moment wirkt.
+    severity: common

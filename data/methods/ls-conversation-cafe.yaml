@@ -1,0 +1,258 @@
+slug: ls-conversation-cafe
+canonical_name: Conversation Café
+synonyms:
+  - synonym: Conversation Cafe
+    language: en
+short_description: >
+  Liberating Structure: Strukturierter Dialog in 5er/6er-Gruppen mit
+  Talking Piece und klaren Gesprächsrunden. Für schwierige Themen
+  ohne Konsens-Zwang — jeder wird gehört.
+originator: Habib Rose, Vicki Robin (ursprüngliches Format); LS-Adaption Lipmanowicz/McCandless
+origin_context: >
+  Grundformat „Conversation Cafe" ab 2001 von Habib Rose, Vicki Robin
+  und Susan Partnow entwickelt; von LS adaptiert (CC-BY-NC 4.0).
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Breakouts mit virtuellem Talking Piece (Objekt-Emoji etc.).
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [cooperative, reflective]
+duration_min_minutes: 45
+duration_typical_minutes: 75
+duration_max_minutes: 120
+tags: [liberating-structures, dialog, schwieriges-thema]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — Conversation Café"
+    url: https://www.liberatingstructures.com/17-conversation-cafe/
+    relation: practice_guide
+    note: LS-Adaption des ursprünglichen Cafe-Formats. CC-BY-NC 4.0.
+  - kind: url
+    title: "Conversation Cafe — Original Site"
+    url: http://www.conversationcafe.org/
+    relation: originator
+    note: >
+      Ursprüngliches Format von Rose, Robin, Partnow (ab 2001)
+      für demokratische Bürgerdialoge.
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: 5er/6er-Tische & Talking Piece
+    duration_minutes: 5
+    trainer_action: >
+      Tische à 5-6 TN bilden. Pro Tisch ein "Talking
+      Piece" (Stein, Ball, Gegenstand) — wer ihn hat,
+      spricht. Regeln: Respektieren, Zuhören,
+      Suspendieren, Authentisch sprechen.
+    participant_action: >
+      Tisch finden, Talking Piece wahrnehmen, Regeln
+      mitnehmen.
+    note: >
+      Talking Piece ist Kern. Keine Diskussion ohne
+      es. Selbst bei erfahrenen Gruppen beibehalten —
+      schützt vor Dominanz.
+  - order: 2
+    label: Thema einführen & Fragen stellen
+    duration_minutes: 5
+    trainer_action: >
+      Offene, relevante Frage: "Wie gehen wir mit
+      Veränderung um? Was bedeutet Fairness für uns?"
+      Frage an jedem Tisch. Keine Antwort-Suche,
+      sondern Raum zum Sprechen.
+    participant_action: >
+      Frage auf sich wirken lassen, innerlich
+      einstimmen.
+    note: >
+      Cafe-Fragen sind offen, nicht lösungs-orientiert.
+      Gut: "Was ist unser Verhältnis zu X?" Schlecht:
+      "Wie lösen wir X?"
+  - order: 3
+    label: Runde 1 — Opening (je 1 min pro Person)
+    duration_minutes: 7
+    trainer_action: >
+      Talking Piece geht reihum. Jede:r spricht max.
+      1 min zur Frage. Keine Reaktion anderer, nur
+      zuhören. Nach kurzem Statement: Piece weiterreichen.
+    participant_action: >
+      Kurz, persönlich, authentisch sprechen. Zuhören
+      bei anderen ohne Bewertung.
+    note: >
+      Erste Runde setzt Ton. Kürze ist Feature —
+      zwingt zu Kern-Aussage. 5-6 Personen × 1 min =
+      5-7 min.
+  - order: 4
+    label: Runde 2 — Vertiefung (je 2 min)
+    duration_minutes: 15
+    trainer_action: >
+      Talking Piece wieder reihum. Je 2 min. Vertiefung
+      der eigenen Perspektive, evtl. Bezug auf andere.
+      Immer noch keine Diskussion.
+    participant_action: >
+      Länger sprechen, auf andere eingehen, eigene
+      Perspektive vertiefen.
+    note: >
+      Tiefe kommt in Runde 2. Wer in Runde 1 nur
+      floskelhaft war, wird konkreter.
+  - order: 5
+    label: Runde 3 — freier Dialog (Talking Piece weiter nutzen)
+    duration_minutes: 20
+    trainer_action: >
+      Talking Piece bleibt, aber jetzt freier Dialog.
+      Wer sprechen will, greift Piece. Möglicherweise
+      mehrfach dieselben Personen. Eher Gespräch jetzt.
+    participant_action: >
+      Bei Impuls Talking Piece nehmen, sprechen.
+      Frei dialogisch, aber strukturiert.
+    note: >
+      Freie Phase unterscheidet sich von normaler
+      Diskussion durch Talking Piece — niemand fällt
+      ins Wort. Diszipliniert.
+  - order: 6
+    label: Abschlussrunde — Ernte
+    duration_minutes: 15
+    trainer_action: >
+      Letzte reihum-Runde mit Talking Piece: "Was
+      nehmen Sie mit aus diesem Gespräch? Was ist
+      Ihnen aufgegangen?" 1-2 min pro Person.
+    participant_action: >
+      Einsicht formulieren, Dank für Gespräch aussprechen.
+    note: >
+      Ernte-Runde ist Bindestrich zur Wirkung. Ohne
+      sie bleibt Cafe "schönes Gespräch". Mit ihr:
+      persönlicher Ertrag.
+  - order: 7
+    label: Plenum-Highlights (bei mehreren Tischen)
+    duration_minutes: 8
+    trainer_action: >
+      Wenn mehrere Tische: jeder Tisch teilt 1-2
+      Highlights im Plenum. 2-3 min pro Tisch.
+      Aggregation der Einsichten.
+    participant_action: >
+      Tisch-Highlight benennen, anderer Tische
+      aufnehmen.
+    note: >
+      Bei einem Tisch: entfällt. Bei mehreren: macht
+      kollektive Ernte sichtbar. Kurze Runde, nicht
+      ausufernd.
+
+variations:
+  - name: Klassisch (LS-Variante, 3 Runden + Ernte)
+    description: >
+      Standard-Conversation-Cafe: Opening, Vertiefung,
+      freier Dialog, Ernte.
+    when_to_use: >
+      Schwierige Themen, Wertedialoge, Gruppen mit
+      Meinungsverschiedenheiten. 5-30 TN (meist
+      mehrere Tische).
+  - name: Kurz-Cafe (45 min)
+    description: >
+      Kompakt: 2 Runden (statt 3), kürzere Ernte.
+      Weniger Tiefe.
+    when_to_use: >
+      Team-Meetings mit Dialog-Bedarf, kurze Sessions.
+  - name: Bürger:innen-Cafe (Original)
+    description: >
+      Nach Rose/Robin/Partnow: öffentliches Format für
+      demokratische Themen. Mehrere Tische, öffentlich
+      zugänglich.
+    when_to_use: >
+      Bürgerbeteiligung, öffentliche Wert-Dialoge.
+  - name: Remote (Breakouts + virtuelles Piece)
+    description: >
+      Breakouts mit 5-6 TN. Talking Piece virtuell
+      (Emoji, Symbol im Chat). Moderation koordiniert
+      im Hauptraum.
+    when_to_use: >
+      Verteilte Teams, Online-Dialoge. Funktioniert,
+      erfordert Tool-Disziplin.
+    setting_codes: [remote_sync]
+  - name: Themen-fokussiertes Cafe
+    description: >
+      Klare thematische Frage (z.B. zu Projekt,
+      Organisation). Enger als freies Cafe, aber
+      dialog-fokussiert.
+    when_to_use: >
+      Organisations-Entwicklung, strategische Dialoge.
+  - name: Cafe mit Schreib-Elementen
+    description: >
+      Zwischen Runden kurze schriftliche Reflexion.
+      Erhöht Tiefe, verlangsamt Tempo.
+    when_to_use: >
+      Coaching-Kontexte, wenn individuelle Reflexion
+      parallel gewünscht.
+
+pitfalls:
+  - issue: >
+      Talking Piece wird ignoriert — Gespräch wird
+      chaotisch.
+    countermeasure: >
+      Regel strikt durchsetzen. Bei Verstoß: "Wer hat
+      gerade das Piece?" Methode lebt von Disziplin.
+    severity: common
+  - issue: >
+      Gruppe diskutiert, statt zu dialogisieren — sucht
+      Konsens.
+    countermeasure: >
+      "Kein Konsens nötig. Jede Stimme bleibt stehen."
+      Framing wiederholen. Cafe ist Dialog, nicht
+      Verhandlung.
+    severity: common
+  - issue: >
+      Frage zu eng — schließt Raum statt öffnet.
+    countermeasure: >
+      Offene W-Fragen wählen. "Welches Verhältnis
+      haben wir zu X?" nicht "Wie lösen wir X?".
+      Dialog-Fragen sind andere als Lösungs-Fragen.
+    severity: common
+  - issue: >
+      Runden werden nicht durchgehalten — erste Runde
+      schon frei.
+    countermeasure: >
+      Struktur klar halten. 3 Runden-Rhythmus ist
+      Methoden-Kern. Vorher gut erklären.
+    severity: common
+  - issue: >
+      Ernte-Runde fehlt — Cafe endet abrupt.
+    countermeasure: >
+      Ernte fest einplanen. Ohne sie bleibt Cafe
+      persönliches Erlebnis ohne Gruppen-Ergebnis.
+    severity: common
+  - issue: >
+      Bei emotional geladenen Themen: TN überfordert.
+    countermeasure: >
+      Vorab Rahmen: "Sie entscheiden, wie viel Sie
+      sagen." Pass-Option beim Piece zulassen. Bei
+      Bedarf: Einzelgespräch nach Session.
+    severity: rare
+  - issue: >
+      In großen Gruppen: Plenum-Highlights werden
+      zu lang.
+    countermeasure: >
+      Strikt: 2-3 min pro Tisch-Highlight. Moderation
+      kappt bei Überzug. Nicht jeder Tisch muss
+      ausführlich.
+    severity: common

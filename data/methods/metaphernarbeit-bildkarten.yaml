@@ -1,0 +1,225 @@
+slug: metaphernarbeit-bildkarten
+canonical_name: Metaphernarbeit mit Bildkarten
+synonyms:
+  - synonym: Metaphor Work with Picture Cards
+    language: en
+short_description: >
+  TN wählen aus einem Bildkartensatz (z.B. OH-Karten, Klaxoon-Cards) eine
+  Karte, die zu einer Frage passt („Wie fühlt sich mein Projekt gerade an?"),
+  und erklären die Metapher. Öffnet Zugänge, die rein verbal schwer erreichbar
+  sind.
+originator: null
+origin_context: >
+  Wurzelt in systemischer Beratung und Gestalttherapie; OH-Karten (Ely Raman,
+  Moritz Egetmeyer, 1975) sind ein bekannter Vertreter. Aktuelle Entwicklung
+  in Richtung digitaler Kartenbanken.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digitale Kartensätze sehr gängig (Pointz, Klaxoon, Miro-Templates).
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [reflective, creative, visualization]
+duration_min_minutes: 20
+duration_typical_minutes: 40
+duration_max_minutes: 75
+materials:
+  - Bildkartenset (OH-Karten, Metaphernkarten o.ä.)
+tags: [metapher, bildkarten, systemisch, tief]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "OH — Spiel der Lebensbilder"
+    author: Ely Raman, Moritz Egetmeyer
+    year: 1981
+    relation: originator
+    note: Ursprüngliches OH-Kartenset, Kanada/Deutschland.
+  - kind: book
+    title: "Bildkarten in Beratung und Training"
+    author: Isabel Nitzsche
+    year: 2017
+    relation: practice_guide
+  - kind: book
+    title: "Metaphern in der Psychotherapie"
+    author: Ortwin Meiss
+    year: 2016
+    relation: reference
+    note: Theorie der Metaphernarbeit, übertragbar auf Training.
+  - kind: url
+    title: "OH-Karten-Institut"
+    url: https://www.oh-cards-institut.de/
+    relation: reference
+    note: Offizielle Karten-Quelle, weitere Sets (COPE, PERSONA, SAGA).
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage stellen & Karten ausbreiten
+    duration_minutes: 5
+    trainer_action: >
+      Reflexionsfrage klar formulieren („Wo stehe ich in meinem
+      Projekt?", „Wie fühlt sich das Team gerade an?"). Karten
+      ausbreiten, so dass alle sichtbar sind — verdeckt oder offen
+      je nach Variante.
+    participant_action: >
+      Frage aufnehmen, auf eigenes Empfinden achten.
+    note: >
+      Die Frage ist entscheidend: offen genug für Projektion, konkret
+      genug für Fokus. „Wie fühlt sich X an?" funktioniert meist besser
+      als „Was denkst du über X?".
+  - order: 2
+    label: Intuitive Karten-Wahl
+    duration_minutes: 5
+    trainer_action: >
+      Anleitung: „Wählen Sie die Karte, die Sie zuerst anzieht. Nicht
+      analysieren, nicht bewerten. Der erste Impuls." Zeit für stille
+      Auswahl, kein Tauschen.
+    participant_action: >
+      Intuitiv eine Karte wählen, nehmen.
+    note: >
+      Die erste Wahl ist oft die richtige. Wenn jemand lange grübelt,
+      kurzer Hinweis: „Die Karte die Sie jetzt ärgert, ist oft
+      interessant."
+  - order: 3
+    label: Individuelle Assoziation
+    duration_minutes: 10
+    trainer_action: >
+      TN schauen still auf ihre Karte. Leitfragen: „Was sehen Sie?
+      Was fällt Ihnen ein? Welche Gefühle, Gedanken, Erinnerungen?
+      Welche Verbindung zu meiner Frage?". Optional: Notizen.
+    participant_action: >
+      Karte betrachten, frei assoziieren, Gedanken notieren.
+    note: >
+      Wichtig: Es gibt keine „richtige" Interpretation. Die Karte ist
+      nicht Symbol für etwas Festgelegtes, sondern Projektionsfläche.
+  - order: 4
+    label: Teilen in Paar oder Gruppe
+    duration_minutes: 15
+    trainer_action: >
+      Je nach Gruppengröße: Paare (3-4 min pro Person) oder Runde
+      (jede:r max. 2-3 min). Regel: Kartenwahl zeigen, Bedeutung
+      erklären. Zuhörende fragen nur nach, interpretieren nicht.
+    participant_action: >
+      Karte zeigen, eigene Bedeutung erzählen. Zuhören: nicht
+      deuten, nur verstehen.
+    note: >
+      Goldene Regel: keine Fremdinterpretation. „Ich sehe da einen
+      Berg, aber du sagst, das ist dein Lieblingsort" — nur eigene
+      Bedeutung zählt.
+  - order: 5
+    label: Synthese & Transfer
+    duration_minutes: 10
+    trainer_action: >
+      Abschluss: Welche Metapher bleibt? Was nehme ich mit? Optional:
+      Zweite Karte („Wie soll es sein?" oder „Welche Ressource brauche
+      ich?"). Transfer in Handlung: „Was wäre ein erster Schritt?".
+    participant_action: >
+      Eigene Metapher verdichten, Handlungsimpuls formulieren.
+    note: >
+      Ohne Transfer bleibt die Methode schön, aber folgenlos. 1-2
+      konkrete Schritte als Mindestergebnis.
+
+variations:
+  - name: Klassische OH-Karten (verdeckt)
+    description: >
+      Karten verdeckt ziehen, nicht wählen. Zufall erzwingt stärkere
+      Arbeit mit dem Gegebenen.
+    when_to_use: >
+      Fortgeschrittene Gruppen, wenn Vertrautheit mit der Methode
+      gegeben ist. Stärker therapie-nah.
+  - name: Offene Auswahl (moderat)
+    description: >
+      Karten offen ausgebreitet, TN wählen selbst. Niedrigere
+      Schwelle, mehr Kontrolle. Standardformat für Trainings.
+    when_to_use: >
+      Business-Kontext, erste Berührung mit der Methode.
+  - name: Zwei-Karten-Arbeit (Ist/Soll)
+    description: >
+      TN ziehen zwei Karten: eine für den Ist-Zustand, eine für den
+      Soll-Zustand. Vergleich, Weg dazwischen identifizieren.
+    when_to_use: >
+      Veränderungs-Workshops, Zielarbeit, Team-Development.
+  - name: Team-Karte (geteilte Wahl)
+    description: >
+      Team wählt gemeinsam eine Karte, die den aktuellen Zustand
+      symbolisiert. Aushandlungsprozess selbst ist Diagnose.
+    when_to_use: >
+      Team-Retros, wenn Gruppen-Selbstbild reflektiert werden soll.
+  - name: Digitale Bildkarten (Klaxoon/Miro)
+    description: >
+      Online-Kartensets (Klaxoon, Pointz, eigene Bildsammlung auf
+      Miro). TN wählt per Drag & Drop, zeigt im Call.
+    when_to_use: >
+      Remote-Teams, verteilte Gruppen. Funktioniert fast so gut wie
+      physische Karten.
+    setting_codes: [remote_sync]
+  - name: Collage-Variante
+    description: >
+      Statt einer Karte wählen TN mehrere Karten und legen eine
+      persönliche Collage („Landkarte meiner Situation"). Intensiver,
+      länger.
+    when_to_use: >
+      Intensivcoachings, Führungskräfte-Retreats, mehrtägige Formate.
+
+pitfalls:
+  - issue: >
+      TN bewerten die Karten der anderen („Das ist aber düster…")
+      — Öffnung wird verschlossen.
+    countermeasure: >
+      Regel hart einführen: „Nur eigene Bedeutung, keine Kommentare
+      zu Karten anderer." Bei Verstoß sofort zurückholen.
+    severity: common
+  - issue: >
+      Frage ist zu abstrakt („Wie geht es dir?") oder zu kognitiv
+      („Was ist die beste Strategie?").
+    countermeasure: >
+      Frage explizit auf Gefühl/Metapher richten: „Wie fühlt sich…"
+      oder „Welches Bild passt zu…". Analytische Fragen funktionieren
+      mit diesem Format nicht.
+    severity: common
+  - issue: >
+      Business-Gruppe blockiert: „Das ist zu woo, ich finde das albern."
+    countermeasure: >
+      Framing als „Zugang zu impliziten Annahmen" nicht als Therapie.
+      Start mit Warm-up-Übung (eine Karte für „mein gestern"). Ggf.
+      konkrete Business-Karten nutzen (Klaxoon Business-Sets).
+    severity: common
+  - issue: >
+      Emotionale Überwältigung: Karte triggert unerwartet tiefes Thema.
+    countermeasure: >
+      Ausstiegs-Option klar ansagen („Sie müssen nichts teilen, was
+      Sie nicht möchten"). Zweite Karte als „Ressource" kann
+      entlasten. Bei Belastung in Pause auffangen, nicht im Plenum
+      ausarbeiten.
+    severity: rare
+  - issue: >
+      Gruppe bleibt an der Oberfläche („schönes Bild"), keine
+      Tiefe erreicht.
+    countermeasure: >
+      Leitende Nachfragen: „Was genau an diesem Bild spricht dich an?",
+      „Wo in deinem Leben kennst du das?". Vertiefung erfordert oft
+      2-3 Nachfragen.
+    severity: common
+  - issue: >
+      Digitale Karten wirken weniger als physische — „nur ein Bild
+      auf dem Bildschirm".
+    countermeasure: >
+      Bewusst große Darstellung (Vollbild), Zeit zum Anschauen,
+      Screenshot für die eigene Notiz. Ritual ersetzt Haptik.
+    severity: common
+    setting_codes: [remote_sync]

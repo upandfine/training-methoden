@@ -1,0 +1,226 @@
+slug: vier-ecken-kennenlernen
+canonical_name: Vier Ecken (Kennenlernen)
+synonyms:
+  - synonym: Four Corners
+    language: en
+  - synonym: Eckenspiel
+    language: de
+short_description: >
+  Jede Ecke des Raums steht für eine Antwortmöglichkeit zu einer
+  Kennenlernfrage (Lieblingsjahreszeit, bevorzugter Arbeitsstil, …).
+  Teilnehmende gehen in die passende Ecke und tauschen sich mit den
+  dort Versammelten aus.
+originator: null
+origin_context: >
+  Standardmethode der Schul- und Jugendpädagogik, verwandt mit
+  Positionsaufstellungen und Soziometrie.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: warmup
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital als Whiteboard mit 4 Quadranten, TN platzieren Avatar/Namen.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [school, youth, corporate, ihk, adult_education]
+method_types: [icebreaker, activating, diagnostic]
+duration_min_minutes: 10
+duration_typical_minutes: 25
+duration_max_minutes: 35
+tags: [ecken, bewegung, mehrdimensional]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+    note: Positionsaufstellungen und verwandte Bewegungsmethoden.
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+  - kind: book
+    title: "Tips für Kennenlernspiele"
+    author: Christel van Dieken
+    year: 2014
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Raum vorbereiten & Ecken markieren
+    duration_minutes: 3
+    trainer_action: >
+      Vier Ecken des Raums gut sichtbar machen, je mit einem Schild
+      oder Symbol (Zahlen, Farben, Bilder). Freier Weg zwischen
+      Ecken. Zu Beginn: alle stehen in der Mitte.
+    participant_action: >
+      Im Raum ankommen, aufstehen.
+    note: >
+      Raum muss Bewegung erlauben — bei Reihenbestuhlung nicht
+      praktikabel. Stühle vorher an die Wand.
+  - order: 2
+    label: Frage stellen & Ecken-Zuordnung erklären
+    duration_minutes: 2
+    trainer_action: >
+      Erste Frage laut stellen, Ecken zuordnen („Wer eher Frühaufsteher
+      ist, geht in Ecke 1. Nachteule = 2. Zwischenmensch = 3.
+      Kommt drauf an = 4."). Einladen, sich zu positionieren.
+    participant_action: >
+      Frage hören, sich zuordnen, zur Ecke gehen.
+    note: >
+      Fragen sollten meinungs-neutral sein, nicht wertend („am besten",
+      „am schlechtesten" vermeiden). Einfach Präferenzen.
+  - order: 3
+    label: Kurzer Austausch in der Ecke
+    duration_minutes: 3
+    trainer_action: >
+      2-3 min: TN in jeder Ecke tauschen sich aus („Warum diese
+      Ecke? Ein Beispiel?"). Leitung wandert, hört rein, notiert
+      ggf. Highlights für Plenum.
+    participant_action: >
+      Kurz austauschen, mit Mit-Eckler:innen.
+    note: >
+      Ecken mit vielen TN brauchen Untergruppen (je 3-4). Bei nur
+      1 Person in der Ecke: einladen, zur nachbarlichen Ecke zu
+      gehen.
+  - order: 4
+    label: Plenum-Blitzlicht (optional)
+    duration_minutes: 3
+    trainer_action: >
+      Pro Ecke 1-2 TN kurz reporten: „Was war das Gemeinsame in
+      eurer Ecke?". Nicht ausschöpfend, sondern stichprobenhaft.
+    participant_action: >
+      Aus eigener Ecke kurz teilen, anderen zuhören.
+    note: >
+      Im Kennenlern-Kontext kann diese Phase entfallen oder sehr
+      kurz bleiben. Ziel ist Begegnung, nicht Präsentation.
+  - order: 5
+    label: 2-4 weitere Runden mit neuen Fragen
+    duration_minutes: 10
+    trainer_action: >
+      Nächste Frage stellen, Ecken neu definieren (ggf. neue
+      Kategorien). Rhythmus: Frage — Bewegung — kurzer Austausch —
+      neue Frage. 3-5 Runden insgesamt.
+    participant_action: >
+      Bei jeder Frage neu positionieren, mit wechselnden Konstellationen
+      austauschen.
+    note: >
+      Mix aus leichten (Lieblingsfrühstück) und etwas tieferen Fragen
+      (Arbeitsstil, Erwartung ans Training) — bewusst choreografieren.
+  - order: 6
+    label: Abschluss & Brücke
+    duration_minutes: 2
+    trainer_action: >
+      Kurz ansprechen: „Sie kennen jetzt ein paar Gesichter mit ein
+      paar Punkten. Das reicht, um später leichter anzusprechen."
+      Brücke zum nächsten Programmpunkt.
+    participant_action: >
+      Zu neuem Platz zurückkehren, ggf. neue Sitznachbarn wählen.
+    note: >
+      Vier-Ecken wirkt nach — nach der Methode sind Gespräche
+      zwischen TN schneller möglich. Diesen Moment nicht überladen.
+
+variations:
+  - name: Klassische Vier-Ecken (Multiple Choice)
+    description: >
+      4 Ecken = 4 Antwortmöglichkeiten. Präferenz-Fragen, leichte bis
+      mittlere Tiefe.
+    when_to_use: >
+      Standard-Kennenlernen, ab 12-15 TN aufwärts, Gruppen die
+      vorher nicht kannten.
+  - name: Soziometrisches Aufstellen (Linie)
+    description: >
+      Stattdessen eine Linie im Raum (von 0 bis 100), TN positionieren
+      sich gradmäßig. „Wie erfahren bist du in X?".
+    when_to_use: >
+      Wenn Grad/Ausprägung wichtiger ist als Kategorie. Mehr
+      Diagnostik, weniger Begegnung.
+  - name: Vier Ecken mit Tiefenfragen
+    description: >
+      Fragen werden sukzessive persönlicher („Lieblingsfarbe" →
+      „Was motiviert mich bei der Arbeit" → „Wofür bin ich dankbar").
+    when_to_use: >
+      Längere Formate, wenn Gruppe auch tiefere Schichten berühren
+      soll. Vertrauensaufbau.
+  - name: Vier Ecken mit Inhalt (Diagnostik)
+    description: >
+      Fragen beziehen sich auf Trainings-Inhalt: „Welche Option
+      würden Sie wählen?". Ecken aktivieren Vorwissen.
+    when_to_use: >
+      Seminar-Einstieg zum Thema, Erfahrungsabfrage, Provokations-
+      Einstieg.
+  - name: Remote-Vier-Ecken (Miro-Board)
+    description: >
+      Miro-Board mit 4 Quadranten, TN platzieren Namens-Sticker.
+      Chat oder Breakouts für Kurzgespräche in jedem Quadrant.
+    when_to_use: >
+      Online-Trainings, verteilte Gruppen. Bewegungs-Element entfällt,
+      Interaktion bleibt.
+    setting_codes: [remote_sync]
+  - name: Bewegungs-Intensiv („Alle die…")
+    description: >
+      Statt fester Ecken: Aussagen im Plenum („Alle die schon mal
+      in X waren, stehen auf/wechseln Platz"). Schnell, dynamisch.
+    when_to_use: >
+      Jugend, Kindertraining, wenn hohe Energie gewünscht ist.
+
+pitfalls:
+  - issue: >
+      Einzelne TN bleiben reglos in der Mitte — wollen nicht
+      entscheiden.
+    countermeasure: >
+      Option einbauen: 5. Ecke „unentschieden" oder „Mitte". Dadurch
+      wird Nicht-Positionierung sichtbare Option statt Verweigerung.
+    severity: common
+  - issue: >
+      Fragen wirken banal, TN finden Übung albern.
+    countermeasure: >
+      Ab Runde 2 relevantere Fragen einbauen (Arbeitsstil, Erwartung).
+      Leichte Einstiegsfragen für den Warm-up-Effekt, dann ansteigend.
+    severity: common
+  - issue: >
+      Eine Ecke ist überfüllt, drei leer — Gespräch wird zur
+      Großgruppen-Diskussion.
+    countermeasure: >
+      Bei Überfüllung: Aufspalten in Kleingruppen à 3-4. Bei leerer
+      Ecke: Moderation kann sie zur Nachbarecke ziehen.
+    severity: common
+  - issue: >
+      Kennenlern-Effekt bleibt flach — TN kennen nur die Frage,
+      nicht die Person.
+    countermeasure: >
+      In jeder Ecke kurze Namens-Vorstellung einführen: „Hallo, ich
+      bin X, und ich stehe hier weil…". Namen bleiben leichter
+      hängen als bloße Antworten.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN können nicht mitgehen.
+    countermeasure: >
+      Barrierefreiheit vorab prüfen. Alternativ: Karten hochhalten
+      oder Stuhl-basierte Variante („Wer sich Nummer 3 zuordnet,
+      hebt die Hand").
+    severity: rare
+  - issue: >
+      Hybrid-Setup: Online-TN sind von der Bewegung ausgeschlossen.
+    countermeasure: >
+      Gleichzeitig digitales Board (Miro) für Online-TN, Onsite-TN
+      nutzen physische Ecken. Moderation verbindet beide Modi
+      aktiv.
+    severity: common
+    setting_codes: [hybrid]

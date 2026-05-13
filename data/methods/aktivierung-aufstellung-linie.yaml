@@ -1,0 +1,194 @@
+slug: aktivierung-aufstellung-linie
+canonical_name: Aufstellung auf einer Linie
+synonyms:
+  - synonym: Line-up
+    language: en
+  - synonym: Skalen-Aufstellung
+    language: de
+short_description: >
+  Teilnehmende positionieren sich auf einer gedachten Linie zwischen zwei
+  Polen (z.B. „Anfänger:in – Expert:in", „stimme nicht zu – stimme voll zu").
+  Anschließend kurze Interviews in der eigenen Position.
+originator: null
+origin_context: >
+  Standardmethode der Moderationstechnik (Metaplan); eng verwandt mit
+  Soziometrie (Moreno) und politischer Bildung.
+phases:
+  - code: activation
+    is_primary: true
+  - code: getting_acquainted
+  - code: expectations
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digitale Linie auf Whiteboard — TN setzen Punkt/Avatar.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [activating, diagnostic]
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 25
+tags: [aufstellung, skala, bewegung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+  - kind: book
+    title: "Methoden politischer Bildung"
+    author: Wolfgang Sander
+    year: 2014
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Linie markieren & Pole erklären
+    duration_minutes: 2
+    trainer_action: >
+      Linie im Raum sichtbar (Klebeband, Schnur, oder
+      imaginär). Pole klar benennen (Schilder, laute
+      Ansage): "Hier links = Anfänger:in, dort rechts
+      = Expert:in." Alle stehen am Anfang in Mitte.
+    participant_action: >
+      Linie und Pole wahrnehmen, aufstehen.
+    note: >
+      Pole müssen klar sein. Bei vagen Polen wird
+      Aufstellung beliebig. Visualisieren hilft.
+  - order: 2
+    label: Frage stellen & Positionierung
+    duration_minutes: 3
+    trainer_action: >
+      Klare Frage: "Wo positionieren Sie sich auf der
+      Linie X-Y?" Alle gleichzeitig positionieren.
+      Bei Bedarf: "Ungefähre Position reicht."
+    participant_action: >
+      Eigene Position wählen, im Verhältnis zu anderen
+      orientieren.
+    note: >
+      Gleichzeitig positionieren — verhindert Bandwagon-
+      Effekt. Linie wird so zur ehrlichen Diagnose.
+  - order: 3
+    label: Bild lesen & Interviews
+    duration_minutes: 6
+    trainer_action: >
+      Moderation geht entlang der Linie: "Hier sehe
+      ich viele Anfänger:innen, dort einige Expert:innen."
+      An Extrempunkten kurz interviewen: "Warum stehen
+      Sie hier?"
+    participant_action: >
+      Eigene Position erläutern (freiwillig). Andere
+      anhören.
+    note: >
+      Kurze Interviews machen Linie sprechfähig. 2-3
+      Stimmen reichen — nicht alle. Tempo halten.
+  - order: 4
+    label: Mehrere Linien (optional)
+    duration_minutes: 3
+    trainer_action: >
+      Bei Bedarf weitere Fragen / Skalen.
+      Z.B. "Wie sicher fühlen Sie sich? Wie wichtig
+      ist Ihnen das Thema?" Neue Aufstellung pro
+      Frage.
+    participant_action: >
+      Bei jeder neuen Frage neu positionieren.
+    note: >
+      Mehrere Skalen zeigen Profil der Gruppe. Aber
+      max. 3-4 Skalen — sonst mechanisch.
+  - order: 5
+    label: Übergang zum Programm
+    duration_minutes: 1
+    trainer_action: >
+      "Diese Verteilung berücksichtige ich. Los geht's."
+      Klare Brücke zum Hauptprogramm.
+    participant_action: >
+      Zurück zu Plätzen, Einsicht mitnehmen.
+    note: >
+      Aufstellung muss Konsequenzen haben — sonst nur
+      Show. Sichtbar in Programm-Anpassung integrieren.
+
+variations:
+  - name: Klassisch (eine Linie, eine Frage)
+    description: >
+      Standard: eine Skalen-Aufstellung, kurz interviewen.
+    when_to_use: >
+      Schneller Diagnose-Einstieg. 8-30 TN.
+  - name: Mehrere Linien (3-4 Fragen)
+    description: >
+      Mehrere Aufstellungen nacheinander. Profil-Bildung.
+    when_to_use: >
+      Workshop-Einstieg mit Diagnose-Anspruch.
+  - name: Linie als Konsens-Test
+    description: >
+      "Stimme zu / Stimme nicht zu" — Konsens-Bild.
+    when_to_use: >
+      Nach Diskussion, vor Entscheidung. Politische
+      Bildung.
+  - name: Digitale Linie (Mentimeter-Skala)
+    description: >
+      Online-Skala, TN klicken Position. Live-Heatmap.
+    when_to_use: >
+      Online-Trainings, große Gruppen.
+    setting_codes: [remote_sync]
+  - name: Selbst-Aufstellung (mehrere Dimensionen)
+    description: >
+      Zwei kreuzende Linien (Matrix). 2D-Aufstellung.
+    when_to_use: >
+      Komplexere Diagnose. Erfahrungs/Interesse-Matrix.
+
+pitfalls:
+  - issue: >
+      Pole unklar — TN wissen nicht wo "viel" ist.
+    countermeasure: >
+      Sichtbare Schilder. Bei Klärungsbedarf
+      wiederholen.
+    severity: common
+  - issue: >
+      Bandwagon-Effekt durch sequenzielles Positionieren.
+    countermeasure: >
+      Gleichzeitig positionieren. "Auf drei alle."
+    severity: common
+  - issue: >
+      Methode ohne Konsequenz — bleibt Show.
+    countermeasure: >
+      Aufstellung in Programm einordnen, sichtbar
+      anpassen.
+    severity: common
+  - issue: >
+      Körperlich Eingeschränkte — Aufstellen nicht
+      möglich.
+    countermeasure: >
+      Hand-Variante (Position auf 1-10-Skala mit
+      Fingern). Niemand ausgeschlossen.
+    severity: rare
+  - issue: >
+      Bei großen Gruppen: Linie wird unübersichtlich.
+    countermeasure: >
+      Bei > 30 TN: Gruppen-Splits. Oder Digital-
+      Variante mit Heatmap.
+    severity: common
+  - issue: >
+      Sensible Fragen — TN positionieren nicht ehrlich.
+    countermeasure: >
+      Anfangs niederschwellige Fragen. Erst nach
+      Vertrauen sensiblere. Anonyme Variante bei
+      Bedarf.
+    severity: common

@@ -1,0 +1,23 @@
+- code: corporate
+  label_de: Unternehmen / Business
+  description: Mitarbeiter:innen-Trainings, Führungskräfte, Teams im Unternehmenskontext.
+
+- code: school
+  label_de: Schule
+  description: Schulunterricht Sek I + Sek II, Lehrerfortbildung.
+
+- code: youth
+  label_de: Jugendgruppen
+  description: Außerschulische Jugendarbeit, Vereine, Jugendverbände.
+
+- code: ihk
+  label_de: IHK / Berufliche Bildung
+  description: IHK-Weiterbildung, Ausbilder, duale Ausbildung, Meisterkurse.
+
+- code: adult_education
+  label_de: Erwachsenenbildung
+  description: VHS, freie Träger, politische Bildung.
+
+- code: higher_education
+  label_de: Hochschule
+  description: Universität, FH, Dozierende und Studierende.

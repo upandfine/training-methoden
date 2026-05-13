@@ -1,0 +1,43 @@
+- code: didactic
+  label_de: Didaktisch-vermittelnd
+  description: Wissen strukturiert weitergeben (Vortrag, Lehrgespräch, Demonstration).
+
+- code: activating
+  label_de: Aktivierend
+  description: Teilnehmende in Bewegung / Gespräch / Handlung bringen.
+
+- code: creative
+  label_de: Kreativ
+  description: Ideen generieren, visualisieren, ungewöhnliche Perspektiven erzeugen.
+
+- code: reflective
+  label_de: Reflexiv
+  description: Nach innen gerichtet, eigenes Erleben und Lernen bewusst machen.
+
+- code: cooperative
+  label_de: Kooperativ
+  description: Zusammenarbeit in Gruppen, gemeinsame Problemlösung.
+
+- code: diagnostic
+  label_de: Diagnostisch
+  description: Stand, Wissen, Stimmung oder Meinungen systematisch erheben.
+
+- code: game
+  label_de: Spielerisch
+  description: Spiele, Simulationen, Gamification.
+
+- code: visualization
+  label_de: Visualisierung
+  description: Inhalte bildhaft, räumlich oder grafisch darstellen.
+
+- code: feedback
+  label_de: Feedback
+  description: Rückmeldung geben, einholen, strukturieren.
+
+- code: energizer
+  label_de: Energizer
+  description: Kurze Aktivierung zwischendurch, meist körperlich.
+
+- code: icebreaker
+  label_de: Icebreaker
+  description: Hemmschwellen am Anfang senken, Kontakt herstellen.

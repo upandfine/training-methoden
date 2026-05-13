@@ -1,0 +1,243 @@
+slug: reflexions-karten
+canonical_name: Reflexions-Karten
+synonyms:
+  - synonym: Reflection Cards
+    language: en
+short_description: >
+  Kartenset mit Reflexionsfragen („Was habe ich heute gelernt?", „Wo hakt es
+  gerade?", „Was würde ich anders machen?"). TN ziehen eine Karte, nehmen
+  sich 5 Minuten zum Nachdenken oder Notieren. Gut als kurze Einzelreflexion.
+originator: null
+origin_context: >
+  Verbreitetes Format in Coaching und Supervision; diverse kommerzielle
+  Kartensets (z.B. „Blueprint-Karten", „Coaching-Karten").
+phases:
+  - code: reflection
+    is_primary: true
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Als digitaler Karten-Generator oder geteilte Liste.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [reflective]
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 25
+materials:
+  - Reflexionskarten-Set (physisch oder digital)
+tags: [reflexion, karten, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Coaching-Karten"
+    author: Bernd Schmid
+    year: 2015
+    relation: practice_guide
+    note: >
+      Eines der bekannteren deutschsprachigen Karten-Sets für
+      systemisches Coaching.
+  - kind: book
+    title: "Reflexionspraxis im Beruf"
+    author: Donald Schön
+    year: 1987
+    relation: reference
+    note: >
+      Schöns "reflective practitioner" als theoretische Basis —
+      Karten als Trigger für strukturierte Selbstreflexion.
+  - kind: book
+    title: "Moderationsmethoden in der Erwachsenenbildung"
+    author: Josef W. Seifert
+    year: 2014
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Karten-Set auslegen & Rahmen klären
+    duration_minutes: 3
+    trainer_action: >
+      Karten auslegen (verdeckt in Mitte oder am Tisch) oder
+      digital präsentieren. Rahmen: "Je eine Karte ziehen, 5 min
+      Zeit zum Nachdenken/Notieren. Kein Sharing-Zwang." Bei
+      Bedarf Beispielfrage laut vorlesen, damit Niveau klar ist.
+    participant_action: >
+      Ankommen, Rahmen verstehen, eigene Offenheit prüfen.
+    note: >
+      Karten-Set-Qualität entscheidet. Gute Fragen: "Was war
+      heute ungewöhnlich für Sie?" / "Wann haben Sie heute
+      gelacht?" / "Was möchten Sie morgen anders machen?".
+      Schlechte: "Sind Sie zufrieden?" (ja/nein, zu trivial).
+  - order: 2
+    label: Karten ziehen
+    duration_minutes: 2
+    trainer_action: >
+      TN ziehen je eine Karte, ohne vorher zu schauen. Zufalls-
+      Zuordnung schützt vor Auswahl-Bias. Bei gemeinsamem Set:
+      Karte sichtbar für sich selbst, nicht teilen. Alternative:
+      jede:r zieht 2-3 Karten und wählt eine aus.
+    participant_action: >
+      Karte ziehen, durchlesen, innerlich auf die Frage
+      einstimmen.
+    note: >
+      Zufalls-Zuordnung ist didaktisch sinnvoll — "ich hätte
+      die nicht gewählt" führt zu tieferen Einsichten als
+      "passt genau zu mir". Bei starkem Widerstand: Tauschen
+      zulassen.
+  - order: 3
+    label: Stille Einzelreflexion
+    duration_minutes: 6
+    trainer_action: >
+      5-7 min Stille. Jede:r denkt/notiert zur eigenen Karte.
+      Moderation bleibt sichtbar, schweigt, keine Unterbrechungen.
+      Ruhe erzwingen — auch bei anfänglicher Unruhe aushalten.
+    participant_action: >
+      Zur Karte reflektieren, notieren, eigene Antwort
+      formulieren. Gern mit Handschrift.
+    note: >
+      Still-Phase ist der eigentliche Wert. 6-7 min fühlen sich
+      für ungeübte lang an — das ist gewollt. Nach 2-3 min
+      kippt die Oberflächlichkeit, dann kommt Tiefe.
+  - order: 4
+    label: Austausch im Paar (optional)
+    duration_minutes: 3
+    trainer_action: >
+      Paare bilden. Frage teilen und wichtigste Erkenntnis (2 min
+      pro Seite). Klar: "Teilen was stimmig ist, kein Zwang."
+      Partner:in hört zu, keine Ratschläge.
+    participant_action: >
+      Frage + eigene Reflexion teilen. Partner:in aktiv zuhören,
+      vielleicht eine rückfragende Frage stellen.
+    note: >
+      Austausch schärft. Ohne Paar-Phase bleibt es oft bei
+      "gut nachgedacht, aber..." — mit Teilen wird die
+      Einsicht verbalisiert und fester.
+  - order: 5
+    label: Kurzer Plenum-Abschluss
+    duration_minutes: 1
+    trainer_action: >
+      Kurze Runde: "Ein Wort zu Ihrer Reflexion?" oder
+      "Wollten Sie noch was teilen?" Karten ggf. in Kreis
+      ablegen. Übergang zum nächsten Programmpunkt.
+    participant_action: >
+      Ein Wort nennen oder schweigen. Methode ausklingen
+      lassen.
+    note: >
+      Plenum kurz halten — die Methode ist intro-, nicht
+      extrospektiv. Abschluss gibt Rahmen, nicht Ausarbeitung.
+
+variations:
+  - name: Klassisch (Einzelreflexion + Paar)
+    description: >
+      Karten, 5-7 min Stille, Paaraustausch, Kurzabschluss.
+      Standard-Variante.
+    when_to_use: >
+      Seminar-Tagesende, Coaching-Gruppen, Lernreflexion.
+      8-25 TN ideal.
+  - name: Nur Einzelreflexion (10 min)
+    description: >
+      Ohne Paarphase, rein individuell. Kürzer, aber weniger
+      Sozialisierung der Reflexion.
+    when_to_use: >
+      Sensible Themen, bei Misstrauen in der Gruppe, oder
+      als Morgen-Ritual vor einem Arbeitstag.
+  - name: Karten-Karussell
+    description: >
+      Mehrere Runden: nach jeder Reflexionsphase Karten
+      austauschen. Jede:r beantwortet 3 Karten nacheinander,
+      kurze Zeiten pro Karte.
+    when_to_use: >
+      Längere Reflexions-Einheit (45-60 min), wenn mehrere
+      Perspektiven auf das Erleben gewünscht sind.
+  - name: Fokus-Karten (thematisch)
+    description: >
+      Nur Karten zu einem Thema (z.B. "Führung", "Change",
+      "Konflikt"). Kontextbezogene Reflexion.
+    when_to_use: >
+      Thematische Trainings, Fachworkshops, wenn Reflexion
+      fachlich fokussiert sein soll.
+  - name: Peer-Coaching mit Karten
+    description: >
+      3er-Gruppen: eine:r hat Karte, andere sind Coaches mit
+      vertiefenden Fragen. Rollenwechsel nach 15 min.
+    when_to_use: >
+      Coaching-Ausbildung, Supervisionsgruppen. Methodik-
+      Training für aktives Zuhören.
+  - name: Digital-Karten (Generator / Board)
+    description: >
+      Online: Karten werden per Tool gezogen (Randomizer,
+      Web-Generator), Reflexion in eigenem Journal oder
+      Chat. Paar-Austausch in Breakout.
+    when_to_use: >
+      Online-Trainings, verteilte Teams, asynchrone
+      Selbst-Reflexions-Formate.
+    setting_codes: [remote_sync, remote_async]
+
+pitfalls:
+  - issue: >
+      Karten-Fragen sind banal oder abstrakt, liefern keine
+      echte Tiefe.
+    countermeasure: >
+      Qualitäts-Check vor Einsatz. Gute Karten-Sets
+      investieren oder selbst zusammenstellen. Faustregel:
+      Fragen, die "Ja/Nein" beantwortbar sind, sind zu
+      oberflächlich.
+    severity: common
+  - issue: >
+      TN tauschen Karten, bis sie "passende" haben — Zufall
+      verloren.
+    countermeasure: >
+      Zufall als Feature kommunizieren: "Fremde Karte bringt
+      fremde Perspektive." Tauschen zulassen, aber mit
+      Zurückhaltung moderieren.
+    severity: common
+  - issue: >
+      Still-Phase wird durchbrochen durch Rückfragen oder
+      Small-Talk.
+    countermeasure: >
+      Regel klar: "Jetzt 6 min still, Fragen am Ende." Bei
+      Unterbrechung sanft zurückführen: "Bleiben wir kurz
+      in der Stille."
+    severity: common
+  - issue: >
+      Paar-Austausch wird zum Ratschläge-Geben.
+    countermeasure: >
+      Regel: "Partner:in teilt, Sie hören. Keine Lösungen,
+      keine eigenen Geschichten." Vorab Beispiel für aktives
+      Zuhören zeigen.
+    severity: common
+  - issue: >
+      Plenum-Abschluss wird zu lang, Methode kippt in
+      Großgruppen-Diskussion.
+    countermeasure: >
+      Abschluss kurz halten (1-2 min). "Ein-Wort-Runde" als
+      Rahmen. Bei größeren Gruppen: Plenum ganz weglassen.
+    severity: common
+  - issue: >
+      TN ziehen Karte mit intimer Frage und fühlen sich
+      überfordert.
+    countermeasure: >
+      Karten-Set vorab sichten und auswählen. Niederschwellige
+      Karten für Corporate-Kontexte, tiefere für Coaching.
+      Tausch-Option anbieten bei Überforderung.
+    severity: common
+  - issue: >
+      Karten bleiben ungenutzt nach der Session — keine
+      Transfer-Wirkung.
+    countermeasure: >
+      Karte mitnehmen lassen oder Foto machen. Follow-up-
+      Impuls: "In einer Woche nochmal die Karte ansehen."
+      Reflexion ist keine Einmal-Aktivität.
+    severity: rare

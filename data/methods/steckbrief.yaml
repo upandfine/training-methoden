@@ -1,0 +1,218 @@
+slug: steckbrief
+canonical_name: Steckbrief
+synonyms:
+  - synonym: Profile Card
+    language: en
+short_description: >
+  Teilnehmende füllen einen vorgefertigten oder freien Steckbrief zu sich aus
+  (Name, Rolle, Erwartung, Lieblingsfilm, etc.) und stellen sich damit vor.
+  Struktur senkt Einstiegshürde.
+originator: null
+origin_context: Jugendarbeit, Schule, Seminardidaktik.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Miro/Mural-Template mit Steckbrief-Feldern, jede:r füllt eine Kachel.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [icebreaker, diagnostic]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 40
+materials:
+  - Steckbrief-Vorlage oder Moderationskarten
+tags: [kennenlernen, strukturiert]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+    note: Steckbrief als Kennenlern-Klassiker mit Varianten.
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: practice_guide
+  - kind: book
+    title: "Tips für Kennenlernspiele"
+    author: Christel van Dieken
+    year: 2014
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorlage verteilen & Felder erklären
+    duration_minutes: 3
+    trainer_action: >
+      Steckbrief-Vorlage austeilen. 4-6 Felder: z.B. Name,
+      Rolle/Funktion, Erwartung ans Training, überraschende
+      Tatsache, Lieblings-Arbeitsmethode, aktuelles Projekt.
+      Beispiel-Feld kurz mit eigenem Vorbild zeigen.
+    participant_action: >
+      Vorlage entgegennehmen, Felder verstehen, innerlich
+      ankommen.
+    note: >
+      Feld-Auswahl entscheidet die Tiefe. Corporate: eher
+      sachlich ("aktuelle Herausforderung", "Expertise"). Jugend:
+      eher persönlich ("Lieblings-Song", "Hobbys"). Passt zur
+      Gruppe.
+  - order: 2
+    label: Ausfüllen (Einzelarbeit)
+    duration_minutes: 8
+    trainer_action: >
+      8 min still ausfüllen. Stichworte genügen. Bei Unsicherheit
+      ("was schreibe ich da?") Beispiele geben. Ruhige
+      Atmosphäre — keine Hintergrund-Kommunikation.
+    participant_action: >
+      Felder befüllen, stichwortartig, so ehrlich wie
+      komfortabel. Pass-Felder erlaubt.
+    note: >
+      Pass-Option wichtig: wer ein Feld nicht ausfüllen will,
+      muss nicht. Besonders bei persönlicheren Feldern
+      ("überraschende Tatsache") respektieren.
+  - order: 3
+    label: Vorstellungs-Runde
+    duration_minutes: 6
+    trainer_action: >
+      Reihum kurz vorstellen — 30-60 Sek pro Person. Nicht
+      alle Felder vorlesen, sondern Highlights wählen. Moderation
+      fragt knapp nach, ohne auszudehnen ("Danke").
+    participant_action: >
+      Sich vorstellen — eigene Highlights, gerne überraschende
+      Tatsache. Andere aufmerksam anhören.
+    note: >
+      Bei großen Gruppen (>15): Reihum wird zu lang. Dann:
+      Kleingruppen à 5-6, parallele Vorstellung. Plenum nur
+      Highlights.
+  - order: 4
+    label: Aushang & Nachlese
+    duration_minutes: 3
+    trainer_action: >
+      Steckbriefe an Wand oder auf Board. TN können später
+      nachlesen. Alternativ: digital sammeln, als PDF
+      verteilen.
+    participant_action: >
+      Eigenen Steckbrief aufhängen oder digital teilen.
+      Später ggf. andere nachlesen.
+    note: >
+      Aushang verlängert die Kennenlern-Wirkung. Über mehrere
+      Tage kehren TN zurück und lesen nochmal nach. Bei
+      kurzen Seminaren nicht zwingend.
+
+variations:
+  - name: Klassischer Steckbrief (4-6 Felder)
+    description: >
+      Standard-Variante: Vorlage, stilles Ausfüllen, Vorstellung.
+    when_to_use: >
+      Seminar-Einstieg, 6-20 TN. Wenn strukturierter
+      Selbstvorstellung gewünscht ist.
+  - name: Visueller Steckbrief (Ich-Plakat)
+    description: >
+      Statt Text: TN gestalten A3-Plakat über sich selbst —
+      mit Bildern, Symbolen, Icons. Kreativer Einstieg.
+    when_to_use: >
+      Mehrtägige Trainings mit Zeit, kreative Gruppen,
+      Jugend-/Schul-Settings.
+  - name: Paaraustausch-Steckbrief
+    description: >
+      Steckbrief wird mit Partner:in ausgefüllt — nicht selbst,
+      sondern gegenseitig. Verbunden mit Partnerinterview-
+      Prinzip.
+    when_to_use: >
+      Wenn Selbstvorstellung zu unangenehm wäre, oder wenn
+      Partnerinterview-Element gewollt ist (vgl. Methode
+      `partnerinterview`).
+  - name: Digital (Miro/Mural-Template)
+    description: >
+      Online-Template mit Kacheln, jede:r füllt eine. Bilder,
+      Emojis, Links erlaubt. Bleibt als Referenz.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Dokumentiert
+      nachhaltig, oft wiederverwendbar.
+    setting_codes: [remote_sync, remote_async]
+  - name: Themen-Steckbrief
+    description: >
+      Felder beziehen sich auf das Trainings-Thema ("meine
+      Führungs-Erfahrung", "schwierigste Kund:in", "letzter
+      Erfolg im Projekt"). Kombiniert Kennenlernen mit
+      fachlicher Diagnose.
+    when_to_use: >
+      Fachliche Trainings, wenn Vorerfahrungen erhoben werden
+      sollen. Doppelfunktion spart Zeit.
+  - name: Kurz-Steckbrief (3 Felder, 10 min)
+    description: >
+      Nur 3 Felder: Name, Rolle, Erwartung. Sehr kurz, für
+      knappe Einstiege.
+    when_to_use: >
+      Halbtägige Trainings, Meetings, wenn Kennenlernen
+      nur minimal sein muss.
+
+pitfalls:
+  - issue: >
+      Steckbrief wird zu lang — Vorstellung dauert 30+ min.
+    countermeasure: >
+      Höchstens 4-6 Felder. Klare Zeitvorgabe pro Vorstellung
+      (30-60 Sek). Moderation kürzt sanft bei Überziehern.
+    severity: common
+  - issue: >
+      Felder sind zu generisch — niemand "springt raus".
+    countermeasure: >
+      Mindestens ein überraschendes Feld einplanen ("eine
+      Sache, die Sie hier keiner vermutet", "drei Wörter zu
+      Ihrem letzten Urlaub"). Bricht die Steifheit.
+    severity: common
+  - issue: >
+      Sensible Felder schaffen Unbehagen ("Was macht Sie
+      wütend?").
+    countermeasure: >
+      Felder zur Gruppe passen. Corporate: sachlich. Bei
+      Unbehagen: Pass-Option klar machen. Keine intimen
+      Themen im Einstieg.
+    severity: common
+  - issue: >
+      Einige TN haben keine Vorlage dabei oder füllen nicht
+      aus.
+    countermeasure: >
+      Reserve-Vorlagen bereit. Bei Nicht-Ausfüllen: nicht
+      zwingen — kurz selbst vorstellen lassen. Freiwilligkeit
+      wahren.
+    severity: rare
+  - issue: >
+      Große Gruppe (>20) macht Plenum-Vorstellung zäh.
+    countermeasure: >
+      Kleingruppen-Variante: je 5-6 Personen, parallele
+      Vorstellung. Im Plenum nur kurze Highlight-Runde
+      ("ein überraschender Fakt aus meiner Gruppe").
+    severity: common
+  - issue: >
+      Steckbrief wird ausgefüllt, aber dann wieder eingesammelt
+      und nie wieder gesehen.
+    countermeasure: >
+      Aushang / digitales Archiv fest einplanen. Verweis auf
+      Aushang später im Training ("schauen Sie nochmal in die
+      Steckbriefe bei Gelegenheit").
+    severity: common
+  - issue: >
+      Introvertierte TN überfordert durch Ad-hoc-Vorstellung.
+    countermeasure: >
+      Ausreichend Still-Phase vor der Vorstellung (8+ min).
+      Vorstellung kurz halten (30-60 Sek). Pass-Option für
+      einzelne Felder erlauben.
+    severity: common

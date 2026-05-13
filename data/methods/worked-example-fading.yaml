@@ -1,0 +1,259 @@
+slug: worked-example-fading
+canonical_name: Worked Example mit Fading
+synonyms:
+  - synonym: Worked-Example Fading
+    language: en
+  - synonym: Ausgearbeitetes Beispiel mit Ausblendung
+    language: de
+short_description: >
+  Vollständig ausgearbeitete Lösungsbeispiele werden schrittweise reduziert —
+  erst fehlt der letzte Schritt, dann zwei, dann alle. TN lösen zunehmend
+  selbstständig. Kognitive Belastung wird schrittweise gesteigert.
+originator: John Sweller (Cognitive Load Theory) / Renkl & Atkinson
+origin_context: >
+  Aufbauend auf Swellers Cognitive Load Theory (1988); das Fading-Prinzip
+  empirisch ausgearbeitet von Renkl und Atkinson (2002, 2003) mit
+  nachweislicher Wirksamkeit für Anfänger:innen.
+phases:
+  - code: input
+    is_primary: true
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+    note: Funktioniert sehr gut in LMS/interaktiven Übungen.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [didactic]
+duration_min_minutes: 30
+duration_typical_minutes: 50
+duration_max_minutes: 120
+materials:
+  - Aufgabenset mit Lösungsbeispielen in mehreren Stufen
+tags: [cognitive-load, beispiele, fading, anfaenger]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: article
+    title: "Cognitive Architecture and Instructional Design"
+    author: John Sweller
+    year: 1988
+    relation: reference
+    note: >
+      Swellers Cognitive Load Theory — theoretische Grundlage,
+      warum Worked Examples kognitive Last senken.
+  - kind: article
+    title: "Structuring the transition from example study to problem solving"
+    author: Alexander Renkl, Robert K. Atkinson
+    year: 2003
+    relation: originator
+    note: >
+      Renkl & Atkinson formalisieren das Fading-Prinzip —
+      schrittweiser Übergang von ausgearbeiteten Beispielen
+      zu selbständigem Problemlösen.
+  - kind: book
+    title: "Instructional Design: Principles and Applications"
+    author: Leslie J. Briggs (Hrsg.)
+    year: 1991
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Aufgabenset mit Fading-Stufen vorbereiten (Prep, außerhalb der Session)
+    duration_minutes: 0
+    trainer_action: >
+      VOR dem Training (nicht Teil der Session-Dauer): 4-6
+      Beispiele im gleichen Aufgaben-Typ erstellen. Stufe 1
+      = voll ausgearbeitet (alle Schritte sichtbar). Stufe 2
+      = letzter Schritt fehlt. Stufe 3 = zwei fehlen.
+      Stufe 4 = nur Aufgabenstellung. Lösungsweg
+      konsistent, steigender Anforderungsgrad. Realistisch
+      ca. 60-90 min Vorbereitungszeit je nach Fachgebiet.
+    participant_action: >
+      — (Vorbereitungs-Phase, nur Trainer:in)
+    note: >
+      Vorbereitung ist 80 % der Arbeit. Beispiele müssen
+      strukturell gleich sein — sonst wird Fading nicht
+      als "gleiche Methode, weniger Stütze" erlebt. Testen
+      Sie vorab. Der hohe Aufwand bleibt bewusst außerhalb
+      der Durchführungs-Dauer, damit die Methoden-Dauer
+      für die Session-Planung stimmt.
+  - order: 2
+    label: Einführung & erstes Beispiel (Stufe 1)
+    duration_minutes: 10
+    trainer_action: >
+      Kontext und Ziel klären. Erstes Beispiel komplett
+      ausgearbeitet zeigen — Moderation geht Schritt für
+      Schritt durch, kommentiert Entscheidungen ("Jetzt
+      mache ich X, weil..."). Think-Aloud-Prinzip.
+    participant_action: >
+      Zuhören, mitverfolgen, eigene Notizen. Struktur
+      des Lösungswegs verstehen.
+    note: >
+      Think-Aloud beim ersten Beispiel ist Pflicht. TN
+      sehen nicht nur Lösung, sondern Entscheidungs-Muster.
+      Ohne: nur Imitieren möglich, kein Verstehen.
+  - order: 3
+    label: Beispiel mit Lücke (Stufe 2)
+    duration_minutes: 10
+    trainer_action: >
+      Zweites Beispiel: alle Schritte außer letztem vor-
+      gegeben. "Ergänzen Sie den letzten Schritt." Einzel-
+      oder Paararbeit (5 min), dann Plenum-Besprechung
+      (5 min).
+    participant_action: >
+      Letzten Schritt selbst ergänzen, Hypothese prüfen,
+      im Plenum erklären.
+    note: >
+      Erster Schritt der Selbstständigkeit. Hier werden
+      Verstehens-Lücken sichtbar. Wer NICHT ergänzen kann,
+      braucht nochmal Stufe 1.
+  - order: 4
+    label: Beispiel mit mehr Lücken (Stufe 3)
+    duration_minutes: 15
+    trainer_action: >
+      Drittes Beispiel: zwei oder mehr Schritte fehlen.
+      Arbeitszeit je nach Komplexität 7-10 min. Plenum-
+      Besprechung, Fehleranalyse. Fehlerkultur aktiv
+      fördern ("Wo sind Sie hängen geblieben?").
+    participant_action: >
+      Mehr selbst entscheiden und ausführen. Eigene
+      Hürden erkennen und benennen.
+    note: >
+      Hier wird anspruchsvoller. Manche TN werden
+      frustriert — das ist normal. Coaching hilft:
+      "Wo hakte es?". Nicht Lösung vorsagen.
+  - order: 5
+    label: Vollständig selbständige Aufgabe (Stufe 4)
+    duration_minutes: 10
+    trainer_action: >
+      Viertes Beispiel ohne Stütze. Nur Aufgabenstellung.
+      TN lösen komplett selbst. Plenum zur Kontrolle,
+      Unterschiede im Lösungsweg diskutieren.
+    participant_action: >
+      Selbständig lösen. Eigenen Weg gehen. Vergleich
+      mit anderen.
+    note: >
+      Jetzt sind TN im Transfer. Wer Schritt 4 alleine
+      löst, hat Methodik verinnerlicht. Wer nicht: zurück
+      zu Stufe 2 oder 3.
+
+variations:
+  - name: Klassisches Fading (4 Stufen)
+    description: >
+      Standard: 1. Voll ausgearbeitet, 2. ein Schritt fehlt,
+      3. zwei fehlen, 4. alle fehlen. Nach Renkl & Atkinson.
+    when_to_use: >
+      Fachliche Schulungen mit strukturierten Aufgaben-
+      Typen (Mathematik, Programmierung, formale Verfahren).
+      Gut bei Anfänger:innen.
+  - name: Backward Fading (vom Ende)
+    description: >
+      Fading erfolgt rückwärts: erst letzter, dann
+      vorletzter Schritt fehlt. Führt schrittweise vom
+      Ziel zum Anfang.
+    when_to_use: >
+      Ziel-orientierte Prozesse, strategische
+      Entscheidungen. Wenn das Endprodukt definiert ist
+      und Weg dorthin gesucht wird.
+  - name: Forward Fading (vom Anfang)
+    description: >
+      Fading vom Anfang: erst erste Schritt selbst, dann
+      mehr. Umgekehrte Reihenfolge.
+    when_to_use: >
+      Bei sehr unsicheren Anfänger:innen. Der erste Schritt
+      ist oft der schwierigste — hier früh trainieren.
+  - name: Adaptive Fading
+    description: >
+      Stufe passt sich individuellem Lernstand an. TN,
+      die Stufe 2 meistern, bekommen Stufe 4; andere
+      bleiben bei Stufe 2. Differenziertes Lernen.
+    when_to_use: >
+      Heterogene Gruppen, adaptive Lernsysteme (LMS mit
+      Assessment). Software-gestützt gut umsetzbar.
+  - name: Peer-Fading (mit Tandem)
+    description: >
+      TN arbeiten in 2er-Tandems. Eine:r erklärt
+      ausgearbeitetes Beispiel, andere ergänzt Lücke.
+      Rollenwechsel.
+    when_to_use: >
+      Wenn Sprechen über Lösungsweg Lerneffekt stärken
+      soll. Peer-to-Peer-Lernen.
+  - name: Remote Worked-Example (LMS)
+    description: >
+      In Lernmanagement-System automatisiert: digitaler
+      Assistent zeigt Beispiele, prüft Ergänzungen,
+      gibt Feedback. Asynchron.
+    when_to_use: >
+      Online-Lernen, Massenschulungen, Selbstlern-
+      Plattformen. Skalierbar.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Beispiele sind nicht strukturgleich — Fading wirkt
+      nicht.
+    countermeasure: >
+      Beispiele konsistent strukturieren. Gleicher
+      Lösungsweg, nur andere Zahlen/Inhalte. Vor Einsatz
+      testen: "Ist das wirklich dieselbe Struktur?"
+    severity: common
+  - issue: >
+      Zu schneller Übergang zu Stufe 4 — TN frustriert.
+    countermeasure: >
+      Stufen nicht überspringen. Bei Unsicherheit: Stufe
+      wiederholen. Adaptive Variante, wenn Gruppe
+      heterogen.
+    severity: common
+  - issue: >
+      Think-Aloud in Stufe 1 fehlt — TN sehen nur Lösung,
+      verstehen Denkweg nicht.
+    countermeasure: >
+      Beim ersten Beispiel konsequent Entscheidungen
+      offenlegen. Vorbereitung: "Was denke ich an
+      jeder Stelle?" Modelling des Denkens.
+    severity: common
+  - issue: >
+      Plenum-Besprechung wird zu Fehler-Analyse —
+      lähmend.
+    countermeasure: >
+      Fehler als Lern-Anlass framen: "Wo haken Sie?
+      Das zeigt uns, was wichtig ist." Aktivieren,
+      nicht bloßstellen.
+    severity: common
+  - issue: >
+      Methode nur für Anfänger:innen wirksam —
+      Fortgeschrittene gelangweilt.
+    countermeasure: >
+      Bei fortgeschrittenen Lerner:innen: Stufe 1
+      weglassen, direkt bei Stufe 3 oder 4 starten.
+      Cognitive Load Theory zeigt: Expertise-Reversal-
+      Effekt. Worked Examples helfen nur Anfänger:innen.
+    severity: common
+  - issue: >
+      Aufgabentypus zu komplex für Stufen-Schema.
+    countermeasure: >
+      Fading eignet sich für strukturierte, algorithmisch
+      lösbare Probleme. Bei kreativen/offenen Problemen:
+      andere Methoden (Problem-Based Learning,
+      Scaffolding).
+    severity: common
+  - issue: >
+      Vorbereitungs-Aufwand wird unterschätzt —
+      schlecht strukturierte Beispiele.
+    countermeasure: >
+      Zeit für Aufgaben-Design einplanen (ca. 4× die
+      Dauer des Trainings). Beispiele mit Kolleg:innen
+      testen. Iteratives Refinement.
+    severity: common

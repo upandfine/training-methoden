@@ -1,0 +1,190 @@
+slug: kennenlern-karten
+canonical_name: Kennenlern-Karten
+synonyms:
+  - synonym: Getting-to-Know-You Cards
+    language: en
+  - synonym: Fragekarten-Spiel
+    language: de
+short_description: >
+  Kartenstapel mit offenen Fragen („Was war dein letztes Aha-Erlebnis?", „Was
+  bringt dich zum Lachen?") wird in Kleingruppen gezogen und beantwortet.
+  Niederschwellig, kulturneutral, gut skalierbar.
+originator: null
+origin_context: >
+  Kommerzielle Kartensets („We're Not Really Strangers", „Rory's Story Cubes",
+  deutschsprachige „Wunderkarten") haben das Format popularisiert — es wird
+  aber seit langem auch als Trainer-Eigenproduktion genutzt.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digital als Karten-Generator oder geteilte Liste; gut in Breakouts.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [icebreaker, cooperative]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 45
+materials:
+  - Fragekarten-Set (physisch oder digital)
+tags: [karten, fragen, niederschwellig]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+  - kind: url
+    title: "We're Not Really Strangers — Card Game"
+    url: https://www.werenotreallystrangers.com/
+    relation: reference
+    note: Bekanntes kommerzielles Kartenset für Tiefenkennenlernen.
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Karten verteilen & Regeln
+    duration_minutes: 3
+    trainer_action: >
+      Karten-Set pro Kleingruppe (3-4 TN). Regeln:
+      "Reihum. Jede:r zieht Karte, beantwortet
+      Frage, andere können Rückfragen stellen.
+      Pass-Option erlaubt."
+    participant_action: >
+      Kleingruppe finden, Karten erkunden.
+    note: >
+      Karten-Qualität entscheidet. Gute Sets haben
+      Mix aus harmlos + tiefer. Eigene Sets
+      herstellbar.
+  - order: 2
+    label: Erste Runde — harmlose Karten oben
+    duration_minutes: 10
+    trainer_action: >
+      Reihum: Karte ziehen, Frage laut lesen,
+      antworten (1-2 min). Andere hören aufmerksam.
+      Erste Runde: leichtere Karten.
+    participant_action: >
+      Karte ziehen, Frage hören, antworten.
+      Zuhören bei anderen.
+    note: >
+      Anfangs niederschwellig. Wer tiefe Karte
+      zieht und sich unwohl fühlt: Pass.
+  - order: 3
+    label: Vertiefung & weitere Runden
+    duration_minutes: 12
+    trainer_action: >
+      Weitere Runden, ggf. Karten-Wechsel zu
+      vertieften Themen. Gruppe entwickelt eigene
+      Tiefe.
+    participant_action: >
+      Weitere Karten beantworten, immer
+      tiefer einsteigen wenn stimmig.
+    note: >
+      Tiefe entsteht organisch. Nicht erzwingen.
+      Manche Gruppen bleiben oberflächlich, andere
+      gehen tief.
+  - order: 4
+    label: Abschluss
+    duration_minutes: 5
+    trainer_action: >
+      "Was nehmen Sie aus den Gesprächen mit?"
+      Kurze Plenum-Reflexion oder direkt
+      Übergang.
+    participant_action: >
+      Eindrücke teilen oder zur Sitzordnung
+      zurück.
+    note: >
+      Plenum-Phase optional — Methode wirkt im
+      Paar/Kleingruppe.
+
+variations:
+  - name: Klassisch (Karten-Set, Kleingruppen)
+    description: >
+      Standardvariante: 3-4 TN pro Gruppe, reihum.
+    when_to_use: >
+      Seminar-Einstieg, längere Workshops, Coaching-
+      Gruppen. 6-25 TN.
+  - name: Eigene Karten erstellen
+    description: >
+      TN schreiben Fragen auf Karten, mischen,
+      ziehen. Aktiver, persönlicher.
+    when_to_use: >
+      Mehr Zeit (60+ min), kreative Gruppen.
+  - name: Themen-fokussiert
+    description: >
+      Karten zu spezifischem Thema (Führung,
+      Werte, Karriere). Mehr Tiefe pro Karte.
+    when_to_use: >
+      Coaching-Gruppen, Themen-Workshops.
+  - name: Speed-Variante (kurze Runden)
+    description: >
+      30 Sek pro Antwort, schnelle Rotation.
+      Energizer-Charakter.
+    when_to_use: >
+      Kurze Sessions, viele TN.
+  - name: Remote (digitale Karten)
+    description: >
+      Karten-Generator-Webseite oder geteilte
+      Liste. Breakouts à 3-4.
+    when_to_use: >
+      Online-Trainings, verteilte Teams.
+    setting_codes: [remote_sync]
+  - name: Tiefen-Karten (3 Stufen)
+    description: >
+      Karten in 3 Stufen-Stapeln (oberflächlich,
+      mittel, tief). Gruppe wählt Tiefen-Niveau.
+    when_to_use: >
+      Coaching-Gruppen, längere Programme.
+
+pitfalls:
+  - issue: >
+      Karten zu tief — TN überfordert.
+    countermeasure: >
+      Karten-Set vorab sichten. Pass-Option klar.
+      Bei Bedarf: harmlosere Karten wählen.
+    severity: common
+  - issue: >
+      Antworten werden zur Selbstdarstellung.
+    countermeasure: >
+      Zeit-Limit (1-2 min) pro Antwort. Nicht zu
+      lang reden.
+    severity: common
+  - issue: >
+      Bei großen Gruppen: Plenum nicht nötig.
+    countermeasure: >
+      Plenum optional. Methode wirkt in Klein-
+      gruppen. Bei zu großen Plena: nur Highlights.
+    severity: common
+  - issue: >
+      Stille TN passen oft — keine Beteiligung.
+    countermeasure: >
+      Pass akzeptieren, aber sanft ermutigen.
+      "Vielleicht eine Karte später."
+    severity: common
+  - issue: >
+      Karten-Set fehlt / nicht zugänglich.
+    countermeasure: >
+      Vorab beschaffen oder Reserve-Karten
+      selbst erstellen. Online-Generatoren als
+      Backup.
+    severity: rare

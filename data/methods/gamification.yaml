@@ -1,0 +1,81 @@
+slug: gamification
+canonical_name: Gamification
+synonyms:
+  - synonym: Spielifikation
+    language: de
+  - synonym: Game-Based Learning
+    language: en
+  - synonym: Spielifizierung
+    language: de
+  - synonym: Spielifizieren
+    language: de
+
+short_description: >
+  Gezielter Einsatz spieltypischer Elemente — Punkte, Level, Badges,
+  Bestenlisten, Quests, Storyline — in nicht-spielerischen Lernkontexten.
+  Aktiviert intrinsische und extrinsische Motivation, schafft Feedback-
+  Schleifen, macht Fortschritt sichtbar. Besonders wirksam bei
+  Auszubildenden, Schüler:innen und in Compliance-/Onboarding-Trainings.
+  Vorsicht vor reiner Belohnungs-Logik — die hält nicht lange.
+
+originator: Nick Pelling (Begriff) / Jane McGonigal (Bekanntheit)
+origin_context: >
+  Begriff "Gamification" 2002 von Nick Pelling geprägt, ab 2010 durch
+  Jane McGonigal ("Reality is Broken") und Werbach/Hunter ("For the Win")
+  popularisiert. Im deutschsprachigen Raum etabliert in der digitalen
+  Bildung, im Corporate-Learning (LMS-Plattformen) und in der Ausbildung.
+
+phases:
+  - code: input
+  - code: practice
+    is_primary: true
+  - code: activation
+
+settings:
+  - code: onsite
+    suitability: good
+  - code: remote_sync
+    suitability: excellent
+    note: Klassisches Tool — Kahoot, Quizizz, Mentimeter; Punkte/Levels in LMS.
+  - code: remote_async
+    suitability: excellent
+    note: Selbstlern-Plattformen mit Achievement-System, ideales Format.
+  - code: hybrid
+    suitability: excellent
+
+group_sizes: [small, medium, large, plenary]
+target_audiences: [school, youth, ihk, adult_education, corporate]
+method_types: [activating, game]
+
+duration_min_minutes: 15
+duration_typical_minutes: 60
+duration_max_minutes: 480
+
+materials:
+  - Plattform / Tool (Kahoot, Quizizz, Mentimeter, LMS mit Achievement-System)
+  - Optional analog. Punkte-Karten, Badges, Leaderboard auf Flipchart
+tags: [motivation, spiel, ausbildung, jugendliche, schueler, gamification, digital]
+
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+stage_2_status: none
+
+sources:
+  - kind: book
+    title: "Reality Is Broken: Why Games Make Us Better and How They Can Change the World"
+    author: Jane McGonigal
+    year: 2011
+    relation: reference
+    note: Manifest der Gamification-Bewegung; theoretische Grundlage.
+  - kind: book
+    title: "For the Win: How Game Thinking Can Revolutionize Your Business"
+    author: Kevin Werbach, Dan Hunter
+    year: 2012
+    relation: practice_guide
+  - kind: book
+    title: "Actionable Gamification: Beyond Points, Badges and Leaderboards"
+    author: Yu-kai Chou
+    year: 2015
+    relation: practice_guide
+    note: Octalysis-Framework — vertieft die Motivations-Mechanik.

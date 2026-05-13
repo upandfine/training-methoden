@@ -1,0 +1,244 @@
+slug: fallstudie
+canonical_name: Fallstudie
+synonyms:
+  - synonym: Case Study
+    language: en
+  - synonym: Fallarbeit
+    language: de
+short_description: >
+  Teilnehmende analysieren einen realen oder konstruierten Fall mit Daten,
+  Zusammenhängen, Entscheidungsdilemma. Meist in Gruppen; Ergebnis ist eine
+  begründete Entscheidung oder Empfehlung.
+originator: Harvard Business School (Case Method)
+origin_year: 1922
+origin_context: >
+  Case-Method der Harvard Business School seit 1920ern; heute in Managementausbildung,
+  Jura, Medizin, Beratung verbreitet.
+phases:
+  - code: deepening
+  - code: practice
+    is_primary: true
+  - code: group_work
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Breakouts zur Analyse, Material vorab oder im geteilten Dokument.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, higher_education]
+method_types: [cooperative, didactic]
+duration_min_minutes: 45
+duration_typical_minutes: 150
+duration_max_minutes: 240
+materials:
+  - Fall-Material, ggf. Datenblätter, Leitfragen
+tags: [case-method, managementausbildung, tief]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Fall vorstellen & Leitfragen
+    duration_minutes: 15
+    trainer_action: >
+      Fall überblicksweise einführen (Kontext, Kernspannung, Protagonist:in).
+      Leitfragen ausgeben, die Fokus geben ohne die Antwort vorwegzunehmen
+      (z.B. „Was ist das Kernproblem?", „Welche Entscheidung muss X treffen
+      und warum?"). Gruppen bilden.
+    participant_action: >
+      Fallmaterial grob sichten, Leitfragen lesen, Gruppen finden.
+    note: >
+      Gute Fälle liefern Daten und weglassen — nicht alles ist im Text.
+      TN müssen Lücken identifizieren.
+  - order: 2
+    label: Individuelle Analyse (optional vorab)
+    duration_minutes: 30
+    trainer_action: >
+      Stille Arbeit: Jede:r liest den Fall gründlich, macht Notizen,
+      skizziert eigene Hypothese. Falls Fall vorab verteilt wurde,
+      entfällt dieser Schritt im Workshop.
+    participant_action: >
+      Allein lesen, Notizen machen, eigene Position formulieren.
+    note: >
+      Bei komplexen Fällen diesen Schritt nicht überspringen —
+      sonst dominieren in der Gruppenphase die Schnelllesenden.
+  - order: 3
+    label: Gruppen-Analyse
+    duration_minutes: 45
+    trainer_action: >
+      Gruppenarbeit anleiten: Erst Situationsanalyse (was ist los?),
+      dann Problemdefinition (was ist die Kernspannung?), dann
+      Optionsraum (welche Handlungsalternativen?), dann Empfehlung.
+      Leitung wandert, stellt Sokratische Fragen statt Antworten
+      zu geben.
+    participant_action: >
+      Analyse strukturieren, Positionen vergleichen, gemeinsame
+      Empfehlung ausarbeiten. Visualisierung am Flipchart/Board.
+    note: >
+      Gute Leitung nennt nie „die richtige" Antwort — auch wenn die
+      Gruppe danach drängt. Fallstudien leben davon, dass die Gruppe
+      argumentieren muss.
+  - order: 4
+    label: Plenum-Diskurs
+    duration_minutes: 30
+    trainer_action: >
+      Gruppen stellen Empfehlungen vor (max. 5 min pro Gruppe).
+      Leitung moderiert Kreuzdiskussion: Wo unterscheiden sich die
+      Empfehlungen? Welche Annahmen liegen zugrunde? Fokus auf
+      Argumentationsqualität, nicht auf „richtig/falsch".
+    participant_action: >
+      Präsentieren, nachfragen, Gegenargumente einbringen.
+    note: >
+      Harvard-Stil: Leitung ruft gezielt auf, pusht auf Widersprüche.
+      Das schärft analytisches Denken — braucht aber Vertrauen.
+  - order: 5
+    label: Rück-Enthüllung & Reflexion
+    duration_minutes: 20
+    trainer_action: >
+      Wenn realer Fall: zeigen was die Person damals wirklich entschieden
+      hat und was daraus wurde („The answer"). Wichtig: als eine
+      Entscheidung darstellen, nicht als „die richtige". Reflexion
+      über Entscheidungs-Heuristiken.
+    participant_action: >
+      Vergleich mit eigener Empfehlung, Abgleich welche Annahmen stimmten.
+      Meta-Reflexion: Was hätten wir früher sehen können?
+    note: >
+      Die Real-Entscheidung ist Lehrmaterial, nicht Urteil. Oft war
+      sie in retrospekt auch suboptimal — auch das ist Lernstoff.
+  - order: 6
+    label: Transfer
+    duration_minutes: 10
+    trainer_action: >
+      Übertragung auf TN-eigene Kontexte: „Wo in Ihrer Arbeit gibt
+      es eine ähnliche Konstellation? Was nehmen Sie mit?"
+    participant_action: >
+      Persönlichen Transfer formulieren, notieren.
+    note: >
+      Ohne Transfer bleibt Fallarbeit akademisch.
+
+variations:
+  - name: Harvard-Case-Method (diskursiv)
+    description: >
+      Fokus auf Plenum-Diskussion, Leitung ruft gezielt auf („cold call"),
+      pusht Argumentationstiefe. Gruppen-Phase optional.
+    when_to_use: >
+      MBA-nahe Settings; wenn TN analytisches Denken schärfen sollen
+      und gegenseitiges Aufreiben geschätzt wird.
+  - name: Problem-Based Learning (PBL)
+    description: >
+      Fall wird in Phasen enthüllt, TN müssen selbst recherchieren
+      und Wissenslücken schließen. Mehrere Sitzungen über Wochen.
+    when_to_use: >
+      Medizinische und ingenieurwissenschaftliche Ausbildung;
+      wenn Wissenserwerb Teil des Falls ist.
+  - name: Mini-Fall (Vignette)
+    description: >
+      1-2-Seiten-Fall, 60 min Bearbeitungszeit. Fokus auf eine Kern-
+      entscheidung, nicht auf ganze Situation.
+    when_to_use: >
+      Knappes Zeitbudget, Einstieg ins Format, IHK-Trainings.
+  - name: Live-Fall (eigener Case der TN)
+    description: >
+      TN bringen aktuelle Fälle mit, Gruppe bearbeitet einen davon
+      als Fallstudie. Hoher Praxisbezug, aber anonymisierungs-sensibel.
+    when_to_use: >
+      Führungskräfte-Trainings, kollegialer Austausch; verwandt mit
+      Kollegialer Fallberatung.
+  - name: Multi-Fall-Vergleich
+    description: >
+      Verschiedene Gruppen bearbeiten verschiedene Fälle zum selben
+      Thema, dann Cross-Vergleich im Plenum.
+    when_to_use: >
+      Wenn ein Thema aus mehreren Winkeln beleuchtet werden soll
+      (z.B. unterschiedliche Branchen, Kontexte).
+  - name: Asynchroner Fall
+    description: >
+      Fallmaterial auf Plattform, Diskussion im Forum über 1-2 Wochen,
+      Leitung moderiert schriftlich. Optional Abschluss-Live-Session.
+    when_to_use: >
+      Verteilte Lerngruppen, berufsbegleitende Weiterbildung.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Fall zu umfangreich — TN lesen über die halbe Zeit hinweg, wenig
+      Zeit für Analyse und Diskurs.
+    countermeasure: >
+      Vorab-Lesen fest einplanen (als Pre-Work), oder Fall auf
+      Kerninformation kürzen. 5-10 Seiten ist Obergrenze für Workshop.
+    severity: common
+  - issue: >
+      TN suchen nach „der richtigen Antwort", sind frustriert wenn
+      Leitung keine gibt.
+    countermeasure: >
+      Erwartungsmanagement zu Beginn: „Es gibt nicht die richtige
+      Antwort, sondern argumentativ stärkere und schwächere."
+      Regel wiederholen, wenn Frustration aufkommt.
+    severity: common
+  - issue: >
+      Leitung verrät eigene Meinung, Gruppe alignt sich ab diesem
+      Moment.
+    countermeasure: >
+      Selbstdisziplin: nur Fragen stellen, nicht kommentieren.
+      Bei Schweigen: warten, nicht füllen.
+    severity: common
+  - issue: >
+      Gruppen-Empfehlung ist Durchschnitt aller Meinungen statt
+      substantiierter Position.
+    countermeasure: >
+      Regel: Empfehlung muss explizit Alternativen bewerten und ablehnen,
+      nicht nur die gewählte begründen. Führt zu schärferer Argumentation.
+    severity: common
+  - issue: >
+      Fall ist nicht mehr aktuell (z.B. Entscheidung 2008, heutiger
+      Kontext anders) — TN verlieren Interesse.
+    countermeasure: >
+      Fall-Alter bewusst thematisieren: „Was wäre heute anders?" kann
+      selbst zum Lernthema werden. Oder aktuelle Fälle wählen.
+    severity: rare
+  - issue: >
+      Remote/Async: Diskurs-Qualität sinkt, TN schreiben höfliche
+      Zustimmung statt echter Auseinandersetzung.
+    countermeasure: >
+      Prompt-Rollen verteilen („Advocatus Diaboli", „Kritiker:in")
+      per Auftrag. Synchrones Schluss-Plenum zur Verdichtung.
+    severity: common
+    setting_codes: [remote_async]
+
+sources:
+  - kind: book
+    title: "Education for Judgment — The Artistry of Discussion Leadership"
+    author: C. Roland Christensen, David A. Garvin, Ann Sweet
+    year: 1991
+    relation: reference
+    note: Harvard-Standardwerk zum Teaching mit der Case Method.
+  - kind: book
+    title: "Teaching and the Case Method"
+    author: Louis B. Barnes, C. Roland Christensen, Abby J. Hansen
+    year: 1994
+    relation: practice_guide
+  - kind: url
+    title: "Harvard Business Publishing — Teaching Cases"
+    url: https://hbsp.harvard.edu/
+    relation: reference
+    note: Größte Case-Library; kostenpflichtig.
+  - kind: url
+    title: "The Case Centre — European Case Repository"
+    url: https://www.thecasecentre.org/
+    relation: reference
+    note: Europäisches Pendant, oft günstiger und mit deutschsprachigen Fällen.
+  - kind: article
+    title: "Problem-Based Learning — An Approach to Medical Education"
+    author: Howard S. Barrows, Robyn M. Tamblyn
+    year: 1980
+    relation: reference
+    note: Wurzel des PBL-Ansatzes.

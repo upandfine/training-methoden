@@ -1,0 +1,19 @@
+- code: onsite
+  label_de: Präsenz
+  label_en: On-site
+  description: Alle Teilnehmenden im selben physischen Raum.
+
+- code: remote_sync
+  label_de: Remote (synchron)
+  label_en: Remote (synchronous)
+  description: Live über Videokonferenz, alle gleichzeitig.
+
+- code: remote_async
+  label_de: Remote (asynchron)
+  label_en: Remote (asynchronous)
+  description: Zeitversetzt — Whiteboard, Forum, Video-Aufgaben ohne Live-Termin.
+
+- code: hybrid
+  label_de: Hybrid
+  label_en: Hybrid
+  description: Ein Teil vor Ort, ein Teil remote, gleichzeitig.

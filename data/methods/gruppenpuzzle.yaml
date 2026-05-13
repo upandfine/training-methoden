@@ -1,0 +1,201 @@
+slug: gruppenpuzzle
+canonical_name: Gruppenpuzzle (Jigsaw)
+synonyms:
+  - synonym: Jigsaw
+    language: en
+  - synonym: Puzzle-Methode
+    language: de
+short_description: >
+  Stammgruppen teilen ein Thema in Teilbereiche auf. Expertengruppen erarbeiten
+  je einen Teil, kehren dann in die Stammgruppe zurück und lehren einander.
+  Alle werden Lehrende und Lernende.
+originator: Elliot Aronson
+origin_year: 1971
+origin_context: >
+  Aronsons Jigsaw Classroom (1971), ursprünglich zur Deeskalation von Rassismus
+  in texanischen Schulen. Heute Standardmethode kooperativen Lernens.
+phases:
+  - code: input
+  - code: group_work
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Breakouts für Expertengruppen → Rückkehr in Stammgruppen; Material per geteiltem Whiteboard.
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [cooperative, didactic]
+duration_min_minutes: 45
+duration_typical_minutes: 90
+duration_max_minutes: 180
+materials:
+  - Material für Teilthemen (ein Satz pro Expertengruppe)
+tags: [kooperatives-lernen, expertengruppen, jigsaw]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: "The Jigsaw Classroom"
+    author: Elliot Aronson
+    year: 1978
+    relation: originator
+  - kind: url
+    title: "Jigsaw Classroom — Offizielle Informationsseite"
+    url: https://www.jigsaw.org/
+    relation: reference
+    note: Von Aronson selbst unterhalten, mit How-to und Forschungsüberblick.
+  - kind: article
+    title: "Cooperation versus competition — Effects on group processes and productivity"
+    author: Morton Deutsch
+    year: 1949
+    relation: reference
+    note: Theoretische Grundlage des kooperativen Lernens (Interdependenz).
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Stammgruppen bilden & Thema splitten
+    duration_minutes: 10
+    trainer_action: >
+      Gruppen à 4-6 Personen bilden (Stammgruppen). Thema in ebenso
+      viele Teilbereiche zerlegen vorstellen (z.B. 4 Stammgruppen
+      à 4 Personen = 4 Teilthemen). Nummerieren 1-4 innerhalb jeder
+      Stammgruppe: Nr. 1 bearbeitet Teilthema A, Nr. 2 Teilthema B usw.
+    participant_action: >
+      Stammgruppe konstituieren, Rollen/Nummern zuweisen, Teilthema
+      erhalten und kurz lesen.
+    note: >
+      Vorbereitung ist kritisch: Teilthemen müssen (a) zusammen ein
+      Ganzes ergeben und (b) ähnlich schwer sein. Ungleiche Themen
+      killen das Format.
+  - order: 2
+    label: Expertengruppen erarbeiten Teilthema
+    duration_minutes: 30
+    trainer_action: >
+      Alle mit Teilthema A gehen in Expertengruppe A, alle mit B nach
+      B usw. Auftrag: Teilthema gründlich verstehen UND gemeinsame
+      Vermittlungsstrategie für die Rückkehr überlegen („Wie erklären
+      wir das unserer Stammgruppe in 5-7 min?").
+    participant_action: >
+      Expertengruppe bearbeitet Material, diskutiert, erstellt
+      gemeinsames Mini-Skript oder Visualisierung.
+    note: >
+      Der „Vermittlungs-Auftrag" ist das Besondere — ohne ihn liest
+      jede:r nur für sich selbst. Unbedingt ansagen.
+  - order: 3
+    label: Rückkehr in Stammgruppe & gegenseitiges Lehren
+    duration_minutes: 30
+    trainer_action: >
+      Expert:innen kehren in Stammgruppe zurück. Reihum lehrt jede:r
+      5-7 min das eigene Teilthema, die anderen hören zu, fragen nach,
+      notieren. Leitung wandert, unterstützt bei Unklarheit.
+    participant_action: >
+      Abwechselnd lehren und lernen. Aktive Fragen, keine Passivität.
+    note: >
+      Hier passiert das eigentliche Lernen. TN lernen, weil sie
+      vermitteln müssen („learning by teaching").
+  - order: 4
+    label: Integration & Prüfung
+    duration_minutes: 15
+    trainer_action: >
+      Integrations-Aufgabe: Stammgruppe muss eine Aufgabe lösen, die
+      alle vier Teilthemen braucht (Quiz, Fallanalyse, Produkt). Dann
+      Plenum: offene Fragen klären, Kernthesen konsolidieren.
+    participant_action: >
+      Integration bearbeiten, Fragen an Plenum stellen.
+    note: >
+      Ohne Integrations-Aufgabe bleibt das Wissen oft fragmentiert.
+      Diese Phase NICHT wegkürzen.
+
+variations:
+  - name: Klassisches Jigsaw (Aronson)
+    description: >
+      Ein-Thema-Aufteilung wie oben. 4-6 Teilbereiche. Lerngruppe
+      trifft sich über eine Sitzung oder einen Schultag.
+    when_to_use: >
+      Wenn ein Lehrstoff gut in ähnlich schwere Teilthemen zerlegbar
+      ist (z.B. 4 Kapitel, 4 Stakeholder-Perspektiven).
+  - name: Jigsaw II (Slavin)
+    description: >
+      Alle TN lesen den ganzen Stoff vorab, Expertengruppen vertiefen
+      nur bestimmte Teile. Am Ende individueller Test, dessen Gruppen-
+      durchschnitt als Team-Leistung zählt.
+    when_to_use: >
+      Schule, wenn Vorbereitung zu Hause möglich ist und Leistung
+      bewertet werden soll.
+  - name: Themen-Jigsaw (Projekt-Variante)
+    description: >
+      Teilbereiche sind unterschiedliche Projekte/Cases, nicht
+      Textabschnitte. Stammgruppe arbeitet am Ende an integrativem
+      Produkt.
+    when_to_use: >
+      Corporate/IHK bei Querschnittsthemen (z.B. „Unser Produkt aus
+      4 Perspektiven: Design, Vertrieb, Support, Finanzen").
+  - name: Remote-Jigsaw
+    description: >
+      Expertengruppen als Breakout-Rooms. Stammgruppen-Phase ebenfalls
+      Breakout, aber mit anderer Zusammenstellung. Zentrale
+      Dokumentations-Kanbans auf Miro pro Teilthema.
+    when_to_use: >
+      Remote-Sync. Braucht sehr gute Moderations-Choreographie und
+      klare Raum-Zuordnung.
+    setting_codes: [remote_sync]
+  - name: Kurz-Jigsaw (45 min)
+    description: >
+      Nur ein kurzer Text (z.B. 2 Seiten), aufgeteilt in 3 Abschnitte.
+      Experten-Phase 10 min, Stammgruppen-Phase 15 min, Integration 10 min.
+    when_to_use: >
+      Kurze Slots (Unterrichtsstunde), aktivierender Einstieg in
+      ein Kapitel.
+
+pitfalls:
+  - issue: >
+      Teilthemen sind ungleich schwer oder ungleich lang — Experten
+      einer Gruppe langweilen sich, andere stressen sich.
+    countermeasure: >
+      Vor dem Training Teilthemen gegenlesen, grob Zeit schätzen,
+      ggf. Abschnitte umverteilen. Alle Teilthemen testweise durchlesen.
+    severity: common
+  - issue: >
+      Expertengruppe bleibt oberflächlich, Gruppenmitglieder lernen
+      nur oberflächlich — in der Stammgruppe fehlt Substanz.
+    countermeasure: >
+      Konkrete Leitfragen je Teilthema vorgeben (nicht nur „lest und
+      versteht"). Expertengruppen-Ergebnis muss schriftlich erfasst werden.
+    severity: common
+  - issue: >
+      In Stammgruppe dominiert der/die eloquentere Expert:in, andere
+      werden zu Zuhörer:innen.
+    countermeasure: >
+      Strikte Rotation mit Zeit pro Person (5-7 min). Regel: Jede:r
+      lehrt das eigene Thema, auch wenn unsicher.
+    severity: common
+  - issue: >
+      Keine Integration am Ende — Wissen bleibt fragmentiert,
+      Transfer findet nicht statt.
+    countermeasure: >
+      Integrations-Aufgabe vorbereiten (Quiz, Fallbeispiel, Produkt).
+      Mindestens 15 min einplanen.
+    severity: common
+  - issue: >
+      TN-Zahl passt nicht zur Teil-Thema-Zahl (z.B. 17 TN bei 4 Themen).
+    countermeasure: >
+      Vorab rechnen: Anzahl TN = Stammgruppengröße × Teilthemen.
+      Flexibel: eine Stammgruppe größer/kleiner; oder Teilthemen
+      doppelt besetzen.
+    severity: common
+  - issue: >
+      Remote: TN verlieren den Überblick, welche Gruppe wann dran ist.
+    countermeasure: >
+      Matrix-Tabelle vorab: Wer ist wann in welchem Raum? Geteilt
+      machen, erklären. Raum-Wechsel automatisieren wo möglich.
+    severity: common
+    setting_codes: [remote_sync]

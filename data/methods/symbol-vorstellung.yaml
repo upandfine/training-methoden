@@ -1,0 +1,217 @@
+slug: symbol-vorstellung
+canonical_name: Symbol-Vorstellung
+synonyms:
+  - synonym: Symbol Introduction
+    language: en
+  - synonym: Gegenstands-Vorstellung
+    language: de
+short_description: >
+  Teilnehmende bringen (oder wählen vor Ort) einen Gegenstand mit, der sie
+  repräsentiert — ein Buch, Schlüssel, Foto, eine Kaffeetasse. Jede:r stellt
+  sich anhand des Symbols vor. Erzeugt persönlichen, nicht-oberflächlichen Kontakt.
+originator: null
+origin_context: >
+  Methode aus der systemischen Beratung und Teamcoaching-Praxis;
+  verwandt mit Metaphernarbeit und Objektbesinnung.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: arrival
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Ideal remote — alle zeigen Objekt in die Kamera oder auf Bildschirm.
+  - code: remote_async
+    suitability: good
+    note: Als Foto-Post in Slack/Teams möglich.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium]
+target_audiences: [corporate, school, youth, adult_education]
+method_types: [icebreaker, reflective, creative]
+duration_min_minutes: 15
+duration_typical_minutes: 25
+duration_max_minutes: 45
+tags: [symbol, vorstellung, persoenlich]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Metaphern — das Arbeitsmaterial"
+    author: Ulrich Pfeifer-Schaupp
+    year: 2014
+    relation: practice_guide
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Aufgabe vorab oder spontan
+    duration_minutes: 3
+    trainer_action: >
+      Vorab (per Mail eine Woche vorher): "Bringen Sie
+      einen Gegenstand mit, der Sie repräsentiert."
+      Spontan im Raum: TN schauen sich um, wählen
+      Gegenstand aus Tasche/Raum.
+    participant_action: >
+      Gegenstand mitbringen / wählen, mental damit
+      auseinandersetzen.
+    note: >
+      Vorab-Variante hat Vorteil: TN überlegen länger.
+      Spontan-Variante hat Vorteil: kein
+      "Hausaufgaben"-Druck. Je nach Kontext.
+  - order: 2
+    label: Reihum-Vorstellung
+    duration_minutes: 15
+    trainer_action: >
+      Reihum: jede:r zeigt Gegenstand, erzählt 1-2 min
+      Geschichte dazu — was er/sie repräsentiert.
+      Andere hören aufmerksam, keine Kommentare.
+    participant_action: >
+      Eigenen Gegenstand erzählen, andere zuhören,
+      Verbindung knüpfen.
+    note: >
+      Zeit-Limit (1-2 min) wichtig. Manche neigen
+      zu Lebensgeschichten. Strukturieren, sanft
+      einkürzen.
+  - order: 3
+    label: Optionale Rückfragen
+    duration_minutes: 5
+    trainer_action: >
+      Nach jeder Vorstellung 1-2 Rückfragen erlaubt
+      ("Was bedeutet die Inschrift?"). Aber kurz —
+      nicht ausufernd.
+    participant_action: >
+      Bei Wunsch nachfragen. Eigene Vorstellung
+      vertiefen wenn gefragt.
+    note: >
+      Rückfragen machen Methode tiefer. Aber
+      Zeitdisziplin: 30-60 Sek pro Rückfrage.
+      Sonst zieht sich das.
+  - order: 4
+    label: Ausstellung & Übergang
+    duration_minutes: 2
+    trainer_action: >
+      Gegenstände werden in Mitte / auf Tisch
+      ausgestellt. Kurzer Überblick: "Schauen Sie
+      sich gegenseitig die Symbole an." Übergang
+      zum Programm.
+    participant_action: >
+      Gegenstand ablegen (oder behalten), andere
+      Symbole wahrnehmen.
+    note: >
+      Gegenstände als visuelle Sammlung machen
+      Gruppe sichtbar. Kann später wieder
+      aufgegriffen werden.
+
+variations:
+  - name: Klassisch (mitgebrachter Gegenstand)
+    description: >
+      Standard: vorab-mitgebrachte Gegenstände, reihum
+      vorgestellt.
+    when_to_use: >
+      Seminar-Einstieg, Team-Building, Coaching-
+      Gruppen. 6-15 TN.
+  - name: Spontane Auswahl (im Raum)
+    description: >
+      Im Raum spontan Gegenstand wählen. Niedrigere
+      Hürde, weniger kuratiert.
+    when_to_use: >
+      Kurzfristige Sessions, wenn Vorab-Hausaufgabe
+      nicht möglich.
+  - name: Bildkarten als Alternative
+    description: >
+      Statt mitgebrachtem Gegenstand: Bildkarten-
+      Auswahl. Verwandt mit ankommens-bildkarten.
+    when_to_use: >
+      Wenn TN keine Gegenstände mitbringen können.
+      Online möglich.
+    setting_codes: [remote_sync]
+  - name: Foto-Variante (digital)
+    description: >
+      TN posten Foto eines Gegenstandes (Slack, Teams,
+      Mail). Asynchron oder live.
+    when_to_use: >
+      Online-Trainings, verteilte Teams.
+    setting_codes: [remote_sync, remote_async]
+  - name: Themen-fokussiertes Symbol
+    description: >
+      Spezifische Frage: "Bringen Sie etwas, das Ihre
+      Führungsrolle / Ihren Lernweg / Ihre Berufung
+      symbolisiert."
+    when_to_use: >
+      Themenbezogene Workshops, Coaching mit Fokus.
+  - name: Symbol-Tausch
+    description: >
+      Nach Vorstellung: TN tauschen Symbole für
+      definierte Zeit. "Tragen Sie das Symbol einer
+      anderen Person." Empathie-Übung.
+    when_to_use: >
+      Längere Workshops, Team-Vertiefung.
+
+pitfalls:
+  - issue: >
+      TN bringen Standard-Gegenstand ("mein Handy")
+      — kein echter Sinn.
+    countermeasure: >
+      Vorab Beispiele geben, was gemeint ist.
+      Ermutigen: "Etwas, das eine Geschichte erzählt."
+    severity: common
+  - issue: >
+      Vorstellung wird zur Lebensgeschichte —
+      ausufernd.
+    countermeasure: >
+      Zeit-Limit (2 min) klar. Bei Überzug sanft
+      kappen. Methode ist Vorstellung, nicht
+      Memoir.
+    severity: common
+  - issue: >
+      In Corporate-Senior empfunden zu privat.
+    countermeasure: >
+      Themen-fokussierte Variante: "Etwas zum
+      Berufs-Bezug." Reduziert Privates, erhält
+      Methodik.
+    severity: common
+  - issue: >
+      Vorstellungen sind oberflächlich — keine echte
+      Verbindung.
+    countermeasure: >
+      Modelling durch Moderation: erste persönliche
+      Vorstellung mit echtem Gegenstand. Setzt
+      Niveau.
+    severity: common
+  - issue: >
+      Online: Gegenstände in Kamera schwer zu sehen.
+    countermeasure: >
+      Foto vorab ins Chat / Whiteboard. Oder gut
+      ausgeleuchtetes Zeigen. Tool-Disziplin.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Bei großen Gruppen: Vorstellung zieht sich.
+    countermeasure: >
+      Bei > 12 TN: Kleingruppen-Variante. Plenum nur
+      Highlights ("eine besonders überraschende").
+    severity: common
+  - issue: >
+      Niemand bringt etwas mit (vergessen, nicht
+      verstanden).
+    countermeasure: >
+      Reserve-Bildkarten oder Symbol-Sammlung
+      bereithalten. Spontane-Variante als Backup.
+    severity: rare

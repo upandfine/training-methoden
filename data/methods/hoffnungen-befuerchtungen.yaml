@@ -1,0 +1,243 @@
+slug: hoffnungen-befuerchtungen
+canonical_name: Hoffnungen & Befürchtungen
+synonyms:
+  - synonym: Hopes and Fears
+    language: en
+short_description: >
+  Teilnehmende notieren auf zwei unterschiedlichen Karten-Farben je eine
+  Hoffnung und eine Befürchtung zum Training. Moderation clustert und greift
+  auf. Macht Erwartungen und Sorgen explizit.
+originator: null
+origin_context: Klassische Erwartungsklärung aus der Moderationsmethodik.
+phases:
+  - code: expectations
+    is_primary: true
+  - code: arrival
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Miro/Mural mit zwei Spalten, anonyme Sticky Notes möglich.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, ihk, adult_education, higher_education]
+method_types: [diagnostic, reflective]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 30
+materials:
+  - Moderationskarten in zwei Farben, Stifte, Pinnwand
+tags: [erwartungsabfrage, anonym-moeglich]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+    note: Standardwerk — Hoffnungen & Befürchtungen als Erwartungs-Klärung.
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Framing & Einladung zur Offenheit
+    duration_minutes: 2
+    trainer_action: >
+      Kurz erklären: "Was erhoffen Sie sich, was befürchten Sie?
+      Hilft mir, das Training auf Sie abzustimmen." Signalisieren,
+      dass Sorgen willkommen sind, nicht als "negativ" gewertet.
+      Karten austeilen (zwei Farben, z.B. grün + rot).
+    participant_action: >
+      Zuhören, Karten entgegennehmen, mental auf die Frage
+      einstimmen.
+    note: >
+      Framing entscheidet über Ehrlichkeit. Wer "Befürchtungen"
+      als Defizit framet, bekommt keine. Besser: "Was könnte
+      für Sie ungünstig sein?" — erlaubt Sorgen ohne Defizit-
+      Gefühl.
+  - order: 2
+    label: Still schreiben (Einzelarbeit)
+    duration_minutes: 5
+    trainer_action: >
+      5 min still. Pro Farbe mindestens eine Karte (grün =
+      Hoffnung, rot = Befürchtung). Stichworte, keine Sätze.
+      Moderation schweigt, bleibt sichtbar, hilft nur bei
+      Verständnisfragen.
+    participant_action: >
+      Jede:r schreibt eigene Hoffnungen auf grüne, eigene
+      Befürchtungen auf rote Karten. Mehrere Karten pro
+      Farbe erlaubt.
+    note: >
+      Ohne Still-Phase dominiert die Meinung der ersten
+      Zurufer:in. Still erzwingt eigene Reflexion.
+  - order: 3
+    label: Einsammeln & Ankleben
+    duration_minutes: 5
+    trainer_action: >
+      Karten einsammeln (anonym). Moderation liest jede laut
+      vor, klebt an Pinnwand — zwei Spalten: Hoffnungen links,
+      Befürchtungen rechts. Keine Kommentare während des
+      Vorlesens. Ggf. ähnliche Karten gruppieren.
+    participant_action: >
+      Zuhören beim Vorlesen, Karten wahrnehmen.
+    note: >
+      Vorlesen ist wichtig — alle hören alles. Nicht "jede:r
+      zeigt eigene Karte", weil das Anonymität bricht. Mod.
+      sammelt, mischt (wenn gewünscht), liest dann.
+  - order: 4
+    label: Clustern & Thematisieren
+    duration_minutes: 5
+    trainer_action: >
+      Hoffnungen kurz bündeln ("Viele wünschen sich konkrete
+      Tipps, das versuche ich einzubauen"). Befürchtungen
+      explizit ansprechen: "Die Sorge 'Theorie-Overload' ist
+      notiert, hier plane ich X." Nicht alles können, ehrlich
+      sein was geht und was nicht.
+    participant_action: >
+      Zuhören, klaffende Erwartungen wahrnehmen, ggf. kurz
+      nachfragen.
+    note: >
+      Die Aufnahme macht den Unterschied. Nicht nur "ich hab
+      verstanden", sondern konkret: "Ich passe XY an, bei XZ
+      kann ich nicht einlenken, wegen..."
+  - order: 5
+    label: Rahmen & Vertrag kommunizieren
+    duration_minutes: 3
+    trainer_action: >
+      Übergang: "Das sind unsere Hoffnungen und Sorgen für
+      heute. Ich hänge die Pinnwand sichtbar, am Ende schauen
+      wir zurück: was ist eingetreten?" Zeitfenster fürs Ende
+      ankündigen.
+    participant_action: >
+      Commitment erleben, visuellen Anker des Pinnwandes
+      wahrnehmen.
+    note: >
+      Der Rückbezug am Ende ist nicht verpflichtend, aber wertvoll.
+      Abschlussrunde: "Welche Hoffnung erfüllt? Welche Befürchtung
+      traf ein?" — schließt den Kreis.
+
+variations:
+  - name: Klassisch (zwei Kartenfarben)
+    description: >
+      Grün/Rot-Karten, anonym schreiben, clustern, aufnehmen.
+      Standard-Variante.
+    when_to_use: >
+      Trainings-Start, Workshops ab 6 TN. Wenn eine ehrliche
+      Erwartungs-Klärung gewünscht ist.
+  - name: Nur Befürchtungen (Sorgen-Landkarte)
+    description: >
+      Nur rote Karten. Explizit: "Was könnte heute unangenehm
+      werden?" Keine Hoffnungen, um keine Bias Richtung
+      Optimismus zu erzeugen.
+    when_to_use: >
+      Wenn in der Gruppe viel unausgesprochene Skepsis spürbar
+      ist (z.B. Change-Kontext, erzwungene Weiterbildung).
+      Braucht erfahrene Moderation.
+  - name: Kurzform (1 × 1 Karte, 10 min)
+    description: >
+      Nur eine Hoffnung und eine Befürchtung, 1-2 min schreiben,
+      1 min Clustern. Für Time-Boxed Starts.
+    when_to_use: >
+      Kurze Sessions (2h), Stand-up-Workshops. Wenig Tiefe,
+      dafür schnell ehrlich.
+  - name: Remote (Miro/Mural mit zwei Spalten)
+    description: >
+      Digitale Sticky Notes, grün/rot, parallel schreiben,
+      clustern per Drag&Drop. Anonymität erhalten durch
+      Tool-Settings.
+    when_to_use: >
+      Online-Workshops, verteilte Teams. Funktioniert sehr gut
+      online, weil Anonymität erzwungen ist.
+    setting_codes: [remote_sync]
+  - name: "Dreiteilig: Hoffnung / Befürchtung / Angebot"
+    description: >
+      Dritte Karte "Was bringe ich mit?". Kombiniert Erwartungs-
+      Klärung mit Ressourcen-Aktivierung.
+    when_to_use: >
+      Gruppen mit heterogener Erfahrung, wenn Expertise im
+      Raum aktiviert werden soll (Führungskräfte, Expert:innen-
+      Runde).
+  - name: Paarweise Vorstellung der Karten
+    description: >
+      Anstatt anonym: Karten werden zu zweit besprochen
+      (Partner:in hört aktiv zu, stellt Nachfragen), dann
+      ins Plenum. Verbindet Kennenlernen mit Erwartung.
+    when_to_use: >
+      Kleinere Gruppen (bis 12), vertraute Atmosphäre. Wenn
+      Kennenlerneffekt mitgenommen werden soll.
+
+pitfalls:
+  - issue: >
+      TN schreiben nur neutrale Erwartungen, keine Befürchtungen.
+    countermeasure: >
+      Framing schärfen: "Was könnte Sie hier frustrieren? Was
+      haben Sie schon mal in Seminaren erlebt, was Sie heute
+      nicht wollen?" Konkreter werden als "Sorgen".
+    severity: common
+  - issue: >
+      Moderation sammelt ein, verspricht "alles umzusetzen",
+      und enttäuscht dann.
+    countermeasure: >
+      Ehrlich sein beim Aufnehmen: "Das kann ich, das nicht."
+      Nicht zu viel versprechen. TN schätzen Klarheit über
+      Hoffnung.
+    severity: common
+  - issue: >
+      Pinnwand wird nach Aufnahme vergessen, kein Rückbezug
+      am Ende.
+    countermeasure: >
+      Pinnwand sichtbar im Raum belassen. Zeitfenster am Ende
+      des Trainings einplanen: "Wir schauen auf unsere
+      Karten zurück."
+    severity: common
+  - issue: >
+      Anonymität gebrochen durch Handschrift-Erkennung oder
+      durch Kommentare "das ist meine Karte".
+    countermeasure: >
+      Druckbuchstaben als Regel. Moderation mischt vor
+      Vorlesen. Bei Kommentaren sanft neutralisieren:
+      "Wer das geschrieben hat, ist hier nicht wichtig."
+    severity: common
+  - issue: >
+      Karten werden zu allgemein ("mehr Praxis"), Feedback
+      bleibt nutzlos.
+    countermeasure: >
+      Beim Framing Beispiele geben: "Je konkreter, desto
+      besser. Statt 'mehr Praxis' — 'konkrete Übung zum
+      Kundengespräch'."
+    severity: common
+  - issue: >
+      Große Gruppen (30+) → Einsammeln dauert ewig, wird
+      ermüdend.
+    countermeasure: >
+      Bei Großgruppen: Tisch-weise sammeln und nur
+      Highlights vortragen. Oder Digital-Variante mit
+      Live-Clustering.
+    severity: common
+  - issue: >
+      TN lehnen Methode als "Kindergarten" ab (vor allem
+      senior Corporate).
+    countermeasure: >
+      Erwachsenen-Framing: "Kurzes Erwartungs-Alignment,
+      damit wir nicht aneinander vorbeireden." Ohne
+      Pinnwand-Choreografie, ggf. digital.
+    severity: rare

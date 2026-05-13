@@ -1,0 +1,173 @@
+slug: energizer-rock-paper-scissors-turnier
+canonical_name: Schnick-Schnack-Schnuck-Turnier
+synonyms:
+  - synonym: Rock Paper Scissors Tournament
+    language: en
+  - synonym: Evolution Rock Paper Scissors
+    language: en
+short_description: >
+  Alle starten als „Ei" und spielen gegen andere „Eier" Schere-Stein-Papier.
+  Gewinner:innen werden zum „Huhn", dann „Dino", dann „Mensch". Hohe Energie,
+  viel Lachen — für Großgruppen.
+originator: null
+origin_context: >
+  Als „Evolution Rock Paper Scissors" in internationaler Workshop- und
+  Konferenz-Praxis bekannt; in Deutschland als „Schnick-Schnack-Schnuck"
+  verbreitet.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large, plenary]
+target_audiences: [school, youth, corporate, adult_education]
+method_types: [energizer, game, activating]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+tags: [energizer, spiel, grossgruppe, lachen]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+  - kind: url
+    title: "SessionLab — Evolution Rock Paper Scissors"
+    url: https://www.sessionlab.com/methods/evolution-rock-paper-scissors
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Regeln erklären & Stufen einführen
+    duration_minutes: 2
+    trainer_action: >
+      "Alle starten als Ei. Sie spielen Schere-Stein-
+      Papier gegen ein anderes Ei. Gewinner wird zum
+      Huhn, dann Dinosaurier, dann Mensch. Beim
+      Verlieren: bleibt auf gleicher Stufe."
+      Stufen-Gesten zeigen.
+    participant_action: >
+      Regeln verstehen, Gesten lernen, Ei-Stufe
+      einnehmen.
+    note: >
+      Klare Stufen-Gesten wichtig (Eier zusammenkauern,
+      Huhn flattern, Dino brüllen, Mensch stehen). Ohne
+      Gesten: kein Spaß-Faktor.
+  - order: 2
+    label: Spielen & Stufen aufsteigen
+    duration_minutes: 5
+    trainer_action: >
+      "Suchen Sie Mitspieler:in auf gleicher Stufe.
+      Spielen Sie. Gewinner geht eine Stufe hoch."
+      Moderation moderiert lebhaft, treibt Tempo.
+    participant_action: >
+      Mitspieler:in suchen, spielen, Stufe wechseln,
+      neue:n suchen.
+    note: >
+      Beobachten: alle finden Gegner? Bei nur "Eiern"
+      kein Aufstieg möglich. Daher anfänglicher Mix
+      wichtig.
+  - order: 3
+    label: Endphase — Menschen feiern
+    duration_minutes: 2
+    trainer_action: >
+      Wer Mensch wird, geht zur Seite, applaudiert.
+      Spiel endet, wenn die meisten Mensch sind.
+      Letzte Eier auch loben.
+    participant_action: >
+      Bei Mensch-Stufe: zur Seite, applaudieren.
+      Bei Ei-Stufe: zur Seite, lachen.
+    note: >
+      Niemand "verliert" — alle haben Spaß. Auch
+      Letzte werden gefeiert. Kein Wettbewerbs-
+      Druck.
+  - order: 4
+    label: Abschluss
+    duration_minutes: 1
+    trainer_action: >
+      Gemeinsamer Applaus, kurzes Lachen über die
+      Kreatur-Stufen. Übergang.
+    participant_action: >
+      Zur Sitzordnung, Energie mitnehmen.
+    note: >
+      Auf Höhepunkt enden. Energizer = Kürze.
+
+variations:
+  - name: "Klassisch (4 Stufen: Ei → Mensch)"
+    description: >
+      Standardvariante: Ei, Huhn, Dino, Mensch.
+    when_to_use: >
+      Jugend, Schule, Konferenzen, Team-Events.
+      20-100 TN.
+  - name: Mit anderen Stufen (Berufe, Tiere)
+    description: >
+      Andere Stufen-Themen: Praktikant → CEO, oder
+      Tiere. Anpassbar.
+    when_to_use: >
+      Themen-bezogene Anpassung. Spaß durch
+      Variation.
+  - name: Mehrere Runden
+    description: >
+      Mehrere Durchläufe nacheinander. Mehr Bewegung,
+      weniger Komplexität.
+    when_to_use: >
+      Wenn längerer Energizer gewünscht. Selten
+      sinnvoll.
+  - name: Remote-Light (Reactions)
+    description: >
+      Online: in Breakout-Paaren spielen, Stufen-
+      Wechsel via Chat. Funktioniert nur mittelmäßig.
+    when_to_use: >
+      Online-Trainings, wenn Energizer nötig.
+      Andere remote-Methoden meist besser.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Senior-Corporate findet Stufen-Gesten kindisch.
+    countermeasure: >
+      Andere Energizer wählen. Stufen-RPS ist
+      besonders jugendnah.
+    severity: common
+  - issue: >
+      Bei zu wenigen TN: kein echtes Aufsteigen.
+    countermeasure: >
+      Mindestens 12 TN. Bei weniger: andere Methode.
+    severity: common
+  - issue: >
+      Körperliche Einschränkungen bei Gesten.
+    countermeasure: >
+      Vereinfachte Gesten. Sitz-Variante. Anpassen.
+    severity: rare
+  - issue: >
+      Lautstärke stört Nachbarräume.
+    countermeasure: >
+      Raum-Check. Bei sensibler Umgebung: leisere
+      Energizer.
+    severity: common
+  - issue: >
+      Zu lang — Spaß sinkt.
+    countermeasure: >
+      Max. 5-7 min. Auf Höhepunkt beenden.
+    severity: common

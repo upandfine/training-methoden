@@ -1,0 +1,242 @@
+slug: ls-troika-consulting
+canonical_name: Troika Consulting
+synonyms:
+  - synonym: Kollegiale Beratung im Dreier
+    language: de
+short_description: >
+  Drei Teilnehmende — ein:e Klient:in und zwei Berater:innen. Klient:in
+  schildert 1–2 Min. eine Frage/Herausforderung, Berater:innen klären und
+  geben 4–5 Min. Impulse. Rollen wechseln. Liberating Structure.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_year: 2013
+origin_context: >
+  Eine der 33 Liberating Structures; schlanke Mini-Form kollegialer Beratung.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: practice
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: 3er-Breakouts; feste Zeitslots pro Rolle.
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective]
+duration_min_minutes: 20
+duration_typical_minutes: 30
+duration_max_minutes: 45
+tags: [liberating-structures, peer-consulting, dreier-format]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2013
+    relation: originator
+    note: >
+      Lipmanowicz und McCandless beschreiben Troika Consulting
+      als Mini-Format kollegialer Peer-Beratung in 15 min.
+  - kind: url
+    title: "Liberating Structures — Troika Consulting"
+    url: https://www.liberatingstructures.com/8-troika-consulting/
+    relation: practice_guide
+    note: Offizielle Beschreibung inkl. Facilitation-Tipps. CC-BY-NC 4.0.
+  - kind: book
+    title: "Kollegiale Beratung: Problemlösungen gemeinsam entwickeln"
+    author: Kim-Oliver Tietze
+    year: 2016
+    relation: reference
+    note: Einordnung ins deutschsprachige Kollegiale-Beratung-Repertoire.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Dreier-Gruppen bilden & Rollen erklären
+    duration_minutes: 3
+    trainer_action: >
+      TN in 3er-Gruppen aufteilen (zufällig oder bewusst
+      gemischt). Rollen erklären: (1) Klient:in mit Frage,
+      (2) zwei Berater:innen. Nacheinander wechseln alle
+      durch alle drei Rollen. Jede:r kommt in alle drei
+      Positionen.
+    participant_action: >
+      Gruppen finden, Rollen verstehen, eigene Frage für
+      erste Klient:in-Runde überlegen.
+    note: >
+      Rotation ist Kern der Methode. Jede:r erlebt alle
+      Rollen — stärkt Empathie und Vielperspektivigkeit.
+      3er-Gruppen ideal; 4er-Gruppen in Ausnahmefällen.
+  - order: 2
+    label: Erste Runde — Klient:in A
+    duration_minutes: 8
+    trainer_action: >
+      Klient:in A schildert 1-2 min eine reale
+      Herausforderung oder Frage. Berater:innen B+C hören
+      zu, klären mit 1-2 Rückfragen, dann 4-5 min Impulse
+      und Perspektiven. Klient:in hört, notiert, reagiert
+      nicht.
+    participant_action: >
+      Klient:in: authentisch schildern, dann zuhören.
+      Berater:innen: klärende Fragen, dann frei impulsen.
+    note: >
+      Strikte Zeit-Einhaltung: Schilderung max. 2 min.
+      Klient:in darf nicht rechtfertigen oder diskutieren
+      während der Impulsphase. Nur notieren.
+  - order: 3
+    label: Zweite Runde — Klient:in B
+    duration_minutes: 8
+    trainer_action: >
+      Rollen-Rotation. Klient:in B, Berater:innen A+C.
+      Gleiche Struktur: 1-2 min Schilderung, 4-5 min
+      Impulse. Alle Teilnehmenden beteiligt.
+    participant_action: >
+      Neue Rolle einnehmen, in frischem Setting Impulse
+      geben oder Klient:in sein.
+    note: >
+      Jede Runde hat eigenes Thema. Variation der
+      Fragen bringt Reichtum. TN bemerken eigenes
+      Verhalten in verschiedenen Rollen.
+  - order: 4
+    label: Dritte Runde — Klient:in C
+    duration_minutes: 8
+    trainer_action: >
+      Letzte Rotation: C als Klient:in, A+B als
+      Berater:innen. Gleiche Struktur. Jede:r hat alle
+      drei Rollen erlebt.
+    participant_action: >
+      Letzte Rolle einnehmen. Bei Klient:in: eigene
+      Frage einbringen. Als Berater:in: frische
+      Perspektive.
+    note: >
+      Nach drei Runden sind alle in allen Rollen gewesen.
+      Methoden-Erlebnis vollständig. Jetzt kann Debrief
+      folgen.
+  - order: 5
+    label: Abschluss & Plenum-Reflexion
+    duration_minutes: 3
+    trainer_action: >
+      Zurück ins Plenum. Kurze Reflexion: "Was hat das
+      3er-Format bewirkt? Was war anders als im
+      2er-Gespräch? Welche Impulse nehmen Sie mit?"
+      Ritueller Abschluss.
+    participant_action: >
+      Meta-Reflexion teilen. Aha-Momente benennen.
+      Eigene Erkenntnisse verankern.
+    note: >
+      Plenum-Runde macht Format sichtbar. Ohne sie bleibt
+      es privates Erlebnis. Meta-Lernen über Peer-
+      Consulting.
+
+variations:
+  - name: Klassisch (3er-Format, 3 Runden)
+    description: >
+      Standard-Variante: 3er-Gruppen, 3 Runden mit
+      Rollenwechsel. Nach Liberating Structures.
+    when_to_use: >
+      Gruppen von 9-30 TN, Coaching-Ausbildung, Peer-
+      Consulting-Einstieg, Team-Entwicklung. Mittel-
+      lange Sessions.
+  - name: Einmalige Runde (nur 1 Klient:in)
+    description: >
+      Nur eine Klient:in-Runde, keine Rotation. Alle 3
+      TN haben eine Runde lang feste Rollen.
+    when_to_use: >
+      Wenn nur eine Person konkretes Anliegen hat. Sehr
+      kurz (8-10 min), punktuell hilfreich.
+  - name: Troika mit Beobachter
+    description: >
+      4er-Gruppen: 3 rotieren in Rollen, 4. beobachtet.
+      Beobachtungs-Feedback am Ende. Beobachtungs-
+      Kompetenz mittrainieren.
+    when_to_use: >
+      Coaching-Ausbildung, wenn Beobachtungs-Skills
+      wichtig sind.
+  - name: Troika zu vorgegebenem Thema
+    description: >
+      Alle Klient:in-Fragen kommen aus gleichem Themen-
+      bereich (z.B. "Führungs-Dilemmata"). Mehr Tiefe im
+      Thema, weniger Breite.
+    when_to_use: >
+      Themen-fokussierte Workshops, wenn kollektives
+      Lernen zu einem Bereich gewünscht.
+  - name: Remote Troika (Breakouts)
+    description: >
+      3er-Breakouts in Zoom/Teams. Timer im Hauptraum
+      zeigt Zeit. Rotation-Signal macht Moderation.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Funktioniert
+      sehr gut — wird seit 2020 sehr häufig eingesetzt.
+    setting_codes: [remote_sync]
+  - name: Verkürzte Troika (10 min/Runde)
+    description: >
+      Nur 10 min pro Runde (30 sek Schilderung, 6 min
+      Impulse, 3 min Wechsel). Sehr kompakt.
+    when_to_use: >
+      Zeitknappe Settings, vor längeren Meetings als
+      "Warming-up"-Consulting.
+
+pitfalls:
+  - issue: >
+      Klient:in rechtfertigt sich oder diskutiert während
+      Impulsphase.
+    countermeasure: >
+      Regel klar: "Klient:in hört zu und notiert, keine
+      Reaktion." Bei Verstoß: Moderation erinnert. Aushalten
+      ist Teil des Lernens.
+    severity: common
+  - issue: >
+      Berater:innen geben Ratschläge "Du solltest..." statt
+      Impulse.
+    countermeasure: >
+      Unterscheidung klar machen: Impulse sind Perspektiven,
+      Fragen, Analogien — nicht Handlungs-Anweisungen.
+      Vorab Beispiele geben.
+    severity: common
+  - issue: >
+      Zeit-Limits werden nicht eingehalten — Runden ziehen
+      sich.
+    countermeasure: >
+      Timer sichtbar / akustisch. Moderation signalisiert
+      Rotation. Strikt halten. LSP-Zeit-Disziplin ist Teil
+      der Wirkung.
+    severity: common
+  - issue: >
+      Klient:innen wählen triviale Themen — keine
+      produktive Beratung möglich.
+    countermeasure: >
+      Vorab Framing: "Bringen Sie eine echte, aktuelle
+      Herausforderung. Wenn möglich: ein Problem, das Sie
+      gerade umtreibt."
+    severity: common
+  - issue: >
+      Gruppen-Zusammensetzung ungünstig (bekannte TN in
+      3er zusammen).
+    countermeasure: >
+      Zufalls-Zuordnung durchführen (Los, Countdown-
+      Nummern). Bei bestehenden Teams: bewusst Personen
+      mischen, die sonst wenig zusammen arbeiten.
+    severity: common
+  - issue: >
+      In hierarchischen Kontexten: Chef in der Beraterrolle
+      dominiert.
+    countermeasure: >
+      Vorab Prinzip: "Hier sind alle Peers." Chefs bewusst
+      in gemischte Gruppen ohne direkte Unterstellte.
+      Reine Peer-Gruppen bei sensiblen Themen.
+    severity: common
+  - issue: >
+      Mehrere Runden → Energie sinkt, dritte Runde oberflächlich.
+    countermeasure: >
+      Zeit begrenzen (max. 3 × 8 min). Zwischendurch
+      kurze Bewegungs-Pause. Klient:innen-Reihenfolge
+      so wählen, dass energiegeladene am Ende sind.
+    severity: common

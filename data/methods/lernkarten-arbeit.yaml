@@ -1,0 +1,234 @@
+slug: lernkarten-arbeit
+canonical_name: Lernkarten-Arbeit
+synonyms:
+  - synonym: Flash Cards
+    language: en
+  - synonym: Karteikarten
+    language: de
+short_description: >
+  Teilnehmende arbeiten mit Karteikarten (Frage / Antwort oder Begriff /
+  Erklärung). Nutzung als Einzel-, Paar- oder Gruppenübung. Selbstgesteuertes
+  Üben, nachweislich effektive Retention durch Spaced Repetition.
+originator: Sebastian Leitner
+origin_context: >
+  Das Fünf-Fächer-System (Leitner-Box) wurde 1972 von Sebastian Leitner
+  beschrieben. Heutige digitale Varianten (Anki, Quizlet) nutzen denselben
+  evidenzbasierten Mechanismus.
+phases:
+  - code: practice
+    is_primary: true
+  - code: input
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+  - code: remote_async
+    suitability: excellent
+    note: Digitale Flash-Card-Tools (Anki, Quizlet, Brainscape) sind hier stark.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [school, youth, ihk, adult_education, higher_education]
+method_types: [didactic]
+duration_min_minutes: 10
+duration_typical_minutes: 30
+duration_max_minutes: 60
+materials:
+  - Karteikarten oder digitales Flash-Card-Tool
+tags: [karteikarten, spaced-repetition, selbststudium]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "So lernt man lernen"
+    author: Sebastian Leitner
+    year: 1972
+    relation: originator
+    note: >
+      Leitners Fünf-Fächer-System — historischer Ursprung
+      des spaced-repetition-Prinzips mit Karteikarten.
+  - kind: book
+    title: "Make It Stick — The Science of Successful Learning"
+    author: Peter C. Brown et al.
+    year: 2014
+    relation: practice_guide
+    note: >
+      Evidenzbasierte Empfehlung: Retrieval Practice +
+      Spaced Repetition sind die wirksamsten Lernstrategien.
+  - kind: article
+    title: "Improving students' learning with effective learning techniques"
+    author: Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., Willingham, D. T.
+    year: 2013
+    relation: reference
+    note: >
+      Meta-Analyse — Spaced Practice und Retrieval Practice
+      als wirksamste von 10 Lerntechniken.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Karten erstellen (oder bereitstellen)
+    duration_minutes: 10
+    trainer_action: >
+      Option A: Karten vorbereitet mitbringen (fertiges Set).
+      Option B: TN erstellen eigene Karten (Frage-Antwort-
+      Prinzip). Regel: EINE Frage pro Karte, kurze
+      prägnante Antwort. Bei B: Anleitung geben.
+    participant_action: >
+      Karten entgegennehmen oder selbst erstellen.
+      Fragen-Qualität prüfen.
+    note: >
+      Selbst-Erstellen ist didaktisch wertvoller (aktive
+      Auseinandersetzung). Aber zeitaufwendiger.
+      Vorbereitete Karten sparen Zeit, verlieren
+      Konstruktionseffekt.
+  - order: 2
+    label: Einzelarbeit — erste Runde
+    duration_minutes: 10
+    trainer_action: >
+      TN arbeiten mit Karten einzeln: Vorderseite lesen,
+      Antwort versuchen, Rückseite prüfen. Richtig beantwortete
+      Karten nach rechts, falsche nach links stapeln.
+      Leitner-Prinzip erklären.
+    participant_action: >
+      Eigen üben. Erst raten, dann prüfen. Bei Richtig:
+      Karte ablegen. Bei Falsch: zurück in Übungs-Stapel.
+    note: >
+      Self-Testing ist der Kern-Mechanismus. Viele wollen
+      beim ersten Mal die Antwort lesen — das ist Wiederholen,
+      nicht Abfragen. Unterschied erklären.
+  - order: 3
+    label: Paar-Austausch & gegenseitiges Abfragen
+    duration_minutes: 8
+    trainer_action: >
+      2er-Paare: je 4 min abfragt eine:r. Partner:in liest
+      Frage, andere beantwortet mündlich. Feedback geben
+      (nicht nur richtig/falsch, sondern Denkweg).
+    participant_action: >
+      Abwechselnd abfragen und beantworten. Bei Fehler:
+      gemeinsam klären, nicht nur sagen "richtig wäre X".
+    note: >
+      Partner-Arbeit addiert Sprach-Komponente. Mündlich
+      beantworten verankert tiefer als nur innerliches
+      Wissen. Formulieren prüft Verstehen.
+  - order: 4
+    label: Wiederholung strukturieren (Leitner-Box)
+    duration_minutes: 2
+    trainer_action: >
+      "Schwere Karten heute nochmal, mittlere übermorgen,
+      leichte in einer Woche." Leitner-Box-Prinzip kurz
+      zeigen. Eigene Lern-Pläne für nach der Session.
+    participant_action: >
+      Karten nach Schwierigkeit sortieren, eigenen
+      Wiederholungs-Plan festlegen.
+    note: >
+      Spaced Repetition ist der wissenschaftlich wirksamste
+      Teil. Ohne Wiederholungs-Plan verpufft das Lernen
+      in 24h. Selbst-Lern-Transfer wichtig.
+
+variations:
+  - name: Klassische Karteikarten (Papier)
+    description: >
+      Handgeschriebene oder vorbereitete Karten, Leitner-
+      Box-System, Einzelübung + Paar.
+    when_to_use: >
+      Schulisches Lernen, Sprach-Vokabeln, Fachbegriffe.
+      Niedrigschwellig, kein Tool nötig.
+  - name: Anki / Quizlet (digital)
+    description: >
+      Digitale Flash-Card-Tools mit automatischem Spaced-
+      Repetition-Algorithmus. Anki berechnet optimalen
+      Wiederholungszeitpunkt pro Karte.
+    when_to_use: >
+      Langfristiges Lernen, Selbststudium, Prüfungs-
+      vorbereitung. Wenn Tool-Disziplin vorhanden.
+    setting_codes: [remote_async]
+  - name: Karten-Rennen (Gamification)
+    description: >
+      2er-Teams oder Kleingruppen, wer zuerst x Karten
+      richtig beantwortet, gewinnt. Wettbewerbs-Charakter.
+    when_to_use: >
+      Jugend, Gruppen mit Energie-Bedarf. Nach Lern-Phase
+      als Aktivierung.
+  - name: Selbsterstellte Karten (aktiv konstruierend)
+    description: >
+      TN erstellen Karten selbst, dann tauschen sie mit
+      anderen. Aktives Konstruieren + gegenseitiges
+      Testen.
+    when_to_use: >
+      Längere Lerneinheiten, wenn Konstruktions-Aufwand
+      lohnt. Höheres Lernniveau.
+  - name: Themen-Karten (Konzept-Karten)
+    description: >
+      Statt Frage-Antwort: Karten mit Konzepten, die
+      gruppiert oder verbunden werden. Konzept-Mapping
+      mit Karten.
+    when_to_use: >
+      Komplexe Themen-Felder, wenn Struktur-Aufbau gefragt.
+      Verwandt mit Mind-Map.
+  - name: Peer-Tutoring mit Karten
+    description: >
+      Erfahrenere TN testen weniger Erfahrene. Lehrende
+      lernen selbst durch Fragenstellen.
+    when_to_use: >
+      Gemischte Gruppen, Tandem-Lernen, kollaborative
+      Lern-Settings.
+
+pitfalls:
+  - issue: >
+      TN lesen Karten nur durch, ohne Self-Testing.
+    countermeasure: >
+      Regel klar: "Erst raten, dann drehen." Bei Beobachtung
+      abweichender Nutzung: Erinnerung an Self-Test-
+      Prinzip.
+    severity: common
+  - issue: >
+      Karten sind zu überladen (zu viel pro Karte).
+    countermeasure: >
+      Regel: "Eine Frage, eine Antwort." Bei
+      Selbsterstellung: Beispiel vorgeben. Karten mit
+      mehr als 3 Zeilen Text: aufteilen.
+    severity: common
+  - issue: >
+      Wiederholung-Plan wird nicht umgesetzt — Spaced
+      Repetition verpufft.
+    countermeasure: >
+      Konkrete Termine im Kalender. Apps wie Anki
+      erledigen das automatisch. Bei Papier-Karten:
+      wöchentliches Leitner-Ritual etablieren.
+    severity: common
+  - issue: >
+      Fragen sind zu einfach oder zu schwer.
+    countermeasure: >
+      Schwierigkeits-Mix. Bei zu einfach: TN langweilen sich.
+      Bei zu schwer: Frustration. Schwierigkeits-Stufen
+      und Leitner-Box kombinieren.
+    severity: common
+  - issue: >
+      Tool-Komplexität (Anki) schreckt ab.
+    countermeasure: >
+      Für Einstieg einfachere Tools (Quizlet, Brainscape).
+      Bei Anki: 15 min Tool-Einführung separat einplanen.
+      Oder Papier-Variante als Einstieg.
+    severity: common
+  - issue: >
+      TN merken sich Karten-Reihenfolge statt Inhalt.
+    countermeasure: >
+      Karten regelmäßig mischen. Digital: Shuffle-Funktion
+      nutzen. Bei Erkennung: "Andere Reihenfolge üben
+      hilft."
+    severity: common
+  - issue: >
+      Paar-Abfragen wird zur Vorlese-Übung (Antwort wird
+      laut abgelesen).
+    countermeasure: >
+      Regel: "Frage laut, Antwort MÜNDLICH aus dem Kopf."
+      Karte erst nach Antwort drehen. Disziplin beim
+      Üben.
+    severity: common

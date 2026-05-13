@@ -1,0 +1,179 @@
+slug: schlangenspiel
+canonical_name: Schlangenspiel
+synonyms:
+  - synonym: Human Snake
+    language: en
+  - synonym: Lange Schlange
+    language: de
+short_description: >
+  Teilnehmende reihen sich in einer Kette auf und ordnen sich nach einem
+  Kriterium (Alter, Geburtstag, Schuhgröße, Berufsjahre). Kommunikation ist
+  nonverbal oder mit Einschränkungen. Aktiviert und erzeugt Kontakt.
+originator: null
+origin_context: >
+  Klassischer Team-Warmer aus der Erlebnispädagogik, verwandt mit
+  „Lebendige Statistik" und Aufstellungen entlang einer Skala.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: getting_acquainted
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Digital als sortierte Liste in Chat/Whiteboard möglich — Energie geht verloren.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium, large]
+target_audiences: [school, youth, corporate, adult_education]
+method_types: [activating, icebreaker, game]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+tags: [aufstellung, nonverbal, kennenlernen]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: practice_guide
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Aufgabe & Kommunikations-Regel
+    duration_minutes: 1
+    trainer_action: >
+      "Stellen Sie sich in einer Reihe auf — sortiert
+      nach X (Geburtstag, Schuhgröße, Berufsjahre).
+      Aber: Kein Sprechen erlaubt — nur Gesten."
+    participant_action: >
+      Aufgabe verstehen, Kommunikations-Regel
+      mitnehmen.
+    note: >
+      Nonverbale Kommunikation ist Kern. Mit
+      Sprechen wird's trivial. Disziplin wichtig.
+  - order: 2
+    label: Sortier-Phase
+    duration_minutes: 5
+    trainer_action: >
+      Gruppe sortiert sich — fingerzeichen, deutende
+      Gesten. Moderation beobachtet, greift nicht
+      ein. Bei Sprechen: kurz erinnern.
+    participant_action: >
+      Mit anderen kommunizieren — ohne Worte.
+      Eigene Position finden, andere helfen.
+    note: >
+      Frustration und Lachen wechseln. Durch das
+      Spiel entstehen schnelle Kontakte.
+  - order: 3
+    label: Auflösung & Check
+    duration_minutes: 3
+    trainer_action: >
+      "Jetzt dürfen Sie sprechen. Stimmt die Reihe?"
+      Ergebnis prüfen: jeder sagt sein Wert,
+      Korrektheit wird sichtbar.
+    participant_action: >
+      Eigenen Wert nennen, Korrektheit prüfen,
+      ggf. lachen über Fehler.
+    note: >
+      Ergebnis-Check macht Methode komplett. Bei
+      Fehlern: Lacher, kein Drama.
+  - order: 4
+    label: Abschluss
+    duration_minutes: 1
+    trainer_action: >
+      Kurz Reflexion: "Was hat funktioniert? Was
+      war schwer?" Übergang.
+    participant_action: >
+      Kurze Reflexion, zur Sitzordnung.
+    note: >
+      Method-Lernen über nonverbale Kommunikation
+      möglich — kurz benennen, nicht ausschwafeln.
+
+variations:
+  - name: Klassisch (Reihe nach Kriterium)
+    description: >
+      Standard: Aufstellen nach einem Kriterium,
+      nonverbal.
+    when_to_use: >
+      Jugend, Schule, Team-Events. 8-25 TN.
+  - name: Mehrere Kriterien hintereinander
+    description: >
+      3-4 Kriterien in Folge. Mehr Bewegung.
+    when_to_use: >
+      Längere Energizer-Phase. Wenn mehrere
+      Aspekte sichtbar werden sollen.
+  - name: Mit Kommunikation
+    description: >
+      Variante mit Sprechen erlaubt — schneller,
+      aber weniger spielerisch.
+    when_to_use: >
+      Wenn Zeit knapp und nonverbal nicht
+      praktikabel.
+  - name: Themen-Aufstellung
+    description: >
+      Sortierung nach themen-relevantem Kriterium
+      ("Erfahrung mit Change", "Komfort mit
+      Konflikten").
+    when_to_use: >
+      Themenbezogene Workshops, kombiniert
+      Energizer und Diagnose.
+
+pitfalls:
+  - issue: >
+      Kommunikations-Regel wird durchbrochen.
+    countermeasure: >
+      Sanft erinnern: "Nonverbal!" Bei wiederholtem
+      Bruch: kurze Pause, Regel neu erklären.
+    severity: common
+  - issue: >
+      Frustration bei Schwierigkeit — Gruppe gibt auf.
+    countermeasure: >
+      Ermutigen, Hilfen geben (Geste vorzeigen).
+      Kein Wettbewerbs-Druck.
+    severity: common
+  - issue: >
+      Senioren / Corporate finden albern.
+    countermeasure: >
+      Andere Energizer wählen. Schlange ist
+      jugendnah.
+    severity: common
+  - issue: >
+      Kriterium intim (Alter) — Unwohlsein.
+    countermeasure: >
+      Niedrigschwellige Kriterien (Schuhgröße,
+      Geburtstag im Jahr — nicht Alter).
+    severity: common
+  - issue: >
+      Bei zu kleiner Gruppe (< 8) trivial.
+    countermeasure: >
+      Andere Methode bei < 8 TN. Schlange braucht
+      Masse.
+    severity: common
+  - issue: >
+      Körperlich Eingeschränkte können nicht
+      mitgehen.
+    countermeasure: >
+      Sitz-Variante (Position auf Tisch markieren).
+      Niemand ausschließen.
+    severity: rare

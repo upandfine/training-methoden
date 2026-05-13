@@ -1,0 +1,164 @@
+slug: blitzumfrage
+canonical_name: Blitzumfrage
+synonyms:
+  - synonym: Flash Poll
+    language: en
+  - synonym: Schnellabfrage
+    language: de
+short_description: >
+  Kurze Pulsabfrage mit einer einzigen Frage (Skala 1–5, Multiple Choice,
+  offenes Wort). Reihum, per Handzeichen oder per Tool. Momentaufnahme
+  zu Stimmung, Verständnis oder Position.
+originator: null
+origin_context: >
+  Basis-Moderationstechnik; in den 1990ern mit Audience-Response-Systemen
+  technisiert, heute breit digitalisiert.
+phases:
+  - code: activation
+    is_primary: true
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Zoom-Polls, Mentimeter, Slido, Teams-Forms funktionieren gut.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [diagnostic, activating]
+duration_min_minutes: 2
+duration_typical_minutes: 5
+duration_max_minutes: 10
+tags: [puls, kurz, stimmung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: url
+    title: "Mentimeter — Live Polls"
+    url: https://www.mentimeter.com/
+    relation: tool
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage formulieren & Tool wählen
+    duration_minutes: 1
+    trainer_action: >
+      Eine konkrete Frage. Tool wählen: Handzeichen
+      (1-5 Finger), Karten-Voting, oder digital
+      (Mentimeter, Slido, Zoom-Poll). Eine Frage
+      reicht.
+    participant_action: >
+      Frage hören, Antwortmodus mitbekommen.
+    note: >
+      Eine konkrete Frage. Bei mehreren: getrennte
+      Blitzumfragen, nicht überladen.
+  - order: 2
+    label: Antworten sammeln
+    duration_minutes: 2
+    trainer_action: >
+      "Auf drei alle gleichzeitig antworten." Bei
+      Tool: Zeitfenster. Antworten parallel sammeln.
+    participant_action: >
+      Schnell antworten, ehrlich, ohne andere
+      abzuchecken.
+    note: >
+      Gleichzeitigkeit verhindert Bandwagon. Bei
+      Hand-Variante: kurz alle bereit, dann gleich-
+      zeitig zeigen.
+  - order: 3
+    label: Bild lesen & Konsequenz
+    duration_minutes: 2
+    trainer_action: >
+      Ergebnis kurz benennen: "Mehrheit bei 4, einige
+      bei 2." Bei kritischem Bild: "Was heißt das? Was
+      brauchen Sie?" Konsequenz ableiten.
+    participant_action: >
+      Ergebnis wahrnehmen, eigene Position einordnen.
+    note: >
+      Auch bei guten Werten: kurz benennen. Sonst
+      verpufft die Methode.
+
+variations:
+  - name: Klassisch (Handzeichen, eine Frage)
+    description: >
+      Standard: 1-5 Finger oder Daumen-Skala.
+    when_to_use: >
+      Spontan zwischendurch. Verständnis-Check,
+      Stimmungs-Check.
+  - name: Digitales Tool (Mentimeter/Slido)
+    description: >
+      Online-Skala mit Live-Aggregation.
+    when_to_use: >
+      Online-Trainings, große Gruppen, Anonymität
+      wichtig.
+    setting_codes: [remote_sync]
+  - name: Reihum-Variante (kurz pro Person)
+    description: >
+      Jede:r 1-2 Worte oder Zahl. Mehr Tiefe, aber
+      länger.
+    when_to_use: >
+      Kleine Gruppen, wenn jede Stimme zählen soll.
+  - name: Mit anonymer Variante (Zettel)
+    description: >
+      Zettel mit Antwort, eingesammelt. Anonym, aber
+      langsamer.
+    when_to_use: >
+      Sensible Themen, Hierarchie-Kontexte.
+  - name: Multiple-Choice-Variante
+    description: >
+      Statt Skala: A/B/C/D-Optionen. Differenzierter
+      bei nicht-skalierbaren Fragen.
+    when_to_use: >
+      Bei Optionen-Wahl statt Bewertung.
+
+pitfalls:
+  - issue: >
+      Frage zu vage — Antworten unbrauchbar.
+    countermeasure: >
+      Konkrete, eindimensionale Frage. Nicht "Wie
+      war's?" sondern "Wie zufrieden mit dem letzten
+      Block?"
+    severity: common
+  - issue: >
+      Mehrere Fragen auf einmal — Verwirrung.
+    countermeasure: >
+      Eine Frage pro Blitz. Bei Bedarf zweite Blitz-
+      umfrage später.
+    severity: common
+  - issue: >
+      Keine Konsequenz aus Bild — bleibt Show.
+    countermeasure: >
+      Immer kurz benennen + ggf. anpassen. "Bei viel
+      kritischem Bild: nachfragen."
+    severity: common
+  - issue: >
+      Bandwagon durch sequenzielles Zeigen.
+    countermeasure: >
+      Gleichzeitig. Bei Tool: Zeitfenster setzen.
+    severity: common
+  - issue: >
+      Tool-Probleme verzögern Methode.
+    countermeasure: >
+      Tool vorab testen. Backup: Hand-Variante immer
+      möglich.
+    severity: common
+    setting_codes: [remote_sync]

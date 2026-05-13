@@ -1,0 +1,254 @@
+slug: design-sprint
+canonical_name: Design Sprint
+synonyms:
+  - synonym: Google Ventures Design Sprint
+    language: en
+short_description: >
+  Zeitlich gepresstes 5-Tage-Format (oder kompaktere Varianten), in dem ein
+  cross-funktionales Team ein Produkt- oder Serviceproblem von Verstehen bis
+  validiertem Prototyp bearbeitet. Hohe Intensität, klare Tagesstruktur.
+originator: Jake Knapp (Google Ventures)
+origin_context: >
+  Entwickelt 2012–2015 von Jake Knapp bei Google Ventures; publiziert in
+  „Sprint" (2016, Knapp/Zeratsky/Kowitz). Starke Nähe zu Design Thinking,
+  aber deutlich strukturierter und zeitlich gepackt.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Remote-Sprints sind etabliert (AJ&Smart „Remote Sprint"), erfordern mehr Vorbereitung.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: good
+group_sizes: [small]
+target_audiences: [corporate, ihk, higher_education]
+method_types: [creative, cooperative, activating]
+duration_min_minutes: 960
+duration_typical_minutes: 2460
+duration_max_minutes: 2880
+materials:
+  - Sprint-Raum, Post-its, Sharpies, Whiteboards, Prototyping-Tools
+tags: [sprint, knapp, prototyping, 5-tage]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days"
+    author: Jake Knapp, John Zeratsky, Braden Kowitz
+    year: 2016
+    relation: originator
+    note: >
+      Ursprungswerk bei Google Ventures. Beschreibt den
+      kompletten 5-Tage-Sprint-Ablauf detailliert.
+  - kind: url
+    title: "AJ&Smart — Remote Design Sprint"
+    url: https://ajsmart.com/remote-design-sprint/
+    relation: practice_guide
+    note: Etablierte Variante für verteilte Teams, komprimierte 4-Tage-Form.
+  - kind: book
+    title: "Remote Sprint: The Definitive Guide to Running Design Sprints Online"
+    author: Jonathan Courtney
+    year: 2020
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Tag 1 — Map & Verstehen
+    duration_minutes: 480
+    trainer_action: >
+      Problemraum kartieren. Experten-Interviews mit Kund:innen,
+      Technik, Business. Long-term Goal festlegen. "Wie
+      können wir..." (HMW-Fragen) formulieren. End-Ziel:
+      Sprint-Frage steht, Map des Problems hängt sichtbar.
+    participant_action: >
+      Experten aktiv zuhören, Notizen, HMW-Fragen
+      beitragen, sich auf Sprint-Frage einigen.
+    note: >
+      Tag 1 entscheidet. Ungenaue Sprint-Frage führt zu
+      5 Tagen Fehl-Investition. Experte-Interviews dürfen
+      nicht übersprungen werden.
+  - order: 2
+    label: Tag 2 — Sketch & Ideen
+    duration_minutes: 480
+    trainer_action: >
+      Lightning Demos (Anderes als Inspiration). Dann:
+      jede:r sketched eigene Lösung in 4 Stufen — Notes,
+      Ideas, Crazy 8s, Solution Sketch. Am Ende: jede:r
+      hat einen detaillierten Lösungs-Sketch.
+    participant_action: >
+      Inspirationen aufnehmen, einzeln sketchen. NICHT
+      diskutieren — still arbeiten.
+    note: >
+      Still zu sketchen ist wichtig. Gruppen-Denken hier
+      killt Ideen. Sketch-Qualität ist egal, Konzept
+      zählt.
+  - order: 3
+    label: Tag 3 — Decide & Storyboard
+    duration_minutes: 480
+    trainer_action: >
+      Sketches werden anonym ausgehängt. Silent Critique
+      (Heat Map mit Dots), dann Speed Critique (je 3 min
+      pro Sketch), dann Decider entscheidet (meist Chef).
+      Gewählte Sketches werden zu Storyboard kombiniert.
+    participant_action: >
+      Sketches anschauen, per Dots Interessantes markieren.
+      Beim Voting Decider folgen. Storyboard mitgestalten.
+    note: >
+      Decider-Prinzip: eine Person entscheidet. Demokratie
+      vergiftet Sprints. Chef muss vor Sprint designiert
+      sein und Rolle übernehmen wollen.
+  - order: 4
+    label: Tag 4 — Prototype
+    duration_minutes: 480
+    trainer_action: >
+      Prototyp bauen nach Storyboard. Ziel: "Fake it till
+      you make it" — Prototyp muss nur überzeugend wirken,
+      nicht funktional sein. Rollen: Maker, Stitcher,
+      Writer, Asset Collector. Ende des Tages: Prototyp
+      fertig.
+    participant_action: >
+      In Rolle arbeiten. Schnell, pragmatisch, nicht
+      perfekt. Keynote / Figma / Papier — was auch immer
+      am schnellsten funktioniert.
+    note: >
+      Zeit-Druck ist Feature. Wer perfekt bauen will,
+      versagt. Fake UI ist ok, solange Kund:in nicht
+      merkt. Tests sind entscheidend, nicht Build.
+  - order: 5
+    label: Tag 5 — Test
+    duration_minutes: 480
+    trainer_action: >
+      5 reale Kund:innen-Interviews (je 45-60 min).
+      Kund:in nutzt Prototyp, denkt laut. Team beobachtet
+      live (separater Raum oder Video). Pattern-Erkennung
+      nach jedem Interview.
+    participant_action: >
+      Ein:e TN führt Interview, Rest beobachtet. Nach
+      jedem Test kurze Sync. Pattern-Karten an Wand.
+    note: >
+      5 Tests sind ausreichend für Major-Patterns (Nielsen-
+      Regel). Nicht mehr einplanen — die meisten
+      Erkenntnisse kommen in ersten 3.
+  - order: 6
+    label: Debrief & Entscheidungen
+    duration_minutes: 60
+    trainer_action: >
+      Am Ende Tag 5: Pattern-Karten sortieren, Erkenntnisse
+      destillieren. "Was haben wir gelernt? Wie weiter?"
+      Entscheidung: weiter, pivot, stop.
+    participant_action: >
+      Erkenntnisse teilen, Entscheidung mittragen.
+      Umsetzungs-Plan beginnen.
+    note: >
+      Ohne Debrief verpuffen die Erkenntnisse. Meist ist
+      Ergebnis: "Das Konzept funktioniert weitgehend,
+      folgende Anpassungen nötig." Klare Entscheidung.
+
+variations:
+  - name: Klassischer 5-Tage-Sprint
+    description: >
+      Voller Sprint nach Knapp: 5 Tage à 8h, 5-7 TN,
+      fester Decider. Standard-Variante.
+    when_to_use: >
+      Strategische Produkt-Fragen, Venture-Teams, größere
+      Entscheidungs-Punkte. Wenn Budget + Zeit verfügbar.
+  - name: 4-Tage-Sprint (AJ&Smart)
+    description: >
+      Kompakter Rahmen: Tag 1 kombiniert Map+Sketch,
+      sonst gleich. Spart 20 % Zeit.
+    when_to_use: >
+      Wenn 5 Tage nicht darstellbar, oder erfahrene
+      Sprint-Teams. Hat sich als neuer Standard etabliert.
+  - name: 2-Tage-Sprint (Design Discovery)
+    description: >
+      Stark verkürzt: Map+Sketch an Tag 1, Prototype+Test
+      an Tag 2. Weniger Tiefe, schneller Lerneffekt.
+    when_to_use: >
+      Frühes Explorationsstadium, wenn volle Sprint-
+      Investition noch nicht gerechtfertigt.
+  - name: Remote Design Sprint
+    description: >
+      Online-Variante mit Miro, Zoom, geteilten Tools.
+      4 Tage statt 5. Erfordert erfahrene Remote-
+      Moderation.
+    when_to_use: >
+      Verteilte Teams. Gut etabliert seit 2020.
+    setting_codes: [remote_sync]
+  - name: Design Sprint 2.0 (Jake Knapp)
+    description: >
+      Aktualisierte Version von Knapp selbst — kürzer,
+      klarere Prinzipien, modernere Tools.
+    when_to_use: >
+      Aktuelle Implementation. Beide Varianten kursieren,
+      2.0 empfehlenswert für Einsteiger:innen.
+  - name: Internal Sprint (Unternehmens-intern)
+    description: >
+      Für interne Problem-Räume (Prozesse, HR-Themen)
+      adaptiert. "Kund:innen" sind interne Stakeholder.
+    when_to_use: >
+      Organisationsentwicklung, interne Produkt-Entwicklung.
+      Wenn Methodik intern eingesetzt werden soll.
+
+pitfalls:
+  - issue: >
+      Kein/falscher Decider — Entscheidungen werden
+      demokratisch, verzögern sich.
+    countermeasure: >
+      Decider vor Sprint klar bestimmen. Rolle explizit
+      übernehmen lassen. Ohne Decider: keine Sprint-
+      Mechanik.
+    severity: common
+  - issue: >
+      Sprint-Frage zu breit oder unklar.
+    countermeasure: >
+      Tag 1 nicht abkürzen. Sprint-Frage mit
+      Auftraggebenden vorher präzisieren. "Eine gute
+      Frage ist 30 % des Sprints."
+    severity: common
+  - issue: >
+      Team-Zusammensetzung falsch — zu homogen oder
+      ohne Kern-Experten.
+    countermeasure: >
+      Cross-funktional: UX, Tech, Business, Decider,
+      Kund:innen-Versteher. 5-7 Personen, nicht mehr.
+    severity: common
+  - issue: >
+      Diskussionen statt stilles Sketchen an Tag 2.
+    countermeasure: >
+      Still-Phase strikt durchsetzen. "Sketchen ist
+      individuell, kein Gruppendenken." Moderator:in
+      schützt die Stille.
+    severity: common
+  - issue: >
+      Prototyp zu ambitioniert — wird nicht fertig.
+    countermeasure: >
+      "Fake it till you make it" erklären. Keynote-
+      Prototypen sind ok. Scope radikal begrenzen.
+      Zeit drängt Perfektion ab.
+    severity: common
+  - issue: >
+      Tests nicht mit echten Kund:innen — fake Feedback.
+    countermeasure: >
+      5 echte Nutzer:innen vorab rekrutieren. Incentive
+      zahlen (Gutschein, Bezahlung). Ohne echte
+      Kund:innen: keine Sprint-Gültigkeit.
+    severity: common
+  - issue: >
+      Danach keine Umsetzung — Sprint verpufft.
+    countermeasure: >
+      Follow-up-Plan vor Sprint klären. Budget für
+      Umsetzung muss da sein. Sonst: Sprint ist
+      teuerstes Konzept-Dokument aller Zeiten.
+    severity: common

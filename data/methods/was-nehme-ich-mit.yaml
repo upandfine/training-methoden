@@ -1,0 +1,213 @@
+slug: was-nehme-ich-mit
+canonical_name: Was nehme ich mit?
+synonyms:
+  - synonym: Takeaway Round
+    language: en
+short_description: >
+  Schlichte Abschlussreflexion: Reihum sagt jede:r einen Satz zu
+  „Was nehme ich mit?". Ohne Diskussion, ohne Kommentar. Klar, kurz,
+  persönlich. Auch mit Zusatzfrage kombinierbar („Und was lasse ich hier?").
+originator: null
+origin_context: >
+  Gängige Moderations- und Seminarpraxis; verwandt mit „Blitzlicht"
+  (vgl. eigenes Beispiel-YAML).
+phases:
+  - code: reflection
+    is_primary: true
+  - code: closing
+  - code: feedback
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [reflective]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 20
+tags: [abschluss, kurz, reihum]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderationsmethoden in der Erwachsenenbildung"
+    author: Josef W. Seifert
+    year: 2014
+    relation: practice_guide
+    note: Blitzlicht-artige Abschluss-Runden als Standard-Praxis.
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erwachsenenbildung"
+    author: Ekkehard Nuissl
+    year: 2013
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage stellen & Format erklären
+    duration_minutes: 1
+    trainer_action: >
+      "Zum Abschluss eine kurze Runde: Jede:r sagt einen
+      Satz — 'Was nehme ich mit?'. Kein Kommentar, keine
+      Diskussion. Reihum. Pass-Option ist erlaubt."
+      Bei Bedarf Erweiterung: "+ Was lasse ich hier?"
+    participant_action: >
+      Frage hören, still überlegen, eigene Antwort
+      formen.
+    note: >
+      Die Regel "kein Kommentar" ist Pflicht. Wer
+      kommentiert, startet Diskussion — dann wird aus
+      3 Minuten 20. Disziplin schützt die Methode.
+  - order: 2
+    label: Kurze Einzel-Reflexion (still)
+    duration_minutes: 2
+    trainer_action: >
+      2 min still, alle denken nach. Moderation schweigt,
+      bleibt sichtbar. Keine Hintergrund-Musik nötig.
+    participant_action: >
+      Eigene Antwort formulieren. Stichwort oder kurzen
+      Satz. Keine Ausarbeitung nötig.
+    note: >
+      Still-Phase ist unterschätzt. Ohne sie werden die
+      ersten zwei Antworten mittelmäßig, erst ab Mitte
+      wird's präzise. Mit: alle haben Zeit zum Finden.
+  - order: 3
+    label: Reihum oder Popcorn
+    duration_minutes: 5
+    trainer_action: >
+      Reihum (klarer, bei neuen Gruppen) oder Popcorn
+      (wer will, spricht). Je 20-40 Sek pro Person.
+      Moderation hört zu, kein "Danke" nach jedem — eher
+      neutral durchgehen.
+    participant_action: >
+      Eigenen Satz sagen, den anderen aufmerksam zuhören.
+      Nicht kommentieren, nicht vergleichen.
+    note: >
+      Bei Reihum: klare Richtung ansagen ("links herum").
+      Bei Popcorn: aushalten, dass Stille zwischendurch
+      kommt — jemand wird sprechen.
+  - order: 4
+    label: Abschluss-Rahmen
+    duration_minutes: 2
+    trainer_action: >
+      Nach der Runde: "Danke. Ich habe viel gehört."
+      Kurzer persönlicher Abschluss ("Ich nehme mit,
+      dass..."). Übergang zur Verabschiedung oder zum
+      Ritual.
+    participant_action: >
+      Dank wahrnehmen, gehen bereit machen,
+      Stimmung mitnehmen.
+    note: >
+      Moderation selbst beiträgt — zeigt, dass es kein
+      "Verhör" ist. Authentizität schließt den Kreis.
+
+variations:
+  - name: Klassisch (1 Satz pro Person)
+    description: >
+      Standardvariante: 1 Satz zu "Was nehme ich mit?".
+      Reihum oder Popcorn.
+    when_to_use: >
+      Seminar-Abschluss, Meetings, Workshops. Alle Gruppen-
+      größen, aber ideal 5-20 TN.
+  - name: Erweitert (Was nehme ich mit / lasse ich hier)
+    description: >
+      Zwei Sätze pro Person: was wird mitgenommen, was
+      bleibt zurück. Zeigt Abgrenzung und Transfer.
+    when_to_use: >
+      Intensive Workshops, Retreats. Wenn auch Loslassen
+      Thema war.
+  - name: Ein-Wort-Variante
+    description: >
+      Nur ein Wort pro Person ("Mut", "Ruhe", "Klarheit").
+      Sehr kurz, hoch verdichtet.
+    when_to_use: >
+      Sehr kurze Zeitfenster, große Gruppen (30+).
+      Minimalistisch, schnell.
+  - name: Partner-Austausch vor Plenum
+    description: >
+      Erst 2er-Paaraustausch (je 1 min), dann Plenum nur
+      mit 2-3 Highlights. Intimer, weniger Druck.
+    when_to_use: >
+      Größere Gruppen, vertraute Team-Atmosphäre. Wenn
+      tiefere Teilhabe gewünscht.
+  - name: Remote (Chat + Stimme)
+    description: >
+      Online: alle schreiben Satz in Chat, 2-3 sprechen
+      zusätzlich laut. Hybridmedien-Zugang.
+    when_to_use: >
+      Online-Trainings. Chat sichert volle Teilhabe,
+      Stimme verstärkt Einzelne.
+    setting_codes: [remote_sync]
+  - name: Schriftliche Variante (Postkarte an sich selbst)
+    description: >
+      Statt mündlich: jede:r schreibt "Was nehme ich mit"
+      auf Postkarte, adressiert an sich selbst. Moderation
+      schickt in 2 Wochen.
+    when_to_use: >
+      Transfer-sicherer Abschluss, längere Programme.
+      Wenn die Antwort persönlich bleiben soll.
+
+pitfalls:
+  - issue: >
+      Kommentieren schleicht sich ein — aus 5 min werden 15.
+    countermeasure: >
+      Regel klar ansagen: "Kein Kommentar, kein Nachfragen.
+      Wir hören nur." Bei Verstoß sanft: "Wir machen weiter
+      in der Runde."
+    severity: common
+  - issue: >
+      Antworten bleiben generisch ("war schön heute").
+    countermeasure: >
+      Still-Phase einplanen (nicht weglassen). Präzise
+      Frage: "Ein konkreter Gedanke, den Sie mitnehmen."
+      Modelling durch Moderation mit konkretem Beispiel.
+    severity: common
+  - issue: >
+      Pass-Option wird übersehen oder zu kurz kommuniziert.
+    countermeasure: >
+      Pass-Option mehrfach aktiv anbieten. "Wer nicht
+      möchte, sagt 'pass'. Das ist genauso gut."
+      Freiwilligkeit ist Basis.
+    severity: common
+  - issue: >
+      Einzelne monologisieren trotz "ein Satz"-Regel.
+    countermeasure: >
+      Zeitrahmen vorab ansagen (30-60 Sek). Bei Überziehern
+      höflich kappen: "Super, danke — nächste:r bitte."
+    severity: common
+  - issue: >
+      Popcorn-Variante bleibt stumm — niemand will anfangen.
+    countermeasure: >
+      Moderation startet selbst. Oder: Reihum ansagen bei
+      zögernder Gruppe. Popcorn braucht vertraute
+      Dynamik.
+    severity: common
+  - issue: >
+      In großen Gruppen zieht sich Reihum.
+    countermeasure: >
+      Ab 15 TN: Partner-Variante oder Kleingruppen, dann
+      Plenum-Highlights. Reihum-Runde mit 25+ TN ist
+      zäh.
+    severity: common
+  - issue: >
+      Ritual wird bei wiederholter Anwendung ermüdend.
+    countermeasure: >
+      Varianten wechseln (Ein-Wort, Schrift, Partner).
+      Nicht jedes Mal gleich. Abwechselnder Einsatz
+      hält Wirkung.
+    severity: common

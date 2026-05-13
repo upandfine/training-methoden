@@ -1,0 +1,249 @@
+slug: ankerbeispiele
+canonical_name: Ankerbeispiele
+synonyms:
+  - synonym: Anchored Instruction
+    language: en
+  - synonym: Situiertes Lernen
+    language: de
+short_description: >
+  Lerninhalte werden an einem reichen, realitätsnahen Beispiel-Kontext
+  („Anker") verankert. Statt abstrakte Regeln isoliert zu vermitteln,
+  arbeiten TN mit einem konkreten Fall und extrahieren daraus Prinzipien.
+originator: Cognition and Technology Group at Vanderbilt (CTGV)
+origin_context: >
+  1990er an der Vanderbilt University (USA); theoretische Grundlage im
+  situierten Lernen (Lave/Wenger 1991) und in der kognitiven Flexibilitäts-
+  theorie (Spiro). In der deutschen Didaktik häufig als „verankerte
+  Unterweisung" aufgegriffen.
+phases:
+  - code: input
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+    note: Video-Case als Anker ist das ursprüngliche CTGV-Format.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [didactic, cooperative]
+duration_min_minutes: 45
+duration_typical_minutes: 90
+duration_max_minutes: 240
+materials:
+  - Ausgearbeitetes Fall-Szenario (Text, Video, interaktiv)
+tags: [situiertes-lernen, fall, kontext]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: article
+    title: "Anchored instruction and its relationship to situated cognition"
+    author: Cognition and Technology Group at Vanderbilt
+    year: 1990
+    relation: originator
+    note: >
+      Ursprungs-Artikel des CTGV-Ansatzes — verankerte
+      Unterweisung als didaktisches Grundprinzip.
+  - kind: book
+    title: "Situated Learning: Legitimate Peripheral Participation"
+    author: Jean Lave, Etienne Wenger
+    year: 1991
+    relation: reference
+    note: Theoretische Grundlage zum situierten Lernen.
+  - kind: book
+    title: "Didaktik der Erwachsenenbildung"
+    author: Rolf Arnold
+    year: 2021
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Anker auswählen / vorbereiten (Prep, außerhalb der Session)
+    duration_minutes: 0
+    trainer_action: >
+      VOR dem Training: reichen, realitätsnahen Fall finden
+      oder konstruieren. Merkmale: kontextreich, mehrere
+      Facetten, echtes Problem, idealerweise als Video oder
+      ausführlicher Text. Lernziele explizit an Fall-
+      Elemente knüpfen.
+    participant_action: >
+      — (nur Trainer:in)
+    note: >
+      Fall-Qualität ist 90 % der Methode. "Dünner" Fall
+      produziert nur oberflächliches Lernen. Realismus,
+      Komplexität, Mehrdeutigkeit sind Features.
+  - order: 2
+    label: Anker präsentieren
+    duration_minutes: 15
+    trainer_action: >
+      Fall vorstellen: Video zeigen, Text austeilen, oder
+      szenisch darstellen. Zeit geben zum Aufnehmen. Zunächst
+      keine Analyse — nur Eintauchen in den Kontext.
+      "Lassen Sie sich vom Fall mitnehmen."
+    participant_action: >
+      Eintauchen, Fall auf sich wirken lassen, erste
+      intuitive Reaktionen zulassen, Assoziationen zu
+      eigenen Erfahrungen.
+    note: >
+      "Eintauchen" darf dauern. Wer Fall in 2 min abfrühstückt,
+      hat ihn nicht erlebt. 10-15 min Präsenz mit Fall
+      sind nicht verschwendet.
+  - order: 3
+    label: Strukturierte Analyse (Kleingruppen)
+    duration_minutes: 30
+    trainer_action: >
+      Kleingruppen (4-5 TN) erhalten Analyse-Fragen:
+      "Was ist das Kern-Problem? Welche Handlungs-Optionen
+      gibt es? Welche Prinzipien werden hier sichtbar?"
+      Gruppen erarbeiten, dokumentieren auf Flipchart oder
+      digital.
+    participant_action: >
+      Fall gemeinsam analysieren, Prinzipien herausarbeiten,
+      Handlungs-Alternativen durchspielen, auf Flipchart
+      dokumentieren.
+    note: >
+      Analyse-Fragen steuern das Lernen. Zu offen: Gruppe
+      verliert sich. Zu eng: Fall-Reichtum wird verschenkt.
+      3-4 gut gewählte Fragen.
+  - order: 4
+    label: Extraktion der Prinzipien (Plenum)
+    duration_minutes: 25
+    trainer_action: >
+      Gruppen präsentieren ihre Analysen. Moderation sammelt
+      herausgearbeitete Prinzipien auf gemeinsamem Board.
+      "Was sind die verallgemeinerbaren Regeln, die hier
+      sichtbar werden?" Transfer zum abstrakten Wissen.
+    participant_action: >
+      Eigene Analyse vorstellen, Prinzipien anderer Gruppen
+      aufnehmen, kollektiv verallgemeinern.
+    note: >
+      Übergang vom Konkreten zum Allgemeinen ist der
+      didaktische Kern. Prinzipien explizit formulieren
+      lassen, nicht von Moderation vorgeben.
+  - order: 5
+    label: Transfer auf neuen Fall
+    duration_minutes: 15
+    trainer_action: >
+      Kürzerer zweiter Fall oder Situationsbeispiel anbieten:
+      "Wo greifen die Prinzipien, die wir gerade entdeckt
+      haben, hier?" Transfer-Übung validiert Lernen.
+    participant_action: >
+      Prinzipien auf neuen Fall anwenden, Stärken und
+      Grenzen erkennen.
+    note: >
+      Transfer-Check verankert die Prinzipien. Ohne ihn
+      bleibt Wissen am Anker-Fall kleben. Zweiter Fall
+      muss ähnlich, aber nicht identisch sein.
+
+variations:
+  - name: Klassisch (ein ausgearbeiteter Fall + Analyse)
+    description: >
+      Standard-CTGV-Variante: reicher Anker-Fall, Gruppen-
+      analyse, Prinzipien-Extraktion, Transfer.
+    when_to_use: >
+      Längere Trainings (90 min+), Hochschule, Fachaus-
+      bildung. Wenn Prinzipien-Lernen aus Fall-Kontext
+      gewünscht.
+  - name: Video-Anker (CTGV-Original)
+    description: >
+      Video als Anker — reich, mehrdimensional. Oft
+      speziell produziert (z.B. "Jasper Woodbury"-Serie
+      der CTGV).
+    when_to_use: >
+      Wenn Video verfügbar und Zielgruppe video-affin.
+      Schule, Hochschul-Lehre.
+  - name: Szenisches Rollenspiel als Anker
+    description: >
+      Statt Video/Text: szenisch dargestellter Fall
+      (Rollenspiel durch Trainer:innen oder TN). Sehr
+      lebendig.
+    when_to_use: >
+      Soft-Skill-Trainings (Kommunikation, Konflikt), wenn
+      Körper und Emotion am Anker wichtig sind.
+  - name: Mehrere Anker im Vergleich
+    description: >
+      2-3 verschiedene Fälle parallel. Gruppen analysieren
+      unterschiedliche, dann gemeinsame Prinzipien-
+      Extraktion.
+    when_to_use: >
+      Fortgeschrittene Gruppen. Wenn kontextuelle
+      Variation Lerneffekt vertiefen soll.
+  - name: Eigene-Fälle-Variante
+    description: >
+      TN bringen eigene reale Fälle mit, diese werden zu
+      Ankern. Hohe Authentizität, hohe Relevanz.
+    when_to_use: >
+      Erfahrene Praktiker:innen. Wenn eigene Praxis-
+      Probleme bearbeitet werden sollen.
+  - name: Asynchrone Bearbeitung
+    description: >
+      Anker-Fall vor Training bereitgestellt, TN analysieren
+      selbst. Im Training dann Plenum-Diskussion und
+      Prinzipien-Extraktion.
+    when_to_use: >
+      Flipped-Classroom, berufsbegleitende Programme.
+      Spart Präsenz-Zeit.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Anker-Fall zu dünn — keine Prinzipien extrahierbar.
+    countermeasure: >
+      Vorab Fall mit Kollegin testen: "Welche Prinzipien
+      werden hier sichtbar?" Wenn wenig: Fall überarbeiten
+      oder ersetzen.
+    severity: common
+  - issue: >
+      Analyse bleibt beschreibend — "was ist passiert",
+      keine Prinzipien.
+    countermeasure: >
+      Analyse-Fragen auf "warum" und "welches Muster"
+      zielen. Moderation interveniert: "Was ist die
+      verallgemeinerbare Regel?"
+    severity: common
+  - issue: >
+      Transfer wird vergessen — Prinzipien bleiben am Fall
+      kleben.
+    countermeasure: >
+      Transfer-Übung (Schritt 5) fest einplanen. Zweiter
+      Fall kurz aber konkret. Ohne Transfer: Lernen
+      nicht gesichert.
+    severity: common
+  - issue: >
+      Gruppen-Analyse divergiert zu stark — keine
+      gemeinsamen Prinzipien.
+    countermeasure: >
+      Plenum-Phase (Schritt 4) als Konvergenz-Punkt nutzen.
+      Gemeinsame Prinzipien explizit formulieren und
+      visualisieren.
+    severity: common
+  - issue: >
+      Zeitaufwand unterschätzt — alles zu knapp.
+    countermeasure: >
+      Mindestens 90 min einplanen, bei komplexen Fällen
+      bis 3-4h. Bei knapper Zeit: einfacher Fall, nicht
+      komplexer.
+    severity: common
+  - issue: >
+      Moderation nimmt Prinzipien-Extraktion vorweg.
+    countermeasure: >
+      Geduld. Gruppen selbst formulieren lassen. Moderation
+      strukturiert, nicht liefert Ergebnisse.
+    severity: common
+  - issue: >
+      Fall zu lang — TN verlieren Überblick.
+    countermeasure: >
+      Komplexität staffeln. Strukturierungs-Hilfen
+      (Zeitstrahl, Beteiligten-Karte). Bei Video: kürzen
+      auf relevante Teile.
+    severity: common

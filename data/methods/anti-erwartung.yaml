@@ -1,0 +1,252 @@
+slug: anti-erwartung
+canonical_name: Anti-Erwartung
+synonyms:
+  - synonym: Worst-Case Expectations
+    language: en
+  - synonym: Negativ-Erwartung
+    language: de
+short_description: >
+  Teilnehmende beschreiben, was dieses Training zum schlechtesten ihres Lebens
+  machen würde. Überraschend effektiv, weil Bedenken und Befürchtungen
+  niederschwellig explizit werden. Danach Umkehrung zu „was brauchen wir also?".
+originator: null
+origin_context: >
+  Methode aus dem Umfeld der Liberating Structures (ähnlich „TRIZ" — What would
+  ruin the workshop?) und aus systemischen Interventionen.
+phases:
+  - code: expectations
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digital per Whiteboard oder Chat-Liste.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [diagnostic, creative, activating]
+duration_min_minutes: 15
+duration_typical_minutes: 25
+duration_max_minutes: 40
+tags: [erwartung, provokativ, triz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — TRIZ"
+    url: https://www.liberatingstructures.com/6-making-space-with-triz/
+    relation: originator
+    note: >
+      TRIZ ist die namengebende Liberating Structure, die die
+      Anti-Erwartungs-Logik formalisiert: "What would cause our
+      workshop to fail completely?"
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+    note: Vollständige TRIZ-Beschreibung mit Facilitator-Tipps.
+  - kind: book
+    title: "Systemische Interventionen"
+    author: Fritz B. Simon
+    year: 2015
+    relation: reference
+    note: >
+      Systemischer Hintergrund der Negativ-Fragestellung —
+      paradoxe Intervention als Türöffner.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Framing & provokative Frage
+    duration_minutes: 3
+    trainer_action: >
+      Framing: "Ich frage nicht, was Sie sich erhoffen — sondern
+      das Gegenteil: Was müsste heute passieren, damit Sie
+      abends sagen: 'Das war mein schlechtestes Training ever'?
+      Seien Sie so konkret und bösartig wie möglich." Kurz warten
+      bis es klickt — meist erst Lachen, dann Ernsthaftigkeit.
+    participant_action: >
+      Zuhören, Paradox verstehen, innerlich an schlechte
+      Trainings-Erfahrungen denken.
+    note: >
+      Das Framing ist die Methode. Wer die Frage zu lau stellt
+      ("was sollte nicht passieren?"), verliert die provozierte
+      Offenheit. Schärfe ist Feature.
+  - order: 2
+    label: Stille Einzelnotation
+    duration_minutes: 5
+    trainer_action: >
+      5 min still, jede:r sammelt 3-5 Punkte auf Karten/Sticky
+      Notes. Anonym erlaubt. Moderation schweigt, bleibt sichtbar.
+    participant_action: >
+      Ehrlich notieren, was ein Training ruinieren würde —
+      konkret, spezifisch. "Jemand liest 2 Stunden Folien vor",
+      "Alle Übungen werden in Vollversammlung gemacht".
+    note: >
+      Sollte aus eigenen Erfahrungen gespeist sein — nicht
+      abstrakte "wäre schlimm, wenn". Je konkreter, desto
+      aufdeckender.
+  - order: 3
+    label: Sammlung im Plenum
+    duration_minutes: 8
+    trainer_action: >
+      Karten einsammeln und vorlesen, oder reihum je eine nennen
+      ("One at a time"-Runde). Moderation schreibt mit. Nicht
+      kommentieren, nicht rechtfertigen — nur sammeln. Bei
+      Wiederholungen Strich, nicht weglassen.
+    participant_action: >
+      Zuhören, eigene Punkte beisteuern, beim Wiedererkennen
+      nicken.
+    note: >
+      Häufig wiederholte Punkte sind die wichtigsten. Die Liste
+      zeigt das kollektive "No-Go" der Gruppe — das ist
+      wertvoller als klassische Wünsche.
+  - order: 4
+    label: Umkehrung in Handlungsanforderungen
+    duration_minutes: 6
+    trainer_action: >
+      "Jetzt umkehren: Wenn das der Horror wäre — was heißt das
+      umgekehrt für heute?" Jede Anti-Erwartung wird in ein
+      konkretes Gegenteil übersetzt. Beispiel: "2h Folien-
+      Vortrag" → "max. 15 min Input am Stück, dann Aktivität".
+      Moderation visualisiert die Positiv-Formulierung.
+    participant_action: >
+      Umkehrung vorschlagen, gemeinsam gute Formulierungen
+      finden, Einverständnis zeigen.
+    note: >
+      Umkehrung ist der lehrreichste Teil. Oft werden Dinge
+      explizit, die in normalen Erwartungsrunden nie vorkommen
+      ("wenn die Moderation personalisierte Kritik zulässt" →
+      "psych. Sicherheit steht ganz oben").
+  - order: 5
+    label: Arbeits-Commitment
+    duration_minutes: 3
+    trainer_action: >
+      "Das sind jetzt unsere Arbeitsprinzipien. Ich hänge die
+      Liste sichtbar, wir nehmen sie am Ende nochmal in den
+      Blick." Kurzes Committment zu 2-3 kritischen Punkten —
+      explizit: "Das halten wir so, das nicht."
+    participant_action: >
+      Commitment mitgehen, Prinzipien als gemeinsamen Rahmen
+      akzeptieren.
+    note: >
+      Transparenz schafft Verbindlichkeit. Wenn Moderation sagt
+      "das kann ich nicht versprechen", ist das besser als
+      leere Zusagen — und schützt Vertrauen.
+
+variations:
+  - name: Klassisch (TRIZ-Stil)
+    description: >
+      Drei Runden: (1) Was würde das Training ruinieren?
+      (2) Welches davon tun wir eigentlich schon manchmal?
+      (3) Was wollen wir stattdessen tun? Nach Liberating
+      Structures.
+    when_to_use: >
+      Retrospektiven, Team-Klausuren, Strategie-Workshops.
+      Erlaubt kritische Selbstreflexion, nicht nur Neubeginn.
+  - name: Schnellform (nur 2 Runden)
+    description: >
+      "Was ruiniert es?" + "Was heißt das umgekehrt?". Ohne
+      Selbstreflexions-Zwischenschritt. Schneller.
+    when_to_use: >
+      Trainings-Einstieg, wenn Erwartungsklärung gewünscht ist
+      ohne Selbstanalyse der Gruppe.
+  - name: Paar-Anti-Erwartung (2er-Austausch)
+    description: >
+      Erst 2 min alleine, dann 3 min im Paar Anti-Erwartungen
+      austauschen. Paare bringen Top 2 ins Plenum.
+    when_to_use: >
+      Größere Gruppen (20+), wenn Plenum-Sammlung zu lang
+      werden würde. Reduziert auch Scham-Schwelle.
+  - name: Remote (Chat / Whiteboard)
+    description: >
+      Digital: Anti-Erwartungen ins Whiteboard oder den
+      Chat. Anonym möglich. Plenum-Sammlung durch
+      Vorlesen.
+    when_to_use: >
+      Online-Workshops. Funktioniert sehr gut, Anonymität
+      erleichtert Offenheit.
+    setting_codes: [remote_sync]
+  - name: Nur positive Umkehrung
+    description: >
+      Statt "Horror"-Frage: "Was würde Sie dazu bringen,
+      heute früher zu gehen?" Etwas milder formuliert,
+      gleicher Effekt.
+    when_to_use: >
+      Sensible Gruppen, Kontexte mit wenig Vertrauen, Kunden-
+      Umgebungen. Weniger provokant, dafür anschlussfähiger.
+  - name: Anti-Erwartung als Retrospektive
+    description: >
+      Für Teams: "Was würde unsere Sprint-Arbeit heute ruinieren?"
+      — oder "einen unserer Release zum Desaster machen?"
+      Erkennt blinde Flecken.
+    when_to_use: >
+      Scrum-Retrospektiven, wenn klassische Retros oberflächlich
+      werden. Gut zum Aufbrechen von Muster-Antworten.
+
+pitfalls:
+  - issue: >
+      Gruppe geht nicht mit — "komische Frage, ich verstehe
+      nicht".
+    countermeasure: >
+      Konkretes Beispiel geben: "Stellen Sie sich vor, eine:r
+      liest 2 Stunden von der Folie ab — genau so." Zwei, drei
+      Beispiele aus anderen Kontexten zeigen, wie es gemeint
+      ist.
+    severity: common
+  - issue: >
+      Anti-Erwartungen werden persönlich ("Wenn der Moderator
+      inkompetent ist").
+    countermeasure: >
+      Regel: "Verhalten, nicht Personen." Bei Personalisierung
+      umformulieren: "Was wäre das Verhalten?" Macht Feedback
+      nutzbar.
+    severity: common
+  - issue: >
+      Umkehrung wird übersprungen, Liste bleibt negativ hängen.
+    countermeasure: >
+      Umkehrungs-Phase fest einplanen (6+ min). Methode ist
+      ohne Umkehrung nur halb — sonst bleibt schlechte
+      Stimmung, keine Arbeits-Prinzipien.
+    severity: common
+  - issue: >
+      Zu abstrakt ("wenn es langweilig ist") — keine konkreten
+      Umsetzungshinweise.
+    countermeasure: >
+      Nachfragen: "Was genau würde es langweilig machen?"
+      Zuspitzen auf Verhalten und Rahmenbedingungen, nicht
+      Gefühls-Labels.
+    severity: common
+  - issue: >
+      Moderation nimmt Feedback zu defensiv ("das tu ich aber
+      so!").
+    countermeasure: >
+      Haltung: zuhören, neutral notieren, später einordnen.
+      Rechtfertigung in der Sammelphase killt Offenheit.
+      Umkehrung als Chance, eigenes Tun zu reflektieren.
+    severity: common
+  - issue: >
+      Große Gruppen → Sammlung wird endlos.
+    countermeasure: >
+      Paar-Variante wählen (siehe Variation). Oder
+      Digital-Sammlung mit Clustering statt Einzel-
+      Vorlesen.
+    severity: common
+  - issue: >
+      TN befürchten Konsequenzen ("wenn ich das sage, nimmt
+      mir das die Moderation krumm").
+    countermeasure: >
+      Anonymität explizit anbieten (Karten ohne Namen, Chat
+      ohne Zuordnung). Vertraulichkeit zusichern. Bei
+      kritischen Kontexten Moderation von extern.
+    severity: common

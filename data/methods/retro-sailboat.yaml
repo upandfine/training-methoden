@@ -1,0 +1,218 @@
+slug: retro-sailboat
+canonical_name: Sailboat-Retrospektive
+synonyms:
+  - synonym: Sailboat Retrospective
+    language: en
+  - synonym: Segelboot-Retro
+    language: de
+short_description: >
+  Visuelle Retro-Metapher: Segelboot auf dem Meer. Wind = was uns antreibt,
+  Anker = was uns bremst, Felsen = Risiken, Insel = Ziel. TN sammeln Karten
+  pro Feld, clustern, priorisieren Maßnahmen.
+originator: null
+origin_context: >
+  Populäre Retrospektive aus der Agilen Community; erstmals breit
+  dokumentiert in Esther Derby/Diana Larsens „Agile Retrospectives" (2006)
+  und im Retromat von Corinna Baldauf. Heute Standard auf Miro/Mural-Boards.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: feedback
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Whiteboard-Templates (Miro, Mural, Klaxoon) verfügbar.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [reflective, cooperative, visualization]
+duration_min_minutes: 45
+duration_typical_minutes: 75
+duration_max_minutes: 120
+materials:
+  - Sailboat-Template (analog/digital), Sticky Notes
+tags: [retrospektive, agil, metapher, visualisiert]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Agile Retrospectives — Making Good Teams Great"
+    author: Esther Derby, Diana Larsen
+    year: 2006
+    relation: reference
+  - kind: url
+    title: "Retromat — Sailboat Activity"
+    url: https://retromat.org/en/?id=102
+    relation: practice_guide
+    note: Corinna Baldaufs Retro-Sammlung, Sailboat-Template und Varianten.
+  - kind: book
+    title: "Getting Value out of Agile Retrospectives"
+    author: Luis Gonçalves, Ben Linders
+    year: 2013
+    relation: practice_guide
+    note: Kostenlose Ebook-Variante; enthält Sailboat-Beschreibung.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Metapher einführen & Template öffnen
+    duration_minutes: 10
+    trainer_action: >
+      Bild vorstellen: Segelboot (das Team) auf dem Meer Richtung
+      Insel (Ziel). Vier Elemente erklären: Wind (treibt uns voran),
+      Anker (bremst uns), Felsen/Riffs (Risiken), Insel (Ziel).
+      Ziel/Insel kurz gemeinsam formulieren.
+    participant_action: >
+      Metapher aufnehmen, in die Situation eindenken.
+    note: >
+      Das gemeinsame Ziel-Formulieren ist wichtiger als gedacht. Oft
+      wird klar, dass das Team unterschiedliche Inseln im Kopf hat.
+  - order: 2
+    label: Stille Sammel-Phase
+    duration_minutes: 15
+    trainer_action: >
+      Jede:r schreibt still Sticky Notes, 3-5 pro Feld. Timer sichtbar.
+      Leitfragen visualisiert: Wind („Was treibt uns?"), Anker („Was
+      bremst uns?"), Felsen („Welche Risiken sehen wir voraus?"),
+      Insel („Wo wollen wir hin?").
+    participant_action: >
+      Eigene Punkte pro Feld notieren. Konkrete Beobachtungen, keine
+      Generalitäten.
+    note: >
+      Felsen-Feld wird oft leer gelassen — bewusst nachfordern:
+      „Was könnte uns in 3 Monaten auf den Bauch fallen?".
+  - order: 3
+    label: Ankleben & Vorstellen
+    duration_minutes: 15
+    trainer_action: >
+      Reihum: jede:r klebt eigene Punkte ins Template und erklärt
+      sie in 30-60 sek. Moderation clustert ähnliche visuell.
+    participant_action: >
+      Punkte anbringen, kurz erläutern, bei Clustern eigene Post-its
+      bewegen.
+    note: >
+      Visualisierung ist zentral — Template mit Bild wirkt stärker
+      als nüchterne Spalten. Zeit für Betrachten lassen.
+  - order: 4
+    label: Diskussion & Priorisierung
+    duration_minutes: 20
+    trainer_action: >
+      Fokus auf 2 Felder: Anker (was entfernen wir?) und Felsen
+      (wie vermeiden wir?). Dot-Voting auf Top-Anker und Top-Felsen.
+      Wind und Insel kurz würdigen (darauf können wir bauen).
+    participant_action: >
+      Diskutieren, priorisieren, Kontext ergänzen.
+    note: >
+      Die 4 Felder sind nicht gleichwertig in der Aktionsplanung —
+      Wind und Insel sind Stärken/Ziele, Anker und Felsen sind
+      Handlungsräume.
+  - order: 5
+    label: Aktionen definieren
+    duration_minutes: 15
+    trainer_action: >
+      Je Top-Anker eine Aktion („Wie entfernen wir den?"). Je Top-
+      Felsen eine Vorbeugungs-Aktion. Owner und Timeline pro Aktion.
+    participant_action: >
+      Aktionen formulieren, Verantwortung übernehmen.
+    note: >
+      Max. 5 Aktionen — lieber weniger umsetzen als viele liegen
+      lassen. „SMART" hilft: spezifisch, messbar, terminiert.
+
+variations:
+  - name: Klassisches Sailboat (4 Felder)
+    description: >
+      Vollständige Metapher mit Wind, Anker, Felsen, Insel.
+      Standard-Format, 60-90 min.
+    when_to_use: >
+      Scrum/Agile-Team, Sprint- oder Projekt-Retros. Gut als
+      Einstieg für Teams, die visuelle Metaphern mögen.
+  - name: Speedboat (nur Anker)
+    description: >
+      Vereinfachte Variante nur mit Boot und Ankern. Frage: „Was
+      bremst uns?". 30-45 min.
+    when_to_use: >
+      Zeit knapp, Fokus auf Problemerkennung, Teams die nur ein
+      Feld bearbeiten wollen.
+  - name: Ocean (erweitert)
+    description: >
+      Zusätzliche Elemente: Sonne (Energizer), Fische (Ressourcen),
+      Wolken (äußere Stimmung). Reichere Diskussion, länger.
+    when_to_use: >
+      Quartals-Retro, längere Zeithorizonte, erfahrene Teams.
+  - name: Remote-Sailboat
+    description: >
+      Digitales Template auf Miro/Mural. Post-its per Drag & Drop,
+      Dot-Voting eingebaut. Screenshare für Moderation.
+    when_to_use: >
+      Remote/Hybrid-Teams. Funktioniert sehr gut, weil visuelle
+      Metapher übertragbar.
+    setting_codes: [remote_sync]
+  - name: Asynchrone Variante
+    description: >
+      Template 48h offen, TN tragen async ein. Live-Session nur
+      für Priorisierung und Aktionen (30 min).
+    when_to_use: >
+      Internationale Teams, bei Zeitzonen-Konflikten.
+    setting_codes: [remote_async]
+  - name: Mit Rollen (Kapitän, Matrosen, etc.)
+    description: >
+      TN nehmen Schiffs-Rollen an: Kapitän (Führung), Navigator
+      (Planung), Matrosen (Operatives). Reflexion aus Rollen-
+      Perspektive.
+    when_to_use: >
+      Team-Development, wenn Rollenklärung auch Thema ist.
+      Leicht spielerisch, nicht für ernste Projekte.
+
+pitfalls:
+  - issue: >
+      Metapher wird als kindisch empfunden („Wir sind doch kein
+      Kindergarten").
+    countermeasure: >
+      Einbetten als „visuelle Struktur, die komplexe Themen ordnet".
+      Reduktion der Bildsprache: schlichte Icons statt bunter
+      Illustrationen. Ggf. auf Varianten umschwenken.
+    severity: rare
+  - issue: >
+      Wind-Feld wird übersprungen, nur Probleme (Anker, Felsen)
+      werden diskutiert — Retro wird düster.
+    countermeasure: >
+      Wind-Feld bewusst zuerst bearbeiten („erst anerkennen was gut
+      läuft"). Zeit geben, es gerne 1/3 der Sammelzeit.
+    severity: common
+  - issue: >
+      Felsen-Feld wird zu Spekulations-Katastrophen-Runde —
+      unrealistische Risiken dominieren.
+    countermeasure: >
+      Leitfrage schärfen: „Wahrscheinlich in den nächsten 3 Monaten".
+      Dot-Voting auf Wahrscheinlichkeit, nicht nur Schwere.
+    severity: common
+  - issue: >
+      Aktionen werden nicht aus den geclusterten Themen abgeleitet,
+      sondern aus Lieblings-Post-its Einzelner.
+    countermeasure: >
+      Dot-Voting vor Aktionsphase zwingend. Nur Top-3 bekommen
+      Aktionen. Einzelmeinungen werden als „parken" markiert.
+    severity: common
+  - issue: >
+      Template ist schön, aber Foto/Screenshot landet im Laufwerk
+      und wird nie wieder angeschaut.
+    countermeasure: >
+      Aktionen in Tool (Jira, Trello, Linear) übernehmen, nicht nur
+      im Board. Nächste Retro mit Blick auf letzte Aktionen beginnen.
+    severity: common
+  - issue: >
+      Team macht Sailboat jedes Mal, Methode nutzt sich ab.
+    countermeasure: >
+      Formate rotieren (Stop-Start-Continue, 4L, Starfish, KALM).
+      Sailboat max. jedes 3.-4. Mal.
+    severity: rare

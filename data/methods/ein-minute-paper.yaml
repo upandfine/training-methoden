@@ -1,0 +1,246 @@
+slug: ein-minute-paper
+canonical_name: Ein-Minute-Paper
+synonyms:
+  - synonym: One-Minute Paper
+    language: en
+  - synonym: Minute Paper
+    language: en
+short_description: >
+  Teilnehmende schreiben in einer Minute anonym auf: 1) Das wichtigste, was
+  ich heute gelernt habe. 2) Welche Frage bleibt offen? Trainer:in wertet
+  stichprobenartig aus und adressiert offene Fragen zu Beginn der nächsten
+  Einheit.
+originator: Richard Light / Thomas Angelo, Patricia Cross
+origin_context: >
+  Von Richard Light (Harvard, 1980er) eingeführt; systematisiert in Angelo &
+  Cross, „Classroom Assessment Techniques" (1993). Eine der am besten
+  belegten Feedback-Methoden in der Hochschullehre.
+phases:
+  - code: feedback
+    is_primary: true
+  - code: reflection
+  - code: evaluation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Ideal per Chat, Formular oder anonyme Abfrage.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [feedback, reflective, diagnostic]
+duration_min_minutes: 3
+duration_typical_minutes: 5
+duration_max_minutes: 10
+materials:
+  - Kleine Zettel oder Online-Formular
+tags: [feedback, kurz, anonym, hochschule]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Classroom Assessment Techniques: A Handbook for College Teachers"
+    author: Thomas A. Angelo, K. Patricia Cross
+    year: 1993
+    relation: originator
+    note: >
+      Systematische Beschreibung als CAT (Classroom Assessment
+      Technique) — mit Varianten und Erfolgskennzahlen.
+  - kind: book
+    title: "Making the Most of College: Students Speak Their Minds"
+    author: Richard J. Light
+    year: 2001
+    relation: reference
+    note: >
+      Lights empirische Arbeit an Harvard, die den Minute Paper
+      als wirksame Feedback-Methode etabliert hat.
+  - kind: article
+    title: "Effectiveness of the One-Minute Paper in Student Learning"
+    author: Lucas, A. F.
+    year: 2010
+    relation: reference
+    note: Meta-analytische Hinweise zur Wirksamkeit.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Fragen formulieren & Regeln klarmachen
+    duration_minutes: 1
+    trainer_action: >
+      Zwei klassische Fragen sichtbar aufhängen oder ansagen:
+      (1) "Was ist das Wichtigste, das Sie heute gelernt haben?"
+      (2) "Welche Frage bleibt für Sie offen?" Klar ansagen:
+      "Eine Minute, stichwortartig, anonym. Keine Sätze nötig."
+    participant_action: >
+      Fragen verstehen, Stift bereithalten oder
+      digital-Formular öffnen.
+    note: >
+      Fragen können angepasst werden ("Was hat Sie am meisten
+      überrascht? Was finden Sie missverständlich?"). Wichtig:
+      zwei kurze Fragen, nicht fünf. Weniger ist mehr.
+  - order: 2
+    label: Schreibzeit
+    duration_minutes: 1
+    trainer_action: >
+      Timer starten. 1 Minute komplette Stille. Nicht coachen,
+      nicht erklären, nicht weitermachen. Selbst ruhig bleiben,
+      damit TN sich sammeln können.
+    participant_action: >
+      Still schreiben, ungeschönt, ehrlich. Stichworte genügen.
+      Keine Sätze formulieren.
+    note: >
+      Die Minute ist psychologisch wichtig. Weniger als 60 Sek
+      wird hektisch, mehr verliert die Schnelligkeit.
+      Strikt halten.
+  - order: 3
+    label: Einsammeln
+    duration_minutes: 1
+    trainer_action: >
+      Zettel anonym einsammeln, in Korb werfen oder
+      digital-Formular submitten lassen. Kurzes Danke, keine
+      inhaltliche Reaktion jetzt. "Ich werte aus, wir
+      besprechen das beim nächsten Mal."
+    participant_action: >
+      Zettel abgeben oder Formular absenden. Nicht verzögern.
+    note: >
+      Anonymität ist Grundlage. Zettel werden nicht sortiert
+      nach Personen, Handschrift-Erkennung nicht ansprechen.
+      Vertrauen wird dadurch gebaut.
+  - order: 4
+    label: Auswertung (asynchron, außerhalb Session)
+    duration_minutes: 0
+    trainer_action: >
+      Nach der Session: alle Zettel lesen. 3 häufigste Themen
+      identifizieren (pro Frage). Stichpunkte notieren.
+      Maximal 15-20 min Aufwand. Zu allgemeine Kommentare
+      ignorieren, auf spezifische eingehen.
+    participant_action: >
+      — (asynchron, nur Trainer:in beteiligt)
+    note: >
+      Nicht alle Kommentare adressieren. Fokus auf häufige
+      Themen und unerwartete Perspektiven. Einzel-Ausreißer
+      sind meistens weniger relevant als Muster.
+  - order: 5
+    label: Rückkopplung beim nächsten Treffen
+    duration_minutes: 2
+    trainer_action: >
+      Zu Beginn der nächsten Session: "Beim letzten Mal hatten
+      Sie folgende Fragen/Themen: X, Y, Z. Dazu hier die
+      Antworten." Direkt auf die offenen Punkte eingehen.
+      Zeigt, dass Feedback wirkt.
+    participant_action: >
+      Zuhören, dass Feedback ernst genommen wurde. Neue
+      Fragen stellen, die sich durch Antworten ergeben.
+    note: >
+      Die Rückkopplung ist entscheidend für die Methode. Wenn
+      nie Bezug genommen wird, sinkt die Bereitschaft, ehrlich
+      zu schreiben. Methode lebt vom Zyklus.
+
+variations:
+  - name: Klassisch (2 Fragen, 1 min)
+    description: >
+      Standardvariante: wichtigstes Lernen + offene Frage.
+      Am Ende der Session.
+    when_to_use: >
+      Universität, berufsbegleitende Weiterbildung, regelmäßige
+      Seminarreihen.
+  - name: Muddiest Point
+    description: >
+      Nur eine Frage: "Was ist noch unklar?" Noch kompakter,
+      fokussiert auf Verständnis-Lücken.
+    when_to_use: >
+      Wissensvermittelnde Trainings, wenn fachliches Verstehen
+      oberste Priorität hat. Weniger reflexiv, aber präziser.
+  - name: Chain Notes
+    description: >
+      Zettel zirkuliert in der Gruppe, jede:r ergänzt kurz zu
+      einer Frage. Endet mit mehreren Perspektiven auf einem
+      Zettel.
+    when_to_use: >
+      Kleinere Gruppen (bis 15), wenn auch der Prozess des
+      Antwortens Reflexion stiften soll.
+  - name: Remote 1-Minuter (Chat / Formular)
+    description: >
+      Online-Variante: Fragen als Chat-Frage oder Google Form.
+      Zeitfenster 1-2 min. Automatisch gesammelt und auswertbar.
+    when_to_use: >
+      Online-Trainings, Webinare, Virtual Classrooms. Sehr
+      effizient, weil Digitalisierung eingebaut.
+    setting_codes: [remote_sync, remote_async]
+  - name: Thematischer 1-Minuter
+    description: >
+      Spezifische Fragen statt der Standard-Zwei ("Was war
+      heute die stärkste Metapher? Welche Verbindung zu
+      Ihrem Alltag?").
+    when_to_use: >
+      Trainings mit klarem Lernziel-Set, wenn spezifisches
+      Feedback zu bestimmten Inhalten gefragt ist.
+  - name: Paraphrase Passport
+    description: >
+      TN schreiben in einem Satz, was gerade präsentiert
+      wurde — in eigenen Worten. Testet Verstehen direkt.
+    when_to_use: >
+      Wichtige Input-Blöcke mitten in einer Session. Diagnose
+      in Echtzeit.
+
+pitfalls:
+  - issue: >
+      TN schreiben nur Höflichkeits-Floskeln ("War gut,
+      danke").
+    countermeasure: >
+      Fragen schärfen ("Was ist das Wichtigste — eine konkrete
+      Erkenntnis?"). Beispiele vorab zeigen, was hilfreiche
+      Antworten aussehen. Kultur der Ehrlichkeit aufbauen.
+    severity: common
+  - issue: >
+      Trainer:in wertet nie aus oder nimmt nie Bezug darauf.
+    countermeasure: >
+      Auswertung als Verpflichtung ansehen. Bei Zeitmangel:
+      Methode nicht einsetzen statt nur halb durchführen.
+      Nicht-Rückkopplung zerstört Vertrauen.
+    severity: common
+  - issue: >
+      Schreibzeit wird auf 2-3 min verlängert — verliert
+      Schnelligkeit.
+    countermeasure: >
+      Strikt 1 min. Timer hörbar. Ausnahme nur bei
+      internationalen Gruppen (2 min wegen Sprache).
+    severity: common
+  - issue: >
+      Anonymität wird gebrochen (Handschrift, identifizierbar
+      durch Themen).
+    countermeasure: >
+      Digital-Variante bei Misstrauen (anonyme Formulare).
+      Druckbuchstaben-Regel. Keine Identifikation
+      ansprechen.
+    severity: rare
+  - issue: >
+      Zu generische Fragen liefern unbrauchbares Feedback.
+    countermeasure: >
+      Fragen anpassen an den Stoff des Tages. "Was war die
+      zentrale Metapher?" ist besser als "Was haben Sie
+      gelernt?".
+    severity: common
+  - issue: >
+      Nur eine Minute ist für manche zu kurz, um
+      differenziert zu schreiben.
+    countermeasure: >
+      Varianten mit mehr Zeit anbieten (3-5 min). Oder
+      Fragen so formulieren, dass eine Minute ausreicht
+      ("Ein Wort, das Sie mitnehmen...").
+    severity: common
+  - issue: >
+      Trainer:in interpretiert Einzelmeinungen überzogen.
+    countermeasure: >
+      Fokus auf Muster und Häufigkeiten, nicht Einzel-
+      Kommentare. Ausreißer zur Kenntnis, nicht als
+      Steuerungs-Impuls.
+    severity: common

@@ -1,0 +1,219 @@
+slug: kollegiales-www-feedback
+canonical_name: WWW-Feedback (Wahrnehmung - Wirkung - Wunsch)
+synonyms:
+  - synonym: Perception-Impact-Request Feedback
+    language: en
+  - synonym: 3W-Feedback
+    language: de
+short_description: >
+  Strukturiertes Feedback in drei Schritten: Wahrnehmung (was habe ich
+  beobachtet?), Wirkung (wie wirkt das auf mich?), Wunsch (was möchte ich
+  mir für die Zukunft wünschen?). Trennt Fakten, Emotion und Bitte.
+originator: null
+origin_context: >
+  Nahe verwandt mit Gewaltfreier Kommunikation (Marshall Rosenberg, 1970er:
+  Beobachtung — Gefühl — Bedürfnis — Bitte); in der Trainings- und
+  Führungspraxis als WWW-Format eingebürgert.
+phases:
+  - code: feedback
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [feedback, reflective]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 40
+tags: [feedback, gfk, struktur, kollegial]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Gewaltfreie Kommunikation — Eine Sprache des Lebens"
+    author: Marshall B. Rosenberg
+    year: 2003
+    relation: reference
+    note: Methodisches Vorbild (Beobachtung-Gefühl-Bedürfnis-Bitte).
+  - kind: book
+    title: "Feedback geben und nehmen"
+    author: Jörg Fengler
+    year: 2017
+    relation: practice_guide
+    note: Standardwerk zur Feedbackkultur, enthält WWW-Variante.
+  - kind: book
+    title: "Thanks for the Feedback"
+    author: Douglas Stone, Sheila Heen
+    year: 2014
+    relation: reference
+    note: Harvard Negotiation Project — Aufnahme-Seite des Feedbacks.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Framing & Einladung
+    duration_minutes: 3
+    trainer_action: >
+      Kontext setzen: „Wir nutzen das WWW-Modell — Wahrnehmung, Wirkung,
+      Wunsch." Einladung zum Feedback formulieren, Empfangsbereitschaft
+      klären („Darf ich dir Feedback geben?"). Struktur auf Flipchart
+      oder digital sichtbar.
+    participant_action: >
+      Bereitschaft signalisieren, ggf. Kontext nachfragen.
+    note: >
+      Empfangs-Zustimmung ist kein Formalismus — Feedback gegen
+      Willen ist meist wirkungslos. Bei „nein" später wiederkommen.
+  - order: 2
+    label: W1 — Wahrnehmung (konkrete Beobachtung)
+    duration_minutes: 5
+    trainer_action: >
+      Anleitung: nur sichtbare/hörbare Fakten, ohne Bewertung.
+      „Ich habe gesehen/gehört, dass…". Keine Generalisierung
+      („immer", „nie" vermeiden). Konkrete Situation, konkrete
+      Handlung.
+    participant_action: >
+      Konkrete Beobachtung benennen, so sachlich wie möglich.
+    note: >
+      Hier wird am meisten gemogelt. „Du warst arrogant" ist keine
+      Wahrnehmung, sondern Bewertung. Korrekt: „In der Besprechung
+      hast du Frau X unterbrochen".
+  - order: 3
+    label: W2 — Wirkung (Selbst-Offenbarung)
+    duration_minutes: 5
+    trainer_action: >
+      Anleitung: eigene Gefühle/Gedanken mit „Ich"-Botschaften.
+      „Das hat bei mir bewirkt, dass…", „Ich habe mich gefühlt,
+      als…". Verantwortung für eigene Reaktion, keine Schuldzuweisung.
+    participant_action: >
+      Eigene Reaktion benennen, persönlich bleiben.
+    note: >
+      Wirkungs-Schritt ist mutig — viele Leute springen gleich zum
+      Wunsch. Ohne Wirkung bleibt Feedback technisch und wenig
+      berührend.
+  - order: 4
+    label: W3 — Wunsch (konstruktive Bitte)
+    duration_minutes: 5
+    trainer_action: >
+      Anleitung: konkret, positiv formuliert, machbar. „Ich wünsche
+      mir, dass du nächstes Mal…". Keine Verbote, sondern erwünschte
+      Handlung.
+    participant_action: >
+      Konkreten Wunsch für die Zukunft formulieren.
+    note: >
+      „Hör auf zu unterbrechen" ist schwach; besser „Lass die Person
+      erstmal zu Ende sprechen, bevor du antwortest". Positive
+      Formulierungen werden leichter umgesetzt.
+  - order: 5
+    label: Reaktion & Rückfrage
+    duration_minutes: 5
+    trainer_action: >
+      Feedback-Empfänger:in antwortet: Was habe ich gehört? Was
+      berührt mich? Noch keine Rechtfertigung. Regel: „Ich bedanke
+      mich, ich nehme es mit."
+    participant_action: >
+      Empfänger:in: Feedback aufnehmen, knapp zurückspiegeln was
+      angekommen ist.
+    note: >
+      Kein Zwang zur Zustimmung oder Veränderung. Empfänger:in
+      entscheidet selbst, was mit dem Feedback passiert.
+
+variations:
+  - name: Klassisches Dreier-WWW
+    description: >
+      Wahrnehmung - Wirkung - Wunsch, linear. Dauer 10-15 min pro
+      Person. Einzelgespräch oder in Kleingruppe.
+    when_to_use: >
+      Standard-Feedback, 1:1 oder Peer-Feedback in kleiner Runde.
+  - name: GFK-Voll (4W)
+    description: >
+      Rosenbergs Originalformat: Beobachtung - Gefühl - Bedürfnis -
+      Bitte. Klarer in der GFK-Terminologie, aber länger.
+    when_to_use: >
+      GFK-Kontext, Mediation, Konfliktgespräche. Bei sensiblen Themen
+      präziser.
+  - name: Positives WWW
+    description: >
+      Dieselbe Struktur für Anerkennung: „Ich habe gesehen, dass du…
+      Das hat bei mir… bewirkt. Ich wünsche mir, dass du das
+      beibehältst."
+    when_to_use: >
+      Positive Würdigung, Mitarbeiter-Jahresgespräch, Team-Anerkennung.
+      Gegengewicht zu kritischem Feedback.
+  - name: WWW in der Gruppe (Peer-Feedback-Runde)
+    description: >
+      Kleine Gruppe gibt einer Person strukturiertes Feedback —
+      jede:r eine WWW-Botschaft. Empfänger:in hört, dankt, entscheidet
+      selbst.
+    when_to_use: >
+      Führungskräfte-Feedback, Teamrollen-Reflexion, 360°-light.
+  - name: Schriftliches WWW
+    description: >
+      Feedback auf Karte/digital notiert, nach WWW-Struktur.
+      Empfänger:in liest allein, antwortet optional.
+    when_to_use: >
+      Asynchrones Feedback, wenn direkter Austausch schwierig ist
+      (verteiltes Team, emotionale Sensibilität).
+    setting_codes: [remote_async]
+  - name: Remote-Video-WWW
+    description: >
+      Video-Call, Struktur im Chat mitlaufend. Empfänger:in schreibt
+      die drei Ws während des Hörens mit.
+    when_to_use: >
+      Verteilte Teams, Remote-Führungskräfte-Gespräche.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Wahrnehmung enthält bereits Bewertung („Du warst unprofessionell").
+    countermeasure: >
+      Reformulierungs-Hilfe: „Was genau war sichtbar/hörbar?".
+      Moderation/Coach greift korrigierend ein. Faustregel: Video-
+      kamera-Test — kann ich es objektiv aufnehmen?
+    severity: common
+  - issue: >
+      Wirkung wird übersprungen, direkt zum Wunsch — Feedback
+      wirkt technisch und kalt.
+    countermeasure: >
+      Struktur einhalten: ein Satz pro W zwingend. Training zur
+      Emotional-Literacy (Gefühlswörter-Liste).
+    severity: common
+  - issue: >
+      Wunsch ist ein verkappter Vorwurf („Ich wünsche mir, dass du
+      endlich…").
+    countermeasure: >
+      Wunsch positiv formulieren, ohne „endlich", „nicht mehr".
+      Konkret und machbar: „Bei der nächsten Besprechung bitte…".
+    severity: common
+  - issue: >
+      Empfänger:in rechtfertigt sich sofort — Feedback-Geber:in
+      fühlt sich abgewiesen.
+    countermeasure: >
+      Klar benennen: „Erst zuhören, dann bedanken, später antworten."
+      Eventuell 24h Sicht-Pause einbauen bevor diskutiert wird.
+    severity: common
+  - issue: >
+      Feedback ohne Einladung — Empfänger:in hat keine Bereitschaft.
+    countermeasure: >
+      Immer fragen: „Darf ich dir Feedback geben?". Bei „nein"
+      nachfragen, ob später besser passt. Nie unerbetenes Feedback
+      einfach „reindrücken".
+    severity: rare
+  - issue: >
+      WWW wird als Formel verstanden — TN füllen die drei Schritte
+      mechanisch, ohne echte Auseinandersetzung.
+    countermeasure: >
+      Üben mit echten Situationen, Reflexion der eigenen Anteile.
+      WWW ist Gerüst, nicht Inhalt.
+    severity: common

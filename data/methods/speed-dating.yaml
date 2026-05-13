@@ -1,0 +1,214 @@
+slug: speed-dating
+canonical_name: Speed-Dating
+synonyms:
+  - synonym: Kennenlern-Karussell
+    language: de
+  - synonym: Speed Networking
+    language: en
+short_description: >
+  Teilnehmende wechseln in kurzen Takten (2–3 Min) Gesprächspartner:innen und
+  beantworten dabei eine vorgegebene Frage. Intensiver Kontakt in kurzer Zeit.
+originator: null
+origin_context: Entlehnt aus kommerziellen Kennenlernformaten; seit Anfang 2000er in Trainings.
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: warmup
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: >
+      Zoom-Breakouts im 2er-Setting mit automatischem Durchrotieren oder
+      manuell zeitgesteuert. Gilt auch als Liberating Structure „Impromptu Networking".
+  - code: hybrid
+    suitability: limited
+group_sizes: [medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [activating, icebreaker, cooperative]
+duration_min_minutes: 15
+duration_typical_minutes: 25
+duration_max_minutes: 40
+tags: [netzwerken, zweiergespraech, rotation]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — Impromptu Networking"
+    url: https://www.liberatingstructures.com/2-impromptu-networking/
+    relation: reference
+    note: Verwandte Struktur, international etablierte Moderations-Praxis.
+  - kind: book
+    title: "Spielend leicht ins Seminar — 55 Methoden für den Einstieg"
+    author: Tanja Klein, Christel Schlee
+    year: 2017
+    relation: practice_guide
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Setup & Regeln
+    duration_minutes: 3
+    trainer_action: >
+      Stuhlreihen oder -kreise in Zweier-Gegenüber aufstellen
+      (Innenkreis-Außenkreis oder 2 Reihen gegenüber). Regeln:
+      2-3 min pro Paar, je Frage, auf Signal wechseln. Innenkreis
+      bleibt, Außenkreis rotiert (oder umgekehrt).
+    participant_action: >
+      Platz finden, Gegenüber kurz begrüßen.
+    note: >
+      Bei ungerader Zahl: Trainer:in springt ein oder 3er-Rotation
+      an einer Stelle. Rotation klar ansagen, sonst Chaos.
+  - order: 2
+    label: Erste Runde starten
+    duration_minutes: 3
+    trainer_action: >
+      Erste Frage groß sichtbar: „Was hat Sie heute hergeführt?",
+      „Was machen Sie beruflich?", „Wofür interessieren Sie sich
+      jenseits der Arbeit?". Timer sichtbar oder akustisches Signal.
+    participant_action: >
+      Frage beantworten, gegenseitig, jeweils 60-90 sek. Zuhören
+      zählt.
+    note: >
+      Die erste Frage sollte niedrigschwellig sein. Selbst bei
+      erfahrenen TN: Einstieg ist leichter mit Faktischem vor
+      Reflektiertem.
+  - order: 3
+    label: Wechsel-Signal & Rotation
+    duration_minutes: 2
+    trainer_action: >
+      Deutliches Signal (Glocke, Horn, laute Ansage). Rotation
+      anleiten: „Außenkreis rückt einen Platz nach rechts." Kurze
+      Aufstehen-Sich-Setzen-Pause, dann neue Paar-Konstellation.
+    participant_action: >
+      Aufstehen, eine Position weiter rücken, neues Gegenüber
+      begrüßen.
+    note: >
+      Der Wechsel selbst ist Choreografie und muss klar sein. Bei
+      Unsicherheit: langsam, laut, wiederholt. Lieber 20 sek
+      verlieren als Chaos.
+  - order: 4
+    label: Weitere Runden
+    duration_minutes: 12
+    trainer_action: >
+      4-6 weitere Runden à 2-3 min. Fragen variieren: erst Fakten,
+      dann Motive, dann Präferenzen. Zwischendrin Rotation.
+    participant_action: >
+      In jeder Runde neu einsteigen, offen bleiben trotz
+      Wiederholung.
+    note: >
+      Energie kippt nach 5-6 Runden. Mehr ist selten besser — lieber
+      kurz und intensiv halten. Gesamt 20-25 min ist Optimum.
+  - order: 5
+    label: Rückkehr & Reflexion
+    duration_minutes: 5
+    trainer_action: >
+      Ins Plenum zurück: „Was ist hängengeblieben? Mit wem möchten
+      Sie später weitersprechen?". Kurz teilen, Übergang zum
+      Programm.
+    participant_action: >
+      Im Plenum 1-2 Highlights nennen, ggf. Kontaktwunsch
+      markieren.
+    note: >
+      Ohne Reflexion verpuffen die Kurzgespräche. Auch wenn nur
+      kurz — Fragebogen „Meine 3 Highlights" als Brücke hilft.
+
+variations:
+  - name: Klassisches Speed-Dating (Innen/Außen)
+    description: >
+      Konzentrische Stuhlreihen, Außen rotiert. Standardformat
+      für 16-40 TN.
+    when_to_use: >
+      Ausreichend Raum vorhanden, mittlere bis große Gruppe,
+      Kennenlernen als Ziel.
+  - name: Linien-Wechsel (2 Reihen)
+    description: >
+      Zwei parallele Reihen gegenüber. Eine Reihe rückt pro Runde
+      um eine Position weiter. Einfacher in schmalen Räumen.
+    when_to_use: >
+      Bei Raum mit zwei Wänden und Durchgang, oder bei Gruppen die
+      nicht gern Kreise machen.
+  - name: Fishbowl-Speed-Dating
+    description: >
+      Zwei TN sprechen vor Gruppe (3 min), Gruppe hört zu. Dann
+      Rotation. Kreuzung mit Fishbowl-Format.
+    when_to_use: >
+      Kleinere Gruppe (8-12), wenn auch Zuhörende etwas lernen
+      sollen. Nicht als Icebreaker, sondern für Tiefen-Austausch.
+  - name: Topic-Speed-Dating (Expertise-Austausch)
+    description: >
+      Jede:r bringt ein Thema/eine Frage mit, Rotationen nutzen
+      um zu jedem Thema Input zu geben.
+    when_to_use: >
+      Fortgeschrittene Gruppen, Netzwerkveranstaltungen,
+      Expertise-Pools.
+  - name: Remote-Speed-Dating (Breakouts)
+    description: >
+      Zoom/Teams Breakout-Rooms automatisch rotieren (je 2er),
+      neue Zusammensetzung je Runde. Timer im Hauptraum.
+    when_to_use: >
+      Online-Trainings, verteilte Teams. Funktioniert gut bei
+      stabilem Tool.
+    setting_codes: [remote_sync]
+  - name: Walking Speed-Dating (Bewegung)
+    description: >
+      Statt sitzen: 2er-Paare gehen durch Raum/Park während des
+      Gesprächs. Körperliche Aktivierung.
+    when_to_use: >
+      Mehrtägige Trainings, nach längerer Sitz-Phase, wenn Raum
+      verfügbar (Park, Flure).
+
+pitfalls:
+  - issue: >
+      Fragen zu oberflächlich, Gespräche verbleiben bei Smalltalk.
+    countermeasure: >
+      Nach 2 Runden relevantere Fragen einbauen („Was beschäftigt
+      Sie derzeit beruflich?"). Fragen sichtbar visualisieren.
+    severity: common
+  - issue: >
+      Rotationen werden chaotisch, TN wissen nicht wohin.
+    countermeasure: >
+      Deutliches Signal, einfaches Rotations-Muster („immer
+      nach rechts"). Erste Rotation langsam üben. Nummern an
+      Stuhlen können helfen.
+    severity: common
+  - issue: >
+      Einige TN dominieren, andere kommen nicht zu Wort.
+    countermeasure: >
+      Regel: „Hälfte der Zeit reden, Hälfte zuhören." Signal in
+      der Mitte („Jetzt wechseln"). Bei Bedarf Moderation
+      greift ein.
+    severity: common
+  - issue: >
+      TN sind erschöpft nach 6-7 Rotationen, Energie kippt.
+    countermeasure: >
+      Auf 4-5 Runden begrenzen. Gesamt ca. 20 min, nicht länger.
+      Pause danach einplanen.
+    severity: common
+  - issue: >
+      Remote: Breakouts funktionieren technisch nicht zuverlässig,
+      Rotation verzögert.
+    countermeasure: >
+      Tool vorher testen (Zoom Automatic Breakouts, Wonder.me).
+      Alternative: manuelles Rotieren durch Moderation mit klarer
+      Ankündigung.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Introvertierte TN fühlen sich überfordert durch Tempo und
+      Vielzahl.
+    countermeasure: >
+      Vorab Rahmen ansagen: „Ihr seid nicht zur Selbstvermarktung
+      da, sondern zum Kennenlernen." Option anbieten, nach 2-3
+      Rotationen zu pausieren.
+    severity: rare

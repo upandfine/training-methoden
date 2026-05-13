@@ -1,0 +1,255 @@
+slug: ls-shift-and-share
+canonical_name: Shift & Share
+synonyms:
+  - synonym: Shift and Share
+    language: en
+short_description: >
+  Liberating Structure: Parallelstationen, an denen 5–7 TN im Vertrauen eine
+  Innovation/Erfahrung teilen. Zuhörergruppen rotieren alle 10–15 Minuten.
+  Gute Alternative zu frontalen Präsentationen.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_context: >
+  Liberating Structure, CC-BY-NC 4.0. Guter Ersatz für „kurze Vorträge
+  von 10 Personen" in Konferenzformaten.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: input
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Parallele Breakouts mit definierter Rotationssteuerung.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, didactic]
+duration_min_minutes: 60
+duration_typical_minutes: 90
+duration_max_minutes: 120
+tags: [liberating-structures, rotation, praesentation]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — Shift & Share"
+    url: https://www.liberatingstructures.com/11-shift-share/
+    relation: originator
+    note: Methodik-Beschreibung. CC-BY-NC 4.0.
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+  - kind: book
+    title: "Liberating Structures — Das Praxisbuch"
+    author: Mark Schenk, Daniel Steinhöfer
+    year: 2022
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Stationen & Themen vorbereiten
+    duration_minutes: 10
+    trainer_action: >
+      4-8 Stationen in Raum aufbauen (Tische, Flipcharts,
+      Materialien). Pro Station eine:n Host/Sharerin
+      mit Innovation/Erfahrung/Fallbeispiel. Hosts vorher
+      briefen: Thema + Schlüsselfragen. Zeitplan für
+      Rotation klar.
+    participant_action: >
+      Stationen erkunden, Host/Sharerin-Rollen klären.
+    note: >
+      Host-Vorbereitung ist entscheidend. Wer nicht
+      geübt präsentiert, verliert Zuhörende. 10-15 min
+      Briefing für Hosts reichen oft.
+  - order: 2
+    label: Einführung & Gruppen-Bildung
+    duration_minutes: 10
+    trainer_action: >
+      "Jede:r wählt erste Station. Pro Station 5-7 TN.
+      10-15 min an Station. Dann Wechsel-Signal —
+      alle Zuhörenden wechseln, Hosts bleiben."
+      Struktur erklären.
+    participant_action: >
+      Erste Station wählen, hinsetzen, bereit zum
+      Zuhören.
+    note: >
+      Balanced verteilen. Moderation achtet, dass keine
+      Station leer / überfüllt. Bei Bedarf umverteilen.
+  - order: 3
+    label: Erste Runde — Host teilt, Gruppe hört
+    duration_minutes: 15
+    trainer_action: >
+      Host teilt 5 min Innovation/Erfahrung. 10 min
+      Dialog mit Zuhörenden. Timer sichtbar.
+    participant_action: >
+      Host: teilt. Zuhörende: hören, fragen, lernen.
+      Keine Vortrags-Runde, sondern Dialog.
+    note: >
+      Balance: Host dominant, aber nicht allein.
+      Zuhörende dürfen/sollen fragen. Die Stärke
+      ist Dialog, nicht Monolog.
+  - order: 4
+    label: Wechsel-Signal & Rotation
+    duration_minutes: 3
+    trainer_action: >
+      Klares Signal (Glocke, Horn). "Zuhörende wechseln
+      zu nächster Station! Hosts bleiben!" 2-3 min
+      Puffer für Rotation.
+    participant_action: >
+      Station wechseln. Andere Station wählen (nicht
+      dieselbe wieder).
+    note: >
+      Rotation klar steuern. "Uhrzeigersinn" oder
+      "freie Wahl" — beides legitim. Freie Wahl
+      passt besser zur LS-Philosophie.
+  - order: 5
+    label: Weitere Rotations-Runden (3-4 gesamt)
+    duration_minutes: 40
+    trainer_action: >
+      Gleiche Struktur: 15 min Station, 3 min Wechsel.
+      Meist 3-4 Runden. Ende, bevor Energie sinkt.
+    participant_action: >
+      In jeder Runde neue Station, neue Perspektive.
+      Hosts in jeder Runde neu erzählen (ermüdend,
+      aber didaktisch).
+    note: >
+      Host-Ermüdung ist real. Bei 4 Runden wird
+      dritte/vierte oberflächlicher. Rhythmus
+      im Blick haben.
+  - order: 6
+    label: Plenum-Abschluss
+    duration_minutes: 10
+    trainer_action: >
+      Alle zurück ins Plenum. "Welche Innovation hat
+      Sie am meisten bewegt? Was nehmen Sie mit?"
+      2-3 Stimmen pro Impuls. Hosts danken.
+    participant_action: >
+      Highlights teilen, Cross-Learning mitnehmen.
+    note: >
+      Plenum macht kollektive Ernte. Ohne es bleiben
+      Learnings fragmentiert. Danksagung an Hosts
+      nicht vergessen.
+  - order: 7
+    label: Dokumentation & Follow-up
+    duration_minutes: 2
+    trainer_action: >
+      Abfoto der Stationen, Kontakte tauschen,
+      Follow-up-Ankündigung. Nächste Schritte für
+      interessierte Netzwerkbildung.
+    participant_action: >
+      Kontakte austauschen, Follow-up-Interessen
+      signalisieren.
+    note: >
+      Shift&Share schafft Netzwerke. Kontakt-Pflege
+      nach der Session verlängert den Wert.
+
+variations:
+  - name: Klassisch (4-8 Stationen, 3-4 Runden)
+    description: >
+      Standard-Variante: parallele Stationen, fixe
+      Hosts, rotierende Zuhörergruppen.
+    when_to_use: >
+      Konferenzen, interne Showcases, Best-Practice-
+      Events. 25-100 TN.
+  - name: Mini-Shift&Share (2-3 Stationen)
+    description: >
+      Kleinere Version mit wenigen Stationen. Für
+      mittelgroße Gruppen.
+    when_to_use: >
+      12-25 TN. Ermöglicht, dass alle alle Stationen
+      erleben.
+  - name: Gallery-Variante (mit Poster pro Station)
+    description: >
+      Poster an Stationen als visuelle Unterstützung.
+      Host nutzt Poster beim Teilen. Kombiniert mit
+      Gallery-Walk.
+    when_to_use: >
+      Visuelle Themen, Projekt-Showcases,
+      Wissenschafts-Konferenzen.
+  - name: Remote Shift&Share (Breakouts)
+    description: >
+      Parallele Zoom-Breakouts, Hosts feste Räume,
+      Zuhörende rotieren per Host-Steuerung.
+    when_to_use: >
+      Verteilte Communities, Online-Konferenzen.
+      Funktioniert, braucht Tool-Disziplin.
+    setting_codes: [remote_sync]
+  - name: Peer-to-Peer-Shift&Share
+    description: >
+      Jede:r TN ist abwechselnd Host — kleinere Gruppen,
+      Rollentausch. Egalitärer.
+    when_to_use: >
+      Kollegiale Lern-Kontexte, wenn Hierarchie zwischen
+      Hosts und Zuhörenden vermieden werden soll.
+  - name: Themen-übergreifendes S&S
+    description: >
+      Stationen zu sehr unterschiedlichen Themen. Cross-
+      Pollination, Inspiration aus anderen Bereichen.
+    when_to_use: >
+      Innovations-Events, wenn Querdenken gewünscht.
+
+pitfalls:
+  - issue: >
+      Hosts sind schlecht vorbereitet — flache
+      Präsentationen.
+    countermeasure: >
+      Host-Briefing vorab (mindestens 15 min). Leitfragen
+      geben. Bei mehreren Stationen: Moderation prüft
+      Vorbereitungsstand.
+    severity: common
+  - issue: >
+      Rotation wird chaotisch — Gruppen verteilen sich
+      ungleich.
+    countermeasure: >
+      Klares Signal, Anzahl pro Station durch Stuhl-
+      Zahl begrenzen. Bei Überfüllung: ausweichen
+      auf andere Station.
+    severity: common
+  - issue: >
+      Host ermüdet nach 3-4 Runden — letzte Gruppe
+      bekommt weniger.
+    countermeasure: >
+      Max. 3-4 Runden. Bei 5+ Runden: zweite Host-
+      Person einbauen. Rhythmus respektieren.
+    severity: common
+  - issue: >
+      Zuhörende bleiben passiv — Vortrags-Charakter.
+    countermeasure: >
+      Host briefen: "5 min teilen, dann 10 min Dialog."
+      Nicht 15 min Monolog. Fragen-Kultur ermutigen.
+    severity: common
+  - issue: >
+      Plenum-Abschluss fehlt — individuelle Learnings
+      nicht geteilt.
+    countermeasure: >
+      Abschluss-Phase fest einplanen. Ohne sie
+      verpufft der Netzwerk-Effekt.
+    severity: common
+  - issue: >
+      Zu viele Stationen bei zu wenig TN — leere
+      Stationen.
+    countermeasure: >
+      Vorab rechnen: 5-7 TN pro Station × Stationen =
+      Gesamt-TN. Bei 30 TN: 5-6 Stationen. Nicht mehr.
+    severity: common
+  - issue: >
+      Remote: Breakouts funktionieren nicht
+      zuverlässig.
+    countermeasure: >
+      Zoom Automatic Breakouts testen. Bei Tool-
+      Problem: manuelle Rotation via Host-Koordination.
+      Redundanz planen.
+    severity: common
+    setting_codes: [remote_sync]

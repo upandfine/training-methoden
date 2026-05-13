@@ -1,0 +1,249 @@
+slug: ls-min-specs
+canonical_name: Min Specs
+synonyms:
+  - synonym: Minimum Specifications
+    language: en
+  - synonym: Mindest-Spezifikationen
+    language: de
+short_description: >
+  Liberating Structure: TN listen Must-Do und Must-Not-Do für ein Vorhaben;
+  dann wird radikal gestrichen, bis nur wirklich unverzichtbare Regeln
+  übrig bleiben. Ergebnis: einfache, wirksame Leitplanken.
+originator: Henri Lipmanowicz, Keith McCandless
+origin_context: >
+  Liberating Structure; theoretisch an Dee Hocks Idee des „chaordic
+  organization" (VISA-Gründer) angelehnt. CC-BY-NC 4.0.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, reflective]
+duration_min_minutes: 45
+duration_typical_minutes: 75
+duration_max_minutes: 120
+tags: [liberating-structures, regeln, simplifizierung]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "Liberating Structures — Min Specs"
+    url: https://www.liberatingstructures.com/14-min-specs/
+    relation: originator
+    note: Offizielle Beschreibung mit 1-2-4-All-Skalierung. CC-BY-NC 4.0.
+  - kind: book
+    title: "The Surprising Power of Liberating Structures"
+    author: Henri Lipmanowicz, Keith McCandless
+    year: 2014
+    relation: practice_guide
+  - kind: book
+    title: "Birth of the Chaordic Age"
+    author: Dee Hock
+    year: 1999
+    relation: reference
+    note: >
+      Hocks "chaordische Organisation" (VISA) als theoretische
+      Inspiration — Minimal-Regeln als Fundament komplexer
+      Systeme.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Vorhaben / Ziel definieren
+    duration_minutes: 10
+    trainer_action: >
+      Konkrete Herausforderung benennen: "Welches Ziel
+      wollen wir erreichen?" z.B. "Neues Onboarding
+      entwickeln" oder "Kundenfeedback integrieren".
+      Ziel sichtbar aufhängen. Rahmen klar.
+    participant_action: >
+      Vorhaben verstehen, eigene Perspektive aktivieren.
+    note: >
+      Ohne klares Ziel ergeben Min Specs keinen Sinn.
+      Ziel darf nicht "alles besser machen" sein,
+      sondern konkretes Vorhaben.
+  - order: 2
+    label: Must-Do und Must-Not-Do sammeln (Einzel + Paar)
+    duration_minutes: 15
+    trainer_action: >
+      "Listen Sie ALLE Must-Do und Must-Not-Do auf —
+      was muss auf jeden Fall passieren, was darf auf
+      keinen Fall passieren?" 5 min einzeln, dann 10
+      min Paare. Lange Liste entsteht — bewusst
+      umfangreich.
+    participant_action: >
+      Still notieren, was unverzichtbar erscheint.
+      Im Paar vergleichen, ergänzen.
+    note: >
+      Phase zielt auf Vollständigkeit, nicht Qualität.
+      "Viel ist gut" — später wird radikal gestrichen.
+      Zu früh zu streichen verfälscht Prozess.
+  - order: 3
+    label: Liste im Plenum zusammenführen
+    duration_minutes: 10
+    trainer_action: >
+      Paare tragen vor, Moderation schreibt auf zwei
+      Flipcharts (Must-Do links, Must-Not-Do rechts).
+      Dopplungen streichen. Lange Liste, z.B. 30-50
+      Einträge.
+    participant_action: >
+      Eigene Spezifikationen beitragen, Liste
+      mitentwickeln.
+    note: >
+      Umfang beeindruckt — zeigt, wie viel "unverzichtbar"
+      wirkt. Im nächsten Schritt wird überwiegend
+      gestrichen.
+  - order: 4
+    label: Radikales Streichen (Min-Test)
+    duration_minutes: 25
+    trainer_action: >
+      "Für jede Spez prüfen: Wenn wir sie WEGLASSEN,
+      würde das Vorhaben scheitern? Wenn nein → streichen.
+      Nur Spez bleiben, wo die Antwort 'ja, würde
+      scheitern' ist." Gruppe diskutiert jede einzeln.
+    participant_action: >
+      Jede Spez prüfen. Ehrlich entscheiden: Wirklich
+      unverzichtbar? Oder nur bequem?
+    note: >
+      Kern der Methode. Diskussion ist wichtig — zwingt
+      zur Klärung. Meist bleiben am Ende 5-10 Spez
+      übrig (von 30-50).
+  - order: 5
+    label: Min-Specs-Liste finalisieren
+    duration_minutes: 10
+    trainer_action: >
+      Finale Liste: 5-10 Must-Do + Must-Not-Do. Groß
+      sichtbar aufschreiben. Kurz prüfen:
+      "Reicht das? Oder fehlt etwas Unverzichtbares?"
+    participant_action: >
+      Liste gegen-prüfen. Commitment zu minimalem
+      Set.
+    note: >
+      Ergebnis muss stark sein: wenige, aber wirklich
+      tragende Regeln. Wenn zu lang: nochmal streichen
+      versuchen.
+  - order: 6
+    label: Aktions-Transfer
+    duration_minutes: 5
+    trainer_action: >
+      "Wie nutzen wir diese Min Specs?" Klärung:
+      Dokumentation, Kommunikation an andere Stakeholder,
+      regelmäßige Review-Termine.
+    participant_action: >
+      Transfer mitgestalten: wer kommuniziert, wer
+      überwacht, wann wird überprüft?
+    note: >
+      Min Specs sind Leitplanken, keine Einmal-Übung.
+      Sie müssen in tatsächliche Arbeit integriert
+      werden, sonst verpuffen sie.
+
+variations:
+  - name: Klassisch (Must-Do + Must-Not-Do)
+    description: >
+      Standard-Variante: zwei Listen, radikales Streichen,
+      5-10 finale Specs.
+    when_to_use: >
+      Projekt-Startups, Change-Initiativen, wenn Regel-
+      Aufbau nötig.
+  - name: Nur Must-Do (vereinfacht)
+    description: >
+      Nur positive Spezifikationen, keine Must-Not-Do.
+      Schneller, weniger differenziert.
+    when_to_use: >
+      Kurze Sessions. Bei Projekten, wo Positivformulierung
+      leichter ist.
+  - name: Team-Charta-Variante
+    description: >
+      Min Specs als Grundlage für Team-Charta. Mit
+      Werte-Ergänzung und Committment-Ritual.
+    when_to_use: >
+      Team-Building, neue Teams, Kick-off-Phase.
+  - name: Remote (Miro-Template)
+    description: >
+      Online: zwei Spalten auf Whiteboard. Sticky Notes
+      parallel, Streichung live.
+    when_to_use: >
+      Verteilte Teams. Funktioniert gut online.
+    setting_codes: [remote_sync]
+  - name: Organisations-weite Min Specs
+    description: >
+      Auf höchstem Strategie-Level eingesetzt — Org-
+      Regeln auf Minimum reduzieren. Selten, aber
+      wirkmächtig.
+    when_to_use: >
+      Transformations-Prozesse, wenn überkommene
+      Regelwerke reduziert werden müssen.
+  - name: Kurz-Variante (45 min)
+    description: >
+      Kompakt: 5 min Ziel, 10 min Sammeln, 15 min
+      Streichen, 15 min Finalisieren/Transfer.
+    when_to_use: >
+      Wenn nur Einstieg in Min-Specs-Denken gewünscht.
+
+pitfalls:
+  - issue: >
+      Streichen wird nicht radikal — Liste bleibt lang.
+    countermeasure: >
+      Moderations-Druck: "Würde es ohne wirklich
+      scheitern?" Gruppe zur ehrlichen Antwort
+      zwingen. Zu viele Spez entwerten Ergebnis.
+    severity: common
+  - issue: >
+      Gruppe sammelt nicht umfangreich — zu wenige
+      Spez am Anfang.
+    countermeasure: >
+      Sammelphase nicht abkürzen. "Lieber 40 als
+      10 — wir streichen später." Umfang ist Feature.
+    severity: common
+  - issue: >
+      Must-Not-Do-Liste bleibt leer oder trivial.
+    countermeasure: >
+      Konkret fragen: "Was darf in keinem Fall
+      passieren? Was würde alles kaputt machen?"
+      Negative Formulierung braucht Übung.
+    severity: common
+  - issue: >
+      Finale Spec-Liste wird nicht genutzt — bleibt
+      Workshop-Papier.
+    countermeasure: >
+      Schritt 6 (Transfer) fest einplanen. In
+      Projekt-Rahmen integrieren. Regelmäßige
+      Review-Termine vereinbaren.
+    severity: common
+  - issue: >
+      Ziel zu breit — Specs werden beliebig.
+    countermeasure: >
+      Ziel vorab scharfschneiden. "Besseres Team" zu
+      breit — "Onboarding-Prozess neu gestalten"
+      besser.
+    severity: common
+  - issue: >
+      Diskussion im Streich-Schritt zieht sich endlos.
+    countermeasure: >
+      Zeit-Limit pro Spec (1 min). Bei Uneinigkeit:
+      behalten, dann später nochmal prüfen. Tempo
+      halten.
+    severity: common
+  - issue: >
+      Ergebnisse widersprechen bestehenden Regelwerken
+      der Organisation.
+    countermeasure: >
+      Mandat vorab klären: Darf Gruppe das? Bei
+      Widersprüchen: Transparenz mit Entscheider:innen.
+      Sonst Frustration.
+    severity: common

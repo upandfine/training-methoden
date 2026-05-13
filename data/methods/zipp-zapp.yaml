@@ -1,0 +1,231 @@
+slug: zipp-zapp
+canonical_name: Zipp-Zapp
+synonyms:
+  - synonym: Namensspiel Zipp-Zapp
+    language: de
+short_description: >
+  Namenslernspiel im Stuhlkreis. Person in der Mitte zeigt auf jemanden und
+  sagt „Zipp" (Name linker Nachbar:in) oder „Zapp" (rechter Nachbar:in) — wer
+  zu langsam ist, tauscht in die Mitte. Trainiert Namen spielerisch.
+originator: null
+origin_context: Klassiker der Jugendgruppenarbeit.
+phases:
+  - code: warmup
+  - code: getting_acquainted
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Adaption mit Videokachel-Nachbarschaft möglich, bleibt aber sperrig.
+  - code: hybrid
+    suitability: unsuitable
+group_sizes: [small, medium]
+target_audiences: [school, youth]
+method_types: [energizer, game, icebreaker]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+tags: [namen-lernen, kreisspiel, spielerisch]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Spiele für Seminare und Trainings"
+    author: Christel Schlee, Katharina Reuter
+    year: 2015
+    relation: practice_guide
+    note: Zipp-Zapp als Standard-Namensspiel in Kreisform.
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Tips für Kennenlernspiele"
+    author: Christel van Dieken
+    year: 2014
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Stuhlkreis bilden & Regeln ansagen
+    duration_minutes: 2
+    trainer_action: >
+      Alle stehen/sitzen im Kreis. Moderation erklärt: "Eine
+      Person steht in der Mitte, zeigt auf jemand im Kreis
+      und sagt entweder Zipp (= Name des linken Nachbarn) oder
+      Zapp (= Name des rechten Nachbarn). Wer zu langsam ist
+      oder falschen Namen sagt, tauscht in die Mitte."
+    participant_action: >
+      Im Kreis stehen, Nachbar:innen wahrnehmen (Namen der
+      Links- und Rechts-Nachbar:in merken).
+    note: >
+      Kurze Runde vorab: "Sagen Sie Ihren Namen laut." — damit
+      Namen präsent sind. Ohne Vorab-Runde wissen neue TN oft
+      die Namen noch nicht.
+  - order: 2
+    label: Einmal-Probe-Durchgang
+    duration_minutes: 2
+    trainer_action: >
+      Moderation geht selbst in die Mitte, macht einen Probe-
+      Durchgang. "Zipp!" auf Anna — Anna muss den Namen ihres
+      linken Nachbars sagen. "Zapp!" auf Ben — Ben sagt den
+      Namen seines rechten Nachbarn. Langsam, damit alle
+      Prinzip kapieren.
+    participant_action: >
+      Beobachten, Prinzip verstehen, mental vorbereiten —
+      wer ist mein linker und rechter Nachbar?
+    note: >
+      Probe-Runde ist wichtig. Ohne sie: Chaos in den ersten
+      Runden, Energie verpufft. Einmal sauber vorführen
+      spart Zeit.
+  - order: 3
+    label: Erste Runden im Spiel
+    duration_minutes: 4
+    trainer_action: >
+      Moderation in die Mitte, sagt Zipp oder Zapp. Wer
+      stockt/falschen Namen: tauscht. Moderation bleibt aktiv,
+      treibt das Tempo. Ggf. Position "Zipp-Zapp!" einführen
+      (alle rotieren einen Platz) — erhöht Dynamik.
+    participant_action: >
+      Aufmerksam bleiben, bei Nennung schnell reagieren,
+      Nachbar-Namen parat haben. Beim Tausch: neue Position
+      einnehmen.
+    note: >
+      Tempo ist alles. Bei zu langsamer Reaktion die Mitte
+      drängen: "Schneller! Zipp!" — macht Spaß, aktiviert.
+      Bei Blockade (Namen vergessen): freundlich helfen.
+  - order: 4
+    label: Steigerung & Variation
+    duration_minutes: 2
+    trainer_action: >
+      Nach 3-4 Runden Variante einbauen: "Zipp-Zapp!" =
+      alle rotieren. Oder "Blitz!" = alle tauschen Platz.
+      Macht es dynamischer, trainiert Flexibilität.
+    participant_action: >
+      Bei Variationen mitgehen — schneller reagieren,
+      lachen, flexibel sein.
+    note: >
+      Variationen halten das Spiel frisch. Ohne: wird nach
+      5 min langweilig. Mit: kann 15 min Spaß machen.
+      Timing beachten, vor Ermüdung aussteigen.
+  - order: 5
+    label: Sanftes Ausklingen & Reflexion
+    duration_minutes: 1
+    trainer_action: >
+      Nach gutem Höhepunkt aussteigen: "Großartig! Jetzt
+      kennen wir alle Namen, los geht's." Kurzer Bezug:
+      "War das hilfreich, Namen zu hören?" Übergang.
+    participant_action: >
+      Zu Plätzen zurück, Stimmung mitnehmen, auf
+      Hauptprogramm einstellen.
+    note: >
+      Aussteigen in der Höhe, nicht in der Ermüdung. "Noch
+      5 min?" wird zur Qual. Lieber nach 10 min saubere
+      Kurve.
+
+variations:
+  - name: Klassisch (Zipp-Zapp im Kreis)
+    description: >
+      Standard-Variante im Stuhlkreis. Zipp = links, Zapp =
+      rechts. Einmal-Proberunde, dann Spiel.
+    when_to_use: >
+      Jugendgruppen, Schule, Ferienfreizeiten. 8-20 Personen.
+      Wenn Namen schnell gelernt werden sollen.
+  - name: Zipp-Zapp-Blitz (mit Rotation)
+    description: >
+      Zusätzlich: "Zipp-Zapp!" = alle rotieren einen Platz,
+      "Blitz!" = alle tauschen beliebig. Dynamischer.
+    when_to_use: >
+      Wenn Basis-Spiel langweilig wird, oder aktiviertere
+      Gruppen.
+  - name: Zipp-Zapp mit Nachbarschafts-Info
+    description: >
+      Statt nur Name: "Zipp" = Name + Hobby des Nachbarn
+      links. "Zapp" = Name + Lieblings-Song rechts. Mehr
+      Kennenlern-Tiefe.
+    when_to_use: >
+      Wenn mehr als Namen-Lernen gewünscht ist. Kombiniert
+      mit kurzer Kennenlern-Runde vorab.
+  - name: Zipp-Zapp in Bewegung (Stehend)
+    description: >
+      Keine Stühle, alle stehen im Kreis. Bei Tausch:
+      physischer Platztausch.
+    when_to_use: >
+      Bewegungs-Energizer-Phase, wenn Kreis nicht sitzend
+      sein kann. Outdoor-Settings.
+  - name: Zipp-Zapp mit Worten (Sprachspiel)
+    description: >
+      Statt Namen: "Zipp" = Lieblingswort der Person rechts,
+      "Zapp" = links. Spielt mit Sprache.
+    when_to_use: >
+      Kreative Gruppen, Theater-Trainings, wenn Namen schon
+      bekannt sind und Spielerei gewünscht.
+  - name: Multi-Kreis bei großen Gruppen
+    description: >
+      Bei 25+ TN: zwei parallele Kreise à 12-15 Personen.
+      Moderation wechselt oder zwei Moderator:innen.
+    when_to_use: >
+      Große Gruppen, wenn Kennenlernen trotz Größe gefordert
+      ist.
+
+pitfalls:
+  - issue: >
+      TN kennen Nachbar-Namen nicht — Spiel bricht sofort ab.
+    countermeasure: >
+      Vorab explizit Namens-Runde: "Bitte jede:r einmal laut
+      den eigenen Namen sagen." Dann 2 min Zeit zum Einprägen
+      der beiden Nachbar-Namen.
+    severity: common
+  - issue: >
+      Tempo ist zu langsam — wird zäh und langweilig.
+    countermeasure: >
+      Moderation treibt aktiv, "Schneller! Zack!" Bei langsamen
+      Gruppen: kürzere Reaktionszeit erzwingen. Bei 2+ Sek.
+      Zögern: Tausch.
+    severity: common
+  - issue: >
+      Jemand "verliert" häufig — bleibt in der Mitte, wird
+      zur Blamage.
+    countermeasure: >
+      Moderation stellt sich selbst zwischendurch in die
+      Mitte, normalisiert Position. Bei häufigem Verlust:
+      freundlich helfen ("was ist der Name von...?").
+    severity: common
+  - issue: >
+      Große Gruppe (> 20) macht Kreis unübersichtlich.
+    countermeasure: >
+      Multi-Kreis-Variante nutzen. Oder: bei > 20 andere
+      Kennenlern-Methode (Bingo, Speed-Dating).
+    severity: common
+  - issue: >
+      In Erwachsenen-Corporate-Kontext wirkt das Spiel zu
+      verspielt.
+    countermeasure: >
+      Bei senior/Corporate-Gruppen andere Methode wählen
+      (Steckbrief, Partnerinterview). Zipp-Zapp ist
+      jugendnah, nicht board-room-nah.
+    severity: common
+  - issue: >
+      Körperlich eingeschränkte TN können nicht mitgehen.
+    countermeasure: >
+      Barrierefreiheit prüfen. Sitz-Variante möglich (nur
+      Rufe, kein Platztausch). Bei Ausschluss: andere
+      Methode, nicht erzwingen.
+    severity: rare
+  - issue: >
+      Remote-Adaption per Video ist sperrig — funktioniert
+      nicht überzeugend.
+    countermeasure: >
+      Zipp-Zapp ist im Kern Präsenz-Methode. Online: andere
+      Namens-Lern-Techniken (z.B. Zoom-Kachel-Reihe, Chat-
+      basierte Spiele).
+    severity: common
+    setting_codes: [remote_sync]

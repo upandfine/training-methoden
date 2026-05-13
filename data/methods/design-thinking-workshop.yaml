@@ -1,0 +1,258 @@
+slug: design-thinking-workshop
+canonical_name: Design-Thinking-Workshop
+synonyms:
+  - synonym: Design Thinking
+    language: en
+  - synonym: DT-Workshop
+    language: de
+short_description: >
+  Iteratives Problemlösungsformat in 6 Phasen (Verstehen, Beobachten, Sichtweise
+  definieren, Ideen, Prototyp, Test). Nutzer:innen stehen im Zentrum; Fokus
+  auf schnelle Prototypen und Feedback.
+originator: IDEO / d.school Stanford (Hasso Plattner Institut Potsdam in DE)
+origin_context: >
+  Entwickelt ab den 1990ern bei IDEO (David Kelley u.a.), akademisch durch
+  d.school Stanford etabliert; im deutschsprachigen Raum stark durch HPI
+  Potsdam (Ulrich Weinberg) verbreitet.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digitale Boards (Miro, Mural) mit Templates; Prototyping wird herausfordernder.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [creative, cooperative, activating]
+duration_min_minutes: 180
+duration_typical_minutes: 555
+duration_max_minutes: 2880
+materials:
+  - Post-its, Stifte, Prototyping-Material (Pappe, Lego, Papier)
+tags: [design-thinking, nutzerzentriert, iterativ, prototyping]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Verstehen — Challenge & Kontext framen
+    duration_minutes: 60
+    trainer_action: >
+      Ausgangsproblem („Challenge") präsentieren. Team gemeinsam den
+      Rahmen klären: Für wen? Wofür? Was wissen wir? Was vermuten wir
+      nur? Desk-Research-Impulse einstreuen, Stakeholder-Landkarte
+      zeichnen.
+    participant_action: >
+      Annahmen explizit machen, offene Fragen sammeln, erste Hypothesen
+      über Nutzer:innen formulieren.
+    note: >
+      Häufiger Fehler: direkt in Lösungen springen. Diese Phase dient
+      dem Framing, nicht der Lösung.
+  - order: 2
+    label: Beobachten — Nutzerforschung (Empathize)
+    duration_minutes: 120
+    trainer_action: >
+      Interview-Leitfaden mit TN entwickeln (offene Fragen, kein
+      Pitch). Nutzer-Interviews durchführen (2-4 pro Team), alternativ
+      Shadowing oder Artefakt-Analyse. Anschließend Insights clustern
+      mit Empathy-Map: SAY/THINK/FEEL/DO.
+    participant_action: >
+      Interviews führen, aktiv zuhören, nicht argumentieren. Insights
+      notieren, in Empathy-Map einordnen.
+    note: >
+      Mindestens 2 Interviews pro Team — sonst ist Insight-Grundlage
+      zu dünn. „Go where the customer is" wichtiger als Hochglanz.
+      Wenn echte Nutzer nicht verfügbar: interne Rollenspiele oder
+      Sekundär-Interviews — muss im Team als Limitation markiert werden.
+  - order: 3
+    label: Sichtweise — Point of View (Define)
+    duration_minutes: 45
+    trainer_action: >
+      Aus Insights „Point of View"-Statements formulieren:
+      „[NUTZER] braucht [BEDÜRFNIS], weil [ÜBERRASCHENDER INSIGHT]."
+      Mehrere POVs pro Team, dann gemeinsam einen/zwei auswählen,
+      die weitergehen.
+    participant_action: >
+      POVs formulieren, in Gruppe diskutieren, priorisieren.
+    note: >
+      Qualität der POVs bestimmt Qualität der späteren Ideen. Wenn
+      POV vage ist, wird es die Lösung auch.
+  - order: 4
+    label: Ideen — Ideation
+    duration_minutes: 90
+    trainer_action: >
+      Mehrere Kreativtechniken kombinieren: erst Brainstorming (20 min
+      divergent, „Yes, and"), dann Strukturierung (Kopfstand, SCAMPER).
+      Ziel: Breite vor Tiefe. Am Ende Dot-Voting auf 2-3 Ideen
+      pro Team.
+    participant_action: >
+      Ideen ohne Wertung produzieren, andere aufgreifen, wild denken.
+      Dann mit Team priorisieren.
+    note: >
+      Regel: „Go for quantity" — mindestens 50 Ideen pro Team vor
+      jeglicher Bewertung.
+  - order: 5
+    label: Prototyp
+    duration_minutes: 120
+    trainer_action: >
+      Prototyping-Material ausbreiten: Pappe, Lego, Tape, Knete, Papier,
+      Marker. Team wählt Medium passend zur Idee. Rapid Prototyping:
+      auf 2h begrenzt, roh und testbar.
+    participant_action: >
+      Konkret bauen, nicht bloß skizzieren. Eine Kern-Funktion
+      erfahrbar machen, nicht alles.
+    note: >
+      Widerstand gegen Bastelmaterial ist normal bei Erwachsenen.
+      Erste 10 min mit einer spielerischen Aufwärmung entschärfen.
+  - order: 6
+    label: Testen — Feedback & Iteration
+    duration_minutes: 90
+    trainer_action: >
+      Prototyp mit echten Nutzer:innen testen (oder interne Stellvertreter).
+      Feedback-Grid: What worked / What didn't / Questions / Ideas.
+      Insights zurück in Team: was ändern, was verwerfen?
+    participant_action: >
+      Prototyp vorstellen, beobachten statt erklären, Feedback
+      aufnehmen ohne zu verteidigen.
+    note: >
+      Testen ist kein Pitch. Wenn Nutzer verwirrt ist, ist der Prototyp
+      informativ — nicht die Nutzer:in das Problem.
+  - order: 7
+    label: Abschluss & Iteration
+    duration_minutes: 30
+    trainer_action: >
+      Teams präsentieren kurz Ergebnisse und Learnings. Entscheidung:
+      weitere Iteration, Pivot oder Abschluss. Nächste Schritte
+      definieren.
+    participant_action: >
+      Vorstellung, Commitment zu nächsten Schritten.
+    note: >
+      Design Thinking ist zyklisch, nicht linear. Oft muss man
+      zurück zu „Define" oder „Beobachten".
+
+variations:
+  - name: 1-Tages-Sprint (verkürzt)
+    description: >
+      Alle 6 Phasen in 6-8h, mit sehr fokussierter Challenge und
+      Stellvertreter-Interviews. Prototyp und Test radikal vereinfacht.
+    when_to_use: >
+      Einführung ins Format; wenn keine echte Nutzer-Exposition
+      möglich; als Trainings-Simulation.
+  - name: 5-Tage-Design-Sprint (Google Ventures)
+    description: >
+      Jake Knapps Design-Sprint-Struktur: Mo=Map, Di=Sketch,
+      Mi=Decide, Do=Prototype, Fr=Test. Enger Zeitplan, klare Rollen.
+    when_to_use: >
+      Produkt-/Service-Entwicklung mit klarer Entscheidungs-Deadline;
+      Teams die vorher schon Discovery gemacht haben.
+  - name: Lange Format (Semester / Quartal)
+    description: >
+      Phasen verteilt über Wochen, mit echter Feldforschung, vielen
+      Iterationen. Oft akademisch oder Innovations-Programme.
+    when_to_use: >
+      Komplexe Probleme, Studierende oder Corporate-Innovators,
+      echtes Produkt-Outcome gewünscht.
+  - name: Remote Design Thinking
+    description: >
+      Miro/Mural als zentrales Board, Templates für jede Phase.
+      Prototyping per Click-Dummy, Figma, Papier-Prototyp per Webcam
+      vorgezeigt. Testen per Video-Nutzer-Interview.
+    when_to_use: >
+      Verteilte Teams; funktioniert für Service/Digital-Produkte
+      besser als für physische Prototypen.
+    setting_codes: [remote_sync]
+  - name: Hybrid-Workshop
+    description: >
+      Onsite-Kern-Team + Remote-Spezialist:innen zugeschaltet,
+      Nutzer-Interviews remote, Prototyping vor Ort.
+    when_to_use: >
+      Wenn Kern-Team lokal ist aber Expert:innen oder Nutzer:innen
+      verteilt sind.
+    setting_codes: [hybrid]
+
+pitfalls:
+  - issue: >
+      Team springt direkt zu Lösungen, überspringt Empathize und Define.
+    countermeasure: >
+      Zeit für Empathize/Define fest reservieren (min. 40% des
+      Workshops). Regel: kein Lösungswort in den ersten 2h.
+    severity: common
+  - issue: >
+      Keine echten Nutzer:innen verfügbar — Interviews sind mit
+      Stellvertretern oder mit Team-Mitgliedern.
+    countermeasure: >
+      Limitation transparent machen. Besser wenigstens 1-2 reale
+      Nutzer:innen einplanen (per Video, Cafeteria, Kund:innenservice).
+      „Intern-only" DT ist gefährlich.
+    severity: common
+  - issue: >
+      Workshop endet mit begeisterten Gesichtern, aber ohne Commitment
+      — kein Follow-up.
+    countermeasure: >
+      Abschlussphase mit expliziten nächsten Schritten, Verantwortlichen,
+      Timeline. Sponsor ins letzte Stunde einladen.
+    severity: common
+  - issue: >
+      Prototyping-Phase wird zum Powerpoint-Pitch, kein haptisches Modell.
+    countermeasure: >
+      Material zwingend (kein Laptop in der Phase). „Build, don't
+      describe" als Leitsatz. Teams die widerstehen aktiv coachen.
+    severity: common
+  - issue: >
+      Format wird als Wundermittel verkauft, Erwartungen platzen wenn
+      Ergebnis nicht marktreif ist.
+    countermeasure: >
+      Vorab Erwartungsmanagement: DT produziert Einsichten und Hypothesen,
+      nicht fertige Produkte. Roadmap danach ist Pflicht.
+    severity: common
+  - issue: >
+      Zu heterogene oder zu homogene Teams: homogen = keine neue
+      Perspektive, heterogen = keine gemeinsame Sprache.
+    countermeasure: >
+      Team-Zusammensetzung bewusst: mind. 1 Insider (Domäne),
+      1 Outsider (frische Sicht), gemischte Funktionen. 4-6 ist
+      Optimum.
+    severity: common
+
+sources:
+  - kind: book
+    title: "The Design Thinking Playbook"
+    author: Michael Lewrick, Patrick Link, Larry Leifer
+    year: 2018
+    relation: practice_guide
+    note: Schweiz-basiert, praxisorientiert; heute verbreitetes DE-Standardwerk.
+  - kind: book
+    title: "Design Thinking — Das Handbuch"
+    author: Falk Uebernickel, Walter Brenner, Britta Pukall
+    year: 2015
+    relation: reference
+    note: HPI-nahe Autoren, dt.-sprachige Darstellung.
+  - kind: book
+    title: "Change by Design"
+    author: Tim Brown
+    year: 2009
+    relation: reference
+    note: IDEO-CEO; Überblick der Methodik für Führungskräfte.
+  - kind: book
+    title: "Sprint — How to Solve Big Problems and Test New Ideas in Just Five Days"
+    author: Jake Knapp, John Zeratsky, Braden Kowitz
+    year: 2016
+    relation: reference
+    note: Google Ventures Design Sprint — verdichtete Variante.
+  - kind: url
+    title: "IDEO Design Kit"
+    url: https://www.designkit.org/
+    relation: practice_guide
+    note: Freie Methoden-Bibliothek von IDEO.org.

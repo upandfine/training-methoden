@@ -1,0 +1,134 @@
+# Docker-Compose-Setup für Postgres + Adminer.
+#
+# Laufzeit-Kontext:
+#   * Der Host betreibt DDEV, das einen Traefik-Router (Container `ddev-router`)
+#     im Docker-Netzwerk `ddev_default` bereithält. Wir hängen Adminer dort rein
+#     und bekommen eine sprechende URL statt localhost:8080.
+#   * Postgres geht NICHT über Traefik (Traefik ist HTTP, nicht Postgres-Wire).
+#     Stattdessen bindet Postgres einen Host-Port — aber nicht 5432, weil DDEV
+#     den selbst belegt. Default: 55432. Per POSTGRES_PORT in .env überschreibbar.
+#
+# URL für Adminer (nach `make up`):
+#   http://adminer.methods.ddev.site
+#
+# Hinweis zu HTTPS:
+#   DDEV's mkcert stellt Zertifikate für DDEV-Projekte aus. Dieses Compose-Setup
+#   ist kein DDEV-Projekt, deshalb routen wir über HTTP. Wenn HTTPS gewünscht
+#   ist, müsste ein DDEV-Projekt (`ddev config`) drumherum gebaut werden oder
+#   ein eigener Cert-Resolver.
+
+networks:
+  # Externes Netzwerk von DDEV — muss bereits existieren (läuft DDEV? dann ja).
+  ddev_default:
+    external: true
+  default:
+    name: methods_default
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: methods_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-methods}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-methods}
+      POSTGRES_DB: ${POSTGRES_DB:-methods}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      # Host-Port 55432 → Container 5432. Ausweichport, weil DDEV eigenes
+      # Postgres auf 5432 hält. Alembic/CLI auf dem Host verbinden sich
+      # über localhost:55432 (siehe .env.example).
+      - "${POSTGRES_PORT:-55432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docker/initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-methods} -d ${POSTGRES_DB:-methods}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  adminer:
+    image: adminer:4
+    container_name: methods_adminer
+    restart: unless-stopped
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+      ADMINER_DESIGN: dracula
+    networks:
+      # default: damit Adminer den `db`-Container per DNS findet.
+      - default
+      # ddev_default: damit DDEVs Traefik ihn sieht.
+      - ddev_default
+    depends_on:
+      db:
+        condition: service_healthy
+    labels:
+      - "traefik.enable=true"
+      # Wichtig bei Multi-Network-Containern: sagt Traefik, welches
+      # Netzwerk er fürs Routing benutzen soll.
+      - "traefik.docker.network=ddev_default"
+      - "traefik.http.routers.methods-adminer.rule=Host(`adminer.methods.ddev.site`)"
+      - "traefik.http.services.methods-adminer.loadbalancer.server.port=8080"
+
+  # ----------------------------------------------------------------------
+  # FastAPI-Microservice
+  # ----------------------------------------------------------------------
+  # Profile "app": startet nur, wenn explizit `docker compose --profile app up`
+  # aufgerufen wird — sonst läuft das Compose wie bisher (nur DB+Adminer
+  # für lokales Entwickeln, App nativ via `make api`). Damit bleibt die
+  # bestehende Dev-Erfahrung gleich, der Container ist ein Add-on für
+  # Deployment.
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: methods-api:latest
+    container_name: methods_api
+    restart: unless-stopped
+    profiles: ["app"]
+    environment:
+      # Storage-Modus. Default "snapshot" = liest data/snapshot/ aus dem Image.
+      # "postgres" = nutzt den daneben laufenden db-Container — dann muss
+      # vorher `alembic upgrade head` + ingest gelaufen sein.
+      STORAGE: ${STORAGE:-snapshot}
+      SNAPSHOT_DIR: /app/data/snapshot
+      # Im Container reden wir mit Postgres direkt über den Service-Namen,
+      # NICHT über localhost:55432 (das ist nur die Host-Mapping).
+      # Wird nur in STORAGE=postgres-Mode genutzt.
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-methods}:${POSTGRES_PASSWORD:-methods}@db:5432/${POSTGRES_DB:-methods}
+      # CORS-Origins — komma-separierte Liste. Default für Dev "*", in
+      # Prod auf konkrete Frontend-URL setzen.
+      CORS_ORIGINS: ${CORS_ORIGINS:-*}
+      # OpenAI-Key durchreichen, falls semantische Suche aktiv sein soll.
+      # Kein Default — fehlt der Key, läuft /search?mode=hybrid rein lexikalisch.
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_EMBEDDING_MODEL: ${OPENAI_EMBEDDING_MODEL:-text-embedding-3-small}
+      # Gunicorn-Worker. 4 ist okay für Container mit 1-2 vCPU; bei mehr
+      # Last hochsetzen.
+      WEB_CONCURRENCY: ${WEB_CONCURRENCY:-4}
+    ports:
+      # Host-Port 8765 — selbe Konvention wie unser Dev-uvicorn, damit
+      # Frontend-Code nicht zwischen Modi unterscheiden muss.
+      - "${API_PORT:-8765}:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - default
+      - ddev_default
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 30s
+      retries: 3
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=ddev_default"
+      - "traefik.http.routers.methods-api.rule=Host(`api.methods.ddev.site`)"
+      - "traefik.http.services.methods-api.loadbalancer.server.port=8000"
+
+volumes:
+  pgdata:
+    name: methods_pgdata

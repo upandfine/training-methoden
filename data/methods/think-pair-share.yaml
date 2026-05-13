@@ -1,0 +1,165 @@
+slug: think-pair-share
+canonical_name: Think-Pair-Share
+synonyms:
+  - synonym: Denken-Austauschen-Besprechen
+    language: de
+short_description: >
+  Dreistufig: Zuerst denkt jede:r alleine über eine Frage nach, dann Austausch
+  zu zweit, dann Teilen im Plenum. Aktiviert alle Teilnehmenden und senkt die
+  Hürde fürs Wortergreifen.
+originator: Frank Lyman
+origin_year: 1981
+origin_context: >
+  Lymans kooperative Lernmethode, weite Verbreitung im angelsächsischen Schulsystem.
+phases:
+  - code: activation
+    is_primary: true
+  - code: deepening
+  - code: input
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Breakout zu zweit, dann Rückkehr ins Plenum.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [school, ihk, adult_education, higher_education]
+method_types: [cooperative, activating, didactic]
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 25
+tags: [kooperatives-lernen, paar-plus-plenum, standardbaustein]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage stellen & Denken (Think)
+    duration_minutes: 3
+    trainer_action: >
+      Klare, offene Frage präsentieren (sichtbar an Flipchart/Slide).
+      Zeit ansagen: „2-3 Minuten denken Sie alleine nach." Anbieten:
+      Stichpunkte notieren. Während der Denkzeit NICHT sprechen.
+    participant_action: >
+      Alleine denken, Stichworte aufschreiben. Kein Austausch.
+    note: >
+      Die Think-Phase ist entscheidend und wird oft zu kurz angesetzt.
+      Mindestens 2 Minuten — Stille aushalten.
+  - order: 2
+    label: Paar-Austausch (Pair)
+    duration_minutes: 5
+    trainer_action: >
+      Paare bilden (Sitznachbar:in oder Zufall). Aufgabe: Gedanken
+      vergleichen, gemeinsame Position oder markante Unterschiede
+      herausarbeiten. Zeit kommunizieren.
+    participant_action: >
+      In Paaren reihum sprechen, aktiv zuhören, gemeinsame Antwort
+      oder zwei Perspektiven formulieren.
+    note: >
+      Bei ungerader TN-Zahl: Dreiergruppe bilden, nicht Leitung
+      als Partner:in anbieten.
+  - order: 3
+    label: Plenum-Teilen (Share)
+    duration_minutes: 7
+    trainer_action: >
+      Paare ins Plenum holen. Nicht „wer will?" sondern „was habt
+      ihr besprochen?" — direkt ansprechen. Kurz clustern/synthetisieren
+      an Flipchart. Nicht alle Paare müssen sprechen.
+    participant_action: >
+      Ein:e Paar-Sprecher:in teilt die Essenz. Andere hören zu,
+      ergänzen wenn relevant.
+    note: >
+      Plenum-Phase nie länger als Paar-Phase. Sonst kippt das
+      Format zur klassischen Fragerunde.
+
+variations:
+  - name: Think-Ink-Pair-Share
+    description: >
+      Zwischen Think und Pair kommt eine Ink-Phase: TN schreiben
+      ihre Gedanken zuerst vollständig aus, bevor sie teilen.
+      Stärkt Ausformulierung und Schüchterne.
+    when_to_use: >
+      Bei komplexen Fragen, schüchternen Gruppen oder wenn Qualität
+      über Geschwindigkeit geht.
+  - name: TPS-Square (1-2-4)
+    description: >
+      Nach dem Pair-Schritt kommt eine Vierergruppe, erst dann
+      Plenum. Entspricht im Kern Liberating Structures „1-2-4-All".
+    when_to_use: >
+      Größere Gruppen (20+), wenn Plenum direkt zu groß wäre.
+  - name: Think-Pair-Share Remote
+    description: >
+      Think: 2 min mit Kamera an, Mikros aus. Pair: automatische
+      2er-Breakouts. Share: zurück ins Plenum, Poll oder Chat als
+      Konsolidierung.
+    when_to_use: >
+      Standard-Remote-Adaption. Breakout-Zeiten großzügig planen
+      (+30 sek für Tech-Transition).
+    setting_codes: [remote_sync]
+  - name: Schreib-Variante (Stilles TPS)
+    description: >
+      Ganze Sequenz schriftlich: Think = Solo-Notiz, Pair = Notiz-Tausch
+      und Kommentar, Share = digitale Pinnwand (Miro/Padlet).
+    when_to_use: >
+      Für Jugendliche mit Lese-/Schreibfokus, sensible Themen oder
+      asynchrone Formate.
+    setting_codes: [remote_async, onsite]
+
+pitfalls:
+  - issue: >
+      Think-Phase wird zu kurz (10-30 Sekunden) — TN kommen nicht
+      zu eigenen Gedanken, Pair wird zum ersten Denken.
+    countermeasure: >
+      Mindestens 2 Minuten, am besten stoisch 3 min Stille halten.
+      Timer sichtbar, Leitung aushalten.
+    severity: common
+  - issue: >
+      Paar-Austausch wird asymmetrisch — eine:r redet, die andere nickt.
+    countermeasure: >
+      Vorab ansagen: „Jede:r spricht mindestens eine Minute, dann
+      Wechsel." Paar-Regel klar machen.
+    severity: common
+  - issue: >
+      Share-Phase entartet zur 20-Minuten-Fragerunde — Leitung
+      ruft alle Paare einzeln auf, Energie sinkt.
+    countermeasure: >
+      Max 4-5 Paare aufrufen, dann ansagen: „Wer hat noch einen
+      anderen Punkt?" Nicht auf Vollständigkeit zielen.
+    severity: common
+  - issue: >
+      Geschlossene Frage — „Welche Farbe hat X?" — lässt kein Nachdenken zu.
+    countermeasure: >
+      Frage vorab testen: wäre darauf in Think-Pair-Share mehr als
+      ein Satz möglich? Wenn nein: andere Methode wählen.
+    severity: common
+  - issue: >
+      Remote: Pair-Breakouts technisch verwirrend, TN landen im falschen Raum.
+    countermeasure: >
+      Automatisches Zufalls-Breakout, klare Ansage vor dem Wechsel,
+      Rückkehr-Zeitpunkt in Minute anzeigen lassen.
+    severity: common
+    setting_codes: [remote_sync]
+
+sources:
+  - kind: article
+    title: "The Responsive Classroom Discussion"
+    author: Frank T. Lyman Jr.
+    year: 1981
+    relation: originator
+    note: Ursprüngliche Publikation zur Think-Pair-Share-Struktur.
+  - kind: book
+    title: "Cooperative Learning — Theory, Research and Practice"
+    author: Robert E. Slavin
+    year: 1995
+    relation: reference
+  - kind: url
+    title: "Kagan Cooperative Learning Structures"
+    url: https://www.kaganonline.com/
+    relation: practice_guide
+    note: Kommerziell, aber grundständige Methodensammlung mit TPS-Varianten.

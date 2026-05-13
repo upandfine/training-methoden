@@ -1,0 +1,238 @@
+slug: lebens-linie
+canonical_name: Lebenslinie
+synonyms:
+  - synonym: Life Line
+    language: en
+  - synonym: Biografie-Linie
+    language: de
+short_description: >
+  Teilnehmende zeichnen ihre (berufliche oder lebensgeschichtliche) Lebenslinie
+  mit Hoch- und Tiefpunkten. Anschließend Paar- oder Kleingruppen-Austausch
+  über prägende Stationen. Sehr persönlich — braucht geschützten Rahmen.
+originator: null
+origin_context: >
+  Methode aus Biografiearbeit und Laufbahnberatung; verwandt mit
+  „River of Life" (z.B. aus Systemaufstellungen und NLP).
+phases:
+  - code: getting_acquainted
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Digital als Whiteboard-Zeichnung, Austausch in Breakouts.
+  - code: remote_async
+    suitability: good
+    note: Als Hausaufgabe mit Foto-Upload, Reflexion in Live-Runde.
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [reflective, visualization]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 120
+materials:
+  - Papier (DIN A3 empfohlen), Stifte
+tags: [biografie, tief, persoenlich]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Biographische Methoden in der Erwachsenenbildung"
+    author: Wolfgang Marotzki
+    year: 2006
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+    note: River of Life und Lebenslinie als verwandte Formate.
+  - kind: book
+    title: "Selbsterkenntnis durch Lebensstrang-Arbeit"
+    author: Gerda Hauck
+    year: 2012
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Rahmen setzen & Vertraulichkeit klären
+    duration_minutes: 5
+    trainer_action: >
+      "Wir machen jetzt eine sehr persönliche Übung. Sie
+      entscheiden, wie tief Sie gehen, was Sie teilen.
+      Vertraulichkeit der Gruppe vereinbart." Klares
+      Framing für Tiefe.
+    participant_action: >
+      Rahmen verstehen, eigenen Sicherheits-Modus
+      einstellen.
+    note: >
+      Vertraulichkeits-Vertrag wichtig. Ohne: TN bleiben
+      oberflächlich. Mit: Tiefe entsteht.
+  - order: 2
+    label: Lebenslinie zeichnen (Einzelarbeit)
+    duration_minutes: 25
+    trainer_action: >
+      A3-Papier, Stifte. "Zeichnen Sie Ihre Linie —
+      x-Achse Zeit (Geburt bis heute), y-Achse Erleben
+      (Hoch- und Tiefpunkte). Stationen markieren,
+      Symbole nutzen."
+    participant_action: >
+      Eigene Linie zeichnen, Stationen einarbeiten,
+      Hoch- und Tiefpunkte markieren.
+    note: >
+      Stille Phase ernst nehmen. Nicht zu früh in
+      Austausch. 25 min sind Minimum für tiefere
+      Reflexion.
+  - order: 3
+    label: Paar-Austausch (je 10 min)
+    duration_minutes: 20
+    trainer_action: >
+      2er-Paare, je 10 min: eine:r erzählt zur Linie,
+      andere:r hört aktiv (keine Ratschläge, nur
+      Verständnisfragen). Wechsel.
+    participant_action: >
+      Eigene Linie teilen — soviel wie stimmig.
+      Partner:in: aktiv zuhören, würdigen.
+    note: >
+      Aktives Zuhören ist Schlüssel. Bei Beratungs-
+      Modus: zurücklenken. Methode lebt von
+      Sich-Gehört-Fühlen.
+  - order: 4
+    label: Plenum-Reflexion (Meta)
+    duration_minutes: 8
+    trainer_action: >
+      "Was hat das Erzählen / Zuhören mit Ihnen
+      gemacht? Welche Muster haben Sie an sich
+      bemerkt?" Meta-Ebene, nicht Inhalt.
+    participant_action: >
+      Eigene Wahrnehmung teilen. Muster über die
+      eigene Geschichte hinweg benennen.
+    note: >
+      Plenum bleibt auf Meta-Ebene. Keine Details
+      teilen, die im Paar geteilt wurden. Methode
+      schützt Vertraulichkeit.
+  - order: 5
+    label: Sicherer Abschluss
+    duration_minutes: 2
+    trainer_action: >
+      "Danke für Ihre Offenheit. Bei Bedarf: ich
+      bin im Anschluss noch da." Übergang zum
+      Programm — nicht direkt in andere intensive
+      Phase.
+    participant_action: >
+      Würdigung wahrnehmen, eigene Verfassung
+      einschätzen, Übergang ankommen.
+    note: >
+      Methode kann emotional belasten. Ruhiger
+      Übergang wichtig. Bei Bedarf: 1:1-Gespräch
+      anbieten.
+
+variations:
+  - name: Klassische Lebenslinie (1h)
+    description: >
+      Standard: A3-Zeichnung, Paaraustausch, Meta-
+      Reflexion.
+    when_to_use: >
+      Coaching-Gruppen, Karriere-Beratung, längere
+      Workshops mit Vertiefungsanspruch. 6-15 TN.
+  - name: Berufliche Linie (eingeschränkt)
+    description: >
+      Nur berufliche Stationen, keine privaten. Sicherer
+      für Corporate-Kontexte.
+    when_to_use: >
+      Führungskräfte-Entwicklung, Karriere-Beratung
+      in Unternehmen.
+  - name: River of Life (System-Aufstellung)
+    description: >
+      Statt Linie: Fluss-Metapher mit Engstellen,
+      Verzweigungen, Stromschnellen. Mehr Bildhaftigkeit.
+    when_to_use: >
+      Systemische Beratung, NLP-Kontexte, kreative
+      Gruppen.
+  - name: Lebenslinie mit Zukunfts-Fortsetzung
+    description: >
+      Linie wird in die Zukunft fortgeschrieben:
+      "Wo will ich hin? Wie soll Linie weitergehen?"
+    when_to_use: >
+      Berufs-Coaching, Lebensplanung. Verbindet
+      Reflexion mit Zukunfts-Gestaltung.
+  - name: Remote (digital zeichnen)
+    description: >
+      Online: digitales Tool oder Foto der eigenen
+      Zeichnung. Austausch in Breakouts.
+    when_to_use: >
+      Verteilte Gruppen, Online-Coaching.
+    setting_codes: [remote_sync]
+  - name: Triadischer Austausch (Coach-Rolle)
+    description: >
+      3er-Gruppen: Erzähler:in + Listener + Coach.
+      Coach gibt Reflexions-Impulse. Rotation.
+    when_to_use: >
+      Coaching-Ausbildung, wenn mehrere Rollen
+      trainiert werden.
+
+pitfalls:
+  - issue: >
+      TN gehen zu tief — emotionale Überforderung.
+    countermeasure: >
+      Vorab Rahmen: "Sie entscheiden, wie tief."
+      Bei starker Emotion: würdigen, nicht
+      ausschlachten. Selbstfürsorge thematisieren.
+    severity: common
+  - issue: >
+      In Corporate-Kontext wird Methode als zu
+      privat empfunden.
+    countermeasure: >
+      Berufliche-Linie-Variante wählen. Klar:
+      "Nur Berufliches." Bei Widerstand: andere
+      Methode.
+    severity: common
+  - issue: >
+      Vertraulichkeit wird gebrochen — TN teilen
+      nicht freiwillig.
+    countermeasure: >
+      Vertraulichkeits-Vertrag explizit. Bei Bruch:
+      konsequente Konsequenz. Vertrauen wieder-
+      aufbauen schwer.
+    severity: common
+  - issue: >
+      Aktives Zuhören wird zur Beratung — Partner:in
+      gibt Ratschläge.
+    countermeasure: >
+      Klare Rolle: "Nur zuhören, Verständnisfragen."
+      Bei Beratungs-Modus sanft zurück.
+    severity: common
+  - issue: >
+      Methode ohne Übergang — TN gehen direkt in
+      anderen anspruchsvollen Programmpunkt.
+    countermeasure: >
+      Mindestens kurze Pause / leichten Übergang
+      einplanen. Nicht direkt nach Tiefen-Reflexion
+      Pitch-Übung.
+    severity: common
+  - issue: >
+      Online-Variante verliert Tiefe — Bildschirm
+      hindert.
+    countermeasure: >
+      Akzeptieren, dass remote oft flacher bleibt.
+      Mehr Zeit, mehr Strukturierung. Oder andere
+      Reflexions-Methode wählen.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Bei psychisch labilen TN — Re-Traumatisierung
+      möglich.
+    countermeasure: >
+      Vorab Sensibilität für Vorgeschichten. Bei
+      Krisen-Hinweisen: 1:1 vorab. Methode nicht
+      bei akut Belasteten einsetzen.
+    severity: rare

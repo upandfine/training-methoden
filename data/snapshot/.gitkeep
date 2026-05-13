@@ -1,0 +1,12 @@
+# Snapshot-Dateien werden hierher exportiert von `make snapshot`.
+#
+# Files:
+#   methods.json       — alle Methoden im MethodDetail-Format
+#   references.json    — phases/settings/group_sizes/audiences/method_types
+#   embeddings.npy     — numpy-Matrix (N, 1536), fluchtgleich zu methods.json
+#   has_embedding.npy  — Bool-Maske, welche Methoden ein Embedding haben
+#   manifest.json      — generated_at, counts, schema_version
+#
+# Diese Dateien WERDEN committed (sie sind das "Release-Artefakt" für
+# den Cloud-Read-Only-Pfad). Wenn sie groß werden (>50 MB), umschalten
+# auf Git LFS oder GitHub Releases.

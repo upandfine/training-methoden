@@ -1,0 +1,294 @@
+slug: lego-serious-play
+canonical_name: LEGO® Serious Play®
+synonyms:
+  - synonym: LSP
+    language: en
+  - synonym: Lego Serious Play
+    language: en
+short_description: >
+  Teilnehmende bauen mit LEGO-Steinen Modelle zu gestellten Fragen
+  (eigene Rolle, Teamdynamik, Strategie). Das Bauen macht Gedanken
+  konkret und ermöglicht Erzählungen, die verbal schwer zugänglich wären.
+originator: Johan Roos, Bart Victor (IMD Lausanne) / LEGO Group
+origin_context: >
+  Mitte 1990er entwickelt am IMD Lausanne zusammen mit der LEGO Group;
+  Methodik seit 2010 als Open Source dokumentiert (Creative Commons).
+  Wichtig: Open-Source-Status der Methodik und Markenschutz an LEGO® /
+  LEGO Serious Play® sind zwei verschiedene Dinge. Für Benennung,
+  Bewerbung und kommerzielle Nutzung der Marke empfiehlt sich eigene
+  rechtliche Prüfung, gerade bei Werbematerial und öffentlichen
+  Angeboten.
+phases:
+  - code: group_work
+    is_primary: true
+  - code: deepening
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Online-Varianten existieren (z.B. mit Versand-Kits), deutlich reduzierte Wirkung.
+  - code: remote_async
+    suitability: unsuitable
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [creative, cooperative, reflective, visualization]
+duration_min_minutes: 90
+duration_typical_minutes: 240
+duration_max_minutes: 480
+materials:
+  - LEGO® Serious Play® Starter-Kit oder Window Exploration Bag (pro Person)
+tags: [lego, haptisch, metaphorisch, markenrecht]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Building a Better Business Using the LEGO® Serious Play® Method"
+    author: Per Kristiansen, Robert Rasmussen
+    year: 2014
+    relation: practice_guide
+    note: Umfassende Praxis-Anleitung von zwei der Gründungs-Facilitator.
+  - kind: url
+    title: "Open Source — LEGO Serious Play"
+    url: https://www.strategicplay.com/upload/documents/open-source_10_2010.pdf
+    relation: originator
+    note: Offene Methodik-Dokumentation seit 2010.
+  - kind: book
+    title: "Strategien, die wirklich zählen"
+    author: Johan Roos
+    year: 2005
+    relation: reference
+    note: >
+      Frühes Buch von Roos (Mitbegründer) — Grundlage der
+      Methode aus IMD-Forschung zu Strategie-Entwicklung.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Raumsetup & LEGO-Kits verteilen
+    duration_minutes: 20
+    trainer_action: >
+      Tische mit Kits vorbereiten — jede:r TN eigenes Kit.
+      Window Exploration Bag für Einstieg, Starter Kit für
+      längere Formate. Moderation erklärt Prinzip: "Denken
+      mit den Händen — bauen erzeugt Bedeutung." Kurzes
+      Skills-Warm-up einplanen (siehe Schritt 2).
+    participant_action: >
+      Tisch einnehmen, Kit ausbreiten, erste Steine
+      anfassen.
+    note: >
+      Raum entscheidend: genug Platz pro Person, gut
+      beleuchtet. Jede:r muss eigenes Kit haben —
+      LSP funktioniert nicht mit geteilten Steinen.
+  - order: 2
+    label: Skills-Warm-up (Tower / Duck)
+    duration_minutes: 15
+    trainer_action: >
+      Klassische Einstiegs-Übung: "Bauen Sie einen Turm
+      so hoch wie möglich in 1 min." Dann "Bauen Sie eine
+      Ente in 30 Sek." Alle Ergebnisse kurz präsentiert.
+      Zeigt: kein falsches Ergebnis, Vielfalt ist ok.
+    participant_action: >
+      Mitmachen, Turm bauen, Ente bauen, eigenes Ergebnis
+      zeigen.
+    note: >
+      Warm-up ist zentral — ohne es bleiben TN defensiv
+      ("ich kann nicht bauen"). Mit: alle werden locker,
+      "falsch gibt es nicht", alle können.
+  - order: 3
+    label: Erste Challenge (Individuelles Bauen)
+    duration_minutes: 30
+    trainer_action: >
+      Frage stellen: "Bauen Sie Ihr aktuelles Arbeits-
+      Erleben." / "Bauen Sie Ihre ideale Führungskraft."
+      8 min zum Bauen, dann reihum Geschichten erzählen
+      (je 2-3 min pro Person).
+    participant_action: >
+      Intuitiv bauen — keine Vorab-Konzepte. Beim
+      Erzählen: was bedeuten die Elemente? Welche
+      Geschichte zeigt das Modell?
+    note: >
+      "Kein Nachdenken vorm Bauen" — intuitiv. Die
+      Bedeutung entsteht im Bauen UND im Erzählen. Beim
+      Erzählen: zu Modell zeigen ("Diese Figur da
+      oben..."), nicht abstrakt sprechen.
+  - order: 4
+    label: Gemeinsames Modell (Gruppen-Bauen)
+    duration_minutes: 60
+    trainer_action: >
+      Weiterführende Frage: "Bauen Sie gemeinsam das ideale
+      Team." TN integrieren eigene Modelle oder bauen neu
+      zusammen. Verhandlung um gemeinsame Bedeutung.
+      Dauert, ist aber Kern der Methode.
+    participant_action: >
+      Eigene Modelle in Gruppenmodell einbringen,
+      verhandeln, integrieren, gemeinsame Bedeutung
+      bauen.
+    note: >
+      Gruppen-Modell ist Königsdisziplin. Hier entstehen
+      die tiefen Einsichten — "was bedeutet 'Team' für
+      uns WIRKLICH?". Zeit investieren.
+  - order: 5
+    label: Szenarien und Handlungs-Implikationen
+    duration_minutes: 60
+    trainer_action: >
+      "Was passiert, wenn...?" — Szenarien ins Modell
+      einbauen. Störungen, Chancen, externe Kräfte als
+      Steine hinzufügen. Gruppe erlebt Dynamik des
+      Modells.
+    participant_action: >
+      Szenarien durchspielen, Modell anpassen,
+      Handlungsideen entwickeln.
+    note: >
+      Dieser Schritt macht LSP zum Strategie-Tool.
+      Szenarien-Denken durch Bauen ist intuitiver als
+      durch Tabellen.
+  - order: 6
+    label: Dokumentation & Ergebnis-Transfer
+    duration_minutes: 30
+    trainer_action: >
+      Modelle abfotografieren, Geschichten dokumentieren.
+      Handlungs-Implikationen festhalten. "Was nehmen
+      wir konkret mit?" Vereinbarungen treffen.
+    participant_action: >
+      Fotos machen, eigenes Modell erklären für
+      Dokumentation, Handlungsimplikationen notieren.
+    note: >
+      Ohne Dokumentation vergessen Gruppen 70 % des
+      Gebauten in 1 Woche. Fotos + Geschichten +
+      Actions — Pflicht.
+  - order: 7
+    label: Abbau & Abschluss
+    duration_minutes: 15
+    trainer_action: >
+      Kurzes Abbau-Ritual (Modelle fotografieren, Steine
+      zurück). Kurzer Plenum-Abschluss: "Wie war das
+      Bauen?" Meta-Reflexion über die Methode.
+    participant_action: >
+      Modelle abbauen, Steine zurück. Erfahrung teilen.
+    note: >
+      Abbau ist auch Loslassen. Danach: "Kernbilder
+      bleiben in Erinnerung." Das ist der bleibende
+      Effekt.
+
+variations:
+  - name: Klassisch (Full-Day-Workshop)
+    description: >
+      Voller Workshop-Tag (6-8h): Warm-up, Individual-Bauen,
+      Gruppen-Modell, Szenarien, Abschluss. Standardvariante
+      nach LSP-Methodik.
+    when_to_use: >
+      Strategie-Workshops, Team-Entwicklung, Führungs-
+      Reflexion. Wenn Zeit und Mandat für Tiefe da sind.
+  - name: Mini-LSP (2-3 Stunden)
+    description: >
+      Gekürzt: Warm-up + eine Challenge + Gruppen-Modell.
+      Weniger Tiefe, aber Methodik erlebbar.
+    when_to_use: >
+      Kurze Workshops, Schnuppern der Methodik. Nicht für
+      Strategie-Projekte, eher Einstieg.
+  - name: 1:1-Coaching mit LEGO
+    description: >
+      Einzelperson arbeitet mit Coach, baut eigene Situation.
+      Coach stellt Fragen zu Modell. Sehr individuell.
+    when_to_use: >
+      Karriere-Coaching, Entscheidungs-Coaching. Wenn
+      Worte schwer fallen und Bauen öffnet.
+  - name: Remote LSP (Versand-Kits)
+    description: >
+      LEGO-Kits vorab an TN versandt, Moderation per Video.
+      Bauen zu Hause, Modelle per Kamera zeigen.
+      Deutlich reduzierte Wirkung gegenüber Präsenz.
+    when_to_use: >
+      Verteilte Teams, wenn Präsenz nicht möglich. Nur
+      wenn kein besserer Ersatz verfügbar.
+    setting_codes: [remote_sync]
+  - name: Duplo-Variante (jüngere Zielgruppen)
+    description: >
+      Statt kleine LEGO-Steine: Duplo. Größere Steine,
+      robust. Für Kinder oder haptisch eingeschränkte
+      TN.
+    when_to_use: >
+      Kinder, Jugend, Inklusions-Kontexte.
+  - name: Nicht-markengebundene Bau-Variante
+    description: >
+      Mit anderen Bau-Materialien (Holzblöcke, Pipe-Cleaners,
+      Knete). Gleiche Methodik-Idee, ohne Markenrecht.
+    when_to_use: >
+      Wenn LEGO nicht verfügbar oder Markenrecht
+      problematisch. Lower budget, weniger etabliert.
+
+pitfalls:
+  - issue: >
+      Nicht genug Kits — TN teilen Steine, was LSP-Prinzip
+      verletzt.
+    countermeasure: >
+      Ein Kit pro Person Pflicht. Budget oder Miet-Option
+      planen. Ohne eigenes Kit ist es nicht LSP,
+      sondern etwas anderes.
+    severity: common
+  - issue: >
+      TN bleiben defensiv ("ich kann nicht bauen") trotz
+      Warm-up.
+    countermeasure: >
+      Warm-up bewusst machen, nicht überspringen. Bei
+      anhaltender Blockade: individuelle Ermutigung
+      ("Bauen Sie irgendwas — es ist richtig."). Keine
+      Kunst-Aufgabe.
+    severity: common
+  - issue: >
+      Erzählen zum Modell ist zu abstrakt, keine Geschichte
+      entsteht.
+    countermeasure: >
+      Moderation coachen: "Zeigen Sie auf Ihr Modell —
+      was bedeutet dieses Element hier?" Konkretes
+      Benennen erzeugt Geschichten.
+    severity: common
+  - issue: >
+      Gruppen-Modell wird zum Kompromiss — keine klare
+      Aussage.
+    countermeasure: >
+      Verhandlung als Teil der Methode verstehen.
+      Diskussionen NICHT glätten. Wenn es drei
+      unterschiedliche Modelle gibt, können auch drei
+      parallel stehen.
+    severity: common
+  - issue: >
+      Handlungs-Implikationen werden nicht abgeleitet —
+      Methode wird zum "spielerischen Nachmittag".
+    countermeasure: >
+      Handlungs-Phase (Schritt 5) fest einplanen.
+      Konkrete Vereinbarungen. Follow-up-Termin.
+      Ohne Action-Transfer verpufft LSP.
+    severity: common
+  - issue: >
+      Markenrechtliche Fragen bei kommerzieller Nutzung —
+      Bewerbung, Angebot, Verwendung der Marke.
+    countermeasure: >
+      Die Methodik selbst ist Open Source, aber "LEGO®"
+      und "LEGO Serious Play®" sind geschützte Marken der
+      LEGO Group. Bei kommerziellem Einsatz empfiehlt sich
+      rechtliche Prüfung (Anwältin für Markenrecht). Viele
+      Facilitator absolvieren zertifizierte Trainings (z.B.
+      über die LSP-Community oder Strategic Play Group) —
+      das erleichtert Bewerbung und Netzwerk, ersetzt aber
+      die rechtliche Einschätzung zum konkreten Fall nicht.
+      Im Zweifel: Methodik übernehmen, Marken-Benennung
+      vorsichtig handhaben, ggf. eigene Bau-Materialien.
+    severity: common
+  - issue: >
+      Remote-Variante enttäuscht — Magie fehlt.
+    countermeasure: >
+      Erwartungen senken, klar kommunizieren:
+      "Online-Version ist abgemilderte Methode."
+      Kleingruppen (max. 6) sinnvoll. Oder Methode
+      ersetzen.
+    severity: common
+    setting_codes: [remote_sync]

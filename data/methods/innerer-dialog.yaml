@@ -1,0 +1,247 @@
+slug: innerer-dialog
+canonical_name: Innerer Dialog
+synonyms:
+  - synonym: Inner Dialogue
+    language: en
+  - synonym: Zwei-Stühle-Technik
+    language: de
+short_description: >
+  TN führen einen schriftlichen oder inneren Dialog zwischen zwei Anteilen
+  in sich („Der Mutige" vs. „Der Vorsichtige", „Ich heute" vs. „Ich in 6 Monaten").
+  Macht innere Spannungen explizit und entscheidbar.
+originator: Friedrich S. Perls
+origin_context: >
+  Wurzelt in der Gestalttherapie (Fritz Perls, „Empty Chair Technique", 1940er/50er);
+  heute in Coaching, Supervision und Selbstreflexions-Workshops verbreitet.
+  Auch als schriftliche Einzelarbeit praktikabel.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+  - code: remote_async
+    suitability: good
+    note: Als schriftliche Reflexionsaufgabe asynchron bearbeitbar.
+  - code: hybrid
+    suitability: good
+group_sizes: [one_on_one, small]
+target_audiences: [corporate, adult_education, higher_education]
+method_types: [reflective, creative]
+duration_min_minutes: 20
+duration_typical_minutes: 40
+duration_max_minutes: 60
+tags: [dialog, gestalt, selbstreflexion, tief]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Gestalt Therapy: Excitement and Growth in the Human Personality"
+    author: Frederick Perls, Ralph Hefferline, Paul Goodman
+    year: 1951
+    relation: originator
+    note: >
+      Begründungswerk der Gestalttherapie — Empty-Chair-
+      Technik als Vorläufer des inneren Dialogs.
+  - kind: book
+    title: "Voice Dialogue (Stimmen meiner Selbst)"
+    author: Hal Stone, Sidra Stone
+    year: 1989
+    relation: practice_guide
+    note: Voice-Dialogue-Methode für innere Anteile.
+  - kind: book
+    title: "Systemische Selbst-Integration"
+    author: Gunther Schmidt
+    year: 2005
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Anteile / Stimmen identifizieren
+    duration_minutes: 10
+    trainer_action: >
+      "Welche zwei Stimmen in sich erleben Sie aktuell
+      bei Thema X?" Beispiele: Mutiger vs. Vorsichtiger,
+      Ich heute vs. Ich in 6 Monaten, Träumer vs.
+      Realist. Klare Polarität herausarbeiten.
+    participant_action: >
+      Eigene innere Spannung lokalisieren, Anteile
+      benennen.
+    note: >
+      Polarität muss greifbar sein. Vage "verschiedene
+      Gefühle" reicht nicht. Konkrete Personifizierung
+      hilft.
+  - order: 2
+    label: Setting & Form wählen
+    duration_minutes: 5
+    trainer_action: >
+      "Schreibend oder mit zwei Stühlen?" Schreibend:
+      A4, zwei Spalten, jede Spalte ein Anteil.
+      Stuhl-Variante: zwei Stühle, körperlicher
+      Wechsel.
+    participant_action: >
+      Form wählen, Schreibmaterial oder Stühle
+      einrichten.
+    note: >
+      Stuhl-Variante ist intensiver, schreibende
+      sicherer. Bei Coaching: Stuhl. Bei Selbst-
+      reflexion: Schreiben.
+  - order: 3
+    label: Erster Anteil spricht / schreibt
+    duration_minutes: 8
+    trainer_action: >
+      "Lassen Sie Anteil A sprechen / schreiben. Was
+      hat er/sie zu sagen? Welche Wünsche, Sorgen?"
+      Ohne Filter, ohne Zensur durch zweiten Anteil.
+    participant_action: >
+      Anteil A frei reden lassen — Stimme einnehmen.
+      Schreibend: in Spalte A schreiben.
+    note: >
+      Authentizität wichtig. Wer "richtig" sprechen
+      will, entgleitet die Methode. Spontaneität
+      über Logik.
+  - order: 4
+    label: Zweiter Anteil antwortet
+    duration_minutes: 8
+    trainer_action: >
+      "Jetzt spricht / schreibt Anteil B. Antwortet
+      auf das Erste, bringt eigene Sicht ein."
+      Klarer Wechsel — bei Stuhl-Variante körperlich
+      umsteigen.
+    participant_action: >
+      Anteil B einnehmen, Antwort aus B's Sicht
+      formulieren.
+    note: >
+      Körperlicher Wechsel macht Unterschied: Stuhl,
+      Atemzug, andere Spalte. Das markiert die
+      Trennung.
+  - order: 5
+    label: Mehrere Wechsel — Dialog entwickelt sich
+    duration_minutes: 5
+    trainer_action: >
+      Mehrere Hin-und-Her-Wechsel. Gespräch entsteht.
+      Moderation (bei Coaching) achtet auf Tiefe,
+      stellt vertiefende Fragen.
+    participant_action: >
+      Dialog entwickeln, beide Stimmen ernst nehmen,
+      vielleicht überraschende Wendung.
+    note: >
+      Echte Erkenntnisse entstehen oft erst nach
+      3-4 Wechseln. Geduld nötig. Nicht abkürzen.
+  - order: 6
+    label: Integration & Erkenntnis
+    duration_minutes: 4
+    trainer_action: >
+      "Was haben Sie gehört? Was wird klar?" Bewusst
+      aus den Rollen treten. Eigene Meta-Position
+      einnehmen.
+    participant_action: >
+      Aus Rollen austreten, beide Stimmen
+      reflektieren, integrieren.
+    note: >
+      Integration ist Lerneffekt. Ohne sie bleibt
+      Dialog ein Theaterstück. Mit ihr: innere
+      Klärung.
+
+variations:
+  - name: Klassisch (zwei Stühle, mit Coach)
+    description: >
+      Originale Gestalt-Variante: zwei Stühle,
+      Coach moderiert, körperlicher Wechsel.
+    when_to_use: >
+      Coaching-Settings, individuelle Beratung,
+      Persönlichkeitsentwicklung.
+  - name: Schreibender innerer Dialog
+    description: >
+      Zwei Spalten auf Papier, schriftlich Hin-und-Her.
+      Asynchron möglich.
+    when_to_use: >
+      Selbst-Reflexion, Journal-Arbeit, wenn ohne
+      Coach.
+    setting_codes: [remote_async]
+  - name: Drei-Anteile-Dialog (Walt-Disney-nah)
+    description: >
+      Drei Anteile statt zwei (z.B. Träumer + Realist
+      + Kritiker). Verwandt mit Walt-Disney-Methode.
+    when_to_use: >
+      Komplexere Spannungen, kreative Entscheidungen.
+  - name: Future-Self-Dialog
+    description: >
+      Anteile sind "Ich heute" und "Ich in 5 Jahren".
+      Karriere- und Lebens-Coaching.
+    when_to_use: >
+      Berufliche Neuorientierung, Lebensentscheidungen.
+  - name: Im Coaching-Tandem (Peer)
+    description: >
+      Zwei TN: Eine:r dialogisiert, andere:r begleitet
+      mit Fragen. Rollenwechsel später.
+    when_to_use: >
+      Coaching-Ausbildung, Peer-Reflexion.
+  - name: Remote (Video, Anteile zeigen)
+    description: >
+      Online: Person zeigt mit Geste/Position, welcher
+      Anteil gerade spricht. Coach via Video.
+    when_to_use: >
+      Online-Coaching, Tele-Therapie.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Anteile bleiben abstrakt — keine echte Polarität.
+    countermeasure: >
+      Konkret personifizieren ("Der Vorsichtige in mir,
+      der seit 10 Jahren spart"). Bei Vagem nachfragen.
+    severity: common
+  - issue: >
+      Dialog wird theatralisch — Performance statt
+      Authentizität.
+    countermeasure: >
+      Framing: "Spontane Stimmen, keine Inszenierung."
+      Bei Theater-Modus sanft zurücklenken auf eigenes
+      Erleben.
+    severity: common
+  - issue: >
+      TN bleiben in einem Anteil hängen — kein echter
+      Dialog.
+    countermeasure: >
+      Klare Wechsel-Signale. Bei Stuhl-Variante:
+      körperlich aufstehen, neuen Stuhl. Bei Schreiben:
+      andere Spalte, andere Farbe.
+    severity: common
+  - issue: >
+      Ohne Coach-Begleitung bleibt es oberflächlich.
+    countermeasure: >
+      Bei tiefen Themen: Coaching-Setting wählen.
+      Bei Selbst-Reflexion: Journal-Variante mit
+      Schreib-Disziplin.
+    severity: common
+  - issue: >
+      Integration wird vergessen — TN bleiben zwischen
+      Anteilen.
+    countermeasure: >
+      Integrations-Phase fest einplanen. "Aus Rollen
+      treten" als ritueller Moment.
+    severity: common
+  - issue: >
+      Methode wirkt esoterisch — Corporate-Widerstand.
+    countermeasure: >
+      Sachlich framen: "Innere Stimmen als Entscheidungs-
+      Hilfe." Schreibende Variante ist auch in formalen
+      Kontexten anschlussfähig.
+    severity: common
+  - issue: >
+      Sehr persönliche Themen kommen hoch — TN
+      überfordert.
+    countermeasure: >
+      Vor Methode Rahmen klar: "Sie entscheiden, wie
+      tief." Bei starker Emotion: Prozess-Pause,
+      Selbstfürsorge thematisieren.
+    severity: rare

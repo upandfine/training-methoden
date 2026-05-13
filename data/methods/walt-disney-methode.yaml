@@ -1,0 +1,249 @@
+slug: walt-disney-methode
+canonical_name: Walt-Disney-Methode
+synonyms:
+  - synonym: Disney-Strategie
+    language: de
+  - synonym: Disney Method
+    language: en
+short_description: >
+  Teilnehmende nehmen nacheinander drei Rollen ein — Träumer:in (Visionen),
+  Realist:in (Umsetzung), Kritiker:in (Risiken) — und betrachten eine Idee
+  aus jeder Perspektive. Fördert mehrdimensionale Ideenbewertung.
+originator: Robert Dilts (Rekonstruktion Disneys Arbeitsweise)
+origin_year: 1994
+origin_context: >
+  NLP-Trainer Robert Dilts modellierte die Arbeitsweise Walt Disneys
+  in „Strategies of Genius, Vol. 1" (1994).
+phases:
+  - code: deepening
+  - code: group_work
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Drei markierte Zonen/Kacheln auf Miro — Teilnehmende rotieren zwischen den Rollen.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [creative, reflective, cooperative]
+duration_min_minutes: 30
+duration_typical_minutes: 60
+duration_max_minutes: 90
+tags: [perspektivwechsel, kreativitaet, nlp]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+sources:
+  - kind: book
+    title: "Strategies of Genius, Vol. 1"
+    author: Robert Dilts
+    year: 1994
+    relation: originator
+    note: >
+      Dilts' NLP-Modellierung der Disney-Arbeitsweise — Ursprungsquelle
+      der Dreiteilung Träumer/Realist/Kritiker.
+  - kind: book
+    title: "Kreativitätstechniken — ein Handbuch"
+    author: Horst Geschka
+    year: 2019
+    relation: practice_guide
+    note: Systematische Einordnung in die deutschsprachige Kreativitäts-Didaktik.
+  - kind: book
+    title: "Moderationsmethoden in der Erwachsenenbildung"
+    author: Josef W. Seifert
+    year: 2014
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Ausgangsidee / Projekt vorstellen
+    duration_minutes: 5
+    trainer_action: >
+      Ausgangsidee oder Projekt kurz vorstellen (1-2 Sätze,
+      maximal 3 Minuten). Rollen-Schema erklären: Träumer:in
+      (alles geht), Realist:in (Umsetzung), Kritiker:in (Risiken,
+      Schwachstellen). Drei Orte / Zonen im Raum markieren.
+    participant_action: >
+      Idee verstehen, Rollen-Konzept mitbekommen.
+    note: >
+      Klare räumliche Trennung der Rollen hilft mental. Drei
+      Stühle, drei Plakate, drei Ecken. Körperliche Bewegung
+      verankert den Rollenwechsel — NLP-Kern.
+  - order: 2
+    label: Phase Träumer:in
+    duration_minutes: 10
+    trainer_action: >
+      Gruppe in Träumer-Zone. Frage: „Wenn alles möglich wäre —
+      was würden wir tun? Welche Ideen haben wir? Keine Grenzen."
+      Visualisieren auf Flipchart/Board. Moderation protokolliert,
+      stellt Nachfragen ("Und was wäre, wenn noch mehr...?").
+    participant_action: >
+      Frei fantasieren, große Ideen, keine Selbstzensur. Auf
+      andere aufbauen.
+    note: >
+      Die Phase gelingt nur, wenn Kritik WIRKLICH draußen bleibt.
+      Moderation ist Hüterin — bei "Aber..." sofort: "Die Kritik
+      kommt später, jetzt nur träumen."
+  - order: 3
+    label: Phase Realist:in
+    duration_minutes: 15
+    trainer_action: >
+      Wechsel in Realist-Zone (räumlich, mit Markierung). Träumer-
+      Ergebnisse sichtbar lassen. Frage: "Wie könnten wir das
+      umsetzen? Was braucht es konkret? Wie ist der erste
+      Schritt?". Ideen in Aktions-Schritte übersetzen.
+    participant_action: >
+      Pragmatisch denken, konkret werden, erste Schritte
+      formulieren, Ressourcen benennen.
+    note: >
+      Realist ist nicht Kritiker. Die Frage ist "WIE machen wir
+      das?", nicht "ob". Typische Falle: gleich zur Kritik
+      springen. Moderation hält den Fokus auf Umsetzungs-
+      Fragen.
+  - order: 4
+    label: Phase Kritiker:in
+    duration_minutes: 15
+    trainer_action: >
+      Wechsel in Kritiker-Zone. Umsetzungsideen werden auf
+      Schwachstellen geprüft. "Was könnte schiefgehen? Was
+      fehlt? Welche Annahmen sind wackelig?". Kritik
+      konstruktiv formulieren — nicht "geht nicht", sondern
+      "folgende Frage ist ungelöst".
+    participant_action: >
+      Risiken und Lücken benennen, Annahmen hinterfragen,
+      ohne zu demotivieren.
+    note: >
+      Kritik ist Prüfung, nicht Vernichtung. Regel: jede Kritik
+      mit Hinweis, unter welcher Bedingung das Risiko
+      beherrschbar wäre. "Das funktioniert nur, wenn..."
+  - order: 5
+    label: Integration & nächste Schritte
+    duration_minutes: 15
+    trainer_action: >
+      Gruppe im neutralen Bereich. Alle drei Perspektiven
+      zusammenführen: Welche Träume haben die Kritik überlebt?
+      Welche Realist-Ideen sind robust? Welche Kritiken
+      erfordern Anpassung? Konkrete nächste Schritte mit
+      Owner und Zeithorizont.
+    participant_action: >
+      Gesamtbild mitgestalten, Ideen priorisieren, Owner-
+      Rollen übernehmen.
+    note: >
+      Integration ist der oft vergessene Schritt. Ohne ihn
+      bleiben die drei Perspektiven nebeneinander stehen.
+      Planen Sie diese 15 Minuten fest ein, nicht als
+      Restzeit.
+
+variations:
+  - name: Klassisch (drei Zonen, Gruppenrotation)
+    description: >
+      Alle drei Rollen werden gemeinsam durchlaufen, räumlich
+      getrennt. Standardvariante nach Dilts.
+    when_to_use: >
+      Kleingruppen (3-8), wenn kreatives Denken UND
+      Umsetzungsplanung zusammen ablaufen sollen. Ideen-
+      Entwicklungs-Workshops.
+  - name: Rollen-Teilung (drei Untergruppen)
+    description: >
+      Statt Rotation: 3 Untergruppen nehmen je eine Rolle ein.
+      Parallel, dann Austausch. Schneller, mehr Output.
+    when_to_use: >
+      Größere Gruppen (12+), knappe Zeit. Tiefe der Rotation
+      geht verloren, dafür mehr Ideen.
+  - name: Kurzformat (3 × 5 min)
+    description: >
+      Komprimierte Variante, je 5 min pro Rolle + 5 min Integration.
+      Für Stand-up-Situationen oder Entscheidungs-Mini-Checks.
+    when_to_use: >
+      Alltag: vor einer Entscheidung, um blinde Flecken zu prüfen.
+      Keine Tiefe, dafür schneller Perspektivwechsel.
+  - name: Remote Walt Disney (Miro/Mural)
+    description: >
+      Drei Kacheln / Frames auf Whiteboard. TN bewegen Avatar
+      zwischen Rollen. Zeitfenster pro Frame.
+    when_to_use: >
+      Online-Workshops, verteilte Innovationsteams. Körperliche
+      Bewegung ersetzt durch Avatar-Bewegung + Chat-Rollen.
+    setting_codes: [remote_sync]
+  - name: Walt Disney 2.0 mit Neutraler Rolle
+    description: >
+      Vierte Rolle "Außerirdische Beobachter:in" — alles von
+      außen betrachten. Für Ideen, die systemisch hinterfragt
+      werden müssen.
+    when_to_use: >
+      Komplexe strategische Entscheidungen, wenn systemische
+      Annahmen selbst Gegenstand sein sollen.
+  - name: 1:1-Coaching-Variante
+    description: >
+      Einzelperson durchläuft die drei Rollen mit Coach-
+      Begleitung. Körperliche Stühle-Rotation verstärkt
+      Effekt. Längere Phasen (20 min pro Rolle).
+    when_to_use: >
+      Karriere- oder Entscheidungs-Coaching, Einzel-
+      Beratung, wenn die Person für sich selbst
+      verschiedene Perspektiven durchspielen soll.
+
+pitfalls:
+  - issue: >
+      Gruppe springt zwischen Rollen, Träumen wird sofort
+      kritisiert.
+    countermeasure: >
+      Rollen-Grenzen moderativ hart durchsetzen: "Das ist eine
+      Realist-Frage, später." Räumliche Trennung konsequent
+      nutzen. Bei Bedarf: Parkplatz-Flipchart für vorzeitige
+      Kritik.
+    severity: common
+  - issue: >
+      Träumer-Phase bleibt zahm — TN trauen sich nicht, wild
+      zu denken.
+    countermeasure: >
+      Vorab "Warm-up für Absurdität" (z.B. eine Minute lang nur
+      unmögliche Ideen sammeln). Klarstellen: "Das bleibt hier,
+      wir lachen über nichts."
+    severity: common
+  - issue: >
+      Kritik wird destruktiv ("Das geht nie, wir haben das
+      schon versucht").
+    countermeasure: >
+      Regel: "Kritik immer mit Bedingung." — "Das funktioniert
+      nur, wenn... dann klappt's." Moderation wandelt
+      destruktive Aussagen um.
+    severity: common
+  - issue: >
+      Integration wird übersprungen ("die Zeit ist um").
+    countermeasure: >
+      Integration fest einplanen, nicht als Puffer. Falls Zeit
+      knapp: Realist-Phase kürzen, nicht Integration.
+    severity: common
+  - issue: >
+      TN finden die Rollen "künstlich", machen nicht mit.
+    countermeasure: >
+      Framing vorab: "Das ist kein Theater, sondern Denk-
+      Werkzeug. Jeder hat alle drei Perspektiven schon — wir
+      machen sie nur sichtbar." Nach 2 min Zögern auflösen
+      und normal weitermachen.
+    severity: common
+  - issue: >
+      Dominante Personen bleiben in ihrer Lieblings-Rolle
+      (meist Kritiker:in) hängen.
+    countermeasure: >
+      Klare Ansage: "Alle in der Gruppe sind jetzt Kritiker:in,
+      auch die, die sonst lieber träumen." Moderation fragt
+      gezielt TN an, die schweigen.
+    severity: common
+  - issue: >
+      Drei Rollen werden zu dritt „verteilt" statt gemeinsam
+      durchlaufen — verfehlt den Perspektivwechsel.
+    countermeasure: >
+      Standard-Variante mit Rotation wählen, explizit erklären
+      warum ALLE in alle Rollen gehen. Rollen-Verteilung nur
+      bei Varianten-Version.
+    severity: common

@@ -1,0 +1,206 @@
+slug: zoo-begruessung
+canonical_name: Zoo-Begrüßung
+synonyms:
+  - synonym: Animal Greeting
+    language: en
+short_description: >
+  Teilnehmende ziehen eine Tier-Karte und begrüßen sich gegenseitig in der Rolle
+  des Tieres (Stimme, Bewegung, Verhalten). Aktivierend und hemmungsabbauend.
+originator: null
+origin_context: Theaterpädagogik und Jugendbildung.
+phases:
+  - code: warmup
+    is_primary: true
+  - code: getting_acquainted
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Möglich, aber weniger wirksam — physische Interaktion fehlt.
+  - code: hybrid
+    suitability: limited
+group_sizes: [small, medium]
+target_audiences: [school, youth, corporate]
+method_types: [energizer, game, icebreaker]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - Tier-Karten (vorbereitet oder improvisiert)
+tags: [bewegung, spielerisch, hemmungsabbau]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Theaterpädagogik"
+    author: Gerd Koch
+    year: 2010
+    relation: practice_guide
+    note: Tier-Rollen als klassische theaterpädagogische Aufwärmübung.
+  - kind: book
+    title: "Spieleklassiker für die Jugendarbeit"
+    author: Andreas Röhrig
+    year: 2010
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Tier-Karten vorbereiten & austeilen
+    duration_minutes: 2
+    trainer_action: >
+      Tier-Karten bereit haben (Hund, Katze, Affe, Elefant,
+      Huhn, Löwe, Giraffe, Pinguin...). Je nach Gruppe
+      10-20 verschiedene. Karten verdeckt austeilen —
+      jede:r zieht eine, nicht zeigen.
+    participant_action: >
+      Karte nehmen, Tier anschauen, mental einstimmen
+      (wie bewegt sich Pinguin?).
+    note: >
+      Tier-Auswahl wählen: nicht zu kompliziert (Tiere
+      müssen leicht erkennbar sein). Mix aus groß/klein,
+      laut/leise für Vielfalt.
+  - order: 2
+    label: Einstimmung in Rolle
+    duration_minutes: 2
+    trainer_action: >
+      "1 min Zeit: spüren Sie Ihr Tier. Wie bewegt es
+      sich, welches Geräusch macht es, wie sitzt es?"
+      Moderation selbst macht vor (lustig). Alle
+      probieren.
+    participant_action: >
+      Tier-Rolle einnehmen, Stimme + Bewegung
+      ausprobieren, Hemmungen abbauen.
+    note: >
+      Moderations-Modelling ist wichtig. Wer selbst
+      nicht Pinguin watschelt, bekommt keine mitgehenden
+      TN.
+  - order: 3
+    label: Zoo-Begrüßungs-Runde
+    duration_minutes: 5
+    trainer_action: >
+      "Los geht's — gehen Sie als Ihr Tier durch den Raum.
+      Begrüßen Sie andere Tiere in Ihrer Rolle. Kein
+      Menschen-Sprechen!" Moderation macht selbst mit,
+      moderiert Tempo.
+    participant_action: >
+      In Rolle durch Raum, andere "tierisch" begrüßen.
+      Lachen erlaubt und erwünscht.
+    note: >
+      Energy hoch halten. Wenn Gruppe zögert: Moderation
+      geht laut hupend als Elefant voran. Unsicherheit
+      verfliegt meist nach 30 Sek.
+  - order: 4
+    label: Ausstieg & Übergang
+    duration_minutes: 1
+    trainer_action: >
+      "Gut, schluss mit Tier-Sein. Zurück in Menschen-
+      Rolle, auf Plätze." Klarer Cut. Karten einsammeln
+      oder aufbewahren für Erinnerung.
+    participant_action: >
+      Aus Rolle raus, Mensch sein, zu Plätzen.
+    note: >
+      Klarer Schnitt wichtig. Auch bei spaßiger Methode:
+      Entrollung. "Jetzt wieder Training-Modus."
+
+variations:
+  - name: Klassisch (Tier-Karten + Begrüßung)
+    description: >
+      Standardvariante: Tier ziehen, begrüßen, durch Raum.
+    when_to_use: >
+      Jugend, Theater-Kontexte, aktivierende Einstiege.
+      8-20 TN, genug Platz.
+  - name: Tier-Raten (wer ist was?)
+    description: >
+      TN zeigen Tier, andere raten. Ergänzt
+      Kennenlern-Element.
+    when_to_use: >
+      Wenn auch Identifizieren Spaß machen soll.
+      Kindergeburtstag-Atmosphäre erwünscht.
+  - name: Tier-Familien finden (Gruppenbildung)
+    description: >
+      Mehrere Karten gleichen Tieres existieren. TN
+      müssen ihre "Familie" finden — ohne zu sprechen,
+      nur durch Geräusche.
+    when_to_use: >
+      Als Gruppenbildung für nächste Aufgabe. Doppelter
+      Nutzen.
+  - name: Fantasie-Tiere (eigene wählen)
+    description: >
+      TN wählen selbst Tier. Kreativ-Element, weniger
+      strukturiert.
+    when_to_use: >
+      Erfahrene Theater-Gruppen, Kreativ-Trainings.
+      Weniger für Einsteiger.
+  - name: Symbolische Tier-Variante (Reflexion)
+    description: >
+      "Welches Tier bin ich heute?" Weniger Spiel, mehr
+      Symbolik. Check-in-Format.
+    when_to_use: >
+      Als Check-in statt Energizer. Systemische
+      Beratung. Wenn Reflexion statt Spielerei.
+
+pitfalls:
+  - issue: >
+      TN (besonders Corporate-Senior) weigern sich —
+      zu albern.
+    countermeasure: >
+      Zielgruppenprüfung. In senior-Corporate: andere
+      Warmup-Methode (Walk-and-Talk, Stimmungsbarometer).
+      Nicht erzwingen.
+    severity: common
+  - issue: >
+      Moderation macht nicht mit — Gruppe bleibt
+      zögerlich.
+    countermeasure: >
+      Moderations-Modelling ist Pflicht. Selbst voll
+      dabei (auch peinlich). Wenn Moderation hemmt,
+      hemmt Gruppe auch.
+    severity: common
+  - issue: >
+      Körperlich oder sprachlich Eingeschränkte —
+      Teilhabe erschwert.
+    countermeasure: >
+      Sitz-Variante mit Geräuschen anbieten. Oder
+      Beobachtungsrolle. Niemand ausgeschlossen.
+    severity: rare
+  - issue: >
+      Methode dehnt sich aus — wird ermüdend.
+    countermeasure: >
+      Max. 5-7 min aktive Phase. Auf Höhepunkt
+      beenden. Energizer = Impuls, nicht Hauptprogramm.
+    severity: common
+  - issue: >
+      In interkulturellen Kontexten: Tier-Symbolik
+      problematisch (kulturelle Tabus).
+    countermeasure: >
+      Tiere kulturneutral wählen. Bei Bedarf andere
+      Metapher (Wetter, Farben). Sensibilität für
+      Tabus.
+    severity: rare
+  - issue: >
+      Zu laute Geräusche stören Nachbarräume.
+    countermeasure: >
+      Raum-Check. "Leisere Tiere" betonen (Giraffe,
+      Pinguin statt Löwe). Bei sensiblen Nachbarn:
+      andere Methode.
+    severity: common
+  - issue: >
+      Online-Variante fällt flach — Geräusche
+      asynchron.
+    countermeasure: >
+      Online: stumme Tier-Pantomime per Video. Oder
+      Methode ganz weglassen für Remote — andere
+      Warmups passen besser.
+    severity: common
+    setting_codes: [remote_sync]

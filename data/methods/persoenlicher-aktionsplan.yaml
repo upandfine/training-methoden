@@ -1,0 +1,250 @@
+slug: persoenlicher-aktionsplan
+canonical_name: Persönlicher Aktionsplan
+synonyms:
+  - synonym: Personal Action Plan
+    language: en
+  - synonym: Umsetzungsplan
+    language: de
+short_description: >
+  Strukturiertes Arbeitsblatt: 3 konkrete Maßnahmen, je mit „Was?", „Wer?",
+  „Bis wann?", „Woran erkenne ich Erfolg?". Erhöht Transferwahrscheinlichkeit
+  deutlich gegenüber reinem Vorsatz.
+originator: null
+origin_context: >
+  Verbreitet seit den 1970ern in Management- und Führungskräftetrainings;
+  konzeptionell nahe SMART-Ziele (Doran, 1981) und
+  Implementation Intentions (Gollwitzer, 1999).
+phases:
+  - code: transfer
+    is_primary: true
+  - code: closing
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Ausfüllbares PDF oder Online-Formular; auch in LMS automatisierbar.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [reflective]
+duration_min_minutes: 15
+duration_typical_minutes: 25
+duration_max_minutes: 45
+materials:
+  - Vorlage „Aktionsplan" (Papier oder digital)
+tags: [transfer, aktionsplan, smart-ziele]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: article
+    title: "There's a S.M.A.R.T. way to write management's goals and objectives"
+    author: George T. Doran
+    year: 1981
+    relation: reference
+    note: >
+      Ursprung der SMART-Kriterien (Specific, Measurable, Assignable,
+      Realistic, Time-related).
+  - kind: book
+    title: "Der Transferschock: Wie Sie Trainings wirksam machen"
+    author: Ina Weinbauer-Heidel
+    year: 2016
+    relation: practice_guide
+    note: Aktionsplan als einer der wirksamsten Transfer-Hebel.
+  - kind: article
+    title: "Implementation intentions: Strong effects of simple plans"
+    author: Peter M. Gollwitzer
+    year: 1999
+    relation: reference
+    note: >
+      Empirische Evidenz zu "Wenn-Dann-Plänen" — höhere
+      Durchsetzungs-Quote als bei reinen Vorsätzen.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Rahmen & Vorlage einführen
+    duration_minutes: 3
+    trainer_action: >
+      Vorlage austeilen oder digital teilen. Kurz erklären:
+      "3 konkrete Maßnahmen — je Was, Wer, Bis wann, Woran
+      erkenne ich Erfolg. Lieber 3 kleine als 10 ambitionierte."
+      SMART-Kriterien als Rahmen ansagen.
+    participant_action: >
+      Vorlage entgegennehmen, Struktur verstehen, eigene
+      Trainings-Erkenntnisse rekapitulieren.
+    note: >
+      3 Maßnahmen ist Faustregel. Mehr werden nicht umgesetzt,
+      weniger nutzt Trainings-Energie nicht. Die Drei-Zahl
+      schafft produktive Enge.
+  - order: 2
+    label: Einzelarbeit — Maßnahmen identifizieren
+    duration_minutes: 10
+    trainer_action: >
+      10 min still. Jede:r durchdenkt: Was will ich konkret
+      ändern/tun? Nicht: "generell besser kommunizieren" —
+      sondern: "Im Montag-Meeting je 2 min Raum für
+      Kollegin X lassen." Moderation wandert, gibt Impulse
+      bei Stocken.
+    participant_action: >
+      Konkrete Maßnahmen formulieren, auf SMART achten,
+      realistisch bleiben.
+    note: >
+      Vage Formulierungen sind das Hauptproblem. Beim
+      Wandern gezielt nachfragen: "Ist das messbar?
+      Was wäre 'erfolgreich'?"
+  - order: 3
+    label: Konkretisierung (Wer, Bis wann, Woran erkenne ich)
+    duration_minutes: 7
+    trainer_action: >
+      Zweite Runde: pro Maßnahme die Detail-Felder. Wer ist
+      involviert? Bis wann? Woran erkennen Sie, dass es
+      funktioniert? "Termin im Kalender eintragen jetzt" —
+      Verbindlichkeit sofort schaffen.
+    participant_action: >
+      Details je Maßnahme ausfüllen. Termin direkt im
+      Kalender setzen — nicht "später".
+    note: >
+      Die "Bis wann"-Frage sofort in den Kalender zu übertragen
+      erhöht die Umsetzungs-Wahrscheinlichkeit massiv.
+      Ohne Termin: unverbindlich.
+  - order: 4
+    label: Paar-Austausch (Accountability)
+    duration_minutes: 3
+    trainer_action: >
+      2er-Paare: je 90 Sek. eigene Maßnahmen vorstellen.
+      Partner:in stellt eine klärende Frage ("Was hält Sie
+      davon ab? Wie schaffen Sie Zeit?"). Erhöht
+      Verbindlichkeit durch soziale Verpflichtung.
+    participant_action: >
+      Maßnahmen vorstellen, Rückfragen entgegennehmen,
+      nachschärfen falls nötig.
+    note: >
+      Paar-Austausch ist keine Option — ist Transferbrücke.
+      Wer seine Absicht laut aussprechen muss, setzt eher
+      um. Gollwitzers Implementation Intentions in Aktion.
+  - order: 5
+    label: Abschluss & Follow-up vereinbaren
+    duration_minutes: 2
+    trainer_action: >
+      Kurzer Plenum-Abschluss: "Nehmen Sie den Plan mit.
+      Ich melde mich in 4 Wochen per Mail mit den 4 Fragen.
+      Machen Sie auch einen Abfoto als Backup." Ggf. Buddy-
+      System anbieten (siehe `umsetzungs-buddy`).
+    participant_action: >
+      Plan sichern (mitnehmen, abfotografieren, digital
+      speichern). Follow-up-Angebot mitnehmen.
+    note: >
+      Ohne Follow-up versandet der Plan. Die Follow-up-Mail
+      muss real passieren — sonst verliert auch die Methode
+      für weitere Trainings Glaubwürdigkeit.
+
+variations:
+  - name: Klassisch (3 Maßnahmen, 4 Felder)
+    description: >
+      Standardvariante: 3 Maßnahmen mit Was, Wer, Bis wann,
+      Erfolgs-Kriterium. Standardvariante.
+    when_to_use: >
+      Seminar-Abschluss mit Transfer-Fokus. 8-30 TN. Corporate-
+      Trainings, Führungskräfte-Development.
+  - name: Kurz-Version (1 Maßnahme, 10 min)
+    description: >
+      Nur 1 Maßnahme, schneller Durchlauf. Für kurze Trainings
+      oder als regelmäßiger Check-out.
+    when_to_use: >
+      Tagesseminare, wöchentliche Team-Trainings, kurze
+      Formate. Als Mini-Transfer.
+  - name: SMART-geführte Variante
+    description: >
+      Explizit SMART-Kriterien als Spalten (Specific,
+      Measurable, Achievable, Relevant, Time-bound). Stärker
+      strukturiert.
+    when_to_use: >
+      Management-Ausbildung, Projekt-Trainings, wenn SMART
+      als Rahmen vermittelt werden soll.
+  - name: Implementation Intentions-Plan
+    description: >
+      Statt 4 Feldern: "Wenn X passiert, dann tue ich Y."
+      Basiert auf Gollwitzer-Forschung. Sehr konkret, aber
+      ungewohnte Formulierung.
+    when_to_use: >
+      Verhaltens-Änderung, Gewohnheits-Aufbau. Wenn
+      Auslöser klar benennbar sind (z.B. Montag-Morgen-
+      Routine).
+  - name: Remote (Ausfüllbares PDF / Formular)
+    description: >
+      Digitale Vorlage, TN füllen online. Automatische
+      Speicherung, Erinnerungs-Mail in 4 Wochen. Skalierbar.
+    when_to_use: >
+      Online-Trainings, große Kohorten (50+), wenn
+      Automatisierung wichtig. Mit LMS-Integration.
+    setting_codes: [remote_sync, remote_async]
+  - name: Team-Aktionsplan (kollektiv)
+    description: >
+      Statt Einzelpläne: Team einigt sich auf 3 Maßnahmen,
+      Verantwortlichkeiten verteilt. Kollektive
+      Accountability.
+    when_to_use: >
+      Team-Offsites, Projekt-Kickoffs, Abteilungs-
+      Trainings. Wenn gemeinsame Umsetzung entscheidend ist.
+
+pitfalls:
+  - issue: >
+      Maßnahmen bleiben vage ("besser kommunizieren", "mehr
+      delegieren").
+    countermeasure: >
+      Konkret nachfragen: "Mit wem? Wann? Wie oft?". Beispiele
+      für gute vs. schwache Maßnahmen zeigen. Moderation
+      coached einzeln während Einzelarbeit.
+    severity: common
+  - issue: >
+      Zu viele Maßnahmen (10+), keine wird umgesetzt.
+    countermeasure: >
+      Limit 3 strikt durchsetzen. "Wenn Sie 10 sehen, wählen
+      Sie die 3 wichtigsten. Die anderen parken Sie." Weniger
+      ist mehr.
+    severity: common
+  - issue: >
+      Termine werden nicht im Kalender eingetragen.
+    countermeasure: >
+      Während der Session Kalender öffnen lassen. Sofortiger
+      Eintrag, nicht "mach ich später". Am besten: als
+      wiederkehrenden Termin anlegen.
+    severity: common
+  - issue: >
+      Follow-up-Mail wird nie geschickt — Trainer:in vergisst
+      oder hat keine Prozesse.
+    countermeasure: >
+      Mail vor Session als Draft anlegen, Termin zum Versenden
+      als Kalender-Event setzen. Automatisierung über LMS
+      oder CRM.
+    severity: common
+  - issue: >
+      Paar-Austausch wird übersprungen ("keine Zeit").
+    countermeasure: >
+      3 min fest einplanen, nicht als Puffer. Bei Zeitknappheit:
+      Einzelarbeit kürzen, nicht Paar-Austausch. Accountability
+      ist der Transferhebel.
+    severity: common
+  - issue: >
+      Kein Management-Commitment — Maßnahmen werden von
+      Vorgesetzten nicht unterstützt.
+    countermeasure: >
+      Vorab mit Auftraggebenden klären: Wird Umsetzung
+      unterstützt? Wenn nein: Methode anpassen oder
+      Erwartungen senken. Transfer lebt von Ermöglichung.
+    severity: common
+  - issue: >
+      TN nehmen Plan mit, aber verlieren ihn.
+    countermeasure: >
+      Digitalisierungs-Pflicht: Foto oder digitale Vorlage.
+      Abschluss-Ritual: "Bitte in E-Mail an sich selbst."
+      Mehrfache Sicherung.
+    severity: common

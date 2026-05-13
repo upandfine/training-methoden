@@ -1,0 +1,203 @@
+slug: temperatur-evaluation
+canonical_name: Temperatur-Evaluation
+synonyms:
+  - synonym: Temperature Check
+    language: en
+  - synonym: Stimmungs-Thermometer
+    language: de
+short_description: >
+  TN platzieren einen Punkt auf einem Thermometer (kalt bis heiß) oder
+  einer Skala zu einer Leitfrage („Wie energiegeladen fühlst du dich?",
+  „Wie hilfreich war die Session?"). Schnelle visuelle Momentaufnahme
+  der Gruppenstimmung.
+originator: null
+origin_context: >
+  Etabliert in der schul- und gruppenpädagogischen Praxis; verwandt
+  mit Stimmungsbarometer, aber mit konkreter Thermometer-Metapher.
+  Heute Standard in agilen Retros und Online-Moderation.
+phases:
+  - code: evaluation
+    is_primary: true
+  - code: feedback
+  - code: arrival
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Whiteboard mit Thermometer-Skala; Mentimeter/Slido-Skalen-Frage.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [feedback, visualization]
+duration_min_minutes: 3
+duration_typical_minutes: 5
+duration_max_minutes: 10
+materials:
+  - Thermometer-Plakat oder digitales Skalen-Tool
+tags: [temperatur, stimmung, skala, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Agile Retrospectives: Making Good Teams Great"
+    author: Esther Derby, Diana Larsen
+    year: 2006
+    relation: practice_guide
+    note: Temperatur-Check als gängiges Retrospective-Werkzeug.
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+  - kind: book
+    title: "Evaluation in der Weiterbildung"
+    author: Harald Geißler
+    year: 2010
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Thermometer vorbereiten & Frage setzen
+    duration_minutes: 1
+    trainer_action: >
+      Thermometer zeichnen: senkrecht, mit Skala ("Eiskalt /
+      kalt / lauwarm / warm / heiß"). Frage formulieren: "Wie
+      energiegeladen fühlen Sie sich?", "Wie hilfreich war
+      die Session?", "Wie wohl im Team?".
+    participant_action: >
+      Thermometer sehen, Frage verstehen, innerlich
+      einschätzen.
+    note: >
+      Frage muss zum Kontext passen. Am Anfang: Energie /
+      Stimmung. Am Ende: Bewertung. Klarheit der Frage
+      entscheidet Nutzen der Antwort.
+  - order: 2
+    label: Punkte setzen
+    duration_minutes: 2
+    trainer_action: >
+      Alle gleichzeitig einen Punkt auf Thermometer setzen.
+      Bei Remote: Klick ins Skalen-Tool. Nicht sequenziell —
+      Bandwagon-Effekt verhindern.
+    participant_action: >
+      Gleichzeitig eigenen Punkt setzen, ehrlich, ohne auf
+      andere zu schauen.
+    note: >
+      Gleichzeitigkeit ist wichtig. Bei physischem Kleben:
+      "Auf drei alle gleichzeitig." Bei Online-Tools:
+      klares Zeitfenster.
+  - order: 3
+    label: Bild lesen & kurz ansprechen
+    duration_minutes: 2
+    trainer_action: >
+      Gesamtbild: "Ich sehe Mehrheit im warmen Bereich, zwei
+      im kalten." Optional nachfragen: "Wer im kalten will
+      sagen warum?" — freiwillig. Bei auffälligem Bild
+      (viel kalt): Konsequenz ableiten.
+    participant_action: >
+      Bild mitbetrachten, eigene Position einordnen, ggf.
+      freiwillig erläutern.
+    note: >
+      Schnellbefund, keine tiefere Analyse. Bei kritischem
+      Bild: tiefere Methode nachschieben (1-Minute-Paper,
+      Einzelgespräch).
+
+variations:
+  - name: Klassisch (Thermometer mit 5 Stufen)
+    description: >
+      Gezeichnetes Thermometer, 5 Stufen, einzelne Punkte.
+      Standardvariante.
+    when_to_use: >
+      Retrospektiven, Sessions-Ende, Zwischen-Checks. 5-40
+      TN ideal.
+  - name: Mehrfach-Thermometer (mehrere Fragen)
+    description: >
+      Mehrere Thermometer parallel zu verschiedenen Fragen
+      ("Energie", "Zufriedenheit", "Anspruch"). Differenzierter.
+    when_to_use: >
+      Längere Retros, wenn verschiedene Dimensionen wichtig.
+  - name: Digitale Skala (Mentimeter / Slido)
+    description: >
+      Online-Skala mit Live-Ergebnis, automatische
+      Aggregation. Anonym möglich.
+    when_to_use: >
+      Online-Trainings, Webinare, große Gruppen (30+).
+    setting_codes: [remote_sync]
+  - name: Temperatur über Zeit
+    description: >
+      Mehrfach einsetzen (Anfang, Mitte, Ende) zum Vergleich.
+      Zeigt Verlauf der Stimmung.
+    when_to_use: >
+      Tagesseminare, intensive Workshops. Wenn Verlauf
+      sichtbar sein soll.
+  - name: Team-Temperatur-Check
+    description: >
+      In Paar- oder Kleingruppen eigenes Thermometer
+      erstellen. Vergleich zwischen Teams. Kollektive
+      Stimmungsbilder.
+    when_to_use: >
+      Größere Workshops mit Subgruppen. Team-übergreifende
+      Vergleiche.
+  - name: Alternative Metaphern (Tacho, Ampel)
+    description: >
+      Statt Thermometer: Tacho (wie schnell?), Ampel (ok?),
+      Wetterkarte (metaphorisch). Gleiche Mechanik, aber
+      andere Metapher — relevant, wenn Thermometer
+      assoziativ besetzt ist (Fieber, Medizin) oder
+      Kontext etwas anderes nahelegt.
+    when_to_use: >
+      Medizinisch-sensible Gruppen, technisch-orientierte
+      Settings (Tacho passt bei Auto-Branche), oder wenn
+      wiederkehrende Temperatur-Checks ermüden.
+
+pitfalls:
+  - issue: >
+      Skala zu fein, TN überlegen zu lange.
+    countermeasure: >
+      5 Stufen reichen. Nicht 10-Punkte-Skala, das
+      überfordert die Schnellbefund-Idee. Lieber weniger
+      Differenzierung, mehr Schnelligkeit.
+    severity: common
+  - issue: >
+      Ergebnis wird überinterpretiert — "Temperatur 7 heißt...".
+    countermeasure: >
+      Temperatur-Evaluation ist Momentaufnahme, keine
+      Präzisionsmessung. Sprachregel: "Ich sehe..." statt
+      "X,Y Punkte". Stimmungsbild, nicht Statistik.
+    severity: common
+  - issue: >
+      Keine Konsequenz — Bild bleibt hängen.
+    countermeasure: >
+      Bei jedem Ergebnis wenigstens kurz ansprechen.
+      Bei kritischem Bild: sichtbare Reaktion (Pause,
+      Nachfrage, Anpassung).
+    severity: common
+  - issue: >
+      Sequenzielles Setzen führt zu Konformität.
+    countermeasure: >
+      Gleichzeitigkeit erzwingen. Online: Zeitfenster
+      setzen. Offline: "Auf drei."
+    severity: common
+  - issue: >
+      Frage zu abstrakt — TN raten nur.
+    countermeasure: >
+      Konkrete, eindimensionale Frage. Nicht "Wie war's?"
+      sondern "Wie energiegeladen fühlen Sie sich
+      gerade?".
+    severity: common
+  - issue: >
+      Kulturelle Unterschiede in Ehrlichkeit — einige TN
+      zeigen immer "warm" aus Höflichkeit.
+    countermeasure: >
+      Anonymität sichern. Digital-Variante, oder
+      Zettel-Voting. Niederschwelligkeit für ehrliche
+      Antworten schaffen.
+    severity: rare

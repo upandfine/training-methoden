@@ -1,0 +1,215 @@
+slug: wetter-check
+canonical_name: Wetter-Check
+synonyms:
+  - synonym: Stimmungswetter
+    language: de
+  - synonym: Weather Report
+    language: en
+short_description: >
+  Teilnehmende beschreiben ihr aktuelles Befinden als Wetterlage („sonnig",
+  „bewölkt mit Aussicht auf Nieselregen"). Niederschwellige, metaphorische
+  Stimmungsabfrage.
+originator: null
+origin_context: Verbreitet in systemischer Beratung und Agile-Retrospektiven.
+phases:
+  - code: arrival
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Teilnehmende können Emoji oder Mural-Icons nutzen — funktioniert remote oft sogar besser.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [icebreaker, reflective, diagnostic]
+duration_min_minutes: 3
+duration_typical_minutes: 7
+duration_max_minutes: 12
+tags: [kurz, metaphorisch, stimmungsabfrage]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Systemische Organisationsberatung"
+    author: Fritz B. Simon
+    year: 2018
+    relation: reference
+    note: Metaphorische Stimmungsabfragen im systemischen Kontext.
+  - kind: book
+    title: "Agile Retrospectives: Making Good Teams Great"
+    author: Esther Derby, Diana Larsen
+    year: 2006
+    relation: practice_guide
+    note: Wetter-Check als niederschwelliger Check-in.
+  - kind: book
+    title: "Handbuch für Seminar- und Lehrveranstaltungen"
+    author: Waltraud Siegert
+    year: 2018
+    relation: practice_guide
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Frage stellen & Metapher erklären
+    duration_minutes: 1
+    trainer_action: >
+      "Ich bitte Sie um ein kurzes Wetter-Bild: Wie ist Ihr
+      Stimmungs-Wetter heute? Sonne, Wolken, Gewitter, Nebel,
+      Regen — oder eine Kombination." Bei neuem Einsatz:
+      einmal selbst vormachen ("Bei mir ist's heute sonnig
+      mit paar Wolken wegen kurz Schlaf").
+    participant_action: >
+      Frage hören, metaphorisch einstimmen, eigene Stimmung
+      in Wetterbild übersetzen.
+    note: >
+      Metapher macht niederschwellig, was "Wie geht's Ihnen?"
+      oft nicht schafft. Antworten werden bildhafter und oft
+      ehrlicher.
+  - order: 2
+    label: Reihum (oder Chat)
+    duration_minutes: 4
+    trainer_action: >
+      Alle kurz: Name + Wetter-Bild + ggf. ein Satz Kontext.
+      Maximal 20-30 Sek pro Person. Kein Zwang zu Kontext —
+      nur Wetter reicht. Moderation hört zu, kommentiert nicht.
+    participant_action: >
+      Kurz und knapp eigenes Wetter teilen. Andere aufmerksam
+      anhören.
+    note: >
+      Kommentarlose Moderation ist wichtig. "Ach, sonnig!
+      Super!" wertet. Einfach wahrnehmen und weitergehen.
+      Bei Regen: keine Aufmunterung aufzwingen.
+  - order: 3
+    label: Gesamtbild benennen
+    duration_minutes: 1
+    trainer_action: >
+      Kurz zusammenfassen: "Wir haben heute ein gemischtes
+      Wetter, viel Sonne mit ein paar Wolken." Bei überwiegend
+      schlechtem Wetter: "Ich nehme das ernst — lassen wir
+      uns Zeit, ruhig anzufangen."
+    participant_action: >
+      Gesamtbild wahrnehmen, eigene Position darin sehen.
+    note: >
+      Zusammenfassen schafft Gemeinschaftsgefühl. Bei auffälligem
+      Muster (viele Regenwolken): flexibel auf Programm
+      reagieren.
+  - order: 4
+    label: Übergang zum Programm
+    duration_minutes: 1
+    trainer_action: >
+      Überleitung: "Gut, jetzt sind wir alle angekommen."
+      Zum ersten Tages-Punkt.
+    participant_action: >
+      Aufmerksamkeit von Persönlichem zum Inhaltlichen
+      wechseln.
+    note: >
+      Saubere Transition — Wetter-Check ist Entry, nicht
+      Hauptprogramm. 1 min reicht zum Ankommen.
+
+variations:
+  - name: Klassisch (reihum mit Wetter-Metapher)
+    description: >
+      Jede:r beschreibt eigenes Wetter, reihum. Standard-
+      Variante.
+    when_to_use: >
+      Seminar-Einstieg, Meeting-Start, Team-Check-in. 4-15
+      TN ideal.
+  - name: Wetter-Emoji-Variante
+    description: >
+      Statt Worten: Emojis (☀️🌤️☁️⛈️🌧️❄️) im Chat, an
+      Flipchart oder als Karte. Schneller, visuell.
+    when_to_use: >
+      Online-Meetings, große Gruppen (15+), wenn kurz und
+      schnell gewünscht.
+  - name: Wetter-Vorhersage (mit Prognose)
+    description: >
+      Zweiteilig: "Wie ist das Wetter heute? Und wie wird's
+      voraussichtlich werden?" Erfasst auch Energie-
+      Projektion.
+    when_to_use: >
+      Mehrtägige Trainings, Team-Check-ins. Wenn Richtung
+      des Tages geklärt werden soll.
+  - name: Wetter-Karte (großes Bild)
+    description: >
+      Großes Flipchart mit Wetterkarte-Layout (Symbolen).
+      TN setzen eigenen Punkt/Namen. Visuelles Gesamtbild.
+    when_to_use: >
+      Längere Workshops, wenn Wetter-Check über Tage
+      wiederholt wird (Vergleich).
+  - name: Remote (Emojis im Chat)
+    description: >
+      Online-Meeting: alle schreiben Wetter-Emoji in den
+      Chat. Host liest in 1 min durch.
+    when_to_use: >
+      Webinare, Online-Trainings, verteilte Meetings.
+      Sehr schnell, niedrige Hürde.
+    setting_codes: [remote_sync]
+  - name: Wetter-Frage zum Thema
+    description: >
+      Statt generisch: "Wie ist Ihr Wetter bezüglich
+      unseres Projekts?" Thema-fokussierte Metapher.
+    when_to_use: >
+      Team-Meetings zu Projekten, Change-Kontexte. Verbindet
+      Gefühl mit Sachbezug.
+
+pitfalls:
+  - issue: >
+      Wetter wird zu Analyse-Anlass — Gespräch zieht sich.
+    countermeasure: >
+      20-30 Sek pro Person strikt. "Wetter nennen + max.
+      ein Satz Kontext." Bei Ausdehnung sanft kappen.
+    severity: common
+  - issue: >
+      Moderation kommentiert jedes Wetter — wertet unbewusst.
+    countermeasure: >
+      Nur wahrnehmen, kein "Ah sonnig, super!". Nicken, Dank,
+      weiter. Kommentare sparen für Gesamtbild.
+    severity: common
+  - issue: >
+      TN beschreiben ausweichend ("neutrales Wetter"),
+      vermeiden eigene Stimmung.
+    countermeasure: >
+      Akzeptieren — nicht zwingen zur Öffnung. Wetter-Check
+      ist Einladung, nicht Pflicht zur Intimität.
+    severity: common
+  - issue: >
+      Bei wiederkehrender Nutzung ritualisiert sich die
+      Methode (immer dasselbe sagen).
+    countermeasure: >
+      Variationen einstreuen (Vorhersage, Thema-bezogen).
+      Oder alternative Einstiege wechseln (Check-in-Frage,
+      Stimmungsbarometer).
+    severity: common
+  - issue: >
+      Jemand sagt "Gewitter" und Gruppe wird besorgt,
+      kippt Stimmung.
+    countermeasure: >
+      Ruhig nachgehen: "Was braucht Sie heute?" — aber
+      nicht ausweiten. Später 1:1 ansprechen, nicht im
+      Plenum vertiefen.
+    severity: rare
+  - issue: >
+      Online: TN sagen nur Emojis ohne Kontext — bleibt
+      flach.
+    countermeasure: >
+      Gezielt ansprechen: "Ein Satz zum Wetter bitte —
+      Emoji plus ein Wort." Macht Austausch substantieller.
+    severity: common
+  - issue: >
+      Methode wird als "zu weich" abgelehnt in Corporate-
+      Kontext.
+    countermeasure: >
+      Bei senior-Corporate andere Methode (Stimmungsbarometer,
+      Skala). Oder Wetter nur als Emoji im Chat — macht
+      es niederschwelliger.
+    severity: common

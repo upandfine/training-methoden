@@ -1,0 +1,227 @@
+slug: stimmungsbarometer
+canonical_name: Stimmungsbarometer
+synonyms:
+  - synonym: Mood Barometer
+    language: en
+  - synonym: Gefuehls-Skala
+    language: de
+short_description: >
+  Visuelle Skala (Linie, Barometer, Thermometer) — Teilnehmende markieren
+  ihre aktuelle Stimmung oder Zufriedenheit. Schnelles Gesamtbild ohne
+  Worte, gut für wiederkehrenden Einsatz zu Beginn und Ende.
+originator: null
+origin_context: >
+  Klassisches Moderationswerkzeug; in Schule, Jugendarbeit und
+  Arbeitsmedizin (Teamklima-Messung) etabliert.
+phases:
+  - code: feedback
+    is_primary: true
+  - code: arrival
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Digitale Skala auf Miro/Mural oder Mentimeter-Scale-Question.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large, plenary]
+target_audiences: [corporate, school, youth, ihk, adult_education]
+method_types: [diagnostic, feedback, visualization]
+duration_min_minutes: 2
+duration_typical_minutes: 5
+duration_max_minutes: 10
+materials:
+  - Skalen-Vorlage auf Flipchart oder digital
+tags: [stimmung, skala, visualisierung, kurz]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "Moderation: Das Praxisbuch"
+    author: Josef W. Seifert
+    year: 2019
+    relation: practice_guide
+    note: Stimmungsbarometer als Standard-Schnellabfrage in Moderationen.
+  - kind: book
+    title: "Aktivierende Methoden für Seminare"
+    author: Josef Broich
+    year: 2018
+    relation: practice_guide
+  - kind: book
+    title: "Methoden der Erlebnispädagogik"
+    author: Werner Michl
+    year: 2020
+    relation: reference
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Skala vorbereiten & Frage stellen
+    duration_minutes: 1
+    trainer_action: >
+      Skala sichtbar: Flipchart mit Linie, Thermometer-Zeichnung,
+      oder Bodenmarkierung. Beschriftung: links/unten = niedrig,
+      rechts/oben = hoch. Frage klar stellen: "Wie geht es Ihnen
+      gerade?", "Wie zufrieden mit dem Training heute?", "Wie
+      ausgeruht sind Sie?".
+    participant_action: >
+      Skala wahrnehmen, Frage hören, innerlich einstimmen.
+    note: >
+      Gute Fragen sind klar und eindimensional. "Wie geht's
+      Ihnen mit dem Projekt?" ist zu breit — was messen wir?
+      Zufriedenheit? Energie? Klarheit? Eines wählen.
+  - order: 2
+    label: Positionierung (nonverbal)
+    duration_minutes: 1
+    trainer_action: >
+      Alle gleichzeitig positionieren — Punkt setzen, Bodenposition
+      einnehmen, digital einklicken. Nicht sequenziell, sondern
+      parallel. Bei Boden-Skala: physische Bewegung verstärkt
+      Verankerung.
+    participant_action: >
+      Gleichzeitig markieren/positionieren. Ehrlich, nicht
+      strategisch. Andere nicht abchecken.
+    note: >
+      Gleichzeitigkeit schützt vor Konformitätsdruck. Boden-
+      Skala zwingt zur Körper-Entscheidung — schwerer zu
+      taktisch-beschönigen als Klick.
+  - order: 3
+    label: Bild ablesen & ansprechen
+    duration_minutes: 2
+    trainer_action: >
+      Gesamtbild kurz beschreiben: "Ich sehe die meisten im
+      mittleren Drittel, 2 unten, 1 ganz oben." Optional
+      freiwillig nachfragen: "Wer am unteren Ende hat Lust,
+      kurz zu sagen warum?" Druck vermeiden.
+    participant_action: >
+      Bild wahrnehmen, eigene Position einordnen, freiwillig
+      teilen oder schweigen.
+    note: >
+      Freiwilligkeit bei Erläuterung ist essentiell. Wer
+      unten ist, hat oft keinen Sprechwunsch. Zwingen schadet.
+      Bei wiederkehrendem Einsatz lernt Gruppe die Dynamik.
+  - order: 4
+    label: Kurzes Handlungs-Signal
+    duration_minutes: 1
+    trainer_action: >
+      Aus dem Bild ableiten: "Gemischtes Bild, gönnen wir uns
+      5 min Pause" / "Viele unten, lassen Sie uns kurz einen
+      Check-in vorziehen." Oder einfach weitergehen, wenn
+      Bild ok ist. Transparente Konsequenz.
+    participant_action: >
+      Konsequenz akzeptieren, in nächsten Programmpunkt
+      einsteigen.
+    note: >
+      Ohne Konsequenz ist Barometer nur Ritual. Methode lebt
+      davon, dass das Bild beeinflusst, was als nächstes
+      passiert — auch wenn es nur "wir machen weiter, aber
+      ich bleibe aufmerksam" ist.
+
+variations:
+  - name: Linien-Skala (Flipchart)
+    description: >
+      Waagrechte Linie 1-10, TN setzen Klebepunkt. Standard-
+      Variante im Seminar-Raum.
+    when_to_use: >
+      Indoor, 6-30 TN, schnelles Stimmungsbild. Einfach
+      vorzubereiten.
+  - name: Boden-Skala (körperlich)
+    description: >
+      Lange Linie auf dem Boden (Klebeband, Kreide), TN
+      positionieren sich physisch. Körperlicher Effekt.
+    when_to_use: >
+      Bewegungs-orientierte Settings (Jugend, Erlebnispädagogik,
+      Outdoor). Bei Bewusstmachung durch Körper.
+  - name: Thermometer-Visualisierung
+    description: >
+      Gezeichnetes Thermometer statt Linie — Kälte/Wärme
+      metaphorisch. Gut für Stimmungsfragen, weniger für
+      Zufriedenheit.
+    when_to_use: >
+      Jugend, Schule, wenn Metapher "Gefühls-Temperatur"
+      anschlussfähiger ist als abstrakte Skala.
+  - name: Mehrdimensionale Skala (zwei Achsen)
+    description: >
+      X-Achse: Energie (niedrig/hoch), Y-Achse: Valenz
+      (negativ/positiv). TN platzieren Punkt in 2D-Raum.
+      Differenziertes Stimmungsbild.
+    when_to_use: >
+      Workshops mit emotionalem Fokus, Team-Retrospektiven,
+      Coaching-Gruppen. Mehr Tiefe, mehr Zeit (10+ min).
+  - name: Digital (Mentimeter / Miro)
+    description: >
+      Online-Skala mit Live-Voting. Ergebnisse werden
+      aggregiert angezeigt (Heatmap, Durchschnitt).
+      Anonym möglich.
+    when_to_use: >
+      Remote-Trainings, Webinare, große Gruppen (30+).
+      Automatische Auswertung.
+    setting_codes: [remote_sync]
+  - name: Wiederkehrendes Barometer
+    description: >
+      3-4× pro Session einsetzen (Start, Mitte, Ende).
+      Vergleichbarkeit über die Zeit.
+    when_to_use: >
+      Mehrtägige Trainings, intensive Workshops, wenn
+      Stimmungs-Verlauf relevant ist.
+
+pitfalls:
+  - issue: >
+      Sequenzielles Votieren — Bandwagon-Effekt.
+    countermeasure: >
+      "Auf drei gleichzeitig" — Signal geben. Bei Boden-Skala:
+      alle gleichzeitig aufstehen. Bei Klick-Tools: Zeitfenster
+      setzen.
+    severity: common
+  - issue: >
+      Frage ist zu vage, TN wissen nicht, was gemessen wird.
+    countermeasure: >
+      Einzel-Dimensions-Fragen. Statt "Wie geht's?" — "Wie
+      ausgeruht?", "Wie interessiert?", "Wie zufrieden mit der
+      letzten Übung?". Präzision = Nutzbarkeit.
+    severity: common
+  - issue: >
+      Unten-Positionen werden gedrängt zu begründen — Misstrauen
+      wächst.
+    countermeasure: >
+      Freiwilligkeit explizit: "Wer Lust hat, kann was sagen —
+      muss aber nicht." Kein Aufrufen. Vertrauen aufbauen,
+      dann kommen Erklärungen von allein.
+    severity: common
+  - issue: >
+      Methode wird als Wartungs-Routine abgenutzt ("schon wieder
+      die Skala").
+    countermeasure: >
+      Varianten wechseln (Thermometer, 2D, Boden, Digital). Nur
+      einsetzen wenn echte Info gebraucht wird, nicht automatisch
+      jedes Mal.
+    severity: common
+  - issue: >
+      Keine Konsequenz aus dem Bild — Barometer hängt sinnlos.
+    countermeasure: >
+      Immer wenigstens benennen: "Gemischtes Bild, ich bin
+      gespannt..." oder "Sieht gut aus, wir machen weiter." Bei
+      kritischem Bild: Konsequenz (Pause, Umplanung, Nachfrage).
+    severity: common
+  - issue: >
+      Bei großen Gruppen wird Visualisierung unübersichtlich
+      (Punkte übereinander).
+    countermeasure: >
+      Digital-Variante mit Heatmap (automatische Darstellung).
+      Oder: Gruppe in 2 Hälften splitten, Doppel-Skala.
+    severity: common
+  - issue: >
+      TN interpretieren Skala unterschiedlich (1=sehr gut oder
+      1=sehr schlecht?).
+    countermeasure: >
+      Beschriftung explizit: "1 = traurig/energielos, 10 =
+      freudig/energiegeladen". Kurzer Check: "Alle klar, wo
+      was ist?"
+    severity: rare

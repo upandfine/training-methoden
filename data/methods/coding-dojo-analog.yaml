@@ -1,0 +1,266 @@
+slug: coding-dojo-analog
+canonical_name: Coding Dojo (analog übertragbar)
+synonyms:
+  - synonym: Coding Dojo
+    language: en
+  - synonym: Uebungs-Dojo
+    language: de
+short_description: >
+  Kleine Gruppe übt ein Kata (kurze, wiederholbare Übung) gemeinsam; ein
+  Paar arbeitet am „Driver/Navigator"-Rechner, die anderen beobachten.
+  Prinzip lässt sich auf andere Felder (Verkauf, Moderation, Pflege)
+  übertragen: wiederholbare Mini-Übung, Rotation, Feedback.
+originator: Laurent Bossavit, Emmanuel Gaillot (Coding Dojo i.e.S.)
+origin_context: >
+  Coding Dojo 2005 in Paris etabliert; auf das allgemeine Dojo-Prinzip
+  (japanische Kampfkunst-Übungshallen) übertragen. In der Trainer:innen-
+  Szene auch als „Practice Dojo" oder „Kata-Session" bekannt.
+phases:
+  - code: practice
+    is_primary: true
+  - code: deepening
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Mit Screenshare oder Mob-Programming-Tools; deutlich mehr Moderation nötig.
+  - code: remote_async
+    suitability: limited
+  - code: hybrid
+    suitability: good
+group_sizes: [small]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [cooperative, activating]
+duration_min_minutes: 60
+duration_typical_minutes: 120
+duration_max_minutes: 240
+tags: [dojo, kata, uebung, pair]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: url
+    title: "CodingDojo.org"
+    url: https://codingdojo.org/
+    relation: originator
+    note: >
+      Coding-Dojo-Community — Format von Bossavit und
+      Gaillot 2005 in Paris etabliert.
+  - kind: book
+    title: "The Coding Dojo Handbook"
+    author: Emily Bache
+    year: 2014
+    relation: practice_guide
+    note: Praxisbuch für Coding-Dojo-Moderation.
+  - kind: book
+    title: "The Power of Full Engagement"
+    author: Jim Loehr, Tony Schwartz
+    year: 2003
+    relation: reference
+    note: >
+      Kata-Prinzip (wiederholbare Übung bis zur
+      Beherrschung) übertragbar aus Kampfkunst-Tradition
+      auf deliberate practice.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Kata (Übung) auswählen & einführen
+    duration_minutes: 15
+    trainer_action: >
+      Klar abgegrenzte Übung wählen (original: Programmier-
+      Problem; analog: Verkaufsgespräch-Kata, Moderations-
+      Eröffnungs-Kata, Pflege-Handgriff-Kata). Regeln
+      erklären: Driver/Navigator/Beobachter, Rotation
+      alle 7 min.
+    participant_action: >
+      Kata verstehen, Rollen-Prinzip mitnehmen, eigenes
+      Interesse aktivieren.
+    note: >
+      Gute Katas sind eng gefasst, wiederholbar,
+      qualitativ bewertbar. "Ein Kunde-Begrüßen" ja,
+      "Ein ganzes Verkaufsgespräch" zu breit.
+  - order: 2
+    label: Paar bilden & erste Runde starten
+    duration_minutes: 15
+    trainer_action: >
+      Ein Paar (Driver + Navigator) vorne. Driver
+      führt aus, Navigator coacht. Rest beobachtet
+      und notiert. Erste Runde 7 min.
+    participant_action: >
+      Driver: praktisch ausführen. Navigator: denken
+      laut, Vorschläge geben. Beobachter: notieren.
+    note: >
+      Pair-Programming-Prinzip auch analog: Driver
+      tut, Navigator denkt. Rollen-Trennung macht
+      Erkenntnis.
+  - order: 3
+    label: Rotation (alle 7 min)
+    duration_minutes: 2
+    trainer_action: >
+      Signal. Driver setzt sich raus, Navigator wird
+      Driver, Beobachter wird Navigator. Rhythmische
+      Rotation hält alle aktiv.
+    participant_action: >
+      Rolle wechseln, schnell einarbeiten.
+    note: >
+      Rotation ist Kern — jede:r alle Rollen. Bei
+      großer Gruppe (> 5): mehrere Dojos parallel,
+      sonst zu lange Wartezeit.
+  - order: 4
+    label: Mehrere Rotations-Runden
+    duration_minutes: 48
+    trainer_action: >
+      6-8 Rotations-Runden. Jede 7 min. Moderation
+      beobachtet, pausiert bei Bedarf für kurzen
+      Reflexions-Impuls.
+    participant_action: >
+      In jeder Runde andere Rolle. Lerne beim Machen,
+      beim Coachen, beim Beobachten. Verschiedene
+      Perspektiven.
+    note: >
+      6-8 Runden schaffen Tiefe. Bei weniger: nicht
+      alle durch alle Rollen. Bei mehr: Ermüdung.
+  - order: 5
+    label: Zwischen-Reflexion (Mitte)
+    duration_minutes: 10
+    trainer_action: >
+      Nach halber Zeit Pause: "Was funktioniert?
+      Was nicht? Welche Muster sehen wir?" Kurze
+      Reflexion, dann weiter.
+    participant_action: >
+      Eigene Erkenntnisse teilen, Muster beschreiben.
+    note: >
+      Mittel-Reflexion bringt Meta-Lernen. Ohne:
+      reine Wiederholung ohne Verstehen.
+  - order: 6
+    label: Finale Runde & Ernte
+    duration_minutes: 20
+    trainer_action: >
+      Letzte Runde. Oder: gemeinsame Mob-Session
+      (alle als Navigatoren, ein Driver). Danach
+      Ernte: "Was haben wir gelernt? Was nehmen
+      wir mit?"
+    participant_action: >
+      Erkenntnisse formulieren, Transfer zum
+      Arbeitsalltag ziehen.
+    note: >
+      Ernte-Phase wertet Übung aus. Konkrete
+      Erkenntnisse sichern. Ohne: nur Übung,
+      kein Lern-Transfer.
+  - order: 7
+    label: Transfer & Commitment
+    duration_minutes: 10
+    trainer_action: >
+      "Wo wenden Sie das in der Praxis an?" Konkrete
+      Situationen benennen. Kata-Praxis für Alltag
+      empfehlen: "Einmal wöchentlich 20 min Kata."
+    participant_action: >
+      Transfer-Situation benennen, Praxis-Commitment
+      geben.
+    note: >
+      Kata-Prinzip lebt von Wiederholung. Ein Dojo-
+      Termin ist Einstieg, nicht Ende. Regelmäßigkeit
+      fördern.
+
+variations:
+  - name: Klassisches Coding Dojo
+    description: >
+      Original-Format: Programmieraufgabe, Driver/
+      Navigator, Rotationen. Für Entwickler:innen-Teams.
+    when_to_use: >
+      Software-Entwicklung, Code-Quality-Training,
+      TDD-Einstieg.
+  - name: Kommunikations-Dojo
+    description: >
+      Kata: Eröffnungs-Dialog, Einwand behandeln, Pitch.
+      Driver/Navigator/Beobachter-Prinzip gleich.
+    when_to_use: >
+      Verkaufs-Training, Führungs-Kommunikation,
+      Kunden-Gespräche.
+  - name: Moderations-Dojo
+    description: >
+      Kata: Moderations-Einstieg, Konflikt-Deeskalation,
+      Runde eröffnen. Üben in rollen.
+    when_to_use: >
+      Moderations-Ausbildung, Facilitator-Training.
+  - name: Pflege-/Handgriffs-Dojo
+    description: >
+      Kata: Handgriff, Patiententransfer, Injektion.
+      Physische Praxis mit Peer-Feedback.
+    when_to_use: >
+      Pflege-Ausbildung, medizinische Skills,
+      handwerkliche Berufe.
+  - name: Mob-Dojo (alle Navigatoren)
+    description: >
+      Variante: ein:e Driver, alle anderen sind
+      Navigatoren. Mehr Kollaboration, weniger
+      Rotation.
+    when_to_use: >
+      Kleine Gruppen (< 5), wenn Kollaboration
+      wichtiger als Rotation.
+  - name: Remote Dojo (Screenshare)
+    description: >
+      Online: Driver teilt Bildschirm, Navigator spricht,
+      Beobachter in Chat. Rotation per Host-
+      Koordination.
+    when_to_use: >
+      Verteilte Teams. Coding Dojo funktioniert gut
+      remote, Kommunikations-Dojo mittelmäßig.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Kata zu breit — keine Wiederholung im Zeitfenster.
+    countermeasure: >
+      Kata eng fassen. Vorher mit einzelner Person
+      testen: in 7 min machbar? Wenn nicht: enger.
+    severity: common
+  - issue: >
+      Rolle-Trennung wird nicht eingehalten —
+      Beobachter redet mit.
+    countermeasure: >
+      Regel streng durchsetzen. Nur Navigator gibt
+      Vorschläge. Beobachter notieren, intervenieren
+      nicht.
+    severity: common
+  - issue: >
+      Rotation wird nicht eingehalten — einzelne
+      dominieren.
+    countermeasure: >
+      Timer hart. 7 min heißt 7 min. Auch wenn
+      mitten in Übung. Rotation ist Lern-Feature.
+    severity: common
+  - issue: >
+      Kata wird nicht wiederholt — nur einmalig geübt.
+    countermeasure: >
+      Kata-Prinzip klarstellen: Wiederholbarkeit. Bei
+      regelmäßigen Sessions: selbe Kata mehrfach
+      üben. Meisterung durch Wiederholung.
+    severity: common
+  - issue: >
+      Keine Reflexions-Phasen — nur Übung.
+    countermeasure: >
+      Zwischen- + Ernte-Reflexion fest einplanen.
+      Meta-Lernen ist entscheidend. Ohne: reine
+      Übung ohne Verstehen.
+    severity: common
+  - issue: >
+      Driver fühlt sich bloßgestellt — zu viele
+      Zuschauer.
+    countermeasure: >
+      Kultur: "Wir üben gemeinsam, alle machen
+      Fehler." Psychologische Sicherheit explizit.
+      Bei Unwohlsein: aussteigen-Option.
+    severity: common
+  - issue: >
+      Nach Dojo keine Praxis — Lerneffekt verpufft.
+    countermeasure: >
+      Commitment zu Kata-Praxis im Alltag. Regelmäßige
+      Dojo-Termine im Team etablieren. Deliberate
+      practice braucht Kontinuität.
+    severity: common

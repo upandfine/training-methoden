@@ -1,0 +1,241 @@
+slug: mini-pitch
+canonical_name: Mini-Pitch
+synonyms:
+  - synonym: Elevator Pitch
+    language: en
+  - synonym: Kurz-Pitch
+    language: de
+short_description: >
+  Teilnehmende präsentieren in 60–120 Sekunden eine Idee, ein Projekt oder
+  eine Kernaussage. Zuhörende geben strukturiertes Feedback. Trainiert
+  Fokus, Kernbotschaft, Präsenz.
+originator: null
+origin_context: >
+  „Elevator Pitch" als Konzept ab den 1990ern in Venture-Capital-Kreisen
+  popularisiert (Philip Crosby, Ilene Rosenzweig); heute auch im
+  Bildungskontext häufig.
+phases:
+  - code: practice
+    is_primary: true
+  - code: activation
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: good
+    note: Als asynchrone Video-Aufnahme (z.B. Flip, Loom) gut einsetzbar.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [small, medium, large]
+target_audiences: [corporate, school, youth, ihk, adult_education, higher_education]
+method_types: [activating, cooperative]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 60
+tags: [pitch, kurz, kernbotschaft]
+quality_status: human_reviewed
+content_author: AI-generated, reviewed 2026-04
+
+sources:
+  - kind: book
+    title: "The Art of the Pitch"
+    author: Peter Coughter
+    year: 2012
+    relation: practice_guide
+    note: Strukturelle Grundlagen von überzeugenden Kurzpräsentationen.
+  - kind: book
+    title: "Made to Stick"
+    author: Chip Heath, Dan Heath
+    year: 2007
+    relation: reference
+    note: >
+      SUCCESS-Prinzipien (Simple, Unexpected, Concrete, Credible,
+      Emotional, Stories) — Basis guter Pitches.
+  - kind: article
+    title: "The Perfect Elevator Pitch"
+    author: Daniel Pink
+    year: 2012
+    relation: reference
+    note: Pink's "Pitch like a pro"-Framework für kompakte Überzeugungsarbeit.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: human_reviewed
+stage_2_author: AI-generated, reviewed 2026-04
+
+steps:
+  - order: 1
+    label: Thema wählen & Struktur erklären
+    duration_minutes: 5
+    trainer_action: >
+      Pitch-Thema ansagen (eigene Projekt-Idee, ein Lerninhalt,
+      eine Position). Struktur-Vorschlag: Problem (1 Satz) →
+      Lösung (1 Satz) → Warum ich/wir? (1 Satz) → Call-to-Action
+      (1 Satz). Zeitlimit: 60-120 Sek. Bei erstem Mal: Beispiel-
+      Pitch vorführen.
+    participant_action: >
+      Thema verstehen, eigene Pitch-Idee identifizieren,
+      Struktur notieren.
+    note: >
+      Struktur ist Stütze, nicht Zwang. Erfahrene können frei
+      pitchen, Einsteiger brauchen Struktur. Beispiel-Pitch
+      zeigen macht Niveau greifbar.
+  - order: 2
+    label: Einzel-Vorbereitung (still)
+    duration_minutes: 10
+    trainer_action: >
+      10 min still zum Ausformulieren. Notizen erlaubt, aber
+      nicht ablesen sollen. Moderation gibt Impulse: "Was ist
+      das EINE, das Ihre:n Zuhörer:in überzeugen muss?"
+    participant_action: >
+      Still ausformulieren, ggf. üben (innerlich sprechen),
+      auf Struktur achten. Zeitgefühl entwickeln.
+    note: >
+      10 min sind eng — aber absichtlich. Ein guter Pitch
+      entsteht unter Druck knackiger als bei Muße. Wer mehr
+      Zeit will: darf üben, aber nicht endlos.
+  - order: 3
+    label: Probe-Pitch im Paar
+    duration_minutes: 5
+    trainer_action: >
+      Paare bilden. Je 90 Sek. pitch üben, dann 30 Sek.
+      Partner-Feedback: "Was war klar? Was verwirrend? Was
+      fehlt?" Rollenwechsel. Keine inhaltliche Korrektur,
+      nur Wirkungs-Rückmeldung.
+    participant_action: >
+      Einander pitchen, Partner-Feedback entgegennehmen.
+      Nachschärfen. Noch nicht perfekt sein müssen.
+    note: >
+      Probe-Phase senkt Bühnenangst und zeigt, wo der Pitch
+      hakt. Ohne Probe: erster Auftritt wird schwach oder
+      zu unsicher.
+  - order: 4
+    label: Pitches im Plenum
+    duration_minutes: 8
+    trainer_action: >
+      Reihum oder per Freiwilligkeit pitchen. 60-120 Sek. pro
+      Person, strikt mit Timer. Moderation hält Zeit, nicht
+      Inhalt. Applaus nach jedem Pitch, kurze Feedback-Runde
+      (s. nächster Schritt).
+    participant_action: >
+      Pitchen, danach Feedback-geben für andere. Aufmerksam
+      zuhören während fremder Pitches.
+    note: >
+      Bei >8 TN: nicht alle pitchen im Plenum, sondern
+      Kleingruppen à 4-5. Plenum nur Highlights oder
+      "besonders überzeugt hat mich..."-Runde.
+  - order: 5
+    label: Feedback-Runde
+    duration_minutes: 2
+    trainer_action: >
+      Nach jedem Pitch kurze Rückmeldung (30-60 Sek): "Was
+      überzeugt hat / was noch unklar ist". Struktur: "Ich
+      habe gehört: X. Klar war für mich Y. Offen bleibt Z."
+      Ein-zwei Stimmen reichen.
+    participant_action: >
+      Kurz, strukturiert Feedback geben. Sich selbst
+      Feedback-fähig einbringen.
+    note: >
+      Feedback ohne Struktur wird zu "fand ich gut"-Runde.
+      Besser: was VERSTANDEN wurde + was UNKLAR blieb + was
+      FEHLT. Konkret und knapp.
+
+variations:
+  - name: Klassischer Mini-Pitch (90 Sek)
+    description: >
+      Vorbereitet, vor Gruppe, 90 Sek, mit Feedback. Standard-
+      Variante.
+    when_to_use: >
+      Projekt-Präsentation, Ideen-Pitching, Abschluss-
+      Präsentationen in Seminaren.
+  - name: Elevator Pitch (30 Sek)
+    description: >
+      Nur 30 Sek, extrem zugespitzt. "Wenn Sie 30 Sekunden
+      im Fahrstuhl hätten..."
+    when_to_use: >
+      Messe-Kontexte, Networking-Events, Vorbereitung auf
+      spontane Begegnungen.
+  - name: Pecha-Kucha-Light (3 Folien × 20 Sek)
+    description: >
+      3 Folien, je 20 Sek automatisch wechselnd. Strenge
+      Form, erzwingt Kürze und Struktur.
+    when_to_use: >
+      Fortgeschrittene Pitches, Wettbewerbe, wenn
+      visuelle Unterstützung sinnvoll.
+  - name: Pitch-Battle (Head-to-Head)
+    description: >
+      Zwei TN pitchen nacheinander zum gleichen Thema
+      (pro/contra oder verschiedene Ansätze). Publikum
+      stimmt ab.
+    when_to_use: >
+      Argumentations-Training, Debatten-Übung, Verkaufs-
+      Training.
+  - name: Remote Video-Pitch (asynchron)
+    description: >
+      TN nehmen 90-Sek-Video auf (Loom, Flip), teilen es.
+      Asynchrones Feedback via Kommentare.
+    when_to_use: >
+      Verteilte Teams, Bewerbungs-Training, Sales-Training.
+      Gut für wiederholte Iteration.
+    setting_codes: [remote_async]
+  - name: Pitch mit Props (Gegenstand)
+    description: >
+      Ein zufälliger Gegenstand (aus Trainer:innen-Sammlung)
+      muss im Pitch verwendet werden. Improvisations-Element.
+    when_to_use: >
+      Kreativitäts-Trainings, Präsentations-Übungen mit
+      Spaß-Faktor. Lockert Druck.
+
+pitfalls:
+  - issue: >
+      Pitches werden zu lang (3+ min), Zeit-Management bricht.
+    countermeasure: >
+      Timer sichtbar. Strikt abbrechen bei Zeit-Ende. "In der
+      echten Welt gibt's auch keine Verlängerung." Moderation
+      muss eisern sein.
+    severity: common
+  - issue: >
+      Struktur wird ignoriert — Pitches sind chaotisch.
+    countermeasure: >
+      Struktur vorab einüben, im Probe-Pitch strikt fordern.
+      Template bereithalten: "Problem-Lösung-Warum-CTA." Nicht
+      optional, sondern Rahmen.
+    severity: common
+  - issue: >
+      TN lesen vom Blatt ab — verliert Präsenz.
+    countermeasure: >
+      Stichwort-Karten erlaubt, aber nicht vollständige
+      Sätze. Beim Pitch-Feedback: "Blickkontakt gesucht?"
+      Bewusstmachen des Effekts.
+    severity: common
+  - issue: >
+      Bühnenangst lähmt — Pitch bricht zusammen.
+    countermeasure: >
+      Probe im Paar macht Bühne vertraut. Bei anhaltender
+      Angst: Pitch im kleinen Kreis zuerst, dann im Plenum.
+      Ermutigung, aber kein Zwang.
+    severity: common
+  - issue: >
+      Feedback bleibt höflich und unspezifisch ("war gut!").
+    countermeasure: >
+      Feedback-Struktur vorgeben (was klar war + was fehlt +
+      was stärker machen würde). Konkrete Rückmeldung als
+      Skill einführen.
+    severity: common
+  - issue: >
+      Bei großen Gruppen (>10) werden Plenum-Pitches
+      ermüdend.
+    countermeasure: >
+      Kleingruppen-Variante ab 10 TN. 4er-Gruppen, jede:r
+      pitcht einmal, kurze Feedback-Runde. Im Plenum nur
+      Highlight-Reihe.
+    severity: common
+  - issue: >
+      Themen passen nicht zum Pitch-Format (zu komplex,
+      zu persönlich).
+    countermeasure: >
+      Themen-Auswahl kritisch. Pitch ist für klare Aussagen,
+      nicht für Tiefen-Reflexion. Bei unpassendem Thema:
+      andere Methode wählen.
+    severity: common
