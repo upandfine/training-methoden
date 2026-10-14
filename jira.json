@@ -1,0 +1,11 @@
+{
+  "site": "upandfine.atlassian.net",
+  "projectKey": "KSM",
+  "projectId": 10206,
+  "boardId": 203,
+  "defaultIssueType": "Story",
+  "lanes": [
+    "KI-Review"
+  ],
+  "tool": "~/.claude/tools/jira/jira.py"
+}
