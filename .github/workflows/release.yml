@@ -28,7 +28,7 @@ jobs:
           tar -C data -cf snapshot.tar snapshot
           tar -tf snapshot.tar
       - name: Release mit Asset
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: snapshot.tar
           generate_release_notes: true
