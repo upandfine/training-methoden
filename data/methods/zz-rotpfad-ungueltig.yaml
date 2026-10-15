@@ -1,6 +1,0 @@
-slug: "ROT PFAD ungueltig"
-canonical_name: Rot-Pfad-Beleg (KSM-2)
-short_description: >
-  Absichtlich ungueltige Datei fuer den Rot-Pfad-Beleg der CI; wird im Folge-Commit entfernt.
-phases:
-  - code: gibt_es_nicht
