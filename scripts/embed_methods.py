@@ -71,7 +71,6 @@ from methods.models import (  # noqa: E402
     MethodTypeLink,
 )
 
-
 MODEL_DEFAULT = "text-embedding-3-small"
 MODEL_NATIVE_DIM = {
     "text-embedding-3-small": 1536,

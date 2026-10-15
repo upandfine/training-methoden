@@ -680,7 +680,7 @@ def search(
     # Zusätzlich: Zeit-Skala-Substantive ausfiltern. "30 Minuten" in einer
     # Trainer-Query ist fast immer eine Skala-Angabe, kein Suchbegriff —
     # sonst rankt jede Methode, die "X min" in der Beschreibung hat, mit.
-    _STOP = {
+    _stop = {
         "der", "die", "das", "den", "dem", "des",
         "ein", "eine", "einer", "einen", "einem", "eines",
         "und", "oder", "aber",
@@ -703,7 +703,7 @@ def search(
     tokens_raw = re.split(r"\W+", q.lower())
     tokens = [
         t for t in tokens_raw
-        if len(t) >= 3 and t not in _STOP and not t.isdigit()
+        if len(t) >= 3 and t not in _stop and not t.isdigit()
     ]
     if tokens:
         # Format: "energizer:* | morgen:*" → matched any prefix

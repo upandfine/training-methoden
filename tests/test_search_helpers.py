@@ -10,6 +10,7 @@ Logik, die ohne externe Abhängigkeiten reproduzierbar ist:
 
 from __future__ import annotations
 
+import sys
 from dataclasses import dataclass, field
 from types import SimpleNamespace
 
@@ -92,6 +93,9 @@ def _import_builder():
     )
     assert spec and spec.loader
     mod = importlib.util.module_from_spec(spec)
+    # Vor exec_module registrieren: @dataclass im Skript sucht das Modul in sys.modules
+    # (Python 3.12 wirft sonst AttributeError auf NoneType).
+    sys.modules[spec.name] = mod
     spec.loader.exec_module(mod)
     return mod.build_representational_text
 

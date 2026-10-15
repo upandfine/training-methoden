@@ -1,0 +1,34 @@
+# Snapshot-Release je Tag v* (KSM-2, KSP-66 / MK-1).
+# Packt data/snapshot/ (methods.json, references.json, embeddings.npy,
+# has_embedding.npy, manifest.json) als snapshot.tar an das GitHub-Release.
+# Konsumenten: `ff methoden --katalog` und der Planer-Build (Kursschneider
+# docs/requirements/02-produktlinie-vereinigung.md, Abschnitt Release-Assets).
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Snapshot prüfen
+        run: |
+          test -s data/snapshot/manifest.json
+          test -s data/snapshot/methods.json
+          python3 -c 'import json; m=json.load(open("data/snapshot/manifest.json")); print("Methoden:", m["method_count"], "Embeddings:", m["embedding_count"], "Stand:", m["generated_at"])'
+      - name: snapshot.tar bauen
+        run: |
+          tar -C data -cf snapshot.tar snapshot
+          tar -tf snapshot.tar
+      - name: Release mit Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: snapshot.tar
+          generate_release_notes: true

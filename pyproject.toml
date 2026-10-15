@@ -50,3 +50,12 @@ target-version = "py311"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B", "UP", "N"]
+
+[tool.ruff.lint.per-file-ignores]
+# FastAPI-Muster: Depends()/Query() als Default-Argument (B008); Imports nach dem
+# Snapshot-Lazy-Load sind Absicht (E402).
+"src/methods/api.py" = ["B008", "E402"]
+# Typer-Muster: Option()/Argument() als Default-Argument.
+"src/methods/cli.py" = ["B008"]
+# Eingebettetes HTML/CSS/JS im Static-Browser-Generator.
+"scripts/build_static_browser.py" = ["E501"]
