@@ -79,7 +79,7 @@ def fetch(base: str, q: str, mode: str, limit: int = 5) -> list[dict]:
         except TimeoutError as e:
             last_err = e
             if attempt == 0:
-                print(f"   ⏱  Timeout, einmal Retry …", flush=True)
+                print("   ⏱  Timeout, einmal Retry …", flush=True)
                 continue
         except Exception as e:  # noqa: BLE001
             return [{"error": f"{e.__class__.__name__}: {e}"}]

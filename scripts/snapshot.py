@@ -24,9 +24,8 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import numpy as np
@@ -54,7 +53,6 @@ from methods.models import (  # noqa: E402
     Setting,
     TargetAudience,
 )
-
 
 SCHEMA_VERSION = 1
 EMBED_DIM = 1536
@@ -231,7 +229,7 @@ def export(
 
     manifest = {
         "schema_version": SCHEMA_VERSION,
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": datetime.now(UTC).isoformat(),
         "method_count": len(methods_payload),
         "embedding_count": int(has_embedding.sum()),
         "embedding_dim": EMBED_DIM,

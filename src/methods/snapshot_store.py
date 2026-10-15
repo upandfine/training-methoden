@@ -29,10 +29,8 @@ from collections import Counter
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
-from typing import Any
 
 import numpy as np
-
 
 # Stop-Words für die lexikalische Suche. Identisch zu dem, was im
 # Postgres-Pfad in api.py steht — wenn dort geändert, hier auch.
@@ -424,7 +422,7 @@ class SnapshotStore:
         # Regex-Pattern für Token-Prefix: \btoken
         token_patterns = [re.compile(rf"\b{re.escape(t)}", re.IGNORECASE) for t in tokens]
 
-        for idx, m in enumerate(self._methods):
+        for idx, _m in enumerate(self._methods):
             ix = self._indexes[idx]
             # FTS-Approximation: wieviele der Query-Tokens kommen als
             # Wort-Anfang im Haystack vor?

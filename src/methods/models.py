@@ -212,40 +212,40 @@ class Method(Base, TimestampMixin):
     embedding: Mapped[Any | None] = mapped_column(Vector(1536), nullable=True)
 
     # Relationen
-    synonyms: Mapped[list["MethodSynonym"]] = relationship(
+    synonyms: Mapped[list[MethodSynonym]] = relationship(
         back_populates="method", cascade="all, delete-orphan", lazy="selectin"
     )
-    steps: Mapped[list["MethodStep"]] = relationship(
+    steps: Mapped[list[MethodStep]] = relationship(
         back_populates="method",
         cascade="all, delete-orphan",
         order_by="MethodStep.order_index",
         lazy="selectin",
     )
-    sources: Mapped[list["MethodSource"]] = relationship(
+    sources: Mapped[list[MethodSource]] = relationship(
         back_populates="method", cascade="all, delete-orphan", lazy="selectin"
     )
-    variations: Mapped[list["MethodVariation"]] = relationship(
+    variations: Mapped[list[MethodVariation]] = relationship(
         back_populates="method", cascade="all, delete-orphan", lazy="selectin"
     )
-    pitfalls: Mapped[list["MethodPitfall"]] = relationship(
+    pitfalls: Mapped[list[MethodPitfall]] = relationship(
         back_populates="method", cascade="all, delete-orphan", lazy="selectin"
     )
-    phase_links: Mapped[list["MethodPhase"]] = relationship(
+    phase_links: Mapped[list[MethodPhase]] = relationship(
         back_populates="method", cascade="all, delete-orphan"
     )
-    setting_links: Mapped[list["MethodSetting"]] = relationship(
+    setting_links: Mapped[list[MethodSetting]] = relationship(
         back_populates="method", cascade="all, delete-orphan"
     )
-    group_size_links: Mapped[list["MethodGroupSize"]] = relationship(
+    group_size_links: Mapped[list[MethodGroupSize]] = relationship(
         back_populates="method", cascade="all, delete-orphan"
     )
-    audience_links: Mapped[list["MethodTargetAudience"]] = relationship(
+    audience_links: Mapped[list[MethodTargetAudience]] = relationship(
         back_populates="method", cascade="all, delete-orphan"
     )
-    type_links: Mapped[list["MethodTypeLink"]] = relationship(
+    type_links: Mapped[list[MethodTypeLink]] = relationship(
         back_populates="method", cascade="all, delete-orphan"
     )
-    review_log: Mapped[list["ReviewLogEntry"]] = relationship(
+    review_log: Mapped[list[ReviewLogEntry]] = relationship(
         back_populates="method", cascade="all, delete-orphan"
     )
 
@@ -361,7 +361,7 @@ class Source(Base, TimestampMixin):
     doi: Mapped[str | None] = mapped_column(String(128))
     notes: Mapped[str | None] = mapped_column(Text)
 
-    method_links: Mapped[list["MethodSource"]] = relationship(
+    method_links: Mapped[list[MethodSource]] = relationship(
         back_populates="source", cascade="all, delete-orphan"
     )
 

@@ -13,6 +13,12 @@ IHK, Erwachsenenbildung — für **Präsenz, Remote und Hybrid**.
 - **Python 3.11+**, SQLAlchemy 2.x, Alembic, Pydantic 2, Typer, Rich, PyYAML
 - **FastAPI + Uvicorn** (optional, unter `api` extra) — Read-only-API für Katalog/Suche
 
+## CI und Release
+
+- **CI je PR und je Push auf `main`** (`.github/workflows/ci.yml`): `ruff check`, `compileall`, `scripts/verify_yamls.py` (Schema der 163 Methoden-YAMLs) und `pytest tests` ohne Datenbank. Lokal dasselbe mit `make verify` und `make test`.
+- **Release je Tag `v*`** (`.github/workflows/release.yml`): hängt `snapshot.tar` (Inhalt von `data/snapshot/`, inklusive `manifest.json`) an das GitHub-Release. Vorher lokal `make snapshot`, committen, dann `git tag v<version> && git push --tags`.
+- **Dependabot** wöchentlich für pip (gruppiert) und GitHub Actions.
+
 ## Deployment als Microservice
 
 Zwei Pfade, je nach Use-Case:
