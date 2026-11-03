@@ -1,0 +1,174 @@
+slug: auswertung-mit-kriterien
+canonical_name: Auswertung mit Kriterien
+synonyms:
+  - synonym: Kriteriengestützte Auswertung
+    language: de
+  - synonym: Criteria-based Debrief
+    language: en
+short_description: >
+  Arbeitsergebnisse werden im Plenum an Kriterien gemessen, die vor der
+  Aufgabe genannt wurden. Die Trainingsleitung gibt Rückmeldung zur
+  Aufgabe und zum Vorgehen und nennt den nächsten Schritt – nicht zur
+  Person.
+originator: Formative Beurteilung (Sadler; Hattie & Timperley)
+origin_context: >
+  Sadler (1989) beschreibt, dass Lernende Qualität erst verbessern
+  können, wenn sie den Maßstab kennen und ihr Ergebnis daran messen.
+  Hattie & Timperley (2007) zeigen, dass Rückmeldung zu Aufgabe und
+  Vorgehen wirkt, Rückmeldung zur Person kaum. Kluger & DeNisi (1996)
+  belegen, dass Rückmeldung auch schaden kann, wenn sie auf die Person
+  zielt.
+phases:
+  - code: feedback
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Ergebnisse per Bildschirmfreigabe, Kriterien als Folie daneben.
+  - code: hybrid
+    suitability: good
+    note: Ergebnisse digital sichtbar machen, damit Online-TN mitbewerten können.
+group_sizes: [small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education, school]
+method_types: [feedback, reflective]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 20
+materials:
+  - Kriterienliste (Folie oder Flipchart), vor der Aufgabe bekannt gegeben
+  - Arbeitsergebnisse der TN (sichtbar für alle)
+tags: [kriterien, ergebnisbesprechung, formatives-feedback, auswertung]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "The power of feedback"
+    author: John Hattie, Helen Timperley
+    year: 2007
+    relation: reference
+    note: >
+      Review of Educational Research, 77(1), 81-112. Wirksame
+      Rückmeldung beantwortet: Wohin? Wo stehe ich? Was ist der
+      nächste Schritt?
+  - kind: article
+    title: "Formative assessment and the design of instructional systems"
+    author: D. Royce Sadler
+    year: 1989
+    relation: originator
+    note: >
+      Instructional Science, 18, 119-144. Lernende müssen den
+      Qualitätsmaßstab kennen, um ihr Ergebnis selbst verbessern zu
+      können.
+  - kind: article
+    title: "The effects of feedback interventions on performance"
+    author: Avraham N. Kluger, Angelo DeNisi
+    year: 1996
+    relation: deep_dive
+    note: >
+      Psychological Bulletin, 119(2), 254-284. In rund einem Drittel
+      der Fälle verschlechtert Rückmeldung die Leistung – vor allem,
+      wenn sie die Person statt die Aufgabe betrifft.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Kriterien vor der Aufgabe nennen (Teil der Aufgabenstellung)
+    duration_minutes: 0
+    trainer_action: >
+      Schon beim Arbeitsauftrag drei bis fünf Kriterien nennen und
+      sichtbar lassen, z. B. „vollständig", „begründet",
+      „für Laien verständlich".
+    participant_action: >
+      Kriterien beim Arbeiten berücksichtigen.
+    note: >
+      Ohne vorher genannte Kriterien ist die Auswertung ein Urteil von
+      außen. Die Minuten dafür gehören zur Aufgabe, nicht zur Auswertung.
+  - order: 2
+    label: Ergebnisse zeigen und selbst einschätzen
+    duration_minutes: 4
+    trainer_action: >
+      Ein bis drei Ergebnisse zeigen lassen. Erst die Gruppe selbst
+      fragen: „Welches Kriterium ist gut erfüllt, wo fehlt etwas?"
+    participant_action: >
+      Eigenes Ergebnis an den Kriterien prüfen und benennen.
+    note: >
+      Selbsteinschätzung vor der Rückmeldung schult den Blick für
+      Qualität. Nicht alle Ergebnisse zeigen – Auswahl genügt.
+  - order: 3
+    label: Rückmeldung zu Aufgabe und Vorgehen
+    duration_minutes: 4
+    trainer_action: >
+      Je Ergebnis: was erfüllt ist (konkret), was fehlt (konkret), und
+      ein nächster Schritt. Muster benennen, die in mehreren Ergebnissen
+      vorkommen.
+    participant_action: >
+      Rückmeldung notieren, Verständnisfragen stellen.
+    note: >
+      Nicht „gut gemacht", sondern „die Begründung trägt, weil …".
+      Keine Rückmeldung zur Person.
+  - order: 4
+    label: Nächsten Schritt festhalten
+    duration_minutes: 2
+    trainer_action: >
+      Fragen: „Was würden Sie beim nächsten Mal anders machen?" Zwei
+      bis drei Punkte sichtbar festhalten.
+    participant_action: >
+      Einen eigenen nächsten Schritt notieren.
+    note: >
+      Der nächste Schritt macht aus der Bewertung eine Lernhilfe.
+
+variations:
+  - name: Peer-Auswertung mit Kriterien
+    description: >
+      Gruppen tauschen Ergebnisse und prüfen sie an den Kriterien,
+      bevor die Trainingsleitung ergänzt.
+    when_to_use: >
+      Bei mehreren Gruppen mit vergleichbaren Ergebnissen; spart
+      Plenumszeit.
+  - name: Kriterienraster mit Stufen
+    description: >
+      Kriterien mit zwei bis drei beschriebenen Stufen (z. B. „erfüllt /
+      teilweise / fehlt") als Raster ausgeben.
+    when_to_use: >
+      Bei Prüfungsvorbereitung oder wenn Ergebnisse vergleichbar
+      bewertet werden sollen.
+  - name: Galerie mit Kriterien
+    description: >
+      Ergebnisse hängen aus, TN gehen herum und vergeben Punkte je
+      Kriterium; anschließend kurze Plenumsrunde.
+    when_to_use: >
+      Bei Plakaten oder Flipcharts als Ergebnis.
+    setting_codes: [onsite]
+
+pitfalls:
+  - issue: >
+      Kriterien werden erst bei der Auswertung genannt – TN fühlen sich
+      überrumpelt.
+    countermeasure: >
+      Kriterien immer mit dem Arbeitsauftrag ausgeben und sichtbar
+      lassen.
+    severity: common
+  - issue: >
+      Die Rückmeldung zielt auf die Person („Sie sind sehr gründlich").
+    countermeasure: >
+      Auf Ergebnis und Vorgehen beziehen und einen nächsten Schritt
+      nennen.
+    severity: common
+  - issue: >
+      Jede Gruppe stellt ausführlich vor – die Auswertung frisst die
+      Übungszeit.
+    countermeasure: >
+      Ein bis drei Ergebnisse auswählen, Muster für alle besprechen.
+    severity: common
+  - issue: >
+      Zu viele Kriterien – niemand behält sie.
+    countermeasure: >
+      Höchstens fünf Kriterien, in Alltagssprache.
+    severity: rare

@@ -1,0 +1,151 @@
+slug: partnerarbeit
+canonical_name: Partnerarbeit
+synonyms:
+  - synonym: Tandemarbeit
+    language: de
+  - synonym: Pair Work
+    language: en
+short_description: >
+  Zu zweit wird eine Aufgabe gelöst und ein gemeinsames Ergebnis
+  festgehalten. Grundform kooperativen Arbeitens mit geringem
+  Organisationsaufwand: Alle sind beteiligt, und im Gespräch entsteht
+  mehr als allein.
+originator: Unterrichtspraxis; Einordnung nach dem ICAP-Modell (Chi & Wylie)
+origin_context: >
+  Grundform der Sozialformen im Unterricht. Nach dem ICAP-Modell (Chi &
+  Wylie 2014) liegt die Lernwirkung am höchsten, wenn beide Partner
+  aufeinander eingehen und gemeinsam etwas Neues erarbeiten. Johnson &
+  Johnson beschreiben die Bedingungen kooperativen Lernens, etwa
+  gegenseitige Abhängigkeit und Einzelverantwortung.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: practice
+  - code: reflection
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: 2er-Breakouts; gemeinsames Dokument für das Ergebnis.
+  - code: hybrid
+    suitability: good
+    note: Paare möglichst innerhalb derselben Seite bilden (Präsenz mit Präsenz, Online mit Online).
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education, school, youth]
+method_types: [cooperative, activating]
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 30
+materials:
+  - Arbeitsauftrag mit erwartetem Ergebnis
+  - Vorlage oder Blatt für das gemeinsame Ergebnis
+tags: [partnerarbeit, kooperatives-lernen, sozialform, tandem]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "The ICAP framework: Linking cognitive engagement to active learning outcomes"
+    author: Michelene T. H. Chi, Ruth Wylie
+    year: 2014
+    relation: reference
+    note: >
+      Educational Psychologist, 49(4), 219-243. Interaktives Arbeiten
+      (gemeinsames Erarbeiten mit Bezug aufeinander) zeigt die höchste
+      Lernwirkung.
+  - kind: book
+    title: "Learning Together and Alone: Cooperative, Competitive, and Individualistic Learning"
+    author: David W. Johnson, Roger T. Johnson
+    year: 1975
+    relation: deep_dive
+    note: >
+      Grundlagenwerk zu den Bedingungen kooperativen Lernens.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Auftrag geben und Paare bilden
+    duration_minutes: 2
+    trainer_action: >
+      Auftrag, Zeit und gemeinsames Ergebnis nennen („Am Ende haben Sie
+      zu zweit …"). Paare bilden: Nachbarn oder gezielt gemischt. Bei
+      ungerader Zahl eine Dreiergruppe.
+    participant_action: >
+      Partner finden, Auftrag lesen.
+    note: >
+      Das gemeinsame Ergebnis macht aus zwei Einzelarbeiten eine
+      Partnerarbeit.
+  - order: 2
+    label: Gemeinsam bearbeiten
+    duration_minutes: 10
+    trainer_action: >
+      Herumgehen oder Breakouts besuchen. Bei Paaren, in denen eine
+      Person allein arbeitet, gezielt nachfragen: „Was sagt Ihr Partner
+      dazu?"
+    participant_action: >
+      Aufgabe gemeinsam lösen, sich gegenseitig erklären, Ergebnis
+      festhalten.
+    note: >
+      Tipp: Rollen vergeben (eine Person schreibt, die andere fasst
+      zusammen) und zur Halbzeit tauschen.
+  - order: 3
+    label: Ergebnisse zusammenführen
+    duration_minutes: 3
+    trainer_action: >
+      Zwei bis drei Paare berichten lassen oder Ergebnisse sammeln.
+      Unterschiede und Gemeinsamkeiten benennen.
+    participant_action: >
+      Ergebnis vorstellen oder mit anderen vergleichen.
+    note: >
+      Nicht jedes Paar muss berichten – bei vielen Paaren ermüdet das.
+
+variations:
+  - name: Lerntandem mit Rollen
+    description: >
+      Eine Person erklärt, die andere fragt nach und prüft; danach
+      Rollentausch.
+    when_to_use: >
+      Zum Festigen von Wissen; das Erklären wirkt selbst als Übung.
+  - name: Partnerkorrektur
+    description: >
+      Beide bearbeiten die Aufgabe zunächst allein und prüfen dann
+      gegenseitig ihre Ergebnisse.
+    when_to_use: >
+      Wenn jede Person ein eigenes Ergebnis braucht, etwa bei
+      Prüfungsvorbereitung.
+  - name: Wandernde Paare
+    description: >
+      Nach der ersten Runde wechseln die Partner und ergänzen das
+      Ergebnis mit einer neuen Person.
+    when_to_use: >
+      Wenn Ergebnisse angereichert und Perspektiven gemischt werden
+      sollen.
+    setting_codes: [onsite]
+
+pitfalls:
+  - issue: >
+      Eine Person arbeitet, die andere schaut zu.
+    countermeasure: >
+      Rollen vergeben und tauschen lassen; gemeinsames Ergebnis verlangen.
+    severity: common
+  - issue: >
+      Immer dieselben Paare – Gruppen verfestigen sich.
+    countermeasure: >
+      Paarbildung von Zeit zu Zeit wechseln (Zufall, Kriterium).
+    severity: common
+  - issue: >
+      Online gehen Paare im Breakout verloren oder werden zu früh fertig.
+    countermeasure: >
+      Auftrag schriftlich in den Breakout geben; Zwischenzeit ansagen.
+    severity: common
+    setting_codes: [remote_sync]
+  - issue: >
+      Die Auswertung lässt alle Paare berichten und zieht sich.
+    countermeasure: >
+      Auswahl von Paaren oder schriftliche Sammlung.
+    severity: rare

@@ -813,6 +813,251 @@
     ]
   },
   {
+    "slug": "abrufquiz",
+    "canonical_name": "Abrufquiz",
+    "short_description": "Wenige kurze Fragen, die aus dem Gedächtnis beantwortet werden, danach Auflösung mit Begründung. Ohne Punkte, Rangliste oder Benotung – der Abruf selbst ist die Lernhandlung. Abrufübung gehört zu den am besten belegten Lerntechniken.\n",
+    "long_description": null,
+    "originator": "Henry L. Roediger, Jeffrey D. Karpicke (Testing Effect)",
+    "origin_year": null,
+    "origin_context": "Beruht auf dem Testing Effect (Roediger & Karpicke 2006). Dunlosky et al. (2013) stufen „practice testing\" als Technik mit hoher Nützlichkeit ein; sie wirkt auch ohne Benotung. Unterschied zu Quiz-Wettbewerb und digitalem Quiz: kein Wettbewerb, Schwerpunkt auf Auflösung und Begründung.\n",
+    "duration_min_minutes": 5,
+    "duration_typical_minutes": 10,
+    "duration_max_minutes": 15,
+    "materials": [
+      "3-6 kurze Fragen (Auswahl oder offene Kurzantwort)",
+      "Abstimmungsmittel (ABCD-Karten, Handzeichen oder Umfragetool)",
+      "Auflösung mit Begründung je Frage"
+    ],
+    "tags": [
+      "abruf",
+      "testing-effect",
+      "quiz",
+      "ohne-wettbewerb"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Retrieval Quiz",
+        "language": "en"
+      },
+      {
+        "synonym": "Low-Stakes-Quiz",
+        "language": "en"
+      },
+      {
+        "synonym": "Wissensabfrage ohne Wertung",
+        "language": "de"
+      }
+    ],
+    "phases": [
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": true
+      },
+      {
+        "code": "activation",
+        "label_de": "Aktivierung",
+        "is_primary": false
+      },
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": "Handzeichen, ABCD-Karten oder Notiz auf Papier genügen."
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "excellent",
+        "suitability_note": "Umfragetool oder Chat; Antworten erst nach Ablauf zeigen."
+      },
+      {
+        "code": "remote_async",
+        "label_de": "Remote (asynchron)",
+        "suitability": "excellent",
+        "suitability_note": "Als Selbsttest im LMS mit Begründung zu jeder Antwort."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "good",
+        "suitability_note": "Ein Umfragetool für alle, damit beide Seiten gleich teilnehmen."
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      },
+      {
+        "code": "plenary",
+        "label_de": "Plenum (50+)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      },
+      {
+        "code": "youth",
+        "label_de": "Jugendgruppen"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "diagnostic",
+        "label_de": "Diagnostisch"
+      },
+      {
+        "code": "activating",
+        "label_de": "Aktivierend"
+      },
+      {
+        "code": "didactic",
+        "label_de": "Didaktisch-vermittelnd"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Rahmen setzen",
+        "duration_minutes": 1,
+        "trainer_action": "Ansagen: „Kurzer Selbsttest, keine Wertung, niemand muss seine Antwort zeigen. Unterlagen bitte zu.\"\n",
+        "participant_action": "Unterlagen schließen.\n",
+        "note": "Die Ansage „ohne Wertung\" nimmt den Prüfungsdruck. Er würde den Lerneffekt nicht verhindern, aber die Beteiligung senken.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Fragen beantworten",
+        "duration_minutes": 4,
+        "trainer_action": "Fragen nacheinander oder als Block zeigen. Kurze Bedenkzeit je Frage, Antworten einsammeln oder notieren lassen.\n",
+        "participant_action": "Aus dem Gedächtnis antworten, auch wenn unsicher.\n",
+        "note": "Fragen zum Verständnis sind besser als reine Begriffsabfrage.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Auflösen mit Begründung",
+        "duration_minutes": 5,
+        "trainer_action": "Je Frage die richtige Antwort zeigen und begründen. Bei vielen falschen Antworten kurz nachfragen, was zur Wahl geführt hat, und die Stelle erneut erklären.\n",
+        "participant_action": "Eigene Antworten prüfen, Begründung nachvollziehen, Fragen stellen.\n",
+        "note": "Ohne Auflösung können sich falsche Antworten festsetzen. Die Begründung ist der Lernanteil der Auflösung.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Einstiegsquiz zum Vortag",
+        "description": "Drei Fragen zum Stoff des Vortags oder der letzten Sitzung am Tagesanfang.\n",
+        "when_to_use": "Bei mehrtägigen Trainings; verbindet das Quiz mit verteilter Wiederholung.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Sicherheitsangabe",
+        "description": "Zu jeder Antwort geben TN an, wie sicher sie sind (sicher / vermutet / geraten). Die Auflösung zeigt, wo Selbstüberschätzung liegt.\n",
+        "when_to_use": "Bei Themen mit typischen Irrtümern, etwa Recht oder Sicherheit.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Selbsttest im LMS",
+        "description": "Fragen als Selbsttest mit Begründung zu jeder Antwortoption, beliebig wiederholbar.\n",
+        "when_to_use": "Für Selbstlernphasen und Prüfungsvorbereitung.\n",
+        "setting_codes": [
+          "remote_async"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Das Quiz wird zum Wettbewerb mit Punkten und Rangliste – Schwächere ziehen sich zurück.\n",
+        "countermeasure": "Auf Punkte verzichten; Antworten anonym einsammeln.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Nur die richtige Antwort wird genannt, ohne Begründung.\n",
+        "countermeasure": "Zu jeder Frage einen Satz Begründung vorbereiten.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Fragen prüfen nur Begriffe, die gerade auf der Folie standen.\n",
+        "countermeasure": "Abstand zum Thema lassen und Verständnisfragen stellen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Zu viele Fragen – das Quiz dauert länger als geplant.\n",
+        "countermeasure": "Höchstens sechs Fragen; lieber öfter kurz als einmal lang.\n",
+        "severity": "rare",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+        "author": "Henry L. Roediger, Jeffrey D. Karpicke",
+        "year": 2006,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "originator",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Improving students' learning with effective learning techniques",
+        "author": "John Dunlosky et al.",
+        "year": 2013,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      }
+    ]
+  },
+  {
     "slug": "abschluss-ritual",
     "canonical_name": "Abschluss-Ritual",
     "short_description": "Bewusst gestaltete, wiederkehrende Sequenz am Ende jedes Termins (Abschlussbild, gemeinsamer Satz, symbolische Geste, Glocke). Schafft spürbaren Abschluss und Übergang — kognitiv und emotional.\n",
@@ -2708,6 +2953,234 @@
     ]
   },
   {
+    "slug": "anwendung-auf-den-eigenen-arbeitsplatz",
+    "canonical_name": "Anwendung auf den eigenen Arbeitsplatz",
+    "short_description": "Die TN prüfen eigene Unterlagen, Abläufe oder Fälle aus ihrem Arbeitsalltag mit dem Gelernten, meist entlang einer Checkliste, und halten Befunde und Änderungen fest. Selbst eingebrachte Fälle verbessern den Transfer in den Alltag.\n",
+    "long_description": null,
+    "originator": "Transferforschung (Taylor et al.; Blume et al.)",
+    "origin_year": null,
+    "origin_context": "Die Meta-Analyse von Taylor, Russ-Eft & Chan (2005) zu Behavior Modeling Training fand stärkeren Transfer, wenn TN eigene Szenarien einbrachten. Blume et al. (2010) bestätigen den Einfluss von Arbeitsplatzbezug und Umfeld auf den Transfer.\n",
+    "duration_min_minutes": 15,
+    "duration_typical_minutes": 30,
+    "duration_max_minutes": 45,
+    "materials": [
+      "Checkliste oder Prüfraster zum Gelernten",
+      "Eigene Unterlagen der TN (vorab angekündigt, gegebenenfalls anonymisiert)",
+      "Ersatzfall für TN ohne eigene Unterlagen"
+    ],
+    "tags": [
+      "transfer",
+      "praxisbezug",
+      "checkliste",
+      "arbeitsplatz"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Eigener Fall",
+        "language": "de"
+      },
+      {
+        "synonym": "Praxischeck mit eigenen Unterlagen",
+        "language": "de"
+      },
+      {
+        "synonym": "Own-Case Application",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "transfer",
+        "label_de": "Transfer",
+        "is_primary": true
+      },
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": "TN bringen Unterlagen mit oder greifen über eigene Geräte darauf zu."
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "excellent",
+        "suitability_note": "Unterlagen liegen am eigenen Arbeitsplatz ohnehin bereit."
+      },
+      {
+        "code": "remote_async",
+        "label_de": "Remote (asynchron)",
+        "suitability": "good",
+        "suitability_note": "Als Praxisaufgabe zwischen zwei Terminen mit Rückmeldung im nächsten Termin."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "good",
+        "suitability_note": null
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "reflective",
+        "label_de": "Reflexiv"
+      },
+      {
+        "code": "activating",
+        "label_de": "Aktivierend"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Unterlagen ankündigen (vor dem Training)",
+        "duration_minutes": 0,
+        "trainer_action": "In der Einladung oder am Vortag bitten, ein bis zwei eigene Dokumente oder Abläufe mitzubringen. Hinweis zum Datenschutz: personenbezogene Daten schwärzen oder Muster nehmen.\n",
+        "participant_action": "Passende Unterlagen auswählen und vorbereiten.\n",
+        "note": "Ohne Ankündigung haben die meisten nichts dabei. Für sie einen realistischen Ersatzfall bereithalten.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Checkliste erklären",
+        "duration_minutes": 5,
+        "trainer_action": "Checkliste vorstellen und an einem kurzen Beispiel einmal vormachen: Kriterium lesen, Stelle im Dokument suchen, Befund notieren.\n",
+        "participant_action": "Checkliste lesen, Rückfragen stellen.\n",
+        "note": "Die Checkliste übersetzt das Gelernte in prüfbare Fragen. Ohne sie bleibt der Transfer vage.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Eigene Unterlagen prüfen",
+        "duration_minutes": 18,
+        "trainer_action": "Herumgehen oder in Breakouts wechseln, bei Unsicherheit mit Rückfragen helfen. Interessante Befunde für die Auswertung merken.\n",
+        "participant_action": "Unterlagen an der Checkliste prüfen, Befunde und konkrete Änderungen notieren. Bei Partnerarbeit: gegenseitig prüfen.\n",
+        "note": "Ergebnis sind konkrete Änderungen („Abschnitt 3 ergänzen\"), keine allgemeinen Vorsätze.\n"
+      },
+      {
+        "order_index": 4,
+        "label": "Befunde teilen und ersten Schritt festlegen",
+        "duration_minutes": 7,
+        "trainer_action": "Zwei bis drei TN berichten lassen: häufigster Befund, überraschendster Befund. Jede Person legt eine Änderung fest, die sie in der nächsten Woche umsetzt.\n",
+        "participant_action": "Befund teilen (freiwillig), ersten Schritt mit Termin notieren.\n",
+        "note": "Inhalte aus vertraulichen Unterlagen nur so weit teilen, wie die Person möchte.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Tandem-Prüfung",
+        "description": "Zu zweit prüfen TN gegenseitig die Unterlagen des anderen. Der fremde Blick findet mehr.\n",
+        "when_to_use": "Wenn TN aus ähnlichen Bereichen kommen und Vertrauen besteht.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Praxisaufgabe zwischen den Terminen",
+        "description": "Die Prüfung findet am Arbeitsplatz statt; im nächsten Termin werden Befunde besprochen.\n",
+        "when_to_use": "Bei mehrteiligen Trainings oder wenn Unterlagen nicht mitgebracht werden dürfen.\n",
+        "setting_codes": [
+          "remote_async"
+        ]
+      },
+      {
+        "name": "Ablauf statt Dokument",
+        "description": "Statt eines Dokuments skizzieren TN einen eigenen Arbeitsablauf und prüfen ihn an der Checkliste.\n",
+        "when_to_use": "Bei Themen wie Prozessen, Kommunikation oder Arbeitssicherheit.\n",
+        "setting_codes": null
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "TN haben keine Unterlagen dabei.\n",
+        "countermeasure": "Vorab ankündigen und einen realistischen Ersatzfall bereithalten.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Vertrauliche oder personenbezogene Daten werden im Raum geteilt.\n",
+        "countermeasure": "Auf Datenschutz hinweisen, Schwärzen oder Muster erlauben, Teilen im Plenum freiwillig halten.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Ergebnis sind allgemeine Vorsätze statt konkreter Änderungen.\n",
+        "countermeasure": "Ergebnisformat vorgeben: „Stelle – Befund – Änderung\".\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Fälle der TN sind so verschieden, dass die Checkliste nicht passt.\n",
+        "countermeasure": "Checkliste auf Kernkriterien beschränken und um ein freies Feld ergänzen.\n",
+        "severity": "rare",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "A meta-analytic review of behavior modeling training",
+        "author": "Paul J. Taylor, Darlene F. Russ-Eft, Daniel W. L. Chan",
+        "year": 2005,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Transfer of training: A meta-analytic review",
+        "author": "Brian D. Blume, J. Kevin Ford, Timothy T. Baldwin, Jason L. Huang",
+        "year": 2010,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      }
+    ]
+  },
+  {
     "slug": "applaus-runde",
     "canonical_name": "Applaus-Runde",
     "short_description": "Zum Abschluss klatscht die Gruppe für einzelne Personen, Teams oder die gemeinsame Leistung. Mehrere Varianten möglich (Reihum-Applaus, Standing Ovation, Jubel). Erzeugt positiven Energie-Abschluss.\n",
@@ -4087,6 +4560,238 @@
     ]
   },
   {
+    "slug": "auswertung-mit-kriterien",
+    "canonical_name": "Auswertung mit Kriterien",
+    "short_description": "Arbeitsergebnisse werden im Plenum an Kriterien gemessen, die vor der Aufgabe genannt wurden. Die Trainingsleitung gibt Rückmeldung zur Aufgabe und zum Vorgehen und nennt den nächsten Schritt – nicht zur Person.\n",
+    "long_description": null,
+    "originator": "Formative Beurteilung (Sadler; Hattie & Timperley)",
+    "origin_year": null,
+    "origin_context": "Sadler (1989) beschreibt, dass Lernende Qualität erst verbessern können, wenn sie den Maßstab kennen und ihr Ergebnis daran messen. Hattie & Timperley (2007) zeigen, dass Rückmeldung zu Aufgabe und Vorgehen wirkt, Rückmeldung zur Person kaum. Kluger & DeNisi (1996) belegen, dass Rückmeldung auch schaden kann, wenn sie auf die Person zielt.\n",
+    "duration_min_minutes": 5,
+    "duration_typical_minutes": 10,
+    "duration_max_minutes": 20,
+    "materials": [
+      "Kriterienliste (Folie oder Flipchart), vor der Aufgabe bekannt gegeben",
+      "Arbeitsergebnisse der TN (sichtbar für alle)"
+    ],
+    "tags": [
+      "kriterien",
+      "ergebnisbesprechung",
+      "formatives-feedback",
+      "auswertung"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Kriteriengestützte Auswertung",
+        "language": "de"
+      },
+      {
+        "synonym": "Criteria-based Debrief",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "feedback",
+        "label_de": "Feedback",
+        "is_primary": true
+      },
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "excellent",
+        "suitability_note": "Ergebnisse per Bildschirmfreigabe, Kriterien als Folie daneben."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "good",
+        "suitability_note": "Ergebnisse digital sichtbar machen, damit Online-TN mitbewerten können."
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "feedback",
+        "label_de": "Feedback"
+      },
+      {
+        "code": "reflective",
+        "label_de": "Reflexiv"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Kriterien vor der Aufgabe nennen (Teil der Aufgabenstellung)",
+        "duration_minutes": 0,
+        "trainer_action": "Schon beim Arbeitsauftrag drei bis fünf Kriterien nennen und sichtbar lassen, z. B. „vollständig\", „begründet\", „für Laien verständlich\".\n",
+        "participant_action": "Kriterien beim Arbeiten berücksichtigen.\n",
+        "note": "Ohne vorher genannte Kriterien ist die Auswertung ein Urteil von außen. Die Minuten dafür gehören zur Aufgabe, nicht zur Auswertung.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Ergebnisse zeigen und selbst einschätzen",
+        "duration_minutes": 4,
+        "trainer_action": "Ein bis drei Ergebnisse zeigen lassen. Erst die Gruppe selbst fragen: „Welches Kriterium ist gut erfüllt, wo fehlt etwas?\"\n",
+        "participant_action": "Eigenes Ergebnis an den Kriterien prüfen und benennen.\n",
+        "note": "Selbsteinschätzung vor der Rückmeldung schult den Blick für Qualität. Nicht alle Ergebnisse zeigen – Auswahl genügt.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Rückmeldung zu Aufgabe und Vorgehen",
+        "duration_minutes": 4,
+        "trainer_action": "Je Ergebnis: was erfüllt ist (konkret), was fehlt (konkret), und ein nächster Schritt. Muster benennen, die in mehreren Ergebnissen vorkommen.\n",
+        "participant_action": "Rückmeldung notieren, Verständnisfragen stellen.\n",
+        "note": "Nicht „gut gemacht\", sondern „die Begründung trägt, weil …\". Keine Rückmeldung zur Person.\n"
+      },
+      {
+        "order_index": 4,
+        "label": "Nächsten Schritt festhalten",
+        "duration_minutes": 2,
+        "trainer_action": "Fragen: „Was würden Sie beim nächsten Mal anders machen?\" Zwei bis drei Punkte sichtbar festhalten.\n",
+        "participant_action": "Einen eigenen nächsten Schritt notieren.\n",
+        "note": "Der nächste Schritt macht aus der Bewertung eine Lernhilfe.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Peer-Auswertung mit Kriterien",
+        "description": "Gruppen tauschen Ergebnisse und prüfen sie an den Kriterien, bevor die Trainingsleitung ergänzt.\n",
+        "when_to_use": "Bei mehreren Gruppen mit vergleichbaren Ergebnissen; spart Plenumszeit.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Kriterienraster mit Stufen",
+        "description": "Kriterien mit zwei bis drei beschriebenen Stufen (z. B. „erfüllt / teilweise / fehlt\") als Raster ausgeben.\n",
+        "when_to_use": "Bei Prüfungsvorbereitung oder wenn Ergebnisse vergleichbar bewertet werden sollen.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Galerie mit Kriterien",
+        "description": "Ergebnisse hängen aus, TN gehen herum und vergeben Punkte je Kriterium; anschließend kurze Plenumsrunde.\n",
+        "when_to_use": "Bei Plakaten oder Flipcharts als Ergebnis.\n",
+        "setting_codes": [
+          "onsite"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Kriterien werden erst bei der Auswertung genannt – TN fühlen sich überrumpelt.\n",
+        "countermeasure": "Kriterien immer mit dem Arbeitsauftrag ausgeben und sichtbar lassen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Rückmeldung zielt auf die Person („Sie sind sehr gründlich\").\n",
+        "countermeasure": "Auf Ergebnis und Vorgehen beziehen und einen nächsten Schritt nennen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Jede Gruppe stellt ausführlich vor – die Auswertung frisst die Übungszeit.\n",
+        "countermeasure": "Ein bis drei Ergebnisse auswählen, Muster für alle besprechen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Zu viele Kriterien – niemand behält sie.\n",
+        "countermeasure": "Höchstens fünf Kriterien, in Alltagssprache.\n",
+        "severity": "rare",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "The power of feedback",
+        "author": "John Hattie, Helen Timperley",
+        "year": 2007,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Formative assessment and the design of instructional systems",
+        "author": "D. Royce Sadler",
+        "year": 1989,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "originator",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "The effects of feedback interventions on performance",
+        "author": "Avraham N. Kluger, Angelo DeNisi",
+        "year": 1996,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "deep_dive",
+        "page_reference": null
+      }
+    ]
+  },
+  {
     "slug": "barcamp",
     "canonical_name": "Barcamp",
     "short_description": "Offene Konferenz mit Sessions, die zu Beginn gemeinsam geplant werden. Jede:r kann beitragen. Flache Hierarchie zwischen Vortragenden und Teilnehmenden. Ähnelt Open Space, eher IT-/Community-geprägt.\n",
@@ -4356,6 +5061,254 @@
         "doi": null,
         "isbn": null,
         "relation": "reference",
+        "page_reference": null
+      }
+    ]
+  },
+  {
+    "slug": "begriffsnetz",
+    "canonical_name": "Begriffsnetz",
+    "short_description": "Die TN ordnen vorgegebene Begriffe auf einer Fläche und verbinden sie mit beschrifteten Pfeilen, die die Beziehung benennen („verursacht\", „ist Teil von\"). Anders als die Mind-Map verzweigt das Begriffsnetz nicht von einem Zentrum, sondern macht Zusammenhänge ausdrücklich.\n",
+    "long_description": null,
+    "originator": "Joseph D. Novak",
+    "origin_year": 1972,
+    "origin_context": "Von Joseph Novak an der Cornell University entwickelt, um Wissensveränderungen von Lernenden sichtbar zu machen (Grundlage: Ausubels Lerntheorie). Die Meta-Analyse von Nesbit & Adesope (2006) zeigt Vorteile gegenüber Lesen, Zuhören und Diskussion.\n",
+    "duration_min_minutes": 10,
+    "duration_typical_minutes": 20,
+    "duration_max_minutes": 30,
+    "materials": [
+      "8-15 Begriffskarten je Person oder Gruppe",
+      "Packpapier, Pinnwand oder digitales Whiteboard",
+      "Stifte für Pfeile und Beschriftung"
+    ],
+    "tags": [
+      "concept-map",
+      "visualisierung",
+      "zusammenhaenge",
+      "struktur"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Concept Map",
+        "language": "en"
+      },
+      {
+        "synonym": "Begriffslandkarte",
+        "language": "de"
+      },
+      {
+        "synonym": "Wissensnetz",
+        "language": "de"
+      }
+    ],
+    "phases": [
+      {
+        "code": "deepening",
+        "label_de": "Vertiefung",
+        "is_primary": true
+      },
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": false
+      },
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": "Begriffe auf Karten, Pfeile auf Packpapier oder Pinnwand."
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "good",
+        "suitability_note": "Digitales Whiteboard mit vorbereiteten Begriffskarten."
+      },
+      {
+        "code": "remote_async",
+        "label_de": "Remote (asynchron)",
+        "suitability": "good",
+        "suitability_note": null
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "good",
+        "suitability_note": null
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "visualization",
+        "label_de": "Visualisierung"
+      },
+      {
+        "code": "reflective",
+        "label_de": "Reflexiv"
+      },
+      {
+        "code": "cooperative",
+        "label_de": "Kooperativ"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Prinzip zeigen",
+        "duration_minutes": 3,
+        "trainer_action": "An drei Begriffen vormachen: Begriffe legen, Pfeil ziehen, Pfeil mit einem Verb beschriften („Lärm – verursacht – Stress\"). Unterschied zur Mind-Map nennen.\n",
+        "participant_action": "Zusehen, Beispiel nachvollziehen.\n",
+        "note": "Die Beschriftung der Pfeile ist der Kern. Unbeschriftete Linien machen aus dem Begriffsnetz eine Mind-Map.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Begriffe ordnen und verbinden",
+        "duration_minutes": 12,
+        "trainer_action": "Begriffskarten ausgeben (8-15 Begriffe). Herumgehen und fragen: „Was steht auf diesem Pfeil?\" Unbeschriftete Pfeile ansprechen.\n",
+        "participant_action": "Begriffe anordnen, mit Pfeilen verbinden, jeden Pfeil beschriften. Fehlende Begriffe dürfen ergänzt werden.\n",
+        "note": "Begriffe vorgeben, sonst dauert die Übung zu lange und die Ergebnisse sind nicht vergleichbar.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Netze vergleichen und besprechen",
+        "duration_minutes": 5,
+        "trainer_action": "Zwei Netze nebeneinander zeigen. Fragen: „Wo unterscheiden sich die Beziehungen?\" Fehlerhafte Beziehungen gemeinsam korrigieren.\n",
+        "participant_action": "Eigenes Netz mit anderen vergleichen, Beziehungen begründen.\n",
+        "note": "Unterschiedliche Netze sind erwünscht, solange die Beziehungen stimmen.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Begriffsnetz aus dem Gedächtnis",
+        "description": "Das Netz wird ohne Unterlagen erstellt, danach mit den Unterlagen abgeglichen und ergänzt.\n",
+        "when_to_use": "Zur Sicherung am Ende eines Themas; verbindet Struktur mit Abrufübung.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Lückennetz",
+        "description": "Ein teilweise fertiges Netz wird vorgegeben; TN ergänzen fehlende Begriffe oder Pfeilbeschriftungen.\n",
+        "when_to_use": "Für Einsteiger oder bei knapper Zeit.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Gruppennetz",
+        "description": "Kleingruppen erstellen ein gemeinsames Netz auf Packpapier und verhandeln dabei die Beziehungen.\n",
+        "when_to_use": "Wenn die Diskussion über Zusammenhänge selbst das Ziel ist.\n",
+        "setting_codes": [
+          "onsite"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Pfeile bleiben unbeschriftet – es entsteht eine Mind-Map.\n",
+        "countermeasure": "Beschriftung ausdrücklich verlangen und beim Herumgehen nachfragen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Freie Begriffswahl – die Übung dauert zu lange und verzettelt sich.\n",
+        "countermeasure": "Begriffe vorgeben, ergänzende Begriffe erlauben.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Ungeübte TN sind überfordert und brechen ab.\n",
+        "countermeasure": "Mit einem Lückennetz beginnen; Prinzip vorher an einem Alltagsbeispiel zeigen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Das Netz wird mit offenen Unterlagen abgemalt.\n",
+        "countermeasure": "Unterlagen schließen lassen und erst danach abgleichen.\n",
+        "severity": "rare",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "book",
+        "title": "Learning How to Learn",
+        "author": "Joseph D. Novak, D. Bob Gowin",
+        "year": 1984,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "originator",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Learning with concept and knowledge maps: A meta-analysis",
+        "author": "John C. Nesbit, Olusola O. Adesope",
+        "year": 2006,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Retrieval practice produces more learning than elaborative studying with concept mapping",
+        "author": "Jeffrey D. Karpicke, Janell R. Blunt",
+        "year": 2011,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "deep_dive",
         "page_reference": null
       }
     ]
@@ -10675,6 +11628,240 @@
     ]
   },
   {
+    "slug": "einzelarbeit-mit-arbeitsblatt",
+    "canonical_name": "Einzelarbeit mit Arbeitsblatt",
+    "short_description": "Jede Person bearbeitet allein eine klar umrissene Aufgabe mit Vorlage oder Checkliste. Wirksam ist sie, wenn dabei etwas Neues entsteht – formulieren, prüfen, entwerfen –, nicht beim bloßen Abschreiben oder Ausfüllen.\n",
+    "long_description": null,
+    "originator": "Unterrichtspraxis; Einordnung nach dem ICAP-Modell (Chi & Wylie)",
+    "origin_year": null,
+    "origin_context": "Grundform des individuellen Arbeitens. Das ICAP-Modell von Chi & Wylie (2014) erklärt, wann sie wirkt: Erzeugen TN etwas Neues (konstruktiv), lernen sie mehr als beim bloßen Markieren oder Übertragen (aktiv). Die Gestaltung des Arbeitsblatts entscheidet also über die Lernwirkung.\n",
+    "duration_min_minutes": 5,
+    "duration_typical_minutes": 15,
+    "duration_max_minutes": 30,
+    "materials": [
+      "Arbeitsblatt mit Auftrag, Vorlage oder Checkliste (Papier oder digital)",
+      "Lösungshinweise oder Musterlösung für die Auswertung"
+    ],
+    "tags": [
+      "einzelarbeit",
+      "arbeitsblatt",
+      "stillarbeit",
+      "icap"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Stillarbeit",
+        "language": "de"
+      },
+      {
+        "synonym": "Arbeitsblatt",
+        "language": "de"
+      },
+      {
+        "synonym": "Worksheet Task",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "deepening",
+        "label_de": "Vertiefung",
+        "is_primary": true
+      },
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": false
+      },
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": false
+      },
+      {
+        "code": "transfer",
+        "label_de": "Transfer",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "excellent",
+        "suitability_note": "Arbeitsblatt als ausfüllbares Dokument; Kamera an, Mikrofon aus."
+      },
+      {
+        "code": "remote_async",
+        "label_de": "Remote (asynchron)",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "excellent",
+        "suitability_note": null
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      },
+      {
+        "code": "plenary",
+        "label_de": "Plenum (50+)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      },
+      {
+        "code": "youth",
+        "label_de": "Jugendgruppen"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "didactic",
+        "label_de": "Didaktisch-vermittelnd"
+      },
+      {
+        "code": "reflective",
+        "label_de": "Reflexiv"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Auftrag geben",
+        "duration_minutes": 2,
+        "trainer_action": "Ziel, Auftrag, Zeit und erwartetes Ergebnis nennen („Am Ende haben Sie …\"). Auftrag zusätzlich auf dem Blatt oder der Folie sichtbar.\n",
+        "participant_action": "Auftrag lesen, Rückfragen stellen.\n",
+        "note": "Das erwartete Ergebnis zu nennen ist wichtiger als die Anleitung im Detail.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Allein bearbeiten",
+        "duration_minutes": 10,
+        "trainer_action": "Ruhe geben. Nach zwei bis drei Minuten einmal herumgehen und prüfen, ob alle angefangen haben. Einzelne Fragen leise klären.\n",
+        "participant_action": "Aufgabe bearbeiten, eigene Formulierungen oder Entwürfe erstellen.\n",
+        "note": "Wenn mehrere dieselbe Frage haben, Auftrag einmal für alle nachschärfen.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Ergebnis sichern",
+        "duration_minutes": 3,
+        "trainer_action": "Zwei bis drei Ergebnisse vorstellen lassen oder Lösungshinweise zeigen. Häufige Unklarheiten klären.\n",
+        "participant_action": "Eigenes Ergebnis vergleichen und ergänzen.\n",
+        "note": "Ohne Auswertung entwertet die Einzelarbeit sich selbst – TN merken schnell, ob ihr Ergebnis gebraucht wird.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Einzelarbeit mit Partnerabgleich",
+        "description": "Nach der Einzelarbeit vergleichen Nachbarn ihre Ergebnisse, bevor im Plenum ausgewertet wird.\n",
+        "when_to_use": "Wenn TN Sicherheit brauchen, bevor sie im Plenum sprechen.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Strukturierte Vorlage",
+        "description": "Das Blatt gibt eine Struktur vor (Tabelle, Raster, Satzanfänge), die TN füllen.\n",
+        "when_to_use": "Für Einsteiger oder wenn Ergebnisse vergleichbar sein sollen.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Offener Entwurf",
+        "description": "Nur Auftrag und Kriterien, keine Vorlage. TN entwerfen selbst (Text, Plan, Skizze).\n",
+        "when_to_use": "Für Fortgeschrittene; fördert eigenständiges Denken.\n",
+        "setting_codes": null
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Das Arbeitsblatt verlangt nur Abschreiben oder Lückenfüllen aus der Folie – kaum Lernwirkung.\n",
+        "countermeasure": "Aufträge so formulieren, dass etwas Neues entsteht: begründen, vergleichen, auf ein Beispiel anwenden, entwerfen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Schnelle sind fertig, Langsame erst halb.\n",
+        "countermeasure": "Zusatzaufgabe für Schnelle bereithalten; Ende über die Zeit festlegen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Ergebnisse werden nicht ausgewertet.\n",
+        "countermeasure": "Auswertungszeit fest einplanen, mindestens Lösungshinweise zeigen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Zu lange Einzelarbeit online – TN wenden sich anderem zu.\n",
+        "countermeasure": "Online höchstens 10-15 Minuten am Stück; Zwischenstand abfragen.\n",
+        "severity": "common",
+        "setting_codes": [
+          "remote_sync"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "The ICAP framework: Linking cognitive engagement to active learning outcomes",
+        "author": "Michelene T. H. Chi, Ruth Wylie",
+        "year": 2014,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      }
+    ]
+  },
+  {
     "slug": "erwartungs-interview",
     "canonical_name": "Erwartungs-Interview",
     "short_description": "Teilnehmende interviewen sich in Paaren zu den Fragen: Was möchtest du heute mitnehmen? Was steht dem möglicherweise im Weg? Was brauchst du vom Trainer / von der Gruppe? Anschließend Kurzbericht ans Plenum.\n",
@@ -14381,6 +15568,243 @@
     ]
   },
   {
+    "slug": "gestufte-uebungsserie",
+    "canonical_name": "Gestufte Übungsserie",
+    "short_description": "Mehrere Aufgaben zum gerade Eingeführten, von leicht zu schwer geordnet, mit Lösungen zur Selbstkontrolle. Die Trainingsleitung geht herum und gibt Rückmeldung; die schweren Aufgaben sind die Differenzierung für Schnelle.\n",
+    "long_description": null,
+    "originator": "Unterrichtspraxis; Wirksamkeit über Übung mit Rückmeldung belegt",
+    "origin_year": null,
+    "origin_context": "Übliche Form des angeleiteten Übens. Wirksam wird sie durch Rückmeldung zu jeder Aufgabe (Hattie & Timperley 2007) und durch Abrufübung (Dunlosky et al. 2013). Unterschied zu Worked Example mit Fading: Dort werden Lösungsschritte ausgeblendet, hier steigt die Schwierigkeit der Aufgaben.\n",
+    "duration_min_minutes": 10,
+    "duration_typical_minutes": 20,
+    "duration_max_minutes": 45,
+    "materials": [
+      "Aufgabenblatt mit 4-8 Aufgaben in drei Stufen",
+      "Lösungsblatt oder Lösungsfolie zur Selbstkontrolle"
+    ],
+    "tags": [
+      "ueben",
+      "differenzierung",
+      "selbstkontrolle",
+      "rueckmeldung"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Übungsreihe von leicht zu schwer",
+        "language": "de"
+      },
+      {
+        "synonym": "Graduated Practice",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": true
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "good",
+        "suitability_note": "Trainer wechselt zwischen Breakouts oder bietet einen offenen Hilferaum an."
+      },
+      {
+        "code": "remote_async",
+        "label_de": "Remote (asynchron)",
+        "suitability": "good",
+        "suitability_note": "Als Übungsset im LMS mit automatischer Rückmeldung."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "good",
+        "suitability_note": null
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      },
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "didactic",
+        "label_de": "Didaktisch-vermittelnd"
+      },
+      {
+        "code": "activating",
+        "label_de": "Aktivierend"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Aufgabenserie vorbereiten (außerhalb der Session)",
+        "duration_minutes": 0,
+        "trainer_action": "VOR dem Training: drei Stufen bauen. Stufe 1 wiederholt genau das Vorgeführte, Stufe 2 variiert die Bedingungen, Stufe 3 verlangt eine Übertragung oder kombiniert mehrere Schritte. Lösungen ausarbeiten.\n",
+        "participant_action": "— (Vorbereitung, nur Trainer)\n",
+        "note": "Stufe 1 müssen alle schaffen. Stufe 3 muss nicht jeder erreichen – sie ist für die Schnellen da.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Auftrag und Stufen erklären",
+        "duration_minutes": 2,
+        "trainer_action": "Ziel und Stufen kurz erklären: „Beginnen Sie mit Stufe 1. Nach jeder Aufgabe mit der Lösung vergleichen, erst dann weiter.\" Zeitrahmen nennen.\n",
+        "participant_action": "Auftrag lesen, Rückfragen stellen.\n",
+        "note": "Wer versteht, dass Stufe 3 freiwillig ist, arbeitet entspannter.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Üben mit Selbstkontrolle",
+        "duration_minutes": 14,
+        "trainer_action": "Herumgehen, bei Fehlern nach dem Vorgehen fragen statt die Lösung zu nennen („Wie sind Sie vorgegangen?\"). Häufige Fehler notieren.\n",
+        "participant_action": "Aufgaben lösen, nach jeder Aufgabe vergleichen, Fehler selbst nachvollziehen.\n",
+        "note": "Rückmeldung zu jeder Aufgabe ist die Wirkbedingung. Eine Serie ohne Lösungen ist nur Beschäftigung.\n"
+      },
+      {
+        "order_index": 4,
+        "label": "Häufige Fehler im Plenum klären",
+        "duration_minutes": 4,
+        "trainer_action": "Zwei bis drei Fehler, die mehrfach vorkamen, im Plenum zeigen und erklären. Kein Durchgehen aller Aufgaben.\n",
+        "participant_action": "Eigene Fehler einordnen, Fragen stellen.\n",
+        "note": "Fehler anonym zeigen, nicht die Person nennen.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Gemischte Serie",
+        "description": "In Stufe 2 und 3 werden Aufgaben zu verschiedenen, früher behandelten Themen gemischt. TN müssen erst erkennen, welches Vorgehen passt.\n",
+        "when_to_use": "Wenn mehrere Verfahren eingeführt sind und verwechselt werden können.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Partner-Serie",
+        "description": "Zu zweit: eine Person löst, die andere prüft mit der Lösung und fragt nach. Nach jeder Aufgabe Rollen tauschen.\n",
+        "when_to_use": "Wenn das Erklären des Vorgehens zusätzlich festigen soll.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Digitale Übungsserie",
+        "description": "Aufgaben im LMS oder Formular mit automatischer Rückmeldung nach jeder Antwort.\n",
+        "when_to_use": "Für Selbstlernphasen zwischen den Terminen.\n",
+        "setting_codes": [
+          "remote_async"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Keine Lösungen oder Lösungen erst am Ende – Fehler werden über mehrere Aufgaben eingeübt.\n",
+        "countermeasure": "Lösung nach jeder Aufgabe zugänglich machen (Lösungsblatt umgedreht, Lösungsfolie, Selbsttest).\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Stufe 1 ist schon zu schwer – Langsame bleiben stecken.\n",
+        "countermeasure": "Stufe 1 eng am vorgeführten Beispiel halten und vorher selbst durchrechnen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Alle sollen alle Aufgaben schaffen – die Zeit läuft aus dem Ruder.\n",
+        "countermeasure": "Ende über die Zeit festlegen, nicht über die Aufgabenzahl. Stufe 3 ist ausdrücklich freiwillig.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Plenumsbesprechung geht jede Aufgabe einzeln durch.\n",
+        "countermeasure": "Nur die mehrfach aufgetretenen Fehler besprechen.\n",
+        "severity": "common",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "The power of feedback",
+        "author": "John Hattie, Helen Timperley",
+        "year": 2007,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Improving students' learning with effective learning techniques",
+        "author": "John Dunlosky et al.",
+        "year": 2013,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "The shuffling of mathematics problems improves learning",
+        "author": "Doug Rohrer, Kelli Taylor",
+        "year": 2007,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "deep_dive",
+        "page_reference": null
+      }
+    ]
+  },
+  {
     "slug": "gordischer-knoten",
     "canonical_name": "Gordischer Knoten",
     "short_description": "Gruppe steht im Kreis, greift blind zwei Hände anderer Personen und muss sich gemeinsam entwirren, ohne loszulassen. Kooperations- und Teamspiel.\n",
@@ -16282,6 +17706,251 @@
     ]
   },
   {
+    "slug": "integrierte-uebung-am-praxisfall",
+    "canonical_name": "Integrierte Übung am Praxisfall",
+    "short_description": "Ein realistischer Fall verbindet mehrere zuvor behandelte Themen in einer Übung; das Ergebnis wird an vorher genannten Kriterien geprüft. Anders als Fallstudie oder Szenario-Übung liegt der Zweck im Zusammenführen: TN müssen erkennen, welches Gelernte wann gebraucht wird.\n",
+    "long_description": null,
+    "originator": "Instruktionsdesign (van Merriënboer, 4C/ID); Problemorientiertes Lernen",
+    "origin_year": null,
+    "origin_context": "Das 4C/ID-Modell von van Merriënboer setzt auf ganzheitliche Lernaufgaben, die Teilfertigkeiten im Zusammenhang üben. Dochy et al. (2003) zeigen für problembasiertes Lernen Vorteile bei der Anwendung von Wissen; Taylor et al. (2005) einen stärkeren Transfer, wenn Fälle aus der Praxis der TN stammen.\n",
+    "duration_min_minutes": 20,
+    "duration_typical_minutes": 40,
+    "duration_max_minutes": 90,
+    "materials": [
+      "Fallbeschreibung mit allen nötigen Unterlagen",
+      "Kriterienliste für das Ergebnis",
+      "Musterlösung oder Lösungsskizze für die Auswertung"
+    ],
+    "tags": [
+      "praxisfall",
+      "integration",
+      "komplexe-aufgabe",
+      "kriterien"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Komplexübung",
+        "language": "de"
+      },
+      {
+        "synonym": "Ganzheitliche Übungsaufgabe",
+        "language": "de"
+      },
+      {
+        "synonym": "Whole-Task Practice",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": true
+      },
+      {
+        "code": "transfer",
+        "label_de": "Transfer",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "good",
+        "suitability_note": "Breakouts mit Fallunterlagen im geteilten Ordner."
+      },
+      {
+        "code": "remote_async",
+        "label_de": "Remote (asynchron)",
+        "suitability": "limited",
+        "suitability_note": "Als Einzelfall möglich, die Rückmeldung muss dann schriftlich kommen."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "good",
+        "suitability_note": null
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "activating",
+        "label_de": "Aktivierend"
+      },
+      {
+        "code": "cooperative",
+        "label_de": "Kooperativ"
+      },
+      {
+        "code": "didactic",
+        "label_de": "Didaktisch-vermittelnd"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Fall bauen (vor der Session)",
+        "duration_minutes": 0,
+        "trainer_action": "VOR der Session: einen realistischen Fall entwerfen, der zwei bis vier behandelte Themen braucht, ohne sie zu nennen. Unterlagen, Kriterien und Lösungsskizze vorbereiten.\n",
+        "participant_action": "— (Vorbereitung, nur Trainer)\n",
+        "note": "Der Fall sollte nicht verraten, welches Thema an welcher Stelle gefragt ist. Genau das Erkennen ist die Übung.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Fall und Kriterien vorstellen",
+        "duration_minutes": 5,
+        "trainer_action": "Fall kurz vorstellen, Unterlagen verteilen, Kriterien für das Ergebnis nennen und sichtbar lassen. Gruppen bilden.\n",
+        "participant_action": "Fall lesen, Kriterien zur Kenntnis nehmen, Rückfragen stellen.\n",
+        "note": "Kriterien vorher nennen, nicht erst in der Auswertung.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Fall bearbeiten",
+        "duration_minutes": 25,
+        "trainer_action": "Herumgehen, mit Fragen helfen („Welches Thema von gestern passt hier?\"), keine Lösungen vorgeben. Nach der Hälfte Zwischenstand abfragen.\n",
+        "participant_action": "Fall analysieren, passende Themen erkennen, Lösung erarbeiten und festhalten.\n",
+        "note": "Wenn eine Gruppe feststeckt, auf das passende Thema hinweisen, nicht auf die Lösung.\n"
+      },
+      {
+        "order_index": 4,
+        "label": "Auswertung an Kriterien",
+        "duration_minutes": 10,
+        "trainer_action": "Ergebnisse an den Kriterien prüfen, Lösungswege vergleichen. Benennen, an welchen Stellen welches Thema gebraucht wurde.\n",
+        "participant_action": "Eigenes Ergebnis an den Kriterien prüfen, Lösungswege vergleichen.\n",
+        "note": "Die Zuordnung „Stelle im Fall – Thema\" macht den Zusammenhang ausdrücklich.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Eigener Praxisfall",
+        "description": "TN bringen einen eigenen Fall mit, der die behandelten Themen berührt, und bearbeiten ihn in der Gruppe.\n",
+        "when_to_use": "Bei erfahrenen TN; stärkt den Transfer. Fälle vorab ankündigen.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Fall in Etappen",
+        "description": "Der Fall wird in zwei bis drei Etappen ausgegeben; jede Etappe bringt neue Informationen.\n",
+        "when_to_use": "Bei längeren Übungsblöcken; macht den Fall realistischer.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Abschlussfall des Trainings",
+        "description": "Ein umfangreicher Fall am Ende, der alle Themen des Trainings verbindet.\n",
+        "when_to_use": "Als Abschluss vor Prüfungen oder vor der Rückkehr an den Arbeitsplatz.\n",
+        "setting_codes": null
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Der Fall verrät, welches Thema gefragt ist – es entsteht eine Reihe von Einzelübungen.\n",
+        "countermeasure": "Den Fall aus der Praxis heraus beschreiben, nicht entlang der Themenliste.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Der Fall ist zu umfangreich und wird nicht fertig.\n",
+        "countermeasure": "Den Fall vorab selbst in der geplanten Zeit durchgehen; notfalls in Etappen teilen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Grundlagen sitzen noch nicht – TN sind überfordert.\n",
+        "countermeasure": "Erst einsetzen, wenn die einzelnen Themen geübt wurden; vorher gestufte Übungen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Auswertung bespricht nur die Lösung, nicht den Zusammenhang der Themen.\n",
+        "countermeasure": "In der Auswertung ausdrücklich zuordnen, welches Thema an welcher Stelle gebraucht wurde.\n",
+        "severity": "rare",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "book",
+        "title": "Ten Steps to Complex Learning",
+        "author": "Jeroen J. G. van Merriënboer, Paul A. Kirschner",
+        "year": 2007,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "deep_dive",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Effects of problem-based learning: A meta-analysis",
+        "author": "Filip Dochy, Mien Segers, Piet Van den Bossche, David Gijbels",
+        "year": 2003,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "A meta-analytic review of behavior modeling training",
+        "author": "Paul J. Taylor, Darlene F. Russ-Eft, Daniel W. L. Chan",
+        "year": 2005,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      }
+    ]
+  },
+  {
     "slug": "ja-nein-vielleicht-positionierung",
     "canonical_name": "Ja – Nein – Vielleicht (Positionierung)",
     "short_description": "Moderator:in stellt zugespitzte Aussagen; Teilnehmende positionieren sich körperlich im Raum zu Ja / Nein / Vielleicht. Niedrigschwelliger Einstieg für Meinungsbildung und Aktivierung.\n",
@@ -17108,6 +18777,245 @@
         "doi": null,
         "isbn": null,
         "relation": "practice_guide",
+        "page_reference": null
+      }
+    ]
+  },
+  {
+    "slug": "kernaussagen-aus-dem-gedaechtnis",
+    "canonical_name": "Kernaussagen aus dem Gedächtnis",
+    "short_description": "Ohne Unterlagen notiert jede Person die drei wichtigsten Aussagen zum gerade behandelten Thema, gleicht sie dann mit dem Nachbarn und erst danach mit der Zusammenfassung ab. Freier Abruf statt Wiederlesen – einer der am besten belegten Wege, Gelerntes zu festigen.\n",
+    "long_description": null,
+    "originator": "Henry L. Roediger, Jeffrey D. Karpicke (Testing Effect)",
+    "origin_year": null,
+    "origin_context": "Beruht auf dem Testing Effect: Abrufen aus dem Gedächtnis festigt Wissen stärker als erneutes Lesen (Roediger & Karpicke 2006). Dunlosky et al. (2013) bewerten Abrufübung („practice testing\") als Lerntechnik mit hoher Nützlichkeit.\n",
+    "duration_min_minutes": 5,
+    "duration_typical_minutes": 8,
+    "duration_max_minutes": 15,
+    "materials": [
+      "Papier oder Karte je Person",
+      "Zusammenfassungsfolie (erst nach dem Abruf zeigen)"
+    ],
+    "tags": [
+      "abruf",
+      "testing-effect",
+      "sicherung",
+      "ergebnissicherung"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Freier Abruf",
+        "language": "de"
+      },
+      {
+        "synonym": "Brain Dump",
+        "language": "en"
+      },
+      {
+        "synonym": "Free Recall",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": true
+      },
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "excellent",
+        "suitability_note": "Notiz auf Papier oder im eigenen Dokument, Abgleich im Chat oder in 2er-Breakouts."
+      },
+      {
+        "code": "remote_async",
+        "label_de": "Remote (asynchron)",
+        "suitability": "good",
+        "suitability_note": "Als Abschlussaufgabe eines Lernmoduls; Zusammenfassung erst nach dem Absenden freischalten."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "excellent",
+        "suitability_note": null
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      },
+      {
+        "code": "plenary",
+        "label_de": "Plenum (50+)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "reflective",
+        "label_de": "Reflexiv"
+      },
+      {
+        "code": "didactic",
+        "label_de": "Didaktisch-vermittelnd"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Unterlagen weg, Auftrag geben",
+        "duration_minutes": 1,
+        "trainer_action": "„Unterlagen und Folien bitte zu. Schreiben Sie aus dem Gedächtnis die drei wichtigsten Aussagen zu [Thema] auf.\" Folie mit der Zusammenfassung ist ausgeblendet.\n",
+        "participant_action": "Unterlagen schließen, Stift bereitlegen.\n",
+        "note": "Die Ansage „aus dem Gedächtnis\" ist der Kern. Ohne sie wird abgeschrieben, und der Effekt ist weg.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Allein abrufen",
+        "duration_minutes": 3,
+        "trainer_action": "Zeit geben, Stille halten. Nicht helfen, keine Stichworte geben.\n",
+        "participant_action": "Drei Kernaussagen in eigenen Worten notieren. Was nicht einfällt, als Frage notieren.\n",
+        "note": "Mühe beim Erinnern ist gewollt – gerade sie festigt das Wissen.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Mit dem Nachbarn abgleichen",
+        "duration_minutes": 2,
+        "trainer_action": "„Vergleichen Sie mit Ihrem Nachbarn: Was haben Sie beide, was fehlt einem von Ihnen?\"\n",
+        "participant_action": "Notizen vergleichen, ergänzen, Widersprüche markieren.\n",
+        "note": "Der Abgleich deckt Lücken auf, ohne dass jemand vor der Gruppe etwas falsch sagen muss.\n"
+      },
+      {
+        "order_index": 4,
+        "label": "Mit der Zusammenfassung abgleichen",
+        "duration_minutes": 2,
+        "trainer_action": "Zusammenfassungsfolie zeigen. Fragen und Widersprüche aus der Gruppe kurz klären.\n",
+        "participant_action": "Eigene Notiz mit der Folie vergleichen, Fehlendes ergänzen, offene Fragen stellen.\n",
+        "note": "Rückmeldung zur richtigen Antwort gehört zur Abrufübung; ohne sie können sich Fehler festsetzen.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Brain Dump (alles notieren)",
+        "description": "Statt drei Aussagen alles notieren, was zum Thema einfällt, zwei bis drei Minuten lang. Danach selbst die drei wichtigsten markieren.\n",
+        "when_to_use": "Nach längeren Einheiten mit vielen Einzelheiten.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Verzögerter Abruf",
+        "description": "Dieselbe Übung nicht direkt nach dem Thema, sondern nach der Pause oder am nächsten Morgen.\n",
+        "when_to_use": "Wenn das Thema länger behalten werden soll; verbindet die Methode mit der verteilten Wiederholung.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Gruppenzusammenfassung",
+        "description": "Nach dem Einzelabruf sammeln Kleingruppen eine gemeinsame Liste auf Flipchart; die Gruppen vergleichen ihre Listen.\n",
+        "when_to_use": "Wenn das Ergebnis für alle sichtbar dokumentiert werden soll.\n",
+        "setting_codes": [
+          "onsite"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Die Zusammenfassungsfolie ist bereits sichtbar – TN schreiben ab.\n",
+        "countermeasure": "Folie erst nach dem Abruf einblenden; Handouts geschlossen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Der Abruf kommt direkt im Anschluss an das Thema – er ist zu leicht und wirkt kaum.\n",
+        "countermeasure": "Etwas Abstand lassen, etwa nach einer kurzen Übung oder Pause.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "TN erleben die Übung als Prüfung und sind gehemmt.\n",
+        "countermeasure": "Ansagen, dass niemand vorlesen muss und nichts bewertet wird.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Der Abgleich fällt aus Zeitmangel weg.\n",
+        "countermeasure": "Lieber zwei statt drei Aussagen abrufen, aber den Abgleich immer einplanen.\n",
+        "severity": "common",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+        "author": "Henry L. Roediger, Jeffrey D. Karpicke",
+        "year": 2006,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "originator",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Improving students' learning with effective learning techniques",
+        "author": "John Dunlosky et al.",
+        "year": 2013,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
         "page_reference": null
       }
     ]
@@ -25853,6 +27761,239 @@
     ]
   },
   {
+    "slug": "partnerarbeit",
+    "canonical_name": "Partnerarbeit",
+    "short_description": "Zu zweit wird eine Aufgabe gelöst und ein gemeinsames Ergebnis festgehalten. Grundform kooperativen Arbeitens mit geringem Organisationsaufwand: Alle sind beteiligt, und im Gespräch entsteht mehr als allein.\n",
+    "long_description": null,
+    "originator": "Unterrichtspraxis; Einordnung nach dem ICAP-Modell (Chi & Wylie)",
+    "origin_year": null,
+    "origin_context": "Grundform der Sozialformen im Unterricht. Nach dem ICAP-Modell (Chi & Wylie 2014) liegt die Lernwirkung am höchsten, wenn beide Partner aufeinander eingehen und gemeinsam etwas Neues erarbeiten. Johnson & Johnson beschreiben die Bedingungen kooperativen Lernens, etwa gegenseitige Abhängigkeit und Einzelverantwortung.\n",
+    "duration_min_minutes": 5,
+    "duration_typical_minutes": 15,
+    "duration_max_minutes": 30,
+    "materials": [
+      "Arbeitsauftrag mit erwartetem Ergebnis",
+      "Vorlage oder Blatt für das gemeinsame Ergebnis"
+    ],
+    "tags": [
+      "partnerarbeit",
+      "kooperatives-lernen",
+      "sozialform",
+      "tandem"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Tandemarbeit",
+        "language": "de"
+      },
+      {
+        "synonym": "Pair Work",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "deepening",
+        "label_de": "Vertiefung",
+        "is_primary": true
+      },
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": false
+      },
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": false
+      },
+      {
+        "code": "transfer",
+        "label_de": "Transfer",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "good",
+        "suitability_note": "2er-Breakouts; gemeinsames Dokument für das Ergebnis."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "good",
+        "suitability_note": "Paare möglichst innerhalb derselben Seite bilden (Präsenz mit Präsenz, Online mit Online)."
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      },
+      {
+        "code": "youth",
+        "label_de": "Jugendgruppen"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "cooperative",
+        "label_de": "Kooperativ"
+      },
+      {
+        "code": "activating",
+        "label_de": "Aktivierend"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Auftrag geben und Paare bilden",
+        "duration_minutes": 2,
+        "trainer_action": "Auftrag, Zeit und gemeinsames Ergebnis nennen („Am Ende haben Sie zu zweit …\"). Paare bilden: Nachbarn oder gezielt gemischt. Bei ungerader Zahl eine Dreiergruppe.\n",
+        "participant_action": "Partner finden, Auftrag lesen.\n",
+        "note": "Das gemeinsame Ergebnis macht aus zwei Einzelarbeiten eine Partnerarbeit.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Gemeinsam bearbeiten",
+        "duration_minutes": 10,
+        "trainer_action": "Herumgehen oder Breakouts besuchen. Bei Paaren, in denen eine Person allein arbeitet, gezielt nachfragen: „Was sagt Ihr Partner dazu?\"\n",
+        "participant_action": "Aufgabe gemeinsam lösen, sich gegenseitig erklären, Ergebnis festhalten.\n",
+        "note": "Tipp: Rollen vergeben (eine Person schreibt, die andere fasst zusammen) und zur Halbzeit tauschen.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Ergebnisse zusammenführen",
+        "duration_minutes": 3,
+        "trainer_action": "Zwei bis drei Paare berichten lassen oder Ergebnisse sammeln. Unterschiede und Gemeinsamkeiten benennen.\n",
+        "participant_action": "Ergebnis vorstellen oder mit anderen vergleichen.\n",
+        "note": "Nicht jedes Paar muss berichten – bei vielen Paaren ermüdet das.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Lerntandem mit Rollen",
+        "description": "Eine Person erklärt, die andere fragt nach und prüft; danach Rollentausch.\n",
+        "when_to_use": "Zum Festigen von Wissen; das Erklären wirkt selbst als Übung.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Partnerkorrektur",
+        "description": "Beide bearbeiten die Aufgabe zunächst allein und prüfen dann gegenseitig ihre Ergebnisse.\n",
+        "when_to_use": "Wenn jede Person ein eigenes Ergebnis braucht, etwa bei Prüfungsvorbereitung.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Wandernde Paare",
+        "description": "Nach der ersten Runde wechseln die Partner und ergänzen das Ergebnis mit einer neuen Person.\n",
+        "when_to_use": "Wenn Ergebnisse angereichert und Perspektiven gemischt werden sollen.\n",
+        "setting_codes": [
+          "onsite"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Eine Person arbeitet, die andere schaut zu.\n",
+        "countermeasure": "Rollen vergeben und tauschen lassen; gemeinsames Ergebnis verlangen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Immer dieselben Paare – Gruppen verfestigen sich.\n",
+        "countermeasure": "Paarbildung von Zeit zu Zeit wechseln (Zufall, Kriterium).\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Online gehen Paare im Breakout verloren oder werden zu früh fertig.\n",
+        "countermeasure": "Auftrag schriftlich in den Breakout geben; Zwischenzeit ansagen.\n",
+        "severity": "common",
+        "setting_codes": [
+          "remote_sync"
+        ]
+      },
+      {
+        "issue": "Die Auswertung lässt alle Paare berichten und zieht sich.\n",
+        "countermeasure": "Auswahl von Paaren oder schriftliche Sammlung.\n",
+        "severity": "rare",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "The ICAP framework: Linking cognitive engagement to active learning outcomes",
+        "author": "Michelene T. H. Chi, Ruth Wylie",
+        "year": 2014,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "book",
+        "title": "Learning Together and Alone: Cooperative, Competitive, and Individualistic Learning",
+        "author": "David W. Johnson, Roger T. Johnson",
+        "year": 1975,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "deep_dive",
+        "page_reference": null
+      }
+    ]
+  },
+  {
     "slug": "partnerinterview",
     "canonical_name": "Partnerinterview",
     "short_description": "Zwei Teilnehmende interviewen sich gegenseitig entlang vorgegebener Leitfragen. Anschließend stellt jede:r die Partner:in im Plenum vor — Perspektivwechsel plus bessere Erinnerung an Namen.\n",
@@ -26117,6 +28258,252 @@
         "doi": null,
         "isbn": null,
         "relation": "practice_guide",
+        "page_reference": null
+      }
+    ]
+  },
+  {
+    "slug": "peer-instruction",
+    "canonical_name": "Peer Instruction",
+    "short_description": "Eine Konzeptfrage mit plausiblen Fehlvorstellungen als Antwortoptionen: Erst antwortet jede Person allein, dann überzeugen sich Sitznachbarn gegenseitig zwei Minuten lang, dann wird erneut abgestimmt und aufgelöst. Macht Fehlvorstellungen sichtbar und korrigiert sie im Gespräch.\n",
+    "long_description": null,
+    "originator": "Eric Mazur",
+    "origin_year": 1991,
+    "origin_context": "Von Eric Mazur an der Harvard University für Physik-Vorlesungen entwickelt, nachdem seine Studierenden Rechenaufgaben lösen konnten, einfache Konzeptfragen aber nicht. Über zehn Jahre Erfahrungsdaten bei Crouch & Mazur (2001); in Freemans Meta-Analyse (2014) eine der typischen Formen aktiven Lernens.\n",
+    "duration_min_minutes": 8,
+    "duration_typical_minutes": 12,
+    "duration_max_minutes": 20,
+    "materials": [
+      "Konzeptfrage mit 3-5 Antwortoptionen (darunter typische Fehlvorstellungen)",
+      "Abstimmungsmittel (Farbkarten, Handzeichen oder Umfragetool)"
+    ],
+    "tags": [
+      "konzeptfrage",
+      "fehlvorstellungen",
+      "abstimmung",
+      "aktives-lernen"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Konzeptfrage mit Peer-Diskussion",
+        "language": "de"
+      },
+      {
+        "synonym": "ConcepTest",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "deepening",
+        "label_de": "Vertiefung",
+        "is_primary": true
+      },
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": "Abstimmung per Handzeichen, Farbkarten oder Umfragetool."
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "good",
+        "suitability_note": "Umfragetool für beide Runden, Diskussion in 2er-Breakouts."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "good",
+        "suitability_note": "Abstimmung für alle über dasselbe Umfragetool, damit Präsenz und Online gleich zählen."
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      },
+      {
+        "code": "plenary",
+        "label_de": "Plenum (50+)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "activating",
+        "label_de": "Aktivierend"
+      },
+      {
+        "code": "cooperative",
+        "label_de": "Kooperativ"
+      },
+      {
+        "code": "diagnostic",
+        "label_de": "Diagnostisch"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Konzeptfrage stellen und allein antworten",
+        "duration_minutes": 3,
+        "trainer_action": "Konzeptfrage zeigen, Antwortoptionen vorlesen. Ansagen: „Eine Minute allein nachdenken, dann stimmen alle ab.\" Abstimmung einsammeln, Ergebnis noch NICHT zeigen und nicht kommentieren.\n",
+        "participant_action": "Allein nachdenken, sich festlegen, abstimmen.\n",
+        "note": "Die Frage prüft Verständnis, nicht Erinnern. Gute Optionen sind Fehlvorstellungen, die TN wirklich haben. Wenn eine Option niemand wählt, ist sie überflüssig.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Entscheiden, ob diskutiert wird",
+        "duration_minutes": 1,
+        "trainer_action": "Verteilung ansehen. Unter ca. 30 % richtig: Frage zu schwer, kurz nachschärfen statt diskutieren. Über ca. 70 % richtig: kurz auflösen und weiter. Dazwischen: Peer-Diskussion.\n",
+        "participant_action": "Warten; je nach Fall direkt zur Auflösung.\n",
+        "note": "Die Schwellen sind Richtwerte nach Crouch & Mazur. Der Mittel- bereich ist der, in dem Diskussion am meisten bringt.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Peer-Diskussion",
+        "duration_minutes": 3,
+        "trainer_action": "„Suchen Sie jemanden mit einer anderen Antwort und überzeugen Sie sich gegenseitig – mit Begründung.\" Herumgehen und zuhören, welche Argumente fallen. Nicht eingreifen.\n",
+        "participant_action": "Eigene Antwort begründen, Gegenargumente prüfen, gegebenenfalls umdenken.\n",
+        "note": "Was beim Zuhören fällt, ist Material für die Auflösung: die überzeugenden falschen Argumente zuerst entkräften.\n"
+      },
+      {
+        "order_index": 4,
+        "label": "Zweite Abstimmung und Auflösung",
+        "duration_minutes": 5,
+        "trainer_action": "Erneut abstimmen lassen, dann beide Verteilungen zeigen. Richtige Antwort begründen, die häufigste falsche Antwort ausdrücklich erklären: warum sie plausibel wirkt und wo sie kippt.\n",
+        "participant_action": "Zweite Antwort abgeben, Auflösung mit eigener Begründung vergleichen, Rückfragen stellen.\n",
+        "note": "Der Vergleich der beiden Runden macht den Lerneffekt für die Gruppe sichtbar und motiviert für die nächste Frage.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Mehrere Fragen als Serie",
+        "description": "Drei bis fünf Konzeptfragen zu einem Thema hintereinander, jeweils mit kurzem Input dazwischen. Gliedert einen längeren Vortrag.\n",
+        "when_to_use": "Bei abstrakten Themen mit vielen typischen Missverständnissen, etwa Recht, Statistik, Technik.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Begründung schriftlich",
+        "description": "Vor der ersten Abstimmung schreibt jede Person einen Satz Begründung. Die Diskussion startet von den Notizen.\n",
+        "when_to_use": "Wenn TN sonst raten oder sich nach der Mehrheit richten.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Remote mit Umfragetool",
+        "description": "Beide Runden im Umfragetool, Diskussion in 2er-Breakouts von zwei bis drei Minuten. Erste Verteilung erst nach der zweiten Runde zeigen.\n",
+        "when_to_use": "Standard für Online-Trainings. Breakout-Wechsel mit einplanen.\n",
+        "setting_codes": [
+          "remote_sync"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Die Frage prüft nur Faktenwissen, die Antwort ist eindeutig – die Diskussion bringt nichts.\n",
+        "countermeasure": "Fragen zu Anwendung oder Begründung stellen („Was passiert, wenn …?\"). Antwortoptionen aus echten Fehlvorstellungen bauen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Das Ergebnis der ersten Runde wird gezeigt – TN schließen sich der Mehrheit an.\n",
+        "countermeasure": "Erste Verteilung erst nach der zweiten Abstimmung zeigen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Partner haben dieselbe Antwort und bestätigen sich nur.\n",
+        "countermeasure": "Ausdrücklich jemanden mit anderer Antwort suchen lassen; Farbkarten helfen dabei.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Auflösung nennt nur die richtige Antwort.\n",
+        "countermeasure": "Die häufigste falsche Antwort mit erklären – sie ist der eigentliche Lernanlass.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Zu viele Fragen hintereinander – die Methode ermüdet.\n",
+        "countermeasure": "Höchstens drei bis fünf Fragen pro Block, dazwischen Input oder Übung.\n",
+        "severity": "rare",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "Peer Instruction: Ten years of experience and results",
+        "author": "Catherine H. Crouch, Eric Mazur",
+        "year": 2001,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "originator",
+        "page_reference": null
+      },
+      {
+        "kind": "book",
+        "title": "Peer Instruction: A User's Manual",
+        "author": "Eric Mazur",
+        "year": 1997,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "practice_guide",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Active learning increases student performance in science, engineering, and mathematics",
+        "author": "Scott Freeman et al.",
+        "year": 2014,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
         "page_reference": null
       }
     ]
@@ -33732,6 +36119,234 @@
     ]
   },
   {
+    "slug": "stationenlernen",
+    "canonical_name": "Stationenlernen",
+    "short_description": "Kleingruppen wechseln zwischen vorbereiteten Stationen, an denen je eine Aufgabe zu einem Teilaspekt des Themas liegt. Lohnt bei mehreren gleichrangigen Teilaspekten; die Vorbereitung ist aufwendig.\n",
+    "long_description": null,
+    "originator": "Unterrichtspraxis (Lernzirkel aus dem Zirkeltraining im Sport)",
+    "origin_year": null,
+    "origin_context": "Übertragen aus dem Zirkeltraining im Sportunterricht; seit den 1990er Jahren eine verbreitete Form offenen Unterrichts. In der Erwachsenenbildung für praxisnahe Themen mit mehreren Teilaspekten genutzt. Belege beziehen sich auf die Aufgaben an den Stationen, nicht auf die Form selbst.\n",
+    "duration_min_minutes": 30,
+    "duration_typical_minutes": 45,
+    "duration_max_minutes": 90,
+    "materials": [
+      "4-6 Stationen mit Aufgabenkarte, Material und Lösungshinweis",
+      "Laufzettel je Gruppe",
+      "Pinnwände oder Flipcharts für die Stationen",
+      "Signal für den Wechsel (Gong, Timer)"
+    ],
+    "tags": [
+      "stationen",
+      "lernzirkel",
+      "gruppenrotation",
+      "offener-unterricht"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Lernzirkel",
+        "language": "de"
+      },
+      {
+        "synonym": "Stationenarbeit",
+        "language": "de"
+      },
+      {
+        "synonym": "Learning Stations",
+        "language": "en"
+      }
+    ],
+    "phases": [
+      {
+        "code": "deepening",
+        "label_de": "Vertiefung",
+        "is_primary": true
+      },
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": false
+      },
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "limited",
+        "suitability_note": "Breakout-Räume als Stationen möglich, der Wechsel kostet aber Zeit."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "limited",
+        "suitability_note": "Online-TN brauchen eigene digitale Stationen."
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "school",
+        "label_de": "Schule"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "youth",
+        "label_de": "Jugendgruppen"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "cooperative",
+        "label_de": "Kooperativ"
+      },
+      {
+        "code": "activating",
+        "label_de": "Aktivierend"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Stationen aufbauen (vor der Session)",
+        "duration_minutes": 0,
+        "trainer_action": "VOR der Session: 4-6 Stationen aufbauen, je eine Aufgabe zu einem Teilaspekt mit Material und Lösungshinweis. Jede Station in gleicher Zeit lösbar. Laufzettel vorbereiten.\n",
+        "participant_action": "— (Vorbereitung, nur Trainer)\n",
+        "note": "Gleich lange Stationen sind die wichtigste Bedingung. Sonst stauen sich Gruppen.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Einführung und Gruppen bilden",
+        "duration_minutes": 5,
+        "trainer_action": "Ziel, Stationen, Reihenfolge und Wechselsignal erklären. Gruppen zu 3-4 Personen bilden und Startstationen verteilen.\n",
+        "participant_action": "Laufzettel nehmen, zur Startstation gehen.\n",
+        "note": "Die Reihenfolge muss nicht festliegen, wenn die Stationen voneinander unabhängig sind.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Arbeit an den Stationen",
+        "duration_minutes": 32,
+        "trainer_action": "Zeit je Station ansagen (z. B. 8 Minuten), Wechsel signalisieren. Herumgehen, bei Fragen helfen, Auffälligkeiten notieren.\n",
+        "participant_action": "Aufgabe an der Station gemeinsam lösen, Ergebnis auf dem Laufzettel festhalten, mit dem Lösungshinweis vergleichen.\n",
+        "note": "Bei vier Stationen à acht Minuten entsteht diese Dauer. Bei mehr Stationen entsprechend länger oder Wahlstationen einführen.\n"
+      },
+      {
+        "order_index": 4,
+        "label": "Auswertung im Plenum",
+        "duration_minutes": 8,
+        "trainer_action": "Je Station die wichtigste Erkenntnis sammeln; schwierige Stellen klären. Zusammenhang der Teilaspekte zeigen.\n",
+        "participant_action": "Erkenntnisse nennen, offene Fragen stellen.\n",
+        "note": "Ohne Zusammenführung bleiben die Teilaspekte unverbunden.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Pflicht- und Wahlstationen",
+        "description": "Einige Stationen sind für alle Pflicht, weitere wählen die Gruppen nach Interesse oder Tempo.\n",
+        "when_to_use": "Bei heterogenen Gruppen oder unterschiedlichem Vorwissen.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Expertenstationen",
+        "description": "An jeder Station bleibt eine Person als Experte und erklärt den nachfolgenden Gruppen; die anderen rotieren.\n",
+        "when_to_use": "Wenn die Aufgaben Vorwissen brauchen, das nicht jeder hat.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Digitale Stationen",
+        "description": "Stationen als Breakout-Räume oder als Bereiche auf einem digitalen Whiteboard; Gruppen wechseln nach Zeit.\n",
+        "when_to_use": "Online, wenn die Gruppe Erfahrung mit Breakouts hat. Mehr Zeit für den Wechsel einplanen.\n",
+        "setting_codes": [
+          "remote_sync"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Stationen sind unterschiedlich lang – Gruppen warten oder werden nicht fertig.\n",
+        "countermeasure": "Jede Station vorab selbst in der geplanten Zeit testen; Zusatzaufgabe für schnelle Gruppen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Vorbereitung wird unterschätzt.\n",
+        "countermeasure": "Nur einsetzen, wenn mehrere gleichrangige Teilaspekte es lohnen; Stationen für spätere Trainings wiederverwenden.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Stationen zeigen nur Informationen – TN lesen, statt zu arbeiten.\n",
+        "countermeasure": "An jeder Station eine Aufgabe mit Ergebnis verlangen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Die Auswertung fällt weg, weil die Zeit verbraucht ist.\n",
+        "countermeasure": "Auswertung fest einplanen; notfalls eine Station streichen.\n",
+        "severity": "common",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "article",
+        "title": "The ICAP framework: Linking cognitive engagement to active learning outcomes",
+        "author": "Michelene T. H. Chi, Ruth Wylie",
+        "year": 2014,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "book",
+        "title": "Lernziel: Stationenarbeit. Eine neue Form des offenen Unterrichts",
+        "author": "Irmgard Hegele (Hrsg.)",
+        "year": 1996,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "practice_guide",
+        "page_reference": null
+      }
+    ]
+  },
+  {
     "slug": "steckbrief",
     "canonical_name": "Steckbrief",
     "short_description": "Teilnehmende füllen einen vorgefertigten oder freien Steckbrief zu sich aus (Name, Rolle, Erwartung, Lieblingsfilm, etc.) und stellen sich damit vor. Struktur senkt Einstiegshürde.\n",
@@ -39279,6 +41894,253 @@
         "kind": "article",
         "title": "The transfer problem: Learning that makes a difference",
         "author": "Robert Brinkerhoff",
+        "year": 2006,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      }
+    ]
+  },
+  {
+    "slug": "verteilte-wiederholung",
+    "canonical_name": "Verteilte Wiederholung",
+    "short_description": "Kurzer Abruf früherer Themen ohne Unterlagen – als Quiz, mit Karten oder einer Mini-Aufgabe –, eingeplant mit Abstand zum Thema: nach der Pause, am Tagesanfang oder am nächsten Termin. Ein Planungsprinzip, das Wiederholungen über das Training verteilt, statt sie zu bündeln.\n",
+    "long_description": null,
+    "originator": "Hermann Ebbinghaus (Spacing-Effekt)",
+    "origin_year": 1885,
+    "origin_context": "Ebbinghaus beschrieb 1885, dass verteiltes Lernen besser behalten wird als massiertes. Cepeda et al. (2006) bestätigen den Spacing-Effekt in einer Synthese von über 300 Experimenten; Roediger & Karpicke (2006) zeigen, dass Abruf die Wirkung zusätzlich verstärkt.\n",
+    "duration_min_minutes": 5,
+    "duration_typical_minutes": 10,
+    "duration_max_minutes": 15,
+    "materials": [
+      "Wiederholungsfragen oder Mini-Aufgaben zu früheren Themen",
+      "Übersicht im Ablaufplan, welches Thema wann wiederholt wird"
+    ],
+    "tags": [
+      "spacing",
+      "wiederholung",
+      "abruf",
+      "planungsprinzip"
+    ],
+    "quality_status": "ai_draft",
+    "stage_2_status": "ai_draft",
+    "stage_2_author": "AI-generated, awaits review",
+    "content_author": "AI-generated, awaits review",
+    "content_license": "proprietary",
+    "synonyms": [
+      {
+        "synonym": "Spaced Repetition",
+        "language": "en"
+      },
+      {
+        "synonym": "Spaced Practice",
+        "language": "en"
+      },
+      {
+        "synonym": "Wiederholung mit Abstand",
+        "language": "de"
+      }
+    ],
+    "phases": [
+      {
+        "code": "practice",
+        "label_de": "Anwendung & Übung",
+        "is_primary": true
+      },
+      {
+        "code": "activation",
+        "label_de": "Aktivierung",
+        "is_primary": false
+      },
+      {
+        "code": "reflection",
+        "label_de": "Reflexion",
+        "is_primary": false
+      }
+    ],
+    "settings": [
+      {
+        "code": "onsite",
+        "label_de": "Präsenz",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_sync",
+        "label_de": "Remote (synchron)",
+        "suitability": "excellent",
+        "suitability_note": null
+      },
+      {
+        "code": "remote_async",
+        "label_de": "Remote (asynchron)",
+        "suitability": "excellent",
+        "suitability_note": "Wiederholungsfragen zeitversetzt per LMS oder Mail zwischen den Terminen."
+      },
+      {
+        "code": "hybrid",
+        "label_de": "Hybrid",
+        "suitability": "excellent",
+        "suitability_note": null
+      }
+    ],
+    "group_sizes": [
+      {
+        "code": "one_on_one",
+        "label_de": "1:1"
+      },
+      {
+        "code": "small",
+        "label_de": "Kleingruppe (3–8)"
+      },
+      {
+        "code": "medium",
+        "label_de": "Mittlere Gruppe (9–20)"
+      },
+      {
+        "code": "large",
+        "label_de": "Große Gruppe (21–50)"
+      },
+      {
+        "code": "plenary",
+        "label_de": "Plenum (50+)"
+      }
+    ],
+    "target_audiences": [
+      {
+        "code": "corporate",
+        "label_de": "Unternehmen / Business"
+      },
+      {
+        "code": "ihk",
+        "label_de": "IHK / Berufliche Bildung"
+      },
+      {
+        "code": "adult_education",
+        "label_de": "Erwachsenenbildung"
+      },
+      {
+        "code": "higher_education",
+        "label_de": "Hochschule"
+      },
+      {
+        "code": "school",
+        "label_de": "Schule"
+      }
+    ],
+    "method_types": [
+      {
+        "code": "didactic",
+        "label_de": "Didaktisch-vermittelnd"
+      },
+      {
+        "code": "diagnostic",
+        "label_de": "Diagnostisch"
+      }
+    ],
+    "steps": [
+      {
+        "order_index": 1,
+        "label": "Wiederholungen im Ablauf einplanen (bei der Planung)",
+        "duration_minutes": 0,
+        "trainer_action": "Bei der Planung festlegen, welches Thema wann wiederholt wird: nicht direkt danach, sondern nach einer Pause, am nächsten Tagesanfang oder im nächsten Termin. Fragen dazu vorbereiten.\n",
+        "participant_action": "— (Planung, nur Trainer)\n",
+        "note": "Der Abstand ist die Wirkbedingung. Eine Wiederholung direkt im Anschluss an das Thema ist keine verteilte Wiederholung.\n"
+      },
+      {
+        "order_index": 2,
+        "label": "Abruf ohne Unterlagen",
+        "duration_minutes": 5,
+        "trainer_action": "Zwei bis vier Fragen oder eine Mini-Aufgabe zu früheren Themen stellen. Unterlagen geschlossen.\n",
+        "participant_action": "Aus dem Gedächtnis antworten oder die Aufgabe lösen.\n",
+        "note": "Kurz halten. Der Abruf soll Mühe machen, aber lösbar sein.\n"
+      },
+      {
+        "order_index": 3,
+        "label": "Auflösen und Lücken klären",
+        "duration_minutes": 5,
+        "trainer_action": "Antworten auflösen, Lücken kurz nacherklären. Notieren, welche Themen später noch einmal drankommen sollten.\n",
+        "participant_action": "Eigene Antworten prüfen, Lücken für sich markieren.\n",
+        "note": "Was jetzt noch fehlt, ist ein Kandidat für die nächste Wiederholung.\n"
+      }
+    ],
+    "variations": [
+      {
+        "name": "Tagesanfang-Wiederholung",
+        "description": "Jeder Trainingstag beginnt mit fünf Minuten Abruf zum Vortag.\n",
+        "when_to_use": "Bei mehrtägigen Trainings; wird schnell zum festen Ritual.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Wiederholung nach der Pause",
+        "description": "Nach jeder längeren Pause zwei Fragen zum Block vor der Pause.\n",
+        "when_to_use": "Bei eintägigen Trainings mit mehreren Blöcken.\n",
+        "setting_codes": null
+      },
+      {
+        "name": "Wiederholung zwischen den Terminen",
+        "description": "Wenige Fragen per LMS oder Mail einige Tage nach dem Termin, mit Auflösung.\n",
+        "when_to_use": "Bei Trainingsreihen; stützt den Transfer nach dem Training.\n",
+        "setting_codes": [
+          "remote_async"
+        ]
+      }
+    ],
+    "pitfalls": [
+      {
+        "issue": "Die Wiederholung folgt direkt auf das Thema – kein Abstand, kaum Wirkung.\n",
+        "countermeasure": "Frühestens nach einer Pause oder einem anderen Thema wiederholen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Wiederholung als erneuter Vortrag statt als Abruf.\n",
+        "countermeasure": "Erst fragen, dann erklären – nie umgekehrt.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Wiederholungen fallen bei Zeitdruck als Erstes weg.\n",
+        "countermeasure": "Im Ablaufplan als festen Baustein führen; fünf Minuten genügen.\n",
+        "severity": "common",
+        "setting_codes": null
+      },
+      {
+        "issue": "Es wird immer dasselbe Thema wiederholt, andere nie.\n",
+        "countermeasure": "Im Ablaufplan festhalten, welche Themen wann wiederholt werden.\n",
+        "severity": "rare",
+        "setting_codes": null
+      }
+    ],
+    "sources": [
+      {
+        "kind": "book",
+        "title": "Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie",
+        "author": "Hermann Ebbinghaus",
+        "year": 1885,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "originator",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Distributed practice in verbal recall tasks: A review and quantitative synthesis",
+        "author": "Nicholas J. Cepeda, Harold Pashler, Edward Vul, John T. Wixted, Doug Rohrer",
+        "year": 2006,
+        "url": null,
+        "doi": null,
+        "isbn": null,
+        "relation": "reference",
+        "page_reference": null
+      },
+      {
+        "kind": "article",
+        "title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+        "author": "Henry L. Roediger, Jeffrey D. Karpicke",
         "year": 2006,
         "url": null,
         "doi": null,

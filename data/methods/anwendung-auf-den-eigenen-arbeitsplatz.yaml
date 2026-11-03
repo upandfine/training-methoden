@@ -1,0 +1,167 @@
+slug: anwendung-auf-den-eigenen-arbeitsplatz
+canonical_name: Anwendung auf den eigenen Arbeitsplatz
+synonyms:
+  - synonym: Eigener Fall
+    language: de
+  - synonym: Praxischeck mit eigenen Unterlagen
+    language: de
+  - synonym: Own-Case Application
+    language: en
+short_description: >
+  Die TN prüfen eigene Unterlagen, Abläufe oder Fälle aus ihrem
+  Arbeitsalltag mit dem Gelernten, meist entlang einer Checkliste, und
+  halten Befunde und Änderungen fest. Selbst eingebrachte Fälle
+  verbessern den Transfer in den Alltag.
+originator: Transferforschung (Taylor et al.; Blume et al.)
+origin_context: >
+  Die Meta-Analyse von Taylor, Russ-Eft & Chan (2005) zu Behavior
+  Modeling Training fand stärkeren Transfer, wenn TN eigene Szenarien
+  einbrachten. Blume et al. (2010) bestätigen den Einfluss von
+  Arbeitsplatzbezug und Umfeld auf den Transfer.
+phases:
+  - code: transfer
+    is_primary: true
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+    note: TN bringen Unterlagen mit oder greifen über eigene Geräte darauf zu.
+  - code: remote_sync
+    suitability: excellent
+    note: Unterlagen liegen am eigenen Arbeitsplatz ohnehin bereit.
+  - code: remote_async
+    suitability: good
+    note: Als Praxisaufgabe zwischen zwei Terminen mit Rückmeldung im nächsten Termin.
+  - code: hybrid
+    suitability: good
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [corporate, ihk, adult_education]
+method_types: [reflective, activating]
+duration_min_minutes: 15
+duration_typical_minutes: 30
+duration_max_minutes: 45
+materials:
+  - Checkliste oder Prüfraster zum Gelernten
+  - Eigene Unterlagen der TN (vorab angekündigt, gegebenenfalls anonymisiert)
+  - Ersatzfall für TN ohne eigene Unterlagen
+tags: [transfer, praxisbezug, checkliste, arbeitsplatz]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "A meta-analytic review of behavior modeling training"
+    author: Paul J. Taylor, Darlene F. Russ-Eft, Daniel W. L. Chan
+    year: 2005
+    relation: reference
+    note: >
+      Journal of Applied Psychology, 90(4), 692-709. Transfer fällt
+      höher aus, wenn TN eigene Szenarien einbringen.
+  - kind: article
+    title: "Transfer of training: A meta-analytic review"
+    author: Brian D. Blume, J. Kevin Ford, Timothy T. Baldwin, Jason L. Huang
+    year: 2010
+    relation: reference
+    note: >
+      Journal of Management, 36(4), 1065-1105. Arbeitsplatzbezug,
+      Motivation und Unterstützung im Umfeld beeinflussen den Transfer.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Unterlagen ankündigen (vor dem Training)
+    duration_minutes: 0
+    trainer_action: >
+      In der Einladung oder am Vortag bitten, ein bis zwei eigene
+      Dokumente oder Abläufe mitzubringen. Hinweis zum Datenschutz:
+      personenbezogene Daten schwärzen oder Muster nehmen.
+    participant_action: >
+      Passende Unterlagen auswählen und vorbereiten.
+    note: >
+      Ohne Ankündigung haben die meisten nichts dabei. Für sie einen
+      realistischen Ersatzfall bereithalten.
+  - order: 2
+    label: Checkliste erklären
+    duration_minutes: 5
+    trainer_action: >
+      Checkliste vorstellen und an einem kurzen Beispiel einmal vormachen:
+      Kriterium lesen, Stelle im Dokument suchen, Befund notieren.
+    participant_action: >
+      Checkliste lesen, Rückfragen stellen.
+    note: >
+      Die Checkliste übersetzt das Gelernte in prüfbare Fragen. Ohne
+      sie bleibt der Transfer vage.
+  - order: 3
+    label: Eigene Unterlagen prüfen
+    duration_minutes: 18
+    trainer_action: >
+      Herumgehen oder in Breakouts wechseln, bei Unsicherheit mit
+      Rückfragen helfen. Interessante Befunde für die Auswertung merken.
+    participant_action: >
+      Unterlagen an der Checkliste prüfen, Befunde und konkrete
+      Änderungen notieren. Bei Partnerarbeit: gegenseitig prüfen.
+    note: >
+      Ergebnis sind konkrete Änderungen („Abschnitt 3 ergänzen"),
+      keine allgemeinen Vorsätze.
+  - order: 4
+    label: Befunde teilen und ersten Schritt festlegen
+    duration_minutes: 7
+    trainer_action: >
+      Zwei bis drei TN berichten lassen: häufigster Befund, überraschendster
+      Befund. Jede Person legt eine Änderung fest, die sie in der nächsten
+      Woche umsetzt.
+    participant_action: >
+      Befund teilen (freiwillig), ersten Schritt mit Termin notieren.
+    note: >
+      Inhalte aus vertraulichen Unterlagen nur so weit teilen, wie die
+      Person möchte.
+
+variations:
+  - name: Tandem-Prüfung
+    description: >
+      Zu zweit prüfen TN gegenseitig die Unterlagen des anderen. Der
+      fremde Blick findet mehr.
+    when_to_use: >
+      Wenn TN aus ähnlichen Bereichen kommen und Vertrauen besteht.
+  - name: Praxisaufgabe zwischen den Terminen
+    description: >
+      Die Prüfung findet am Arbeitsplatz statt; im nächsten Termin werden
+      Befunde besprochen.
+    when_to_use: >
+      Bei mehrteiligen Trainings oder wenn Unterlagen nicht mitgebracht
+      werden dürfen.
+    setting_codes: [remote_async]
+  - name: Ablauf statt Dokument
+    description: >
+      Statt eines Dokuments skizzieren TN einen eigenen Arbeitsablauf und
+      prüfen ihn an der Checkliste.
+    when_to_use: >
+      Bei Themen wie Prozessen, Kommunikation oder Arbeitssicherheit.
+
+pitfalls:
+  - issue: >
+      TN haben keine Unterlagen dabei.
+    countermeasure: >
+      Vorab ankündigen und einen realistischen Ersatzfall bereithalten.
+    severity: common
+  - issue: >
+      Vertrauliche oder personenbezogene Daten werden im Raum geteilt.
+    countermeasure: >
+      Auf Datenschutz hinweisen, Schwärzen oder Muster erlauben, Teilen
+      im Plenum freiwillig halten.
+    severity: common
+  - issue: >
+      Ergebnis sind allgemeine Vorsätze statt konkreter Änderungen.
+    countermeasure: >
+      Ergebnisformat vorgeben: „Stelle – Befund – Änderung".
+    severity: common
+  - issue: >
+      Die Fälle der TN sind so verschieden, dass die Checkliste nicht
+      passt.
+    countermeasure: >
+      Checkliste auf Kernkriterien beschränken und um ein freies Feld
+      ergänzen.
+    severity: rare

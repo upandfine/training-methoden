@@ -1,0 +1,164 @@
+slug: begriffsnetz
+canonical_name: Begriffsnetz
+synonyms:
+  - synonym: Concept Map
+    language: en
+  - synonym: Begriffslandkarte
+    language: de
+  - synonym: Wissensnetz
+    language: de
+short_description: >
+  Die TN ordnen vorgegebene Begriffe auf einer Fläche und verbinden sie
+  mit beschrifteten Pfeilen, die die Beziehung benennen („verursacht",
+  „ist Teil von"). Anders als die Mind-Map verzweigt das Begriffsnetz
+  nicht von einem Zentrum, sondern macht Zusammenhänge ausdrücklich.
+originator: Joseph D. Novak
+origin_year: 1972
+origin_context: >
+  Von Joseph Novak an der Cornell University entwickelt, um
+  Wissensveränderungen von Lernenden sichtbar zu machen (Grundlage:
+  Ausubels Lerntheorie). Die Meta-Analyse von Nesbit & Adesope (2006)
+  zeigt Vorteile gegenüber Lesen, Zuhören und Diskussion.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: reflection
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+    note: Begriffe auf Karten, Pfeile auf Packpapier oder Pinnwand.
+  - code: remote_sync
+    suitability: good
+    note: Digitales Whiteboard mit vorbereiteten Begriffskarten.
+  - code: remote_async
+    suitability: good
+  - code: hybrid
+    suitability: good
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [higher_education, ihk, adult_education, corporate, school]
+method_types: [visualization, reflective, cooperative]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 30
+materials:
+  - 8-15 Begriffskarten je Person oder Gruppe
+  - Packpapier, Pinnwand oder digitales Whiteboard
+  - Stifte für Pfeile und Beschriftung
+tags: [concept-map, visualisierung, zusammenhaenge, struktur]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: book
+    title: "Learning How to Learn"
+    author: Joseph D. Novak, D. Bob Gowin
+    year: 1984
+    relation: originator
+    note: >
+      Grundlegende Darstellung der Concept Map und ihres Einsatzes im
+      Unterricht.
+  - kind: article
+    title: "Learning with concept and knowledge maps: A meta-analysis"
+    author: John C. Nesbit, Olusola O. Adesope
+    year: 2006
+    relation: reference
+    note: >
+      Review of Educational Research, 76(3), 413-448. Selbst erstellte
+      Begriffsnetze fördern das Behalten stärker als Lesen, Zuhören
+      oder Diskussion.
+  - kind: article
+    title: "Retrieval practice produces more learning than elaborative studying with concept mapping"
+    author: Jeffrey D. Karpicke, Janell R. Blunt
+    year: 2011
+    relation: deep_dive
+    note: >
+      Science, 331(6018), 772-775. Begriffsnetz mit offenen Unterlagen
+      unterliegt dem Abruf aus dem Gedächtnis – Grundlage der Variante
+      „aus dem Gedächtnis".
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Prinzip zeigen
+    duration_minutes: 3
+    trainer_action: >
+      An drei Begriffen vormachen: Begriffe legen, Pfeil ziehen, Pfeil
+      mit einem Verb beschriften („Lärm – verursacht – Stress").
+      Unterschied zur Mind-Map nennen.
+    participant_action: >
+      Zusehen, Beispiel nachvollziehen.
+    note: >
+      Die Beschriftung der Pfeile ist der Kern. Unbeschriftete Linien
+      machen aus dem Begriffsnetz eine Mind-Map.
+  - order: 2
+    label: Begriffe ordnen und verbinden
+    duration_minutes: 12
+    trainer_action: >
+      Begriffskarten ausgeben (8-15 Begriffe). Herumgehen und fragen:
+      „Was steht auf diesem Pfeil?" Unbeschriftete Pfeile ansprechen.
+    participant_action: >
+      Begriffe anordnen, mit Pfeilen verbinden, jeden Pfeil beschriften.
+      Fehlende Begriffe dürfen ergänzt werden.
+    note: >
+      Begriffe vorgeben, sonst dauert die Übung zu lange und die
+      Ergebnisse sind nicht vergleichbar.
+  - order: 3
+    label: Netze vergleichen und besprechen
+    duration_minutes: 5
+    trainer_action: >
+      Zwei Netze nebeneinander zeigen. Fragen: „Wo unterscheiden sich
+      die Beziehungen?" Fehlerhafte Beziehungen gemeinsam korrigieren.
+    participant_action: >
+      Eigenes Netz mit anderen vergleichen, Beziehungen begründen.
+    note: >
+      Unterschiedliche Netze sind erwünscht, solange die Beziehungen
+      stimmen.
+
+variations:
+  - name: Begriffsnetz aus dem Gedächtnis
+    description: >
+      Das Netz wird ohne Unterlagen erstellt, danach mit den Unterlagen
+      abgeglichen und ergänzt.
+    when_to_use: >
+      Zur Sicherung am Ende eines Themas; verbindet Struktur mit
+      Abrufübung.
+  - name: Lückennetz
+    description: >
+      Ein teilweise fertiges Netz wird vorgegeben; TN ergänzen fehlende
+      Begriffe oder Pfeilbeschriftungen.
+    when_to_use: >
+      Für Einsteiger oder bei knapper Zeit.
+  - name: Gruppennetz
+    description: >
+      Kleingruppen erstellen ein gemeinsames Netz auf Packpapier und
+      verhandeln dabei die Beziehungen.
+    when_to_use: >
+      Wenn die Diskussion über Zusammenhänge selbst das Ziel ist.
+    setting_codes: [onsite]
+
+pitfalls:
+  - issue: >
+      Pfeile bleiben unbeschriftet – es entsteht eine Mind-Map.
+    countermeasure: >
+      Beschriftung ausdrücklich verlangen und beim Herumgehen nachfragen.
+    severity: common
+  - issue: >
+      Freie Begriffswahl – die Übung dauert zu lange und verzettelt sich.
+    countermeasure: >
+      Begriffe vorgeben, ergänzende Begriffe erlauben.
+    severity: common
+  - issue: >
+      Ungeübte TN sind überfordert und brechen ab.
+    countermeasure: >
+      Mit einem Lückennetz beginnen; Prinzip vorher an einem Alltagsbeispiel
+      zeigen.
+    severity: common
+  - issue: >
+      Das Netz wird mit offenen Unterlagen abgemalt.
+    countermeasure: >
+      Unterlagen schließen lassen und erst danach abgleichen.
+    severity: rare

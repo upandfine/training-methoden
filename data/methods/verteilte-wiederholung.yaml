@@ -1,0 +1,156 @@
+slug: verteilte-wiederholung
+canonical_name: Verteilte Wiederholung
+synonyms:
+  - synonym: Spaced Repetition
+    language: en
+  - synonym: Spaced Practice
+    language: en
+  - synonym: Wiederholung mit Abstand
+    language: de
+short_description: >
+  Kurzer Abruf früherer Themen ohne Unterlagen – als Quiz, mit Karten
+  oder einer Mini-Aufgabe –, eingeplant mit Abstand zum Thema: nach der
+  Pause, am Tagesanfang oder am nächsten Termin. Ein Planungsprinzip,
+  das Wiederholungen über das Training verteilt, statt sie zu bündeln.
+originator: Hermann Ebbinghaus (Spacing-Effekt)
+origin_year: 1885
+origin_context: >
+  Ebbinghaus beschrieb 1885, dass verteiltes Lernen besser behalten wird
+  als massiertes. Cepeda et al. (2006) bestätigen den Spacing-Effekt in
+  einer Synthese von über 300 Experimenten; Roediger & Karpicke (2006)
+  zeigen, dass Abruf die Wirkung zusätzlich verstärkt.
+phases:
+  - code: practice
+    is_primary: true
+  - code: activation
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+  - code: remote_async
+    suitability: excellent
+    note: Wiederholungsfragen zeitversetzt per LMS oder Mail zwischen den Terminen.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education, school]
+method_types: [didactic, diagnostic]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - Wiederholungsfragen oder Mini-Aufgaben zu früheren Themen
+  - Übersicht im Ablaufplan, welches Thema wann wiederholt wird
+tags: [spacing, wiederholung, abruf, planungsprinzip]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: book
+    title: "Über das Gedächtnis. Untersuchungen zur experimentellen Psychologie"
+    author: Hermann Ebbinghaus
+    year: 1885
+    relation: originator
+    note: >
+      Erste experimentelle Beschreibung von Vergessenskurve und
+      Spacing-Effekt.
+  - kind: article
+    title: "Distributed practice in verbal recall tasks: A review and quantitative synthesis"
+    author: Nicholas J. Cepeda, Harold Pashler, Edward Vul, John T. Wixted, Doug Rohrer
+    year: 2006
+    relation: reference
+    note: >
+      Psychological Bulletin, 132(3), 354-380. Verteiltes Lernen schlägt
+      massiertes Lernen; der günstige Abstand wächst mit der gewünschten
+      Behaltensdauer.
+  - kind: article
+    title: "Test-enhanced learning: Taking memory tests improves long-term retention"
+    author: Henry L. Roediger, Jeffrey D. Karpicke
+    year: 2006
+    relation: reference
+    note: >
+      Psychological Science, 17(3), 249-255. Abruf als wirksamste Form
+      der Wiederholung.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Wiederholungen im Ablauf einplanen (bei der Planung)
+    duration_minutes: 0
+    trainer_action: >
+      Bei der Planung festlegen, welches Thema wann wiederholt wird:
+      nicht direkt danach, sondern nach einer Pause, am nächsten
+      Tagesanfang oder im nächsten Termin. Fragen dazu vorbereiten.
+    participant_action: >
+      — (Planung, nur Trainer)
+    note: >
+      Der Abstand ist die Wirkbedingung. Eine Wiederholung direkt im
+      Anschluss an das Thema ist keine verteilte Wiederholung.
+  - order: 2
+    label: Abruf ohne Unterlagen
+    duration_minutes: 5
+    trainer_action: >
+      Zwei bis vier Fragen oder eine Mini-Aufgabe zu früheren Themen
+      stellen. Unterlagen geschlossen.
+    participant_action: >
+      Aus dem Gedächtnis antworten oder die Aufgabe lösen.
+    note: >
+      Kurz halten. Der Abruf soll Mühe machen, aber lösbar sein.
+  - order: 3
+    label: Auflösen und Lücken klären
+    duration_minutes: 5
+    trainer_action: >
+      Antworten auflösen, Lücken kurz nacherklären. Notieren, welche
+      Themen später noch einmal drankommen sollten.
+    participant_action: >
+      Eigene Antworten prüfen, Lücken für sich markieren.
+    note: >
+      Was jetzt noch fehlt, ist ein Kandidat für die nächste
+      Wiederholung.
+
+variations:
+  - name: Tagesanfang-Wiederholung
+    description: >
+      Jeder Trainingstag beginnt mit fünf Minuten Abruf zum Vortag.
+    when_to_use: >
+      Bei mehrtägigen Trainings; wird schnell zum festen Ritual.
+  - name: Wiederholung nach der Pause
+    description: >
+      Nach jeder längeren Pause zwei Fragen zum Block vor der Pause.
+    when_to_use: >
+      Bei eintägigen Trainings mit mehreren Blöcken.
+  - name: Wiederholung zwischen den Terminen
+    description: >
+      Wenige Fragen per LMS oder Mail einige Tage nach dem Termin,
+      mit Auflösung.
+    when_to_use: >
+      Bei Trainingsreihen; stützt den Transfer nach dem Training.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Die Wiederholung folgt direkt auf das Thema – kein Abstand, kaum
+      Wirkung.
+    countermeasure: >
+      Frühestens nach einer Pause oder einem anderen Thema wiederholen.
+    severity: common
+  - issue: >
+      Wiederholung als erneuter Vortrag statt als Abruf.
+    countermeasure: >
+      Erst fragen, dann erklären – nie umgekehrt.
+    severity: common
+  - issue: >
+      Wiederholungen fallen bei Zeitdruck als Erstes weg.
+    countermeasure: >
+      Im Ablaufplan als festen Baustein führen; fünf Minuten genügen.
+    severity: common
+  - issue: >
+      Es wird immer dasselbe Thema wiederholt, andere nie.
+    countermeasure: >
+      Im Ablaufplan festhalten, welche Themen wann wiederholt werden.
+    severity: rare

@@ -1,0 +1,143 @@
+slug: einzelarbeit-mit-arbeitsblatt
+canonical_name: Einzelarbeit mit Arbeitsblatt
+synonyms:
+  - synonym: Stillarbeit
+    language: de
+  - synonym: Arbeitsblatt
+    language: de
+  - synonym: Worksheet Task
+    language: en
+short_description: >
+  Jede Person bearbeitet allein eine klar umrissene Aufgabe mit Vorlage
+  oder Checkliste. Wirksam ist sie, wenn dabei etwas Neues entsteht –
+  formulieren, prüfen, entwerfen –, nicht beim bloßen Abschreiben oder
+  Ausfüllen.
+originator: Unterrichtspraxis; Einordnung nach dem ICAP-Modell (Chi & Wylie)
+origin_context: >
+  Grundform des individuellen Arbeitens. Das ICAP-Modell von Chi & Wylie
+  (2014) erklärt, wann sie wirkt: Erzeugen TN etwas Neues (konstruktiv),
+  lernen sie mehr als beim bloßen Markieren oder Übertragen (aktiv).
+  Die Gestaltung des Arbeitsblatts entscheidet also über die Lernwirkung.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: practice
+  - code: reflection
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Arbeitsblatt als ausfüllbares Dokument; Kamera an, Mikrofon aus.
+  - code: remote_async
+    suitability: excellent
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education, school, youth]
+method_types: [didactic, reflective]
+duration_min_minutes: 5
+duration_typical_minutes: 15
+duration_max_minutes: 30
+materials:
+  - Arbeitsblatt mit Auftrag, Vorlage oder Checkliste (Papier oder digital)
+  - Lösungshinweise oder Musterlösung für die Auswertung
+tags: [einzelarbeit, arbeitsblatt, stillarbeit, icap]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "The ICAP framework: Linking cognitive engagement to active learning outcomes"
+    author: Michelene T. H. Chi, Ruth Wylie
+    year: 2014
+    relation: reference
+    note: >
+      Educational Psychologist, 49(4), 219-243. Lernwirkung steigt von
+      passiv über aktiv und konstruktiv zu interaktiv.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Auftrag geben
+    duration_minutes: 2
+    trainer_action: >
+      Ziel, Auftrag, Zeit und erwartetes Ergebnis nennen („Am Ende haben
+      Sie …"). Auftrag zusätzlich auf dem Blatt oder der Folie sichtbar.
+    participant_action: >
+      Auftrag lesen, Rückfragen stellen.
+    note: >
+      Das erwartete Ergebnis zu nennen ist wichtiger als die Anleitung
+      im Detail.
+  - order: 2
+    label: Allein bearbeiten
+    duration_minutes: 10
+    trainer_action: >
+      Ruhe geben. Nach zwei bis drei Minuten einmal herumgehen und
+      prüfen, ob alle angefangen haben. Einzelne Fragen leise klären.
+    participant_action: >
+      Aufgabe bearbeiten, eigene Formulierungen oder Entwürfe erstellen.
+    note: >
+      Wenn mehrere dieselbe Frage haben, Auftrag einmal für alle
+      nachschärfen.
+  - order: 3
+    label: Ergebnis sichern
+    duration_minutes: 3
+    trainer_action: >
+      Zwei bis drei Ergebnisse vorstellen lassen oder Lösungshinweise
+      zeigen. Häufige Unklarheiten klären.
+    participant_action: >
+      Eigenes Ergebnis vergleichen und ergänzen.
+    note: >
+      Ohne Auswertung entwertet die Einzelarbeit sich selbst – TN merken
+      schnell, ob ihr Ergebnis gebraucht wird.
+
+variations:
+  - name: Einzelarbeit mit Partnerabgleich
+    description: >
+      Nach der Einzelarbeit vergleichen Nachbarn ihre Ergebnisse, bevor
+      im Plenum ausgewertet wird.
+    when_to_use: >
+      Wenn TN Sicherheit brauchen, bevor sie im Plenum sprechen.
+  - name: Strukturierte Vorlage
+    description: >
+      Das Blatt gibt eine Struktur vor (Tabelle, Raster, Satzanfänge),
+      die TN füllen.
+    when_to_use: >
+      Für Einsteiger oder wenn Ergebnisse vergleichbar sein sollen.
+  - name: Offener Entwurf
+    description: >
+      Nur Auftrag und Kriterien, keine Vorlage. TN entwerfen selbst
+      (Text, Plan, Skizze).
+    when_to_use: >
+      Für Fortgeschrittene; fördert eigenständiges Denken.
+
+pitfalls:
+  - issue: >
+      Das Arbeitsblatt verlangt nur Abschreiben oder Lückenfüllen aus der
+      Folie – kaum Lernwirkung.
+    countermeasure: >
+      Aufträge so formulieren, dass etwas Neues entsteht: begründen,
+      vergleichen, auf ein Beispiel anwenden, entwerfen.
+    severity: common
+  - issue: >
+      Schnelle sind fertig, Langsame erst halb.
+    countermeasure: >
+      Zusatzaufgabe für Schnelle bereithalten; Ende über die Zeit
+      festlegen.
+    severity: common
+  - issue: >
+      Die Ergebnisse werden nicht ausgewertet.
+    countermeasure: >
+      Auswertungszeit fest einplanen, mindestens Lösungshinweise zeigen.
+    severity: common
+  - issue: >
+      Zu lange Einzelarbeit online – TN wenden sich anderem zu.
+    countermeasure: >
+      Online höchstens 10-15 Minuten am Stück; Zwischenstand abfragen.
+    severity: common
+    setting_codes: [remote_sync]

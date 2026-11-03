@@ -1,0 +1,166 @@
+slug: stationenlernen
+canonical_name: Stationenlernen
+synonyms:
+  - synonym: Lernzirkel
+    language: de
+  - synonym: Stationenarbeit
+    language: de
+  - synonym: Learning Stations
+    language: en
+short_description: >
+  Kleingruppen wechseln zwischen vorbereiteten Stationen, an denen je
+  eine Aufgabe zu einem Teilaspekt des Themas liegt. Lohnt bei mehreren
+  gleichrangigen Teilaspekten; die Vorbereitung ist aufwendig.
+originator: Unterrichtspraxis (Lernzirkel aus dem Zirkeltraining im Sport)
+origin_context: >
+  Übertragen aus dem Zirkeltraining im Sportunterricht; seit den 1990er
+  Jahren eine verbreitete Form offenen Unterrichts. In der
+  Erwachsenenbildung für praxisnahe Themen mit mehreren Teilaspekten
+  genutzt. Belege beziehen sich auf die Aufgaben an den Stationen,
+  nicht auf die Form selbst.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: practice
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: limited
+    note: Breakout-Räume als Stationen möglich, der Wechsel kostet aber Zeit.
+  - code: hybrid
+    suitability: limited
+    note: Online-TN brauchen eigene digitale Stationen.
+group_sizes: [medium, large]
+target_audiences: [school, ihk, adult_education, corporate, youth]
+method_types: [cooperative, activating]
+duration_min_minutes: 30
+duration_typical_minutes: 45
+duration_max_minutes: 90
+materials:
+  - 4-6 Stationen mit Aufgabenkarte, Material und Lösungshinweis
+  - Laufzettel je Gruppe
+  - Pinnwände oder Flipcharts für die Stationen
+  - Signal für den Wechsel (Gong, Timer)
+tags: [stationen, lernzirkel, gruppenrotation, offener-unterricht]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "The ICAP framework: Linking cognitive engagement to active learning outcomes"
+    author: Michelene T. H. Chi, Ruth Wylie
+    year: 2014
+    relation: reference
+    note: >
+      Educational Psychologist, 49(4), 219-243. Erklärt, warum die
+      Aufgaben an den Stationen etwas erzeugen lassen sollten, statt nur
+      Informationen zu zeigen.
+  - kind: book
+    title: "Lernziel: Stationenarbeit. Eine neue Form des offenen Unterrichts"
+    author: Irmgard Hegele (Hrsg.)
+    year: 1996
+    relation: practice_guide
+    note: >
+      Praxisbuch aus dem Schulbereich zu Aufbau, Pflicht- und
+      Wahlstationen und Laufzetteln.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Stationen aufbauen (vor der Session)
+    duration_minutes: 0
+    trainer_action: >
+      VOR der Session: 4-6 Stationen aufbauen, je eine Aufgabe zu einem
+      Teilaspekt mit Material und Lösungshinweis. Jede Station in
+      gleicher Zeit lösbar. Laufzettel vorbereiten.
+    participant_action: >
+      — (Vorbereitung, nur Trainer)
+    note: >
+      Gleich lange Stationen sind die wichtigste Bedingung. Sonst
+      stauen sich Gruppen.
+  - order: 2
+    label: Einführung und Gruppen bilden
+    duration_minutes: 5
+    trainer_action: >
+      Ziel, Stationen, Reihenfolge und Wechselsignal erklären. Gruppen
+      zu 3-4 Personen bilden und Startstationen verteilen.
+    participant_action: >
+      Laufzettel nehmen, zur Startstation gehen.
+    note: >
+      Die Reihenfolge muss nicht festliegen, wenn die Stationen
+      voneinander unabhängig sind.
+  - order: 3
+    label: Arbeit an den Stationen
+    duration_minutes: 32
+    trainer_action: >
+      Zeit je Station ansagen (z. B. 8 Minuten), Wechsel signalisieren.
+      Herumgehen, bei Fragen helfen, Auffälligkeiten notieren.
+    participant_action: >
+      Aufgabe an der Station gemeinsam lösen, Ergebnis auf dem
+      Laufzettel festhalten, mit dem Lösungshinweis vergleichen.
+    note: >
+      Bei vier Stationen à acht Minuten entsteht diese Dauer. Bei mehr
+      Stationen entsprechend länger oder Wahlstationen einführen.
+  - order: 4
+    label: Auswertung im Plenum
+    duration_minutes: 8
+    trainer_action: >
+      Je Station die wichtigste Erkenntnis sammeln; schwierige Stellen
+      klären. Zusammenhang der Teilaspekte zeigen.
+    participant_action: >
+      Erkenntnisse nennen, offene Fragen stellen.
+    note: >
+      Ohne Zusammenführung bleiben die Teilaspekte unverbunden.
+
+variations:
+  - name: Pflicht- und Wahlstationen
+    description: >
+      Einige Stationen sind für alle Pflicht, weitere wählen die Gruppen
+      nach Interesse oder Tempo.
+    when_to_use: >
+      Bei heterogenen Gruppen oder unterschiedlichem Vorwissen.
+  - name: Expertenstationen
+    description: >
+      An jeder Station bleibt eine Person als Experte und erklärt den
+      nachfolgenden Gruppen; die anderen rotieren.
+    when_to_use: >
+      Wenn die Aufgaben Vorwissen brauchen, das nicht jeder hat.
+  - name: Digitale Stationen
+    description: >
+      Stationen als Breakout-Räume oder als Bereiche auf einem digitalen
+      Whiteboard; Gruppen wechseln nach Zeit.
+    when_to_use: >
+      Online, wenn die Gruppe Erfahrung mit Breakouts hat. Mehr Zeit für
+      den Wechsel einplanen.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Stationen sind unterschiedlich lang – Gruppen warten oder werden
+      nicht fertig.
+    countermeasure: >
+      Jede Station vorab selbst in der geplanten Zeit testen; Zusatzaufgabe
+      für schnelle Gruppen.
+    severity: common
+  - issue: >
+      Die Vorbereitung wird unterschätzt.
+    countermeasure: >
+      Nur einsetzen, wenn mehrere gleichrangige Teilaspekte es lohnen;
+      Stationen für spätere Trainings wiederverwenden.
+    severity: common
+  - issue: >
+      Die Stationen zeigen nur Informationen – TN lesen, statt zu
+      arbeiten.
+    countermeasure: >
+      An jeder Station eine Aufgabe mit Ergebnis verlangen.
+    severity: common
+  - issue: >
+      Die Auswertung fällt weg, weil die Zeit verbraucht ist.
+    countermeasure: >
+      Auswertung fest einplanen; notfalls eine Station streichen.
+    severity: common

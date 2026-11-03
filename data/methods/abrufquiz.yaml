@@ -1,0 +1,156 @@
+slug: abrufquiz
+canonical_name: Abrufquiz
+synonyms:
+  - synonym: Retrieval Quiz
+    language: en
+  - synonym: Low-Stakes-Quiz
+    language: en
+  - synonym: Wissensabfrage ohne Wertung
+    language: de
+short_description: >
+  Wenige kurze Fragen, die aus dem Gedächtnis beantwortet werden, danach
+  Auflösung mit Begründung. Ohne Punkte, Rangliste oder Benotung – der
+  Abruf selbst ist die Lernhandlung. Abrufübung gehört zu den am besten
+  belegten Lerntechniken.
+originator: Henry L. Roediger, Jeffrey D. Karpicke (Testing Effect)
+origin_context: >
+  Beruht auf dem Testing Effect (Roediger & Karpicke 2006). Dunlosky et
+  al. (2013) stufen „practice testing" als Technik mit hoher
+  Nützlichkeit ein; sie wirkt auch ohne Benotung. Unterschied zu
+  Quiz-Wettbewerb und digitalem Quiz: kein Wettbewerb, Schwerpunkt auf
+  Auflösung und Begründung.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: activation
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+    note: Handzeichen, ABCD-Karten oder Notiz auf Papier genügen.
+  - code: remote_sync
+    suitability: excellent
+    note: Umfragetool oder Chat; Antworten erst nach Ablauf zeigen.
+  - code: remote_async
+    suitability: excellent
+    note: Als Selbsttest im LMS mit Begründung zu jeder Antwort.
+  - code: hybrid
+    suitability: good
+    note: Ein Umfragetool für alle, damit beide Seiten gleich teilnehmen.
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, ihk, adult_education, higher_education, school, youth]
+method_types: [diagnostic, activating, didactic]
+duration_min_minutes: 5
+duration_typical_minutes: 10
+duration_max_minutes: 15
+materials:
+  - 3-6 kurze Fragen (Auswahl oder offene Kurzantwort)
+  - Abstimmungsmittel (ABCD-Karten, Handzeichen oder Umfragetool)
+  - Auflösung mit Begründung je Frage
+tags: [abruf, testing-effect, quiz, ohne-wettbewerb]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "Test-enhanced learning: Taking memory tests improves long-term retention"
+    author: Henry L. Roediger, Jeffrey D. Karpicke
+    year: 2006
+    relation: originator
+    note: >
+      Psychological Science, 17(3), 249-255. Abruf steigert das
+      langfristige Behalten stärker als erneutes Lernen.
+  - kind: article
+    title: "Improving students' learning with effective learning techniques"
+    author: John Dunlosky et al.
+    year: 2013
+    relation: reference
+    note: >
+      Psychological Science in the Public Interest, 14(1), 4-58.
+      „Practice testing" mit hoher Nützlichkeit, wirksam über Alter,
+      Inhalte und Formate hinweg.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Rahmen setzen
+    duration_minutes: 1
+    trainer_action: >
+      Ansagen: „Kurzer Selbsttest, keine Wertung, niemand muss seine
+      Antwort zeigen. Unterlagen bitte zu."
+    participant_action: >
+      Unterlagen schließen.
+    note: >
+      Die Ansage „ohne Wertung" nimmt den Prüfungsdruck. Er würde den
+      Lerneffekt nicht verhindern, aber die Beteiligung senken.
+  - order: 2
+    label: Fragen beantworten
+    duration_minutes: 4
+    trainer_action: >
+      Fragen nacheinander oder als Block zeigen. Kurze Bedenkzeit je
+      Frage, Antworten einsammeln oder notieren lassen.
+    participant_action: >
+      Aus dem Gedächtnis antworten, auch wenn unsicher.
+    note: >
+      Fragen zum Verständnis sind besser als reine Begriffsabfrage.
+  - order: 3
+    label: Auflösen mit Begründung
+    duration_minutes: 5
+    trainer_action: >
+      Je Frage die richtige Antwort zeigen und begründen. Bei vielen
+      falschen Antworten kurz nachfragen, was zur Wahl geführt hat, und
+      die Stelle erneut erklären.
+    participant_action: >
+      Eigene Antworten prüfen, Begründung nachvollziehen, Fragen stellen.
+    note: >
+      Ohne Auflösung können sich falsche Antworten festsetzen. Die
+      Begründung ist der Lernanteil der Auflösung.
+
+variations:
+  - name: Einstiegsquiz zum Vortag
+    description: >
+      Drei Fragen zum Stoff des Vortags oder der letzten Sitzung am
+      Tagesanfang.
+    when_to_use: >
+      Bei mehrtägigen Trainings; verbindet das Quiz mit verteilter
+      Wiederholung.
+  - name: Sicherheitsangabe
+    description: >
+      Zu jeder Antwort geben TN an, wie sicher sie sind (sicher /
+      vermutet / geraten). Die Auflösung zeigt, wo Selbstüberschätzung
+      liegt.
+    when_to_use: >
+      Bei Themen mit typischen Irrtümern, etwa Recht oder Sicherheit.
+  - name: Selbsttest im LMS
+    description: >
+      Fragen als Selbsttest mit Begründung zu jeder Antwortoption,
+      beliebig wiederholbar.
+    when_to_use: >
+      Für Selbstlernphasen und Prüfungsvorbereitung.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Das Quiz wird zum Wettbewerb mit Punkten und Rangliste – Schwächere
+      ziehen sich zurück.
+    countermeasure: >
+      Auf Punkte verzichten; Antworten anonym einsammeln.
+    severity: common
+  - issue: >
+      Nur die richtige Antwort wird genannt, ohne Begründung.
+    countermeasure: >
+      Zu jeder Frage einen Satz Begründung vorbereiten.
+    severity: common
+  - issue: >
+      Die Fragen prüfen nur Begriffe, die gerade auf der Folie standen.
+    countermeasure: >
+      Abstand zum Thema lassen und Verständnisfragen stellen.
+    severity: common
+  - issue: >
+      Zu viele Fragen – das Quiz dauert länger als geplant.
+    countermeasure: >
+      Höchstens sechs Fragen; lieber öfter kurz als einmal lang.
+    severity: rare
