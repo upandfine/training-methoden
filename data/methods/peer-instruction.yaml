@@ -1,0 +1,184 @@
+slug: peer-instruction
+canonical_name: Peer Instruction
+synonyms:
+  - synonym: Konzeptfrage mit Peer-Diskussion
+    language: de
+  - synonym: ConcepTest
+    language: en
+short_description: >
+  Eine Konzeptfrage mit plausiblen Fehlvorstellungen als Antwortoptionen:
+  Erst antwortet jede Person allein, dann überzeugen sich Sitznachbarn
+  gegenseitig zwei Minuten lang, dann wird erneut abgestimmt und aufgelöst.
+  Macht Fehlvorstellungen sichtbar und korrigiert sie im Gespräch.
+originator: Eric Mazur
+origin_year: 1991
+origin_context: >
+  Von Eric Mazur an der Harvard University für Physik-Vorlesungen
+  entwickelt, nachdem seine Studierenden Rechenaufgaben lösen konnten,
+  einfache Konzeptfragen aber nicht. Über zehn Jahre Erfahrungsdaten
+  bei Crouch & Mazur (2001); in Freemans Meta-Analyse (2014) eine der
+  typischen Formen aktiven Lernens.
+phases:
+  - code: deepening
+    is_primary: true
+  - code: reflection
+settings:
+  - code: onsite
+    suitability: excellent
+    note: Abstimmung per Handzeichen, Farbkarten oder Umfragetool.
+  - code: remote_sync
+    suitability: good
+    note: Umfragetool für beide Runden, Diskussion in 2er-Breakouts.
+  - code: hybrid
+    suitability: good
+    note: Abstimmung für alle über dasselbe Umfragetool, damit Präsenz und Online gleich zählen.
+group_sizes: [small, medium, large, plenary]
+target_audiences: [higher_education, ihk, adult_education, corporate, school]
+method_types: [activating, cooperative, diagnostic]
+duration_min_minutes: 8
+duration_typical_minutes: 12
+duration_max_minutes: 20
+materials:
+  - Konzeptfrage mit 3-5 Antwortoptionen (darunter typische Fehlvorstellungen)
+  - Abstimmungsmittel (Farbkarten, Handzeichen oder Umfragetool)
+tags: [konzeptfrage, fehlvorstellungen, abstimmung, aktives-lernen]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "Peer Instruction: Ten years of experience and results"
+    author: Catherine H. Crouch, Eric Mazur
+    year: 2001
+    relation: originator
+    note: >
+      American Journal of Physics, 69(9), 970-977. Zehn Jahre Daten zur
+      Methode; deutliche Gewinne beim Konzeptverständnis.
+  - kind: book
+    title: "Peer Instruction: A User's Manual"
+    author: Eric Mazur
+    year: 1997
+    relation: practice_guide
+    note: >
+      Ablauf, Fragenformate und eine Sammlung von Konzeptfragen.
+  - kind: article
+    title: "Active learning increases student performance in science, engineering, and mathematics"
+    author: Scott Freeman et al.
+    year: 2014
+    relation: reference
+    note: >
+      PNAS, 111(23), 8410-8415. Meta-Analyse über 225 Studien: aktives
+      Lernen senkt die Durchfallquote gegenüber reinem Vortrag deutlich.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Konzeptfrage stellen und allein antworten
+    duration_minutes: 3
+    trainer_action: >
+      Konzeptfrage zeigen, Antwortoptionen vorlesen. Ansagen: „Eine
+      Minute allein nachdenken, dann stimmen alle ab." Abstimmung
+      einsammeln, Ergebnis noch NICHT zeigen und nicht kommentieren.
+    participant_action: >
+      Allein nachdenken, sich festlegen, abstimmen.
+    note: >
+      Die Frage prüft Verständnis, nicht Erinnern. Gute Optionen sind
+      Fehlvorstellungen, die TN wirklich haben. Wenn eine Option
+      niemand wählt, ist sie überflüssig.
+  - order: 2
+    label: Entscheiden, ob diskutiert wird
+    duration_minutes: 1
+    trainer_action: >
+      Verteilung ansehen. Unter ca. 30 % richtig: Frage zu schwer,
+      kurz nachschärfen statt diskutieren. Über ca. 70 % richtig:
+      kurz auflösen und weiter. Dazwischen: Peer-Diskussion.
+    participant_action: >
+      Warten; je nach Fall direkt zur Auflösung.
+    note: >
+      Die Schwellen sind Richtwerte nach Crouch & Mazur. Der Mittel-
+      bereich ist der, in dem Diskussion am meisten bringt.
+  - order: 3
+    label: Peer-Diskussion
+    duration_minutes: 3
+    trainer_action: >
+      „Suchen Sie jemanden mit einer anderen Antwort und überzeugen
+      Sie sich gegenseitig – mit Begründung." Herumgehen und zuhören,
+      welche Argumente fallen. Nicht eingreifen.
+    participant_action: >
+      Eigene Antwort begründen, Gegenargumente prüfen, gegebenenfalls
+      umdenken.
+    note: >
+      Was beim Zuhören fällt, ist Material für die Auflösung: die
+      überzeugenden falschen Argumente zuerst entkräften.
+  - order: 4
+    label: Zweite Abstimmung und Auflösung
+    duration_minutes: 5
+    trainer_action: >
+      Erneut abstimmen lassen, dann beide Verteilungen zeigen. Richtige
+      Antwort begründen, die häufigste falsche Antwort ausdrücklich
+      erklären: warum sie plausibel wirkt und wo sie kippt.
+    participant_action: >
+      Zweite Antwort abgeben, Auflösung mit eigener Begründung
+      vergleichen, Rückfragen stellen.
+    note: >
+      Der Vergleich der beiden Runden macht den Lerneffekt für die
+      Gruppe sichtbar und motiviert für die nächste Frage.
+
+variations:
+  - name: Mehrere Fragen als Serie
+    description: >
+      Drei bis fünf Konzeptfragen zu einem Thema hintereinander, jeweils
+      mit kurzem Input dazwischen. Gliedert einen längeren Vortrag.
+    when_to_use: >
+      Bei abstrakten Themen mit vielen typischen Missverständnissen,
+      etwa Recht, Statistik, Technik.
+  - name: Begründung schriftlich
+    description: >
+      Vor der ersten Abstimmung schreibt jede Person einen Satz Begründung.
+      Die Diskussion startet von den Notizen.
+    when_to_use: >
+      Wenn TN sonst raten oder sich nach der Mehrheit richten.
+  - name: Remote mit Umfragetool
+    description: >
+      Beide Runden im Umfragetool, Diskussion in 2er-Breakouts von
+      zwei bis drei Minuten. Erste Verteilung erst nach der zweiten
+      Runde zeigen.
+    when_to_use: >
+      Standard für Online-Trainings. Breakout-Wechsel mit einplanen.
+    setting_codes: [remote_sync]
+
+pitfalls:
+  - issue: >
+      Die Frage prüft nur Faktenwissen, die Antwort ist eindeutig –
+      die Diskussion bringt nichts.
+    countermeasure: >
+      Fragen zu Anwendung oder Begründung stellen („Was passiert,
+      wenn …?"). Antwortoptionen aus echten Fehlvorstellungen bauen.
+    severity: common
+  - issue: >
+      Das Ergebnis der ersten Runde wird gezeigt – TN schließen sich
+      der Mehrheit an.
+    countermeasure: >
+      Erste Verteilung erst nach der zweiten Abstimmung zeigen.
+    severity: common
+  - issue: >
+      Partner haben dieselbe Antwort und bestätigen sich nur.
+    countermeasure: >
+      Ausdrücklich jemanden mit anderer Antwort suchen lassen; Farbkarten
+      helfen dabei.
+    severity: common
+  - issue: >
+      Die Auflösung nennt nur die richtige Antwort.
+    countermeasure: >
+      Die häufigste falsche Antwort mit erklären – sie ist der eigentliche
+      Lernanlass.
+    severity: common
+  - issue: >
+      Zu viele Fragen hintereinander – die Methode ermüdet.
+    countermeasure: >
+      Höchstens drei bis fünf Fragen pro Block, dazwischen Input oder
+      Übung.
+    severity: rare

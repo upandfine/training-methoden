@@ -1,0 +1,164 @@
+slug: kernaussagen-aus-dem-gedaechtnis
+canonical_name: Kernaussagen aus dem Gedächtnis
+synonyms:
+  - synonym: Freier Abruf
+    language: de
+  - synonym: Brain Dump
+    language: en
+  - synonym: Free Recall
+    language: en
+short_description: >
+  Ohne Unterlagen notiert jede Person die drei wichtigsten Aussagen zum
+  gerade behandelten Thema, gleicht sie dann mit dem Nachbarn und erst
+  danach mit der Zusammenfassung ab. Freier Abruf statt Wiederlesen –
+  einer der am besten belegten Wege, Gelerntes zu festigen.
+originator: Henry L. Roediger, Jeffrey D. Karpicke (Testing Effect)
+origin_context: >
+  Beruht auf dem Testing Effect: Abrufen aus dem Gedächtnis festigt
+  Wissen stärker als erneutes Lesen (Roediger & Karpicke 2006).
+  Dunlosky et al. (2013) bewerten Abrufübung („practice testing") als
+  Lerntechnik mit hoher Nützlichkeit.
+phases:
+  - code: reflection
+    is_primary: true
+  - code: practice
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: excellent
+    note: Notiz auf Papier oder im eigenen Dokument, Abgleich im Chat oder in 2er-Breakouts.
+  - code: remote_async
+    suitability: good
+    note: Als Abschlussaufgabe eines Lernmoduls; Zusammenfassung erst nach dem Absenden freischalten.
+  - code: hybrid
+    suitability: excellent
+group_sizes: [one_on_one, small, medium, large, plenary]
+target_audiences: [corporate, adult_education, ihk, higher_education, school]
+method_types: [reflective, didactic]
+duration_min_minutes: 5
+duration_typical_minutes: 8
+duration_max_minutes: 15
+materials:
+  - Papier oder Karte je Person
+  - Zusammenfassungsfolie (erst nach dem Abruf zeigen)
+tags: [abruf, testing-effect, sicherung, ergebnissicherung]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "Test-enhanced learning: Taking memory tests improves long-term retention"
+    author: Henry L. Roediger, Jeffrey D. Karpicke
+    year: 2006
+    relation: originator
+    note: >
+      Psychological Science, 17(3), 249-255. Abruf nach dem Lernen
+      steigert das Behalten nach einer Woche deutlich gegenüber
+      erneutem Lesen.
+  - kind: article
+    title: "Improving students' learning with effective learning techniques"
+    author: John Dunlosky et al.
+    year: 2013
+    relation: reference
+    note: >
+      Psychological Science in the Public Interest, 14(1), 4-58.
+      Übersicht über zehn Lerntechniken; Abrufübung mit hoher
+      Nützlichkeit eingestuft.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Unterlagen weg, Auftrag geben
+    duration_minutes: 1
+    trainer_action: >
+      „Unterlagen und Folien bitte zu. Schreiben Sie aus dem Gedächtnis
+      die drei wichtigsten Aussagen zu [Thema] auf." Folie mit der
+      Zusammenfassung ist ausgeblendet.
+    participant_action: >
+      Unterlagen schließen, Stift bereitlegen.
+    note: >
+      Die Ansage „aus dem Gedächtnis" ist der Kern. Ohne sie wird
+      abgeschrieben, und der Effekt ist weg.
+  - order: 2
+    label: Allein abrufen
+    duration_minutes: 3
+    trainer_action: >
+      Zeit geben, Stille halten. Nicht helfen, keine Stichworte geben.
+    participant_action: >
+      Drei Kernaussagen in eigenen Worten notieren. Was nicht einfällt,
+      als Frage notieren.
+    note: >
+      Mühe beim Erinnern ist gewollt – gerade sie festigt das Wissen.
+  - order: 3
+    label: Mit dem Nachbarn abgleichen
+    duration_minutes: 2
+    trainer_action: >
+      „Vergleichen Sie mit Ihrem Nachbarn: Was haben Sie beide, was
+      fehlt einem von Ihnen?"
+    participant_action: >
+      Notizen vergleichen, ergänzen, Widersprüche markieren.
+    note: >
+      Der Abgleich deckt Lücken auf, ohne dass jemand vor der Gruppe
+      etwas falsch sagen muss.
+  - order: 4
+    label: Mit der Zusammenfassung abgleichen
+    duration_minutes: 2
+    trainer_action: >
+      Zusammenfassungsfolie zeigen. Fragen und Widersprüche aus der
+      Gruppe kurz klären.
+    participant_action: >
+      Eigene Notiz mit der Folie vergleichen, Fehlendes ergänzen,
+      offene Fragen stellen.
+    note: >
+      Rückmeldung zur richtigen Antwort gehört zur Abrufübung; ohne sie
+      können sich Fehler festsetzen.
+
+variations:
+  - name: Brain Dump (alles notieren)
+    description: >
+      Statt drei Aussagen alles notieren, was zum Thema einfällt, zwei
+      bis drei Minuten lang. Danach selbst die drei wichtigsten markieren.
+    when_to_use: >
+      Nach längeren Einheiten mit vielen Einzelheiten.
+  - name: Verzögerter Abruf
+    description: >
+      Dieselbe Übung nicht direkt nach dem Thema, sondern nach der Pause
+      oder am nächsten Morgen.
+    when_to_use: >
+      Wenn das Thema länger behalten werden soll; verbindet die Methode
+      mit der verteilten Wiederholung.
+  - name: Gruppenzusammenfassung
+    description: >
+      Nach dem Einzelabruf sammeln Kleingruppen eine gemeinsame Liste
+      auf Flipchart; die Gruppen vergleichen ihre Listen.
+    when_to_use: >
+      Wenn das Ergebnis für alle sichtbar dokumentiert werden soll.
+    setting_codes: [onsite]
+
+pitfalls:
+  - issue: >
+      Die Zusammenfassungsfolie ist bereits sichtbar – TN schreiben ab.
+    countermeasure: >
+      Folie erst nach dem Abruf einblenden; Handouts geschlossen.
+    severity: common
+  - issue: >
+      Der Abruf kommt direkt im Anschluss an das Thema – er ist zu
+      leicht und wirkt kaum.
+    countermeasure: >
+      Etwas Abstand lassen, etwa nach einer kurzen Übung oder Pause.
+    severity: common
+  - issue: >
+      TN erleben die Übung als Prüfung und sind gehemmt.
+    countermeasure: >
+      Ansagen, dass niemand vorlesen muss und nichts bewertet wird.
+    severity: common
+  - issue: >
+      Der Abgleich fällt aus Zeitmangel weg.
+    countermeasure: >
+      Lieber zwei statt drei Aussagen abrufen, aber den Abgleich immer
+      einplanen.
+    severity: common

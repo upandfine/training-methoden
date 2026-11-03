@@ -1,0 +1,175 @@
+slug: gestufte-uebungsserie
+canonical_name: Gestufte Übungsserie
+synonyms:
+  - synonym: Übungsreihe von leicht zu schwer
+    language: de
+  - synonym: Graduated Practice
+    language: en
+short_description: >
+  Mehrere Aufgaben zum gerade Eingeführten, von leicht zu schwer
+  geordnet, mit Lösungen zur Selbstkontrolle. Die Trainingsleitung geht
+  herum und gibt Rückmeldung; die schweren Aufgaben sind die
+  Differenzierung für Schnelle.
+originator: Unterrichtspraxis; Wirksamkeit über Übung mit Rückmeldung belegt
+origin_context: >
+  Übliche Form des angeleiteten Übens. Wirksam wird sie durch
+  Rückmeldung zu jeder Aufgabe (Hattie & Timperley 2007) und durch
+  Abrufübung (Dunlosky et al. 2013). Unterschied zu Worked Example mit
+  Fading: Dort werden Lösungsschritte ausgeblendet, hier steigt die
+  Schwierigkeit der Aufgaben.
+phases:
+  - code: practice
+    is_primary: true
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Trainer wechselt zwischen Breakouts oder bietet einen offenen Hilferaum an.
+  - code: remote_async
+    suitability: good
+    note: Als Übungsset im LMS mit automatischer Rückmeldung.
+  - code: hybrid
+    suitability: good
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [ihk, adult_education, corporate, school, higher_education]
+method_types: [didactic, activating]
+duration_min_minutes: 10
+duration_typical_minutes: 20
+duration_max_minutes: 45
+materials:
+  - Aufgabenblatt mit 4-8 Aufgaben in drei Stufen
+  - Lösungsblatt oder Lösungsfolie zur Selbstkontrolle
+tags: [ueben, differenzierung, selbstkontrolle, rueckmeldung]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: article
+    title: "The power of feedback"
+    author: John Hattie, Helen Timperley
+    year: 2007
+    relation: reference
+    note: >
+      Review of Educational Research, 77(1), 81-112. Rückmeldung zu
+      Aufgabe und Vorgehen gehört zu den wirksamsten Einflüssen auf
+      Lernen.
+  - kind: article
+    title: "Improving students' learning with effective learning techniques"
+    author: John Dunlosky et al.
+    year: 2013
+    relation: reference
+    note: >
+      Psychological Science in the Public Interest, 14(1), 4-58.
+      Abrufübung und verteiltes Üben mit hoher Nützlichkeit;
+      Mischen von Aufgabentypen mit mittlerer.
+  - kind: article
+    title: "The shuffling of mathematics problems improves learning"
+    author: Doug Rohrer, Kelli Taylor
+    year: 2007
+    relation: deep_dive
+    note: >
+      Instructional Science, 35, 481-498. Gemischte Aufgabentypen
+      fördern das Behalten stärker als Blöcke gleicher Aufgaben
+      (Grundlage der Variante „gemischte Serie").
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Aufgabenserie vorbereiten (außerhalb der Session)
+    duration_minutes: 0
+    trainer_action: >
+      VOR dem Training: drei Stufen bauen. Stufe 1 wiederholt genau das
+      Vorgeführte, Stufe 2 variiert die Bedingungen, Stufe 3 verlangt
+      eine Übertragung oder kombiniert mehrere Schritte. Lösungen
+      ausarbeiten.
+    participant_action: >
+      — (Vorbereitung, nur Trainer)
+    note: >
+      Stufe 1 müssen alle schaffen. Stufe 3 muss nicht jeder erreichen –
+      sie ist für die Schnellen da.
+  - order: 2
+    label: Auftrag und Stufen erklären
+    duration_minutes: 2
+    trainer_action: >
+      Ziel und Stufen kurz erklären: „Beginnen Sie mit Stufe 1. Nach
+      jeder Aufgabe mit der Lösung vergleichen, erst dann weiter."
+      Zeitrahmen nennen.
+    participant_action: >
+      Auftrag lesen, Rückfragen stellen.
+    note: >
+      Wer versteht, dass Stufe 3 freiwillig ist, arbeitet entspannter.
+  - order: 3
+    label: Üben mit Selbstkontrolle
+    duration_minutes: 14
+    trainer_action: >
+      Herumgehen, bei Fehlern nach dem Vorgehen fragen statt die Lösung
+      zu nennen („Wie sind Sie vorgegangen?"). Häufige Fehler notieren.
+    participant_action: >
+      Aufgaben lösen, nach jeder Aufgabe vergleichen, Fehler selbst
+      nachvollziehen.
+    note: >
+      Rückmeldung zu jeder Aufgabe ist die Wirkbedingung. Eine Serie
+      ohne Lösungen ist nur Beschäftigung.
+  - order: 4
+    label: Häufige Fehler im Plenum klären
+    duration_minutes: 4
+    trainer_action: >
+      Zwei bis drei Fehler, die mehrfach vorkamen, im Plenum zeigen und
+      erklären. Kein Durchgehen aller Aufgaben.
+    participant_action: >
+      Eigene Fehler einordnen, Fragen stellen.
+    note: >
+      Fehler anonym zeigen, nicht die Person nennen.
+
+variations:
+  - name: Gemischte Serie
+    description: >
+      In Stufe 2 und 3 werden Aufgaben zu verschiedenen, früher
+      behandelten Themen gemischt. TN müssen erst erkennen, welches
+      Vorgehen passt.
+    when_to_use: >
+      Wenn mehrere Verfahren eingeführt sind und verwechselt werden
+      können.
+  - name: Partner-Serie
+    description: >
+      Zu zweit: eine Person löst, die andere prüft mit der Lösung und
+      fragt nach. Nach jeder Aufgabe Rollen tauschen.
+    when_to_use: >
+      Wenn das Erklären des Vorgehens zusätzlich festigen soll.
+  - name: Digitale Übungsserie
+    description: >
+      Aufgaben im LMS oder Formular mit automatischer Rückmeldung nach
+      jeder Antwort.
+    when_to_use: >
+      Für Selbstlernphasen zwischen den Terminen.
+    setting_codes: [remote_async]
+
+pitfalls:
+  - issue: >
+      Keine Lösungen oder Lösungen erst am Ende – Fehler werden über
+      mehrere Aufgaben eingeübt.
+    countermeasure: >
+      Lösung nach jeder Aufgabe zugänglich machen (Lösungsblatt
+      umgedreht, Lösungsfolie, Selbsttest).
+    severity: common
+  - issue: >
+      Stufe 1 ist schon zu schwer – Langsame bleiben stecken.
+    countermeasure: >
+      Stufe 1 eng am vorgeführten Beispiel halten und vorher selbst
+      durchrechnen.
+    severity: common
+  - issue: >
+      Alle sollen alle Aufgaben schaffen – die Zeit läuft aus dem Ruder.
+    countermeasure: >
+      Ende über die Zeit festlegen, nicht über die Aufgabenzahl. Stufe 3
+      ist ausdrücklich freiwillig.
+    severity: common
+  - issue: >
+      Die Plenumsbesprechung geht jede Aufgabe einzeln durch.
+    countermeasure: >
+      Nur die mehrfach aufgetretenen Fehler besprechen.
+    severity: common

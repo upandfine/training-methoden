@@ -1,0 +1,177 @@
+slug: integrierte-uebung-am-praxisfall
+canonical_name: Integrierte Übung am Praxisfall
+synonyms:
+  - synonym: Komplexübung
+    language: de
+  - synonym: Ganzheitliche Übungsaufgabe
+    language: de
+  - synonym: Whole-Task Practice
+    language: en
+short_description: >
+  Ein realistischer Fall verbindet mehrere zuvor behandelte Themen in
+  einer Übung; das Ergebnis wird an vorher genannten Kriterien geprüft.
+  Anders als Fallstudie oder Szenario-Übung liegt der Zweck im
+  Zusammenführen: TN müssen erkennen, welches Gelernte wann gebraucht
+  wird.
+originator: Instruktionsdesign (van Merriënboer, 4C/ID); Problemorientiertes Lernen
+origin_context: >
+  Das 4C/ID-Modell von van Merriënboer setzt auf ganzheitliche
+  Lernaufgaben, die Teilfertigkeiten im Zusammenhang üben. Dochy et al.
+  (2003) zeigen für problembasiertes Lernen Vorteile bei der Anwendung
+  von Wissen; Taylor et al. (2005) einen stärkeren Transfer, wenn
+  Fälle aus der Praxis der TN stammen.
+phases:
+  - code: practice
+    is_primary: true
+  - code: transfer
+settings:
+  - code: onsite
+    suitability: excellent
+  - code: remote_sync
+    suitability: good
+    note: Breakouts mit Fallunterlagen im geteilten Ordner.
+  - code: remote_async
+    suitability: limited
+    note: Als Einzelfall möglich, die Rückmeldung muss dann schriftlich kommen.
+  - code: hybrid
+    suitability: good
+group_sizes: [one_on_one, small, medium, large]
+target_audiences: [corporate, ihk, adult_education, higher_education]
+method_types: [activating, cooperative, didactic]
+duration_min_minutes: 20
+duration_typical_minutes: 40
+duration_max_minutes: 90
+materials:
+  - Fallbeschreibung mit allen nötigen Unterlagen
+  - Kriterienliste für das Ergebnis
+  - Musterlösung oder Lösungsskizze für die Auswertung
+tags: [praxisfall, integration, komplexe-aufgabe, kriterien]
+quality_status: ai_draft
+content_author: AI-generated, awaits review
+
+sources:
+  - kind: book
+    title: "Ten Steps to Complex Learning"
+    author: Jeroen J. G. van Merriënboer, Paul A. Kirschner
+    year: 2007
+    relation: deep_dive
+    note: >
+      Darstellung des 4C/ID-Modells: ganzheitliche Lernaufgaben statt
+      isolierter Teilübungen.
+  - kind: article
+    title: "Effects of problem-based learning: A meta-analysis"
+    author: Filip Dochy, Mien Segers, Piet Van den Bossche, David Gijbels
+    year: 2003
+    relation: reference
+    note: >
+      Learning and Instruction, 13(5), 533-568. Problembasiertes Lernen
+      fördert vor allem die Anwendung von Wissen.
+  - kind: article
+    title: "A meta-analytic review of behavior modeling training"
+    author: Paul J. Taylor, Darlene F. Russ-Eft, Daniel W. L. Chan
+    year: 2005
+    relation: reference
+    note: >
+      Journal of Applied Psychology, 90(4), 692-709. Eigene Szenarien
+      der TN verbessern den Transfer.
+
+# === Stufe 2: Vertikale Tiefe ===
+stage_2_status: ai_draft
+stage_2_author: AI-generated, awaits review
+
+steps:
+  - order: 1
+    label: Fall bauen (vor der Session)
+    duration_minutes: 0
+    trainer_action: >
+      VOR der Session: einen realistischen Fall entwerfen, der zwei bis
+      vier behandelte Themen braucht, ohne sie zu nennen. Unterlagen,
+      Kriterien und Lösungsskizze vorbereiten.
+    participant_action: >
+      — (Vorbereitung, nur Trainer)
+    note: >
+      Der Fall sollte nicht verraten, welches Thema an welcher Stelle
+      gefragt ist. Genau das Erkennen ist die Übung.
+  - order: 2
+    label: Fall und Kriterien vorstellen
+    duration_minutes: 5
+    trainer_action: >
+      Fall kurz vorstellen, Unterlagen verteilen, Kriterien für das
+      Ergebnis nennen und sichtbar lassen. Gruppen bilden.
+    participant_action: >
+      Fall lesen, Kriterien zur Kenntnis nehmen, Rückfragen stellen.
+    note: >
+      Kriterien vorher nennen, nicht erst in der Auswertung.
+  - order: 3
+    label: Fall bearbeiten
+    duration_minutes: 25
+    trainer_action: >
+      Herumgehen, mit Fragen helfen („Welches Thema von gestern passt
+      hier?"), keine Lösungen vorgeben. Nach der Hälfte Zwischenstand
+      abfragen.
+    participant_action: >
+      Fall analysieren, passende Themen erkennen, Lösung erarbeiten und
+      festhalten.
+    note: >
+      Wenn eine Gruppe feststeckt, auf das passende Thema hinweisen,
+      nicht auf die Lösung.
+  - order: 4
+    label: Auswertung an Kriterien
+    duration_minutes: 10
+    trainer_action: >
+      Ergebnisse an den Kriterien prüfen, Lösungswege vergleichen.
+      Benennen, an welchen Stellen welches Thema gebraucht wurde.
+    participant_action: >
+      Eigenes Ergebnis an den Kriterien prüfen, Lösungswege vergleichen.
+    note: >
+      Die Zuordnung „Stelle im Fall – Thema" macht den Zusammenhang
+      ausdrücklich.
+
+variations:
+  - name: Eigener Praxisfall
+    description: >
+      TN bringen einen eigenen Fall mit, der die behandelten Themen
+      berührt, und bearbeiten ihn in der Gruppe.
+    when_to_use: >
+      Bei erfahrenen TN; stärkt den Transfer. Fälle vorab ankündigen.
+  - name: Fall in Etappen
+    description: >
+      Der Fall wird in zwei bis drei Etappen ausgegeben; jede Etappe
+      bringt neue Informationen.
+    when_to_use: >
+      Bei längeren Übungsblöcken; macht den Fall realistischer.
+  - name: Abschlussfall des Trainings
+    description: >
+      Ein umfangreicher Fall am Ende, der alle Themen des Trainings
+      verbindet.
+    when_to_use: >
+      Als Abschluss vor Prüfungen oder vor der Rückkehr an den
+      Arbeitsplatz.
+
+pitfalls:
+  - issue: >
+      Der Fall verrät, welches Thema gefragt ist – es entsteht eine
+      Reihe von Einzelübungen.
+    countermeasure: >
+      Den Fall aus der Praxis heraus beschreiben, nicht entlang der
+      Themenliste.
+    severity: common
+  - issue: >
+      Der Fall ist zu umfangreich und wird nicht fertig.
+    countermeasure: >
+      Den Fall vorab selbst in der geplanten Zeit durchgehen; notfalls
+      in Etappen teilen.
+    severity: common
+  - issue: >
+      Grundlagen sitzen noch nicht – TN sind überfordert.
+    countermeasure: >
+      Erst einsetzen, wenn die einzelnen Themen geübt wurden; vorher
+      gestufte Übungen.
+    severity: common
+  - issue: >
+      Die Auswertung bespricht nur die Lösung, nicht den Zusammenhang
+      der Themen.
+    countermeasure: >
+      In der Auswertung ausdrücklich zuordnen, welches Thema an welcher
+      Stelle gebraucht wurde.
+    severity: rare
